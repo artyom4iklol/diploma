@@ -1,0 +1,15 @@
+{
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2021&reporterCode=392&cmdCode=854233,854239,854290&flowCode=X&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500&includeDesc=true",
+  "retrieved_at_utc": "2026-10-15T21:01:53.951495+00:00",
+  "sha256": "15133d43d3f592cc4f00fc08fdf8a304f02130723136fbe885a6b06a89e79dfb",
+  "bytes": 145584,
+  "records": 149,
+  "reporter": "392",
+  "year": 2021,
+  "requested_codes": [
+    "854233",
+    "854239",
+    "854290"
+  ],
+  "raw_file": "392_2021_854233-854239-854290.json"
+}

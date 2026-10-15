@@ -1,0 +1,15 @@
+{
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2019&reporterCode=410&cmdCode=8542,854231,854232&flowCode=X&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500&includeDesc=true",
+  "retrieved_at_utc": "2026-10-15T21:02:44.045860+00:00",
+  "sha256": "a34e0ecc56e0dac4f74bfb98909ce27b3fe162586197fd903747674ccb022f4d",
+  "bytes": 225915,
+  "records": 222,
+  "reporter": "410",
+  "year": 2019,
+  "requested_codes": [
+    "8542",
+    "854231",
+    "854232"
+  ],
+  "raw_file": "410_2019_8542-854231-854232.json"
+}

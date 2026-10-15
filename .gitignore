@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+research/02_chip_trade/data/raw/*.json
+!research/02_chip_trade/data/raw/*.meta.json

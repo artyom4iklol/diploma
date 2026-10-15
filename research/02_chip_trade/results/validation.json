@@ -1,0 +1,814 @@
+{
+  "source_files": 32,
+  "source_records": 5525,
+  "hs6_partner_observations": 4118,
+  "country_years": 16,
+  "product_years": 80,
+  "checks": 128,
+  "largest_reconciliation_relative_error": 1.6734448324915623e-11,
+  "largest_source_response": 238,
+  "preview_cap": 500,
+  "classification_by_year": [
+    {
+      "refYear": 2017,
+      "classificationCode": "H5"
+    },
+    {
+      "refYear": 2018,
+      "classificationCode": "H5"
+    },
+    {
+      "refYear": 2019,
+      "classificationCode": "H5"
+    },
+    {
+      "refYear": 2020,
+      "classificationCode": "H5"
+    },
+    {
+      "refYear": 2021,
+      "classificationCode": "H5"
+    },
+    {
+      "refYear": 2022,
+      "classificationCode": "H6"
+    },
+    {
+      "refYear": 2023,
+      "classificationCode": "H6"
+    },
+    {
+      "refYear": 2024,
+      "classificationCode": "H6"
+    }
+  ],
+  "partner_categories": [
+    {
+      "partnerCode": 8,
+      "partnerISO": "ALB",
+      "partnerDesc": "Albania"
+    },
+    {
+      "partnerCode": 12,
+      "partnerISO": "DZA",
+      "partnerDesc": "Algeria"
+    },
+    {
+      "partnerCode": 20,
+      "partnerISO": "AND",
+      "partnerDesc": "Andorra"
+    },
+    {
+      "partnerCode": 24,
+      "partnerISO": "AGO",
+      "partnerDesc": "Angola"
+    },
+    {
+      "partnerCode": 31,
+      "partnerISO": "AZE",
+      "partnerDesc": "Azerbaijan"
+    },
+    {
+      "partnerCode": 32,
+      "partnerISO": "ARG",
+      "partnerDesc": "Argentina"
+    },
+    {
+      "partnerCode": 36,
+      "partnerISO": "AUS",
+      "partnerDesc": "Australia"
+    },
+    {
+      "partnerCode": 40,
+      "partnerISO": "AUT",
+      "partnerDesc": "Austria"
+    },
+    {
+      "partnerCode": 44,
+      "partnerISO": "BHS",
+      "partnerDesc": "Bahamas"
+    },
+    {
+      "partnerCode": 48,
+      "partnerISO": "BHR",
+      "partnerDesc": "Bahrain"
+    },
+    {
+      "partnerCode": 50,
+      "partnerISO": "BGD",
+      "partnerDesc": "Bangladesh"
+    },
+    {
+      "partnerCode": 56,
+      "partnerISO": "BEL",
+      "partnerDesc": "Belgium"
+    },
+    {
+      "partnerCode": 60,
+      "partnerISO": "BMU",
+      "partnerDesc": "Bermuda"
+    },
+    {
+      "partnerCode": 68,
+      "partnerISO": "BOL",
+      "partnerDesc": "Bolivia (Plurinational State of)"
+    },
+    {
+      "partnerCode": 72,
+      "partnerISO": "BWA",
+      "partnerDesc": "Botswana"
+    },
+    {
+      "partnerCode": 76,
+      "partnerISO": "BRA",
+      "partnerDesc": "Brazil"
+    },
+    {
+      "partnerCode": 92,
+      "partnerISO": "VGB",
+      "partnerDesc": "Br. Virgin Isds"
+    },
+    {
+      "partnerCode": 100,
+      "partnerISO": "BGR",
+      "partnerDesc": "Bulgaria"
+    },
+    {
+      "partnerCode": 104,
+      "partnerISO": "MMR",
+      "partnerDesc": "Myanmar"
+    },
+    {
+      "partnerCode": 112,
+      "partnerISO": "BLR",
+      "partnerDesc": "Belarus"
+    },
+    {
+      "partnerCode": 116,
+      "partnerISO": "KHM",
+      "partnerDesc": "Cambodia"
+    },
+    {
+      "partnerCode": 120,
+      "partnerISO": "CMR",
+      "partnerDesc": "Cameroon"
+    },
+    {
+      "partnerCode": 124,
+      "partnerISO": "CAN",
+      "partnerDesc": "Canada"
+    },
+    {
+      "partnerCode": 132,
+      "partnerISO": "CPV",
+      "partnerDesc": "Cabo Verde"
+    },
+    {
+      "partnerCode": 144,
+      "partnerISO": "LKA",
+      "partnerDesc": "Sri Lanka"
+    },
+    {
+      "partnerCode": 152,
+      "partnerISO": "CHL",
+      "partnerDesc": "Chile"
+    },
+    {
+      "partnerCode": 156,
+      "partnerISO": "CHN",
+      "partnerDesc": "China"
+    },
+    {
+      "partnerCode": 166,
+      "partnerISO": "CCK",
+      "partnerDesc": "Cocos Isds"
+    },
+    {
+      "partnerCode": 170,
+      "partnerISO": "COL",
+      "partnerDesc": "Colombia"
+    },
+    {
+      "partnerCode": 178,
+      "partnerISO": "COG",
+      "partnerDesc": "Congo"
+    },
+    {
+      "partnerCode": 180,
+      "partnerISO": "COD",
+      "partnerDesc": "Dem. Rep. of the Congo"
+    },
+    {
+      "partnerCode": 188,
+      "partnerISO": "CRI",
+      "partnerDesc": "Costa Rica"
+    },
+    {
+      "partnerCode": 191,
+      "partnerISO": "HRV",
+      "partnerDesc": "Croatia"
+    },
+    {
+      "partnerCode": 192,
+      "partnerISO": "CUB",
+      "partnerDesc": "Cuba"
+    },
+    {
+      "partnerCode": 196,
+      "partnerISO": "CYP",
+      "partnerDesc": "Cyprus"
+    },
+    {
+      "partnerCode": 203,
+      "partnerISO": "CZE",
+      "partnerDesc": "Czechia"
+    },
+    {
+      "partnerCode": 208,
+      "partnerISO": "DNK",
+      "partnerDesc": "Denmark"
+    },
+    {
+      "partnerCode": 214,
+      "partnerISO": "DOM",
+      "partnerDesc": "Dominican Rep."
+    },
+    {
+      "partnerCode": 218,
+      "partnerISO": "ECU",
+      "partnerDesc": "Ecuador"
+    },
+    {
+      "partnerCode": 222,
+      "partnerISO": "SLV",
+      "partnerDesc": "El Salvador"
+    },
+    {
+      "partnerCode": 231,
+      "partnerISO": "ETH",
+      "partnerDesc": "Ethiopia"
+    },
+    {
+      "partnerCode": 233,
+      "partnerISO": "EST",
+      "partnerDesc": "Estonia"
+    },
+    {
+      "partnerCode": 242,
+      "partnerISO": "FJI",
+      "partnerDesc": "Fiji"
+    },
+    {
+      "partnerCode": 246,
+      "partnerISO": "FIN",
+      "partnerDesc": "Finland"
+    },
+    {
+      "partnerCode": 251,
+      "partnerISO": "FRA",
+      "partnerDesc": "France"
+    },
+    {
+      "partnerCode": 262,
+      "partnerISO": "DJI",
+      "partnerDesc": "Djibouti"
+    },
+    {
+      "partnerCode": 266,
+      "partnerISO": "GAB",
+      "partnerDesc": "Gabon"
+    },
+    {
+      "partnerCode": 268,
+      "partnerISO": "GEO",
+      "partnerDesc": "Georgia"
+    },
+    {
+      "partnerCode": 276,
+      "partnerISO": "DEU",
+      "partnerDesc": "Germany"
+    },
+    {
+      "partnerCode": 288,
+      "partnerISO": "GHA",
+      "partnerDesc": "Ghana"
+    },
+    {
+      "partnerCode": 300,
+      "partnerISO": "GRC",
+      "partnerDesc": "Greece"
+    },
+    {
+      "partnerCode": 316,
+      "partnerISO": "GUM",
+      "partnerDesc": "Guam"
+    },
+    {
+      "partnerCode": 320,
+      "partnerISO": "GTM",
+      "partnerDesc": "Guatemala"
+    },
+    {
+      "partnerCode": 324,
+      "partnerISO": "GIN",
+      "partnerDesc": "Guinea"
+    },
+    {
+      "partnerCode": 328,
+      "partnerISO": "GUY",
+      "partnerDesc": "Guyana"
+    },
+    {
+      "partnerCode": 332,
+      "partnerISO": "HTI",
+      "partnerDesc": "Haiti"
+    },
+    {
+      "partnerCode": 340,
+      "partnerISO": "HND",
+      "partnerDesc": "Honduras"
+    },
+    {
+      "partnerCode": 344,
+      "partnerISO": "HKG",
+      "partnerDesc": "China, Hong Kong SAR"
+    },
+    {
+      "partnerCode": 348,
+      "partnerISO": "HUN",
+      "partnerDesc": "Hungary"
+    },
+    {
+      "partnerCode": 352,
+      "partnerISO": "ISL",
+      "partnerDesc": "Iceland"
+    },
+    {
+      "partnerCode": 360,
+      "partnerISO": "IDN",
+      "partnerDesc": "Indonesia"
+    },
+    {
+      "partnerCode": 364,
+      "partnerISO": "IRN",
+      "partnerDesc": "Iran"
+    },
+    {
+      "partnerCode": 368,
+      "partnerISO": "IRQ",
+      "partnerDesc": "Iraq"
+    },
+    {
+      "partnerCode": 372,
+      "partnerISO": "IRL",
+      "partnerDesc": "Ireland"
+    },
+    {
+      "partnerCode": 376,
+      "partnerISO": "ISR",
+      "partnerDesc": "Israel"
+    },
+    {
+      "partnerCode": 380,
+      "partnerISO": "ITA",
+      "partnerDesc": "Italy"
+    },
+    {
+      "partnerCode": 384,
+      "partnerISO": "CIV",
+      "partnerDesc": "Côte d'Ivoire"
+    },
+    {
+      "partnerCode": 392,
+      "partnerISO": "JPN",
+      "partnerDesc": "Japan"
+    },
+    {
+      "partnerCode": 398,
+      "partnerISO": "KAZ",
+      "partnerDesc": "Kazakhstan"
+    },
+    {
+      "partnerCode": 400,
+      "partnerISO": "JOR",
+      "partnerDesc": "Jordan"
+    },
+    {
+      "partnerCode": 404,
+      "partnerISO": "KEN",
+      "partnerDesc": "Kenya"
+    },
+    {
+      "partnerCode": 410,
+      "partnerISO": "KOR",
+      "partnerDesc": "Rep. of Korea"
+    },
+    {
+      "partnerCode": 414,
+      "partnerISO": "KWT",
+      "partnerDesc": "Kuwait"
+    },
+    {
+      "partnerCode": 417,
+      "partnerISO": "KGZ",
+      "partnerDesc": "Kyrgyzstan"
+    },
+    {
+      "partnerCode": 418,
+      "partnerISO": "LAO",
+      "partnerDesc": "Lao People's Dem. Rep."
+    },
+    {
+      "partnerCode": 422,
+      "partnerISO": "LBN",
+      "partnerDesc": "Lebanon"
+    },
+    {
+      "partnerCode": 426,
+      "partnerISO": "LSO",
+      "partnerDesc": "Lesotho"
+    },
+    {
+      "partnerCode": 428,
+      "partnerISO": "LVA",
+      "partnerDesc": "Latvia"
+    },
+    {
+      "partnerCode": 430,
+      "partnerISO": "LBR",
+      "partnerDesc": "Liberia"
+    },
+    {
+      "partnerCode": 440,
+      "partnerISO": "LTU",
+      "partnerDesc": "Lithuania"
+    },
+    {
+      "partnerCode": 442,
+      "partnerISO": "LUX",
+      "partnerDesc": "Luxembourg"
+    },
+    {
+      "partnerCode": 446,
+      "partnerISO": "MAC",
+      "partnerDesc": "China, Macao SAR"
+    },
+    {
+      "partnerCode": 450,
+      "partnerISO": "MDG",
+      "partnerDesc": "Madagascar"
+    },
+    {
+      "partnerCode": 454,
+      "partnerISO": "MWI",
+      "partnerDesc": "Malawi"
+    },
+    {
+      "partnerCode": 458,
+      "partnerISO": "MYS",
+      "partnerDesc": "Malaysia"
+    },
+    {
+      "partnerCode": 462,
+      "partnerISO": "MDV",
+      "partnerDesc": "Maldives"
+    },
+    {
+      "partnerCode": 466,
+      "partnerISO": "MLI",
+      "partnerDesc": "Mali"
+    },
+    {
+      "partnerCode": 470,
+      "partnerISO": "MLT",
+      "partnerDesc": "Malta"
+    },
+    {
+      "partnerCode": 480,
+      "partnerISO": "MUS",
+      "partnerDesc": "Mauritius"
+    },
+    {
+      "partnerCode": 484,
+      "partnerISO": "MEX",
+      "partnerDesc": "Mexico"
+    },
+    {
+      "partnerCode": 490,
+      "partnerISO": "S19",
+      "partnerDesc": "Other Asia, nes"
+    },
+    {
+      "partnerCode": 496,
+      "partnerISO": "MNG",
+      "partnerDesc": "Mongolia"
+    },
+    {
+      "partnerCode": 498,
+      "partnerISO": "MDA",
+      "partnerDesc": "Rep. of Moldova"
+    },
+    {
+      "partnerCode": 499,
+      "partnerISO": "MNE",
+      "partnerDesc": "Montenegro"
+    },
+    {
+      "partnerCode": 504,
+      "partnerISO": "MAR",
+      "partnerDesc": "Morocco"
+    },
+    {
+      "partnerCode": 508,
+      "partnerISO": "MOZ",
+      "partnerDesc": "Mozambique"
+    },
+    {
+      "partnerCode": 512,
+      "partnerISO": "OMN",
+      "partnerDesc": "Oman"
+    },
+    {
+      "partnerCode": 524,
+      "partnerISO": "NPL",
+      "partnerDesc": "Nepal"
+    },
+    {
+      "partnerCode": 528,
+      "partnerISO": "NLD",
+      "partnerDesc": "Netherlands"
+    },
+    {
+      "partnerCode": 531,
+      "partnerISO": "CUW",
+      "partnerDesc": "Curaçao"
+    },
+    {
+      "partnerCode": 554,
+      "partnerISO": "NZL",
+      "partnerDesc": "New Zealand"
+    },
+    {
+      "partnerCode": 558,
+      "partnerISO": "NIC",
+      "partnerDesc": "Nicaragua"
+    },
+    {
+      "partnerCode": 566,
+      "partnerISO": "NGA",
+      "partnerDesc": "Nigeria"
+    },
+    {
+      "partnerCode": 579,
+      "partnerISO": "NOR",
+      "partnerDesc": "Norway"
+    },
+    {
+      "partnerCode": 580,
+      "partnerISO": "MNP",
+      "partnerDesc": "N. Mariana Isds"
+    },
+    {
+      "partnerCode": 581,
+      "partnerISO": "UMI",
+      "partnerDesc": "United States Minor Outlying Islands"
+    },
+    {
+      "partnerCode": 583,
+      "partnerISO": "FSM",
+      "partnerDesc": "FS Micronesia"
+    },
+    {
+      "partnerCode": 586,
+      "partnerISO": "PAK",
+      "partnerDesc": "Pakistan"
+    },
+    {
+      "partnerCode": 591,
+      "partnerISO": "PAN",
+      "partnerDesc": "Panama"
+    },
+    {
+      "partnerCode": 598,
+      "partnerISO": "PNG",
+      "partnerDesc": "Papua New Guinea"
+    },
+    {
+      "partnerCode": 600,
+      "partnerISO": "PRY",
+      "partnerDesc": "Paraguay"
+    },
+    {
+      "partnerCode": 604,
+      "partnerISO": "PER",
+      "partnerDesc": "Peru"
+    },
+    {
+      "partnerCode": 608,
+      "partnerISO": "PHL",
+      "partnerDesc": "Philippines"
+    },
+    {
+      "partnerCode": 616,
+      "partnerISO": "POL",
+      "partnerDesc": "Poland"
+    },
+    {
+      "partnerCode": 620,
+      "partnerISO": "PRT",
+      "partnerDesc": "Portugal"
+    },
+    {
+      "partnerCode": 626,
+      "partnerISO": "TLS",
+      "partnerDesc": "Timor-Leste"
+    },
+    {
+      "partnerCode": 634,
+      "partnerISO": "QAT",
+      "partnerDesc": "Qatar"
+    },
+    {
+      "partnerCode": 642,
+      "partnerISO": "ROU",
+      "partnerDesc": "Romania"
+    },
+    {
+      "partnerCode": 643,
+      "partnerISO": "RUS",
+      "partnerDesc": "Russian Federation"
+    },
+    {
+      "partnerCode": 682,
+      "partnerISO": "SAU",
+      "partnerDesc": "Saudi Arabia"
+    },
+    {
+      "partnerCode": 686,
+      "partnerISO": "SEN",
+      "partnerDesc": "Senegal"
+    },
+    {
+      "partnerCode": 688,
+      "partnerISO": "SRB",
+      "partnerDesc": "Serbia"
+    },
+    {
+      "partnerCode": 694,
+      "partnerISO": "SLE",
+      "partnerDesc": "Sierra Leone"
+    },
+    {
+      "partnerCode": 699,
+      "partnerISO": "IND",
+      "partnerDesc": "India"
+    },
+    {
+      "partnerCode": 702,
+      "partnerISO": "SGP",
+      "partnerDesc": "Singapore"
+    },
+    {
+      "partnerCode": 703,
+      "partnerISO": "SVK",
+      "partnerDesc": "Slovakia"
+    },
+    {
+      "partnerCode": 704,
+      "partnerISO": "VNM",
+      "partnerDesc": "Viet Nam"
+    },
+    {
+      "partnerCode": 705,
+      "partnerISO": "SVN",
+      "partnerDesc": "Slovenia"
+    },
+    {
+      "partnerCode": 710,
+      "partnerISO": "ZAF",
+      "partnerDesc": "South Africa"
+    },
+    {
+      "partnerCode": 724,
+      "partnerISO": "ESP",
+      "partnerDesc": "Spain"
+    },
+    {
+      "partnerCode": 748,
+      "partnerISO": "SWZ",
+      "partnerDesc": "Eswatini"
+    },
+    {
+      "partnerCode": 752,
+      "partnerISO": "SWE",
+      "partnerDesc": "Sweden"
+    },
+    {
+      "partnerCode": 757,
+      "partnerISO": "CHE",
+      "partnerDesc": "Switzerland"
+    },
+    {
+      "partnerCode": 760,
+      "partnerISO": "SYR",
+      "partnerDesc": "Syria"
+    },
+    {
+      "partnerCode": 764,
+      "partnerISO": "THA",
+      "partnerDesc": "Thailand"
+    },
+    {
+      "partnerCode": 768,
+      "partnerISO": "TGO",
+      "partnerDesc": "Togo"
+    },
+    {
+      "partnerCode": 776,
+      "partnerISO": "TON",
+      "partnerDesc": "Tonga"
+    },
+    {
+      "partnerCode": 780,
+      "partnerISO": "TTO",
+      "partnerDesc": "Trinidad and Tobago"
+    },
+    {
+      "partnerCode": 784,
+      "partnerISO": "ARE",
+      "partnerDesc": "United Arab Emirates"
+    },
+    {
+      "partnerCode": 788,
+      "partnerISO": "TUN",
+      "partnerDesc": "Tunisia"
+    },
+    {
+      "partnerCode": 792,
+      "partnerISO": "TUR",
+      "partnerDesc": "Türkiye"
+    },
+    {
+      "partnerCode": 795,
+      "partnerISO": "TKM",
+      "partnerDesc": "Turkmenistan"
+    },
+    {
+      "partnerCode": 800,
+      "partnerISO": "UGA",
+      "partnerDesc": "Uganda"
+    },
+    {
+      "partnerCode": 804,
+      "partnerISO": "UKR",
+      "partnerDesc": "Ukraine"
+    },
+    {
+      "partnerCode": 807,
+      "partnerISO": "MKD",
+      "partnerDesc": "North Macedonia"
+    },
+    {
+      "partnerCode": 818,
+      "partnerISO": "EGY",
+      "partnerDesc": "Egypt"
+    },
+    {
+      "partnerCode": 826,
+      "partnerISO": "GBR",
+      "partnerDesc": "United Kingdom"
+    },
+    {
+      "partnerCode": 834,
+      "partnerISO": "TZA",
+      "partnerDesc": "United Rep. of Tanzania"
+    },
+    {
+      "partnerCode": 842,
+      "partnerISO": "USA",
+      "partnerDesc": "USA"
+    },
+    {
+      "partnerCode": 858,
+      "partnerISO": "URY",
+      "partnerDesc": "Uruguay"
+    },
+    {
+      "partnerCode": 860,
+      "partnerISO": "UZB",
+      "partnerDesc": "Uzbekistan"
+    },
+    {
+      "partnerCode": 862,
+      "partnerISO": "VEN",
+      "partnerDesc": "Venezuela"
+    },
+    {
+      "partnerCode": 887,
+      "partnerISO": "YEM",
+      "partnerDesc": "Yemen"
+    }
+  ],
+  "independent_hs4_hhi_check": "PASS: all 16 exporter-years",
+  "decomposition_identity_check": "PASS: all reported comparisons and sensitivities"
+}

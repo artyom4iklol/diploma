@@ -1,0 +1,20 @@
+{
+  "topic": "Диверсификация экспорта интегральных схем Южной Кореи и Японии: смена рынков сбыта или изменение товарной структуры?",
+  "design_date": "2026-10-15",
+  "reporters": {"392": "Japan", "410": "Republic of Korea"},
+  "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+  "product_codes": ["854231", "854232", "854233", "854239", "854290"],
+  "download_batches": [["8542", "854231", "854232"], ["854233", "854239", "854290"]],
+  "comparisons": [[2017, 2024], [2021, 2024], [2017, 2021], [2019, 2024], [2022, 2024]],
+  "eu27_iso": ["AUT", "BEL", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FIN", "FRA", "DEU", "GRC", "HUN", "IRL", "ITA", "LVA", "LTU", "LUX", "MLT", "NLD", "POL", "PRT", "ROU", "SVK", "SVN", "ESP", "SWE"],
+  "reconciliation_relative_tolerance": 0.00001,
+  "primary_comparison": [2017, 2024],
+  "primary_hhi_definition": "Destination-country/area HHI from direct gross export values, five HS6 subheadings of HS8542, excluding World total.",
+  "limitations": [
+    "Export values are nominal USD; product-mix effects can include relative-price changes.",
+    "Direct customs destinations do not reveal ultimate consumption or value-added origins.",
+    "The China plus Hong Kong calculation is a destination-aggregation sensitivity, not an estimate of re-exports to mainland China.",
+    "A descriptive decomposition does not identify a causal effect of export controls, subsidies or geopolitical events.",
+    "The five HS6 product definitions must be checked across reported HS editions before submission."
+  ]
+}
