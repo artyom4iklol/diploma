@@ -7,12 +7,13 @@ from pathlib import Path
 from docx import Document
 from docx.enum.table import WD_ALIGN_VERTICAL, WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml import OxmlElement
+from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import qn
 from docx.shared import Cm, Inches, Pt, RGBColor
+from lxml import etree
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "documents" / "Tema_issledovaniya_dlya_nauchnogo_rukovoditelya.docx"
+OUTPUT = ROOT / "documents" / "topic2.docx"
 
 
 def font(style, size=14, bold=False):
@@ -40,31 +41,98 @@ def heading(doc, value):
 
 
 def link(paragraph, label, url):
-    relationship = paragraph.part.relate_to(
-        url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True)
-    node = OxmlElement("w:hyperlink")
-    node.set(qn("r:id"), relationship)
-    run = OxmlElement("w:r")
-    props = OxmlElement("w:rPr")
-    fonts = OxmlElement("w:rFonts")
-    fonts.set(qn("w:ascii"), "Times New Roman")
-    fonts.set(qn("w:hAnsi"), "Times New Roman")
-    props.append(fonts)
-    size = OxmlElement("w:sz")
-    size.set(qn("w:val"), "25")
-    props.append(size)
-    color = OxmlElement("w:color")
-    color.set(qn("w:val"), "000000")
-    props.append(color)
-    underline = OxmlElement("w:u")
-    underline.set(qn("w:val"), "single")
-    props.append(underline)
-    run.append(props)
-    content = OxmlElement("w:t")
-    content.text = label
-    run.append(content)
-    node.append(run)
-    paragraph._p.append(node)
+    # Bibliographic identifiers remain plain text, without active hyperlinks.
+    paragraph.add_run(label)
+
+
+def plain_black_white(doc):
+    roots = [doc.element, doc.styles.element]
+    extra_parts = []
+    for part in doc.part.package.parts:
+        if str(part.partname).endswith("/stylesWithEffects.xml"):
+            root = parse_xml(part.blob)
+            roots.append(root)
+            extra_parts.append((part, root))
+    for section in doc.sections:
+        roots.extend([section.header._element, section.footer._element])
+    for root in roots:
+        for hyperlink in root.xpath(".//w:hyperlink"):
+            parent = hyperlink.getparent()
+            position = parent.index(hyperlink)
+            for child in list(hyperlink):
+                parent.insert(position, child)
+                position += 1
+            parent.remove(hyperlink)
+        for node in root.xpath(".//w:color"):
+            node.attrib.clear()
+            node.set(qn("w:val"), "000000")
+        for node in root.xpath(".//w:shd"):
+            node.attrib.clear()
+            node.set(qn("w:val"), "clear")
+            node.set(qn("w:fill"), "FFFFFF")
+        for node in root.xpath(".//w:u | .//w:highlight | .//w:pBdr"):
+            node.getparent().remove(node)
+        for node in root.xpath(".//w:tblBorders/* | .//w:tcBorders/*"):
+            node.set(qn("w:color"), "000000")
+            node.attrib.pop(qn("w:themeColor"), None)
+        for node in root.xpath(".//w:rStyle[@w:val='Hyperlink'] | .//w:rStyle[@w:val='FollowedHyperlink']"):
+            node.getparent().remove(node)
+    for part in doc.part.package.parts:
+        for relationship in list(part.rels.values()):
+            if relationship.reltype.endswith("/hyperlink"):
+                del part.rels[relationship.rId]
+    for part, root in extra_parts:
+        part._blob = etree.tostring(root, encoding="UTF-8", xml_declaration=True, standalone=True)
+
+
+def apply_reference_layout(doc):
+    """Match the layout supplied in diploma3 (1).docx, without its links."""
+    for section in doc.sections:
+        section.page_width, section.page_height = Cm(21), Cm(29.7)
+        section.left_margin, section.right_margin = Cm(2.5), Cm(2)
+        section.top_margin = section.bottom_margin = Cm(2)
+        for area in [section.header, section.footer]:
+            for paragraph in area.paragraphs:
+                paragraph.clear()
+    for name in ["Normal", "Title", "Heading 1", "Sources", "Note"]:
+        style = doc.styles[name]
+        font(style, 12 if name != "Note" else 10, name in ["Title", "Heading 1"])
+        fmt = style.paragraph_format
+        fmt.first_line_indent = Cm(0)
+        fmt.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        fmt.line_spacing = 1.15
+        fmt.space_before, fmt.space_after = Pt(0), Pt(6)
+    doc.styles["Title"].paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    doc.styles["Title"].paragraph_format.line_spacing = 1.0
+    doc.styles["Title"].paragraph_format.space_after = Pt(9)
+    doc.styles["Heading 1"].paragraph_format.space_before = Pt(6)
+    for paragraph in doc.paragraphs:
+        fmt = paragraph.paragraph_format
+        fmt.first_line_indent = Cm(0)
+        fmt.space_before, fmt.space_after = Pt(0), Pt(6)
+        fmt.line_spacing = 1.15
+        paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        if paragraph.style.name == "Title":
+            paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            fmt.line_spacing, fmt.space_after = 1.0, Pt(9)
+        elif paragraph.style.name == "Heading 1":
+            fmt.space_before = Pt(6)
+        elif paragraph._p.xpath(".//m:oMath"):
+            paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            fmt.line_spacing = 1.0
+        for run in paragraph.runs:
+            run.font.name = "Times New Roman"
+            run.font.size = Pt(10 if paragraph.style.name == "Note" else 12)
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                for paragraph in cell.paragraphs:
+                    paragraph.paragraph_format.first_line_indent = Cm(0)
+                    paragraph.paragraph_format.line_spacing = 1.0
+                    paragraph.paragraph_format.space_after = Pt(3)
+                    for run in paragraph.runs:
+                        run.font.name = "Times New Roman"
+                        run.font.size = Pt(11)
 
 
 def math_run(value):
@@ -148,7 +216,7 @@ def results_table(doc):
         side = OxmlElement("w:"+name)
         side.set(qn("w:val"), "single")
         side.set(qn("w:sz"), "6")
-        side.set(qn("w:color"), "D9D9D9")
+        side.set(qn("w:color"), "000000")
         borders.append(side)
     table._tbl.tblPr.append(borders)
     for i, row in enumerate(table.rows):
@@ -302,10 +370,8 @@ def main():
     reference(doc, 8, "Hong M.-S. Analysis of export changes to major trading partners of the Korean semiconductor industry // The e-Business Studies. 2023. Vol. 24, No. 6. P. 179–189. Статья на корейском языке; полный текст пока не проверен.", [("DOI: 10.20462/tebs.2023.11.24.6.179", "https://doi.org/10.20462/tebs.2023.11.24.6.179")])
     reference(doc, 9, "Kim T.-H., Lee M.-J. Assessing Trade Concentration, Dependency, and Resilience in Korea’s Semiconductor Supply Chain: A Network and Entropy-Based Approach // Journal of Korea Trade. 2025. Vol. 29, No. 7. P. 67–95. Полный текст пока не проверен.", [("DOI: 10.35611/jkt.2025.29.7.67", "https://doi.org/10.35611/jkt.2025.29.7.67")])
 
-    # Remove template borders, including Word's built-in blue Title rule.
-    for root in [doc.styles.element, doc.element]:
-        for border in root.xpath(".//w:pBdr"):
-            border.getparent().remove(border)
+    apply_reference_layout(doc)
+    plain_black_white(doc)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     doc.save(OUTPUT)
     print(OUTPUT)
