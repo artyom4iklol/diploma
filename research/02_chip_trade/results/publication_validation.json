@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "analysis_status": "exploratory post-pilot extension, 2026-10-16",
+  "annual_decompositions": 14,
+  "product_attributions": 10,
+  "destination_attributions": 306,
+  "quantity_groups": 80,
+  "largest_attribution_residual": 6.158268339717665e-17,
+  "chain_identity": "PASS: both exporters",
+  "destination_identity": "PASS: all destination squared-share changes",
+  "quantity_caveat": "Positive unestimated quantity does not establish comparable chip quality or physical units across HS6."
+}

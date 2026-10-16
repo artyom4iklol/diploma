@@ -8,6 +8,7 @@
 
 - [Результат проверки и числа пилота](report.md)
 - [Углубленный аудит новизны 16.10.2026](novelty_audit_2026-10-16.md)
+- [Развитие для публикации и дополнительные расчеты](publication_design.md)
 - [Дизайн, зафиксированный до расчетов](protocol.md)
 - [Ближайшие работы, пределы новизны и журнал поиска](literature.md)
 - [Товарные и географические границы](classification.md)
@@ -20,6 +21,12 @@
 python -m pip install -r requirements.txt
 python research/02_chip_trade/scripts/analyze.py
 python research/02_chip_trade/scripts/build_report.py
+```
+
+Исследовательское расширение после пилота: годовые разложения, товарные и рыночные вклады, аудит количественных полей. Первоначальный протокол и пилотные результаты не перезаписываются:
+
+```bash
+python research/02_chip_trade/scripts/publication_extension.py
 ```
 
 Повторная загрузка для пересмотра данных:
