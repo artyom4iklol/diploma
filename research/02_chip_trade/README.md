@@ -9,6 +9,7 @@
 - [Результат проверки и числа пилота](report.md)
 - [Углубленный аудит новизны 16.10.2026](novelty_audit_2026-10-16.md)
 - [Развитие для публикации и дополнительные расчеты](publication_design.md)
+- [Записка для научного руководителя в Word](documents/Tema_issledovaniya_dlya_nauchnogo_rukovoditelya.docx)
 - [Дизайн, зафиксированный до расчетов](protocol.md)
 - [Ближайшие работы, пределы новизны и журнал поиска](literature.md)
 - [Товарные и географические границы](classification.md)
