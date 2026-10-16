@@ -1,0 +1,21 @@
+{
+  "document": "chapter1.docx",
+  "source_count": 27,
+  "native_footnotes": 28,
+  "sections": 3,
+  "editable_equations": 3,
+  "tables": 0,
+  "figures": 0,
+  "hyperlinks": 0,
+  "font": "Times New Roman",
+  "body_points": 12,
+  "body_line_spacing": 1.5,
+  "footnote_points": 10,
+  "reference": "Supplied Naumov coursework: formal prose, numbered footnotes, black typography",
+  "rendered_pages": 14,
+  "body_pages": 12,
+  "bibliography_pages": 2,
+  "visual_review": "All final pages inspected; unchanged pages matched inspected PNGs byte for byte",
+  "empty_pages": 0,
+  "verified_on": "2026-10-16"
+}
