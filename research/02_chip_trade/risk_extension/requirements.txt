@@ -1,0 +1,2 @@
+# In addition to the repository's core numerical dependencies.
+httpx[http2,socks]==0.28.1
