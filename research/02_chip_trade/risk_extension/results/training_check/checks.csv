@@ -1,0 +1,3 @@
+case,reporter,variance_identity_max_error,shapley_add_up_error,weight_sum_max_error
+temporal_2018_2020,392,1.9081958235744878e-17,0.0,2.220446049250313e-16
+temporal_2018_2020,410,2.220446049250313e-16,0.0,3.3306690738754696e-16

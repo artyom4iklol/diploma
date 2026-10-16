@@ -1,0 +1,10 @@
+{
+  "request_id": "M_392-410_202207_854233",
+  "at": "2026-10-16T10:19:21.822368+00:00",
+  "status": 403,
+  "error": "Client error '403 Quota Exceeded' for url 'https://comtradeapi.un.org/public/v1/preview/C/M/HS?period=202207&reporterCode=392%2C410&cmdCode=854233&flowCode=X&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500&includeDesc=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+  "seconds": 0.582,
+  "response_detail": "{ \"statusCode\": 403, \"message\": \"Out of call volume quota. Quota will be replenished in 00:40:39.\" }",
+  "retry_after": "2439",
+  "next_allowed_at": "2026-10-16T11:00:00.822368+00:00"
+}

@@ -5,7 +5,7 @@ Synthetic fixtures are tests only; they are never written to research outputs.
 import unittest
 import numpy as np
 import pandas as pd
-from analyze_monthly import GOODS,REPORTERS,growth,run_case,bootstrap,periods
+from analyze_monthly import GOODS,REPORTERS,growth,run_case,bootstrap,periods,cube
 
 
 def fixture(change_products=False,change_geography=False):
@@ -50,6 +50,17 @@ class MonthlyMethodControls(unittest.TestCase):
         self.assertTrue(np.isnan(g[0]))
         self.assertEqual(g[1],2)
         self.assertEqual(g[2],-2)
+
+    def test_unloaded_query_is_missing_but_absent_direction_is_zero(self):
+        data=fixture()
+        product_month=data.reporterCode.eq(392)&data.period.eq(201901)&data.cmdCode.eq(854231)
+        missing_query=data[~product_month]
+        x=cube(missing_query,392,GOODS,[156,344,702],2020)
+        self.assertTrue(np.isnan(x[24,0]).all())
+        absent_direction=data[~(product_month&data.partnerCode.eq(156))]
+        y=cube(absent_direction,392,GOODS,[156,344,702],2020)
+        self.assertEqual(y[24,0,0],0)
+        self.assertTrue(np.isfinite(y[24,0]).all())
 
     def test_paired_bootstrap_preserves_identical_portfolios(self):
         y=np.tile(np.sin(np.arange(36)/3)[:,None],(1,4))

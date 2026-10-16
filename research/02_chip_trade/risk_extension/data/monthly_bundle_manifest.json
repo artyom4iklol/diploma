@@ -31,15 +31,27 @@
   },
   {
     "path": "data/monthly_raw/M_392_2020.jsonl.gz",
-    "requests": 51,
-    "sha256": "4d960c53573086e77d9e70e57a1413009246868884739f22b8efca9efab6ed1a",
-    "bytes": 193674
+    "requests": 72,
+    "sha256": "e6e53ef475e64cd293858afae7518d52b30e53a4217deb1265c51abca005cee6",
+    "bytes": 273386
+  },
+  {
+    "path": "data/monthly_raw/M_392_2021.jsonl.gz",
+    "requests": 72,
+    "sha256": "3e94b8c62336a22177f8b32fe04fc9d97440884b3a975afcfb49374c4c45b56c",
+    "bytes": 290847
+  },
+  {
+    "path": "data/monthly_raw/M_392_2022.jsonl.gz",
+    "requests": 39,
+    "sha256": "552a95672aa7bb85222ba92f2a425e8a3eed491ce4f16b3898f8c4623cf5a843",
+    "bytes": 160060
   },
   {
     "path": "data/monthly_raw/M_392_2024.jsonl.gz",
-    "requests": 16,
-    "sha256": "a2232c129da8861ee166cf34d27e5696b45d8f85a859ea57bfa847976e1322d1",
-    "bytes": 17914
+    "requests": 72,
+    "sha256": "34921d7927f68489138fa53fede2f0c1b6fb9c8a73e714fd46db64eb039a1be1",
+    "bytes": 245534
   },
   {
     "path": "data/monthly_raw/M_392_2025.jsonl.gz",
@@ -67,15 +79,27 @@
   },
   {
     "path": "data/monthly_raw/M_410_2020.jsonl.gz",
-    "requests": 51,
-    "sha256": "41693433706cda97f45a573ff85a3e7a930b305efbb90985e7c314e48b5ba413",
-    "bytes": 193758
+    "requests": 72,
+    "sha256": "2e83f1a305ca2d2788bd883a164727a1b7f047afb78cc4dd0a5b4dae7787c11c",
+    "bytes": 273490
+  },
+  {
+    "path": "data/monthly_raw/M_410_2021.jsonl.gz",
+    "requests": 72,
+    "sha256": "e38a8b323058884d11d54607055928b556c8b7628548224c0534ef33f417b77f",
+    "bytes": 290919
+  },
+  {
+    "path": "data/monthly_raw/M_410_2022.jsonl.gz",
+    "requests": 39,
+    "sha256": "e3f954c389be559729333e51b474dd5fe5ee883a735f8865f35e46a65b14fc6b",
+    "bytes": 160097
   },
   {
     "path": "data/monthly_raw/M_410_2024.jsonl.gz",
-    "requests": 16,
-    "sha256": "fc4c27db7a003f4b369adb8861e633a9a1c02cbb9160e831a0b6153d0292b77f",
-    "bytes": 33698
+    "requests": 72,
+    "sha256": "648dfad4d26885f2e5390edfd33a6e26a5100d6d1b53734e48652b8865916b24",
+    "bytes": 260484
   },
   {
     "path": "data/monthly_raw/M_410_2025.jsonl.gz",

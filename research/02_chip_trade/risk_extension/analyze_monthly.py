@@ -20,13 +20,21 @@ def periods(end_year):
 
 
 def cube(data,reporter,goods,directions,end_year):
-    d=data[data.reporterCode.eq(reporter)&data.cmdCode.isin(goods)
-           &data.period.le(end_year*100+12)&data.partnerCode.ne(0)].copy()
+    source=data[data.reporterCode.eq(reporter)&data.cmdCode.isin(goods)
+                &data.period.le(end_year*100+12)]
+    # Source queries are checked before this function is called. A missing
+    # direction in a known complete query is zero; an entirely unloaded
+    # product-month is unknown and must remain NaN, even in unused windows.
+    known=source.groupby(['period','cmdCode']).size().unstack('cmdCode')
+    known=known.reindex(index=periods(end_year),columns=goods).fillna(0).gt(0).to_numpy()
+    d=source[source.partnerCode.ne(0)].copy()
     d['geo']=d.partnerCode.where(d.partnerCode.isin(directions),-1)
     cols=pd.MultiIndex.from_product([goods,[*directions,-1]],names=['cmdCode','geo'])
     table=d.pivot_table(index='period',columns=['cmdCode','geo'],values='primaryValue',aggfunc='sum',fill_value=0)
     table=table.reindex(index=periods(end_year),columns=cols,fill_value=0).fillna(0)
-    return table.to_numpy().reshape(len(table),len(goods),len(directions)+1)
+    values=table.to_numpy().reshape(len(table),len(goods),len(directions)+1).astype(float)
+    values[~known]=np.nan
+    return values
 
 
 def growth(x,lag,kind='symmetric'):

@@ -1,0 +1,43 @@
+{
+  "scope": "Complete endpoint inputs and full-geography concentration; no risk estimate",
+  "main_analysis_ready": false,
+  "source_panel_sha256": "14c5380cb509e1ae4edc8768902f208c3e524867359d671bf967a993b36e67fe",
+  "protocol_sha256": "2a53261f7a600e6dc0866ce12243b369c0202bb24b0777364663fcf187d721f5",
+  "source_request_cells": 288,
+  "complete_country_months": 48,
+  "years": [
+    2017,
+    2024
+  ],
+  "goods": [
+    854231,
+    854232,
+    854233,
+    854239
+  ],
+  "risk_estimated": false,
+  "summary": [
+    {
+      "reporter": 392,
+      "initial_year": 2017,
+      "final_year": 2024,
+      "hhi_initial": 0.1586574581961702,
+      "hhi_final": 0.1541006400357911,
+      "delta_hhi": -0.004556818160379089,
+      "mix_hhi": 0.006343018114729523,
+      "geography_hhi": -0.010899836275108613,
+      "risk_estimated": false
+    },
+    {
+      "reporter": 410,
+      "initial_year": 2017,
+      "final_year": 2024,
+      "hhi_initial": 0.27053893379528754,
+      "hhi_final": 0.21248660794978266,
+      "delta_hhi": -0.058052325845504876,
+      "mix_hhi": -0.014132071449143371,
+      "geography_hhi": -0.043920254396361505,
+      "risk_estimated": false
+    }
+  ]
+}

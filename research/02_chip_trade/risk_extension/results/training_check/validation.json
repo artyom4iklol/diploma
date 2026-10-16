@@ -1,0 +1,66 @@
+{
+  "scope": "Prespecified initial-window check only; not main 2017/2024 result",
+  "main_analysis_ready": false,
+  "source_panel_sha256": "14c5380cb509e1ae4edc8768902f208c3e524867359d671bf967a993b36e67fe",
+  "protocol_sha256": "2a53261f7a600e6dc0866ce12243b369c0202bb24b0777364663fcf187d721f5",
+  "source_request_cells": 576,
+  "complete_country_months": 96,
+  "weight_years": [
+    2017,
+    2020
+  ],
+  "covariance_years": [
+    2018,
+    2020
+  ],
+  "bootstrap_intervals_computed": false,
+  "causal_identification": false,
+  "summary": [
+    {
+      "case": "temporal_2018_2020",
+      "reporter": 392,
+      "status": "ok",
+      "n": 36,
+      "initial_year": 2017,
+      "final_year": 2020,
+      "sigma_start": 2018,
+      "sigma_end": 2020,
+      "product_count": 4,
+      "separate_directions": 8,
+      "grid_limited": false,
+      "directions": "156;344;490;704;702;608;842;764",
+      "delta_variance_pp2": 6.956723707101844,
+      "mix_variance_pp2": 11.526372298542846,
+      "geography_variance_pp2": -4.569648591441003,
+      "delta_sd_pp": 0.40613277536141884,
+      "variance_change_pct": 9.950241484718125,
+      "sd_change_pct": 4.857160692400075,
+      "hhi_full_change": 0.003777735153978584,
+      "hhi_grid_change": 6.341334378842656e-05,
+      "min_cov_eigenvalue": -5.1055820312174026e-17
+    },
+    {
+      "case": "temporal_2018_2020",
+      "reporter": 410,
+      "status": "ok",
+      "n": 36,
+      "initial_year": 2017,
+      "final_year": 2020,
+      "sigma_start": 2018,
+      "sigma_end": 2020,
+      "product_count": 4,
+      "separate_directions": 8,
+      "grid_limited": false,
+      "directions": "156;344;490;704;702;608;842;764",
+      "delta_variance_pp2": -96.83542008136412,
+      "mix_variance_pp2": -108.26872495609094,
+      "geography_variance_pp2": 11.433304874726817,
+      "delta_sd_pp": -1.9102811827742816,
+      "variance_change_pct": -13.998769446678928,
+      "sd_change_pct": -7.263151577530369,
+      "hhi_full_change": -0.0053870070554318805,
+      "hhi_grid_change": -0.004631546248820284,
+      "min_cov_eigenvalue": -5.3395700093970325e-17
+    }
+  ]
+}
