@@ -1,0 +1,203 @@
+{
+  "audit_date": "2026-10-16",
+  "scope": "Targeted novelty audit of the two-factor change in destination HHI for Japanese and Korean HS8542 exports; not a systematic review.",
+  "decision": {
+    "exact_duplicate_identified_in_reviewed_material": false,
+    "global_absence_proven": false,
+    "methodological_novelty": false,
+    "empirical_novelty": "plausible_incremental_with_residual_overlap_risk",
+    "publication_acceptance_guaranteed": false
+  },
+  "main_full_text_comparisons": 8,
+  "partial_access_comparisons": 2,
+  "works": [
+    {
+      "id": "hillrichs_woelfl_2026",
+      "authors": "Dorothee Hillrichs; Anita Wölfl",
+      "year": 2026,
+      "url": "https://www.ifo.de/DocDL/econpol-forum-1-2026-hillrichs-woelfl-more-chips.pdf",
+      "access": "full_text",
+      "reviewed": "question, data, HHI construction, results",
+      "review_date": "2026-10-15"
+    },
+    {
+      "id": "koh_2026",
+      "authors": "Wee Chian Koh",
+      "year": 2026,
+      "url": "https://amro-asia.org/wp-content/uploads/2026/03/Korea-ACV-2025-SI-1.pdf",
+      "access": "full_text",
+      "reviewed": "product mix, destinations, policy discussion",
+      "review_date": "2026-10-15"
+    },
+    {
+      "id": "yu_yu_ojbm_2026",
+      "doi": "10.4236/ojbm.2026.141004",
+      "url": "https://www.scirp.net/journal/paperinformation?paperid=147799",
+      "access": "full_text",
+      "reviewed": "data, HHI/RCA methods, results, conclusion",
+      "review_date": "2026-10-15"
+    },
+    {
+      "id": "li_et_al_2025",
+      "doi": "10.1371/journal.pone.0313162",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313162",
+      "access": "full_text",
+      "reviewed": "research design, network methods, results",
+      "review_date": "2026-10-15"
+    },
+    {
+      "id": "shin_shin_2021",
+      "doi": "10.35611/jkt.2021.25.6.78",
+      "url": "https://koreascience.kr/article/JAKO202115059701244.pdf",
+      "access": "full_text",
+      "reviewed": "sections 3-6; Appendix Table 1; references",
+      "pages": 27,
+      "review_date": "2026-10-16"
+    },
+    {
+      "id": "kim_js_2021",
+      "doi": "10.1088/1755-1315/791/1/012170",
+      "url": "https://www.researchgate.net/publication/352826092_Research_on_CMS_decomposition_of_South_Korea%27s_manufacturing_exports_to_China",
+      "access": "full_published_text_on_researchgate",
+      "reviewed": "section 2, equations 1-3; Table 1; results, conclusion, references",
+      "review_date": "2026-10-16"
+    },
+    {
+      "id": "kitetu_mbante_ko_2021",
+      "doi": "10.20294/jgbt.2021.17.2.67",
+      "authors": "Geoffrey Musyoki Kitetu; Appolinaire Roland Mbante II; Jong-Hwan Ko",
+      "url": "https://www.researchgate.net/publication/357017630_Revealed_Trade_Competitiveness_between_Korea_and_Japan_Is_It_Viable_to_Deepen_Economic_Integration",
+      "access": "full_published_text_author_upload",
+      "reviewed": "section IV, Tables 2-5, conclusion, references",
+      "review_date": "2026-10-16"
+    },
+    {
+      "id": "koo_2026",
+      "doi": "10.17327/ippa.2026.40.2.011",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003354481",
+      "access": "full_text_public_kci_download",
+      "reviewed": "section III pp.324-325; Figures 4-6; Tables 2-4; conclusion; references pp.337-338",
+      "pages": 21,
+      "review_date": "2026-10-16"
+    },
+    {
+      "id": "hong_2023",
+      "doi": "10.20462/tebs.2023.11.24.6.179",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003017415",
+      "access": "abstract_and_one_page_preview_only",
+      "full_text_exclusion_established": false,
+      "review_date": "2026-10-16"
+    },
+    {
+      "id": "kim_lee_2025",
+      "doi": "10.35611/jkt.2025.29.7.67",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003272815",
+      "access": "abstract_and_metadata_only",
+      "full_text_exclusion_established": false,
+      "review_date": "2026-10-16"
+    }
+  ],
+  "pdf_evidence": [
+    {
+      "source_id": "shin_shin_2021",
+      "source_url": "https://koreascience.kr/article/JAKO202115059701244.pdf",
+      "sha256": "5c0c0108f9b622b3405d91c6662df80611ece8f2b43b2d4b58f2d8288a04d0eb",
+      "bytes": 5166558,
+      "pages_received": 27,
+      "local_receipt_time_utc": "2026-10-16T02:42:02.327498+00:00",
+      "pdf_republished_in_repository": false
+    },
+    {
+      "source_id": "koo_2026",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteServHistIFrame.kci?sereArticleSearchBean.artiId=ART003354481&sereArticleSearchBean.orteFileId=KCI_FI003354481",
+      "sha256": "5b75f5e28559cbf90fbd0105d922953eb5c7371799ee1dd39cea502893bae221",
+      "bytes": 851505,
+      "pages_received": 21,
+      "local_receipt_time_utc": "2026-10-16T02:45:48.088161+00:00",
+      "pdf_republished_in_repository": false
+    },
+    {
+      "source_id": "hong_2023",
+      "source_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/artiPreView.kci?sereArticleSearchBean.artiId=ART003017415&v=2019",
+      "sha256": "d67f5c815fdb1231cf163b83c90ee899abd85049adcce34ae8483aaa071862a3",
+      "bytes": 286487,
+      "pages_received": 1,
+      "local_receipt_time_utc": "2026-10-16T02:44:23.290431+00:00",
+      "pdf_republished_in_repository": false
+    }
+  ],
+  "forward_citation_queries": [
+    {
+      "source_work": "W3211774928",
+      "query_url": "https://api.openalex.org/works?filter=cites%3AW3211774928&per-page=100",
+      "reported_result_count": 4,
+      "returned_works": [
+        {
+          "id": "https://openalex.org/W4400101930",
+          "title": "Revealing spatial-temporal impact of industrial effluent towards DOM in Riverine employing PARAFAC and MW-2D COS",
+          "doi": "https://doi.org/10.1016/j.jece.2024.113412",
+          "publication_date": "2024-06-27"
+        },
+        {
+          "id": "https://openalex.org/W4381510404",
+          "title": "Economic preference for semiconductor trade deals using similarity measures defined by Choquet integrals",
+          "doi": "https://doi.org/10.1007/s40314-023-02365-z",
+          "publication_date": "2023-06-21"
+        },
+        {
+          "id": "https://openalex.org/W4386198285",
+          "title": "Exploratory Data Analysis of Big Data on Semiconductor Industry",
+          "doi": "https://doi.org/10.1007/978-3-031-42455-7_3",
+          "publication_date": "2023-01-01"
+        },
+        {
+          "id": "https://openalex.org/W7160292939",
+          "title": "Tác động của xuất khẩu sản phẩm bán dẫn tới tăng trưởng kinh tế của các quốc gia đang phát triển: vai trò của thể chế",
+          "doi": "https://doi.org/10.54404/jts.2026.210v.08",
+          "publication_date": "2026-03-10"
+        }
+      ]
+    },
+    {
+      "source_work": "W4389688319",
+      "query_url": "https://api.openalex.org/works?filter=cites%3AW4389688319&per-page=100",
+      "reported_result_count": 0,
+      "returned_works": []
+    },
+    {
+      "source_work": "W3175734626",
+      "query_url": "https://api.openalex.org/works?filter=cites%3AW3175734626&per-page=100",
+      "reported_result_count": 0,
+      "returned_works": []
+    }
+  ],
+  "coverage_warning": "OpenAlex reports zero citing works for Hong, but Koo (2026), printed p.338, cites Hong (2023). Zero indexed citations do not imply no citations.",
+  "supplementary_sources": [
+    {
+      "doi": "10.5539/ibr.v19n2p1",
+      "access": "publisher_metadata_and_author_copy_methods_results_excerpts",
+      "url": "https://ccsenet.org/journal/index.php/ibr/article/view/0/52862"
+    },
+    {
+      "doi": "10.1007/978-3-031-42455-7_3",
+      "access": "publisher_abstract_and_references"
+    },
+    {
+      "doi": "10.1007/s40314-023-02365-z",
+      "access": "publisher_abstract_and_method_excerpt"
+    },
+    {
+      "doi": "10.54404/jts.2026.210v.08",
+      "access": "publisher_abstract"
+    },
+    {
+      "url": "https://unctadstat2.unctad.org/fr/insights/theme/229",
+      "access": "official_indicator_description"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/review-of-the-dominican-republic-s-enabling-environment-for-the-semiconductor-and-microelectronics-industries_0b35b5a6-en/full-report/shift-share-decomposition-analysis_4ce92cf3.html",
+      "access": "annex_description",
+      "exclusion_reason": "Labour productivity decomposition; different estimand."
+    }
+  ]
+}
