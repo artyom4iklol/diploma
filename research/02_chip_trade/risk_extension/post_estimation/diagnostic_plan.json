@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-16T11:39:10.824391+00:00",
+  "phase": "Exploratory diagnostics after seeing primary estimates; not a preregistration",
+  "source_commit": "d967748396b00064ce703edc55183ab2cdbb1d40",
+  "source_panel_sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+  "primary_protocol_unchanged": true,
+  "main_estimates_replaced": false,
+  "reporters": [
+    392,
+    410
+  ],
+  "bootstrap": {
+    "repetitions": 1999,
+    "seed": 20261016,
+    "blocks_months": [
+      12,
+      6
+    ],
+    "method": "paired circular blocks, all cells jointly; original weights and geographic grids fixed; quarterly blocks 4/2 observations"
+  },
+  "analyses": [
+    {
+      "name": "Product, destination, and cell risk attributions",
+      "scope": "Product estimates and intervals for every available prespecified case; destination/cell intervals for both countries in primary case",
+      "additivity": "Exact symmetric allocation of each quadratic-form change, averaged over the original two orders"
+    },
+    {
+      "name": "Memory share versus composition within non-memory",
+      "scope": "Both countries and all prespecified cases, retaining unavailable cases",
+      "method": "At each of initial/final geography, split the product change symmetrically into memory share and non-memory proportions, then average; components add to original product Shapley contribution",
+      "meaning": "Descriptive grouped attribution, not an intervention or a new method"
+    },
+    {
+      "name": "Covariance-window bridge",
+      "scope": "Both countries; 2018-2020 and 2021-2024, common primary weights and grid",
+      "method": "Exact within-window covariance plus between-window mean covariance identity"
+    },
+    {
+      "name": "Leave one calendar year out",
+      "scope": "Both countries; every year 2018-2024; fixed primary weights and grid",
+      "method": "Recalculate covariance and all original contributions; not independent replications"
+    },
+    {
+      "name": "Ordinary-growth denominator diagnostics",
+      "scope": "Both countries; undefined observations kept undefined; extreme observations shown",
+      "method": "No winsorization, dropping small flows, or changing the main symmetric-growth specification"
+    },
+    {
+      "name": "Result-specific novelty check",
+      "scope": "Primary literature and closest official semiconductor studies; targeted search, not exhaustive review"
+    }
+  ],
+  "restrictions": [
+    "Do not select a period, grid or growth measure by desired sign",
+    "Do not reinterpret nominal FOB flows as physical quantities or exogenous demand",
+    "Do not equate a customs destination with final demand or resolve Other Asia, nes to Taiwan automatically",
+    "Exploratory percentile intervals are pointwise and not adjusted for multiple comparisons",
+    "No manuscript, supervisor DOCX, or Growth-at-Risk changes"
+  ]
+}

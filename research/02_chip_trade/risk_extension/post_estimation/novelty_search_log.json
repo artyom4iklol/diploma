@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-16T11:48:28.455055+00:00",
+  "scope": "Targeted result-specific follow-up of existing audit; not a systematic review",
+  "web_queries": [
+    "semiconductor export volatility diversification Korea Japan",
+    "semiconductor Shapley export volatility",
+    "반도체 수출 다변화 변동성",
+    "semiconductor product mix geographical volatility exports",
+    "semiconductor covariance diversification exports",
+    "semiconductor export volatility decomposition Korea",
+    "반도체 수출 공분산",
+    "memory geographic export volatility Korea"
+  ],
+  "consensus_query": "semiconductor exports Korea Japan memory product composition geographic diversification covariance volatility decomposition year:2020-2026",
+  "consensus_results_screened": 10,
+  "consensus_record_fetched": "45194c976cab54d5a05b8a5263495876",
+  "new_nearby_paper": "Kim and Lee 2025, DOI 10.35611/jkt.2025.29.7.67",
+  "sources_compared": 8,
+  "exact_combination_of_monthly_weights_covariance_attribution_not_found_in_compared_material": true,
+  "absence_of_duplicate_proven": false,
+  "access_limits": [
+    "Kim/Lee 2025 full text not obtained",
+    "Some follow-up PDF/publisher links blocked; previously inspected sources identified as such",
+    "Search indexing and titles do not prove novelty"
+  ],
+  "cached_primary_pdf_sha256": {
+    "bok_2023_outlook.pdf": "eb9a3379ef080263f1bfca9ad6273859710084f6edeea4501571000aef5aa685",
+    "esposito_2020.pdf": "ae3ea96d788e4fae498723aa63a060a21d12c27d2aad9e6d8571c0e6ac1e9237",
+    "vannooren_2014.pdf": "2be53ecb90acb5a8c1bf646982095177b9fc145b34795d2ecd06c6743ca8e390"
+  }
+}

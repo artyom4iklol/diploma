@@ -1,0 +1,13 @@
+{
+  "all_diagnostic_csv_hashes_verified": true,
+  "grouped_attributions_add_up": true,
+  "covariance_attributions_add_up": true,
+  "all_interval_bounds_finite_and_ordered": true,
+  "semantic_unit_checks_passed": 3,
+  "original_point_and_bootstrap_intervals_reproduced": true,
+  "diagnostic_figures_visually_verified": 2,
+  "main_and_all_preexisting_repository_files_unchanged": true,
+  "source_commit": "d967748396b00064ce703edc55183ab2cdbb1d40",
+  "source_panel_sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+  "publication_guaranteed": false
+}

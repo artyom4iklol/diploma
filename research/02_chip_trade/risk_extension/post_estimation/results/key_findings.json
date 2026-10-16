@@ -1,0 +1,45 @@
+{
+  "phase": "Exploratory follow-up of frozen primary model",
+  "korean_memory": {
+    "initial_share": 0.7048804761178609,
+    "final_share": 0.6010658052763379,
+    "contribution_variance_pp2": -165.17755167709092,
+    "ci95": [
+      -228.22271851058937,
+      -66.29181434632478
+    ],
+    "share_of_original_product_contribution_pct": 95.52442008470632,
+    "negative_points_all_available_cases": true,
+    "available_cases": 10,
+    "same_2017_2024_contrast_cases": 8,
+    "negative_interval_upper_bound_12_months_all_available_cases": true
+  },
+  "korean_geography": {
+    "primary_variance_pp2": 98.8386280334165,
+    "primary_interval_includes_zero": true,
+    "early_window_variance_pp2": -26.672312352031582,
+    "late_window_variance_pp2": 169.08875238445296
+  },
+  "leave_one_year_out": {
+    "392": {
+      "negative_total_points": 6,
+      "positive_total_points": 1,
+      "omitted_years": [
+        2021
+      ]
+    },
+    "410": {
+      "negative_total_points": 7,
+      "positive_total_points": 0,
+      "omitted_years": []
+    }
+  },
+  "novelty": {
+    "methodological_novelty_claimed": false,
+    "causal_novelty_claimed": false,
+    "possible_contribution": "Limited applied evidence on the covariance component offsetting concentration-based geographic diversification within HS6, compared between Japan and Korea",
+    "exact_duplicate_absence_proven": false
+  },
+  "no_new_data_or_changed_main_results": true,
+  "publication_acceptance_guaranteed": false
+}

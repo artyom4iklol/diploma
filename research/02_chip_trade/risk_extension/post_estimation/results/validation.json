@@ -1,0 +1,48 @@
+{
+  "phase": "Exploratory follow-up; frozen primary estimates retained",
+  "diagnostic_script_sha256": "24b54467c54ff27ec9f4d3e6ad1f11b03c46b3a3fe8ada2323579be83c1a6986",
+  "monthly_panel_sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+  "primary_protocol_sha256": "2a53261f7a600e6dc0866ce12243b369c0202bb24b0777364663fcf187d721f5",
+  "cases": 12,
+  "country_cases": 24,
+  "completed": 22,
+  "unavailable": [
+    {
+      "case": "monthly_lag1",
+      "reporter": 410,
+      "status": "unobserved_growth",
+      "unobserved_growth_cells": 6
+    },
+    {
+      "case": "ordinary_pct_yoy",
+      "reporter": 410,
+      "status": "unobserved_growth",
+      "unobserved_growth_cells": 22
+    }
+  ],
+  "primary_points_reproduced": true,
+  "original_bootstrap_intervals_reproduced": true,
+  "max_point_reproduction_error_pp2": 1.687538997430238e-14,
+  "max_original_interval_reproduction_error": 5.115907697472721e-13,
+  "bootstrap_repetitions": 1999,
+  "bootstrap_seed": 20261016,
+  "intervals": "Pointwise exploratory percentiles, fixed weights and grids; no multiplicity adjustment",
+  "grouped_memory_adds_to_original_product_effect": true,
+  "covariance_component_shapley_add_up": true,
+  "covariance_window_identity_pass": true,
+  "price_quantity_identification": false,
+  "causal_identification": false,
+  "manuscript_written": false,
+  "outputs": {
+    "cell_attribution_intervals.csv": "dea585bb37b8b4485a4d19f0345248824a6dd02a07d4713a626bc3ea222481a8",
+    "covariance_attribution_intervals.csv": "af393678d393d6c551555bdb6df6d0d984ae1426b9dc469abf3f205f8007c9c9",
+    "covariance_components_change.csv": "fe917c28582ce7927f6e8089062c6ce92bfeb7b8ecee2e069ffa00bca6bcc5ad",
+    "covariance_window_bridge.csv": "70364af6460ff4057d95a2c30f5f06df644646400f938df504e2b24997edbcbc",
+    "destination_attribution_all_cases.csv": "5ab88cb831a22db7b429af11326c3d9934d8f723989ae065fe01b4e7c4049433",
+    "destination_attribution_intervals.csv": "6e15abc7f53c74c59747d2098ee7793d1e90963f2f1d849405ad85efca7c109a",
+    "diagnostic_status.csv": "9c1a91a8523b6f24fb2976402558acca38ac46892ba57eed24aef5ad94f40563",
+    "leave_one_year_out.csv": "91b1225ad4513dd92c02235d77059ce4a452376618d5e0ffdaaadb7044355572",
+    "memory_share_decomposition.csv": "ce4f78141821990f1b11a47a37017a092c5c4deb3a744d42ab07cca9ed522a78",
+    "product_attribution_intervals.csv": "2794e8af083db885e550b999697d59a168a4244896193c9089de74aeb068e93e"
+  }
+}
