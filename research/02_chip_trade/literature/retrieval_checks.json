@@ -1,0 +1,200 @@
+{
+  "checked_on": "2026-10-16",
+  "attempts": [
+    {
+      "file": "hillrichs_woelfl_2026.pdf",
+      "url": "https://www.ifo.de/DocDL/econpol-forum-1-2026-hillrichs-woelfl-more-chips.pdf",
+      "status": 200,
+      "pages": 8,
+      "bytes": 465331,
+      "sha256": "b23aa00519969d12e5881c5c396d796d0bcd7689e5dfc1b49db5c99900eaf371"
+    },
+    {
+      "file": "caselli_2019_author.pdf",
+      "url": "https://cdn.thnk.ng/pdf/diversification-through-trade.pdf",
+      "status": 200,
+      "pages": 68,
+      "bytes": 484894,
+      "sha256": "d8bed8202676c46d04c8c00af37452bea479d6e6111acef60291785f9de4d412"
+    },
+    {
+      "file": "koren_tenreyro_2007.pdf",
+      "url": "https://zenodo.org/records/1441497/files/122-1-243.pdf?download=1",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "koh_amro_2026.pdf",
+      "url": "https://amro-asia.org/wp-content/uploads/2026/03/Korea-ACV-2025-SI-1.pdf",
+      "status": 200,
+      "pages": 6,
+      "bytes": 265495,
+      "sha256": "652c4fbbcb582c9dd6fb1455928f5fc229c2aae019efe3e6ddada5f4f124402a"
+    },
+    {
+      "file": "barigozzi_2024_online.pdf",
+      "url": "https://www.iris.sssup.it/retrieve/6ced738b-40f5-4b09-955d-59d522833f46/barigozzi_etal_2024.pdf",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "li_et_al_2025.pdf",
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0313162&type=printable",
+      "status": 200,
+      "pages": 21,
+      "bytes": 1429265,
+      "sha256": "2d1870f2e55d150178da6dd42e6ae9e2ef000079c8b4381a83e668daed94b796"
+    },
+    {
+      "file": "jgbt_2021_issue_private.pdf",
+      "url": "https://www.pfw.edu/publications/jgbt/current-previous-issues/JGBT-2021-17-2.pdf",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "file": "shorrocks_1999_draft.pdf",
+      "url": "https://www.komkon.org/~tacik/science/shapley.pdf",
+      "status": 200,
+      "pages": 38,
+      "bytes": 115376,
+      "sha256": "931c59b74d68776d18bec08bd244193c1aafc5456ddbd89278ce57b64508f166"
+    },
+    {
+      "file": "imf_korea_2025.pdf",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1korea2025003-source-pdf.pdf",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "file": "wco_hs2017_ch85.pdf",
+      "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2017/2017/1685_2017e.pdf?la=en",
+      "status": 200,
+      "pages": 16,
+      "bytes": 96478,
+      "sha256": "a3cb70aea079218de105b14a58d59f10202232d98417a87c9bb35cb3a4b182a0"
+    },
+    {
+      "file": "wco_hs2022_ch85.pdf",
+      "url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/1685_2022e.pdf?la=en",
+      "status": 200,
+      "pages": 19,
+      "bytes": 463121,
+      "sha256": "1f2eada9662f4b6089e6bd90f8c5e50f93f032eabd7ae2a19014c06b711357c5"
+    },
+    {
+      "file": "oecd_vulnerabilities_2023.pdf",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/06/vulnerabilities-in-the-semiconductor-supply-chain_f4de7491/6bed616f-en.pdf",
+      "status": 200,
+      "pages": 35,
+      "bytes": 2183188,
+      "sha256": "9c8af9498bb0f199be8a06b350366728cfdd90130abcd0963b081f056540faa4",
+      "success": true
+    },
+    {
+      "file": "yu_yu_2026.pdf",
+      "url": "https://www.scirp.org/pdf/ojbm_1534991.pdf",
+      "status": 200,
+      "pages": 17,
+      "bytes": 1514298,
+      "sha256": "5c5f953e6012b52d1e0bbb9412cabd022288ec67be6540156a784baf995e8e8c",
+      "success": true
+    },
+    {
+      "file": "koren_tenreyro_2007_author.pdf",
+      "url": "https://personal.lse.ac.uk/tenreyro/volatilitydev.pdf",
+      "status": 200,
+      "pages": 45,
+      "bytes": 1089239,
+      "sha256": "5e59bfe0d776b475e4c55429020e7e62e8ea0e326eca8ad338e95a9bafec1d17",
+      "success": true
+    },
+    {
+      "file": "cadot_2011_ferdi.pdf",
+      "url": "https://ferdi.fr/dl/df-cQbXXiDadrM1S1MfMkesPPqW/ferdi-p33-trade-diversification-income-and-growth-what-do-we-know.pdf",
+      "status": 200,
+      "pages": 33,
+      "bytes": 423209,
+      "sha256": "607d6306bb9ac6208bf8cc58d143d33292c375653d516bc1c05cd9ba8a796d63",
+      "success": true
+    },
+    {
+      "file": "barigozzi_2021_lem.pdf",
+      "url": "https://www.lem.sssup.it/WPLem/files/2021-22.pdf",
+      "success": false,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "file": "barigozzi_2025_wiley.pdf",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/obes.12639",
+      "success": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "hong_2026_wiley.pdf",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jems.70027",
+      "success": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "kim_2021_iop.pdf",
+      "url": "https://iopscience.iop.org/article/10.1088/1755-1315/791/1/012170/pdf",
+      "status": 200,
+      "success": false,
+      "error": "Response is not a PDF"
+    },
+    {
+      "file": "lee_yu_2019.pdf",
+      "url": "https://kdijep.org/assets/pdf/1062/jep-41-1-1.pdf",
+      "status": 200,
+      "pages": 14,
+      "bytes": 383459,
+      "sha256": "8b6f3a454223851a45a1ef02cdc807a47ef35cf88e59abd030cea8d1dcb59b72",
+      "success": true
+    },
+    {
+      "file": "kdi_jo_jung_2023.pdf",
+      "url": "https://www.kdi.re.kr/eng/file/download?atch_no=VMUrYGLtzNKGEZ6XlD0h4Q%3D%3D",
+      "status": 200,
+      "pages": 9,
+      "bytes": 331701,
+      "sha256": "ffd1fe23fa6a2b7f535cc11a2e85ec9aeb824c04a5e8d3240208c9d740f6b801",
+      "success": true
+    },
+    {
+      "file": "kdi_jo_jung_2023_alt.pdf",
+      "url": "https://www.kdi.re.kr/eng/file/download?atch_no=xwhH0%2BA%2FHE1mPJTcBlMMNA%3D%3D",
+      "status": 200,
+      "pages": 9,
+      "bytes": 553155,
+      "sha256": "0396a0f230b3ede34bfb8ad079c3180314f1670c6f1d638f050f452d5d6dd0d9",
+      "success": true
+    },
+    {
+      "file": "koo_2026.pdf",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiOrteServHistIFrame.kci?sereArticleSearchBean.artiId=ART003354481&sereArticleSearchBean.orteFileId=KCI_FI003354481",
+      "status": 200,
+      "success": false,
+      "error": "Response is not a PDF"
+    },
+    {
+      "file": "markowitz_1952.pdf",
+      "url": "https://www.math.ust.hk/~maykwok/courses/ma362/07F/markowitz_JF.pdf",
+      "success": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "markowitz_1952_berkeley.pdf",
+      "url": "https://traders.studentorg.berkeley.edu/papers/Markowitz.pdf",
+      "status": 200,
+      "pages": 16,
+      "bytes": 465824,
+      "sha256": "27d23c2700f5fd3d32341026bf7146c870d8926fe818c68ac653ff09af781e90",
+      "success": true
+    },
+    {
+      "file": "koo_2026.pdf",
+      "status": 200,
+      "pages": 21,
+      "bytes": 851505,
+      "sha256": "5b75f5e28559cbf90fbd0105d922953eb5c7371799ee1dd39cea502893bae221",
+      "success": true,
+      "note": "Normal KCI landing-page session and referer, following its public download button"
+    }
+  ]
+}
