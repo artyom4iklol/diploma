@@ -1,0 +1,13 @@
+reporter,frequency,period,cmdCode,rows,cap_ok,status,selection_ok,unique_partners,world_usd,world_relative_gap
+392,M,202401,854231,38,True,available,True,True,227495612.62,8.791396150819732e-12
+392,M,202401,854233,25,True,available,True,True,19974617.408,5.006363857349344e-11
+392,M,202401,854239,40,True,available,True,True,1047757786.287,4.7720907418375685e-12
+392,M,202401,854290,26,True,available,True,True,140470560.583,0.0
+410,M,202401,854231,50,True,available,True,True,2712657419.0,0.0
+410,M,202401,854233,36,True,available,True,True,20182321.0,0.0
+410,M,202401,854239,49,True,available,True,True,904550462.0,0.0
+410,M,202401,854290,25,True,available,True,True,29477276.0,0.0
+392,A,2025,8542,75,True,available,True,True,35101005421.572,5.694712567860055e-14
+410,A,2025,8542,93,True,available,True,True,142827049454.0,0.0
+392,M,202512,854232,23,True,available,True,True,1367964016.895,7.311346840841822e-13
+410,M,202512,854232,33,True,available,True,True,12636909750.0,0.0

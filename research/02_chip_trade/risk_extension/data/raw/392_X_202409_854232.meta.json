@@ -1,0 +1,10 @@
+{
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?period=202409&reporterCode=392&cmdCode=854232&flowCode=X&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500&includeDesc=true",
+  "retrieved_at": "2026-10-16T04:29:07.718694+00:00",
+  "sha256": "3d3f1cf9a5499aefdaffadbf2bf50f7e6ac5e404a4f3501532ac2569a7b6986d",
+  "bytes": 20490,
+  "reporter": 392,
+  "flow": "X",
+  "period": 202409,
+  "cmdCode": "854232"
+}

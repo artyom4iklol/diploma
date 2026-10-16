@@ -1,0 +1,63 @@
+{
+  "review_date": "2026-10-16",
+  "scope": "Targeted extension of existing topic audit, not an exhaustive systematic review",
+  "sources": [
+    {
+      "id": "esposito_2022",
+      "doi": "10.1016/j.jinteco.2021.103562",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022199621001422",
+      "access": "Published abstract/introduction; full 2020 preprint, sections introduction and 3.1 compared",
+      "preprint_url": "https://mpra.ub.uni-muenchen.de/100398/15/MPRA_paper_100398.pdf",
+      "downloaded_pdf_sha256": "ae3ea96d788e4fae498723aa63a060a21d12c27d2aad9e6d8571c0e6ac1e9237"
+    },
+    {
+      "id": "lee_yu_2018",
+      "url": "https://www.bok.or.kr/imerEng/bbs/E0002902/view.do?menuNo=600342&nttId=10046902&pageIndex=8",
+      "access": "Full working paper available; introduction, data/methods and conclusions compared",
+      "downloaded_pdf_sha256": "be8e960efb4326fd3834218fb6f6ca9793d9aec2e65c499bd4589f0dc6609ea7"
+    },
+    {
+      "id": "kim_park_2018",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002393657",
+      "access": "Primary KCI metadata and abstract only; full text not obtained"
+    },
+    {
+      "id": "vannoorenberghe_wang_yu_2016",
+      "doi": "10.1016/j.euroecorev.2016.07.002",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0014292116301210",
+      "access": "Published abstract/introduction; full 2014 preprint, data, growth definition and mechanism compared",
+      "preprint_url": "https://www.econstor.eu/bitstream/10419/102257/1/cesifo_wp4916.pdf",
+      "downloaded_pdf_sha256": "2be53ecb90acb5a8c1bf646982095177b9fc145b34795d2ecd06c6743ca8e390"
+    },
+    {
+      "id": "barigozzi_et_al_2025",
+      "doi": "10.1111/obes.12639",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/obes.12639",
+      "access": "Full publisher HTML; introduction, model/estimation, volatility decomposition and diversification sections compared; working paper download failed 502; repository 403"
+    },
+    {
+      "id": "hong_et_al_2026",
+      "doi": "10.1111/jems.70027",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jems.70027",
+      "access": "Full publisher HTML; sections 2-3, 4.3 and 5.2 compared"
+    },
+    {
+      "id": "bok_2023_outlook",
+      "url": "https://www.bok.or.kr/eng/bbs/B0000358/view.do?menuNo=400413&nttId=10078732&pageIndex=1",
+      "access": "Full official PDF downloaded; semiconductor demand chapter pp.53-61 compared",
+      "preprint_url": "https://www.bok.or.kr/fileSrc/eng/a923b7aae3d7e1a9a2a2a46e97034a39/1/202307311026459360.pdf",
+      "downloaded_pdf_sha256": "eb9a3379ef080263f1bfca9ad6273859710084f6edeea4501571000aef5aa685"
+    },
+    {
+      "id": "kdi_jo_jung_2023",
+      "url": "https://www.kdi.re.kr/eng/research/analysisView?art_no=3480",
+      "access": "Official substantive web summary and explanation transcript; separate PDF not compared"
+    }
+  ],
+  "limits": [
+    "Preprint and publication versions distinguished",
+    "Kim/Park 2018 full text not obtained",
+    "No risk estimates or full historical monthly panel yet",
+    "PDF copies not redistributed in repository"
+  ]
+}

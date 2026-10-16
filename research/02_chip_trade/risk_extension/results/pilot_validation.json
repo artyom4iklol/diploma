@@ -1,0 +1,37 @@
+{
+  "pilot_requests": 34,
+  "responses_with_data": 32,
+  "empty_responses": 2,
+  "failed_requests": 0,
+  "raw_records": 992,
+  "export_responses": 26,
+  "monthly_export_availability_gate": true,
+  "full_eight_market_demand_proxy_gate": false,
+  "absent_import_reporters": [
+    490,
+    704
+  ],
+  "max_world_partner_relative_gap": 3.347879683442372e-12,
+  "minimum_annual_eight_market_coverage": 0.9589576442318547,
+  "monthly_annual_reconciliation": [
+    {
+      "reporter": 392,
+      "months": 12,
+      "monthly_world_sum_usd": 12899515010.299002,
+      "annual_world_usd": 12894381497.837,
+      "relative_gap": 0.00039812010082553663,
+      "exact_within_1ppm": false
+    },
+    {
+      "reporter": 410,
+      "months": 12,
+      "monthly_world_sum_usd": 72019703767.0,
+      "annual_world_usd": 72019703767.0,
+      "relative_gap": 0.0,
+      "exact_within_1ppm": true
+    }
+  ],
+  "estimated_risk": false,
+  "estimated_covariance": false,
+  "limitation": "Only HS854232, one complete calendar year plus Jan 2017; historical HS6 panel not collected."
+}
