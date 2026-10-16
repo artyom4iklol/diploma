@@ -250,7 +250,7 @@ def main():
     panel_sha256=hashlib.sha256((ROOT/'data/monthly_panel_full.csv.gz').read_bytes()).hexdigest()
     assert panel_sha256==quality['monthly_panel_sha256'],'Panel changed after quality control'
     data=pd.read_csv(ROOT/'data/monthly_panel_full.csv.gz')
-    annual_and_observed(data,2025 if quality['complete_extension'] else 2024)
+    annual_and_observed(data,2025 if quality['extension_analysis_ready'] else 2024)
     results=[]
     primary=run_case(data,'primary',bootstrap_blocks=(12,6))
     results.append(primary)
@@ -269,7 +269,7 @@ def main():
                         initial_year=2017,final_year=2020,sigma_start=start,sigma_end=end)
         result['grid']=[dict(case=f'temporal_{start}_{end}',**row) for row in details]
         results.append(result)
-    if quality['complete_extension']:
+    if quality['extension_analysis_ready']:
         results.append(run_case(data,'extension_2025',end_year=2025,final_year=2025,sigma_end=2025))
     for name in ['states','summary','intervals','drivers','series','components','checks','grid']:
         rows=[row for result in results for row in result[name]]

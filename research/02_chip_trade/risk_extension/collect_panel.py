@@ -9,6 +9,8 @@ import concurrent.futures
 import gzip
 import hashlib
 import json
+import math
+import os
 import threading
 import time
 import urllib.error
@@ -107,17 +109,33 @@ def import_probes():
             atomic_json(CACHE/f"{key}.meta.json", meta)
 
 
-def validate(obj, frequency, reporter, period, cmd, allowed_reporters=None):
+def select_rows(obj,reporter,period,cmd):
+    return [x for x in (obj.get('data') or []) if int(x['reporterCode'])==reporter
+            and int(x['period'])==period and int(x['cmdCode'])==cmd]
+
+
+def redact(value,secret=None):
+    value=str(value)
+    if secret:
+        value=value.replace(secret,'[REDACTED]').replace(urllib.parse.quote(secret,safe=''),'[REDACTED]')
+    return value
+
+
+def validate(obj, frequency, reporter, period, cmd, allowed_reporters=None,
+             allowed_cmds=None,max_records=500):
     all_rows = obj.get("data") or []
     allowed_reporters = allowed_reporters or [reporter]
-    rows = [x for x in all_rows if int(x["reporterCode"])==reporter]
+    rows = select_rows(obj,reporter,period,cmd)
+    allowed_cmds=allowed_cmds or [cmd]
     issues = []
     if not rows:
         return dict(status="empty", rows=0, issues=["no_rows"])
-    if len(all_rows)>=500:
+    if len(all_rows)>=max_records:
         issues.append("row_cap_reached")
     if any(int(x["reporterCode"]) not in allowed_reporters for x in all_rows):
         issues.append("unexpected_reporter_in_response")
+    if any(int(x['cmdCode']) not in allowed_cmds or int(x['period'])!=period for x in all_rows):
+        issues.append('unexpected_product_or_period_in_response')
     partners=[]
     for x in rows:
         correct=(int(x["period"])==period and int(x["reporterCode"])==reporter
@@ -129,7 +147,7 @@ def validate(obj, frequency, reporter, period, cmd, allowed_reporters=None):
         expected="H5" if (period//100 if frequency=="M" else period)<=2021 else "H6"
         if x["classificationCode"]!=expected:
             issues.append("unexpected_hs_edition")
-        if x.get("primaryValue") is None or float(x["primaryValue"])<0:
+        if x.get("primaryValue") is None or not math.isfinite(float(x["primaryValue"])) or float(x["primaryValue"])<0:
             issues.append("invalid_value")
         partners.append(int(x["partnerCode"]))
     if len(partners)!=len(set(partners)):
@@ -156,30 +174,40 @@ def read_cached(task):
         raw=gzip.decompress(path.read_bytes());meta=json.loads(meta_path.read_text())
         assert hashlib.sha256(raw).hexdigest()==meta["sha256"], key
         obj=json.loads(raw)
-        return dict(meta,check=validate(obj,*task,allowed_reporters=meta.get("response_reporters")),cache_hit=True)
+        return dict(meta,check=validate(obj,*task,allowed_reporters=meta.get("response_reporters"),
+                    allowed_cmds=meta.get('response_cmdCodes'),max_records=meta.get('max_records',500)),cache_hit=True)
     return None
 
 
-def retrieve_group(tasks, limiter, client):
+def retrieve_group(tasks, limiter, client, api_key=None):
     frequency,_,period,cmd=tasks[0]
-    reporters=sorted(t[1] for t in tasks)
-    request_id=f"{frequency}_{'-'.join(map(str,reporters))}_{period}_{cmd}"
-    params=dict(period=period,reporterCode=','.join(map(str,reporters)),cmdCode=cmd,flowCode="X",
-                partner2Code=0,customsCode="C00",motCode=0,maxRecords=500,includeDesc="true")
-    url=f"https://comtradeapi.un.org/public/v1/preview/C/{frequency}/HS?"+urllib.parse.urlencode(params)
+    reporters=sorted({t[1] for t in tasks})
+    cmds=sorted({t[3] for t in tasks})
+    assert api_key or len(cmds)==1,'Public preview supports one product per call'
+    max_records=100000 if api_key else 500
+    request_id=f"{frequency}_{'-'.join(map(str,reporters))}_{period}_{'-'.join(map(str,cmds))}"
+    params=dict(period=period,reporterCode=','.join(map(str,reporters)),cmdCode=','.join(map(str,cmds)),flowCode="X",
+                partner2Code=0,customsCode="C00",motCode=0,maxRecords=max_records,includeDesc="true")
+    endpoint='data/v1/get' if api_key else 'public/v1/preview'
+    url=f"https://comtradeapi.un.org/{endpoint}/C/{frequency}/HS?"+urllib.parse.urlencode(params)
+    # The documented credential is used only in the transport URL. Persisted URLs
+    # and HTTP errors are redacted; raw data responses contain no request headers.
+    transport_url=url+('&subscription-key='+urllib.parse.quote(api_key,safe='') if api_key else '')
     attempts=[]
     for attempt in range(7):
         if limiter.blocked.is_set():
             return [dict(task_id=task_id(*task),frequency=frequency,reporter=task[1],period=period,
-                         cmdCode=cmd,flow='X',url=url,cache_hit=False,
+                         cmdCode=task[3],flow='X',url=url,cache_hit=False,
                          check=dict(status='blocked',rows=0,issues=['collection_stopped_after_access_or_quota_error'])) for task in tasks]
         limiter.acquire()
         start=time.monotonic()
         try:
-            response=client.get(url)
+            response=client.get(transport_url)
             limiter.completed()
             response.raise_for_status()
             raw=response.content
+            if api_key and api_key.encode() in raw:
+                raise ValueError('Credential unexpectedly echoed by server; response was not cached')
             obj=json.loads(raw)
             if obj.get("error"):
                 raise ValueError(str(obj["error"]))
@@ -191,14 +219,16 @@ def retrieve_group(tasks, limiter, client):
             for task in tasks:
                 key=task_id(*task);reporter=task[1]
                 meta=dict(task_id=key,frequency=frequency,reporter=reporter,period=period,
-                          cmdCode=cmd,flow="X",url=url,retrieved_at=utcnow(),source_request_id=request_id,
+                          cmdCode=task[3],flow="X",url=url,retrieved_at=utcnow(),source_request_id=request_id,
                           response_reporters=reporters,sha256=hashlib.sha256(raw).hexdigest(),
+                          response_cmdCodes=cmds,max_records=max_records,
+                          access_mode='basic_api' if api_key else 'public_preview',
                           bytes=len(raw),attempts=attempts,http_version=response.http_version)
                 path=CACHE/f"{key}.json.gz"
                 temp=path.with_suffix(".tmp");temp.write_bytes(gzip.compress(raw,mtime=0));temp.replace(path)
                 atomic_json(CACHE/f"{key}.meta.json",meta)
                 try:
-                    check=validate(obj,*task,allowed_reporters=reporters)
+                    check=validate(obj,*task,allowed_reporters=reporters,allowed_cmds=cmds,max_records=max_records)
                 except (KeyError,ValueError,TypeError) as exc:
                     check=dict(status="invalid",rows=0,issues=["schema_error: "+str(exc)])
                 result.append(dict(meta,check=check,cache_hit=False))
@@ -206,20 +236,20 @@ def retrieve_group(tasks, limiter, client):
         except (httpx.HTTPError, TimeoutError, ValueError, OSError) as exc:
             limiter.completed()
             status=exc.response.status_code if isinstance(exc,httpx.HTTPStatusError) else None
-            attempts.append(dict(at=utcnow(),status=status,error=str(exc),seconds=round(time.monotonic()-start,3)))
+            attempts.append(dict(at=utcnow(),status=status,error=redact(exc,api_key),seconds=round(time.monotonic()-start,3)))
             delay=min(3*2**attempt,60)
             if status==429:
                 header=exc.response.headers.get("Retry-After")
                 if header and str(header).isdigit():delay=max(delay,int(header))
                 attempts[-1]['retry_after']=header
-                attempts[-1]['response_detail']=exc.response.text[:300]
+                attempts[-1]['response_detail']=redact(exc.response.text,api_key)[:300]
                 # A request's exponential wait must not starve unrelated queries.
                 # The shared pause still honors the server's Retry-After.
                 shared=max(3,int(header)) if header and str(header).isdigit() else 3
                 limiter.pause(shared)
                 time.sleep(delay)
             elif status in (400,401,403):
-                attempts[-1]['response_detail']=exc.response.text[:2000]
+                attempts[-1]['response_detail']=redact(exc.response.text,api_key)[:2000]
                 attempts[-1]['retry_after']=exc.response.headers.get('Retry-After')
                 if status in (401,403):limiter.blocked.set()
                 with LOG_LOCK:
@@ -232,7 +262,7 @@ def retrieve_group(tasks, limiter, client):
                 with (CACHE/'request_attempts.jsonl').open('a') as log:
                     log.write(json.dumps(dict(request_id=request_id,**attempts[-1]))+'\n')
     return [dict(task_id=task_id(*task),frequency=frequency,reporter=task[1],period=period,
-                 cmdCode=cmd,flow="X",url=url,attempts=attempts,cache_hit=False,
+                 cmdCode=task[3],flow="X",url=url,attempts=attempts,cache_hit=False,
                  check=dict(status="http_error",rows=0,issues=["request_failed"])) for task in tasks]
 
 
@@ -265,7 +295,13 @@ def main():
     parser.add_argument("--workers",type=int,default=1)
     parser.add_argument("--through",type=int,default=2025)
     parser.add_argument("--cache-only",action="store_true")
+    parser.add_argument('--api-key-env',help='Environment variable holding a free UN Comtrade API key; never persisted')
+    parser.add_argument('--priority-year',type=int,action='append',default=[],
+                        help='Download missing cells for this year first; does not change the sample')
     args=parser.parse_args()
+    api_key=os.environ.get(args.api_key_env) if args.api_key_env else None
+    if args.api_key_env and not api_key:
+        raise SystemExit('Requested API key environment variable is empty; no network request made')
     for p in (CACHE,BUNDLES):p.mkdir(parents=True,exist_ok=True)
     restore_bundles();import_probes()
     tasks=[("M",r,year*100+month,cmd) for year in range(2017,args.through+1)
@@ -292,14 +328,21 @@ def main():
     for task in tasks:
         cached=read_cached(task)
         if cached is not None:records.append(cached)
-        else:missing[(task[0],task[2],task[3])].append(task)
+        else:missing[(task[0],task[2],0 if api_key else task[3])].append(task)
     save()
     try:
         with httpx.Client(http2=True,timeout=45,follow_redirects=True,
                 limits=httpx.Limits(max_connections=args.workers,max_keepalive_connections=args.workers,keepalive_expiry=60),
                 headers={"User-Agent":"diploma-research/1.0 (public-preview; rate-limited)"}) as client:
             with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
-                futures={pool.submit(retrieve_group,group,limiter,client):group for group in missing.values()}
+                groups=list(missing.values())
+                if args.priority_year:
+                    def priority(group):
+                        frequency,_,period,_=group[0]
+                        year=period//100 if frequency=='M' else period
+                        return (0 if year in args.priority_year else 1,frequency!='M',period)
+                    groups.sort(key=priority)
+                futures={pool.submit(retrieve_group,group,limiter,client,api_key):group for group in groups}
                 checkpoint=len(records)//20
                 bundle_checkpoint=len(records)//144
                 for future in concurrent.futures.as_completed(futures):

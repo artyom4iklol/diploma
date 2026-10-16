@@ -13,10 +13,20 @@ python research/02_chip_trade/risk_extension/collect_panel.py --workers 1
 python research/02_chip_trade/risk_extension/build_monthly_panel.py
 python research/02_chip_trade/risk_extension/analyze_monthly.py
 python research/02_chip_trade/risk_extension/build_monthly_report.py
-python -m unittest discover -s research/02_chip_trade/risk_extension -p 'test_monthly_method.py' -v
+python -m unittest discover -s research/02_chip_trade/risk_extension -p 'test_monthly*.py' -v
 ```
 
 Сбор повторно использует кэш. Если сохранены годовые пакеты исходных ответов, они автоматически восстанавливаются перед запросами пропусков. `--cache-only` собирает манифест доступного кэша без новых сетевых запросов; такая неполная база не проходит контроль основного анализа. После успешного полного сбора `build_monthly_panel.py` и `analyze_monthly.py` работают без сети.
+
+При исчерпании публичной квоты сбор останавливается после первого 401/403. Время возобновления хранится в попытке неудачного запроса; до него запросы не повторяются. Для продолжения можно использовать официальный бесплатный API, если у исследователя уже есть ключ. Его значение передается только через переменную окружения, а не аргумент командной строки и не файлы репозитория:
+
+```bash
+python research/02_chip_trade/risk_extension/collect_panel.py --workers 1 --api-key-env UNCOMTRADE_API_KEY
+```
+
+Значение переменной в этой команде не показано. Ключ в чат или GitHub отправлять не требуется. Режим Basic использует `data/v1/get`, до 100 000 строк и один месяц с несколькими товарами в запросе; платные bulk-эндпоинты не используются. Исходный общий ответ сохраняется, а каждая страна × месяц × товар фильтруется отдельно и проходит прежний контроль. URL и ошибки сохраняются без ключа. Без предоставленного ключа этот сетевой режим не считается проверенным на реальном аккаунте.
+
+Параметры бесплатного доступа и выдача ключа: https://uncomtrade.org/docs/subscriptions/ ; https://uncomtrade.org/docs/api-subscription-keys/ .
 
 ## Файлы
 

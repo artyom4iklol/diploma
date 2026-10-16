@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from collect_panel import ROOT, CACHE, MANIFEST, restore_bundles, validate, task_id
+from collect_panel import ROOT, CACHE, MANIFEST, restore_bundles, validate, task_id,select_rows
 
 OUT = ROOT / "results" / "monthly"
 HS6 = (854231,854232,854233,854239,854290)
@@ -31,11 +31,12 @@ def main():
         raw=gzip.decompress((CACHE/f'{key}.json.gz').read_bytes())
         assert hashlib.sha256(raw).hexdigest()==meta['sha256'],key
         obj=json.loads(raw)
-        check=validate(obj,*task,allowed_reporters=meta.get('response_reporters'))
+        check=validate(obj,*task,allowed_reporters=meta.get('response_reporters'),
+                       allowed_cmds=meta.get('response_cmdCodes'),max_records=meta.get('max_records',500))
         audits.append(dict(task_id=key,frequency=task[0],reporter=task[1],period=task[2],cmdCode=task[3],**check))
         if check['status']!='ok':
             bad.append(key);invalid.append(key);continue
-        rows=[x for x in obj['data'] if int(x['reporterCode'])==task[1]]
+        rows=select_rows(obj,task[1],task[2],task[3])
         for x in rows:
             records.append({k:x.get(k) for k in ['freqCode','reporterCode','reporterISO','period','refYear',
                 'cmdCode','cmdDesc','classificationCode','partnerCode','partnerISO','partnerDesc',
@@ -87,9 +88,16 @@ def main():
     bridge['relative_gap']=np.where(bridge.comparable,
         (bridge.sum_months_usd-bridge.official_annual_usd)/bridge.official_annual_usd,np.nan)
     bridge.reset_index().to_csv(OUT/'monthly_annual_bridge.csv',index=False)
-    year_months=monthly[monthly.cmdCode.eq(8542)&monthly.partnerCode.eq(0)].groupby(['reporterISO','refYear']).period.nunique()
-    year_months.name='months'
-    year_months.rename('months').reset_index().to_csv(OUT/'year_coverage.csv',index=False)
+    year_months=monthly[monthly.cmdCode.eq(8542)&monthly.partnerCode.eq(0)].groupby(
+        ['reporterCode','reporterISO','refYear']).period.nunique().rename('months_hs8542').reset_index()
+    complete_counts=available.reset_index()[['reporterCode','period']]
+    complete_counts['refYear']=complete_counts.period//100
+    complete_counts=complete_counts.groupby(['reporterCode','refYear']).size().rename('months_all_products').reset_index()
+    year_months=year_months.merge(complete_counts,on=['reporterCode','refYear'],how='left')
+    year_months['months_all_products']=year_months.months_all_products.fillna(0).astype(int)
+    year_months.to_csv(OUT/'year_coverage.csv',index=False)
+    primary_world=available.loc[available.index.get_level_values('period')<202500]
+    primary_partners=partner.loc[partner.index.get_level_values('period')<202500]
     summary=dict(logical_request_checks=len(audit),
         unique_source_urls=len({m['url'] for m in manifest if 'sha256' in m}),
         listed_source_urls=len({m['url'] for m in manifest}),
@@ -99,16 +107,20 @@ def main():
         product_world_all_pass=bool(available['pass'].all()),
         max_product_world_relative_gap=float(available.relative_gap.abs().max()),
         product_partner_checks=len(partner),product_partner_failures=int((~partner['pass']).sum()),
+        primary_product_world_all_pass=bool(primary_world['pass'].all()),
+        primary_product_partner_failures=int((~primary_partners['pass']).sum()),
         max_request_world_relative_gap=float(audit.world_relative_gap.max()),
         max_monthly_official_annual_relative_gap=float(bridge.relative_gap.abs().max()),
-        years=year_months.reset_index().to_dict(orient='records'),
+        years=year_months.to_dict(orient='records'),
         source_manifest_sha256=manifest_sha256,
         monthly_panel_sha256=hashlib.sha256((ROOT/'data/monthly_panel_full.csv.gz').read_bytes()).hexdigest(),
         protocol_sha256=hashlib.sha256((ROOT/'monthly_analysis_protocol.md').read_bytes()).hexdigest(),
         complete_primary=all(t in found for t in expected if t[1]<202500) and not any(k.startswith('M_') and int(k.split('_')[2])<202500 for k in bad),
         complete_extension=not missing and not bad)
-    summary['analysis_ready']=(summary['complete_primary'] and summary['product_world_all_pass']
-                               and summary['product_partner_failures']==0)
+    summary['analysis_ready']=(summary['complete_primary'] and summary['primary_product_world_all_pass']
+                               and summary['primary_product_partner_failures']==0)
+    summary['extension_analysis_ready']=(summary['complete_extension'] and summary['product_world_all_pass']
+                                         and summary['product_partner_failures']==0)
     (OUT/'data_quality.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in summary.items() if k not in ['years','invalid_requests','unavailable_requests']},indent=2))
     if not summary['analysis_ready']:
