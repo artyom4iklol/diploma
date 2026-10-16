@@ -28,6 +28,9 @@ OUTPUT = HERE / 'chapter1.docx'
 BLACK = RGBColor(0, 0, 0)
 NS = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
 TOKEN = re.compile(r'\[\[ref ([^|]+)\|([^\]]+)\]\]')
+INLINE_MATH = {'sⱼ': ('s', 'j'), 'gᵢ': ('g', 'i'), 'wᵢ': ('w', 'i'),
+               'aₖ': ('a', 'k'), 'bⱼ|ₖ': ('b', 'j|k')}
+INLINE_TOKEN = re.compile('|'.join(re.escape(s) for s in INLINE_MATH))
 
 
 def element(tag, **attrs):
@@ -51,10 +54,10 @@ def add_text_node(parent, value):
     parent.append(node)
 
 
-def add_math_run(math, text):
+def add_math_run(math, text, italic=False):
     run = element('m:r')
     props = element('m:rPr')
-    props.append(element('m:sty', **{'m:val': 'p'}))
+    props.append(element('m:sty', **{'m:val': 'i' if italic else 'p'}))
     run.append(props)
     wt = element('m:t')
     wt.text = text
@@ -64,11 +67,23 @@ def add_math_run(math, text):
 
 def add_indexed(math, base, index, power=None):
     node = element('m:sSubSup' if power is not None else 'm:sSub')
-    expr = element('m:e'); add_math_run(expr, base); node.append(expr)
-    sub = element('m:sub'); add_math_run(sub, index); node.append(sub)
+    expr = element('m:e'); add_math_run(expr, base, True); node.append(expr)
+    sub = element('m:sub'); add_math_run(sub, index, True); node.append(sub)
     if power is not None:
         sup = element('m:sup'); add_math_run(sup, power); node.append(sup)
     math.append(node)
+
+
+def add_body_text(paragraph, text):
+    """Preserve editable subscripts in prose instead of Unicode approximations."""
+    pos = 0
+    for match in INLINE_TOKEN.finditer(text):
+        paragraph.add_run(text[pos:match.start()])
+        math = element('m:oMath')
+        add_indexed(math, *INLINE_MATH[match.group()])
+        paragraph._p.append(math)
+        pos = match.end()
+    paragraph.add_run(text[pos:])
 
 
 def add_sum(math, index, body):
@@ -98,7 +113,14 @@ def add_equation(doc, key):
     mp.append(pr)
     math = element('m:oMath')
     if key == 'variance':
-        add_math_run(math, 'Var(G) = ')
+        add_math_run(math, 'Var('); add_math_run(math, 'G', True)
+        add_math_run(math, ') = ')
+        transposed = element('m:sSup')
+        expr = element('m:e'); add_math_run(expr, 'w', True); transposed.append(expr)
+        power = element('m:sup'); add_math_run(power, 'T'); transposed.append(power)
+        math.append(transposed)
+        add_math_run(math, 'Σ'); add_math_run(math, 'w', True)
+        add_math_run(math, ' = ')
         def own(e):
             add_indexed(e, 'w', 'i', '2'); add_math_run(e, ' Var(')
             add_indexed(e, 'g', 'i'); add_math_run(e, ')')
@@ -195,7 +217,9 @@ def main():
         rprops.append(element('w:rStyle', **{'w:val': doc.styles['Footnote Reference'].style_id}))
         r.append(rprops); r.append(element('w:footnoteRef')); para.append(r)
         text_run = element('w:r')
-        text = sources[source_id]['citation'].rstrip('.') + '. ' + locator.strip().rstrip('.') + '.'
+        row = sources[source_id]
+        cited_version = row.get('consulted_citation', row['citation'])
+        text = cited_version.rstrip('.') + '. ' + locator.strip().rstrip('.') + '.'
         add_text_node(text_run, ' ' + text)
         para.append(text_run); foot.append(para); footroot.append(foot)
 
@@ -215,14 +239,14 @@ def main():
             for match in TOKEN.finditer(block):
                 segment = block[pos:match.start()]
                 if segment:
-                    p.add_run(segment)
+                    add_body_text(p, segment)
                 elif previous_ref:
                     comma = p.add_run(',')
                     font(comma.font, 9)
                     comma.font.superscript = True
                 citation(p, match.group(1), match.group(2))
                 pos = match.end(); previous_ref = True
-            p.add_run(block[pos:])
+            add_body_text(p, block[pos:])
 
     bibliography_heading = doc.add_paragraph('Список использованных источников к первой главе', style='Heading 1')
     bibliography_heading.paragraph_format.page_break_before = True
@@ -230,12 +254,14 @@ def main():
         row = sources[sid]
         p = doc.add_paragraph()
         p.paragraph_format.line_spacing = 1.15
-        p.paragraph_format.space_after = Pt(6)
+        p.paragraph_format.space_after = Pt(3)
         p.paragraph_format.first_line_indent = Cm(-0.7)
         p.paragraph_format.left_indent = Cm(0.7)
         text = f"{i}. {row['citation']}"
         if row['doi']:
             text += f" DOI: {row['doi']}."
+        if row.get('consulted_citation'):
+            text += f" Использованная версия: {row['consulted_citation']}"
         p.add_run(text)
 
     fp = Part(PackURI('/word/footnotes.xml'), CT.WML_FOOTNOTES,
@@ -283,10 +309,14 @@ def main():
         assert b'<w:tbl>' not in xml
         assert b'<w:drawing>' not in xml
         assert b'<w:hyperlink' not in xml
+        root = etree.fromstring(xml)
         assert xml.count(b'<w:footnoteReference ') == footcount
+        equations = len(root.findall('.//' + qn('m:oMathPara')))
+        inline_math = len(root.findall('.//' + qn('m:oMath'))) - equations
         assert b'[[ref ' not in xml and b'[[EQ ' not in xml
     report = {'document': OUTPUT.name, 'source_count': len(used), 'native_footnotes': footcount,
-              'sections': 3, 'editable_equations': 3, 'tables': 0, 'figures': 0,
+              'sections': 3, 'editable_equations': equations, 'native_inline_math': inline_math,
+              'tables': 0, 'figures': 0,
               'hyperlinks': 0, 'font': 'Times New Roman', 'body_points': 12,
               'body_line_spacing': 1.5, 'footnote_points': 10,
               'reference': 'Supplied Naumov coursework: formal prose, numbered footnotes, black typography'}

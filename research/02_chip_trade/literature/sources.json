@@ -39,7 +39,7 @@
     },
     {
       "id": "yu_yu_2026",
-      "citation": "Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning. Open Journal of Business and Management 14(1), 51–67.",
+      "citation": "Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning: Strategic Implications for International Business and Supply Chain Management. Open Journal of Business and Management 14(1), 51–67.",
       "doi": "10.4236/ojbm.2026.141004",
       "fulltext_url": "https://www.scirp.org/pdf/ojbm_1534991.pdf",
       "alternative_urls": [],
@@ -250,7 +250,8 @@
       "pdf_pages": 96,
       "bytes": 1310650,
       "sha256": "ae3ea96d788e4fae498723aa63a060a21d12c27d2aad9e6d8571c0e6ac1e9237",
-      "archive_status": "fulltext_link_only_redistribution_not_verified"
+      "archive_status": "fulltext_link_only_redistribution_not_verified",
+      "consulted_citation": "Esposito F. (2020). Demand Risk and Diversification through Trade. MPRA Paper 100398, May."
     },
     {
       "id": "vannoorenberghe_wang_yu_2016",
@@ -267,7 +268,8 @@
       "pdf_pages": 42,
       "bytes": 791265,
       "sha256": "2be53ecb90acb5a8c1bf646982095177b9fc145b34795d2ecd06c6743ca8e390",
-      "archive_status": "fulltext_link_only_redistribution_not_verified"
+      "archive_status": "fulltext_link_only_redistribution_not_verified",
+      "consulted_citation": "Vannoorenberghe G.; Wang Z.; Yu Z. (2014). Volatility and Diversification of Exports: Firm-Level Theory and Evidence. CESifo Working Paper 4916, July."
     },
     {
       "id": "barigozzi_et_al_2025",
@@ -283,9 +285,16 @@
       "license": "CC BY 4.0",
       "fulltext_status": "not_downloaded",
       "repository_file": null,
-      "note": "CC BY confirmed on the publisher and University of Bologna record. Current PDF requests returned HTTP 403; LEM preprint endpoint returned HTTP 502. No complete PDF acquired.",
+      "note": "CC BY confirmed on the publisher and University of Bologna record. Current PDF requests returned HTTP 403; LEM preprint endpoint returned HTTP 502. No complete PDF acquired. Full publisher HTML was accessible during the Chapter 1 audit on 2026-10-16; the cited methodology and results were verified there. The PDF retrieval status is unchanged.",
       "archive_status": "download_unavailable_in_this_environment",
-      "license_evidence": "Publisher or institutional repository article record"
+      "license_evidence": "Publisher or institutional repository article record",
+      "fulltext_html_url": "https://onlinelibrary.wiley.com/doi/10.1111/obes.12639",
+      "chapter1_verification": {
+        "date": "2026-10-16",
+        "basis": "publisher full HTML text",
+        "sections_examined": "Sections 2–5",
+        "pdf_obtained": false
+      }
     },
     {
       "id": "shorrocks_2013",
@@ -302,7 +311,8 @@
       "pdf_pages": 38,
       "bytes": 115376,
       "sha256": "931c59b74d68776d18bec08bd244193c1aafc5456ddbd89278ce57b64508f166",
-      "archive_status": "fulltext_link_only_redistribution_not_verified"
+      "archive_status": "fulltext_link_only_redistribution_not_verified",
+      "consulted_citation": "Shorrocks A. F. (1999). Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June."
     },
     {
       "id": "markowitz_1952",
@@ -353,7 +363,8 @@
       "pdf_pages": 68,
       "bytes": 484894,
       "sha256": "d8bed8202676c46d04c8c00af37452bea479d6e6111acef60291785f9de4d412",
-      "archive_status": "fulltext_link_only_redistribution_not_verified"
+      "archive_status": "fulltext_link_only_redistribution_not_verified",
+      "consulted_citation": "Caselli F.; Koren M.; Lisicky M.; Tenreyro S. (2019). Diversification through Trade. Author manuscript, June."
     },
     {
       "id": "cadot_carrere_strausskahn_2013",
@@ -370,7 +381,8 @@
       "pdf_pages": 33,
       "bytes": 423209,
       "sha256": "607d6306bb9ac6208bf8cc58d143d33292c375653d516bc1c05cd9ba8a796d63",
-      "archive_status": "fulltext_link_only_redistribution_not_verified"
+      "archive_status": "fulltext_link_only_redistribution_not_verified",
+      "consulted_citation": "Cadot O.; Carrère C.; Strauss-Kahn V. (2011). Trade Diversification, Income, and Growth: What Do We Know? FERDI Working Paper P33, November."
     },
     {
       "id": "lee_yu_2019",
@@ -403,9 +415,16 @@
       "license": "CC BY",
       "fulltext_status": "not_downloaded",
       "repository_file": null,
-      "note": "Publisher identifies the article as CC BY open access, but direct retrieval in this environment returned HTTP 403. No complete PDF acquired.",
+      "note": "Publisher identifies the article as CC BY open access, but direct retrieval in this environment returned HTTP 403. No complete PDF acquired. Full publisher HTML was accessible during the Chapter 1 audit on 2026-10-16; the cited methodology and results were verified there. The PDF retrieval status is unchanged.",
       "archive_status": "download_unavailable_in_this_environment",
-      "license_evidence": "Publisher or institutional repository article record"
+      "license_evidence": "Publisher or institutional repository article record",
+      "fulltext_html_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jems.70027",
+      "chapter1_verification": {
+        "date": "2026-10-16",
+        "basis": "publisher full HTML text",
+        "sections_examined": "Sections 2–4 and 7",
+        "pdf_obtained": false
+      }
     },
     {
       "id": "oecd_mapping_2025",

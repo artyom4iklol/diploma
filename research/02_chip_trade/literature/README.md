@@ -6,6 +6,8 @@
 
 У файлов в `fulltext/` сохранены исходные байты. Авторские права остаются у указанных правообладателей. Лицензии на тексты не распространяются автоматически на отдельно оговоренные материалы третьих лиц. Сопроводительная атрибуция — ниже и в `sources.json`.
 
+При редакционной проверке первой главы дополнительно изучены методические и результативные разделы полных электронных версий Barigozzi et al. (2025) и Hong et al. (2026) на сайте издателя. Это устраняет ограничение анализа только аннотациями для этих двух работ; локальные полные PDF по-прежнему не получены. Для пяти работ, прочитанных в рабочих или авторских версиях, в `sources.json` добавлены точные реквизиты использованной версии. Подробная сверка утверждений главы сохранена в `../documents/chapter1_source_audit.json`.
+
 ## Как получить остальные доступные PDF
 
 `python fetch_fulltexts.py` проверяет сохраненные открытые PDF. `python fetch_fulltexts.py --personal` дополнительно загружает доступные PDF по ссылкам в локальную папку `personal_cache/`, исключенную из Git. Скрипт проверяет PDF и SHA-256, не обходит авторизацию и ограничения сайтов. Запуск с `--personal` не дает разрешения публиковать скачанные материалы.
@@ -32,7 +34,7 @@ SHA-256: `652c4fbbcb582c9dd6fb1455928f5fc229c2aae019efe3e6ddada5f4f124402a`; 265
 
 ### 3 yu_yu_2026
 
-Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning. Open Journal of Business and Management 14(1), 51–67.
+Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning: Strategic Implications for International Business and Supply Chain Management. Open Journal of Business and Management 14(1), 51–67.
 
 Версия: version of record.
 Полный PDF в репозитории: [fulltext/yu_yu_2026.pdf](fulltext/yu_yu_2026.pdf). Лицензия: CC BY 4.0.
