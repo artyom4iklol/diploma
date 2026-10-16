@@ -15,14 +15,14 @@ HS6 = (854231,854232,854233,854239,854290)
 def read_manifest():
     CACHE.mkdir(parents=True,exist_ok=True)
     restore_bundles()
-    manifest=json.loads(MANIFEST.read_text())
-    return manifest
+    raw_manifest=MANIFEST.read_bytes()
+    return json.loads(raw_manifest),hashlib.sha256(raw_manifest).hexdigest()
 
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
-    manifest=read_manifest()
-    records=[];audits=[];bad=[]
+    manifest,manifest_sha256=read_manifest()
+    records=[];audits=[];bad=[];invalid=[]
     for meta in manifest:
         task=(meta['frequency'],int(meta['reporter']),int(meta['period']),int(meta['cmdCode']))
         key=task_id(*task)
@@ -34,7 +34,7 @@ def main():
         check=validate(obj,*task,allowed_reporters=meta.get('response_reporters'))
         audits.append(dict(task_id=key,frequency=task[0],reporter=task[1],period=task[2],cmdCode=task[3],**check))
         if check['status']!='ok':
-            bad.append(key);continue
+            bad.append(key);invalid.append(key);continue
         rows=[x for x in obj['data'] if int(x['reporterCode'])==task[1]]
         for x in rows:
             records.append({k:x.get(k) for k in ['freqCode','reporterCode','reporterISO','period','refYear',
@@ -90,8 +90,11 @@ def main():
     year_months=monthly[monthly.cmdCode.eq(8542)&monthly.partnerCode.eq(0)].groupby(['reporterISO','refYear']).period.nunique()
     year_months.name='months'
     year_months.rename('months').reset_index().to_csv(OUT/'year_coverage.csv',index=False)
-    summary=dict(logical_request_checks=len(audit),unique_source_urls=len({m['url'] for m in manifest}),
-        monthly_rows=len(monthly),annual_2025_rows=len(annual_new),invalid_requests=bad,
+    summary=dict(logical_request_checks=len(audit),
+        unique_source_urls=len({m['url'] for m in manifest if 'sha256' in m}),
+        listed_source_urls=len({m['url'] for m in manifest}),
+        monthly_rows=len(monthly),annual_2025_rows=len(annual_new),
+        invalid_requests=invalid,unavailable_requests=bad,
         missing_monthly_cells=len(missing),product_world_checks=len(available),
         product_world_all_pass=bool(available['pass'].all()),
         max_product_world_relative_gap=float(available.relative_gap.abs().max()),
@@ -99,14 +102,17 @@ def main():
         max_request_world_relative_gap=float(audit.world_relative_gap.max()),
         max_monthly_official_annual_relative_gap=float(bridge.relative_gap.abs().max()),
         years=year_months.reset_index().to_dict(orient='records'),
-        source_manifest_sha256=hashlib.sha256(MANIFEST.read_bytes()).hexdigest(),
+        source_manifest_sha256=manifest_sha256,
+        monthly_panel_sha256=hashlib.sha256((ROOT/'data/monthly_panel_full.csv.gz').read_bytes()).hexdigest(),
         protocol_sha256=hashlib.sha256((ROOT/'monthly_analysis_protocol.md').read_bytes()).hexdigest(),
         complete_primary=all(t in found for t in expected if t[1]<202500) and not any(k.startswith('M_') and int(k.split('_')[2])<202500 for k in bad),
         complete_extension=not missing and not bad)
+    summary['analysis_ready']=(summary['complete_primary'] and summary['product_world_all_pass']
+                               and summary['product_partner_failures']==0)
     (OUT/'data_quality.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({k:v for k,v in summary.items() if k not in ['years','invalid_requests']},indent=2))
-    if not summary['complete_primary'] or not summary['product_world_all_pass']:
-        raise SystemExit('Main analysis blocked: monthly completeness/product World gate failed. See data_quality.json')
+    print(json.dumps({k:v for k,v in summary.items() if k not in ['years','invalid_requests','unavailable_requests']},indent=2))
+    if not summary['analysis_ready']:
+        raise SystemExit('Main analysis blocked: completeness or product reconciliation failed. See data_quality.json')
 
 
 if __name__=='__main__':main()

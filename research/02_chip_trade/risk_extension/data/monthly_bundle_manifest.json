@@ -1,0 +1,86 @@
+[
+  {
+    "path": "data/monthly_raw/A_392_2025.jsonl.gz",
+    "requests": 1,
+    "sha256": "10dc7f7258aa8858538e62207d791fd1a2965d6dc564197c352e1024fb01c5f0",
+    "bytes": 4229
+  },
+  {
+    "path": "data/monthly_raw/A_410_2025.jsonl.gz",
+    "requests": 1,
+    "sha256": "535a5592e52ecfea0ae014e71b20fd006bafee6b3b40cea5a8e9dbb8f1ba2135",
+    "bytes": 4575
+  },
+  {
+    "path": "data/monthly_raw/M_392_2017.jsonl.gz",
+    "requests": 72,
+    "sha256": "54f06b7dc819190bdf622fa8cd69b30a9b6818a7db63635bcd2606e0d5316a69",
+    "bytes": 269925
+  },
+  {
+    "path": "data/monthly_raw/M_392_2018.jsonl.gz",
+    "requests": 72,
+    "sha256": "f324bddda9707828c8585e55e8e3f5b4ada2aa4c89f5bc9b3f3cd91dde1c52c6",
+    "bytes": 280937
+  },
+  {
+    "path": "data/monthly_raw/M_392_2019.jsonl.gz",
+    "requests": 72,
+    "sha256": "0008fc3084aa9826e6d4a58bb7de5e56313040f3e31b03cdcab9a041970f72fa",
+    "bytes": 278945
+  },
+  {
+    "path": "data/monthly_raw/M_392_2020.jsonl.gz",
+    "requests": 51,
+    "sha256": "4d960c53573086e77d9e70e57a1413009246868884739f22b8efca9efab6ed1a",
+    "bytes": 193674
+  },
+  {
+    "path": "data/monthly_raw/M_392_2024.jsonl.gz",
+    "requests": 16,
+    "sha256": "a2232c129da8861ee166cf34d27e5696b45d8f85a859ea57bfa847976e1322d1",
+    "bytes": 17914
+  },
+  {
+    "path": "data/monthly_raw/M_392_2025.jsonl.gz",
+    "requests": 1,
+    "sha256": "5f06ab5b65ebb24d82aabc0c8fb77e2c14348826ad8fc1d5863fa7a89c055565",
+    "bytes": 1941
+  },
+  {
+    "path": "data/monthly_raw/M_410_2017.jsonl.gz",
+    "requests": 72,
+    "sha256": "ee4a210b594f98738f94e6e9996fb2744e2fdcbd36f7cc0087320977162d42ca",
+    "bytes": 271596
+  },
+  {
+    "path": "data/monthly_raw/M_410_2018.jsonl.gz",
+    "requests": 72,
+    "sha256": "bcd198396c26f3ec9f60af40e6d7fc911109cdeb9d60f6a87148d44f8a9407b4",
+    "bytes": 281016
+  },
+  {
+    "path": "data/monthly_raw/M_410_2019.jsonl.gz",
+    "requests": 72,
+    "sha256": "5f549d44b8914459f8c792f0f0c4916a3dcbbd628c354304b16974ced804f0f7",
+    "bytes": 279026
+  },
+  {
+    "path": "data/monthly_raw/M_410_2020.jsonl.gz",
+    "requests": 51,
+    "sha256": "41693433706cda97f45a573ff85a3e7a930b305efbb90985e7c314e48b5ba413",
+    "bytes": 193758
+  },
+  {
+    "path": "data/monthly_raw/M_410_2024.jsonl.gz",
+    "requests": 16,
+    "sha256": "fc4c27db7a003f4b369adb8861e633a9a1c02cbb9160e831a0b6153d0292b77f",
+    "bytes": 33698
+  },
+  {
+    "path": "data/monthly_raw/M_410_2025.jsonl.gz",
+    "requests": 1,
+    "sha256": "62716e379acb79798ca7344f05170f439ab4afc4cffc8820e39362a1c49d3ab6",
+    "bytes": 2368
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "url": "https://www.boj.or.jp/en/statistics/outline/exp/pi/cgpi_2020/2020cp.xlsx",
+  "sha256_source_xlsx": "0f7b38d827f72604c15eeeefaf8783eb8a8a47debaf9bc2f6296c57b4b171fb9",
+  "extracted_rows": [
+    {
+      "sheet": "EPI",
+      "excel_row": 105,
+      "cells": [
+        [
+          5,
+          "Integrated circuits"
+        ],
+        [
+          6,
+          "50.1"
+        ],
+        [
+          7,
+          "Linear integrated circuits and hybrid integrated circuits"
+        ],
+        [
+          8,
+          "4.8"
+        ]
+      ]
+    },
+    {
+      "sheet": "EPI",
+      "excel_row": 106,
+      "cells": [
+        [
+          7,
+          "MOS integrated circuits (except MOS memory integrated circuits)"
+        ],
+        [
+          8,
+          "19.7"
+        ]
+      ]
+    },
+    {
+      "sheet": "EPI",
+      "excel_row": 107,
+      "cells": [
+        [
+          7,
+          "MOS memory integrated circuits "
+        ],
+        [
+          8,
+          "25.6"
+        ]
+      ]
+    }
+  ],
+  "read_only": true,
+  "official_hs_crosswalk_obtained": false
+}

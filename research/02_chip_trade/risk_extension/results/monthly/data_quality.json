@@ -1,0 +1,65 @@
+{
+  "logical_request_checks": 570,
+  "unique_source_urls": 308,
+  "listed_source_urls": 308,
+  "monthly_rows": 21542,
+  "annual_2025_rows": 168,
+  "invalid_requests": [],
+  "unavailable_requests": [],
+  "missing_monthly_cells": 728,
+  "product_world_checks": 88,
+  "product_world_all_pass": true,
+  "max_product_world_relative_gap": 4.8894117986607e-13,
+  "product_partner_checks": 4885,
+  "product_partner_failures": 0,
+  "max_request_world_relative_gap": 1.3523694262838956e-10,
+  "max_monthly_official_annual_relative_gap": 0.0017404356635740833,
+  "years": [
+    {
+      "reporterISO": "JPN",
+      "refYear": 2017,
+      "months": 12
+    },
+    {
+      "reporterISO": "JPN",
+      "refYear": 2018,
+      "months": 12
+    },
+    {
+      "reporterISO": "JPN",
+      "refYear": 2019,
+      "months": 12
+    },
+    {
+      "reporterISO": "JPN",
+      "refYear": 2020,
+      "months": 9
+    },
+    {
+      "reporterISO": "KOR",
+      "refYear": 2017,
+      "months": 12
+    },
+    {
+      "reporterISO": "KOR",
+      "refYear": 2018,
+      "months": 12
+    },
+    {
+      "reporterISO": "KOR",
+      "refYear": 2019,
+      "months": 12
+    },
+    {
+      "reporterISO": "KOR",
+      "refYear": 2020,
+      "months": 9
+    }
+  ],
+  "source_manifest_sha256": "23deef9633892731122a6e254d808756801adf6ed5702d06d69aa77658550e10",
+  "monthly_panel_sha256": "23f12f2600ce820b37d2be6564ecc1db83d0e77d7ee1a83118c14395a6ec1347",
+  "protocol_sha256": "2a53261f7a600e6dc0866ce12243b369c0202bb24b0777364663fcf187d721f5",
+  "complete_primary": false,
+  "complete_extension": false,
+  "analysis_ready": false
+}

@@ -246,7 +246,9 @@ def annual_and_observed(data,end_year=2025):
 
 def main():
     quality=json.loads((OUT/'data_quality.json').read_text())
-    assert quality['complete_primary'] and quality['product_world_all_pass'],'Quality gate failed'
+    assert quality['analysis_ready'],'Quality gate failed'
+    panel_sha256=hashlib.sha256((ROOT/'data/monthly_panel_full.csv.gz').read_bytes()).hexdigest()
+    assert panel_sha256==quality['monthly_panel_sha256'],'Panel changed after quality control'
     data=pd.read_csv(ROOT/'data/monthly_panel_full.csv.gz')
     annual_and_observed(data,2025 if quality['complete_extension'] else 2024)
     results=[]
@@ -273,6 +275,8 @@ def main():
         rows=[row for result in results for row in result[name]]
         pd.DataFrame(rows).to_csv(OUT/f'risk_{name}.csv',index=False)
     output=dict(protocol_sha256=hashlib.sha256((ROOT/'monthly_analysis_protocol.md').read_bytes()).hexdigest(),
+                monthly_panel_sha256=panel_sha256,
+                analysis_script_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                 primary=[row for row in primary['summary']],cases=len(results),
                 statuses={status:sum(row['status']==status for r in results for row in r['summary'])
                           for status in ['ok','unobserved_growth']},

@@ -1,0 +1,15 @@
+{
+  "updated_at": "2026-10-16T09:40:42.435203+00:00",
+  "expected_requests": 1308,
+  "completed": 570,
+  "statuses": {
+    "ok": 570,
+    "empty": 0,
+    "invalid": 0,
+    "http_error": 0,
+    "blocked": 0
+  },
+  "cache_hits": 570,
+  "elapsed_seconds": 0.6,
+  "complete": false
+}

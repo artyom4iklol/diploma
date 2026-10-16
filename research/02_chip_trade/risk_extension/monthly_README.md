@@ -12,6 +12,7 @@ python -m pip install -r research/02_chip_trade/risk_extension/requirements.txt
 python research/02_chip_trade/risk_extension/collect_panel.py --workers 1
 python research/02_chip_trade/risk_extension/build_monthly_panel.py
 python research/02_chip_trade/risk_extension/analyze_monthly.py
+python research/02_chip_trade/risk_extension/build_monthly_report.py
 python -m unittest discover -s research/02_chip_trade/risk_extension -p 'test_monthly_method.py' -v
 ```
 
@@ -25,6 +26,8 @@ python -m unittest discover -s research/02_chip_trade/risk_extension -p 'test_mo
 - `data/collection_progress.json`: полнота сбора. 1308 логических ячеек = 1296 месячных (2 страны × 108 месяцев × 6 кодов) и 12 годовых за 2025 г. Фактическое число HTTP-запросов отличается из-за общих ответов, повторов и ранее сохраненных проб.
 - `data/monthly_panel_full.csv.gz`: проверенные месячные строки, включая World; в концентрации World исключается.
 - `results/monthly/`: контроль полноты и сумм, годовые веса, четыре структуры, интервалы, чувствительность, наблюдаемые темпы.
+- `monthly_results.md`: автоматически собранный отчет с основным результатом и всеми предусмотренными вариантами, после прохождения контроля полной базы.
+- `results/monthly/figures/`: черно-белые научные рисунки PNG/SVG, построенные из расчетных таблиц.
 
 До окончания сбора пакеты и манифесты могут содержать **частичную базу**. Неполный срез не используется для выводов о риске. Синтетические данные из тестов не сохраняются в исследовательские таблицы.
 
