@@ -1,0 +1,61 @@
+{
+  "protocol_sha256": "2a53261f7a600e6dc0866ce12243b369c0202bb24b0777364663fcf187d721f5",
+  "monthly_panel_sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+  "analysis_script_sha256": "21d2ad155094ae441aa3ad3c9289e3f61bb323aaa0637aedd13c5ad33f0f0be0",
+  "primary": [
+    {
+      "case": "primary",
+      "reporter": 392,
+      "status": "ok",
+      "n": 84,
+      "initial_year": 2017,
+      "final_year": 2024,
+      "sigma_start": 2018,
+      "sigma_end": 2024,
+      "product_count": 4,
+      "separate_directions": 8,
+      "grid_limited": false,
+      "directions": "156;344;490;704;702;608;842;764",
+      "delta_variance_pp2": -5.245284378319407,
+      "mix_variance_pp2": 5.168507582394809,
+      "geography_variance_pp2": -10.413791960714216,
+      "delta_sd_pp": -0.264801543341206,
+      "variance_change_pct": -5.207118460391513,
+      "sd_change_pct": -2.638364054619291,
+      "hhi_full_change": -0.004556818160379089,
+      "hhi_grid_change": -0.0017631779176582596,
+      "min_cov_eigenvalue": 0.0016923946260028492
+    },
+    {
+      "case": "primary",
+      "reporter": 410,
+      "status": "ok",
+      "n": 84,
+      "initial_year": 2017,
+      "final_year": 2024,
+      "sigma_start": 2018,
+      "sigma_end": 2024,
+      "product_count": 4,
+      "separate_directions": 8,
+      "grid_limited": false,
+      "directions": "156;344;490;704;702;608;842;764",
+      "delta_variance_pp2": -74.07794296551722,
+      "mix_variance_pp2": -172.91657099893374,
+      "geography_variance_pp2": 98.8386280334165,
+      "delta_sd_pp": -1.2676536883452383,
+      "variance_change_pct": -8.31250270072661,
+      "sd_change_pct": -4.246411399220451,
+      "hhi_full_change": -0.05805232584550496,
+      "hhi_grid_change": -0.05542659713219525,
+      "min_cov_eigenvalue": 0.004831969478518947
+    }
+  ],
+  "cases": 12,
+  "statuses": {
+    "ok": 22,
+    "unobserved_growth": 2
+  },
+  "causal_identification": false,
+  "real_time_vintages": false,
+  "uncertainty": "Paired circular block bootstrap of historical growth; fixed weights and fixed grid"
+}

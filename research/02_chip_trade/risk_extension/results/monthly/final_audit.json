@@ -1,0 +1,33 @@
+{
+  "primary_complete": true,
+  "primary_logical_cells": 1152,
+  "source_archives_verified": 16,
+  "archived_logical_cells": 1152,
+  "manifest_logical_cells": 1152,
+  "source_manifest_sha256": "890eebcbbca0e4055534d54ad3701ef7b2f6fa112e3fcdc2ed5c4435083945ce",
+  "monthly_panel_sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+  "protocol_sha256": "2a53261f7a600e6dc0866ce12243b369c0202bb24b0777364663fcf187d721f5",
+  "cases": 12,
+  "country_case_status_counts": {
+    "ok": 22,
+    "unobserved_growth": 2
+  },
+  "interval_rows": 32,
+  "bootstrap_repetitions": 1999,
+  "bootstrap_blocks": [
+    12,
+    6
+  ],
+  "max_saved_series_variance_error_pp2": 9.094947017729282e-12,
+  "max_covariance_variance_identity_error": 9.992007221626409e-16,
+  "max_shapley_add_up_error": 1.1102230246251563e-16,
+  "max_actual_aggregate_identity_error": 1.790234627208065e-15,
+  "initial_window_reproduced": true,
+  "undefined_growth_rows": 28,
+  "optional_2025_ready": false,
+  "causal_identification": false,
+  "primary_delta_sd_intervals_include_zero": {
+    "392": true,
+    "410": true
+  }
+}

@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-16T10:19:27.761652+00:00",
-  "expected_requests": 1308,
-  "completed": 1308,
+  "updated_at": "2026-10-16T11:11:33.955779+00:00",
+  "expected_requests": 1152,
+  "completed": 1152,
   "statuses": {
-    "ok": 946,
+    "ok": 1152,
     "empty": 0,
     "invalid": 0,
-    "http_error": 2,
-    "blocked": 360
+    "http_error": 0,
+    "blocked": 0
   },
-  "cache_hits": 724,
-  "elapsed_seconds": 563.7,
-  "complete": false
+  "cache_hits": 942,
+  "elapsed_seconds": 513.4,
+  "complete": true
 }

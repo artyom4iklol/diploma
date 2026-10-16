@@ -1,17 +1,5 @@
 [
   {
-    "path": "data/monthly_raw/A_392_2025.jsonl.gz",
-    "requests": 1,
-    "sha256": "10dc7f7258aa8858538e62207d791fd1a2965d6dc564197c352e1024fb01c5f0",
-    "bytes": 4229
-  },
-  {
-    "path": "data/monthly_raw/A_410_2025.jsonl.gz",
-    "requests": 1,
-    "sha256": "535a5592e52ecfea0ae014e71b20fd006bafee6b3b40cea5a8e9dbb8f1ba2135",
-    "bytes": 4575
-  },
-  {
     "path": "data/monthly_raw/M_392_2017.jsonl.gz",
     "requests": 72,
     "sha256": "54f06b7dc819190bdf622fa8cd69b30a9b6818a7db63635bcd2606e0d5316a69",
@@ -43,21 +31,21 @@
   },
   {
     "path": "data/monthly_raw/M_392_2022.jsonl.gz",
-    "requests": 39,
-    "sha256": "552a95672aa7bb85222ba92f2a425e8a3eed491ce4f16b3898f8c4623cf5a843",
-    "bytes": 160060
+    "requests": 72,
+    "sha256": "cbb187bc68ba9cd5aba7eb54f3ebaae0c9439a7dc36b75ff974cda5b9acf8fc2",
+    "bytes": 293065
+  },
+  {
+    "path": "data/monthly_raw/M_392_2023.jsonl.gz",
+    "requests": 72,
+    "sha256": "1001e5623f54c1aaf55e76e9ab81baa7f2d17f3741c2c004b0be8638de7a17a0",
+    "bytes": 296996
   },
   {
     "path": "data/monthly_raw/M_392_2024.jsonl.gz",
     "requests": 72,
     "sha256": "34921d7927f68489138fa53fede2f0c1b6fb9c8a73e714fd46db64eb039a1be1",
     "bytes": 245534
-  },
-  {
-    "path": "data/monthly_raw/M_392_2025.jsonl.gz",
-    "requests": 1,
-    "sha256": "5f06ab5b65ebb24d82aabc0c8fb77e2c14348826ad8fc1d5863fa7a89c055565",
-    "bytes": 1941
   },
   {
     "path": "data/monthly_raw/M_410_2017.jsonl.gz",
@@ -91,20 +79,20 @@
   },
   {
     "path": "data/monthly_raw/M_410_2022.jsonl.gz",
-    "requests": 39,
-    "sha256": "e3f954c389be559729333e51b474dd5fe5ee883a735f8865f35e46a65b14fc6b",
-    "bytes": 160097
+    "requests": 72,
+    "sha256": "d56bd2eab306eb0042d3a26b800f0db27360a734db9f29a386727023b9a1a7e8",
+    "bytes": 293134
+  },
+  {
+    "path": "data/monthly_raw/M_410_2023.jsonl.gz",
+    "requests": 72,
+    "sha256": "2494e3e86e6499d1c4da46d4d3f9cf1fce61a1278e4870a9582982bc219fa5fb",
+    "bytes": 297054
   },
   {
     "path": "data/monthly_raw/M_410_2024.jsonl.gz",
     "requests": 72,
     "sha256": "648dfad4d26885f2e5390edfd33a6e26a5100d6d1b53734e48652b8865916b24",
     "bytes": 260484
-  },
-  {
-    "path": "data/monthly_raw/M_410_2025.jsonl.gz",
-    "requests": 1,
-    "sha256": "62716e379acb79798ca7344f05170f439ab4afc4cffc8820e39362a1c49d3ab6",
-    "bytes": 2368
   }
 ]

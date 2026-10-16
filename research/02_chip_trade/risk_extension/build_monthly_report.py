@@ -76,8 +76,13 @@ def figures(annual,observed,states,intervals,summary):
             ax.plot([x-.06,x+.06],[lo,lo],color='black',linewidth=1)
             ax.plot([x-.06,x+.06],[hi,hi],color='black',linewidth=1)
             ax.plot(x,estimate,'o',color='black',markersize=5)
-        ax.set(title=country,xticks=range(4),xticklabels=labels,ylim=(0,None))
+        ax.set(title=country,xticks=range(4),xticklabels=labels)
         ax.grid(axis='y',color='.88',linewidth=.5)
+    # Shared limits must include both countries; fixing them inside the first
+    # panel would hide Korea's larger values when its artists are added later.
+    sd_intervals=intervals[intervals.block_months.eq(12)&intervals.metric.isin(
+        [f'{state}_sd_pp' for state in STATE_LABELS])]
+    axes[0].set_ylim(0,1.08*max(float(states.sd_pp.max()),float(sd_intervals.ci_high.max())))
     axes[0].set_ylabel('Условное стандартное отклонение, п.п.')
     fig.suptitle('Фиксированные структуры; ковариация 2018–2024; 95% условные интервалы')
     save_figure(fig,'conditional_volatility')
