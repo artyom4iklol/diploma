@@ -1,0 +1,23 @@
+{
+  "file": "chapter2.docx",
+  "native_footnotes": 11,
+  "numbered_editable_equations": 6,
+  "all_native_math_objects": 31,
+  "figures": 8,
+  "main_tables": 5,
+  "appendix_tables": 6,
+  "font": "Times New Roman",
+  "body_points": 12,
+  "body_line_spacing": 1.5,
+  "page_size": "A4",
+  "external_hyperlinks": 0,
+  "source_count": 12,
+  "sha256": "a0f1108b6554cf273ead3732397deaa698becb5954c5470b6116bf4f2d5bfe9b",
+  "visual_review_pending": false,
+  "all_pages_visually_verified": true,
+  "pages": 35,
+  "main_pages": 29,
+  "appendix_pages": 5,
+  "bibliography_pages": 1,
+  "layout_issues": []
+}

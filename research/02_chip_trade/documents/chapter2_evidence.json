@@ -574,6 +574,56 @@
       "share_pct": 9.787255717981534
     }
   ],
+  "product_absolute_changes_2017_2024": [
+    {
+      "reporterCode": 392,
+      "cmdCode": 854231,
+      "change_usd": -922449908.2259998,
+      "share_of_total_change_pct": -17.130468894668436
+    },
+    {
+      "reporterCode": 392,
+      "cmdCode": 854232,
+      "change_usd": 3157910546.3339996,
+      "share_of_total_change_pct": 58.64436421285477
+    },
+    {
+      "reporterCode": 392,
+      "cmdCode": 854233,
+      "change_usd": -265984978.62899998,
+      "share_of_total_change_pct": -4.939506592413043
+    },
+    {
+      "reporterCode": 392,
+      "cmdCode": 854239,
+      "change_usd": 3415373487.955,
+      "share_of_total_change_pct": 63.42561127422671
+    },
+    {
+      "reporterCode": 410,
+      "cmdCode": 854231,
+      "change_usd": 14485773851.0,
+      "share_of_total_change_pct": 42.63023869641513
+    },
+    {
+      "reporterCode": 410,
+      "cmdCode": 854232,
+      "change_usd": 11512795884.0,
+      "share_of_total_change_pct": 33.88105058426993
+    },
+    {
+      "reporterCode": 410,
+      "cmdCode": 854233,
+      "change_usd": 180549082.0,
+      "share_of_total_change_pct": 0.531338576816681
+    },
+    {
+      "reporterCode": 410,
+      "cmdCode": 854239,
+      "change_usd": 7800925147.0,
+      "share_of_total_change_pct": 22.95737214249827
+    }
+  ],
   "annual_destination_grid": [
     {
       "reporterCode": 392,

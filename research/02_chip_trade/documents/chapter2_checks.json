@@ -1,96 +1,90 @@
 {
   "date": "2026-10-18",
-  "base_commit": "985619faed2e416d77cdfbb38773a04f0cba000c",
-  "scope": "Four analytical chapter sections; new descriptive aggregates only; no model estimation or new data requests",
-  "sections": [
-    {
-      "file": "chapter2_1.md",
-      "sha256": "486217e3e9c321e6ebec0e27f7f7ab82c32d2f78debe3f867505bbf538c3d6c5",
-      "words_whitespace_count": 2038,
-      "footnotes": 6,
-      "tables": 2,
-      "equations": [
-        "2.1",
-        "2.2",
-        "2.3",
-        "2.4",
-        "2.5"
-      ]
-    },
-    {
-      "file": "chapter2_2.md",
-      "sha256": "e4f18af214e15bfe7db2338ea5ed9632ff8f2a04b35d68c6750f1a0bcf69e3ac",
-      "words_whitespace_count": 1853,
-      "footnotes": 1,
-      "tables": 1,
-      "equations": []
-    },
-    {
-      "file": "chapter2_3.md",
-      "sha256": "d243941ba5fac653f17e118546c47c18682ee335fc19b18f5f121b2089e7d7e9",
-      "words_whitespace_count": 1723,
-      "footnotes": 0,
-      "tables": 1,
-      "equations": [
-        "2.6"
-      ]
-    },
-    {
-      "file": "chapter2_4.md",
-      "sha256": "7f5ef57abb8981ba62c65b35ddfe292186d77adbee9da6068cc3abcbc107985f",
-      "words_whitespace_count": 2172,
-      "footnotes": 4,
-      "tables": 1,
-      "equations": []
-    }
-  ],
-  "total_words_whitespace_count": 7786,
+  "base_commit": "81cf46f575cd11c4aa394059f33663aa53027494",
+  "scope": "Revised complete analytical Chapter 2; primary model and data unchanged",
+  "main_words_whitespace_count": 8514,
+  "main_sections": 4,
+  "main_tables": 5,
+  "appendix_tables": 6,
+  "figures": 8,
+  "numbered_editable_equations": 6,
+  "native_footnotes": 11,
+  "sources": 12,
+  "pages": 35,
+  "main_pages": 29,
+  "appendix_pages": 5,
+  "bibliography_pages": 1,
   "checks": {
+    "main_tables_2_3_and_2_4_verified_against_saved_values": true,
+    "all_22_available_and_2_unavailable_cases_preserved": true,
+    "all_11_word_tables_match_markdown_cells": true,
+    "shapley_and_sd_variance_identities": true,
+    "new_growth_accounting_sums_and_prose_values": true,
+    "all_16_input_hashes_match": true,
+    "figures_use_grayscale_only": true,
+    "figure_source_hashes_match": true,
     "footnotes_complete_unique": true,
-    "external_links_absent_from_manuscript": true,
-    "equation_delimiters_paired": true,
-    "equation_numbers": [
-      "2.1",
-      "2.2",
-      "2.3",
-      "2.4",
-      "2.5",
-      "2.6"
+    "no_raw_latex_or_external_hyperlinks_in_word": true,
+    "protected_original_material_unchanged": true,
+    "page_boxes_inside_page_and_no_blank_pages": true
+  },
+  "visual_review": {
+    "all_pages_inspected": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
     ],
-    "table_2_3_all_24_numeric_cells_verified": true,
-    "table_2_4_all_48_estimates_and_bounds_verified": true,
-    "table_2_5_point_values_and_missing_cases_verified": true,
-    "saved_variance_and_shapley_identities_verified": true,
-    "all_16_input_hashes_verified": true,
-    "primary_1152_query_cells_retrieved_2026_10_16": true,
-    "all_preexisting_tracked_repository_files_unchanged": true,
-    "no_placeholders_or_references_to_unmade_figures": true
+    "procedure": "All 35 pages inspected in v2; 28 final pages pixel-identical; seven changed final pages inspected separately at full page resolution.",
+    "changed_final_pages_reinspected": [
+      5,
+      14,
+      24,
+      25,
+      26,
+      27,
+      31
+    ],
+    "remaining_layout_defects": []
   },
-  "decimal_literal_screen": {
-    "unique_literals_per_section": {
-      "2.1": 4,
-      "2.2": 124,
-      "2.3": 114,
-      "2.4": 46
-    },
-    "unmatched": [],
-    "limitation": "Unit/rounding typo screen; context separately checked in tables and during editorial review."
-  },
-  "manual_review": [
-    "2.1: formula definitions, primary 2017/2024 contrast, 84 observations, pooled 2017–2020 destination ranking and full-history observability agree with analyze_monthly.py; zero rules agree with cube/growth and query validation.",
-    "2.2: annual values, ordinary annual changes, actual symmetric growth moments, all product shares and selected overall/within-memory destination shares checked against existing panel aggregates. Japan/Singapore 2024 corrected to 2.62%, rounding directly from 2.624971933334082%.",
-    "2.3: all four states, means, primary block-12 intervals, variance-unit contributions, nested memory split, covariance and destination/cell examples checked. Equation 2.6 matches cell_split; exploratory status and unadjusted multiple comparisons explicit.",
-    "2.4: structural sensitivity, temporal 2017/2020 contrast, window bridge, leave-year-out and block-6 intervals checked. Absent growth values retained as undefined; no price-deflated result or causal policy effect claimed.",
-    "Sources read in the cited editions/pages; 1999 Shorrocks draft and 1991 Politis/Romano report identified distinctly from later publications."
-  ],
-  "remaining_presentation_work": [
-    "Eight planned figures not newly composed or inserted at this stage.",
-    "Word assembly, visual layout and final pagination deferred per user request."
-  ],
-  "protected_content": [
-    "Growth-at-Risk",
-    "documents/topic2.docx",
-    "existing chapter 1 files",
-    "risk_extension model, data, protocol and results"
-  ]
+  "editorial_score": 8.9,
+  "score_kind": "Internal rubric assessment of bachelor analytical chapter; rubric in chapter2_review.md",
+  "sha256": {
+    "chapter2.docx": "a0f1108b6554cf273ead3732397deaa698becb5954c5470b6116bf4f2d5bfe9b",
+    "chapter2_content.md": "287c6e70c54f28bb409b16cd897fff855d9985ea705dd5848b4739be1bab7749",
+    "chapter2_appendices.md": "17deaa1443b58e0f17e70e3b92b17d43ca89919aea7c6e0ee97f7fe83fad186b",
+    "chapter2_review.md": "0270793235ae88e454cfd6d11073be257a112facea93dabe69cbf54b600393d6"
+  }
 }

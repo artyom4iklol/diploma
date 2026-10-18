@@ -58,6 +58,10 @@ def main():
 
     products = data.groupby(["reporterCode", "refYear", "cmdCode"]).primaryValue.sum().rename("export_usd").reset_index()
     products["share_pct"] = 100 * products.export_usd / products.groupby(["reporterCode", "refYear"]).export_usd.transform("sum")
+    product_changes = products.pivot(index=["reporterCode", "cmdCode"], columns="refYear", values="export_usd")
+    product_changes["change_usd"] = product_changes[2024] - product_changes[2017]
+    product_changes["share_of_total_change_pct"] = 100 * product_changes.change_usd / product_changes.groupby(level=0).change_usd.transform("sum")
+    product_changes = product_changes[["change_usd", "share_of_total_change_pct"]].reset_index()
     destinations = data.groupby(["reporterCode", "refYear", "destination"]).primaryValue.sum().rename("export_usd").reset_index()
     destinations["share_pct"] = 100 * destinations.export_usd / destinations.groupby(["reporterCode", "refYear"]).export_usd.transform("sum")
     within = data.groupby(["reporterCode", "refYear", "cmdCode", "destination"]).primaryValue.sum().rename("export_usd").reset_index()
@@ -111,6 +115,7 @@ def main():
         "annual_totals": records(total),
         "endpoint_total_changes": records(total_change),
         "annual_products": records(products),
+        "product_absolute_changes_2017_2024": records(product_changes),
         "annual_destination_grid": records(destinations),
         "within_product_destination_endpoints": records(within.loc[within.refYear.isin([2017, 2024])]),
         "endpoint_table": records(endpoint),
