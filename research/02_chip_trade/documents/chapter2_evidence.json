@@ -1,0 +1,6861 @@
+{
+  "purpose": "Chapter 2 descriptive aggregates and pointers to existing model outputs; no new model estimates",
+  "goods": [
+    854231,
+    854232,
+    854233,
+    854239
+  ],
+  "separate_directions": [
+    156,
+    344,
+    490,
+    704,
+    702,
+    608,
+    842,
+    764
+  ],
+  "annual_totals": [
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "export_usd": 24993099268.882,
+      "ordinary_annual_growth_pct": null
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "export_usd": 26287778989.712,
+      "ordinary_annual_growth_pct": 5.18014875586863
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "export_usd": 26046839790.679,
+      "ordinary_annual_growth_pct": -0.916544524842877
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "export_usd": 26507430381.228,
+      "ordinary_annual_growth_pct": 1.76831659522021
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "export_usd": 30425450674.56,
+      "ordinary_annual_growth_pct": 14.78083781408952
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "export_usd": 30158060724.006,
+      "ordinary_annual_growth_pct": -0.87883644983302
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "export_usd": 28395205830.244,
+      "ordinary_annual_growth_pct": -5.845385450659157
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "export_usd": 30377948416.316,
+      "ordinary_annual_growth_pct": 6.982666714675356
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "export_usd": 85839954337.0,
+      "ordinary_annual_growth_pct": null
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "export_usd": 109488406357.0,
+      "ordinary_annual_growth_pct": 27.5494694779989
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "export_usd": 78822339185.0,
+      "ordinary_annual_growth_pct": -28.008506281486678
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "export_usd": 82603532763.0,
+      "ordinary_annual_growth_pct": 4.797109064633753
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "export_usd": 108895397080.0,
+      "ordinary_annual_growth_pct": 31.828982898872727
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "export_usd": 112383335663.0,
+      "ordinary_annual_growth_pct": 3.203017461277624
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "export_usd": 85787650762.0,
+      "ordinary_annual_growth_pct": -23.66514994781037
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "export_usd": 119819998301.0,
+      "ordinary_annual_growth_pct": 39.670450509730905
+    }
+  ],
+  "endpoint_total_changes": [
+    {
+      "reporterCode": 392,
+      "nominal_export_change_pct_2017_2024": 21.54534373469432
+    },
+    {
+      "reporterCode": 410,
+      "nominal_export_change_pct_2017_2024": 39.58534720393416
+    }
+  ],
+  "annual_products": [
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "export_usd": 3957565041.245,
+      "share_pct": 15.834630986211547
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "export_usd": 9741604463.971,
+      "share_pct": 38.97717669652887
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "export_usd": 475307142.96999997,
+      "share_pct": 1.901753511465414
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "export_usd": 10818622620.696,
+      "share_pct": 43.286438805794184
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "cmdCode": 854231,
+      "export_usd": 3489641407.295,
+      "share_pct": 13.27476698834355
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "cmdCode": 854232,
+      "export_usd": 11599477389.167,
+      "share_pct": 44.1249806372253
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "cmdCode": 854233,
+      "export_usd": 403749002.932,
+      "share_pct": 1.535881000407115
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "cmdCode": 854239,
+      "export_usd": 10794911190.318,
+      "share_pct": 41.06437137402404
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "cmdCode": 854231,
+      "export_usd": 3137660995.224,
+      "share_pct": 12.046225263560874
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "cmdCode": 854232,
+      "export_usd": 11066187541.868,
+      "share_pct": 42.48572045898671
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "cmdCode": 854233,
+      "export_usd": 307109660.398,
+      "share_pct": 1.179066876696116
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "cmdCode": 854239,
+      "export_usd": 11535881593.189,
+      "share_pct": 44.28898740075629
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "cmdCode": 854231,
+      "export_usd": 2775168156.553,
+      "share_pct": 10.469397133712045
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "cmdCode": 854232,
+      "export_usd": 12246854060.264,
+      "share_pct": 46.20158907947925
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "cmdCode": 854233,
+      "export_usd": 283367204.472,
+      "share_pct": 1.069010463845921
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "cmdCode": 854239,
+      "export_usd": 11202040959.939,
+      "share_pct": 42.26000332296279
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "cmdCode": 854231,
+      "export_usd": 3348191751.447,
+      "share_pct": 11.004575699667662
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "cmdCode": 854232,
+      "export_usd": 14662025557.081,
+      "share_pct": 48.19000288248988
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "cmdCode": 854233,
+      "export_usd": 273095901.442,
+      "share_pct": 0.897590324505356
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "cmdCode": 854239,
+      "export_usd": 12142137464.59,
+      "share_pct": 39.90783109333711
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "cmdCode": 854231,
+      "export_usd": 3558531443.978,
+      "share_pct": 11.799603020048922
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "cmdCode": 854232,
+      "export_usd": 13412623075.512,
+      "share_pct": 44.47442160906411
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "cmdCode": 854233,
+      "export_usd": 247256649.214,
+      "share_pct": 0.819869193436507
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "cmdCode": 854239,
+      "export_usd": 12939649555.302,
+      "share_pct": 42.90610617745046
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "cmdCode": 854231,
+      "export_usd": 3257857459.98,
+      "share_pct": 11.473265872614403
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "cmdCode": 854232,
+      "export_usd": 11497205741.778,
+      "share_pct": 40.48995386936839
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "cmdCode": 854233,
+      "export_usd": 239028381.967,
+      "share_pct": 0.841791334058261
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "cmdCode": 854239,
+      "export_usd": 13401114246.519,
+      "share_pct": 47.19498892395894
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "export_usd": 3035115133.019,
+      "share_pct": 9.991178770284696
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "export_usd": 12899515010.305,
+      "share_pct": 42.46341732339195
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "export_usd": 209322164.341,
+      "share_pct": 0.689059581879377
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "export_usd": 14233996108.651,
+      "share_pct": 46.85634432444397
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "export_usd": 21359845572.0,
+      "share_pct": 24.88333752851633
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "export_usd": 60506907883.0,
+      "share_pct": 70.48804761178609
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "export_usd": 47036394.0,
+      "share_pct": 0.054795455523356
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "export_usd": 3926164488.0,
+      "share_pct": 4.573819404174225
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "cmdCode": 854231,
+      "export_usd": 22095020467.0,
+      "share_pct": 20.18023752666246
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "cmdCode": 854232,
+      "export_usd": 83048245976.0,
+      "share_pct": 75.85117798245349
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "cmdCode": 854233,
+      "export_usd": 50734336.0,
+      "share_pct": 0.046337633077401
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "cmdCode": 854239,
+      "export_usd": 4294405578.0,
+      "share_pct": 3.922246857806642
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "cmdCode": 854231,
+      "export_usd": 20677631144.0,
+      "share_pct": 26.233211749106506
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "cmdCode": 854232,
+      "export_usd": 53161754430.0,
+      "share_pct": 67.44503522691288
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "cmdCode": 854233,
+      "export_usd": 81687713.0,
+      "share_pct": 0.103635230627037
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "cmdCode": 854239,
+      "export_usd": 4901265898.0,
+      "share_pct": 6.218117793353585
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "cmdCode": 854231,
+      "export_usd": 23516669861.0,
+      "share_pct": 28.46932700623387
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "cmdCode": 854232,
+      "export_usd": 52358422298.0,
+      "share_pct": 63.385209502144356
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "cmdCode": 854233,
+      "export_usd": 105706224.0,
+      "share_pct": 0.127968163665935
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "cmdCode": 854239,
+      "export_usd": 6622734380.0,
+      "share_pct": 8.017495327955844
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "cmdCode": 854231,
+      "export_usd": 30405224004.0,
+      "share_pct": 27.921496058885577
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "cmdCode": 854232,
+      "export_usd": 69177215461.0,
+      "share_pct": 63.52629892168809
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "cmdCode": 854233,
+      "export_usd": 211038869.0,
+      "share_pct": 0.193799622995048
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "cmdCode": 854239,
+      "export_usd": 9101918746.0,
+      "share_pct": 8.358405396431289
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "cmdCode": 854231,
+      "export_usd": 38402894055.0,
+      "share_pct": 34.17134206636954
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "cmdCode": 854232,
+      "export_usd": 61777688705.0,
+      "share_pct": 54.97050638383844
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "cmdCode": 854233,
+      "export_usd": 574391047.0,
+      "share_pct": 0.511099838433704
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "cmdCode": 854239,
+      "export_usd": 11628361856.0,
+      "share_pct": 10.347051711358315
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "cmdCode": 854231,
+      "export_usd": 31414482258.0,
+      "share_pct": 36.61888626039306
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "cmdCode": 854232,
+      "export_usd": 42893817517.0,
+      "share_pct": 49.999990833179446
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "cmdCode": 854233,
+      "export_usd": 303454450.0,
+      "share_pct": 0.353727427321528
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "cmdCode": 854239,
+      "export_usd": 11175896537.0,
+      "share_pct": 13.027395479105962
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "export_usd": 35845619423.0,
+      "share_pct": 29.916224279149265
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "export_usd": 72019703767.0,
+      "share_pct": 60.10658052763379
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "export_usd": 227585476.0,
+      "share_pct": 0.189939475235413
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "export_usd": 11727089635.0,
+      "share_pct": 9.787255717981534
+    }
+  ],
+  "annual_destination_grid": [
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": -1,
+      "export_usd": 4290825945.481,
+      "share_pct": 17.1680426637738
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 156,
+      "export_usd": 6733199264.586,
+      "share_pct": 26.940233350608352
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 344,
+      "export_usd": 3960229653.574,
+      "share_pct": 15.845292378383572
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 490,
+      "export_usd": 5118781829.984,
+      "share_pct": 20.480780614340254
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 608,
+      "export_usd": 551592226.026,
+      "share_pct": 2.206978094600566
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 702,
+      "export_usd": 1087400002.477,
+      "share_pct": 4.350800958210422
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 704,
+      "export_usd": 989004812.184,
+      "share_pct": 3.957111527242137
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 764,
+      "export_usd": 1132129825.419,
+      "share_pct": 4.529769650571403
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "destination": 842,
+      "export_usd": 1129935709.151,
+      "share_pct": 4.520990762269496
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": -1,
+      "export_usd": 3717197463.533,
+      "share_pct": 14.140401381903601
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 156,
+      "export_usd": 7268882521.868,
+      "share_pct": 27.651185460410158
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 344,
+      "export_usd": 4266135357.693,
+      "share_pct": 16.228588042232847
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 490,
+      "export_usd": 5586810019.804,
+      "share_pct": 21.252499201208508
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 608,
+      "export_usd": 603645434.569,
+      "share_pct": 2.296296826008934
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 702,
+      "export_usd": 1476455300.286,
+      "share_pct": 5.616508343530378
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 704,
+      "export_usd": 1185878690.062,
+      "share_pct": 4.51114067310938
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 764,
+      "export_usd": 1151963053.181,
+      "share_pct": 4.38212392774541
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2018,
+      "destination": 842,
+      "export_usd": 1030811148.716,
+      "share_pct": 3.921256143850794
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": -1,
+      "export_usd": 3655772178.767,
+      "share_pct": 14.035377067413904
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 156,
+      "export_usd": 6383591107.308,
+      "share_pct": 24.508121363699566
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 344,
+      "export_usd": 5186835563.035,
+      "share_pct": 19.913492787294437
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 490,
+      "export_usd": 5849439339.26,
+      "share_pct": 22.45738594880617
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 608,
+      "export_usd": 635794153.143,
+      "share_pct": 2.440964655414828
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 702,
+      "export_usd": 903784098.992,
+      "share_pct": 3.469841663154176
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 704,
+      "export_usd": 1389587301.181,
+      "share_pct": 5.334955458505455
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 764,
+      "export_usd": 1122338015.086,
+      "share_pct": 4.308922019352361
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2019,
+      "destination": 842,
+      "export_usd": 919698033.907,
+      "share_pct": 3.530939036359101
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": -1,
+      "export_usd": 3982851782.963,
+      "share_pct": 15.025416366965436
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 156,
+      "export_usd": 6378426196.348,
+      "share_pct": 24.06278580991791
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 344,
+      "export_usd": 4034480752.948,
+      "share_pct": 15.220188056421847
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 490,
+      "export_usd": 6715857959.176,
+      "share_pct": 25.335756286403488
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 608,
+      "export_usd": 686497898.364,
+      "share_pct": 2.589831939538596
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 702,
+      "export_usd": 1112202767.124,
+      "share_pct": 4.195815102136941
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 704,
+      "export_usd": 1792385047.855,
+      "share_pct": 6.76182120287423
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 764,
+      "export_usd": 1042369945.688,
+      "share_pct": 3.932368889389536
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2020,
+      "destination": 842,
+      "export_usd": 762358030.762,
+      "share_pct": 2.876016346352025
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": -1,
+      "export_usd": 4899430789.642,
+      "share_pct": 16.103067271041674
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 156,
+      "export_usd": 7765738145.038,
+      "share_pct": 25.523822894532376
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 344,
+      "export_usd": 3453287698.17,
+      "share_pct": 11.349996866463638
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 490,
+      "export_usd": 8546760276.712,
+      "share_pct": 28.090825566170842
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 608,
+      "export_usd": 775211175.031,
+      "share_pct": 2.547903672234465
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 702,
+      "export_usd": 881347418.55,
+      "share_pct": 2.896744005461624
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 704,
+      "export_usd": 1992043145.263,
+      "share_pct": 6.547292155408008
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 764,
+      "export_usd": 1237595934.563,
+      "share_pct": 4.067633862849584
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2021,
+      "destination": 842,
+      "export_usd": 874036091.591,
+      "share_pct": 2.872713705837785
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": -1,
+      "export_usd": 5647384984.814,
+      "share_pct": 18.725955347382953
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 156,
+      "export_usd": 7349512242.979,
+      "share_pct": 24.369976273470208
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 344,
+      "export_usd": 3515824984.594,
+      "share_pct": 11.657994248268695
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 490,
+      "export_usd": 7935523856.946,
+      "share_pct": 26.31311054635975
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 608,
+      "export_usd": 742101850.583,
+      "share_pct": 2.460708125016415
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 702,
+      "export_usd": 650875804.584,
+      "share_pct": 2.158215047514308
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 704,
+      "export_usd": 2186209631.311,
+      "share_pct": 7.249171792968649
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 764,
+      "export_usd": 1254679835.95,
+      "share_pct": 4.160346540290859
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2022,
+      "destination": 842,
+      "export_usd": 875947532.245,
+      "share_pct": 2.90452207872816
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": -1,
+      "export_usd": 5681900160.401,
+      "share_pct": 20.01006858118688
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 156,
+      "export_usd": 6578283012.011,
+      "share_pct": 23.166879125082477
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 344,
+      "export_usd": 3678621462.197,
+      "share_pct": 12.955079403857907
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 490,
+      "export_usd": 6116160063.1310005,
+      "share_pct": 21.539410912163987
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 608,
+      "export_usd": 663115302.053,
+      "share_pct": 2.335307255799885
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 702,
+      "export_usd": 720860003.262,
+      "share_pct": 2.538667997589245
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 704,
+      "export_usd": 2765667943.024,
+      "share_pct": 9.739911587745075
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 764,
+      "export_usd": 1333068163.161,
+      "share_pct": 4.694694488677158
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2023,
+      "destination": 842,
+      "export_usd": 857529721.004,
+      "share_pct": 3.019980647897389
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": -1,
+      "export_usd": 5852886198.058,
+      "share_pct": 19.26689096263793
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 156,
+      "export_usd": 6279857980.919,
+      "share_pct": 20.672422952519362
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 344,
+      "export_usd": 5048402490.745,
+      "share_pct": 16.6186419884547
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 490,
+      "export_usd": 7345769532.561,
+      "share_pct": 24.18125619245435
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 608,
+      "export_usd": 663601960.881,
+      "share_pct": 2.184485771674362
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 702,
+      "export_usd": 797412619.8510001,
+      "share_pct": 2.624971933334082
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 704,
+      "export_usd": 2334627062.448,
+      "share_pct": 7.685269032829326
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 764,
+      "export_usd": 1213559300.875,
+      "share_pct": 3.994869186831581
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "destination": 842,
+      "export_usd": 841831269.978,
+      "share_pct": 2.771191979264315
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": -1,
+      "export_usd": 4706123584.0,
+      "share_pct": 5.482439524052143
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 156,
+      "export_usd": 35109087516.0,
+      "share_pct": 40.90063629130656
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 344,
+      "export_usd": 25316699199.0,
+      "share_pct": 29.492908511587622
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 490,
+      "export_usd": 3997831143.0,
+      "share_pct": 4.657308096070126
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 608,
+      "export_usd": 4129521087.0,
+      "share_pct": 4.810721439561663
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 702,
+      "export_usd": 2890002986.0,
+      "share_pct": 3.366734067278398
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 704,
+      "export_usd": 8639862762.0,
+      "share_pct": 10.065083129099381
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 764,
+      "export_usd": 472432469.0,
+      "share_pct": 0.550364306049456
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "destination": 842,
+      "export_usd": 578393591.0,
+      "share_pct": 0.673804634994653
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": -1,
+      "export_usd": 5872827790.0,
+      "share_pct": 5.363880967315338
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 156,
+      "export_usd": 46247316793.0,
+      "share_pct": 42.23946473584163
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 344,
+      "export_usd": 31480171097.0,
+      "share_pct": 28.752058911475203
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 490,
+      "export_usd": 6119819476.0,
+      "share_pct": 5.589468035588717
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 608,
+      "export_usd": 5367052931.0,
+      "share_pct": 4.901937209223855
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 702,
+      "export_usd": 2518279191.0,
+      "share_pct": 2.30004187182052
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 704,
+      "export_usd": 10020436585.0,
+      "share_pct": 9.152052640466035
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 764,
+      "export_usd": 410344080.0,
+      "share_pct": 0.374783133350233
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2018,
+      "destination": 842,
+      "export_usd": 1452158414.0,
+      "share_pct": 1.326312494918471
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": -1,
+      "export_usd": 5686869542.0,
+      "share_pct": 7.214794182462196
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 156,
+      "export_usd": 32611244719.0,
+      "share_pct": 41.37309937283105
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 344,
+      "export_usd": 20515035065.0,
+      "share_pct": 26.02693002658825
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 490,
+      "export_usd": 4015577072.0,
+      "share_pct": 5.094465748568104
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 608,
+      "export_usd": 2576200648.0,
+      "share_pct": 3.268363606862171
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 702,
+      "export_usd": 2063977299.0,
+      "share_pct": 2.618518202251955
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 704,
+      "export_usd": 9749850913.0,
+      "share_pct": 12.36940062146165
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 764,
+      "export_usd": 350053148.0,
+      "share_pct": 0.444103983235524
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2019,
+      "destination": 842,
+      "export_usd": 1253530779.0,
+      "share_pct": 1.5903242557391
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": -1,
+      "export_usd": 5121600514.0,
+      "share_pct": 6.200219703307994
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 156,
+      "export_usd": 36146612652.0,
+      "share_pct": 43.75916070770146
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 344,
+      "export_usd": 18526383473.0,
+      "share_pct": 22.42807644335811
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 490,
+      "export_usd": 5845638522.0,
+      "share_pct": 7.076741546601738
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 608,
+      "export_usd": 2721075472.0,
+      "share_pct": 3.294139343661136
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 702,
+      "export_usd": 2265582527.0,
+      "share_pct": 2.742718684320976
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 704,
+      "export_usd": 10367824886.0,
+      "share_pct": 12.551309295386437
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 764,
+      "export_usd": 410399194.0,
+      "share_pct": 0.496830075267467
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2020,
+      "destination": 842,
+      "export_usd": 1198415523.0,
+      "share_pct": 1.45080420039468
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": -1,
+      "export_usd": 6581412812.0,
+      "share_pct": 6.043793391161397
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 156,
+      "export_usd": 46371214841.0,
+      "share_pct": 42.58326438438292
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 344,
+      "export_usd": 24110547753.0,
+      "share_pct": 22.1410164244933
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 490,
+      "export_usd": 10027803727.0,
+      "share_pct": 9.208657111221216
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 608,
+      "export_usd": 3631690207.0,
+      "share_pct": 3.335026368774778
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 702,
+      "export_usd": 3411382929.0,
+      "share_pct": 3.132715450308545
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 704,
+      "export_usd": 12775624824.0,
+      "share_pct": 11.732015463072685
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 764,
+      "export_usd": 575294112.0,
+      "share_pct": 0.528299751345192
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2021,
+      "destination": 842,
+      "export_usd": 1410425875.0,
+      "share_pct": 1.295211655239965
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": -1,
+      "export_usd": 8270107125.0,
+      "share_pct": 7.358837568053045
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 156,
+      "export_usd": 48698845640.0,
+      "share_pct": 43.33279961188511
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 344,
+      "export_usd": 17160173728.0,
+      "share_pct": 15.26932229477297
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 490,
+      "export_usd": 11725842889.0,
+      "share_pct": 10.433791469014478
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 608,
+      "export_usd": 3561447137.0,
+      "share_pct": 3.169017110935012
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 702,
+      "export_usd": 5533799145.0,
+      "share_pct": 4.924038882058111
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 704,
+      "export_usd": 15457781065.0,
+      "share_pct": 13.754513490641273
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 764,
+      "export_usd": 697399006.0,
+      "share_pct": 0.620553751929259
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2022,
+      "destination": 842,
+      "export_usd": 1277939928.0,
+      "share_pct": 1.137125820710745
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": -1,
+      "export_usd": 8294243101.0,
+      "share_pct": 9.66834157052587
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 156,
+      "export_usd": 33101880881.0,
+      "share_pct": 38.58583442602279
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 344,
+      "export_usd": 16473931624.0,
+      "share_pct": 19.2031504274473
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 490,
+      "export_usd": 8928697520.0,
+      "share_pct": 10.407905381126259
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 608,
+      "export_usd": 1539228473.0,
+      "share_pct": 1.79423082381667
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 702,
+      "export_usd": 4297192537.0,
+      "share_pct": 5.009103873145643
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 704,
+      "export_usd": 11829929130.0,
+      "share_pct": 13.789780959056309
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 764,
+      "export_usd": 608529215.0,
+      "share_pct": 0.709343605512917
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2023,
+      "destination": 842,
+      "export_usd": 714018281.0,
+      "share_pct": 0.83230893334624
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": -1,
+      "export_usd": 9422982403.0,
+      "share_pct": 7.864281869983433
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 156,
+      "export_usd": 42167291095.0,
+      "share_pct": 35.192198041157944
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 344,
+      "export_usd": 23303377647.0,
+      "share_pct": 19.448654629805244
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 490,
+      "export_usd": 20488165124.0,
+      "share_pct": 17.09911985854953
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 608,
+      "export_usd": 1783320583.0,
+      "share_pct": 1.488333006415271
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 702,
+      "export_usd": 3775595298.0,
+      "share_pct": 3.151056043679221
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 704,
+      "export_usd": 16577808526.0,
+      "share_pct": 13.835594025260175
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 764,
+      "export_usd": 659811659.0,
+      "share_pct": 0.550669060554054
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "destination": 842,
+      "export_usd": 1641645966.0,
+      "share_pct": 1.370093464595133
+    }
+  ],
+  "within_product_destination_endpoints": [
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": -1,
+      "export_usd": 1138848714.016,
+      "within_product_share_pct": 28.776500250713067
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 156,
+      "export_usd": 957524943.472,
+      "within_product_share_pct": 24.194799920983098
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 344,
+      "export_usd": 446211702.067,
+      "within_product_share_pct": 11.274905084734309
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 490,
+      "export_usd": 314486514.713,
+      "within_product_share_pct": 7.946464844809386
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 608,
+      "export_usd": 47391205.82,
+      "within_product_share_pct": 1.197483940910579
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 702,
+      "export_usd": 191804495.269,
+      "within_product_share_pct": 4.846527934981473
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 704,
+      "export_usd": 50240054.258,
+      "within_product_share_pct": 1.269468820711917
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 764,
+      "export_usd": 258010701.912,
+      "within_product_share_pct": 6.519430488774307
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 842,
+      "export_usd": 553046709.718,
+      "within_product_share_pct": 13.974418713381866
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": -1,
+      "export_usd": 156316226.871,
+      "within_product_share_pct": 1.604625064065477
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 156,
+      "export_usd": 4357830046.379,
+      "within_product_share_pct": 44.73421254677594
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 344,
+      "export_usd": 330915396.647,
+      "within_product_share_pct": 3.396929097982572
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 490,
+      "export_usd": 4139946350.075,
+      "within_product_share_pct": 42.497582050127924
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 608,
+      "export_usd": 54424190.004,
+      "within_product_share_pct": 0.558677887254467
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 702,
+      "export_usd": 500189914.217,
+      "within_product_share_pct": 5.134574248697284
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 704,
+      "export_usd": 47031911.467999995,
+      "within_product_share_pct": 0.482794303976783
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 764,
+      "export_usd": 26356461.358,
+      "within_product_share_pct": 0.270555650821982
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 842,
+      "export_usd": 128593966.952,
+      "within_product_share_pct": 1.320049150297577
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": -1,
+      "export_usd": 63994775.336,
+      "within_product_share_pct": 13.46387831163715
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 156,
+      "export_usd": 98747833.699,
+      "within_product_share_pct": 20.775583779777676
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 344,
+      "export_usd": 161757564.285,
+      "within_product_share_pct": 34.03221825665045
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 490,
+      "export_usd": 10198331.456,
+      "within_product_share_pct": 2.145629748434832
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 608,
+      "export_usd": 11065417.65,
+      "within_product_share_pct": 2.328056250292544
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 702,
+      "export_usd": 25679582.183,
+      "within_product_share_pct": 5.40273432933046
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 704,
+      "export_usd": 45066210.421,
+      "within_product_share_pct": 9.481492354480446
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 764,
+      "export_usd": 32325921.31,
+      "within_product_share_pct": 6.801059438747025
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 842,
+      "export_usd": 26471506.630000003,
+      "within_product_share_pct": 5.569347530649421
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": -1,
+      "export_usd": 2931666229.258,
+      "within_product_share_pct": 27.098331571800365
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 156,
+      "export_usd": 1319096441.036,
+      "within_product_share_pct": 12.192831631935952
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 344,
+      "export_usd": 3021344990.575,
+      "within_product_share_pct": 27.927261135767637
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 490,
+      "export_usd": 654150633.74,
+      "within_product_share_pct": 6.046524189582243
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 608,
+      "export_usd": 438711412.552,
+      "within_product_share_pct": 4.055150345227369
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 702,
+      "export_usd": 369726010.808,
+      "within_product_share_pct": 3.417496143184762
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 704,
+      "export_usd": 846666636.037,
+      "within_product_share_pct": 7.826011366893681
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 764,
+      "export_usd": 815436740.839,
+      "within_product_share_pct": 7.537343425576851
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 842,
+      "export_usd": 421823525.851,
+      "within_product_share_pct": 3.899050190031147
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": -1,
+      "export_usd": 625156770.359,
+      "within_product_share_pct": 20.59746477350803
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 156,
+      "export_usd": 983107083.365,
+      "within_product_share_pct": 32.39109688689512
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 344,
+      "export_usd": 286582525.554,
+      "within_product_share_pct": 9.442229141038847
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 490,
+      "export_usd": 307833919.457,
+      "within_product_share_pct": 10.142413251743783
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 608,
+      "export_usd": 57553626.922,
+      "within_product_share_pct": 1.896258441594997
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 702,
+      "export_usd": 144316896.347,
+      "within_product_share_pct": 4.754906816449147
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 704,
+      "export_usd": 30927581.323,
+      "within_product_share_pct": 1.018992030534164
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 764,
+      "export_usd": 200941065.041,
+      "within_product_share_pct": 6.620541766437896
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 842,
+      "export_usd": 398695664.651,
+      "within_product_share_pct": 13.136096891798015
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": -1,
+      "export_usd": 947697974.046,
+      "within_product_share_pct": 7.34677213281984
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 156,
+      "export_usd": 4051708935.629,
+      "within_product_share_pct": 31.40977728536478
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 344,
+      "export_usd": 220032682.718,
+      "within_product_share_pct": 1.705743840308904
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 490,
+      "export_usd": 6386769396.2369995,
+      "within_product_share_pct": 49.51170172781549
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 608,
+      "export_usd": 333546933.377,
+      "within_product_share_pct": 2.585732355910592
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 702,
+      "export_usd": 416520646.587,
+      "within_product_share_pct": 3.228963618044983
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 704,
+      "export_usd": 222907764.627,
+      "within_product_share_pct": 1.72803213492078
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 764,
+      "export_usd": 230539772.062,
+      "within_product_share_pct": 1.787197207630127
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 842,
+      "export_usd": 89790905.022,
+      "within_product_share_pct": 0.696079697184499
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": -1,
+      "export_usd": 54945075.534,
+      "within_product_share_pct": 26.249048067595343
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 156,
+      "export_usd": 21759421.777,
+      "within_product_share_pct": 10.395182873015026
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 344,
+      "export_usd": 26830226.737999998,
+      "within_product_share_pct": 12.81767118282407
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 490,
+      "export_usd": 7672359.693,
+      "within_product_share_pct": 3.665335544926435
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 608,
+      "export_usd": 27613817.266,
+      "within_product_share_pct": 13.192017841462416
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 702,
+      "export_usd": 12034103.145,
+      "within_product_share_pct": 5.749082130354639
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 704,
+      "export_usd": 14361623.838,
+      "within_product_share_pct": 6.861014400082325
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 764,
+      "export_usd": 18222145.912,
+      "within_product_share_pct": 8.705311245642813
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 842,
+      "export_usd": 25883390.438,
+      "within_product_share_pct": 12.365336714096939
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": -1,
+      "export_usd": 4225086378.1190004,
+      "within_product_share_pct": 29.68306542918835
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 156,
+      "export_usd": 1223282540.148,
+      "within_product_share_pct": 8.594090730462721
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 344,
+      "export_usd": 4514957055.735,
+      "within_product_share_pct": 31.719532738883792
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 490,
+      "export_usd": 643493857.174,
+      "within_product_share_pct": 4.520823613144755
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 608,
+      "export_usd": 244887583.31599998,
+      "within_product_share_pct": 1.720441550262646
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 702,
+      "export_usd": 224540973.772,
+      "within_product_share_pct": 1.577497788098528
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 704,
+      "export_usd": 2066430092.66,
+      "within_product_share_pct": 14.517568200008746
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 764,
+      "export_usd": 763856317.86,
+      "within_product_share_pct": 5.366422134931952
+    },
+    {
+      "reporterCode": 392,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 842,
+      "export_usd": 327461309.867,
+      "within_product_share_pct": 2.300557815018501
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": -1,
+      "export_usd": 1898613441.0,
+      "within_product_share_pct": 8.888703968388409
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 156,
+      "export_usd": 6564540746.0,
+      "within_product_share_pct": 30.733090854389253
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 344,
+      "export_usd": 1880348554.0,
+      "within_product_share_pct": 8.803193579568264
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 490,
+      "export_usd": 2139575607.0,
+      "within_product_share_pct": 10.01681215244696
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 608,
+      "export_usd": 837085724.0,
+      "within_product_share_pct": 3.918968988695833
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 702,
+      "export_usd": 2563005663.0,
+      "within_product_share_pct": 11.999176933937058
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 704,
+      "export_usd": 4822115623.0,
+      "within_product_share_pct": 22.575610889814538
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 764,
+      "export_usd": 292213207.0,
+      "within_product_share_pct": 1.368049249302878
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854231,
+      "destination": 842,
+      "export_usd": 362347007.0,
+      "within_product_share_pct": 1.696393383456808
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": -1,
+      "export_usd": 2203463746.0,
+      "within_product_share_pct": 3.641673030558358
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 156,
+      "export_usd": 28018428181.0,
+      "within_product_share_pct": 46.306164306360216
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 344,
+      "export_usd": 21686006083.0,
+      "within_product_share_pct": 35.84054588433678
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 490,
+      "export_usd": 1825419173.0,
+      "within_product_share_pct": 3.016877306851883
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 608,
+      "export_usd": 3271394058.0,
+      "within_product_share_pct": 5.406645575618862
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 702,
+      "export_usd": 258013243.0,
+      "within_product_share_pct": 0.426419481720849
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 704,
+      "export_usd": 2925648992.0,
+      "within_product_share_pct": 4.835231371692668
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 764,
+      "export_usd": 125944507.0,
+      "within_product_share_pct": 0.208148972417388
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854232,
+      "destination": 842,
+      "export_usd": 192589900.0,
+      "within_product_share_pct": 0.318294070443005
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": -1,
+      "export_usd": 17120413.0,
+      "within_product_share_pct": 36.39822602047257
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 156,
+      "export_usd": 13136636.0,
+      "within_product_share_pct": 27.928663068856853
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 344,
+      "export_usd": 9792452.0,
+      "within_product_share_pct": 20.81888335232501
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 490,
+      "export_usd": 795070.0,
+      "within_product_share_pct": 1.690329407479664
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 608,
+      "export_usd": 199627.0,
+      "within_product_share_pct": 0.424409660315372
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 702,
+      "export_usd": 194930.0,
+      "within_product_share_pct": 0.414423775768185
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 704,
+      "export_usd": 4835066.0,
+      "within_product_share_pct": 10.27941470173075
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 764,
+      "export_usd": 424204.0,
+      "within_product_share_pct": 0.901863352875223
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854233,
+      "destination": 842,
+      "export_usd": 537996.0,
+      "within_product_share_pct": 1.143786660176373
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": -1,
+      "export_usd": 586925984.0,
+      "within_product_share_pct": 14.949093085475434
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 156,
+      "export_usd": 512981953.0,
+      "within_product_share_pct": 13.065727494807906
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 344,
+      "export_usd": 1740552110.0,
+      "within_product_share_pct": 44.332124018742846
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 490,
+      "export_usd": 32041293.0,
+      "within_product_share_pct": 0.816096551683751
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 608,
+      "export_usd": 20841678.0,
+      "within_product_share_pct": 0.530840673224489
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 702,
+      "export_usd": 68789150.0,
+      "within_product_share_pct": 1.752069996309334
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 704,
+      "export_usd": 887263081.0,
+      "within_product_share_pct": 22.598724116420666
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 764,
+      "export_usd": 53850551.0,
+      "within_product_share_pct": 1.371581633031163
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2017,
+      "cmdCode": 854239,
+      "destination": 842,
+      "export_usd": 22918688.0,
+      "within_product_share_pct": 0.583742430304413
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": -1,
+      "export_usd": 4367665045.0,
+      "within_product_share_pct": 12.184654960091244
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 156,
+      "export_usd": 13626756156.0,
+      "within_product_share_pct": 38.015122559875536
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 344,
+      "export_usd": 2827939582.0,
+      "within_product_share_pct": 7.889219456995852
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 490,
+      "export_usd": 2693738680.0,
+      "within_product_share_pct": 7.514833676640522
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 608,
+      "export_usd": 583344639.0,
+      "within_product_share_pct": 1.627380551347656
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 702,
+      "export_usd": 3367413481.0,
+      "within_product_share_pct": 9.394211999135747
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 704,
+      "export_usd": 6787451686.0,
+      "within_product_share_pct": 18.935233356980007
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 764,
+      "export_usd": 297302322.0,
+      "within_product_share_pct": 0.829396525393111
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854231,
+      "destination": 842,
+      "export_usd": 1294007832.0,
+      "within_product_share_pct": 3.609946913540326
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": -1,
+      "export_usd": 4070144492.0,
+      "within_product_share_pct": 5.651431870877776
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 156,
+      "export_usd": 25815681558.0,
+      "within_product_share_pct": 35.845303726212975
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 344,
+      "export_usd": 18327359715.0,
+      "within_product_share_pct": 25.447702165359004
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 490,
+      "export_usd": 14460368519.0,
+      "within_product_share_pct": 20.078350455012362
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 608,
+      "export_usd": 1123418771.0,
+      "within_product_share_pct": 1.559876967328987
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 702,
+      "export_usd": 317642922.0,
+      "within_product_share_pct": 0.44105002573691
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 704,
+      "export_usd": 7448646843.0,
+      "within_product_share_pct": 10.34251247005688
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 764,
+      "export_usd": 151023262.0,
+      "within_product_share_pct": 0.209697144115719
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854232,
+      "destination": 842,
+      "export_usd": 305417685.0,
+      "within_product_share_pct": 0.424075175299381
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": -1,
+      "export_usd": 72115872.0,
+      "within_product_share_pct": 31.687378855406397
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 156,
+      "export_usd": 6908038.0,
+      "within_product_share_pct": 3.035359778406949
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 344,
+      "export_usd": 19113337.0,
+      "within_product_share_pct": 8.398311410698282
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 490,
+      "export_usd": 1438515.0,
+      "within_product_share_pct": 0.632076802651501
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 608,
+      "export_usd": 313655.0,
+      "within_product_share_pct": 0.137818548666963
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 702,
+      "export_usd": 958465.0,
+      "within_product_share_pct": 0.421145064634968
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 704,
+      "export_usd": 124636835.0,
+      "within_product_share_pct": 54.76484580237449
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 764,
+      "export_usd": 607304.0,
+      "within_product_share_pct": 0.266846553951448
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854233,
+      "destination": 842,
+      "export_usd": 1493455.0,
+      "within_product_share_pct": 0.656217183209002
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": -1,
+      "export_usd": 913056994.0,
+      "within_product_share_pct": 7.785878870363047
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 156,
+      "export_usd": 2717945343.0,
+      "within_product_share_pct": 23.176639964345256
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 344,
+      "export_usd": 2128965013.0,
+      "within_product_share_pct": 18.154248660690826
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 490,
+      "export_usd": 3332619410.0,
+      "within_product_share_pct": 28.418128570055906
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 608,
+      "export_usd": 76243518.0,
+      "within_product_share_pct": 0.6501486760402
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 702,
+      "export_usd": 89580430.0,
+      "within_product_share_pct": 0.763876057812702
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 704,
+      "export_usd": 2217073162.0,
+      "within_product_share_pct": 18.905570188387156
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 764,
+      "export_usd": 210878771.0,
+      "within_product_share_pct": 1.79821914527389
+    },
+    {
+      "reporterCode": 410,
+      "refYear": 2024,
+      "cmdCode": 854239,
+      "destination": 842,
+      "export_usd": 40726994.0,
+      "within_product_share_pct": 0.34728986703102
+    }
+  ],
+  "endpoint_table": [
+    {
+      "reporter": 392,
+      "year": 2017,
+      "include_parts": false,
+      "export_usd": 24993099268.882,
+      "hhi": 0.15865745819617,
+      "memory_share": 0.389771766965289,
+      "product_hhi": 0.364728829260806,
+      "state": "initial",
+      "hhi_matched_grid": 0.177147065050639,
+      "residual_share": 0.171680426637738
+    },
+    {
+      "reporter": 392,
+      "year": 2024,
+      "include_parts": false,
+      "export_usd": 30377948416.316,
+      "hhi": 0.154100640035791,
+      "memory_share": 0.42463417323392,
+      "product_hhi": 0.409895727055856,
+      "state": "final",
+      "hhi_matched_grid": 0.175383887132981,
+      "residual_share": 0.192668909626379
+    },
+    {
+      "reporter": 410,
+      "year": 2017,
+      "include_parts": false,
+      "export_usd": 85839954337.0,
+      "hhi": 0.270538933795287,
+      "memory_share": 0.704880476117861,
+      "product_hhi": 0.560866816916344,
+      "state": "initial",
+      "hhi_matched_grid": 0.273098211434326,
+      "residual_share": 0.054824395240521
+    },
+    {
+      "reporter": 410,
+      "year": 2024,
+      "include_parts": false,
+      "export_usd": 119819998301.0,
+      "hhi": 0.212486607949783,
+      "memory_share": 0.601065805276338,
+      "product_hhi": 0.46036079493387,
+      "state": "final",
+      "hhi_matched_grid": 0.21767161430213,
+      "residual_share": 0.078642818699834
+    }
+  ],
+  "observed_growth_statistics": [
+    {
+      "reporter": 392,
+      "n": 84,
+      "sd_pp": 9.88372412277594,
+      "mean_growth_pp": 2.756842699109005,
+      "minimum_pp": -17.453095679015956,
+      "minimum_period": 202307,
+      "maximum_pp": 21.64027273921481,
+      "maximum_period": 202112
+    },
+    {
+      "reporter": 410,
+      "n": 84,
+      "sd_pp": 28.48295580853293,
+      "mean_growth_pp": 4.837855729801773,
+      "minimum_pp": -54.31761120806403,
+      "minimum_period": 202301,
+      "maximum_pp": 47.43662184706946,
+      "maximum_period": 202402
+    }
+  ],
+  "largest_ordinary_growth_observations": [
+    {
+      "case": "ordinary_pct_yoy",
+      "reporter": 392,
+      "period": 202209,
+      "cmdCode": 854232,
+      "destination": 704,
+      "previous_usd": 23054.137,
+      "current_usd": 13838019.701,
+      "ordinary_growth_pp": 59924.01955449471
+    },
+    {
+      "case": "ordinary_pct_yoy",
+      "reporter": 392,
+      "period": 202302,
+      "cmdCode": 854232,
+      "destination": 704,
+      "previous_usd": 24911.026,
+      "current_usd": 14058410.612,
+      "ordinary_growth_pp": 56334.49054246099
+    },
+    {
+      "case": "ordinary_pct_yoy",
+      "reporter": 392,
+      "period": 202107,
+      "cmdCode": 854232,
+      "destination": 704,
+      "previous_usd": 16954.491,
+      "current_usd": 8129594.783,
+      "ordinary_growth_pp": 47849.50661155205
+    },
+    {
+      "case": "ordinary_pct_yoy",
+      "reporter": 392,
+      "period": 202407,
+      "cmdCode": 854232,
+      "destination": 704,
+      "previous_usd": 53173.173,
+      "current_usd": 14189625.607,
+      "ordinary_growth_pp": 26585.685292844948
+    },
+    {
+      "case": "ordinary_pct_yoy",
+      "reporter": 392,
+      "period": 202211,
+      "cmdCode": 854232,
+      "destination": 704,
+      "previous_usd": 29828.675,
+      "current_usd": 5554354.757,
+      "ordinary_growth_pp": 18520.85646445912
+    }
+  ],
+  "maximum_annual_bridge_gap": {
+    "reporterCode": 392,
+    "refYear": 2022,
+    "cmdCode": 854239,
+    "sum_months_usd": 12939649555.301,
+    "official_annual_usd": 13043068182.81,
+    "monthly_observations": 12,
+    "comparable": true,
+    "relative_gap": -0.0079290107250453
+  },
+  "saved_results": {
+    "primary_states": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "state": "initial",
+        "variance_pp2": 100.73295659044835,
+        "sd_pp": 10.036580921332144,
+        "hhi_matched_grid": 0.177147065050639,
+        "hhi_all_destinations": 0.15865745819617,
+        "mean_growth_pp": 1.117881761195538,
+        "residual_share": 0.171680426637738,
+        "n": 84
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "state": "product_change",
+        "variance_pp2": 106.24274271455242,
+        "sd_pp": 10.307412027980272,
+        "hhi_matched_grid": 0.180733763158164,
+        "hhi_all_destinations": 0.165195034957599,
+        "mean_growth_pp": 1.743778897291232,
+        "residual_share": 0.163465519123712,
+        "n": 84
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "state": "geography_change",
+        "variance_pp2": 90.6604431714434,
+        "sd_pp": 9.521577766916751,
+        "hhi_matched_grid": 0.171504830815885,
+        "hhi_all_destinations": 0.147952180567761,
+        "mean_growth_pp": 3.536089696367924,
+        "residual_share": 0.194730310411416,
+        "n": 84
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "state": "final",
+        "variance_pp2": 95.48767221212896,
+        "sd_pp": 9.771779377990937,
+        "hhi_matched_grid": 0.175383887132981,
+        "hhi_all_destinations": 0.154100640035791,
+        "mean_growth_pp": 4.184284461014211,
+        "residual_share": 0.192668909626379,
+        "n": 84
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "state": "initial",
+        "variance_pp2": 891.1629341069804,
+        "sd_pp": 29.85235223741976,
+        "hhi_matched_grid": 0.273098211434326,
+        "hhi_all_destinations": 0.270538933795288,
+        "mean_growth_pp": 1.813947054616712,
+        "residual_share": 0.054824395240521,
+        "n": 84
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "state": "product_change",
+        "variance_pp2": 714.7263114985703,
+        "sd_pp": 26.73436573959761,
+        "hhi_matched_grid": 0.2530030371968,
+        "hhi_all_destinations": 0.249538942431548,
+        "mean_growth_pp": 2.655158951458543,
+        "residual_share": 0.063802903146513,
+        "n": 84
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "state": "geography_change",
+        "variance_pp2": 986.4815105309208,
+        "sd_pp": 31.40830320999402,
+        "hhi_matched_grid": 0.224295771349021,
+        "hhi_all_destinations": 0.21975075948433,
+        "mean_growth_pp": 6.667949396918544,
+        "residual_share": 0.07389008090442,
+        "n": 84
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "state": "final",
+        "variance_pp2": 817.0849911414632,
+        "sd_pp": 28.58469854907452,
+        "hhi_matched_grid": 0.21767161430213,
+        "hhi_all_destinations": 0.212486607949783,
+        "mean_growth_pp": 7.64686875973966,
+        "residual_share": 0.078642818699834,
+        "n": 84
+      }
+    ],
+    "primary_intervals": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "delta_variance_pp2",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -24.5614954159377,
+        "ci_high": 16.91982781296865,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "mix_variance_pp2",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -4.305722746126957,
+        "ci_high": 14.191286095546516,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "geography_variance_pp2",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -23.766150773693447,
+        "ci_high": 5.209416906067287,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "delta_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -1.271826411777335,
+        "ci_high": 0.885975655966609,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "initial_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 8.440669613786666,
+        "ci_high": 10.997564438513004,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "product_change_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 8.722006946726033,
+        "ci_high": 11.243727942366272,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "geography_change_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 8.177003892440354,
+        "ci_high": 10.354590552437433,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "final_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 8.198480845455476,
+        "ci_high": 10.77098937740853,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "delta_variance_pp2",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -25.17789143503948,
+        "ci_high": 15.572939840150337,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "mix_variance_pp2",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -3.32193898823597,
+        "ci_high": 13.475057562104428,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "geography_variance_pp2",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -25.565267693453297,
+        "ci_high": 5.598467695016912,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "delta_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -1.277126797736733,
+        "ci_high": 0.791655626167555,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "initial_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 8.358097806225297,
+        "ci_high": 11.180201395413958,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "product_change_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 8.621100628988062,
+        "ci_high": 11.495284938128428,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "geography_change_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 7.941513055776909,
+        "ci_high": 10.65385941069645,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "metric": "final_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 8.061087307188828,
+        "ci_high": 11.023402317582477,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "delta_variance_pp2",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -172.7512904639105,
+        "ci_high": 21.560415465871756,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "mix_variance_pp2",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -241.2330757278984,
+        "ci_high": -67.53707961281809,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "geography_variance_pp2",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -1.670893314513437,
+        "ci_high": 168.51539061577097,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "delta_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": -2.998739557989044,
+        "ci_high": 0.423493797559147,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "initial_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 19.606821131234813,
+        "ci_high": 34.26990002674627,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "product_change_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 17.385016020145923,
+        "ci_high": 30.826290223790505,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "geography_change_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 20.54975840843015,
+        "ci_high": 36.16900604829284,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "final_sd_pp",
+        "block_months": 12,
+        "repetitions": 1999,
+        "ci_low": 18.623249397461727,
+        "ci_high": 32.893643479099744,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "delta_variance_pp2",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -183.83680818078727,
+        "ci_high": 37.07351766517419,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "mix_variance_pp2",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -242.77363198923663,
+        "ci_high": -84.03758106772553,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "geography_variance_pp2",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -0.94283276781344,
+        "ci_high": 194.4921827315549,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "delta_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": -3.141138259759038,
+        "ci_high": 0.709603152947107,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "initial_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 21.44385057366868,
+        "ci_high": 34.91305173290293,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "product_change_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 19.115715410567336,
+        "ci_high": 31.373088066683827,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "geography_change_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 22.26867966080845,
+        "ci_high": 36.71158026922262,
+        "seed": 20261016
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "metric": "final_sd_pp",
+        "block_months": 6,
+        "repetitions": 1999,
+        "ci_low": 20.225588407029683,
+        "ci_high": 33.456655524767584,
+        "seed": 20261016
+      }
+    ],
+    "all_specifications": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -5.245284378319407,
+        "mix_variance_pp2": 5.168507582394809,
+        "geography_variance_pp2": -10.413791960714216,
+        "delta_sd_pp": -0.264801543341206,
+        "variance_change_pct": -5.207118460391513,
+        "sd_change_pct": -2.638364054619291,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.001763177917658,
+        "min_cov_eigenvalue": 0.001692394626003,
+        "unobserved": null
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -74.07794296551722,
+        "mix_variance_pp2": -172.91657099893374,
+        "geography_variance_pp2": 98.8386280334165,
+        "delta_sd_pp": -1.267653688345238,
+        "variance_change_pct": -8.31250270072661,
+        "sd_change_pct": -4.246411399220451,
+        "hhi_full_change": -0.058052325845505,
+        "hhi_grid_change": -0.055426597132195,
+        "min_cov_eigenvalue": 0.004831969478519,
+        "unobserved": null
+      },
+      {
+        "case": "top5",
+        "reporter": 392,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 5.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702",
+        "delta_variance_pp2": -5.277230218592894,
+        "mix_variance_pp2": 5.272672376500712,
+        "geography_variance_pp2": -10.549902595093606,
+        "delta_sd_pp": -0.26664566216284,
+        "variance_change_pct": -5.246850198501596,
+        "sd_change_pct": -2.658770399435362,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.00884859511907,
+        "min_cov_eigenvalue": 0.002824849742691,
+        "unobserved": null
+      },
+      {
+        "case": "top5",
+        "reporter": 410,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 5.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702",
+        "delta_variance_pp2": -54.81270700158719,
+        "mix_variance_pp2": -175.28474664806137,
+        "geography_variance_pp2": 120.47203964647416,
+        "delta_sd_pp": -0.935332113968584,
+        "variance_change_pct": -6.185241508847095,
+        "sd_change_pct": -3.141980976713699,
+        "hhi_full_change": -0.058052325845505,
+        "hhi_grid_change": -0.0572111180942,
+        "min_cov_eigenvalue": 0.007287246766217,
+        "unobserved": null
+      },
+      {
+        "case": "top12",
+        "reporter": 392,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 11.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764;458;276;699",
+        "delta_variance_pp2": -3.56218571926541,
+        "mix_variance_pp2": 5.59777280954946,
+        "geography_variance_pp2": -9.159958528814869,
+        "delta_sd_pp": -0.178030246996044,
+        "variance_change_pct": -3.496526922639354,
+        "sd_change_pct": -1.763818744130408,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.004812045336038,
+        "min_cov_eigenvalue": 0.000918229512803,
+        "unobserved": null
+      },
+      {
+        "case": "top12",
+        "reporter": 410,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 11.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764;458;276;699",
+        "delta_variance_pp2": -76.2173960625584,
+        "mix_variance_pp2": -171.30456294179544,
+        "geography_variance_pp2": 95.08716687923705,
+        "delta_sd_pp": -1.306678849939902,
+        "variance_change_pct": -8.572359303256704,
+        "sd_change_pct": -4.38219794580964,
+        "hhi_full_change": -0.058052325845505,
+        "hhi_grid_change": -0.057931088248595,
+        "min_cov_eigenvalue": 0.003635846787644,
+        "unobserved": null
+      },
+      {
+        "case": "include_parts",
+        "reporter": 392,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 5.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -8.431483314086629,
+        "mix_variance_pp2": 4.671654285507655,
+        "geography_variance_pp2": -13.103137599594284,
+        "delta_sd_pp": -0.417672161936296,
+        "variance_change_pct": -7.943997160969096,
+        "sd_change_pct": -4.054180477192803,
+        "hhi_full_change": -0.00089995269596,
+        "hhi_grid_change": 0.001599596333614,
+        "min_cov_eigenvalue": 0.000909883795516,
+        "unobserved": null
+      },
+      {
+        "case": "include_parts",
+        "reporter": 410,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 5.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -73.46640481302666,
+        "mix_variance_pp2": -171.97927029975162,
+        "geography_variance_pp2": 98.51286548672498,
+        "delta_sd_pp": -1.259273280484902,
+        "variance_change_pct": -8.272984340184896,
+        "sd_change_pct": -4.225778176058714,
+        "hhi_full_change": -0.057767407418922,
+        "hhi_grid_change": -0.05513369950206,
+        "min_cov_eigenvalue": 0.002457388190908,
+        "unobserved": null
+      },
+      {
+        "case": "cn_hk_combined",
+        "reporter": 392,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;490;704;702;608;842;764;458",
+        "delta_variance_pp2": -1.808343577440492,
+        "mix_variance_pp2": 5.710281607507039,
+        "geography_variance_pp2": -7.51862518494753,
+        "delta_sd_pp": -0.090560500008473,
+        "variance_change_pct": -1.797737781055475,
+        "sd_change_pct": -0.902945442891934,
+        "hhi_full_change": -0.021222473780466,
+        "hhi_grid_change": -0.024872320635971,
+        "min_cov_eigenvalue": 0.00169323740295,
+        "unobserved": null
+      },
+      {
+        "case": "cn_hk_combined",
+        "reporter": 410,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;490;704;702;608;842;764;458",
+        "delta_variance_pp2": -72.18960010332023,
+        "mix_variance_pp2": -171.34135663209003,
+        "geography_variance_pp2": 99.1517565287698,
+        "delta_sd_pp": -1.24333683717634,
+        "variance_change_pct": -8.210301925318486,
+        "sd_change_pct": -4.193059711375025,
+        "hhi_full_change": -0.162419889613312,
+        "hhi_grid_change": -0.161030508779092,
+        "min_cov_eigenvalue": 0.004849154642509,
+        "unobserved": null
+      },
+      {
+        "case": "monthly_lag1",
+        "reporter": 392,
+        "status": "ok",
+        "n": 95,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2017.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": 5.717363498706149,
+        "mix_variance_pp2": 3.45249027213345,
+        "geography_variance_pp2": 2.264873226572699,
+        "delta_sd_pp": 0.313807406921034,
+        "variance_change_pct": 7.133150087404983,
+        "sd_change_pct": 3.505144841889374,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.001763177917658,
+        "min_cov_eigenvalue": 0.001854677990896,
+        "unobserved": null
+      },
+      {
+        "case": "monthly_lag1",
+        "reporter": 410,
+        "status": "unobserved_growth",
+        "n": 95,
+        "initial_year": null,
+        "final_year": null,
+        "sigma_start": null,
+        "sigma_end": null,
+        "product_count": null,
+        "separate_directions": null,
+        "grid_limited": null,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": null,
+        "mix_variance_pp2": null,
+        "geography_variance_pp2": null,
+        "delta_sd_pp": null,
+        "variance_change_pct": null,
+        "sd_change_pct": null,
+        "hhi_full_change": null,
+        "hhi_grid_change": null,
+        "min_cov_eigenvalue": null,
+        "unobserved": 6.0
+      },
+      {
+        "case": "quarterly_yoy",
+        "reporter": 392,
+        "status": "ok",
+        "n": 28,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -6.469403970082314,
+        "mix_variance_pp2": 2.181212878361862,
+        "geography_variance_pp2": -8.650616848444177,
+        "delta_sd_pp": -0.391324226742869,
+        "variance_change_pct": -9.035428098469213,
+        "sd_change_pct": -4.624651035222527,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.001763177917658,
+        "min_cov_eigenvalue": -2.05352546828914e-16,
+        "unobserved": null
+      },
+      {
+        "case": "quarterly_yoy",
+        "reporter": 410,
+        "status": "ok",
+        "n": 28,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -66.32381047130542,
+        "mix_variance_pp2": -168.22798124980747,
+        "geography_variance_pp2": 101.90417077850206,
+        "delta_sd_pp": -1.168039386469405,
+        "variance_change_pct": -7.89986098123846,
+        "sd_change_pct": -4.03118265876069,
+        "hhi_full_change": -0.058052325845505,
+        "hhi_grid_change": -0.055426597132195,
+        "min_cov_eigenvalue": -3.02787137363516e-16,
+        "unobserved": null
+      },
+      {
+        "case": "ordinary_pct_yoy",
+        "reporter": 392,
+        "status": "ok",
+        "n": 84,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": 5630.870771107444,
+        "mix_variance_pp2": 502.524043260686,
+        "geography_variance_pp2": 5128.346727846756,
+        "delta_sd_pp": 55.16987453001091,
+        "variance_change_pct": 1024.2227229713974,
+        "sd_change_pct": 235.2943069858773,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.001763177917658,
+        "min_cov_eigenvalue": 0.002137473140287,
+        "unobserved": null
+      },
+      {
+        "case": "ordinary_pct_yoy",
+        "reporter": 410,
+        "status": "unobserved_growth",
+        "n": 84,
+        "initial_year": null,
+        "final_year": null,
+        "sigma_start": null,
+        "sigma_end": null,
+        "product_count": null,
+        "separate_directions": null,
+        "grid_limited": null,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": null,
+        "mix_variance_pp2": null,
+        "geography_variance_pp2": null,
+        "delta_sd_pp": null,
+        "variance_change_pct": null,
+        "sd_change_pct": null,
+        "hhi_full_change": null,
+        "hhi_grid_change": null,
+        "min_cov_eigenvalue": null,
+        "unobserved": 22.0
+      },
+      {
+        "case": "sigma_2018_2020",
+        "reporter": 392,
+        "status": "ok",
+        "n": 36,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2020.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -4.014516846953505,
+        "mix_variance_pp2": 2.826939595059244,
+        "geography_variance_pp2": -6.841456442012749,
+        "delta_sd_pp": -0.243607522063494,
+        "variance_change_pct": -5.741986278810796,
+        "sd_change_pct": -2.913433616596983,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.001763177917658,
+        "min_cov_eigenvalue": -5.1055820312174e-17,
+        "unobserved": null
+      },
+      {
+        "case": "sigma_2018_2020",
+        "reporter": 410,
+        "status": "ok",
+        "n": 36,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2020.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -173.38474486648124,
+        "mix_variance_pp2": -146.71243251444966,
+        "geography_variance_pp2": -26.672312352031582,
+        "delta_sd_pp": -3.5335270261038,
+        "variance_change_pct": -25.064930445055467,
+        "sd_change_pct": -13.434955348625545,
+        "hhi_full_change": -0.058052325845505,
+        "hhi_grid_change": -0.055426597132195,
+        "min_cov_eigenvalue": -5.33957000939703e-17,
+        "unobserved": null
+      },
+      {
+        "case": "sigma_2021_2024",
+        "reporter": 392,
+        "status": "ok",
+        "n": 48,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2021.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -2.005151691116588,
+        "mix_variance_pp2": 9.348747265572523,
+        "geography_variance_pp2": -11.353898956689113,
+        "delta_sd_pp": -0.091455106899022,
+        "variance_change_pct": -1.654676485117346,
+        "sd_change_pct": -0.830789296837375,
+        "hhi_full_change": -0.004556818160379,
+        "hhi_grid_change": -0.001763177917658,
+        "min_cov_eigenvalue": 0.000544585520856,
+        "unobserved": null
+      },
+      {
+        "case": "sigma_2021_2024",
+        "reporter": 410,
+        "status": "ok",
+        "n": 48,
+        "initial_year": 2017.0,
+        "final_year": 2024.0,
+        "sigma_start": 2021.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -19.352008661341348,
+        "mix_variance_pp2": -188.4407610457943,
+        "geography_variance_pp2": 169.08875238445296,
+        "delta_sd_pp": -0.302851987081248,
+        "variance_change_pct": -1.877966420710176,
+        "sd_change_pct": -0.943433544620664,
+        "hhi_full_change": -0.058052325845505,
+        "hhi_grid_change": -0.055426597132195,
+        "min_cov_eigenvalue": 0.000807819753676,
+        "unobserved": null
+      },
+      {
+        "case": "temporal_2018_2020",
+        "reporter": 392,
+        "status": "ok",
+        "n": 36,
+        "initial_year": 2017.0,
+        "final_year": 2020.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2020.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": 6.956723707101844,
+        "mix_variance_pp2": 11.526372298542846,
+        "geography_variance_pp2": -4.569648591441003,
+        "delta_sd_pp": 0.406132775361419,
+        "variance_change_pct": 9.950241484718124,
+        "sd_change_pct": 4.857160692400075,
+        "hhi_full_change": 0.003777735153979,
+        "hhi_grid_change": 6.3413343788e-05,
+        "min_cov_eigenvalue": -5.1055820312174e-17,
+        "unobserved": null
+      },
+      {
+        "case": "temporal_2018_2020",
+        "reporter": 410,
+        "status": "ok",
+        "n": 36,
+        "initial_year": 2017.0,
+        "final_year": 2020.0,
+        "sigma_start": 2018.0,
+        "sigma_end": 2020.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -96.83542008136412,
+        "mix_variance_pp2": -108.26872495609094,
+        "geography_variance_pp2": 11.433304874726815,
+        "delta_sd_pp": -1.910281182774282,
+        "variance_change_pct": -13.998769446678928,
+        "sd_change_pct": -7.263151577530369,
+        "hhi_full_change": -0.005387007055432,
+        "hhi_grid_change": -0.00463154624882,
+        "min_cov_eigenvalue": -5.33957000939703e-17,
+        "unobserved": null
+      },
+      {
+        "case": "temporal_2021_2024",
+        "reporter": 392,
+        "status": "ok",
+        "n": 48,
+        "initial_year": 2017.0,
+        "final_year": 2020.0,
+        "sigma_start": 2021.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": 7.385104819381087,
+        "mix_variance_pp2": 17.237811924857553,
+        "geography_variance_pp2": -9.852707105476467,
+        "delta_sd_pp": 0.330475379782695,
+        "variance_change_pct": 6.094281713894589,
+        "sd_change_pct": 3.00207848091929,
+        "hhi_full_change": 0.003777735153979,
+        "hhi_grid_change": 6.3413343788e-05,
+        "min_cov_eigenvalue": 0.000544585520856,
+        "unobserved": null
+      },
+      {
+        "case": "temporal_2021_2024",
+        "reporter": 410,
+        "status": "ok",
+        "n": 48,
+        "initial_year": 2017.0,
+        "final_year": 2020.0,
+        "sigma_start": 2021.0,
+        "sigma_end": 2024.0,
+        "product_count": 4.0,
+        "separate_directions": 8.0,
+        "grid_limited": false,
+        "directions": "156;344;490;704;702;608;842;764",
+        "delta_variance_pp2": -135.15988940985005,
+        "mix_variance_pp2": -125.27451055310064,
+        "geography_variance_pp2": -9.885378856749409,
+        "delta_sd_pp": -2.179193747483482,
+        "variance_change_pct": -13.116247423227769,
+        "sd_change_pct": -6.788545458848116,
+        "hhi_full_change": -0.005387007055432,
+        "hhi_grid_change": -0.00463154624882,
+        "min_cov_eigenvalue": 0.000807819753676,
+        "unobserved": null
+      }
+    ],
+    "memory_share_decomposition": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "factor": "memory_share",
+        "n": 84,
+        "initial_year": 2017,
+        "final_year": 2024,
+        "memory_share_initial": 0.389771766965289,
+        "memory_share_final": 0.42463417323392,
+        "estimate_variance_pp2": 5.87711895425779,
+        "ci_low": 0.96916448383345,
+        "ci_high": 8.946697741205778,
+        "block_months": 12,
+        "block_observations": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "factor": "within_nonmemory_mix",
+        "n": 84,
+        "initial_year": 2017,
+        "final_year": 2024,
+        "memory_share_initial": 0.389771766965289,
+        "memory_share_final": 0.42463417323392,
+        "estimate_variance_pp2": -0.708611371862981,
+        "ci_low": -7.863590825437628,
+        "ci_high": 6.73515776507524,
+        "block_months": 12,
+        "block_observations": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "factor": "geography",
+        "n": 84,
+        "initial_year": 2017,
+        "final_year": 2024,
+        "memory_share_initial": 0.389771766965289,
+        "memory_share_final": 0.42463417323392,
+        "estimate_variance_pp2": -10.413791960714216,
+        "ci_low": -23.76615077369339,
+        "ci_high": 5.209416906067261,
+        "block_months": 12,
+        "block_observations": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "factor": "memory_share",
+        "n": 84,
+        "initial_year": 2017,
+        "final_year": 2024,
+        "memory_share_initial": 0.704880476117861,
+        "memory_share_final": 0.601065805276338,
+        "estimate_variance_pp2": -165.17755167709092,
+        "ci_low": -228.22271851058937,
+        "ci_high": -66.29181434632478,
+        "block_months": 12,
+        "block_observations": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "factor": "within_nonmemory_mix",
+        "n": 84,
+        "initial_year": 2017,
+        "final_year": 2024,
+        "memory_share_initial": 0.704880476117861,
+        "memory_share_final": 0.601065805276338,
+        "estimate_variance_pp2": -7.739019321842816,
+        "ci_low": -17.691764811037775,
+        "ci_high": 3.218630648949361,
+        "block_months": 12,
+        "block_observations": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "factor": "geography",
+        "n": 84,
+        "initial_year": 2017,
+        "final_year": 2024,
+        "memory_share_initial": 0.704880476117861,
+        "memory_share_final": 0.601065805276338,
+        "estimate_variance_pp2": 98.8386280334165,
+        "ci_low": -1.670893314513364,
+        "ci_high": 168.51539061577125,
+        "block_months": 12,
+        "block_observations": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      }
+    ],
+    "covariance_attribution_intervals": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "component": "own_variances",
+        "factor": "total_change",
+        "estimate_variance_pp2": 12.213560913622718,
+        "ci_low": 1.975228480742105,
+        "ci_high": 19.95530048691376,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "component": "own_variances",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 12.492896927943468,
+        "ci_low": 9.01253609636506,
+        "ci_high": 14.73142269663851,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "component": "own_variances",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.279336014320751,
+        "ci_low": -8.528926581354192,
+        "ci_high": 6.211349417321855,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "component": "cross_covariances",
+        "factor": "total_change",
+        "estimate_variance_pp2": -17.458845291942122,
+        "ci_low": -30.69231931514781,
+        "ci_high": 1.398103557005225,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "component": "cross_covariances",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -7.32438934554866,
+        "ci_low": -13.852929054140905,
+        "ci_high": 0.282780070613787,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "component": "cross_covariances",
+        "factor": "geography",
+        "estimate_variance_pp2": -10.134455946393464,
+        "ci_low": -19.74198744446722,
+        "ci_high": 3.805648145349229,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "component": "own_variances",
+        "factor": "total_change",
+        "estimate_variance_pp2": -106.60762848263734,
+        "ci_low": -157.04892646996578,
+        "ci_high": -43.69805079758648,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "component": "own_variances",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -71.87900411764713,
+        "ci_low": -93.48748460810803,
+        "ci_high": -35.994344773116886,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "component": "own_variances",
+        "factor": "geography",
+        "estimate_variance_pp2": -34.72862436499021,
+        "ci_low": -67.96874192410812,
+        "ci_high": 1.496328236973224,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "component": "cross_covariances",
+        "factor": "total_change",
+        "estimate_variance_pp2": 32.529685517120114,
+        "ci_low": -55.11509234663471,
+        "ci_high": 112.45723658906856,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "component": "cross_covariances",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -101.0375668812866,
+        "ci_low": -148.95649146121968,
+        "ci_high": -30.709506443852327,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "component": "cross_covariances",
+        "factor": "geography",
+        "estimate_variance_pp2": 133.5672523984067,
+        "ci_low": 24.21798879183152,
+        "ci_high": 204.5007823759409,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      }
+    ],
+    "destination_attribution_intervals": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 3.238462233320414,
+        "ci_low": -0.107085401176667,
+        "ci_high": 5.972405960464818,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": -17.987337401899673,
+        "ci_low": -24.1081286843882,
+        "ci_high": -10.69300972996206,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.168028021264336,
+        "ci_low": -2.967566656414549,
+        "ci_high": 2.963758563408129,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": -2.575184513288657,
+        "ci_low": -6.37912219204333,
+        "ci_high": 1.214064710225146,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 5.019258901690267,
+        "ci_low": 2.156907489064602,
+        "ci_high": 7.521436835645844,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": 9.698875785144304,
+        "ci_low": 4.277764099685969,
+        "ci_high": 13.947244521358884,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.143379264029637,
+        "ci_low": -0.887025692316108,
+        "ci_high": 0.931374478427846,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": 4.469111908133426,
+        "ci_low": 0.288117166169178,
+        "ci_high": 9.625328414882317,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.972253682885865,
+        "ci_low": -2.015582791421967,
+        "ci_high": 0.094146968615144,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": 1.320384058020718,
+        "ci_low": -2.420671447013499,
+        "ci_high": 4.909390837311043,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.027346138302093,
+        "ci_low": -0.557660377325836,
+        "ci_high": 0.671209805496771,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.024710553402678,
+        "ci_low": -4.083663848681933,
+        "ci_high": 4.14934716649418,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -1.27557824538103,
+        "ci_low": -2.13092379910197,
+        "ci_high": -0.201421773544383,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.929834477892877,
+        "ci_low": -1.731428814258737,
+        "ci_high": -0.022878889996239,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.346688461703687,
+        "ci_low": -0.767361012123102,
+        "ci_high": 0.214929979535829,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": -2.822064264045779,
+        "ci_low": -4.427340045809556,
+        "ci_high": 0.053435064558825,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.155939739049357,
+        "ci_low": -2.197182325094526,
+        "ci_high": 1.875932113308819,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.563032501483034,
+        "ci_low": -5.418707546226556,
+        "ci_high": 2.051156681230701,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -65.68055610675164,
+        "ci_low": -96.92889092549144,
+        "ci_high": -18.81062571765442,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": -116.61447855151565,
+        "ci_low": -164.40731086192466,
+        "ci_high": -36.45434334940917,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -61.18642086847358,
+        "ci_low": -79.54229135679489,
+        "ci_high": -28.075729896715345,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": -163.88002888164831,
+        "ci_low": -224.45549402045697,
+        "ci_high": -75.28188080895565,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -19.046121423437896,
+        "ci_low": -39.10507247551528,
+        "ci_high": 2.660504797170352,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": 368.9332135504394,
+        "ci_low": 131.25521280716052,
+        "ci_high": 497.44816625737576,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -8.389079980675044,
+        "ci_low": -16.506078420065307,
+        "ci_high": 1.104537464314141,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": 63.17123735995151,
+        "ci_low": 21.834693203357347,
+        "ci_high": 95.42261823403705,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 2.250172442129874,
+        "ci_low": -1.836592146362688,
+        "ci_high": 7.024888914573714,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": -4.137748237515843,
+        "ci_low": -10.07722713593695,
+        "ci_high": 1.309855364848551,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -9.746525589265577,
+        "ci_low": -13.96719805167064,
+        "ci_high": -3.290968268418192,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": -78.75498711018368,
+        "ci_low": -102.56485823171526,
+        "ci_high": -26.08867455504644,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 1.417303736584122,
+        "ci_low": -0.074634932108675,
+        "ci_high": 2.726511208960125,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": 6.786722922983058,
+        "ci_low": -0.415262349612742,
+        "ci_high": 13.503962847761349,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.372318768087537,
+        "ci_low": -1.192504215563586,
+        "ci_high": 0.507984861317463,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.807788908283098,
+        "ci_low": -2.892482750305889,
+        "ci_high": -0.317031639698081,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -12.163024440955846,
+        "ci_low": -20.097025664817888,
+        "ci_high": -2.914690954614908,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": 25.142485889190933,
+        "ci_low": 11.147251572522158,
+        "ci_high": 34.67330491376787,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      }
+    ],
+    "cell_attribution_intervals": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -1.303910460133949,
+        "ci_low": -4.243767682017312,
+        "ci_high": 1.593432277228499,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.88232964305486,
+        "ci_low": -1.014226070674301,
+        "ci_high": 2.774775924680247,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -1.226147168109597,
+        "ci_low": -2.185127769252745,
+        "ci_high": -0.124813844061575,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.483895470688416,
+        "ci_low": -0.858246230279129,
+        "ci_high": -0.052883259449285,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -1.248865429451735,
+        "ci_low": -1.93240440874091,
+        "ci_high": -0.445489301143332,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.67742570833927,
+        "ci_low": 0.242767760804923,
+        "ci_high": 1.037225656301982,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.038227979330194,
+        "ci_low": -0.145381165773473,
+        "ci_high": 0.077673369820375,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.017989976130105,
+        "ci_low": -0.069510512395209,
+        "ci_high": 0.037921812412837,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.748214090952687,
+        "ci_low": -1.258602698361031,
+        "ci_high": -0.199864628378362,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.031896453041414,
+        "ci_low": -0.053395148292369,
+        "ci_high": -0.008823791452479,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.287232795168377,
+        "ci_low": -0.767173322943745,
+        "ci_high": 0.377054810785646,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.273286493542251,
+        "ci_low": -0.393683237074578,
+        "ci_high": 0.761389016041956,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -1.313679742566739,
+        "ci_low": -2.12102646741874,
+        "ci_high": -0.348662853060574,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.181384604585116,
+        "ci_low": -0.292621772001623,
+        "ci_high": -0.048850245505575,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.593596464523145,
+        "ci_low": -1.013238837836454,
+        "ci_high": -0.058596943505618,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.020280079300448,
+        "ci_low": 0.001932644404508,
+        "ci_high": 0.034680624549714,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -2.193281760305315,
+        "ci_low": -4.103809329204164,
+        "ci_high": -0.192806279334126,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854231,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.645277952004501,
+        "ci_low": -3.032154094152563,
+        "ci_high": -0.186779613350242,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 4.124085666742556,
+        "ci_low": 2.382917174706248,
+        "ci_high": 5.652107705510572,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": -16.27372714020579,
+        "ci_low": -22.42922520846858,
+        "ci_high": -9.298231476051132,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.377589366160092,
+        "ci_low": 0.028224874080156,
+        "ci_high": 0.681762874250486,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": -2.919883764180979,
+        "ci_low": -5.254445024457037,
+        "ci_high": -0.246290980189041,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 5.952615652751447,
+        "ci_low": 2.688597503521866,
+        "ci_high": 8.463996083686384,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": 10.585617528795638,
+        "ci_low": 4.750993560483094,
+        "ci_high": 15.053252909234711,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.144729920048465,
+        "ci_low": -0.120053138448686,
+        "ci_high": 0.434826833075339,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": 1.512168060323812,
+        "ci_low": -1.968804613515898,
+        "ci_high": 5.417887922358585,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.242910258585471,
+        "ci_low": -0.972681695128122,
+        "ci_high": 0.501118175726743,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": 1.47767175190365,
+        "ci_low": -2.425248996907196,
+        "ci_high": 5.258459707039681,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.060196321804477,
+        "ci_low": -0.200400364510087,
+        "ci_high": 0.31375727185699,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.9154687402654,
+        "ci_low": -3.212691830794806,
+        "ci_high": 4.944464130825219,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.065021617643226,
+        "ci_low": -0.00908162237012,
+        "ci_high": 0.12746212015058,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.432156168531682,
+        "ci_low": -0.870337408857133,
+        "ci_high": 0.095614384615522,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.051385480936576,
+        "ci_low": -0.161132027596587,
+        "ci_high": 0.10074483094687,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.093229457001814,
+        "ci_low": -2.940215527022694,
+        "ci_high": 1.543157306039833,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.100713248426163,
+        "ci_low": -0.324254043294266,
+        "ci_high": 0.129814358138447,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854232,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.938456755508809,
+        "ci_low": -5.375888687422055,
+        "ci_high": 1.50129556167817,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.155442159416577,
+        "ci_low": -0.593465241773421,
+        "ci_high": 0.25819872531253,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.108727307267676,
+        "ci_low": -0.414803015176955,
+        "ci_high": 0.178870703382251,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.379938717403512,
+        "ci_low": -0.123187822384091,
+        "ci_high": 0.725994076022238,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.355410213766363,
+        "ci_low": -0.111976505869069,
+        "ci_high": 0.677476880275339,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.141567739083893,
+        "ci_low": -0.284514382081699,
+        "ci_high": 0.029055367937795,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.084133724901956,
+        "ci_low": -0.013419193728181,
+        "ci_high": 0.165530581714112,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.750637465037396,
+        "ci_low": -1.0886239572877,
+        "ci_high": -0.210353587589294,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.255393547586642,
+        "ci_low": -0.369012090381114,
+        "ci_high": -0.073937769811326,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.005357502104668,
+        "ci_low": -0.122352679881741,
+        "ci_high": 0.135336118440781,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": -7.0546402873e-05,
+        "ci_low": -0.008737729973637,
+        "ci_high": 0.008441472220617,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.078825965262168,
+        "ci_low": -0.214987061595229,
+        "ci_high": 0.364379122019602,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.086874675722247,
+        "ci_low": -0.516108434178532,
+        "ci_high": 0.36261254833615,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.088937876767778,
+        "ci_low": -0.264301019697155,
+        "ci_high": 0.096255290781852,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.076098449302624,
+        "ci_low": -0.075026082121065,
+        "ci_high": 0.216756782222342,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.125399172389846,
+        "ci_low": -0.29600523220689,
+        "ci_high": 0.074357949854565,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.034530200482104,
+        "ci_low": -0.018581008875147,
+        "ci_high": 0.07921328893167,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.238113577560178,
+        "ci_low": -0.19040664182635,
+        "ci_high": 0.581456330267155,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854233,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.159613695128914,
+        "ci_low": -0.398295011918274,
+        "ci_high": 0.133208796401612,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.573729186128383,
+        "ci_low": 0.279722504595688,
+        "ci_high": 0.84342256925254,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": -2.487212597481068,
+        "ci_low": -3.63681585189222,
+        "ci_high": -1.223251542186507,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.300591063281656,
+        "ci_low": -1.825056189192886,
+        "ci_high": 2.569172139729018,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.473184507814376,
+        "ci_low": -2.940405170471906,
+        "ci_high": 4.130416595833921,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.457076417474448,
+        "ci_low": 0.135932492917784,
+        "ci_high": 0.729376902763268,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.64830117689256,
+        "ci_low": -2.642861477691986,
+        "ci_high": -0.487141818940594,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.500756260289488,
+        "ci_low": -0.086738718888679,
+        "ci_high": 1.163175903623015,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": 3.230327371526361,
+        "ci_low": -1.347731253654611,
+        "ci_high": 8.390138185699815,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.013513164547625,
+        "ci_low": -0.052264848343048,
+        "ci_high": 0.068401242927186,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.125320694438644,
+        "ci_low": -0.612101724321146,
+        "ci_high": 0.462956876683908,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.120864369799639,
+        "ci_low": -0.04080238620742,
+        "ci_high": 0.253698633006429,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.126591111488082,
+        "ci_low": -2.456346199106633,
+        "ci_high": 0.526949322851389,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.062017756310261,
+        "ci_low": -0.096169219882229,
+        "ci_high": 0.205151398575939,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.392392154078703,
+        "ci_low": -1.3196044118327,
+        "ci_high": 0.62533593931965,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.423692656145879,
+        "ci_low": 0.248767480481636,
+        "ci_high": 0.548210737323566,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.783645086826518,
+        "ci_low": -2.307789175726264,
+        "ci_high": -1.048965440849442,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 1.899941692121944,
+        "ci_low": 0.476311027877773,
+        "ci_high": 3.039269400371647,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "cmdCode": 854239,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": 2.180315901159188,
+        "ci_low": 0.53648620522452,
+        "ci_high": 3.495886160163104,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 13.508685287409092,
+        "ci_low": 0.855650158861525,
+        "ci_high": 25.02177130951982,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": 15.4732460779123,
+        "ci_low": 0.978875019230669,
+        "ci_high": 28.612667773881828,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 5.03552868035379,
+        "ci_low": 2.357831254632833,
+        "ci_high": 6.872588898849813,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": -2.992684267134032,
+        "ci_low": -4.082225971356103,
+        "ci_high": -1.401740809104702,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 3.349261783565352,
+        "ci_low": 0.134198054355668,
+        "ci_high": 5.605941479702547,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": -5.232190220670553,
+        "ci_low": -8.772408862664742,
+        "ci_high": -0.252981212521826,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 8.64847306758644,
+        "ci_low": 1.197805577050749,
+        "ci_high": 15.489912151495146,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": -8.26062247681779,
+        "ci_low": -14.790380427378574,
+        "ci_high": -1.126542687292275,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 2.969010229711351,
+        "ci_low": -0.615693575645919,
+        "ci_high": 6.698618482666498,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": -3.949086386130716,
+        "ci_low": -8.890364885724333,
+        "ci_high": 0.815335318089868,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.62199087298942,
+        "ci_low": -0.455151723073828,
+        "ci_high": 1.502327634401911,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": -2.887370758579992,
+        "ci_low": -6.840789069911866,
+        "ci_high": 2.001726184703841,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 1.593048861548589,
+        "ci_low": -0.173006825602685,
+        "ci_high": 3.23450839005559,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": 5.943212369525913,
+        "ci_low": -0.766856970084792,
+        "ci_high": 12.275126257290442,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.596653453072409,
+        "ci_low": 0.094505211369126,
+        "ci_high": 0.94379240716376,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.596267650993668,
+        "ci_low": -2.522947887465644,
+        "ci_high": -0.259661078023502,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.842238027952391,
+        "ci_low": -2.473823063956619,
+        "ci_high": 0.849763710210073,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854231,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": -1.391534535860078,
+        "ci_low": -4.14361190903851,
+        "ci_high": 1.466965323868791,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -84.98287541385461,
+        "ci_low": -115.47212119216113,
+        "ci_high": -29.47996722168065,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": -136.86235767501964,
+        "ci_low": -186.19580504299256,
+        "ci_high": -46.87036049465683,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -72.13889085523324,
+        "ci_low": -96.04143777125984,
+        "ci_high": -33.78343854363809,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": -154.68075739018505,
+        "ci_low": -205.97607167265448,
+        "ci_high": -72.26157130967577,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -38.43807018615192,
+        "ci_low": -52.62320848721358,
+        "ci_high": -14.580401631303474,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": 334.63425360353153,
+        "ci_low": 114.85208968805377,
+        "ci_high": 459.7353097328023,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -15.79735711975268,
+        "ci_low": -23.494913893814527,
+        "ci_high": -6.036070394824571,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": 70.33220339045243,
+        "ci_low": 26.186192405547725,
+        "ci_high": 105.17536834814688,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -1.089877000317491,
+        "ci_low": -1.892217896031624,
+        "ci_high": -0.224989837384724,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.232248834560386,
+        "ci_low": 0.048098676632348,
+        "ci_high": 0.402793846821976,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -10.651319542241112,
+        "ci_low": -14.240718520159769,
+        "ci_high": -3.661938727937662,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": -75.94609863063441,
+        "ci_low": -101.5660999684115,
+        "ci_high": -25.919331032118865,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.670340756594727,
+        "ci_low": -1.182023138927971,
+        "ci_high": -0.021793716744904,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": 1.193487828581345,
+        "ci_low": 0.032834211650018,
+        "ci_high": 2.110464277483499,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.355501951641936,
+        "ci_low": -0.57868236578149,
+        "ci_high": -0.062570963929677,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.016632237591734,
+        "ci_low": 0.002933286907181,
+        "ci_high": 0.027079097463966,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -9.524774144886312,
+        "ci_low": -13.125712245567176,
+        "ci_high": -4.200821209009347,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854232,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": 25.769032741179423,
+        "ci_low": 11.320678264267537,
+        "ci_high": 35.47990710032916,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.166096399614535,
+        "ci_low": -0.322676494760108,
+        "ci_high": 0.015353757645206,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.230615218216027,
+        "ci_low": -0.031595028072957,
+        "ci_high": 0.459204525309094,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.229753261498782,
+        "ci_low": -0.520959761405093,
+        "ci_high": 0.031303590957206,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.166579412310125,
+        "ci_low": -0.02996720720737,
+        "ci_high": 0.387178397662376,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.004840526807496,
+        "ci_low": -0.013113962936396,
+        "ci_high": 0.020744714505199,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.004386151632623,
+        "ci_low": -0.017240733092087,
+        "ci_high": 0.010076897158001,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.537779933774251,
+        "ci_low": -0.217787854641797,
+        "ci_high": 1.301480035414741,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.684024811706131,
+        "ci_low": -0.209366085950667,
+        "ci_high": 1.590675929352366,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.003862339024785,
+        "ci_low": -0.002412796585116,
+        "ci_high": 0.010014404850384,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": 5.2738806907e-05,
+        "ci_low": -3.6878608741e-05,
+        "ci_high": 0.000139409384617,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.001436314369851,
+        "ci_low": -0.0064718489341,
+        "ci_high": 0.004174088351299,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.001114727876859,
+        "ci_low": -0.003760044615825,
+        "ci_high": 0.005385234938254,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.005277070553164,
+        "ci_low": -0.035899900135164,
+        "ci_high": 0.025694471782616,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.002666854790985,
+        "ci_low": -0.012243454647549,
+        "ci_high": 0.017327469691033,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.00603604756239,
+        "ci_low": -0.010887590620109,
+        "ci_high": 0.022880439294715,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.005121345267253,
+        "ci_low": -0.02097086681568,
+        "ci_high": 0.011128657292709,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.857845002266594,
+        "ci_low": -1.338740854955678,
+        "ci_high": -0.18967061406447,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854233,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.101753568613381,
+        "ci_low": 0.020854190413632,
+        "ci_high": 0.160237083106718,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 5.959730419308418,
+        "ci_low": 0.330627104459066,
+        "ci_high": 10.101581840815037,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 156,
+        "destination_label": "China",
+        "factor": "geography",
+        "estimate_variance_pp2": 4.544017827375675,
+        "ci_low": 0.290200509232473,
+        "ci_high": 7.665161826739747,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 6.146694567904651,
+        "ci_low": -4.253031284875571,
+        "ci_high": 16.57711701514287,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 344,
+        "destination_label": "China, Hong Kong SAR",
+        "factor": "geography",
+        "estimate_variance_pp2": -6.373166636639363,
+        "ci_low": -18.26047717065489,
+        "ci_high": 5.549283427765522,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 16.03784645234117,
+        "ci_low": 0.980214968736082,
+        "ci_high": 30.750783737048653,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 490,
+        "destination_label": "Other Asia, nes",
+        "factor": "geography",
+        "estimate_variance_pp2": 39.53553631921103,
+        "ci_low": 2.862021200422369,
+        "ci_high": 75.44270397587019,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -1.777975862283058,
+        "ci_low": -4.217585812429282,
+        "ci_high": 1.694161909438797,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 704,
+        "destination_label": "Viet Nam",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.415631634610729,
+        "ci_low": -0.428912195165485,
+        "ci_high": 1.001344900814747,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.367176873711229,
+        "ci_low": -0.482841993798001,
+        "ci_high": 1.401649554623689,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 702,
+        "destination_label": "Singapore",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.42096342475242,
+        "ci_low": -1.518270996379753,
+        "ci_high": 0.48423003020461,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.284239394355967,
+        "ci_low": 0.063291034648018,
+        "ci_high": 0.444008220537936,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 608,
+        "destination_label": "Philippines",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.077367551153867,
+        "ci_low": 0.01775795422106,
+        "ci_high": 0.119770724555104,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "product_mix",
+        "estimate_variance_pp2": 0.499872702183425,
+        "ci_low": 0.057068223669996,
+        "ci_high": 0.883951801391675,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 842,
+        "destination_label": "USA",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.352644129915184,
+        "ci_low": -0.619662097265734,
+        "ci_high": -0.044241321973272,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.6195063170804,
+        "ci_low": -1.440538240758494,
+        "ci_high": 0.312038482311247,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": 764,
+        "destination_label": "Thailand",
+        "factor": "geography",
+        "estimate_variance_pp2": -0.22303214961391,
+        "ci_low": -0.520955657198826,
+        "ci_high": 0.110262759881843,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "product_mix",
+        "estimate_variance_pp2": -0.938167265850548,
+        "ci_low": -4.677269644549114,
+        "ci_high": 3.223428055698726,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "cmdCode": 854239,
+        "destination": -1,
+        "destination_label": "All remaining destinations",
+        "factor": "geography",
+        "estimate_variance_pp2": 0.663234115258201,
+        "ci_low": -2.89881514910137,
+        "ci_high": 3.917770770201256,
+        "block_months": 12,
+        "repetitions": 1999,
+        "exploratory": true
+      }
+    ],
+    "leave_one_year_out": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "omitted_year": 2018,
+        "n": 72,
+        "delta_variance_pp2": -6.735247806634748,
+        "mix_variance_pp2": 5.251598249843515,
+        "geography_variance_pp2": -11.986846056478264,
+        "delta_sd_pp": -0.327501011381157,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "omitted_year": 2019,
+        "n": 72,
+        "delta_variance_pp2": -1.136157885444512,
+        "mix_variance_pp2": 6.770571986005648,
+        "geography_variance_pp2": -7.906729871450159,
+        "delta_sd_pp": -0.056825633089626,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "omitted_year": 2020,
+        "n": 72,
+        "delta_variance_pp2": -6.306404115775776,
+        "mix_variance_pp2": 5.685935889068114,
+        "geography_variance_pp2": -11.99234000484389,
+        "delta_sd_pp": -0.310391473972806,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "omitted_year": 2021,
+        "n": 72,
+        "delta_variance_pp2": 8.154555654591826,
+        "mix_variance_pp2": 9.86620279472889,
+        "geography_variance_pp2": -1.711647140137064,
+        "delta_sd_pp": 0.437737919619617,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "omitted_year": 2022,
+        "n": 72,
+        "delta_variance_pp2": -6.53344035122896,
+        "mix_variance_pp2": 3.630978298297654,
+        "geography_variance_pp2": -10.164418649526615,
+        "delta_sd_pp": -0.3276439352389,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "omitted_year": 2023,
+        "n": 72,
+        "delta_variance_pp2": -9.610596743154716,
+        "mix_variance_pp2": 2.2516208712504,
+        "geography_variance_pp2": -11.862217614405116,
+        "delta_sd_pp": -0.515530021230177,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 392,
+        "omitted_year": 2024,
+        "n": 72,
+        "delta_variance_pp2": -12.0721589513024,
+        "mix_variance_pp2": 2.736849009041357,
+        "geography_variance_pp2": -14.809007960343758,
+        "delta_sd_pp": -0.60948488332828,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "omitted_year": 2018,
+        "n": 72,
+        "delta_variance_pp2": -22.874395430526604,
+        "mix_variance_pp2": -168.45386226700475,
+        "geography_variance_pp2": 145.57946683647813,
+        "delta_sd_pp": -0.381702365334929,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "omitted_year": 2019,
+        "n": 72,
+        "delta_variance_pp2": -51.66577962269214,
+        "mix_variance_pp2": -151.22334410970134,
+        "geography_variance_pp2": 99.5575644870092,
+        "delta_sd_pp": -0.929944213212963,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "omitted_year": 2020,
+        "n": 72,
+        "delta_variance_pp2": -96.736406994047,
+        "mix_variance_pp2": -200.82237338776972,
+        "geography_variance_pp2": 104.08596639372276,
+        "delta_sd_pp": -1.550948758105447,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "omitted_year": 2021,
+        "n": 72,
+        "delta_variance_pp2": -116.39956922506536,
+        "mix_variance_pp2": -194.3002252206185,
+        "geography_variance_pp2": 77.90065599555314,
+        "delta_sd_pp": -1.984252677192144,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "omitted_year": 2022,
+        "n": 72,
+        "delta_variance_pp2": -71.44184738067008,
+        "mix_variance_pp2": -178.13085297465045,
+        "geography_variance_pp2": 106.68900559398035,
+        "delta_sd_pp": -1.185284702437017,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "omitted_year": 2023,
+        "n": 72,
+        "delta_variance_pp2": -94.1878667571737,
+        "mix_variance_pp2": -157.0129606929456,
+        "geography_variance_pp2": 62.8250939357719,
+        "delta_sd_pp": -1.817360772501475,
+        "exploratory": true
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "omitted_year": 2024,
+        "n": 72,
+        "delta_variance_pp2": -65.28930149817828,
+        "mix_variance_pp2": -138.98238038311973,
+        "geography_variance_pp2": 73.69307888494144,
+        "delta_sd_pp": -1.161711949317234,
+        "exploratory": true
+      }
+    ],
+    "covariance_window_bridge": [
+      {
+        "reporter": 392,
+        "covariance_piece": "within_2018_2020",
+        "delta_variance_pp2": -1.692868549920206,
+        "mix_variance_pp2": 1.192082961771993,
+        "geography_variance_pp2": -2.884951511692199,
+        "exploratory": true
+      },
+      {
+        "reporter": 392,
+        "covariance_piece": "within_2021_2024",
+        "delta_variance_pp2": -1.13544734316226,
+        "mix_variance_pp2": 5.293868933516966,
+        "geography_variance_pp2": -6.429316276679226,
+        "exploratory": true
+      },
+      {
+        "reporter": 392,
+        "covariance_piece": "between_window_means",
+        "delta_variance_pp2": -2.416968485236917,
+        "mix_variance_pp2": -1.317444312894244,
+        "geography_variance_pp2": -1.099524172342672,
+        "exploratory": true
+      },
+      {
+        "reporter": 410,
+        "covariance_piece": "within_2018_2020",
+        "delta_variance_pp2": -73.1140490400814,
+        "mix_variance_pp2": -61.86668840970699,
+        "geography_variance_pp2": -11.247360630374413,
+        "exploratory": true
+      },
+      {
+        "reporter": 410,
+        "covariance_piece": "within_2021_2024",
+        "delta_variance_pp2": -10.958366350400444,
+        "mix_variance_pp2": -106.70741890545038,
+        "geography_variance_pp2": 95.74905255504994,
+        "exploratory": true
+      },
+      {
+        "reporter": 410,
+        "covariance_piece": "between_window_means",
+        "delta_variance_pp2": 9.99447242496558,
+        "mix_variance_pp2": -4.342463683776244,
+        "geography_variance_pp2": 14.336936108741826,
+        "exploratory": true
+      }
+    ],
+    "diagnostic_status": [
+      {
+        "case": "primary",
+        "reporter": 392,
+        "status": "ok",
+        "n": 84.0,
+        "unobserved_growth_cells": null
+      },
+      {
+        "case": "primary",
+        "reporter": 410,
+        "status": "ok",
+        "n": 84.0,
+        "unobserved_growth_cells": null
+      }
+    ]
+  },
+  "checks": {
+    "annual_export_max_abs_difference_from_saved_usd": 0.0,
+    "all_product_and_destination_shares_sum_to_100": true,
+    "all_within_product_shares_sum_to_100": true,
+    "observed_growth_months_per_exporter": 84,
+    "world_rows_excluded_from_direction_sums": true,
+    "control_heading_and_parts_excluded_from_primary_descriptive_totals": true
+  },
+  "input_sha256": {
+    "research/02_chip_trade/risk_extension/data/monthly_panel_full.csv.gz": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+    "research/02_chip_trade/risk_extension/results/monthly/annual_indicators_from_months.csv": "40e1927afb918705d65f1824fb8dc593053847627bc11d9d9c0b255aa446a2b5",
+    "research/02_chip_trade/risk_extension/results/monthly/risk_grid.csv": "8e2171dd7f370f8e171a377daccbbca1946ca5d3a40227c42f7c67591a5e0558",
+    "research/02_chip_trade/risk_extension/results/monthly/risk_summary.csv": "505f6bf58638563ccc0ee1edcaa6d4faf8aa7bf3a7d78607533d829280a59b37",
+    "research/02_chip_trade/risk_extension/results/monthly/observed_growth.csv": "d87507e7c1ed8ba3c2ff80bef1f9b36098f4f995e861a8468e16bee2ed05c74b",
+    "research/02_chip_trade/risk_extension/results/monthly/risk_states.csv": "893c09b992bdf6a626b95a03d3ac10bd784070fcfaae60c38fad38ba40b81075",
+    "research/02_chip_trade/risk_extension/results/monthly/risk_intervals.csv": "314e4ac3009d1d934e12507f24d292600217887c4caedba00361f1f3e705a929",
+    "research/02_chip_trade/risk_extension/post_estimation/results/memory_share_decomposition.csv": "ce4f78141821990f1b11a47a37017a092c5c4deb3a744d42ab07cca9ed522a78",
+    "research/02_chip_trade/risk_extension/post_estimation/results/covariance_attribution_intervals.csv": "af393678d393d6c551555bdb6df6d0d984ae1426b9dc469abf3f205f8007c9c9",
+    "research/02_chip_trade/risk_extension/post_estimation/results/destination_attribution_intervals.csv": "6e15abc7f53c74c59747d2098ee7793d1e90963f2f1d849405ad85efca7c109a",
+    "research/02_chip_trade/risk_extension/post_estimation/results/cell_attribution_intervals.csv": "dea585bb37b8b4485a4d19f0345248824a6dd02a07d4713a626bc3ea222481a8",
+    "research/02_chip_trade/risk_extension/post_estimation/results/leave_one_year_out.csv": "91b1225ad4513dd92c02235d77059ce4a452376618d5e0ffdaaadb7044355572",
+    "research/02_chip_trade/risk_extension/post_estimation/results/covariance_window_bridge.csv": "70364af6460ff4057d95a2c30f5f06df644646400f938df504e2b24997edbcbc",
+    "research/02_chip_trade/risk_extension/post_estimation/results/diagnostic_status.csv": "9c1a91a8523b6f24fb2976402558acca38ac46892ba57eed24aef5ad94f40563",
+    "research/02_chip_trade/risk_extension/results/monthly/ordinary_growth_extremes.csv": "1b9b94d6d02af42f67ebe1935bba88399d7f195831b49291679c4ae3b86206f3",
+    "research/02_chip_trade/risk_extension/results/monthly/monthly_annual_bridge.csv": "f66dd22d26491314b4cbcd186124d6cd5c3160e5e7ded9bed716b50bfcbc2b41"
+  }
+}

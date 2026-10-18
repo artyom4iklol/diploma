@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-18",
+  "scope": "External sources supporting Chapter 2. Numerical results are author calculations documented separately in chapter2_evidence.json.",
+  "unique_sources": 12,
+  "footnote_blocks": 11,
+  "sources": [
+    {
+      "source_id": "un_comtrade_monthly_2017_2024",
+      "footnotes": [
+        "ch2-1-data"
+      ],
+      "citation": "United Nations Statistics Division. UN Comtrade Database. Monthly export data, Japan and Republic of Korea, 2017–2024.",
+      "source_url": "https://comtradeplus.un.org/",
+      "consulted_version": "Saved public API responses retrieved on 16 October 2026; 1,152 complete primary logical query cells",
+      "evidence_basis": "Saved raw responses, monthly panel and checked manifest",
+      "panel_sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+      "local_provenance": [
+        "risk_extension/data/monthly_manifest.json",
+        "risk_extension/data/monthly_bundle_manifest.json",
+        "risk_extension/results/monthly/final_audit.json"
+      ]
+    },
+    {
+      "source_id": "wco_hs2017_ch85",
+      "footnotes": [
+        "ch2-1-wco"
+      ],
+      "citation": "World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "consulted_citation": "World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "consulted_version": "official chapter, HS 2017",
+      "source_url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2017/2017/1685_2017e.pdf?la=en",
+      "pdf_sha256": "a3cb70aea079218de105b14a58d59f10202232d98417a87c9bb35cb3a4b182a0",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Heading 85.42: codes and descriptions for all five subheadings."
+    },
+    {
+      "source_id": "wco_hs2022_ch85",
+      "footnotes": [
+        "ch2-1-wco"
+      ],
+      "citation": "World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "consulted_citation": "World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "consulted_version": "official chapter, HS 2022",
+      "source_url": "https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-nomenclature-2022/2022/1685_2022e.pdf?la=en",
+      "pdf_sha256": "1f2eada9662f4b6089e6bd90f8c5e50f93f032eabd7ae2a19014c06b711357c5",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Heading 85.42: same selected codes and subheading descriptions as HS 2017."
+    },
+    {
+      "source_id": "shorrocks_2013",
+      "footnotes": [
+        "ch2-1-shorrocks"
+      ],
+      "citation": "Shorrocks A. F. (2013). Decomposition procedures for distributional analysis: a unified framework based on the Shapley value. Journal of Economic Inequality 11(1), 99–126.",
+      "consulted_citation": "Shorrocks A. F. (1999). Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June.",
+      "consulted_version": "June 1999 draft; not the 2013 version of record",
+      "source_url": "https://www.komkon.org/~tacik/science/shapley.pdf",
+      "pdf_sha256": "931c59b74d68776d18bec08bd244193c1aafc5456ddbd89278ce57b64508f166",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Consulted 1999 first draft, section 2, printed pp. 4–6; order averaging and additive allocation, not the pagination of the 2013 article."
+    },
+    {
+      "source_id": "jo_jung_kdi_2023",
+      "footnotes": [
+        "ch2-2-kdi",
+        "ch2-4-kdi"
+      ],
+      "citation": "Jo K.; Jung K.-C. (2023). Semiconductor Market Trends and Macroeconomic Implications. KDI Economic Outlook, First Half, 10 May.",
+      "consulted_citation": "Jo K.; Jung K.-C. (2023). Semiconductor Market Trends and Macroeconomic Implications. KDI Economic Outlook, First Half, 10 May.",
+      "consulted_version": "official English full report",
+      "source_url": "https://www.kdi.re.kr/eng/file/download?atch_no=VMUrYGLtzNKGEZ6XlD0h4Q%3D%3D",
+      "pdf_sha256": "ffd1fe23fa6a2b7f535cc11a2e85ec9aeb824c04a5e8d3240208c9d740f6b801",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Printed pp. 1–3; prices/quantities, memory volatility, existing fixed-growth memory-composition counterfactual on p. 3."
+    },
+    {
+      "source_id": "bok_demand_2023",
+      "footnotes": [
+        "ch2-4-bok"
+      ],
+      "citation": "Bank of Korea (2023). Characteristics of Demand Structure for Korea’s Semiconductors and Implications. Korea Economic Outlook, May, 53–62; English release 31 July.",
+      "consulted_citation": "Bank of Korea (2023). Characteristics of Demand Structure for Korea’s Semiconductors and Implications. Korea Economic Outlook, May, 53–62; English release 31 July.",
+      "consulted_version": "complete official volume; relevant section printed pp. 53–62",
+      "source_url": "https://www.bok.or.kr/fileSrc/eng/a923b7aae3d7e1a9a2a2a46e97034a39/1/202307311026459360.pdf",
+      "pdf_sha256": "eb9a3379ef080263f1bfca9ad6273859710084f6edeea4501571000aef5aa685",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Printed pp. 54, 61–62 (PDF pp. 64, 71–72); existing cross-country growth-distribution comparison and end-use demand distinction."
+    },
+    {
+      "source_id": "lee_yu_2019",
+      "footnotes": [
+        "ch2-4-lee-yu"
+      ],
+      "citation": "Lee J.; Yu B.-K. (2019). The Effects of Export Diversification on Macroeconomic Stabilization: Evidence from Korea. KDI Journal of Economic Policy 41(1), 1–14.",
+      "consulted_citation": "Lee J.; Yu B.-K. (2019). The Effects of Export Diversification on Macroeconomic Stabilization: Evidence from Korea. KDI Journal of Economic Policy 41(1), 1–14.",
+      "consulted_version": "version of record; replaces Bank of Korea Working Paper 2018–25",
+      "source_url": "https://kdijep.org/assets/pdf/1062/jep-41-1-1.pdf",
+      "pdf_sha256": "8b6f3a454223851a45a1ef02cdc807a47ef35cf88e59abd030cea8d1dcb59b72",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Published article, pp. 5–11; annual panel of 24 Korean industries, country diversification and 2009 export contraction, not an IC volatility estimate."
+    },
+    {
+      "source_id": "caselli_et_al_2020",
+      "footnotes": [
+        "ch2-4-covariance"
+      ],
+      "citation": "Caselli F.; Koren M.; Lisicky M.; Tenreyro S. (2020). Diversification through Trade. Quarterly Journal of Economics 135(1), 449–502.",
+      "consulted_citation": "Caselli F.; Koren M.; Lisicky M.; Tenreyro S. (2019). Diversification through Trade. Author manuscript, June.",
+      "consulted_version": "June 2019 author manuscript; not the final 2020 pagination",
+      "source_url": "https://cdn.thnk.ng/pdf/diversification-through-trade.pdf",
+      "pdf_sha256": "d8bed8202676c46d04c8c00af37452bea479d6e6111acef60291785f9de4d412",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "June 2019 author manuscript, printed pp. 2–3; variance/covariance conditions and diversification mechanisms. Final 2020 publication and consulted version distinguished."
+    },
+    {
+      "source_id": "esposito_2022",
+      "footnotes": [
+        "ch2-4-covariance"
+      ],
+      "citation": "Esposito F. (2022). Demand risk and diversification through international trade. Journal of International Economics 135, 103562.",
+      "consulted_citation": "Esposito F. (2020). Demand Risk and Diversification through Trade. MPRA Paper 100398, May.",
+      "consulted_version": "MPRA Paper 100398, 2020; differs from final 2022 article",
+      "source_url": "https://mpra.ub.uni-muenchen.de/100398/15/MPRA_paper_100398.pdf",
+      "pdf_sha256": "ae3ea96d788e4fae498723aa63a060a21d12c27d2aad9e6d8571c0e6ac1e9237",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "May 2020 MPRA working paper, printed pp. 1–3; geographic diversification depends on demand covariance. Not treated as identical to final 2022 publication."
+    },
+    {
+      "source_id": "un_imts_2010",
+      "footnotes": [
+        "ch2-1-valuation",
+        "ch2-1-partner"
+      ],
+      "citation": "United Nations (2011). International Merchandise Trade Statistics: Concepts and Definitions 2010. Statistical Papers, Series M No. 52, Rev. 3. New York.",
+      "consulted_version": "2011 official full publication",
+      "source_url": "https://unstats.un.org/unsd/trade/EG-IMTS/IMTS%202010%20(English).pdf",
+      "pdf_sha256": "a3e6d9b8c5103a550602c49a7026cd260f9842176b81b9c543a293bfbffb3c9a",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Printed pp. 39–40, paras 4.6–4.8: FOB valuation; pp. 49 and 51, paras 6.13–6.14, 6.24–6.25: partner attribution and destination limitations."
+    },
+    {
+      "source_id": "un_comtrade_upgrade_2019",
+      "footnotes": [
+        "ch2-1-valuation"
+      ],
+      "citation": "United Nations Statistics Division (2019). Methodology Guide for UN Comtrade User on UN Comtrade Upgrade 2019.",
+      "consulted_version": "Official 2019 methodology guide",
+      "source_url": "https://comtrade.un.org/data/MethodologyGuideforComtradePlus.pdf",
+      "pdf_sha256": "db2fd2e588f47311577bb3466e107873052464b99f1cbbdddc2c8c36015b8d71",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Section III.D, printed p. 6: export primary value and FOB basis."
+    },
+    {
+      "source_id": "politis_romano_1991",
+      "footnotes": [
+        "ch2-1-bootstrap"
+      ],
+      "citation": "Politis D. N.; Romano J. P. (1991). A Circular Block-Resampling Procedure for Stationary Data. Technical Report No. 370, Department of Statistics, Stanford University, March.",
+      "consulted_version": "March 1991 Stanford technical report, not the 1992 book chapter",
+      "source_url": "https://stacks.stanford.edu/file/xh812zd4638/xh812zd4638_EFS-NSF-370.pdf",
+      "pdf_sha256": "54f4b0e568525bb6996a6fc9fd1f12eac80b2f5f996a91c467826d2587b04ece",
+      "evidence_basis": "Full PDF available; cited pages checked",
+      "checked_scope": "Scanned PDF: covers and printed pp. 2–4 visually inspected; section 2, printed p. 4 gives the circular block procedure. Used for the algorithm, without claiming finite-sample coverage guarantees for the empirical series."
+    }
+  ],
+  "citation_policy": [
+    "No source cited as a full read when only metadata are available.",
+    "Consulted draft and working-paper versions are named explicitly.",
+    "No long quotations; source claims paraphrased and distinguished from the author estimates.",
+    "Public source URLs stored here; manuscript paragraphs use ordinary bibliographic footnotes without external hyperlinks."
+  ],
+  "internal_methods": [
+    "risk_extension/monthly_analysis_protocol.md",
+    "risk_extension/analyze_monthly.py",
+    "risk_extension/build_monthly_panel.py",
+    "risk_extension/collect_panel.py",
+    "risk_extension/post_estimation/diagnose_results.py",
+    "risk_extension/price_index_audit.md"
+  ],
+  "source_files_added_to_manuscript_commit": false
+}

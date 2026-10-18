@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-18",
+  "base_commit": "985619faed2e416d77cdfbb38773a04f0cba000c",
+  "scope": "Four analytical chapter sections; new descriptive aggregates only; no model estimation or new data requests",
+  "sections": [
+    {
+      "file": "chapter2_1.md",
+      "sha256": "486217e3e9c321e6ebec0e27f7f7ab82c32d2f78debe3f867505bbf538c3d6c5",
+      "words_whitespace_count": 2038,
+      "footnotes": 6,
+      "tables": 2,
+      "equations": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5"
+      ]
+    },
+    {
+      "file": "chapter2_2.md",
+      "sha256": "e4f18af214e15bfe7db2338ea5ed9632ff8f2a04b35d68c6750f1a0bcf69e3ac",
+      "words_whitespace_count": 1853,
+      "footnotes": 1,
+      "tables": 1,
+      "equations": []
+    },
+    {
+      "file": "chapter2_3.md",
+      "sha256": "d243941ba5fac653f17e118546c47c18682ee335fc19b18f5f121b2089e7d7e9",
+      "words_whitespace_count": 1723,
+      "footnotes": 0,
+      "tables": 1,
+      "equations": [
+        "2.6"
+      ]
+    },
+    {
+      "file": "chapter2_4.md",
+      "sha256": "7f5ef57abb8981ba62c65b35ddfe292186d77adbee9da6068cc3abcbc107985f",
+      "words_whitespace_count": 2172,
+      "footnotes": 4,
+      "tables": 1,
+      "equations": []
+    }
+  ],
+  "total_words_whitespace_count": 7786,
+  "checks": {
+    "footnotes_complete_unique": true,
+    "external_links_absent_from_manuscript": true,
+    "equation_delimiters_paired": true,
+    "equation_numbers": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.6"
+    ],
+    "table_2_3_all_24_numeric_cells_verified": true,
+    "table_2_4_all_48_estimates_and_bounds_verified": true,
+    "table_2_5_point_values_and_missing_cases_verified": true,
+    "saved_variance_and_shapley_identities_verified": true,
+    "all_16_input_hashes_verified": true,
+    "primary_1152_query_cells_retrieved_2026_10_16": true,
+    "all_preexisting_tracked_repository_files_unchanged": true,
+    "no_placeholders_or_references_to_unmade_figures": true
+  },
+  "decimal_literal_screen": {
+    "unique_literals_per_section": {
+      "2.1": 4,
+      "2.2": 124,
+      "2.3": 114,
+      "2.4": 46
+    },
+    "unmatched": [],
+    "limitation": "Unit/rounding typo screen; context separately checked in tables and during editorial review."
+  },
+  "manual_review": [
+    "2.1: formula definitions, primary 2017/2024 contrast, 84 observations, pooled 2017–2020 destination ranking and full-history observability agree with analyze_monthly.py; zero rules agree with cube/growth and query validation.",
+    "2.2: annual values, ordinary annual changes, actual symmetric growth moments, all product shares and selected overall/within-memory destination shares checked against existing panel aggregates. Japan/Singapore 2024 corrected to 2.62%, rounding directly from 2.624971933334082%.",
+    "2.3: all four states, means, primary block-12 intervals, variance-unit contributions, nested memory split, covariance and destination/cell examples checked. Equation 2.6 matches cell_split; exploratory status and unadjusted multiple comparisons explicit.",
+    "2.4: structural sensitivity, temporal 2017/2020 contrast, window bridge, leave-year-out and block-6 intervals checked. Absent growth values retained as undefined; no price-deflated result or causal policy effect claimed.",
+    "Sources read in the cited editions/pages; 1999 Shorrocks draft and 1991 Politis/Romano report identified distinctly from later publications."
+  ],
+  "remaining_presentation_work": [
+    "Eight planned figures not newly composed or inserted at this stage.",
+    "Word assembly, visual layout and final pagination deferred per user request."
+  ],
+  "protected_content": [
+    "Growth-at-Risk",
+    "documents/topic2.docx",
+    "existing chapter 1 files",
+    "risk_extension model, data, protocol and results"
+  ]
+}
