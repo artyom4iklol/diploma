@@ -149,6 +149,8 @@ def main():
                 first_appendix=False
             continue
         if b.startswith('$$'):
+            if doc.paragraphs:
+                doc.paragraphs[-1].paragraph_format.keep_with_next=True
             number=re.search(r'\\tag\{([^}]+)\}',b)[1];p=doc.add_paragraph();pf=p.paragraph_format
             pf.first_line_indent=Cm(0);pf.line_spacing=1.1;pf.space_before=Pt(6);pf.space_after=Pt(6);pf.keep_together=True
             pf.tab_stops.add_tab_stop(Cm(7.6),WD_TAB_ALIGNMENT.CENTER);pf.tab_stops.add_tab_stop(Cm(16.2),WD_TAB_ALIGNMENT.RIGHT)
@@ -206,7 +208,7 @@ def main():
     with ZipFile(path) as z:
         root=etree.fromstring(z.read('word/document.xml'));assert not root.findall('.//'+qn('w:hyperlink'));assert len(root.findall('.//'+qn('w:drawing')))==8
         assert len(root.findall('.//'+qn('w:footnoteReference')))==len(notes)==11
-        assert len(root.findall('.//'+qn('w:tbl')))==table_count==11
+        assert len(root.findall('.//'+qn('w:tbl')))==table_count==12
         assert b'$$' not in z.read('word/document.xml') and b'\\tag' not in z.read('word/document.xml')
     report={'file':path.name,'native_footnotes':len(notes),'numbered_editable_equations':math_count,'all_native_math_objects':len(root.findall('.//'+qn('m:oMath'))),'figures':image_count,'main_tables':5,'appendix_tables':table_count-5,'font':'Times New Roman','body_points':12,'body_line_spacing':1.5,'page_size':'A4','external_hyperlinks':0,'source_count':len(audit['sources']),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'visual_review_pending':True}
     (HERE/'chapter2_document_checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False))

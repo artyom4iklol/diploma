@@ -2860,6 +2860,52 @@
       "maximum_period": 202402
     }
   ],
+  "memory_and_remaining_fixed_indices": [
+    {
+      "reporter": 392,
+      "weight_year": 2017,
+      "n": 84,
+      "memory_sd_pp": 19.31008798312074,
+      "remaining_sd_pp": 9.613942322205167,
+      "correlation": 0.1094553087173148,
+      "covariance_pp2": 20.319948134566175,
+      "memory_share": 0.38977176696528865,
+      "total_variance_pp2": 100.73295659044827
+    },
+    {
+      "reporter": 392,
+      "weight_year": 2024,
+      "n": 84,
+      "memory_sd_pp": 17.361737740751813,
+      "remaining_sd_pp": 10.03036322877886,
+      "correlation": 0.09201189711793781,
+      "covariance_pp2": 16.02336911375452,
+      "memory_share": 0.4246341732339195,
+      "total_variance_pp2": 95.48767221212873
+    },
+    {
+      "reporter": 410,
+      "weight_year": 2017,
+      "n": 84,
+      "memory_sd_pp": 38.343114069305216,
+      "remaining_sd_pp": 16.418686505667104,
+      "correlation": 0.5238565676894188,
+      "covariance_pp2": 329.7905335580042,
+      "memory_share": 0.7048804761178609,
+      "total_variance_pp2": 891.1629341069806
+    },
+    {
+      "reporter": 410,
+      "weight_year": 2024,
+      "n": 84,
+      "memory_sd_pp": 40.119102721210254,
+      "remaining_sd_pp": 18.777988587752574,
+      "correlation": 0.4967547560306706,
+      "covariance_pp2": 374.23320233696217,
+      "memory_share": 0.6010658052763379,
+      "total_variance_pp2": 817.0849911414655
+    }
+  ],
   "largest_ordinary_growth_observations": [
     {
       "case": "ordinary_pct_yoy",
@@ -6888,7 +6934,8 @@
     "all_within_product_shares_sum_to_100": true,
     "observed_growth_months_per_exporter": 84,
     "world_rows_excluded_from_direction_sums": true,
-    "control_heading_and_parts_excluded_from_primary_descriptive_totals": true
+    "control_heading_and_parts_excluded_from_primary_descriptive_totals": true,
+    "memory_group_reconstruction_max_abs_error_pp2": 2.2737367544323206e-12
   },
   "input_sha256": {
     "research/02_chip_trade/risk_extension/data/monthly_panel_full.csv.gz": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",

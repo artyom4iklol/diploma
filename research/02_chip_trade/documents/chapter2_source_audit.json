@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
   "scope": "External sources supporting Chapter 2. Numerical results are author calculations documented separately in chapter2_evidence.json.",
-  "unique_sources": 12,
+  "unique_sources": 13,
   "footnote_blocks": 11,
   "sources": [
     {
@@ -161,6 +161,19 @@
       "pdf_sha256": "54f4b0e568525bb6996a6fc9fd1f12eac80b2f5f996a91c467826d2587b04ece",
       "evidence_basis": "Full PDF available; cited pages checked",
       "checked_scope": "Scanned PDF: covers and printed pp. 2–4 visually inspected; section 2, printed p. 4 gives the circular block procedure. Used for the algorithm, without claiming finite-sample coverage guarantees for the empirical series."
+    },
+    {
+      "source_id": "un_comtrade_code490",
+      "footnotes": [
+        "ch2-1-partner"
+      ],
+      "citation": "United Nations Statistics Division. Taiwan, Province of China Trade Data. UN Comtrade Help Center. Разъяснение кода 490; дата обращения 18 октября 2026 года.",
+      "source_url": "https://uncomtrade.org/docs/taiwan-province-of-china-trade-data/",
+      "consulted_version": "Official metadata page accessed 18 October 2026",
+      "local_path": "research/02_chip_trade/literature/fulltext/un_comtrade_code490_20261018.html.gz",
+      "html_sha256": "2c46b2758a40e0497511ad6dbe566f10f317b71db8c02978e1161bbc198feabf",
+      "evidence_basis": "Full official page retrieved and preserved as lossless gzip; metadata text checked",
+      "checked_scope": "Code 490 includes Taiwan trade and may in principle contain other unspecified Asian territories; not identified with the model residual."
     }
   ],
   "citation_policy": [
@@ -177,5 +190,9 @@
     "risk_extension/post_estimation/diagnose_results.py",
     "risk_extension/price_index_audit.md"
   ],
-  "source_files_added_to_manuscript_commit": false
+  "source_files_added_to_manuscript_commit": true,
+  "second_review_date": "2026-10-18",
+  "source_files_added": [
+    "research/02_chip_trade/literature/fulltext/un_comtrade_code490_20261018.html.gz"
+  ]
 }

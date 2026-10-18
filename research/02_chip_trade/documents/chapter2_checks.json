@@ -1,36 +1,41 @@
 {
   "date": "2026-10-18",
-  "base_commit": "81cf46f575cd11c4aa394059f33663aa53027494",
-  "scope": "Revised complete analytical Chapter 2; primary model and data unchanged",
-  "main_words_whitespace_count": 8514,
+  "revision": 2,
+  "scope": "Second substantive review; frozen primary model; descriptive memory-group diagnostic added",
+  "main_words_whitespace_count": 9009,
   "main_sections": 4,
   "main_tables": 5,
-  "appendix_tables": 6,
+  "appendix_tables": 7,
   "figures": 8,
   "numbered_editable_equations": 6,
   "native_footnotes": 11,
-  "sources": 12,
-  "pages": 35,
-  "main_pages": 29,
-  "appendix_pages": 5,
-  "bibliography_pages": 1,
+  "sources": 13,
   "checks": {
-    "main_tables_2_3_and_2_4_verified_against_saved_values": true,
-    "all_22_available_and_2_unavailable_cases_preserved": true,
-    "all_11_word_tables_match_markdown_cells": true,
-    "shapley_and_sd_variance_identities": true,
-    "new_growth_accounting_sums_and_prose_values": true,
-    "all_16_input_hashes_match": true,
-    "figures_use_grayscale_only": true,
-    "figure_source_hashes_match": true,
-    "footnotes_complete_unique": true,
-    "no_raw_latex_or_external_hyperlinks_in_word": true,
-    "protected_original_material_unchanged": true,
-    "page_boxes_inside_page_and_no_blank_pages": true
+    "all_12_word_tables_match_markdown": true,
+    "all_primary_endpoint_and_estimate_table_cells_verified": true,
+    "all_24_specification_statuses_and_main_sensitivity_values_preserved": true,
+    "sd_variance_and_shapley_identities": true,
+    "all_16_frozen_input_hashes_match": true,
+    "new_memory_groups_reconstruct_primary_indices_and_variances": true,
+    "new_group_table_and_prose_match_calculated_values": true,
+    "all_8_figure_hashes_match_and_pixels_are_grayscale": true,
+    "footnotes_complete_and_no_external_hyperlinks_or_raw_latex": true
   },
+  "visual_review_pending": false,
+  "sha256": {
+    "chapter2.docx": "748526f08c36d1155b915a289cd788a5896230dd2c2dfc803510b2e3a98dc361",
+    "chapter2_content.md": "17fe71377e06abf52c23567485ac276f395ddd4bd164a8c4c59f3f946cb66a16",
+    "chapter2_appendices.md": "331fc00168cae02874806751af1850c08690ba4d29f5cb0a44be9b1d3b248866",
+    "chapter2_review.md": "2e5a64660fcbdd0a80b3ebd0e97420a5583176800d0e15c88943c24a845bf964"
+  },
+  "rendered_pages": 38,
+  "main_pages": 31,
+  "appendix_pages": 6,
+  "bibliography_pages": 1,
   "visual_review": {
+    "date": "2026-10-18",
     "all_pages_inspected": true,
-    "pages": [
+    "pages_inspected": [
       1,
       2,
       3,
@@ -65,26 +70,14 @@
       32,
       33,
       34,
-      35
+      35,
+      36,
+      37,
+      38
     ],
-    "procedure": "All 35 pages inspected in v2; 28 final pages pixel-identical; seven changed final pages inspected separately at full page resolution.",
-    "changed_final_pages_reinspected": [
-      5,
-      14,
-      24,
-      25,
-      26,
-      27,
-      31
-    ],
-    "remaining_layout_defects": []
-  },
-  "editorial_score": 8.9,
-  "score_kind": "Internal rubric assessment of bachelor analytical chapter; rubric in chapter2_review.md",
-  "sha256": {
-    "chapter2.docx": "a0f1108b6554cf273ead3732397deaa698becb5954c5470b6116bf4f2d5bfe9b",
-    "chapter2_content.md": "287c6e70c54f28bb409b16cd897fff855d9985ea705dd5848b4739be1bab7749",
-    "chapter2_appendices.md": "17deaa1443b58e0f17e70e3b92b17d43ca89919aea7c6e0ee97f7fe83fad186b",
-    "chapter2_review.md": "0270793235ae88e454cfd6d11073be257a112facea93dabe69cbf54b600393d6"
+    "rendered_docx_sha256": "748526f08c36d1155b915a289cd788a5896230dd2c2dfc803510b2e3a98dc361",
+    "pdf_sha256": "62e65218e721fd24cee0deec6df5fb35e4e7f148c5ff7d8d9fa1a6107bad10be",
+    "result": "passed",
+    "notes": "All pages inspected at original resolution; unchanged pages matched the already reviewed render pixel for pixel; revised pages reinspected. Formula 2.6 stays with its introduction. No clipping, overlap, missing glyphs or broken tables."
   }
 }

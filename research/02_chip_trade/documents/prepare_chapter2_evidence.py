@@ -6,6 +6,7 @@ Run from any directory with the project's Python dependencies installed.
 
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -16,6 +17,8 @@ HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parent
 REPO = PROJECT.parent.parent
 RISK = PROJECT / "risk_extension"
+sys.path.insert(0, str(RISK))
+from analyze_monthly import cube, growth as cell_growth, periods, weights
 GOODS = [854231, 854232, 854233, 854239]
 INPUTS = {}
 
@@ -85,6 +88,41 @@ def main():
 
     states = read_csv("results/monthly/risk_states.csv")
     states = states.loc[states.case.eq("primary")]
+    # Descriptive explanation of the existing memory attribution, not a new
+    # specification or another hypothesis test. The same 36-cell history is used.
+    group_dynamics = []
+    group_identity_errors = []
+    for reporter in (392, 410):
+        x = cube(panel, reporter, tuple(GOODS), directions, 2024)
+        g = cell_growth(x, 12)
+        assert g.shape == (84, 4, 9) and np.isfinite(g).all()
+        fixed_weights = weights(x, periods(2024)//100, 2017, 2024)
+        memory_index = GOODS.index(854232)
+        other = np.arange(4) != memory_index
+        for year, state, column in ((2017, "initial", 0), (2024, "final", 3)):
+            amounts = x[periods(2024)//100 == year].sum(axis=0)
+            product_weights = amounts.sum(axis=1)/amounts.sum()
+            within_weights = amounts/amounts.sum(axis=1)[:, None]
+            product_indices = (g * within_weights[None, :, :]).sum(axis=2)
+            memory = product_indices[:, memory_index]
+            remaining = product_indices[:, other] @ (product_weights[other]/product_weights[other].sum())
+            m = product_weights[memory_index]
+            reconstructed = m*memory + (1-m)*remaining
+            original = g.reshape(84, 36) @ fixed_weights[:, column]
+            assert np.allclose(reconstructed, original, atol=1e-13)
+            covariance = float(np.cov(memory, remaining, ddof=1)[0, 1])
+            reconstructed_variance = (m*m*np.var(memory, ddof=1)
+                + (1-m)**2*np.var(remaining, ddof=1) + 2*m*(1-m)*covariance)*10000
+            saved_variance = float(states.loc[states.reporter.eq(reporter) & states.state.eq(state), "variance_pp2"].iloc[0])
+            error = abs(reconstructed_variance-saved_variance)
+            assert error < 1e-8
+            group_identity_errors.append(error)
+            group_dynamics.append(dict(reporter=reporter, weight_year=year, n=84,
+                memory_sd_pp=float(memory.std(ddof=1)*100),
+                remaining_sd_pp=float(remaining.std(ddof=1)*100),
+                correlation=float(np.corrcoef(memory, remaining)[0, 1]),
+                covariance_pp2=covariance*10000, memory_share=float(m),
+                total_variance_pp2=reconstructed_variance))
     endpoint = annual_saved.loc[~annual_saved.include_parts & annual_saved.year.isin([2017, 2024])].copy()
     endpoint["state"] = endpoint.year.map({2017: "initial", 2024: "final"})
     endpoint = endpoint.merge(states[["reporter", "state", "hhi_matched_grid", "residual_share"]],
@@ -120,6 +158,7 @@ def main():
         "within_product_destination_endpoints": records(within.loc[within.refYear.isin([2017, 2024])]),
         "endpoint_table": records(endpoint),
         "observed_growth_statistics": growth_stats,
+        "memory_and_remaining_fixed_indices": group_dynamics,
         "largest_ordinary_growth_observations": records(extremes.head(5)),
         "maximum_annual_bridge_gap": max_bridge,
         "saved_results": retained,
@@ -130,6 +169,7 @@ def main():
             "observed_growth_months_per_exporter": 84,
             "world_rows_excluded_from_direction_sums": True,
             "control_heading_and_parts_excluded_from_primary_descriptive_totals": True,
+            "memory_group_reconstruction_max_abs_error_pp2": max(group_identity_errors),
         },
         "input_sha256": INPUTS,
     }

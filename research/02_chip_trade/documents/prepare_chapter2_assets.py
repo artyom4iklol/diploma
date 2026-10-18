@@ -41,7 +41,7 @@ def save(fig,num,caption,note):
                      'caption':caption,'note':note,'sha256':hashlib.sha256((ASSETS/f'{stem}.png').read_bytes()).hexdigest()})
     plt.close(fig)
 
-def main():
+def prepare_figures():
     annual=pd.DataFrame(E['annual_totals']);prod=pd.DataFrame(E['annual_products'])
     geo=pd.DataFrame(E['annual_destination_grid']);states=pd.DataFrame(E['saved_results']['primary_states'])
     ints=pd.DataFrame(E['saved_results']['primary_intervals']);ints=ints[ints.block_months.eq(12)].set_index(['reporter','metric'])
@@ -56,7 +56,7 @@ def main():
     axs[0].set(ylabel='Стоимость, млрд долл.',xticks=range(2017,2025),ylim=(0,135));axs[0].legend(frameon=False,fontsize=9,loc='lower center',bbox_to_anchor=(.5,1.02),ncol=2)
     axs[1].axhline(0,color='.2',lw=.7);axs[1].set(ylabel='Симметричный темп, п.п.',ylim=(-65,60),xlim=(pd.Timestamp('2018-01-01'),pd.Timestamp('2024-12-31')))
     for ax in axs:clean(ax)
-    save(fig,1,'Стоимость экспорта и фактические годовые темпы его изменения','Верхняя панель — годовые суммы; нижняя — месячные темпы год к году. Четыре категории готовых схем; текущие доллары США.')
+    save(fig,1,'Стоимость экспорта и фактические годовые темпы его изменения','Верхняя панель — годовые суммы; нижняя — месячные темпы год к году. Четыре категории интегральных схем без частей; текущие доллары США.')
 
     fig,axs=plt.subplots(1,2,figsize=(6.5,3.6),sharey=True);fig.subplots_adjust(left=.09,right=.98,bottom=.29,top=.89,wspace=.16)
     for ax,c in zip(axs,NAMES):
@@ -137,6 +137,13 @@ def main():
     manifest.sort(key=lambda x:x['number'])
     (HERE/'chapter2_figures.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 
+def prepare_appendices():
+    geo=pd.DataFrame(E['annual_destination_grid'])
+    states=pd.DataFrame(E['saved_results']['primary_states'])
+    summary=pd.DataFrame(E['saved_results']['all_specifications'])
+    directions=[156,344,490,704,702,608,842,764,-1]
+    stnames=['initial','product_change','geography_change','final']
+
     def table(title,headers,rows,note=''):
         lines=['**'+title+'**','','| '+' | '.join(headers)+' |','| '+' | '.join(['---']*len(headers))+' |']
         lines+=['| '+' | '.join(str(x) for x in row)+' |' for row in rows]
@@ -173,7 +180,14 @@ def main():
             z=da.loc[(c,d)];vals.append(f'{fmt(z.estimate_variance_pp2)} [{fmt(z.ci_low)}; {fmt(z.ci_high)}]')
         rows.append([LABELS[d],*vals])
     out.append(table('Таблица Г.1 — Вклады направлений в изменение дисперсии',['Направление','Япония, п.п.²','Корея, п.п.²'],rows,'В квадратных скобках — 95%-интервалы, блок 12 месяцев. Дополнительная поисковая атрибуция без поправки на множественные сравнения. Вклад включает ковариации ячеек направления с остальными потоками.'))
-    out+=['## Приложение Д Воспроизводимость расчетов','',
+    out+=['## Приложение Д Изменчивость индексов памяти и остальных схем','',
+          'Для каждого года весов построены два ряда на общей истории темпов 2018–2024 годов. Первый суммирует ячейки памяти с фиксированными долями направлений внутри HS854232. Второй объединяет три остальные категории с их географическими долями того же года; товарные веса внутри этой группы нормированы к единице. Это условные индексы, а не фактические темпы совокупного экспорта каждой группы.','']
+    group=E['memory_and_remaining_fixed_indices']
+    rows=[[NAMES[int(z['reporter'])],z['weight_year'],fmt(z['memory_sd_pp']),fmt(z['remaining_sd_pp']),fmt(z['correlation'])] for z in group]
+    out.append(table('Таблица Д.1 — Волатильность и корреляция двух укрупненных индексов',['Страна','Год весов','SD памяти, п.п.','SD остальных, п.п.','Корреляция'],rows,'По 84 наблюдения для каждого ряда. Описательная детализация основной модели; отдельные интервалы для этих статистик не рассчитывались.'))
+    out+=['Совокупный индекс точно восстанавливается как сумма индекса памяти, умноженного на ее долю, и индекса остальных схем, умноженного на оставшуюся долю. Его дисперсия равна сумме дисперсий групп с квадратами соответствующих весов и удвоенного произведения весов и ковариации групп. Для четырех сочетаний страны и года это равенство проверено по сохраненным основным оценкам.','',
+          'Переход между строками 2017 и 2024 годов меняет географию и относительные пропорции остальных схем одновременно. Поэтому разность их стандартных отклонений не является отдельным вкладом доли памяти. Последний выделен вложенным разложением в разделе 2.3.','']
+    out+=['## Приложение Е Воспроизводимость расчетов','',
           'Основная панель, исходные ответы, протокол и программы сохранены в репозитории artyom4iklol/diploma в разделе research/02_chip_trade/risk_extension. Параметры основного расчета зафиксированы в monthly_analysis_protocol.md. Файл analyze_monthly.py формирует условные индексы и интервалы; post_estimation/diagnose_results.py — дополнительные разложения. Результаты главы соответствуют полной панели 2017–2024 годов, полученной 16 октября 2026 года.','',
           'Проверены совпадение дисперсии индекса с квадратичной формой, сложение товарного и географического вкладов, сложение детальных атрибуций и согласованность исходных сумм. Описательные данные рисунков и таблиц подготовлены из сохраненной панели; при редакции главы основная модель не переоценивалась. Полный набор чисел, контрольные суммы и код визуализации находятся в каталоге documents рядом с текстом главы.','']
     (HERE/'chapter2_appendices.md').write_text('\n'.join(out))
@@ -187,6 +201,12 @@ def main():
     t=table('Таблица 2.5 — Чувствительность изменения стандартного отклонения',['Вариант','T','Япония, п.п.','Корея, п.п.'],rows,'T — число месячных либо квартальных темпов. н/о — оценка не определена; в корейских вариантах с лагом 1 и обычным ростом отсутствуют соответственно 6 и 22 значения темпов. Последние два варианта используют структуры 2017/2020. Двенадцать кандидатов дают одиннадцать отдельных направлений и остаток. Полное разложение приведено в приложении В.')
     p=HERE/'chapter2_4.md';text=p.read_text();start=text.index('**Таблица 2.5');end=text.index('Источник: расчеты автора по UN Comtrade.',start)+len('Источник: расчеты автора по UN Comtrade.')
     p.write_text(text[:start]+t.strip()+text[end:])
-    print(f'Prepared {len(manifest)} monochrome figures and five appendices.')
+    print('Prepared six appendices and the main sensitivity table.')
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--appendices-only',action='store_true')
+    args=parser.parse_args()
+    if not args.appendices_only:prepare_figures()
+    prepare_appendices()
