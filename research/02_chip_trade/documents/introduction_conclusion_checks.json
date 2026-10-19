@@ -1,0 +1,337 @@
+{
+  "file": "introduction_conclusion.docx",
+  "source_markdown": [
+    "introduction.md",
+    "conclusion.md"
+  ],
+  "source_sha256": {
+    "introduction.md": "f553a3335b12037375228d3d628adb24f227e8d2cc13e698abe1b6c0a95f4dc3",
+    "conclusion.md": "112b93ee3d8254beed9efe8093ce7d079c210469e6d14db414652a67d10a1845"
+  },
+  "paragraph_counts": {
+    "introduction": 22,
+    "conclusion": 14
+  },
+  "numbered_research_tasks": 7,
+  "native_footnotes": 5,
+  "referenced_sources": 7,
+  "font": "Times New Roman",
+  "body_points": 12,
+  "line_spacing": 1.5,
+  "page_size": "A4",
+  "external_hyperlinks": 0,
+  "tables": 0,
+  "figures": 0,
+  "sha256": "acaafbb92d05138d33ee30c22f8c1f9fe6ed20e172a14832508d6c5ab0a6e81f",
+  "visual_review_pending": false,
+  "numerical_claim_checks": [
+    {
+      "claim": "export_392_2017_billion",
+      "value": 24.993099268882,
+      "displayed": 24.99,
+      "passed": true
+    },
+    {
+      "claim": "export_392_2024_billion",
+      "value": 30.377948416316002,
+      "displayed": 30.38,
+      "passed": true
+    },
+    {
+      "claim": "export_410_2017_billion",
+      "value": 85.839954337,
+      "displayed": 85.84,
+      "passed": true
+    },
+    {
+      "claim": "export_410_2024_billion",
+      "value": 119.819998301,
+      "displayed": 119.82,
+      "passed": true
+    },
+    {
+      "claim": "korea_memory_share_2017",
+      "value": 70.4880476117861,
+      "displayed": 70.49,
+      "passed": true
+    },
+    {
+      "claim": "korea_memory_share_2024",
+      "value": 60.1065805276338,
+      "displayed": 60.11,
+      "passed": true
+    },
+    {
+      "claim": "japan_memory_share_increased",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "korea_memory_nominal_value_increased",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "392_delta_sd_pp",
+      "value": -0.264801543341206,
+      "displayed": -0.26,
+      "passed": true
+    },
+    {
+      "claim": "392_mix_variance_pp2",
+      "value": 5.168507582394809,
+      "displayed": 5.17,
+      "passed": true
+    },
+    {
+      "claim": "392_geography_variance_pp2",
+      "value": -10.413791960714216,
+      "displayed": -10.41,
+      "passed": true
+    },
+    {
+      "claim": "392_delta_sd_ci_low",
+      "value": -1.271826411777335,
+      "displayed": -1.27,
+      "passed": true
+    },
+    {
+      "claim": "392_delta_sd_ci_high",
+      "value": 0.885975655966609,
+      "displayed": 0.89,
+      "passed": true
+    },
+    {
+      "claim": "392_84_observations",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "392_36_flows",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "392_mix_variance_pp2_interval_sign",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "392_geography_variance_pp2_interval_sign",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "410_delta_sd_pp",
+      "value": -1.267653688345238,
+      "displayed": -1.27,
+      "passed": true
+    },
+    {
+      "claim": "410_mix_variance_pp2",
+      "value": -172.91657099893374,
+      "displayed": -172.92,
+      "passed": true
+    },
+    {
+      "claim": "410_geography_variance_pp2",
+      "value": 98.8386280334165,
+      "displayed": 98.84,
+      "passed": true
+    },
+    {
+      "claim": "410_delta_sd_ci_low",
+      "value": -2.998739557989044,
+      "displayed": -3.0,
+      "passed": true
+    },
+    {
+      "claim": "410_delta_sd_ci_high",
+      "value": 0.423493797559147,
+      "displayed": 0.42,
+      "passed": true
+    },
+    {
+      "claim": "410_84_observations",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "410_36_flows",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "410_mix_variance_pp2_interval_sign",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "410_geography_variance_pp2_interval_sign",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "korea_mix_variance_pp2_ci_low",
+      "value": -241.2330757278984,
+      "displayed": -241.23,
+      "passed": true
+    },
+    {
+      "claim": "korea_mix_variance_pp2_ci_high",
+      "value": -67.53707961281809,
+      "displayed": -67.54,
+      "passed": true
+    },
+    {
+      "claim": "korea_geography_variance_pp2_ci_low",
+      "value": -1.670893314513437,
+      "displayed": -1.67,
+      "passed": true
+    },
+    {
+      "claim": "korea_geography_variance_pp2_ci_high",
+      "value": 168.51539061577097,
+      "displayed": 168.52,
+      "passed": true
+    },
+    {
+      "claim": "korea_compensation_percent",
+      "value": 57.15972012539271,
+      "displayed": 57.2,
+      "passed": true
+    },
+    {
+      "claim": "memory_share_of_product_contribution",
+      "value": 95.52442008470632,
+      "displayed": 95.5,
+      "passed": true
+    },
+    {
+      "claim": "korea_geography_own_variances",
+      "value": -34.72862436499021,
+      "displayed": -34.73,
+      "passed": true
+    },
+    {
+      "claim": "korea_geography_cross_covariances",
+      "value": 133.5672523984067,
+      "displayed": 133.57,
+      "passed": true
+    },
+    {
+      "claim": "all_available_korea_product_signs_negative",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "japan_alternative_growth_sign_changes",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "392_scenario_minus5_sd",
+      "value": -0.3293202809129152,
+      "displayed": -0.33,
+      "passed": true
+    },
+    {
+      "claim": "392_scenario_minus5_lo",
+      "value": -0.5534973606327462,
+      "displayed": -0.55,
+      "passed": true
+    },
+    {
+      "claim": "392_scenario_minus5_hi",
+      "value": 0.07691817008057301,
+      "displayed": 0.08,
+      "passed": true
+    },
+    {
+      "claim": "392_scenario_minus5_growth",
+      "value": 23.1962911034133,
+      "displayed": 23.2,
+      "passed": true
+    },
+    {
+      "claim": "392_scenario_minus5_extra_billion",
+      "value": 4.05434829317455,
+      "displayed": 4.05,
+      "passed": true
+    },
+    {
+      "claim": "410_scenario_minus5_sd",
+      "value": -1.2898915017395218,
+      "displayed": -1.29,
+      "passed": true
+    },
+    {
+      "claim": "410_scenario_minus5_lo",
+      "value": -1.7400843903434395,
+      "displayed": -1.74,
+      "passed": true
+    },
+    {
+      "claim": "410_scenario_minus5_hi",
+      "value": -0.6775330789925761,
+      "displayed": -0.68,
+      "passed": true
+    },
+    {
+      "claim": "410_scenario_minus5_growth",
+      "value": 22.74391783586962,
+      "displayed": 22.74,
+      "passed": true
+    },
+    {
+      "claim": "410_scenario_minus5_extra_billion",
+      "value": 10.87165971411663,
+      "displayed": 10.87,
+      "passed": true
+    },
+    {
+      "claim": "market_expansion_1pct",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "eight_markets_each_country",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    },
+    {
+      "claim": "all_simultaneous_intervals_include_zero",
+      "value": true,
+      "displayed": null,
+      "passed": true
+    }
+  ],
+  "numerical_checks_passed": 49,
+  "evidence_sha256": {
+    "chapter1_content.md": "a1695b3e61e7e3e33c7019eac9719256ba9223be2a0c271808a3059562871e90",
+    "chapter2_content.md": "17fe71377e06abf52c23567485ac276f395ddd4bd164a8c4c59f3f946cb66a16",
+    "chapter3_content.md": "5aa727c96e04d037aecee7e2433aa39780b9172764125c3fc7168e25b074a9e3",
+    "chapter2_evidence.json": "328d1b46b360fad223fa0cf298055fe20c204ea1daff27f0bbdafd7c778792b2",
+    "chapter3_evidence.json": "21ea05f9bb1e2f1b64ea7ae9fa64d6bc4d70630636f11aa52ece0befff419669",
+    "chapter3_market_evidence.json": "ba33474a2a117b70d98b96108afd81ef281826aa93ee8ec08e4e258196d8d810"
+  },
+  "rendered_pages": 8,
+  "introduction_pages": 4,
+  "conclusion_pages": 4,
+  "reviewed_on": "2026-10-19",
+  "visual_review": "All eight pages inspected; after the methodological clarification page 3 re-inspected, the other seven pages pixel-identical to the reviewed render."
+}
