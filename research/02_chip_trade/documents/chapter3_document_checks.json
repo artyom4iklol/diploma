@@ -1,20 +1,20 @@
 {
   "file": "chapter3.docx",
-  "native_footnotes": 7,
+  "native_footnotes": 9,
   "numbered_editable_equations": 3,
   "all_native_math_objects": 15,
   "figures": 3,
-  "main_tables": 6,
+  "main_tables": 7,
   "appendix_tables": 0,
   "font": "Times New Roman",
   "body_points": 12,
   "body_line_spacing": 1.5,
   "page_size": "A4",
   "external_hyperlinks": 0,
-  "source_count": 6,
-  "sha256": "57cf854a93ba694e011f1a28e6d92a1c49e24c582a64299a2930ad696d242662",
+  "source_count": 7,
+  "sha256": "3e62977415a6d27ac351d0842b79ac0c885bf3997810044f01ff8ac607130507",
   "visual_review_pending": false,
-  "rendered_pages": 20,
-  "visual_review": "All 20 first-render pages inspected; 12 changed final-render pages reinspected; 8 unchanged pages pixel-identical",
-  "review_date": "2026-10-19"
+  "rendered_pages": 21,
+  "visual_review": "All 21 pages inspected. After final table-width correction, page 19 re-inspected; the other 20 pages are pixel-identical to the reviewed render. No clipping, overlap, broken table rows or detached captions.",
+  "reviewed_on": "2026-10-19"
 }

@@ -1,0 +1,1033 @@
+{
+  "protocol": "chapter3_market_protocol.md",
+  "expansion_share": 0.01,
+  "seed": 20261019,
+  "repetitions": 1999,
+  "rows": [
+    {
+      "reporter": 392,
+      "partner": 156,
+      "partner_name": "Китай",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.740187575078076,
+      "delta_vs_reference_pp": -0.0006732116591781079,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 2228149045.29,
+      "required_destination_growth_pct": 13.63371471066121,
+      "max_required_cell_growth_pct": 20.22348521133818,
+      "max_required_cell_good": 854239,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.04093829646803604,
+      "point_ci_high_b12": 0.03767914692491185,
+      "family_ci_low_b12": -0.10145701202876614,
+      "family_ci_high_b12": 0.10011058871040993,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.04034468582353741,
+      "point_ci_high_b6": 0.0385022143686533,
+      "family_ci_low_b6": -0.09456016781215355,
+      "family_ci_high_b6": 0.09321374449379734,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 392,
+      "partner": 344,
+      "partner_name": "Гонконг",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.713552363378149,
+      "delta_vs_reference_pp": -0.02730842335910566,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 4828369808.027,
+      "required_destination_growth_pct": 6.291553800583729,
+      "max_required_cell_growth_pct": 18.406931689150827,
+      "max_required_cell_good": 854231,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.10006158988742682,
+      "point_ci_high_b12": 0.0377031823857747,
+      "family_ci_low_b12": -0.1280922237286937,
+      "family_ci_high_b12": 0.07347537701048237,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.09303576050813005,
+      "point_ci_high_b6": 0.03850203850868998,
+      "family_ci_low_b6": -0.1211953795120811,
+      "family_ci_high_b6": 0.06657853279386979,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 392,
+      "partner": 490,
+      "partner_name": "Other Asia, nes",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.78856761859611,
+      "delta_vs_reference_pp": 0.04770683185885538,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 959000136.3239999,
+      "required_destination_growth_pct": 31.676688319106518,
+      "max_required_cell_growth_pct": 47.4178870289213,
+      "max_required_cell_good": 854233,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.04916228130810527,
+      "point_ci_high_b12": 0.11531010993822022,
+      "family_ci_low_b12": -0.05307696851073265,
+      "family_ci_high_b12": 0.14849063222844341,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.034836597498195496,
+      "point_ci_high_b6": 0.11065431840520289,
+      "family_ci_low_b6": -0.046180124294120065,
+      "family_ci_high_b6": 0.1415937880118308,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 392,
+      "partner": 704,
+      "partner_name": "Вьетнам",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.75748181914697,
+      "delta_vs_reference_pp": 0.016621032409714687,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 2111719297.821,
+      "required_destination_growth_pct": 14.38541024257429,
+      "max_required_cell_growth_pct": 170.56312668245567,
+      "max_required_cell_good": 854231,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.05252243070570843,
+      "point_ci_high_b12": 0.10773314990223876,
+      "family_ci_low_b12": -0.08416276795987335,
+      "family_ci_high_b12": 0.11740483277930272,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.06423690549709385,
+      "point_ci_high_b6": 0.10054555801896167,
+      "family_ci_low_b6": -0.07726592374326076,
+      "family_ci_high_b6": 0.11050798856269013,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 392,
+      "partner": 702,
+      "partner_name": "Сингапур",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.70367308032628,
+      "delta_vs_reference_pp": -0.03718770641097535,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 380891973.26400006,
+      "required_destination_growth_pct": 79.75476131984735,
+      "max_required_cell_growth_pct": 110.17604468524047,
+      "max_required_cell_good": 854239,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.0766350908782675,
+      "point_ci_high_b12": 0.0002848401754137639,
+      "family_ci_low_b12": -0.13797150678056339,
+      "family_ci_high_b12": 0.06359609395861268,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.07928742598319953,
+      "point_ci_high_b6": 0.003095227314914603,
+      "family_ci_low_b6": -0.13107466256395078,
+      "family_ci_high_b6": 0.056699249742000093,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 392,
+      "partner": 608,
+      "partner_name": "Филиппины",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.741114087018312,
+      "delta_vs_reference_pp": 0.00025330028105763347,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 330055027.504,
+      "required_destination_growth_pct": 92.03904162904425,
+      "max_required_cell_growth_pct": 101.0220119165794,
+      "max_required_cell_good": 854239,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.08458270171721605,
+      "point_ci_high_b12": 0.0669788806454111,
+      "family_ci_low_b12": -0.1005305000885304,
+      "family_ci_high_b12": 0.10103710065064567,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.07710369198674272,
+      "point_ci_high_b6": 0.0650292361926068,
+      "family_ci_low_b6": -0.09363365587191781,
+      "family_ci_high_b6": 0.09414025643403308,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 392,
+      "partner": 842,
+      "partner_name": "США",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.707783746856053,
+      "delta_vs_reference_pp": -0.03307703988120103,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 752040364.956,
+      "required_destination_growth_pct": 40.39403977749697,
+      "max_required_cell_growth_pct": 75.54796739199254,
+      "max_required_cell_good": 854239,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.090375957526037,
+      "point_ci_high_b12": 0.025442685327422145,
+      "family_ci_low_b12": -0.13386084025078906,
+      "family_ci_high_b12": 0.067706760488387,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.08773892638543632,
+      "point_ci_high_b6": 0.026883719476751358,
+      "family_ci_low_b6": -0.12696399603417646,
+      "family_ci_high_b6": 0.060809916271774414,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 392,
+      "partner": 764,
+      "partner_name": "Таиланд",
+      "baseline_sd_pp": 9.771779377990928,
+      "reference_sd_pp": 9.740860786737255,
+      "scenario_sd_pp": 9.758343058442653,
+      "delta_vs_reference_pp": 0.017482271705398844,
+      "extra_export_usd": 303779484.16316,
+      "destination_remaining_export_usd": 983019528.813,
+      "required_destination_growth_pct": 30.902690664749557,
+      "max_required_cell_growth_pct": 32.387028530809985,
+      "max_required_cell_good": 854239,
+      "baseline_memory_share_pct": 42.46341732339195,
+      "scenario_memory_share_pct": 42.04298744890293,
+      "point_ci_low_b12": -0.02560836704329761,
+      "point_ci_high_b12": 0.04847969163559868,
+      "family_ci_low_b12": -0.08330152866418919,
+      "family_ci_high_b12": 0.11826607207498688,
+      "family_radius_b12": 0.10078380036958803,
+      "point_ci_low_b6": -0.020189468986414737,
+      "point_ci_high_b6": 0.05157617605152428,
+      "family_ci_low_b6": -0.0764046844475766,
+      "family_ci_high_b6": 0.11136922785837429,
+      "family_radius_b6": 0.09388695615297545
+    },
+    {
+      "reporter": 410,
+      "partner": 156,
+      "partner_name": "Китай",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.43718597634882,
+      "delta_vs_reference_pp": 0.008541284840230645,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 16351609537.0,
+      "required_destination_growth_pct": 7.327718903137602,
+      "max_required_cell_growth_pct": 82.58260181559272,
+      "max_required_cell_good": 854233,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.03588329670715318,
+      "point_ci_high_b12": 0.04458817739577404,
+      "family_ci_low_b12": -0.16136052494358244,
+      "family_ci_high_b12": 0.17844309462404373,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.03290600530400489,
+      "point_ci_high_b6": 0.048567746333799455,
+      "family_ci_low_b6": -0.150588997678663,
+      "family_ci_high_b6": 0.16767156735912428,
+      "family_radius_b6": 0.15913028251889363
+    },
+    {
+      "reporter": 410,
+      "partner": 344,
+      "partner_name": "Гонконг",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.464448673234816,
+      "delta_vs_reference_pp": 0.03580398172622523,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 4976017932.0,
+      "required_destination_growth_pct": 24.079494876908736,
+      "max_required_cell_growth_pct": 31.773473828892463,
+      "max_required_cell_good": 854231,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.037137179741863945,
+      "point_ci_high_b12": 0.09263418236987647,
+      "family_ci_low_b12": -0.13409782805758785,
+      "family_ci_high_b12": 0.20570579151003832,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.04365714095357731,
+      "point_ci_high_b6": 0.10331939021709181,
+      "family_ci_low_b6": -0.1233263007926684,
+      "family_ci_high_b6": 0.19493426424511887,
+      "family_radius_b6": 0.15913028251889363
+    },
+    {
+      "reporter": 410,
+      "partner": 490,
+      "partner_name": "Other Asia, nes",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.49886024046981,
+      "delta_vs_reference_pp": 0.07021554896121884,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 6027796605.0,
+      "required_destination_growth_pct": 19.8779099815031,
+      "max_required_cell_growth_pct": 396.57824317506845,
+      "max_required_cell_good": 854233,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.019625208433895657,
+      "point_ci_high_b12": 0.17529774332592218,
+      "family_ci_low_b12": -0.09968626082259424,
+      "family_ci_high_b12": 0.24011735874503193,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.014667485803059321,
+      "point_ci_high_b6": 0.16073669919330658,
+      "family_ci_low_b6": -0.08891473355767479,
+      "family_ci_high_b6": 0.22934583148011248,
+      "family_radius_b6": 0.15913028251889363
+    },
+    {
+      "reporter": 410,
+      "partner": 704,
+      "partner_name": "Вьетнам",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.40467990209098,
+      "delta_vs_reference_pp": -0.0239647894176116,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 9129161683.0,
+      "required_destination_growth_pct": 13.124972747949522,
+      "max_required_cell_growth_pct": 13.25894460994469,
+      "max_required_cell_good": 854239,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.13727150635504035,
+      "point_ci_high_b12": 0.08347322583052748,
+      "family_ci_low_b12": -0.19386659920142468,
+      "family_ci_high_b12": 0.1459370203662015,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.11891650678564396,
+      "point_ci_high_b6": 0.07069275075175269,
+      "family_ci_low_b6": -0.18309507193650523,
+      "family_ci_high_b6": 0.13516549310128204,
+      "family_radius_b6": 0.15913028251889363
+    },
+    {
+      "reporter": 410,
+      "partner": 702,
+      "partner_name": "Сингапур",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.40914100035002,
+      "delta_vs_reference_pp": -0.019503691158572423,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 3457952376.0,
+      "required_destination_growth_pct": 34.65056347583429,
+      "max_required_cell_growth_pct": 595.2056167736783,
+      "max_required_cell_good": 854233,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.10850772622071805,
+      "point_ci_high_b12": 0.11124472488110293,
+      "family_ci_low_b12": -0.1894055009423855,
+      "family_ci_high_b12": 0.15039811862524066,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.11126879347523673,
+      "point_ci_high_b6": 0.08453974516458604,
+      "family_ci_low_b6": -0.17863397367746606,
+      "family_ci_high_b6": 0.1396265913603212,
+      "family_radius_b6": 0.15913028251889363
+    },
+    {
+      "reporter": 410,
+      "partner": 608,
+      "partner_name": "Филиппины",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.40561844269922,
+      "delta_vs_reference_pp": -0.02302624880936932,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 659901812.0,
+      "required_destination_growth_pct": 181.57246445172663,
+      "max_required_cell_growth_pct": 1818.8256252283036,
+      "max_required_cell_good": 854233,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.14113129322145496,
+      "point_ci_high_b12": 0.13619006244261928,
+      "family_ci_low_b12": -0.1929280585931824,
+      "family_ci_high_b12": 0.14687556097444376,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.1428108816185638,
+      "point_ci_high_b6": 0.12405301474125031,
+      "family_ci_low_b6": -0.18215653132826296,
+      "family_ci_high_b6": 0.1361040337095243,
+      "family_radius_b6": 0.15913028251889363
+    },
+    {
+      "reporter": 410,
+      "partner": 842,
+      "partner_name": "США",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.548154728719023,
+      "delta_vs_reference_pp": 0.11951003721043207,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 1336228281.0,
+      "required_destination_growth_pct": 89.6703055942879,
+      "max_required_cell_growth_pct": 721.7829592616858,
+      "max_required_cell_good": 854239,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.044272929169021855,
+      "point_ci_high_b12": 0.2679882260708424,
+      "family_ci_low_b12": -0.05039177257338101,
+      "family_ci_high_b12": 0.28941184699424516,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.026078517824719143,
+      "point_ci_high_b6": 0.259743635215381,
+      "family_ci_low_b6": -0.03962024530846156,
+      "family_ci_high_b6": 0.2786403197293257,
+      "family_radius_b6": 0.15913028251889363
+    },
+    {
+      "reporter": 410,
+      "partner": 764,
+      "partner_name": "Таиланд",
+      "baseline_sd_pp": 28.584698549074567,
+      "reference_sd_pp": 28.42864469150859,
+      "scenario_sd_pp": 28.41384483282453,
+      "delta_vs_reference_pp": -0.014799858684060752,
+      "extra_export_usd": 1198199983.01,
+      "destination_remaining_export_usd": 508788397.0,
+      "required_destination_growth_pct": 235.50065018680053,
+      "max_required_cell_growth_pct": 939.3709764483415,
+      "max_required_cell_good": 854233,
+      "baseline_memory_share_pct": 60.10658052763379,
+      "scenario_memory_share_pct": 59.51146586894435,
+      "point_ci_low_b12": -0.09466161300415302,
+      "point_ci_high_b12": 0.0650951874218192,
+      "family_ci_low_b12": -0.18470166846787384,
+      "family_ci_high_b12": 0.15510195109975233,
+      "family_radius_b12": 0.16990180978381308,
+      "point_ci_low_b6": -0.09350305789340733,
+      "point_ci_high_b6": 0.06597640492894764,
+      "family_ci_low_b6": -0.17393014120295439,
+      "family_ci_high_b6": 0.14433042383483288,
+      "family_radius_b6": 0.15913028251889363
+    }
+  ],
+  "windows": [
+    {
+      "reporter": 392,
+      "partner": 156,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.018704039578905096
+    },
+    {
+      "reporter": 392,
+      "partner": 344,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.04746322798237834
+    },
+    {
+      "reporter": 392,
+      "partner": 490,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.05953715838286655
+    },
+    {
+      "reporter": 392,
+      "partner": 704,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": 0.11372685007305172
+    },
+    {
+      "reporter": 392,
+      "partner": 702,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.07162458867351873
+    },
+    {
+      "reporter": 392,
+      "partner": 608,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.04523980533692651
+    },
+    {
+      "reporter": 392,
+      "partner": 842,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.055381652840161166
+    },
+    {
+      "reporter": 392,
+      "partner": 764,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": 0.025394828674173198
+    },
+    {
+      "reporter": 392,
+      "partner": 156,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.007952821400351695
+    },
+    {
+      "reporter": 392,
+      "partner": 344,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.01576688907955237
+    },
+    {
+      "reporter": 392,
+      "partner": 490,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.10646132918273388
+    },
+    {
+      "reporter": 392,
+      "partner": 704,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.029728741677850223
+    },
+    {
+      "reporter": 392,
+      "partner": 702,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.019709903507804327
+    },
+    {
+      "reporter": 392,
+      "partner": 608,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.03228144403127686
+    },
+    {
+      "reporter": 392,
+      "partner": 842,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.021896715194639427
+    },
+    {
+      "reporter": 392,
+      "partner": 764,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.014166494934128693
+    },
+    {
+      "reporter": 410,
+      "partner": 156,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.06873238825298955
+    },
+    {
+      "reporter": 410,
+      "partner": 344,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": 0.04437553628785551
+    },
+    {
+      "reporter": 410,
+      "partner": 490,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": 0.13832500202811815
+    },
+    {
+      "reporter": 410,
+      "partner": 704,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": 0.060469454664652034
+    },
+    {
+      "reporter": 410,
+      "partner": 702,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.08684155281559569
+    },
+    {
+      "reporter": 410,
+      "partner": 608,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": 0.17007316587068644
+    },
+    {
+      "reporter": 410,
+      "partner": 842,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": 0.20934683662373033
+    },
+    {
+      "reporter": 410,
+      "partner": 764,
+      "window": "2018–2020",
+      "delta_vs_reference_pp": -0.045875219008667756
+    },
+    {
+      "reporter": 410,
+      "partner": 156,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.03903276347786644
+    },
+    {
+      "reporter": 410,
+      "partner": 344,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.04481770707957011
+    },
+    {
+      "reporter": 410,
+      "partner": 490,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.05201869195993325
+    },
+    {
+      "reporter": 410,
+      "partner": 704,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.05717046312751961
+    },
+    {
+      "reporter": 410,
+      "partner": 702,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.010040051058666677
+    },
+    {
+      "reporter": 410,
+      "partner": 608,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.1481042995266577
+    },
+    {
+      "reporter": 410,
+      "partner": 842,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": 0.09300596953180218
+    },
+    {
+      "reporter": 410,
+      "partner": 764,
+      "window": "2021–2024",
+      "delta_vs_reference_pp": -0.025149177942694223
+    }
+  ],
+  "cell_growth": [
+    {
+      "reporter": 392,
+      "partner": 156,
+      "good": 854231,
+      "baseline_export_usd": 983107083.3649999,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 5.365748106626449
+    },
+    {
+      "reporter": 392,
+      "partner": 156,
+      "good": 854233,
+      "baseline_export_usd": 21759421.777,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 16.719519888734922
+    },
+    {
+      "reporter": 392,
+      "partner": 156,
+      "good": 854239,
+      "baseline_export_usd": 1223282540.148,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 20.22348521133818
+    },
+    {
+      "reporter": 392,
+      "partner": 344,
+      "good": 854231,
+      "baseline_export_usd": 286582525.554,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 18.406931689150827
+    },
+    {
+      "reporter": 392,
+      "partner": 344,
+      "good": 854233,
+      "baseline_export_usd": 26830226.737999998,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 13.559597864026196
+    },
+    {
+      "reporter": 392,
+      "partner": 344,
+      "good": 854239,
+      "baseline_export_usd": 4514957055.735001,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 5.479351421193962
+    },
+    {
+      "reporter": 392,
+      "partner": 490,
+      "good": 854231,
+      "baseline_export_usd": 307833919.457,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 17.136204419843526
+    },
+    {
+      "reporter": 392,
+      "partner": 490,
+      "good": 854233,
+      "baseline_export_usd": 7672359.693,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 47.4178870289213
+    },
+    {
+      "reporter": 392,
+      "partner": 490,
+      "good": 854239,
+      "baseline_export_usd": 643493857.1739999,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 38.44486794111211
+    },
+    {
+      "reporter": 392,
+      "partner": 704,
+      "good": 854231,
+      "baseline_export_usd": 30927581.323000003,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 170.56312668245567
+    },
+    {
+      "reporter": 392,
+      "partner": 704,
+      "good": 854233,
+      "baseline_export_usd": 14361623.838,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 25.331890688106697
+    },
+    {
+      "reporter": 392,
+      "partner": 704,
+      "good": 854239,
+      "baseline_export_usd": 2066430092.66,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 11.97187190016484
+    },
+    {
+      "reporter": 392,
+      "partner": 702,
+      "good": 854231,
+      "baseline_export_usd": 144316896.347,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 36.55223403982562
+    },
+    {
+      "reporter": 392,
+      "partner": 702,
+      "good": 854233,
+      "baseline_export_usd": 12034103.145000001,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 30.23134177797703
+    },
+    {
+      "reporter": 392,
+      "partner": 702,
+      "good": 854239,
+      "baseline_export_usd": 224540973.772,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 110.17604468524047
+    },
+    {
+      "reporter": 392,
+      "partner": 608,
+      "good": 854231,
+      "baseline_export_usd": 57553626.922,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 91.65547426447905
+    },
+    {
+      "reporter": 392,
+      "partner": 608,
+      "good": 854233,
+      "baseline_export_usd": 27613817.266000003,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 13.17482047713364
+    },
+    {
+      "reporter": 392,
+      "partner": 608,
+      "good": 854239,
+      "baseline_export_usd": 244887583.316,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 101.0220119165794
+    },
+    {
+      "reporter": 392,
+      "partner": 842,
+      "good": 854231,
+      "baseline_export_usd": 398695664.65099996,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 13.230906274825905
+    },
+    {
+      "reporter": 392,
+      "partner": 842,
+      "good": 854233,
+      "baseline_export_usd": 25883390.438,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 14.055619415059695
+    },
+    {
+      "reporter": 392,
+      "partner": 842,
+      "good": 854239,
+      "baseline_export_usd": 327461309.867,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 75.54796739199254
+    },
+    {
+      "reporter": 392,
+      "partner": 764,
+      "good": 854231,
+      "baseline_export_usd": 200941065.04099998,
+      "extra_export_usd": 52751049.711767994,
+      "required_growth_pct": 26.252000655517914
+    },
+    {
+      "reporter": 392,
+      "partner": 764,
+      "good": 854233,
+      "baseline_export_usd": 18222145.912,
+      "extra_export_usd": 3638070.851679233,
+      "required_growth_pct": 19.965106575529177
+    },
+    {
+      "reporter": 392,
+      "partner": 764,
+      "good": 854239,
+      "baseline_export_usd": 763856317.86,
+      "extra_export_usd": 247390363.59971282,
+      "required_growth_pct": 32.387028530809985
+    },
+    {
+      "reporter": 410,
+      "partner": 156,
+      "good": 854231,
+      "baseline_export_usd": 13626756156.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 6.5938997711353835
+    },
+    {
+      "reporter": 410,
+      "partner": 156,
+      "good": 854233,
+      "baseline_export_usd": 6908038.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 82.58260181559272
+    },
+    {
+      "reporter": 410,
+      "partner": 156,
+      "good": 854239,
+      "baseline_export_usd": 2717945343.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 10.815541352537391
+    },
+    {
+      "reporter": 410,
+      "partner": 344,
+      "good": 854231,
+      "baseline_export_usd": 2827939582.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 31.773473828892463
+    },
+    {
+      "reporter": 410,
+      "partner": 344,
+      "good": 854233,
+      "baseline_export_usd": 19113337.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 29.84741761634735
+    },
+    {
+      "reporter": 410,
+      "partner": 344,
+      "good": 854239,
+      "baseline_export_usd": 2128965013.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 13.80767183662164
+    },
+    {
+      "reporter": 410,
+      "partner": 490,
+      "good": 854231,
+      "baseline_export_usd": 2693738680.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 33.356414623843946
+    },
+    {
+      "reporter": 410,
+      "partner": 490,
+      "good": 854233,
+      "baseline_export_usd": 1438515.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 396.57824317506845
+    },
+    {
+      "reporter": 410,
+      "partner": 490,
+      "good": 854239,
+      "baseline_export_usd": 3332619410.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 8.820704267323741
+    },
+    {
+      "reporter": 410,
+      "partner": 704,
+      "good": 854231,
+      "baseline_export_usd": 6787451686.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 13.238173685081325
+    },
+    {
+      "reporter": 410,
+      "partner": 704,
+      "good": 854233,
+      "baseline_export_usd": 124636835.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 4.577168150017477
+    },
+    {
+      "reporter": 410,
+      "partner": 704,
+      "good": 854239,
+      "baseline_export_usd": 2217073162.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 13.25894460994469
+    },
+    {
+      "reporter": 410,
+      "partner": 702,
+      "good": 854231,
+      "baseline_export_usd": 3367413481.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 26.683228776432543
+    },
+    {
+      "reporter": 410,
+      "partner": 702,
+      "good": 854233,
+      "baseline_export_usd": 958465.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 595.2056167736783
+    },
+    {
+      "reporter": 410,
+      "partner": 702,
+      "good": 854239,
+      "baseline_export_usd": 89580430.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 328.1525914884861
+    },
+    {
+      "reporter": 410,
+      "partner": 608,
+      "good": 854231,
+      "baseline_export_usd": 583344639.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 154.03152491878146
+    },
+    {
+      "reporter": 410,
+      "partner": 608,
+      "good": 854233,
+      "baseline_export_usd": 313655.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 1818.8256252283036
+    },
+    {
+      "reporter": 410,
+      "partner": 608,
+      "good": 854239,
+      "baseline_export_usd": 76243518.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 385.55474645271386
+    },
+    {
+      "reporter": 410,
+      "partner": 842,
+      "good": 854231,
+      "baseline_export_usd": 1294007832.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 69.4381147287879
+    },
+    {
+      "reporter": 410,
+      "partner": 842,
+      "good": 854233,
+      "baseline_export_usd": 1493455.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 381.9892474034929
+    },
+    {
+      "reporter": 410,
+      "partner": 842,
+      "good": 854239,
+      "baseline_export_usd": 40726994.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 721.7829592616858
+    },
+    {
+      "reporter": 410,
+      "partner": 764,
+      "good": 854231,
+      "baseline_export_usd": 297302322.0,
+      "extra_export_usd": 898534642.9836608,
+      "required_growth_pct": 302.2292718533362
+    },
+    {
+      "reporter": 410,
+      "partner": 764,
+      "good": 854233,
+      "baseline_export_usd": 607304.0,
+      "extra_export_usd": 5704837.514809836,
+      "required_growth_pct": 939.3709764483415
+    },
+    {
+      "reporter": 410,
+      "partner": 764,
+      "good": 854239,
+      "baseline_export_usd": 210878771.0,
+      "extra_export_usd": 293960502.51152927,
+      "required_growth_pct": 139.39786405125116
+    }
+  ],
+  "checks": [
+    {
+      "reporter": 392,
+      "finite_growth_cells": 3024,
+      "positive_cells": true,
+      "nonnegative_normalized_weights": true,
+      "equal_product_shares": true,
+      "equal_expansion": true,
+      "saved_baseline_error_pp2": 1.8474111129762605e-13,
+      "variance_identity_error_pp2": 2.1316282072803006e-13
+    },
+    {
+      "reporter": 410,
+      "finite_growth_cells": 3024,
+      "positive_cells": true,
+      "nonnegative_normalized_weights": true,
+      "equal_product_shares": true,
+      "equal_expansion": true,
+      "saved_baseline_error_pp2": 2.3874235921539366e-12,
+      "variance_identity_error_pp2": 2.0463630789890885e-12
+    }
+  ],
+  "input_sha256": {
+    "research/02_chip_trade/risk_extension/data/monthly_panel_full.csv.gz": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+    "research/02_chip_trade/risk_extension/results/monthly/risk_summary.csv": "505f6bf58638563ccc0ee1edcaa6d4faf8aa7bf3a7d78607533d829280a59b37",
+    "research/02_chip_trade/risk_extension/results/monthly/risk_states.csv": "893c09b992bdf6a626b95a03d3ac10bd784070fcfaae60c38fad38ba40b81075",
+    "research/02_chip_trade/documents/chapter3_market_protocol.md": "f3f10cfc9d102c544929a19898cde9d2236038fd0cab6295c0a5ff85c1521a5e",
+    "research/02_chip_trade/documents/prepare_chapter3_markets.py": "a05774be52da7b085711adde60f85bd1bb906ce84f2b508619c5c103cff13d88"
+  }
+}

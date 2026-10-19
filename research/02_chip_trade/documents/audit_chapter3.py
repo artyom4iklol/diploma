@@ -36,15 +36,31 @@ for shift in (-2.5,-5.):
  rs=[next(r for r in E['scenarios'] if r['reporter']==c and r['shift_pp']==shift) for c in (392,410)]
  row='| '+' | '.join([fmt(shift,1),*[fmt(r['remaining_export_change_pct_if_memory_unchanged']) for r in rs],*[fmt(r['extra_remaining_export_usd_if_memory_unchanged']/1e9) for r in rs]])+' |'
  check(f'{shift}: cost-independent expansion arithmetic',row in text)
-for num in range(1,7):check(f'table 3.{num}: caption and text reference', len(re.findall(rf'(?:Таблица|таблиц[а-я]+) 3\.{num}\b',text))>=2 or (num==4 and 'таблицах 3.3 и 3.4' in text))
+ME=json.loads((HERE/'chapter3_market_evidence.json').read_text())
+check('market comparisons complete',len(ME['rows'])==16 and len(ME['windows'])==32)
+for c in ME['checks']:
+ check(f"{c['reporter']}: market identities and support",c['finite_growth_cells']==3024 and c['positive_cells'] and c['equal_product_shares'] and c['equal_expansion'] and c['nonnegative_normalized_weights'] and c['saved_baseline_error_pp2']<1e-8 and c['variance_identity_error_pp2']<1e-8)
+def mfmt(x,n=3):
+ s=fmt(x,n)
+ return s if x<=0 or float(f'{x:.{n}f}')==0 else '+'+s
+for partner in [156,344,490,704,702,608,842,764]:
+ rs=[next(r for r in ME['rows'] if r['reporter']==c and r['partner']==partner) for c in (392,410)]
+ vals=[rs[0]['partner_name']]
+ for r in rs:vals.append(f"{mfmt(r['delta_vs_reference_pp'])} [{mfmt(r['family_ci_low_b12'])}; {mfmt(r['family_ci_high_b12'])}]")
+ vals += [fmt(r['required_destination_growth_pct'],1) for r in rs]
+ check(f'{partner}: market manuscript row',('| '+' | '.join(vals)+' |') in text)
+check('simultaneous intervals include zero at both block lengths',all(r[f'family_ci_low_b{b}']<0<r[f'family_ci_high_b{b}'] for r in ME['rows'] for b in (6,12)))
+us=next(r for r in ME['rows'] if r['reporter']==410 and r['partner']==842)
+check('US product-cell expansion is not confused with aggregate',fmt(us['max_required_cell_growth_pct'],1)+'%' in text and fmt(us['required_destination_growth_pct'],1)+'%' in text)
+for num in range(1,8):check(f'table 3.{num}: caption and text reference', len(re.findall(rf'(?:Таблица|таблиц[а-я]+) 3\.{num}\b',text))>=2 or (num==5 and 'таблицах 3.4 и 3.5' in text))
 for num in range(1,4):check(f'figure 3.{num}: text reference',f'рисунке 3.{num}' in text)
 check('four paragraphs',len(re.findall(r'^## 3\.[1-4] ',text,re.M))==4)
-check('six unique sources',len(json.loads((HERE/'chapter3_source_audit.json').read_text())['sources'])==6)
+check('seven unique sources',len(json.loads((HERE/'chapter3_source_audit.json').read_text())['sources'])==7)
 ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main','m':'http://schemas.openxmlformats.org/officeDocument/2006/math'}
 with ZipFile(HERE/'chapter3.docx') as z:
  root=etree.fromstring(z.read('word/document.xml'))
- check('native footnotes',len(root.findall('.//w:footnoteReference',ns))==7)
- check('three figures and six tables',len(root.findall('.//w:drawing',ns))==3 and len(root.findall('.//w:tbl',ns))==6)
+ check('native footnotes',len(root.findall('.//w:footnoteReference',ns))==9)
+ check('three figures and seven tables',len(root.findall('.//w:drawing',ns))==3 and len(root.findall('.//w:tbl',ns))==7)
  check('editable equations',len(root.findall('.//m:oMath',ns))>=3)
  check('no Word hyperlinks',not root.findall('.//w:hyperlink',ns))
  check('no external hyperlink relationship',all(b'relationships/hyperlink' not in z.read(n) for n in z.namelist() if n.endswith('.rels')))

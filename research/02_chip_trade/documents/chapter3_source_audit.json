@@ -9,7 +9,7 @@
       "basis": "Saved complete primary panel and checked main-model results; no new API request",
       "repository_file": "research/02_chip_trade/risk_extension/data/monthly_panel_full.csv.gz",
       "sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
-      "supports": "Primary findings in 3.1 and bounded author calculations in 3.4"
+      "supports": "Primary findings in 3.1; bounded author geographic comparisons in 3.3 and product scenarios in 3.4"
     },
     {
       "source_id": "mss_fabless_2025",
@@ -60,8 +60,19 @@
       "sha256": "612623f3c3699bfb504d130f22d0044372a6c5281497236b617e3cc201b37f9b",
       "license": "CC BY 4.0",
       "supports": "Distributed stages, participants and interpretation of direct trade links"
+    },
+    {
+      "source_id": "socionext_annual_2025",
+      "citation": "Socionext Inc. Annual Securities Report for the Fiscal Year Ended March 31, 2025. English translation. 2025. Part I, II.3, subsections (2)–(3).",
+      "source_url": "https://www.socionext.com/en/ir/pdf/sn_ir20250829_01e.pdf",
+      "landing_url": "https://www.socionext.com/en/ir/library/ir2025.html",
+      "basis": "Official full-document search index and title page inspected; relevant risk-factor subsections (2) and (3) retrieved in full as indexed text. Direct binary download returned HTTP 503; no full PDF saved.",
+      "fulltext_acquired": false,
+      "supports": "Development/customer evaluation may take two years or more; NRE may not cover all development costs; production quantities follow individual orders. The author draws implementation implications, not a causal effect.",
+      "public_archive": false
     }
   ],
-  "unique_sources": 6,
-  "source_limit_notes": "Concise paraphrases only, no verbatim passages. METI full-text access limitation is explicit. Original scenario estimates are separately reproducible."
+  "unique_sources": 7,
+  "source_limit_notes": "Concise paraphrases only. METI full PDF unavailable (403). Socionext relevant indexed subsections checked; binary unavailable (503). No unavailable full text is claimed as acquired. All author calculations separately reproducible.",
+  "revision": "2026-10-19: Policy descriptions rechecked, firm-level mechanism added, complete geographic comparison computed from frozen panel."
 }

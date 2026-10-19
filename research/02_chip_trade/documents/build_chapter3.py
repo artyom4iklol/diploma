@@ -169,8 +169,9 @@ def main():
         if b.startswith('|'):
             rows=[[v.strip() for v in line.strip('|').split('|')] for line in b.splitlines()];rows=[rows[0],*rows[2:]];n=len(rows[0]);assert all(len(row)==n for row in rows)
             widths={2:[5.0,11.2],3:[5.4,5.4,5.4],4:[3.6,4.4,4.0,4.2],5:[2.6,2.5,2.3,2.8,6.0]}[n]
-            if last_caption.startswith('Таблица 3.5'):widths=[2.2,3.3,3.3,3.7,3.7]
-            if last_caption.startswith('Таблица 3.6'):widths=[2.6,4.2,4.1,5.3]
+            if last_caption.startswith('Таблица 3.3'):widths=[2.6,4.3,4.3,2.5,2.5]
+            if last_caption.startswith('Таблица 3.6'):widths=[2.2,3.3,3.3,3.7,3.7]
+            if last_caption.startswith('Таблица 3.7'):widths=[3.1,4.0,4.1,5.0]
             table=doc.add_table(rows=0,cols=n);table.alignment=WD_TABLE_ALIGNMENT.CENTER;table.autofit=False
             for c,w in zip(table.columns,widths):c.width=Cm(w)
             props=table._tbl.tblPr; borders=element('w:tblBorders')
@@ -202,10 +203,10 @@ def main():
     path=HERE/'chapter3.docx';doc.save(path)
     with ZipFile(path) as z:
         root=etree.fromstring(z.read('word/document.xml'));assert not root.findall('.//'+qn('w:hyperlink'));assert len(root.findall('.//'+qn('w:drawing')))==3
-        assert len(root.findall('.//'+qn('w:footnoteReference')))==len(notes)==7
-        assert len(root.findall('.//'+qn('w:tbl')))==table_count==6
+        assert len(root.findall('.//'+qn('w:footnoteReference')))==len(notes)==9
+        assert len(root.findall('.//'+qn('w:tbl')))==table_count==7
         assert b'$$' not in z.read('word/document.xml') and b'\\tag' not in z.read('word/document.xml')
-    report={'file':path.name,'native_footnotes':len(notes),'numbered_editable_equations':math_count,'all_native_math_objects':len(root.findall('.//'+qn('m:oMath'))),'figures':image_count,'main_tables':6,'appendix_tables':0,'font':'Times New Roman','body_points':12,'body_line_spacing':1.5,'page_size':'A4','external_hyperlinks':0,'source_count':len(audit['sources']),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'visual_review_pending':True}
+    report={'file':path.name,'native_footnotes':len(notes),'numbered_editable_equations':math_count,'all_native_math_objects':len(root.findall('.//'+qn('m:oMath'))),'figures':image_count,'main_tables':7,'appendix_tables':0,'font':'Times New Roman','body_points':12,'body_line_spacing':1.5,'page_size':'A4','external_hyperlinks':0,'source_count':len(audit['sources']),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'visual_review_pending':True}
     (HERE/'chapter3_document_checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False))
 
 if __name__=='__main__':main()
