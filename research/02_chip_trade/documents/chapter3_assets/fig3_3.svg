@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="255.6pt" viewBox="0 0 468 255.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-19T08:44:20.123827</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 255.6
+L 468 255.6
+L 468 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 13.8528 77.7024
+L 211.068 77.7024
+L 211.068 37.62432
+L 13.8528 37.62432
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #f2f2f2; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 256.932 77.7024
+L 454.1472 77.7024
+L 454.1472 37.62432
+L 256.932 37.62432
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #ffffff; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 13.8528 132.80976
+L 211.068 132.80976
+L 211.068 92.73168
+L 13.8528 92.73168
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #f2f2f2; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 256.932 132.80976
+L 454.1472 132.80976
+L 454.1472 92.73168
+L 256.932 92.73168
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #ffffff; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 13.8528 187.91712
+L 211.068 187.91712
+L 211.068 147.83904
+L 13.8528 147.83904
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #f2f2f2; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 256.932 187.91712
+L 454.1472 187.91712
+L 454.1472 147.83904
+L 256.932 147.83904
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #ffffff; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 13.8528 243.02448
+L 211.068 243.02448
+L 211.068 202.9464
+L 13.8528 202.9464
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #f2f2f2; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 256.932 243.02448
+L 454.1472 243.02448
+L 454.1472 202.9464
+L 256.932 202.9464
+z
+" clip-path="url(#p15e4ff0e3b)" style="fill: #ffffff; stroke: #333333; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Serif'; text-anchor: start" x="13.8528" y="20.364036" transform="rotate(-0 13.8528 20.364036)">Этап и ведущий участник</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Serif'; text-anchor: start" x="256.932" y="19.658958" transform="rotate(-0 256.932 19.658958)">Условие следующего шага</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(77.313994 54.498454)">Отбор проекта</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(69.005869 65.944204)">Фирма и инвестор</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(304.965928 54.423923)">Спрос, компетенции,</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(298.857881 65.869673)">предварительная смета</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 213.069511 57.66336
+Q 234.000839 57.66336 254.037739 57.66336
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 250.437739 55.86336
+L 254.037739 57.66336
+L 250.437739 59.46336
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(60.473447 109.605814)">Разработка и образец</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(60.078994 121.051564)">Инженерная команда</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(299.926631 109.426939)">Соответствие заданию,</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(283.098741 121.081376)">квалификация, себестоимость</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 213.069511 112.77072
+Q 234.000839 112.77072 254.037739 112.77072
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 250.437739 110.97072
+L 254.037739 112.77072
+L 250.437739 114.57072
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(61.267275 164.638643)">Коммерческий пилот</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(68.926416 176.084392)">Фирма и заказчик</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(301.858116 164.638643)">Оплаченная поставка,</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(295.830225 176.084392)">повторный спрос, маржа</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 213.069511 167.87808
+Q 234.000839 167.87808 254.037739 167.87808
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 250.437739 166.07808
+L 254.037739 167.87808
+L 250.437739 169.67808
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(59.953134 219.682018)">Расширение поставок</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(65.083134 231.127768)">Руководство фирмы</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(304.641084 219.554049)">Проверка структуры,</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'" transform="translate(303.471788 231.127768)">покупателей и затрат</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 213.069511 222.98544
+Q 234.000839 222.98544 254.037739 222.98544
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 250.437739 221.18544
+L 254.037739 222.98544
+L 250.437739 224.78544
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 112.4604 79.702146
+Q 112.4604 85.216476 112.4604 89.836379
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 114.2604 86.236379
+L 112.4604 89.836379
+L 110.6604 86.236379
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 112.4604 134.809506
+Q 112.4604 140.323836 112.4604 144.943739
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 114.2604 141.343739
+L 112.4604 144.943739
+L 110.6604 141.343739
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 112.4604 189.916866
+Q 112.4604 195.431196 112.4604 200.051099
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 114.2604 196.451099
+L 112.4604 200.051099
+L 110.6604 196.451099
+" style="fill: none; stroke: #333333; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p15e4ff0e3b">
+   <rect x="4.68" y="2.556" width="458.64" height="250.488"/>
+  </clipPath>
+ </defs>
+</svg>

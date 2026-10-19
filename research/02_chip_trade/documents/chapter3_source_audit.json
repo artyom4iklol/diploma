@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-19",
+  "scope": "Chapter 3. External documents describe institutions and value-chain constraints; recommendations are author proposals. No post-2024 source is used to explain causally the 2017–2024 estimates.",
+  "sources": [
+    {
+      "source_id": "un_comtrade",
+      "citation": "United Nations Statistics Division. UN Comtrade Database. Monthly export data, Japan and Republic of Korea, 2017–2024. Выгрузка 16 октября 2026 года.",
+      "source_url": "https://comtradeplus.un.org/",
+      "basis": "Saved complete primary panel and checked main-model results; no new API request",
+      "repository_file": "research/02_chip_trade/risk_extension/data/monthly_panel_full.csv.gz",
+      "sha256": "92a2b4b8fb30a6782c886997c95aaad686395b8caf68a4e5521cd16696c258ab",
+      "supports": "Primary findings in 3.1 and bounded author calculations in 3.4"
+    },
+    {
+      "source_id": "mss_fabless_2025",
+      "citation": "Ministry of SMEs and Startups. Ministry of SMEs and Startups Announces Fabless Startup Comprehensive Support Project. Press release, 12 February 2025.",
+      "source_url": "https://www.mss.go.kr/site/eng/ex/bbs/View.do?bcIdx=1056551&cbIdx=244",
+      "fulltext_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1056551&cbIdx=244&streFileNm=c95b20a9-68f3-4700-8cb8-af561a9200ab.pdf",
+      "basis": "Full official 3-page PDF retrieved and inspected; pp. 2–3 stage-specific instruments",
+      "sha256": "c81849317f3238bb7f72057ddd3e18e909d138c323354bbdae73c8220ec238b9",
+      "supports": "Announced support instruments, not realized exports or programme effect",
+      "public_archive": false,
+      "archive_note": "Public redistribution permission not verified; personal cache is ignored by Git"
+    },
+    {
+      "source_id": "motie_ondevice_2025",
+      "citation": "Ministry of Trade, Industry and Energy. End-Users, Fabless Firms, and Foundries Join Forces to Build Korea’s On-Device AI Semiconductor Ecosystem. Press release, 30 September 2025.",
+      "source_url": "https://english.motir.go.kr/eng/article/EATCLdfa319ada/2354/view",
+      "basis": "Complete official press-release HTML read; section Background and Implementation Plan for the Project",
+      "sha256": "b7157bb3d0ef80cf4c80d7ffb43e5d073c306eca6df6ab4034b5a8ab18ac752b",
+      "supports": "Consortium design and launch planned for 2026 as stated in September 2025; no claim that plans have been realized",
+      "public_archive": false
+    },
+    {
+      "source_id": "meti_strategy_2024",
+      "citation": "Ministry of Economy, Trade and Industry. Outline of Semiconductor Revitalization Strategy in Japan. July 2024. Section “Overview of the Future Semiconductor Strategy I”.",
+      "source_url": "https://www.meti.go.jp/english/policy/0704_001.pdf",
+      "landing_url": "https://www.meti.go.jp/english/policy/index_information_policy.html",
+      "basis": "Official indexed section table and official reference-page title/date checked. Direct PDF download returned HTTP 403; full PDF not acquired.",
+      "supports": "Separate strategy strands for advanced logic, memory, industrial specialty semiconductors and packaging; only the indexed table is used",
+      "fulltext_acquired": false
+    },
+    {
+      "source_id": "oecd_capacity_2025",
+      "citation": "OECD. The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity. OECD Science, Technology and Industry Policy Papers. 2025. No. 188. DOI: 10.1787/02dbd028-en.",
+      "source_url": "https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html",
+      "fulltext_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/the-chip-landscape_27ef5d87/02dbd028-en.pdf",
+      "basis": "Full official PDF; executive summary, printed p. 7, and introduction checked",
+      "repository_file": "research/02_chip_trade/literature/chapter3_sources/oecd_chip_landscape_2025.pdf",
+      "sha256": "411bfad1d2864fc02448320aadfbb9da51c6b3a9a03a64bef69e4f00b5f4ab19",
+      "license": "CC BY 4.0, printed p. 2, subject to third-party exclusions",
+      "supports": "Limited substitution of manufacturing capacity across chip/process types"
+    },
+    {
+      "source_id": "oecd_mapping_2025",
+      "citation": "OECD. Mapping the Semiconductor Value Chain: Working towards Identifying Dependencies and Vulnerabilities. OECD Science, Technology and Industry Policy Papers. 2025. No. 182. DOI: 10.1787/4154cdbf-en.",
+      "source_url": "https://www.oecd.org/en/publications/mapping-the-semiconductor-value-chain_4154cdbf-en.html",
+      "basis": "Existing full official PDF; sections 2–3, especially printed pp. 9–15 and 19–21",
+      "repository_file": "research/02_chip_trade/literature/fulltext/oecd_mapping_2025.pdf",
+      "sha256": "612623f3c3699bfb504d130f22d0044372a6c5281497236b617e3cc201b37f9b",
+      "license": "CC BY 4.0",
+      "supports": "Distributed stages, participants and interpretation of direct trade links"
+    }
+  ],
+  "unique_sources": 6,
+  "source_limit_notes": "Concise paraphrases only, no verbatim passages. METI full-text access limitation is explicit. Original scenario estimates are separately reproducible."
+}

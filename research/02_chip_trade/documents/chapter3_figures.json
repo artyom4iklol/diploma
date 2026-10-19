@@ -1,0 +1,20 @@
+[
+  {
+    "number": "3.1",
+    "path": "chapter3_assets/fig3_1.png",
+    "kind": "author-proposed decision framework; no quantitative estimates",
+    "sha256": "59172e4cdf70a33e0d78b89f3951609d3158d30a69708b9a1022d980dfd59830"
+  },
+  {
+    "number": "3.2",
+    "path": "chapter3_assets/fig3_2.png",
+    "kind": "computed paired historical scenarios; 95% pointwise intervals",
+    "sha256": "db056f094a9509e85f05412244c0e4bcc75976bdada5cb6d0714c927ec66c231"
+  },
+  {
+    "number": "3.3",
+    "path": "chapter3_assets/fig3_3.png",
+    "kind": "author-proposed implementation stages and review gates",
+    "sha256": "0047ab310c46e62a362c4b5b9f6db8ea8042b381fc6ad54a8d7cbe17ed43ef7b"
+  }
+]
