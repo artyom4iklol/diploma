@@ -62,7 +62,7 @@ def main():
         row["number"] = i
         row["formatted"] = citation
         bibliography += [f"{i}. {citation}", ""]
-    assert len(ordered) == 36
+    assert len(ordered) == 38
     (HERE / "thesis_bibliography.md").write_text("\n".join(bibliography).rstrip() + "\n")
     (HERE / "thesis_bibliography.json").write_text(json.dumps({"source_count": len(ordered), "sources": ordered}, ensure_ascii=False, indent=2) + "\n")
 

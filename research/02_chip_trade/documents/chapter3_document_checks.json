@@ -1,6 +1,6 @@
 {
   "file": "chapter3.docx",
-  "native_footnotes": 9,
+  "native_footnotes": 11,
   "numbered_editable_equations": 3,
   "all_native_math_objects": 15,
   "figures": 3,
@@ -11,10 +11,11 @@
   "body_line_spacing": 1.5,
   "page_size": "A4",
   "external_hyperlinks": 0,
-  "source_count": 7,
-  "sha256": "3e62977415a6d27ac351d0842b79ac0c885bf3997810044f01ff8ac607130507",
+  "source_count": 9,
+  "sha256": "87b5ad576ec5f3b7239acd62e54ef190a5868970ebba363e668c8491e0cb7263",
   "visual_review_pending": false,
-  "rendered_pages": 21,
-  "visual_review": "All 21 pages inspected. After final table-width correction, page 19 re-inspected; the other 20 pages are pixel-identical to the reviewed render. No clipping, overlap, broken table rows or detached captions.",
-  "reviewed_on": "2026-10-19"
+  "visual_review_date": "2026-10-20",
+  "visual_review_scope": "Chapter 3 in assembled thesis, pages 54–73; scenario appendices pages 87–88",
+  "assembled_document_sha256": "470b33adfedce0f5d8119dad2f8939ee7216c00e0a86465a7ca287bc710359e0",
+  "visual_review_note": "Visual approval applies to the assembled thesis; standalone component pagination was not separately reviewed in this revision."
 }

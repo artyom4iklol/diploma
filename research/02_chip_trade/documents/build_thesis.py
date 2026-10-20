@@ -261,8 +261,8 @@ def main():
         root = etree.fromstring(archive.read("word/document.xml"))
         foot = etree.fromstring(archive.read("word/footnotes.xml"))
         refs = [int(x.get(qn("w:id"))) for x in root.findall(".//" + qn("w:footnoteReference"))]
-        assert refs == list(range(1, 64)) and note_count == 63
-        assert len(foot.findall(qn("w:footnote"))) == 65
+        assert refs == list(range(1, 66)) and note_count == 65
+        assert len(foot.findall(qn("w:footnote"))) == 67
         assert len(root.findall(".//" + qn("m:oMath"))) == 54
         assert len(root.findall(".//" + qn("w:drawing"))) == 11
         assert len(root.findall(".//" + qn("w:tbl"))) == 23
@@ -277,9 +277,9 @@ def main():
 
     report = {
         "file": OUTPUT.name, "sha256": hashlib.sha256(OUTPUT.read_bytes()).hexdigest(),
-        "chapters": 3, "source_count": 36, "appendices": 8,
+        "chapters": 3, "source_count": 38, "appendices": 8,
         "tables": 23, "main_tables": 12, "appendix_tables": 11,
-        "figures": 11, "native_math_objects": 54, "native_footnotes": 63,
+        "figures": 11, "native_math_objects": 54, "native_footnotes": 65,
         "footnote_ids_contiguous": True, "external_hyperlinks": 0,
         "imported_body_elements": imported_counts,
         "preserved_body_text_checks": len(content_checks),

@@ -113,8 +113,8 @@ def main():
         assert not root.findall(".//w:hyperlink", NS)
         for token in (b"$$", b"\\tag", b"\\widehat", b"\\mathbf"):
             assert token not in xml
-    report = {"date": "2026-10-18", "revision": 2,
-        "scope": "Second substantive review; frozen primary model; descriptive memory-group diagnostic added",
+    report = {"date": "2026-10-20", "revision": 3,
+        "scope": "Editorial refinement in the complete thesis; frozen primary model, tables and figures rechecked",
         "main_words_whitespace_count": len(main_text.split()),
         "main_sections": 4, "main_tables": 5, "appendix_tables": 7, "figures": 8,
         "numbered_editable_equations": 6, "native_footnotes": 11, "sources": 13,

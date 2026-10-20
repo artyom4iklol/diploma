@@ -1,5 +1,5 @@
 {
-  "source_count": 36,
+  "source_count": 38,
   "sources": [
     {
       "source_id": "bok_demand_2023",
@@ -173,7 +173,7 @@
         1
       ],
       "evidence_basis": [
-        "published_abstract_only"
+        "author_uploaded_full_html"
       ],
       "doi": "10.20294/jgbt.2021.17.2.67",
       "number": 13,
@@ -355,14 +355,34 @@
       "formatted": "Shorrocks A. F. (2013). Decomposition procedures for distributional analysis: a unified framework based on the Shapley value. Journal of Economic Inequality 11(1), 99–126. DOI: 10.1007/s10888-011-9214-z. Использованная версия: Shorrocks A. F. (1999). Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June."
     },
     {
+      "source_id": "socionext_automotive_2025",
+      "citation": "Socionext Europe. Automotive Solution SoC. Flyer. August 2025. P. 1–2.",
+      "chapters": [
+        3
+      ],
+      "evidence_basis": [],
+      "number": 28,
+      "formatted": "Socionext Europe. Automotive Solution SoC. Flyer. August 2025. P. 1–2."
+    },
+    {
       "source_id": "socionext_annual_2025",
       "citation": "Socionext Inc. Annual Securities Report for the Fiscal Year Ended March 31, 2025. English translation. 2025. Part I, II.3, subsections (2)–(3).",
       "chapters": [
         3
       ],
       "evidence_basis": [],
-      "number": 28,
+      "number": 29,
       "formatted": "Socionext Inc. Annual Securities Report for the Fiscal Year Ended March 31, 2025. English translation. 2025. Part I, II.3, subsections (2)–(3)."
+    },
+    {
+      "source_id": "socionext_aimotive_2025",
+      "citation": "Socionext. Socionext Signs License Agreement with aiMotive for aiWare NPU IP to Power Next-Gen ADAS SoC. Press release PR2025222. 30 July 2025. P. 1–2.",
+      "chapters": [
+        3
+      ],
+      "evidence_basis": [],
+      "number": 30,
+      "formatted": "Socionext. Socionext Signs License Agreement with aiMotive for aiWare NPU IP to Power Next-Gen ADAS SoC. Press release PR2025222. 30 July 2025. P. 1–2."
     },
     {
       "source_id": "un_imts_2010",
@@ -373,7 +393,7 @@
       "evidence_basis": [
         "Full PDF available; cited pages checked"
       ],
-      "number": 29,
+      "number": 31,
       "formatted": "United Nations (2011). International Merchandise Trade Statistics: Concepts and Definitions 2010. Statistical Papers, Series M No. 52, Rev. 3. New York."
     },
     {
@@ -385,7 +405,7 @@
       "evidence_basis": [
         "Full PDF available; cited pages checked"
       ],
-      "number": 30,
+      "number": 32,
       "formatted": "United Nations Statistics Division (2019). Methodology Guide for UN Comtrade User on UN Comtrade Upgrade 2019."
     },
     {
@@ -397,7 +417,7 @@
       "evidence_basis": [
         "Full official page retrieved and preserved as lossless gzip; metadata text checked"
       ],
-      "number": 31,
+      "number": 33,
       "formatted": "United Nations Statistics Division. Taiwan, Province of China Trade Data. UN Comtrade Help Center. Разъяснение кода 490; дата обращения 18 октября 2026 года."
     },
     {
@@ -410,7 +430,7 @@
       "evidence_basis": [
         "Saved raw responses, monthly panel and checked manifest"
       ],
-      "number": 32,
+      "number": 34,
       "formatted": "United Nations Statistics Division. UN Comtrade Database. Месячный экспорт Японии и Республики Корея за 2017–2024 годы. Выгрузка 16 октября 2026 года."
     },
     {
@@ -424,7 +444,7 @@
       ],
       "consulted_citation": "Vannoorenberghe G.; Wang Z.; Yu Z. (2014). Volatility and Diversification of Exports: Firm-Level Theory and Evidence. CESifo Working Paper 4916, July.",
       "doi": "10.1016/j.euroecorev.2016.07.002",
-      "number": 33,
+      "number": 35,
       "formatted": "Vannoorenberghe G.; Wang Z.; Yu Z. (2016). Volatility and diversification of exports: Firm-level theory and evidence. European Economic Review 89, 216–247. DOI: 10.1016/j.euroecorev.2016.07.002. Использованная версия: Vannoorenberghe G.; Wang Z.; Yu Z. (2014). Volatility and Diversification of Exports: Firm-Level Theory and Evidence. CESifo Working Paper 4916, July."
     },
     {
@@ -439,7 +459,7 @@
         "Full PDF available; cited pages checked"
       ],
       "consulted_citation": "World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
-      "number": 34,
+      "number": 36,
       "formatted": "World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42."
     },
     {
@@ -454,7 +474,7 @@
         "Full PDF available; cited pages checked"
       ],
       "consulted_citation": "World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
-      "number": 35,
+      "number": 37,
       "formatted": "World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42."
     },
     {
@@ -467,7 +487,7 @@
         "full_pdf"
       ],
       "doi": "10.4236/ojbm.2026.141004",
-      "number": 36,
+      "number": 38,
       "formatted": "Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning: Strategic Implications for International Business and Supply Chain Management. Open Journal of Business and Management 14(1), 51–67. DOI: 10.4236/ojbm.2026.141004."
     }
   ]

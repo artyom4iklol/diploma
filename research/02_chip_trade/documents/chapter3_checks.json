@@ -43,7 +43,7 @@
     "figure 3.2: text reference",
     "figure 3.3: text reference",
     "four paragraphs",
-    "seven unique sources",
+    "nine unique sources",
     "native footnotes",
     "three figures and seven tables",
     "editable equations",
@@ -54,6 +54,11 @@
     "figure 2 monochrome",
     "figure 3 monochrome"
   ],
-  "docx_sha256": "3e62977415a6d27ac351d0842b79ac0c885bf3997810044f01ff8ac607130507",
-  "note": "Content checks and numerical consistency; visual QA is recorded separately after inspecting rendered pages."
+  "docx_sha256": "87b5ad576ec5f3b7239acd62e54ef190a5868970ebba363e668c8491e0cb7263",
+  "note": "Content checks and numerical consistency; visual QA is recorded separately after inspecting rendered pages.",
+  "visual_review_pending": false,
+  "visual_review_date": "2026-10-20",
+  "visual_review_scope": "Chapter 3 in assembled thesis, pages 54–73; scenario appendices pages 87–88",
+  "assembled_document_sha256": "470b33adfedce0f5d8119dad2f8939ee7216c00e0a86465a7ca287bc710359e0",
+  "visual_review_note": "Visual approval applies to the assembled thesis; standalone component pagination was not separately reviewed in this revision."
 }

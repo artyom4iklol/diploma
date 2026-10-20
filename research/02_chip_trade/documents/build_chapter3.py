@@ -203,7 +203,7 @@ def main():
     path=HERE/'chapter3.docx';doc.save(path)
     with ZipFile(path) as z:
         root=etree.fromstring(z.read('word/document.xml'));assert not root.findall('.//'+qn('w:hyperlink'));assert len(root.findall('.//'+qn('w:drawing')))==3
-        assert len(root.findall('.//'+qn('w:footnoteReference')))==len(notes)==9
+        assert len(root.findall('.//'+qn('w:footnoteReference')))==len(notes)==11
         assert len(root.findall('.//'+qn('w:tbl')))==table_count==7
         assert b'$$' not in z.read('word/document.xml') and b'\\tag' not in z.read('word/document.xml')
     report={'file':path.name,'native_footnotes':len(notes),'numbered_editable_equations':math_count,'all_native_math_objects':len(root.findall('.//'+qn('m:oMath'))),'figures':image_count,'main_tables':7,'appendix_tables':0,'font':'Times New Roman','body_points':12,'body_line_spacing':1.5,'page_size':'A4','external_hyperlinks':0,'source_count':len(audit['sources']),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'visual_review_pending':True}

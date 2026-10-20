@@ -1,13 +1,14 @@
 {
-  "date": "2026-10-17",
-  "scope": "Theory chapter expanded and aligned with theory-analysis-recommendations structure; numerical model, data and protocol remain unchanged",
+  "date": "2026-10-20",
+  "scope": "Final editorial refinement; redundant passages shortened, empirical contribution clarified, Kitetu full author HTML verified; primary data and model unchanged",
   "base_commit": "be3cd459423a72ec455889093792fdd5212b4ee1",
   "chapter_source_count": 26,
   "citation_instances": 38,
   "evidence_counts": {
-    "full_pdf": 20,
     "publisher_full_html": 2,
-    "published_abstract_only": 4
+    "full_pdf": 20,
+    "published_abstract_only": 3,
+    "author_uploaded_full_html": 1
   },
   "sources": [
     {
@@ -182,13 +183,14 @@
       "source_id": "kitetu_mbante_ko_2021",
       "citation": "Kitetu G. M.; Mbante II A. R.; Ko J.-H. (2021). Revealed Trade Competitiveness between Korea and Japan. Is It Viable to Deepen Economic Integration? Journal of Global Business and Trade 17(2), 67–84.",
       "consulted_version": "author-uploaded published text",
-      "evidence_basis": "published_abstract_only",
+      "evidence_basis": "author_uploaded_full_html",
       "chapter_locators": [
-        "Аннотация опубликованной статьи, с. 67; полный файл не получен"
+        "Раздел IV, с. 72–74; таблица 1, с. 75"
       ],
-      "verification": "Publisher indexed abstract p. 67 only: countries, HS6 comparison, RCA/NRCA/BRCA/RTA and complementarity. Removed unsupported reference to section IV of an author copy.",
+      "verification": "Author-uploaded full-text HTML at ResearchGate consulted on 20 October 2026: section IV methodology and HS6 table 1 verified. PDF download unavailable; no downloaded PDF claimed.",
       "source_url": "https://www.researchgate.net/publication/357017630_Revealed_Trade_Competitiveness_between_Korea_and_Japan_Is_It_Viable_to_Deepen_Economic_Integration",
-      "original_verification_date": "2026-10-16"
+      "original_verification_date": "2026-10-16",
+      "revision_verification": "Checked RCA, NRCA, BRCA, RTA and trade complementarity definitions; HS6 table includes four IC categories and parts. Use restricted to design comparison, not causal conclusions."
     },
     {
       "source_id": "koh_2026",
@@ -379,596 +381,575 @@
     {
       "paragraph": 1,
       "section": "opening",
-      "opening": "Диверсификация экспорта обычно связывается с уменьшением зависимости от отдельных товаров и поку",
+      "opening": "Диверсификация экспорта обычно связывается с уменьшением зависимости от отдельных товаров и покупате",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 2,
       "section": "1.1",
-      "opening": "Интегральные схемы используются как промежуточные товары при производстве электронной техники и ",
+      "opening": "Интегральные схемы используются как промежуточные товары при производстве электронной техники и друг",
       "source_ids": [
         "oecd_mapping_2025"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 3,
       "section": "1.1",
-      "opening": "Промежуточное назначение чипов определяет характер спроса на них. Заказ производителю компоненто",
+      "opening": "Промежуточное назначение чипов определяет характер спроса на них. Заказ производителю компонентов во",
       "source_ids": [
         "jo_jung_kdi_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 4,
       "section": "1.1",
-      "opening": "Существование различных организационных моделей усиливает значение такого разделения. Компании м",
+      "opening": "Существование различных организационных моделей усиливает значение такого разделения. Компании могут",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 5,
       "section": "1.1",
-      "opening": "Специализация на отдельной стадии опирается на накопленные знания и совместимость используемых т",
+      "opening": "Специализация на отдельной стадии опирается на накопленные знания и совместимость используемых техно",
       "source_ids": [
         "oecd_mapping_2025"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 6,
       "section": "1.1",
-      "opening": "Для странового анализа также важно различать территорию производства и принадлежность компании. ",
+      "opening": "Территория вывоза и принадлежность компании задают разные границы анализа. Продажи зарубежной фабрик",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 7,
       "section": "1.1",
-      "opening": "Отраслевая специализация создает возможности для экономии на масштабе, но одновременно формирует",
+      "opening": "Отраслевая специализация создает возможности для экономии на масштабе, но одновременно формирует вза",
       "source_ids": [
         "haramboure_et_al_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 8,
       "section": "1.1",
-      "opening": "Высокие постоянные затраты усиливают значение масштаба производства. Расходы на создание мощност",
+      "opening": "Высокие постоянные затраты усиливают значение масштаба производства. Расходы на создание мощностей и",
       "source_ids": [
         "haramboure_et_al_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 9,
       "section": "1.1",
-      "opening": "Для анализа торговой статистики необходимо установить товарные границы исследования. В Гармонизи",
+      "opening": "Для анализа торговой статистики необходимо установить товарные границы исследования. В Гармонизирова",
       "source_ids": [
         "wco_hs2017_ch85",
         "wco_hs2022_ch85"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 10,
       "section": "1.1",
-      "opening": "Позиция 8542 охватывает лишь часть полупроводниковой отрасли. Она не охватывает всю совокупность",
+      "opening": "Позиция 8542 охватывает лишь часть полупроводниковой отрасли. Она не охватывает всю совокупность мат",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 11,
       "section": "1.1",
-      "opening": "Сопоставимость классификации необходима и для правильного определения самой диверсификации. Изме",
+      "opening": "Товарная диверсификация на уровне HS характеризует распределение стоимости между статистическими гру",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 12,
       "section": "1.1",
-      "opening": "Внутри рассматриваемой группы существенное значение имеет различие между памятью и остальными сх",
+      "opening": "Внутри рассматриваемой группы существенное значение имеет различие между памятью и остальными схемам",
       "source_ids": [
         "jo_jung_kdi_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 13,
       "section": "1.1",
-      "opening": "Рыночная конъюнктура и инвестиционные решения могут меняться с разной скоростью. Jo и Jung отмеч",
+      "opening": "Рыночная конъюнктура и инвестиционные решения могут меняться с разной скоростью. Jo и Jung отмечают,",
       "source_ids": [
         "jo_jung_kdi_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 14,
       "section": "1.1",
-      "opening": "Товарная неоднородность затрудняет использование единой характеристики спроса на чипы. Память, п",
+      "opening": "Товарная неоднородность затрудняет использование единой характеристики спроса на чипы. Память, проце",
       "source_ids": [
         "hillrichs_woelfl_2026"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 15,
       "section": "1.1",
-      "opening": "Неодинаковое применение компонентов создает возможность несовпадения циклов спроса. Изменение по",
+      "opening": "Различия применения компонентов создают возможность несовпадения циклов спроса. Однако несколько изд",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 16,
       "section": "1.1",
-      "opening": "Особенности отраслевого цикла проявляются и в различии между стоимостью и физическим объемом пос",
+      "opening": "Особенности отраслевого цикла проявляются и в различии между стоимостью и физическим объемом поставо",
       "source_ids": [
         "jo_jung_kdi_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 17,
       "section": "1.1",
-      "opening": "Дополнительным звеном выступает изменение запасов. Производитель конечного оборудования может вр",
+      "opening": "Дополнительным звеном выступает изменение запасов. Производитель конечного оборудования может времен",
       "source_ids": [
         "jo_jung_kdi_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 18,
       "section": "1.1",
-      "opening": "Стоимостная структура чувствительна к относительным ценам. Если стоимость одной категории падает",
+      "opening": "Изменение долей следует сопоставлять с абсолютной стоимостью поставок. Например, удешевление памяти ",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 19,
       "section": "1.1",
-      "opening": "Географическая структура отрасли также имеет особенности. Банк Кореи разграничивает непосредстве",
+      "opening": "Географическая структура отрасли также имеет особенности. Банк Кореи разграничивает непосредственное",
       "source_ids": [
         "bok_demand_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 20,
       "section": "1.1",
-      "opening": "Производственная география и география конечного потребления образуют два разных уровня зависимо",
+      "opening": "Производственная география и география конечного потребления образуют два разных уровня зависимости.",
       "source_ids": [
         "bok_demand_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 21,
       "section": "1.1",
-      "opening": "Выбор Японии и Республики Корея позволяет сопоставить экспортеров одной группы промежуточных тов",
+      "opening": "Выбор Японии и Республики Корея позволяет сопоставить экспортеров одной группы промежуточных товаров",
       "source_ids": [
         "bok_demand_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 22,
       "section": "1.1",
-      "opening": "Торговые и технологические ограничения дополняют экономические источники неопределенности. Koh р",
+      "opening": "Торговые и технологические ограничения дополняют экономические источники неопределенности. Koh рассм",
       "source_ids": [
         "koh_2026"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 23,
       "section": "1.1",
-      "opening": "Передача внешних ограничений также зависит от организации производства. Изменение условий доступ",
+      "opening": "Передача внешних ограничений также зависит от организации производства. Изменение условий доступа к ",
       "source_ids": [
         "koh_2026"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 24,
       "section": "1.1",
-      "opening": "Наконец, следует учитывать различие между бесперебойностью снабжения и стабильностью экспортной ",
+      "opening": "Наконец, следует учитывать различие между бесперебойностью снабжения и стабильностью экспортной выру",
       "source_ids": [
         "li_et_al_2025"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 25,
       "section": "1.1",
-      "opening": "Таким образом, международная торговля интегральными схемами характеризуется неоднородностью прод",
+      "opening": "Неоднородность продукции и международное разделение производства определяют требования к анализу: со",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 26,
       "section": "1.2",
-      "opening": "Экспортная диверсификация означает расширение набора товаров и рынков либо более равномерное рас",
+      "opening": "Экспортная диверсификация означает расширение набора товаров и рынков либо более равномерное распред",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 27,
       "section": "1.2",
-      "opening": "Cadot, Carrère и Strauss-Kahn различают расширение набора экспортируемых товаров и перераспредел",
+      "opening": "Cadot, Carrère и Strauss-Kahn различают расширение набора экспортируемых товаров и перераспределение",
       "source_ids": [
         "cadot_carrere_strausskahn_2013"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 28,
       "section": "1.2",
-      "opening": "Расширение набора товаров и изменение долей уже существующих категорий могут происходить одновре",
+      "opening": "Освоение нового изделия или рынка требует иных затрат, чем расширение уже действующих поставок. Поэт",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 29,
       "section": "1.2",
-      "opening": "Одним из распространенных показателей концентрации является индекс Херфиндаля — Хиршмана (HHI). ",
+      "opening": "Одним из распространенных показателей концентрации является индекс Херфиндаля — Хиршмана (HHI). Если",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 30,
       "section": "1.2",
-      "opening": "При N возможных направлениях и долях, выраженных от нуля до единицы, HHI находится в пределах от",
+      "opening": "При N возможных направлениях и долях, выраженных от нуля до единицы, HHI находится в пределах от 1/N",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 31,
       "section": "1.2",
-      "opening": "Для содержательного сопоставления полезно различать количество направлений и их экономический ве",
+      "opening": "Для содержательного сопоставления полезно различать количество направлений и их экономический вес. Е",
       "source_ids": [],
-      "evidence_kind": "Mathematical interpretation of HHI; 1/0.25 = 4, not an empirical estimate"
+      "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 32,
       "section": "1.2",
-      "opening": "Сравнение концентрации требует сохранения единицы анализа. Индекс по странам назначения характер",
+      "opening": "Сравнение концентрации требует сохранения единицы анализа. Индекс по странам назначения характеризуе",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 33,
       "section": "1.2",
-      "opening": "Индекс описывает распределение весов, но не содержит сведений о колебаниях отдельных потоков. Дв",
+      "opening": "Индекс описывает распределение весов, но не содержит сведений о колебаниях отдельных потоков. Две эк",
       "source_ids": [
         "markowitz_1952"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 34,
       "section": "1.2",
-      "opening": "Под волатильностью далее понимается стандартное отклонение темпов изменения экспортной стоимости",
+      "opening": "Под волатильностью далее понимается стандартное отклонение темпов изменения экспортной стоимости за ",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 35,
       "section": "1.2",
-      "opening": "Выбор темпов изменения позволяет отделить относительную изменчивость от размера экспортера. При ",
+      "opening": "Выбор темпов изменения позволяет отделить относительную изменчивость от размера экспортера. При сопо",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 36,
       "section": "1.2",
-      "opening": "Пусть gᵢ — темп изменения стоимости поставок в ячейке i, объединяющей товар и направление, а wᵢ ",
+      "opening": "Пусть gᵢ — темп изменения стоимости поставок в ячейке i, объединяющей товар и направление, а wᵢ — ее",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 37,
       "section": "1.2",
-      "opening": "Первое слагаемое отражает собственные дисперсии потоков с учетом их весов. Второе характеризует ",
+      "opening": "Первое слагаемое отражает собственные дисперсии потоков с учетом их весов. Второе характеризует совм",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 38,
       "section": "1.2",
-      "opening": "Действие ковариации можно показать на условном примере двух потоков с одинаковыми весами и станд",
+      "opening": "Действие ковариации можно показать на условном примере двух потоков с одинаковыми весами и стандартн",
       "source_ids": [],
-      "evidence_kind": "Explicitly hypothetical explanatory example, not empirical result"
+      "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 39,
       "section": "1.2",
-      "opening": "Связь концентрации с дисперсией особенно наглядна при одинаковой дисперсии всех потоков и нулевы",
+      "opening": "Связь концентрации с дисперсией особенно наглядна при одинаковой дисперсии всех потоков и нулевых ко",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 40,
       "section": "1.2",
-      "opening": "При перераспределении весов необходимо учитывать обе стороны изменения: доля одного потока умень",
+      "opening": "При перераспределении весов необходимо учитывать обе стороны изменения: доля одного потока уменьшает",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 41,
       "section": "1.2",
-      "opening": "Значение состава специализации раскрывается в работе Koren и Tenreyro. Авторы разделяют вклад от",
+      "opening": "Значение состава специализации раскрывается в работе Koren и Tenreyro. Авторы разделяют вклад отрасл",
       "source_ids": [
         "koren_tenreyro_2007"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 42,
       "section": "1.2",
-      "opening": "Следует также различать концентрацию внутри одной отрасли и специализацию экономики в целом. Пер",
+      "opening": "Следует также различать концентрацию внутри одной отрасли и специализацию экономики в целом. Перерас",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 43,
       "section": "1.2",
-      "opening": "Caselli и соавторы рассматривают совместное действие отраслевой специализации и международной ди",
+      "opening": "Caselli и соавторы рассматривают совместное действие отраслевой специализации и международной диверс",
       "source_ids": [
         "caselli_et_al_2020"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 44,
       "section": "1.2",
-      "opening": "На уровне фирм значение географического разнообразия зависит и от постоянства торговых связей. V",
+      "opening": "На уровне фирм значение географического разнообразия зависит и от постоянства торговых связей. Vanno",
       "source_ids": [
         "vannoorenberghe_wang_yu_2016"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 45,
       "section": "1.2",
-      "opening": "Постоянство торговых связей особенно важно для интерпретации небольших направлений. Появление по",
+      "opening": "Постоянство торговых связей особенно важно для интерпретации небольших направлений. Появление постав",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 46,
       "section": "1.2",
-      "opening": "Для полупроводников дополнительную роль играют общие источники спроса. Если несколько стран учас",
+      "opening": "Для полупроводников дополнительную роль играют общие источники спроса. Если несколько стран участвую",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 47,
       "section": "1.2",
-      "opening": "Стабильность представляет только одну из характеристик экспортной структуры. Сокращение дисперси",
+      "opening": "Стабильность представляет только одну из характеристик экспортной структуры. Сокращение дисперсии не",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 48,
       "section": "1.2",
-      "opening": "Издержки изменения структуры ограничивают непосредственное применение финансовой аналогии. Долю ",
+      "opening": "Издержки изменения структуры ограничивают непосредственное применение финансовой аналогии. Долю фина",
       "source_ids": [
         "esposito_2022"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 49,
       "section": "1.2",
-      "opening": "Для разделения товарного и географического измерений обозначим через aₖ долю категории k в экспо",
+      "opening": "Для разделения товарного и географического измерений обозначим через aₖ долю категории k в экспорте,",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 50,
       "section": "1.2",
-      "opening": "Сумма географических долей равна единице отдельно внутри каждой категории. Такое представление п",
+      "opening": "Сумма географических долей равна единице отдельно внутри каждой категории. Такое представление позво",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 51,
       "section": "1.2",
-      "opening": "Различие между совокупной географией и распределением внутри товара можно пояснить условным прим",
+      "opening": "Различие между совокупной географией и распределением внутри товара можно пояснить условным примером",
       "source_ids": [],
-      "evidence_kind": "Explicitly hypothetical explanatory example, not empirical result"
+      "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 52,
       "section": "1.2",
-      "opening": "Теоретический анализ связывает диверсификацию с волатильностью через изменение весов потоков, ра",
+      "opening": "Теоретический анализ связывает диверсификацию с волатильностью через изменение весов потоков, различ",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 53,
       "section": "1.3",
-      "opening": "Эмпирические работы уточняют условия, при которых диверсификация сопровождается более устойчивой",
+      "opening": "Эмпирические работы уточняют условия, при которых диверсификация сопровождается более устойчивой дин",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 54,
       "section": "1.3",
-      "opening": "Важную роль играет и уровень наблюдения. Данные фирмы позволяют связать экспорт с ее размером, п",
+      "opening": "Важную роль играет и уровень наблюдения. Данные фирмы позволяют связать экспорт с ее размером, произ",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 55,
       "section": "1.3",
-      "opening": "На отраслевом уровне Lee и Yu изучают годовые данные по 24 отраслям обрабатывающей промышленност",
+      "opening": "На отраслевом уровне Lee и Yu изучают годовые данные по 24 отраслям обрабатывающей промышленности Ко",
       "source_ids": [
         "lee_yu_2019"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 56,
       "section": "1.3",
-      "opening": "Результат Lee и Yu относится к реакции экспортных отраслей на конкретный кризис. Показатель, свя",
+      "opening": "Меньшее падение в отдельном кризисе и меньший разброс темпов за несколько фаз цикла являются разными",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 57,
       "section": "1.3",
-      "opening": "Исследования фирм позволяют подробнее рассмотреть механизм передачи внешнего спроса. Hong и соав",
+      "opening": "Исследования фирм позволяют подробнее рассмотреть механизм передачи внешнего спроса. Hong и соавторы",
       "source_ids": [
         "hong_jin_liu_tong_2026"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 58,
       "section": "1.3",
-      "opening": "В модели Esposito географическое распределение продаж является результатом выбора фирм в условия",
+      "opening": "В модели Esposito географическое распределение продаж является результатом выбора фирм в условиях ри",
       "source_ids": [
         "esposito_2022"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 59,
       "section": "1.3",
-      "opening": "Эндогенность экспортной структуры создает отдельную задачу интерпретации. Более устойчивые предп",
+      "opening": "Экспортная структура эндогенна: устойчивые предприятия могут легче осваивать новые рынки, а ожидание",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 60,
       "section": "1.3",
-      "opening": "Barigozzi и соавторы исследуют совместные колебания французских экспортных транзакций за 1993–20",
+      "opening": "Barigozzi и соавторы исследуют совместные колебания французских экспортных транзакций за 1993–2017 г",
       "source_ids": [
         "barigozzi_et_al_2025"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 61,
       "section": "1.3",
-      "opening": "Факторное разложение и структурное перевзвешивание различаются прежде всего тем, что считается и",
+      "opening": "Факторная модель разделяет источники динамики потоков, а структурное перевзвешивание сравнивает спос",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 62,
       "section": "1.3",
-      "opening": "Сопоставление этих работ позволяет разграничить объяснение происхождения шоков и оценку экспозиц",
-      "source_ids": [],
-      "evidence_kind": "Author theoretical reasoning or research framing"
-    },
-    {
-      "paragraph": 63,
-      "section": "1.3",
-      "opening": "Отраслевая литература показывает, почему такое сравнение должно сохранять товарную детализацию. ",
+      "opening": "Отраслевая литература показывает, почему такое сравнение должно сохранять товарную детализацию. Shin",
       "source_ids": [
         "shin_shin_2021",
         "koo_2026"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
-      "paragraph": 64,
+      "paragraph": 63,
       "section": "1.3",
-      "opening": "Сопоставление отраслевых работ требует одинаково трактовать границы продукции. Память и другие г",
+      "opening": "Различия отраслевых результатов следует сначала проверить на уровне товарного охвата. Совместный пок",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
-      "paragraph": 65,
+      "paragraph": 64,
       "section": "1.3",
-      "opening": "Показатели конкурентоспособности и изменения экспортной стоимости отвечают на смежные вопросы. K",
+      "opening": "Показатели конкурентоспособности и изменения экспортной стоимости отвечают на смежные вопросы. Kitet",
       "source_ids": [
         "kitetu_mbante_ko_2021",
         "yu_yu_2026",
         "hong_2023"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
-      "paragraph": 66,
+      "paragraph": 65,
       "section": "1.3",
-      "opening": "Не следует отождествлять и различные значения устойчивости. В аннотации Kim и Lee описано совмес",
+      "opening": "Не следует отождествлять и различные значения устойчивости. В аннотации Kim и Lee описано совместное",
       "source_ids": [
         "kim_lee_2025",
         "kim_park_2018"
       ],
-      "evidence_kind": "Cited source synthesis"
+      "evidence_kind": "Source-based discussion with author interpretation"
+    },
+    {
+      "paragraph": 66,
+      "section": "1.3",
+      "opening": "Наиболее близкий содержательный ориентир дает исследование Jo и Jung. Помимо объяснения колебаний це",
+      "source_ids": [
+        "jo_jung_kdi_2023"
+      ],
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 67,
       "section": "1.3",
-      "opening": "Наиболее близкий содержательный ориентир дает исследование Jo и Jung. Помимо объяснения колебани",
-      "source_ids": [
-        "jo_jung_kdi_2023"
-      ],
-      "evidence_kind": "Cited source synthesis"
+      "opening": "Применение единой истории темпов к разным структурам сохраняет условие сценария KDI: меняются веса, ",
+      "source_ids": [],
+      "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 68,
       "section": "1.3",
-      "opening": "Сценарий KDI важен и как пример границ интерпретации. Сохранение темпов сегментов позволяет выде",
-      "source_ids": [],
-      "evidence_kind": "Author theoretical reasoning or research framing"
+      "opening": "Банк Кореи, в свою очередь, сопоставляет распределения годовых темпов экспорта Кореи, Японии и Тайва",
+      "source_ids": [
+        "bok_demand_2023"
+      ],
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 69,
       "section": "1.3",
-      "opening": "Банк Кореи, в свою очередь, сопоставляет распределения годовых темпов экспорта Кореи, Японии и Т",
-      "source_ids": [
-        "bok_demand_2023"
-      ],
-      "evidence_kind": "Cited source synthesis"
+      "opening": "Рассмотренные исследования позволяют конкретизировать вклад настоящей работы. В отличие от оценки па",
+      "source_ids": [],
+      "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 70,
       "section": "1.3",
-      "opening": "В рассмотренной литературе сформированы необходимые теоретические и отраслевые основания исследо",
-      "source_ids": [],
-      "evidence_kind": "Author theoretical reasoning or research framing"
+      "opening": "Одновременное изменение нескольких характеристик структуры ставит вопрос о разделении их вкладов. По",
+      "source_ids": [
+        "shorrocks_2013"
+      ],
+      "evidence_kind": "Source-based discussion with author interpretation"
     },
     {
       "paragraph": 71,
       "section": "1.3",
-      "opening": "Одновременное изменение нескольких характеристик структуры ставит вопрос о разделении их вкладов",
-      "source_ids": [
-        "shorrocks_2013"
-      ],
-      "evidence_kind": "Cited source synthesis"
+      "opening": "Подробное определение месячных темпов, построение весов 2017 и 2024 годов и учет неопределенности пр",
+      "source_ids": [],
+      "evidence_kind": "Author theoretical reasoning or research framing"
     },
     {
       "paragraph": 72,
       "section": "1.3",
-      "opening": "Цель исследования состоит в оценке и объяснении связи товарных и географических изменений с усло",
-      "source_ids": [],
-      "evidence_kind": "Author theoretical reasoning or research framing"
-    },
-    {
-      "paragraph": 73,
-      "section": "1.3",
-      "opening": "Теоретические основания анализа предполагают разграничение наблюдаемой волатильности и условного",
-      "source_ids": [],
-      "evidence_kind": "Author theoretical reasoning or research framing"
-    },
-    {
-      "paragraph": 74,
-      "section": "1.3",
-      "opening": "Для содержательного вывода важны не только знак и величина структурного вклада, но и его устойчи",
-      "source_ids": [],
-      "evidence_kind": "Author theoretical reasoning or research framing"
-    },
-    {
-      "paragraph": 75,
-      "section": "1.3",
-      "opening": "Проведенный обзор задает последовательность дальнейшего исследования. Во второй главе анализирую",
+      "opening": "Результаты структурного анализа используются для обоснования направлений дальнейшей диверсификации. ",
       "source_ids": [],
       "evidence_kind": "Author theoretical reasoning or research framing"
     }
@@ -992,10 +973,9 @@
   "unresolved_access_limitations": [
     "hong_2023",
     "kim_lee_2025",
-    "kim_park_2018",
-    "kitetu_mbante_ko_2021"
+    "kim_park_2018"
   ],
-  "access_limit_handling": "Restricted claims to what the official abstracts establish; no detailed conclusions and no originality-exclusion claims derived from these four sources.",
+  "access_limit_handling": "Three abstract-only sources retain restricted descriptive use. Kitetu et al. checked against author-uploaded full-text HTML, sections IV and V, without claiming possession of its PDF.",
   "previous_review": {
     "date": "2026-10-16",
     "paragraphs": 50,
@@ -1008,5 +988,5 @@
     "paragraphs_moved": 5,
     "purpose": "Data years, growth definition, fixed-weight index, units and interval implementation belong to analytical chapter 2"
   },
-  "source_audit_note": "Existing full-text verification retained; added theory is either grounded in the specified source sections or explicitly author reasoning. Four abstract-only studies retain restricted descriptive use."
+  "source_audit_note": "20 October 2026 revision: repetitive uncited framing shortened; all 38 citation instances and 26 sources retained; research contribution stated as empirical, not a new method."
 }

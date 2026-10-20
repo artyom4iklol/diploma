@@ -55,11 +55,11 @@ check('US product-cell expansion is not confused with aggregate',fmt(us['max_req
 for num in range(1,8):check(f'table 3.{num}: caption and text reference', len(re.findall(rf'(?:Таблица|таблиц[а-я]+) 3\.{num}\b',text))>=2 or (num==5 and 'таблицах 3.4 и 3.5' in text))
 for num in range(1,4):check(f'figure 3.{num}: text reference',f'рисунке 3.{num}' in text)
 check('four paragraphs',len(re.findall(r'^## 3\.[1-4] ',text,re.M))==4)
-check('seven unique sources',len(json.loads((HERE/'chapter3_source_audit.json').read_text())['sources'])==7)
+check('nine unique sources',len(json.loads((HERE/'chapter3_source_audit.json').read_text())['sources'])==9)
 ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main','m':'http://schemas.openxmlformats.org/officeDocument/2006/math'}
 with ZipFile(HERE/'chapter3.docx') as z:
  root=etree.fromstring(z.read('word/document.xml'))
- check('native footnotes',len(root.findall('.//w:footnoteReference',ns))==9)
+ check('native footnotes',len(root.findall('.//w:footnoteReference',ns))==11)
  check('three figures and seven tables',len(root.findall('.//w:drawing',ns))==3 and len(root.findall('.//w:tbl',ns))==7)
  check('editable equations',len(root.findall('.//m:oMath',ns))>=3)
  check('no Word hyperlinks',not root.findall('.//w:hyperlink',ns))

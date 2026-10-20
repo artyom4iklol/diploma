@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "scope": "Chapter 3. External documents describe institutions and value-chain constraints; recommendations are author proposals. No post-2024 source is used to explain causally the 2017–2024 estimates.",
   "sources": [
     {
@@ -20,7 +20,8 @@
       "sha256": "c81849317f3238bb7f72057ddd3e18e909d138c323354bbdae73c8220ec238b9",
       "supports": "Announced support instruments, not realized exports or programme effect",
       "public_archive": false,
-      "archive_note": "Public redistribution permission not verified; personal cache is ignored by Git"
+      "archive_note": "Public redistribution permission not verified; personal cache is ignored by Git",
+      "revision_verification": "Official announcement rechecked 20 October 2026: 6 firms at KRW 100m, 20 at KRW 200m, 4 at KRW 250m. Author arithmetic total KRW 5.6bn denotes announced allocation, not disbursement."
     },
     {
       "source_id": "motie_ondevice_2025",
@@ -70,9 +71,25 @@
       "fulltext_acquired": false,
       "supports": "Development/customer evaluation may take two years or more; NRE may not cover all development costs; production quantities follow individual orders. The author draws implementation implications, not a causal effect.",
       "public_archive": false
+    },
+    {
+      "source_id": "socionext_aimotive_2025",
+      "citation": "Socionext. Socionext Signs License Agreement with aiMotive for aiWare NPU IP to Power Next-Gen ADAS SoC. Press release PR2025222. 30 July 2025. P. 1–2.",
+      "source_url": "https://www.eu.socionext.com/assets/files/pr2025222-socionext-aimotive-english-final.pdf",
+      "basis": "Complete official two-page PDF text read; p. 1 agreement scope and development purpose.",
+      "supports": "License and development agreement as a project-screening example; no serial orders, price, export revenue or public support inferred.",
+      "public_archive": false
+    },
+    {
+      "source_id": "socionext_automotive_2025",
+      "citation": "Socionext Europe. Automotive Solution SoC. Flyer. August 2025. P. 1–2.",
+      "source_url": "https://www.eu.socionext.com/assets/files/Automotive/automotive-solution-soc-flyer-august-2025.pdf",
+      "basis": "Complete official two-page flyer read; p. 2 automotive services.",
+      "supports": "Declared capabilities in qualification, reliability, functional safety and outsourcing control; no completed qualification for the aiMotive project inferred.",
+      "public_archive": false
     }
   ],
-  "unique_sources": 7,
+  "unique_sources": 9,
   "source_limit_notes": "Concise paraphrases only. METI full PDF unavailable (403). Socionext relevant indexed subsections checked; binary unavailable (503). No unavailable full text is claimed as acquired. All author calculations separately reproducible.",
-  "revision": "2026-10-19: Policy descriptions rechecked, firm-level mechanism added, complete geographic comparison computed from frozen panel."
+  "revision": "20 October 2026: explicit Socionext–aiMotive screening case and quantified MSS announced support added; existing model and all scenario results retained."
 }

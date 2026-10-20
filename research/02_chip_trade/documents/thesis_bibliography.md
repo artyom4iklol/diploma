@@ -54,20 +54,24 @@
 
 27. Shorrocks A. F. (2013). Decomposition procedures for distributional analysis: a unified framework based on the Shapley value. Journal of Economic Inequality 11(1), 99–126. DOI: 10.1007/s10888-011-9214-z. Использованная версия: Shorrocks A. F. (1999). Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June.
 
-28. Socionext Inc. Annual Securities Report for the Fiscal Year Ended March 31, 2025. English translation. 2025. Part I, II.3, subsections (2)–(3).
+28. Socionext Europe. Automotive Solution SoC. Flyer. August 2025. P. 1–2.
 
-29. United Nations (2011). International Merchandise Trade Statistics: Concepts and Definitions 2010. Statistical Papers, Series M No. 52, Rev. 3. New York.
+29. Socionext Inc. Annual Securities Report for the Fiscal Year Ended March 31, 2025. English translation. 2025. Part I, II.3, subsections (2)–(3).
 
-30. United Nations Statistics Division (2019). Methodology Guide for UN Comtrade User on UN Comtrade Upgrade 2019.
+30. Socionext. Socionext Signs License Agreement with aiMotive for aiWare NPU IP to Power Next-Gen ADAS SoC. Press release PR2025222. 30 July 2025. P. 1–2.
 
-31. United Nations Statistics Division. Taiwan, Province of China Trade Data. UN Comtrade Help Center. Разъяснение кода 490; дата обращения 18 октября 2026 года.
+31. United Nations (2011). International Merchandise Trade Statistics: Concepts and Definitions 2010. Statistical Papers, Series M No. 52, Rev. 3. New York.
 
-32. United Nations Statistics Division. UN Comtrade Database. Месячный экспорт Японии и Республики Корея за 2017–2024 годы. Выгрузка 16 октября 2026 года.
+32. United Nations Statistics Division (2019). Methodology Guide for UN Comtrade User on UN Comtrade Upgrade 2019.
 
-33. Vannoorenberghe G.; Wang Z.; Yu Z. (2016). Volatility and diversification of exports: Firm-level theory and evidence. European Economic Review 89, 216–247. DOI: 10.1016/j.euroecorev.2016.07.002. Использованная версия: Vannoorenberghe G.; Wang Z.; Yu Z. (2014). Volatility and Diversification of Exports: Firm-Level Theory and Evidence. CESifo Working Paper 4916, July.
+33. United Nations Statistics Division. Taiwan, Province of China Trade Data. UN Comtrade Help Center. Разъяснение кода 490; дата обращения 18 октября 2026 года.
 
-34. World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42.
+34. United Nations Statistics Division. UN Comtrade Database. Месячный экспорт Японии и Республики Корея за 2017–2024 годы. Выгрузка 16 октября 2026 года.
 
-35. World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42.
+35. Vannoorenberghe G.; Wang Z.; Yu Z. (2016). Volatility and diversification of exports: Firm-level theory and evidence. European Economic Review 89, 216–247. DOI: 10.1016/j.euroecorev.2016.07.002. Использованная версия: Vannoorenberghe G.; Wang Z.; Yu Z. (2014). Volatility and Diversification of Exports: Firm-Level Theory and Evidence. CESifo Working Paper 4916, July.
 
-36. Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning: Strategic Implications for International Business and Supply Chain Management. Open Journal of Business and Management 14(1), 51–67. DOI: 10.4236/ojbm.2026.141004.
+36. World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42.
+
+37. World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42.
+
+38. Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning: Strategic Implications for International Business and Supply Chain Management. Open Journal of Business and Management 14(1), 51–67. DOI: 10.4236/ojbm.2026.141004.
