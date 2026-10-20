@@ -1,0 +1,474 @@
+{
+  "source_count": 36,
+  "sources": [
+    {
+      "source_id": "bok_demand_2023",
+      "citation": "Bank of Korea (2023). Characteristics of Demand Structure for Korea’s Semiconductors and Implications. Korea Economic Outlook, May, 53–62; English release 31 July.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "consulted_citation": "Bank of Korea (2023). Characteristics of Demand Structure for Korea’s Semiconductors and Implications. Korea Economic Outlook, May, 53–62; English release 31 July.",
+      "number": 1,
+      "formatted": "Bank of Korea (2023). Characteristics of Demand Structure for Korea’s Semiconductors and Implications. Korea Economic Outlook, May, 53–62; English release 31 July."
+    },
+    {
+      "source_id": "barigozzi_et_al_2025",
+      "citation": "Barigozzi M.; Cuzzola A.; Grazzi M.; Moschella D. (2025; online 2024). Factoring in the Micro: A Transaction-Level Dynamic Factor Approach to the Decomposition of Export Volatility. Oxford Bulletin of Economics and Statistics 87(1), 155–184.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "publisher_full_html"
+      ],
+      "doi": "10.1111/obes.12639",
+      "number": 2,
+      "formatted": "Barigozzi M.; Cuzzola A.; Grazzi M.; Moschella D. (2025; online 2024). Factoring in the Micro: A Transaction-Level Dynamic Factor Approach to the Decomposition of Export Volatility. Oxford Bulletin of Economics and Statistics 87(1), 155–184. DOI: 10.1111/obes.12639."
+    },
+    {
+      "source_id": "cadot_carrere_strausskahn_2013",
+      "citation": "Cadot O.; Carrère C.; Strauss-Kahn V. (2013). Trade Diversification, Income, and Growth: What Do We Know? Journal of Economic Surveys 27(4), 790–812.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "consulted_citation": "Cadot O.; Carrère C.; Strauss-Kahn V. (2011). Trade Diversification, Income, and Growth: What Do We Know? FERDI Working Paper P33, November.",
+      "doi": "10.1111/j.1467-6419.2011.00719.x",
+      "number": 3,
+      "formatted": "Cadot O.; Carrère C.; Strauss-Kahn V. (2013). Trade Diversification, Income, and Growth: What Do We Know? Journal of Economic Surveys 27(4), 790–812. DOI: 10.1111/j.1467-6419.2011.00719.x. Использованная версия: Cadot O.; Carrère C.; Strauss-Kahn V. (2011). Trade Diversification, Income, and Growth: What Do We Know? FERDI Working Paper P33, November."
+    },
+    {
+      "source_id": "caselli_et_al_2020",
+      "citation": "Caselli F.; Koren M.; Lisicky M.; Tenreyro S. (2020). Diversification through Trade. Quarterly Journal of Economics 135(1), 449–502.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "consulted_citation": "Caselli F.; Koren M.; Lisicky M.; Tenreyro S. (2019). Diversification through Trade. Author manuscript, June.",
+      "doi": "10.1093/qje/qjz028",
+      "number": 4,
+      "formatted": "Caselli F.; Koren M.; Lisicky M.; Tenreyro S. (2020). Diversification through Trade. Quarterly Journal of Economics 135(1), 449–502. DOI: 10.1093/qje/qjz028. Использованная версия: Caselli F.; Koren M.; Lisicky M.; Tenreyro S. (2019). Diversification through Trade. Author manuscript, June."
+    },
+    {
+      "source_id": "esposito_2022",
+      "citation": "Esposito F. (2022). Demand risk and diversification through international trade. Journal of International Economics 135, 103562.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "consulted_citation": "Esposito F. (2020). Demand Risk and Diversification through Trade. MPRA Paper 100398, May.",
+      "doi": "10.1016/j.jinteco.2021.103562",
+      "number": 5,
+      "formatted": "Esposito F. (2022). Demand risk and diversification through international trade. Journal of International Economics 135, 103562. DOI: 10.1016/j.jinteco.2021.103562. Использованная версия: Esposito F. (2020). Demand Risk and Diversification through Trade. MPRA Paper 100398, May."
+    },
+    {
+      "source_id": "haramboure_et_al_2023",
+      "citation": "Haramboure A.; Lalanne G.; Schwellnus C.; Guilhoto J. (2023). Vulnerabilities in the semiconductor supply chain. OECD Science, Technology and Industry Working Papers 2023/05.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.1787/6bed616f-en",
+      "number": 6,
+      "formatted": "Haramboure A.; Lalanne G.; Schwellnus C.; Guilhoto J. (2023). Vulnerabilities in the semiconductor supply chain. OECD Science, Technology and Industry Working Papers 2023/05. DOI: 10.1787/6bed616f-en."
+    },
+    {
+      "source_id": "hillrichs_woelfl_2026",
+      "citation": "Hillrichs D.; Wölfl A. (2026). More Chips, Anyone? Demand for Semiconductors in an Era of Active Industrial Policy. EconPol Forum 27(1), 35–42.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "number": 7,
+      "formatted": "Hillrichs D.; Wölfl A. (2026). More Chips, Anyone? Demand for Semiconductors in an Era of Active Industrial Policy. EconPol Forum 27(1), 35–42."
+    },
+    {
+      "source_id": "hong_2023",
+      "citation": "Hong M.-S. (2023). Analysis of export changes to major trading partners of the Korean semiconductor industry. The e-Business Studies 24(6), 179–189.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "published_abstract_only"
+      ],
+      "doi": "10.20462/tebs.2023.11.24.6.179",
+      "number": 8,
+      "formatted": "Hong M.-S. (2023). Analysis of export changes to major trading partners of the Korean semiconductor industry. The e-Business Studies 24(6), 179–189. DOI: 10.20462/tebs.2023.11.24.6.179."
+    },
+    {
+      "source_id": "hong_jin_liu_tong_2026",
+      "citation": "Hong Q.; Jin Z.; Liu R.; Tong J. (2026). Demand Shocks, Export Diversification, and Firm Performance During the Great Trade Collapse. Journal of Economics & Management Strategy, e70027, 1–18.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "publisher_full_html"
+      ],
+      "doi": "10.1111/jems.70027",
+      "number": 9,
+      "formatted": "Hong Q.; Jin Z.; Liu R.; Tong J. (2026). Demand Shocks, Export Diversification, and Firm Performance During the Great Trade Collapse. Journal of Economics & Management Strategy, e70027, 1–18. DOI: 10.1111/jems.70027."
+    },
+    {
+      "source_id": "jo_jung_kdi_2023",
+      "citation": "Jo K.; Jung K.-C. (2023). Semiconductor Market Trends and Macroeconomic Implications. KDI Economic Outlook, First Half, 10 May.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "consulted_citation": "Jo K.; Jung K.-C. (2023). Semiconductor Market Trends and Macroeconomic Implications. KDI Economic Outlook, First Half, 10 May.",
+      "number": 10,
+      "formatted": "Jo K.; Jung K.-C. (2023). Semiconductor Market Trends and Macroeconomic Implications. KDI Economic Outlook, First Half, 10 May."
+    },
+    {
+      "source_id": "kim_park_2018",
+      "citation": "Kim C.-Y.; Park K. S. (2018). A Study on Analysis of Export Concentration of Korea: Application of Herfindahl-Hirschman Index, Concentration Ratio, Sharpe Ratio and Value-at-Risk. Korea International Commercial Review 33(3), 273–289.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "published_abstract_only"
+      ],
+      "number": 11,
+      "formatted": "Kim C.-Y.; Park K. S. (2018). A Study on Analysis of Export Concentration of Korea: Application of Herfindahl-Hirschman Index, Concentration Ratio, Sharpe Ratio and Value-at-Risk. Korea International Commercial Review 33(3), 273–289."
+    },
+    {
+      "source_id": "kim_lee_2025",
+      "citation": "Kim T.-H.; Lee M.-J. (2025). Assessing Trade Concentration, Dependency, and Resilience in Korea’s Semiconductor Supply Chain: A Network and Entropy-Based Approach. Journal of Korea Trade 29(7), 67–95.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "published_abstract_only"
+      ],
+      "doi": "10.35611/jkt.2025.29.7.67",
+      "number": 12,
+      "formatted": "Kim T.-H.; Lee M.-J. (2025). Assessing Trade Concentration, Dependency, and Resilience in Korea’s Semiconductor Supply Chain: A Network and Entropy-Based Approach. Journal of Korea Trade 29(7), 67–95. DOI: 10.35611/jkt.2025.29.7.67."
+    },
+    {
+      "source_id": "kitetu_mbante_ko_2021",
+      "citation": "Kitetu G. M.; Mbante II A. R.; Ko J.-H. (2021). Revealed Trade Competitiveness between Korea and Japan. Is It Viable to Deepen Economic Integration? Journal of Global Business and Trade 17(2), 67–84.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "published_abstract_only"
+      ],
+      "doi": "10.20294/jgbt.2021.17.2.67",
+      "number": 13,
+      "formatted": "Kitetu G. M.; Mbante II A. R.; Ko J.-H. (2021). Revealed Trade Competitiveness between Korea and Japan. Is It Viable to Deepen Economic Integration? Journal of Global Business and Trade 17(2), 67–84. DOI: 10.20294/jgbt.2021.17.2.67."
+    },
+    {
+      "source_id": "koh_2026",
+      "citation": "Koh W. C. (2026). Tariffs, Tech Controls, and Techno-nationalism: Korea’s Semiconductor Industry in an Era of Sanctions and Strategic Competition. AMRO ACR-2026-03, Selected Issue 1.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "number": 14,
+      "formatted": "Koh W. C. (2026). Tariffs, Tech Controls, and Techno-nationalism: Korea’s Semiconductor Industry in an Era of Sanctions and Strategic Competition. AMRO ACR-2026-03, Selected Issue 1."
+    },
+    {
+      "source_id": "koo_2026",
+      "citation": "Koo J. H. (2026). Structural Changes in Korea’s Semiconductor Supply Chain under the Changing Economic Security Environment: An Analysis of Trade Structures, 2015–2025. Public Policy Review 40(2), 319–339.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.17327/ippa.2026.40.2.011",
+      "number": 15,
+      "formatted": "Koo J. H. (2026). Structural Changes in Korea’s Semiconductor Supply Chain under the Changing Economic Security Environment: An Analysis of Trade Structures, 2015–2025. Public Policy Review 40(2), 319–339. DOI: 10.17327/ippa.2026.40.2.011."
+    },
+    {
+      "source_id": "koren_tenreyro_2007",
+      "citation": "Koren M.; Tenreyro S. (2007). Volatility and Development. Quarterly Journal of Economics 122(1), 243–287.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.1162/qjec.122.1.243",
+      "number": 16,
+      "formatted": "Koren M.; Tenreyro S. (2007). Volatility and Development. Quarterly Journal of Economics 122(1), 243–287. DOI: 10.1162/qjec.122.1.243."
+    },
+    {
+      "source_id": "lee_yu_2019",
+      "citation": "Lee J.; Yu B.-K. (2019). The Effects of Export Diversification on Macroeconomic Stabilization: Evidence from Korea. KDI Journal of Economic Policy 41(1), 1–14.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "doi": "10.23895/kdijep.2019.41.1.1",
+      "consulted_citation": "Lee J.; Yu B.-K. (2019). The Effects of Export Diversification on Macroeconomic Stabilization: Evidence from Korea. KDI Journal of Economic Policy 41(1), 1–14.",
+      "number": 17,
+      "formatted": "Lee J.; Yu B.-K. (2019). The Effects of Export Diversification on Macroeconomic Stabilization: Evidence from Korea. KDI Journal of Economic Policy 41(1), 1–14. DOI: 10.23895/kdijep.2019.41.1.1."
+    },
+    {
+      "source_id": "li_et_al_2025",
+      "citation": "Li L.; Wang H.; Li Z.; Hu S. (2025). Analysis of the structure and robustness of the global semiconductor trade network. PLOS ONE 20(1), e0313162.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.1371/journal.pone.0313162",
+      "number": 18,
+      "formatted": "Li L.; Wang H.; Li Z.; Hu S. (2025). Analysis of the structure and robustness of the global semiconductor trade network. PLOS ONE 20(1), e0313162. DOI: 10.1371/journal.pone.0313162."
+    },
+    {
+      "source_id": "markowitz_1952",
+      "citation": "Markowitz H. (1952). Portfolio Selection. Journal of Finance 7(1), 77–91.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.1111/j.1540-6261.1952.tb01525.x",
+      "number": 19,
+      "formatted": "Markowitz H. (1952). Portfolio Selection. Journal of Finance 7(1), 77–91. DOI: 10.1111/j.1540-6261.1952.tb01525.x."
+    },
+    {
+      "source_id": "meti_strategy_2024",
+      "citation": "Ministry of Economy, Trade and Industry. Outline of Semiconductor Revitalization Strategy in Japan. July 2024. Section “Overview of the Future Semiconductor Strategy I”.",
+      "chapters": [
+        3
+      ],
+      "evidence_basis": [],
+      "number": 20,
+      "formatted": "Ministry of Economy, Trade and Industry. Outline of Semiconductor Revitalization Strategy in Japan. July 2024. Section “Overview of the Future Semiconductor Strategy I”."
+    },
+    {
+      "source_id": "mss_fabless_2025",
+      "citation": "Ministry of SMEs and Startups. Ministry of SMEs and Startups Announces Fabless Startup Comprehensive Support Project. Press release, 12 February 2025.",
+      "chapters": [
+        3
+      ],
+      "evidence_basis": [],
+      "number": 21,
+      "formatted": "Ministry of SMEs and Startups. Ministry of SMEs and Startups Announces Fabless Startup Comprehensive Support Project. Press release, 12 February 2025."
+    },
+    {
+      "source_id": "motie_ondevice_2025",
+      "citation": "Ministry of Trade, Industry and Energy. End-Users, Fabless Firms, and Foundries Join Forces to Build Korea’s On-Device AI Semiconductor Ecosystem. Press release, 30 September 2025.",
+      "chapters": [
+        3
+      ],
+      "evidence_basis": [],
+      "number": 22,
+      "formatted": "Ministry of Trade, Industry and Energy. End-Users, Fabless Firms, and Foundries Join Forces to Build Korea’s On-Device AI Semiconductor Ecosystem. Press release, 30 September 2025."
+    },
+    {
+      "source_id": "oecd_mapping_2025",
+      "citation": "OECD (2025). Mapping the semiconductor value chain: Working towards identifying dependencies and vulnerabilities. OECD Science, Technology and Industry Policy Papers 182.",
+      "chapters": [
+        1,
+        3
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.1787/4154cdbf-en",
+      "number": 23,
+      "formatted": "OECD (2025). Mapping the semiconductor value chain: Working towards identifying dependencies and vulnerabilities. OECD Science, Technology and Industry Policy Papers 182. DOI: 10.1787/4154cdbf-en."
+    },
+    {
+      "source_id": "oecd_capacity_2025",
+      "citation": "OECD. The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity. OECD Science, Technology and Industry Policy Papers. 2025. No. 188. DOI: 10.1787/02dbd028-en.",
+      "chapters": [
+        3
+      ],
+      "evidence_basis": [],
+      "number": 24,
+      "formatted": "OECD. The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity. OECD Science, Technology and Industry Policy Papers. 2025. No. 188. DOI: 10.1787/02dbd028-en."
+    },
+    {
+      "source_id": "politis_romano_1991",
+      "citation": "Politis D. N.; Romano J. P. (1991). A Circular Block-Resampling Procedure for Stationary Data. Technical Report No. 370, Department of Statistics, Stanford University, March.",
+      "chapters": [
+        2
+      ],
+      "evidence_basis": [
+        "Full PDF available; cited pages checked"
+      ],
+      "number": 25,
+      "formatted": "Politis D. N.; Romano J. P. (1991). A Circular Block-Resampling Procedure for Stationary Data. Technical Report No. 370, Department of Statistics, Stanford University, March."
+    },
+    {
+      "source_id": "shin_shin_2021",
+      "citation": "Shin S.-Y.; Shin S.-H. (2021). Analysis of Korean Import and Export in the Semiconductor Industry: A Global Supply Chain Perspective. Journal of Korea Trade 25(6), 78–104.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.35611/jkt.2021.25.6.78",
+      "number": 26,
+      "formatted": "Shin S.-Y.; Shin S.-H. (2021). Analysis of Korean Import and Export in the Semiconductor Industry: A Global Supply Chain Perspective. Journal of Korea Trade 25(6), 78–104. DOI: 10.35611/jkt.2021.25.6.78."
+    },
+    {
+      "source_id": "shorrocks_2013",
+      "citation": "Shorrocks A. F. (2013). Decomposition procedures for distributional analysis: a unified framework based on the Shapley value. Journal of Economic Inequality 11(1), 99–126.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "consulted_citation": "Shorrocks A. F. (1999). Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June.",
+      "doi": "10.1007/s10888-011-9214-z",
+      "number": 27,
+      "formatted": "Shorrocks A. F. (2013). Decomposition procedures for distributional analysis: a unified framework based on the Shapley value. Journal of Economic Inequality 11(1), 99–126. DOI: 10.1007/s10888-011-9214-z. Использованная версия: Shorrocks A. F. (1999). Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June."
+    },
+    {
+      "source_id": "socionext_annual_2025",
+      "citation": "Socionext Inc. Annual Securities Report for the Fiscal Year Ended March 31, 2025. English translation. 2025. Part I, II.3, subsections (2)–(3).",
+      "chapters": [
+        3
+      ],
+      "evidence_basis": [],
+      "number": 28,
+      "formatted": "Socionext Inc. Annual Securities Report for the Fiscal Year Ended March 31, 2025. English translation. 2025. Part I, II.3, subsections (2)–(3)."
+    },
+    {
+      "source_id": "un_imts_2010",
+      "citation": "United Nations (2011). International Merchandise Trade Statistics: Concepts and Definitions 2010. Statistical Papers, Series M No. 52, Rev. 3. New York.",
+      "chapters": [
+        2
+      ],
+      "evidence_basis": [
+        "Full PDF available; cited pages checked"
+      ],
+      "number": 29,
+      "formatted": "United Nations (2011). International Merchandise Trade Statistics: Concepts and Definitions 2010. Statistical Papers, Series M No. 52, Rev. 3. New York."
+    },
+    {
+      "source_id": "un_comtrade_upgrade_2019",
+      "citation": "United Nations Statistics Division (2019). Methodology Guide for UN Comtrade User on UN Comtrade Upgrade 2019.",
+      "chapters": [
+        2
+      ],
+      "evidence_basis": [
+        "Full PDF available; cited pages checked"
+      ],
+      "number": 30,
+      "formatted": "United Nations Statistics Division (2019). Methodology Guide for UN Comtrade User on UN Comtrade Upgrade 2019."
+    },
+    {
+      "source_id": "un_comtrade_code490",
+      "citation": "United Nations Statistics Division. Taiwan, Province of China Trade Data. UN Comtrade Help Center. Разъяснение кода 490; дата обращения 18 октября 2026 года.",
+      "chapters": [
+        2
+      ],
+      "evidence_basis": [
+        "Full official page retrieved and preserved as lossless gzip; metadata text checked"
+      ],
+      "number": 31,
+      "formatted": "United Nations Statistics Division. Taiwan, Province of China Trade Data. UN Comtrade Help Center. Разъяснение кода 490; дата обращения 18 октября 2026 года."
+    },
+    {
+      "source_id": "un_comtrade_monthly_2017_2024",
+      "citation": "United Nations Statistics Division. UN Comtrade Database. Месячный экспорт Японии и Республики Корея за 2017–2024 годы. Выгрузка 16 октября 2026 года.",
+      "chapters": [
+        2,
+        3
+      ],
+      "evidence_basis": [
+        "Saved raw responses, monthly panel and checked manifest"
+      ],
+      "number": 32,
+      "formatted": "United Nations Statistics Division. UN Comtrade Database. Месячный экспорт Японии и Республики Корея за 2017–2024 годы. Выгрузка 16 октября 2026 года."
+    },
+    {
+      "source_id": "vannoorenberghe_wang_yu_2016",
+      "citation": "Vannoorenberghe G.; Wang Z.; Yu Z. (2016). Volatility and diversification of exports: Firm-level theory and evidence. European Economic Review 89, 216–247.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "consulted_citation": "Vannoorenberghe G.; Wang Z.; Yu Z. (2014). Volatility and Diversification of Exports: Firm-Level Theory and Evidence. CESifo Working Paper 4916, July.",
+      "doi": "10.1016/j.euroecorev.2016.07.002",
+      "number": 33,
+      "formatted": "Vannoorenberghe G.; Wang Z.; Yu Z. (2016). Volatility and diversification of exports: Firm-level theory and evidence. European Economic Review 89, 216–247. DOI: 10.1016/j.euroecorev.2016.07.002. Использованная версия: Vannoorenberghe G.; Wang Z.; Yu Z. (2014). Volatility and Diversification of Exports: Firm-Level Theory and Evidence. CESifo Working Paper 4916, July."
+    },
+    {
+      "source_id": "wco_hs2017_ch85",
+      "citation": "World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "consulted_citation": "World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "number": 34,
+      "formatted": "World Customs Organization (2017). Harmonized System Nomenclature, Chapter 85, heading 85.42."
+    },
+    {
+      "source_id": "wco_hs2022_ch85",
+      "citation": "World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "chapters": [
+        1,
+        2
+      ],
+      "evidence_basis": [
+        "full_pdf",
+        "Full PDF available; cited pages checked"
+      ],
+      "consulted_citation": "World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42.",
+      "number": 35,
+      "formatted": "World Customs Organization (2022). Harmonized System Nomenclature, Chapter 85, heading 85.42."
+    },
+    {
+      "source_id": "yu_yu_2026",
+      "citation": "Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning: Strategic Implications for International Business and Supply Chain Management. Open Journal of Business and Management 14(1), 51–67.",
+      "chapters": [
+        1
+      ],
+      "evidence_basis": [
+        "full_pdf"
+      ],
+      "doi": "10.4236/ojbm.2026.141004",
+      "number": 36,
+      "formatted": "Yu A.; Yu S. (2026). U.S. Integrated Circuit Exports and Global Value Chain Positioning: Strategic Implications for International Business and Supply Chain Management. Open Journal of Business and Management 14(1), 51–67. DOI: 10.4236/ojbm.2026.141004."
+    }
+  ]
+}
