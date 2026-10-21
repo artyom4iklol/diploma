@@ -1,0 +1,430 @@
+{
+  "quantitative_figures": 27,
+  "tables_checked": 46,
+  "numeric_values_checked": 2751,
+  "tables": [
+    {
+      "file": "03_diversification_example.csv",
+      "rows": 20,
+      "numeric_values": 80,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "file": "04_export_value_growth_panel1.csv",
+      "rows": 96,
+      "numeric_values": 192,
+      "max_abs_difference": 4.440892098500626e-16
+    },
+    {
+      "file": "04_export_value_growth_panel2.csv",
+      "rows": 84,
+      "numeric_values": 168,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "file": "05_product_export_indices_panel1.csv",
+      "rows": 8,
+      "numeric_values": 40,
+      "max_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "file": "06_product_shares_panel1.csv",
+      "rows": 8,
+      "numeric_values": 40,
+      "max_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "file": "07_export_waterfall_panel1.csv",
+      "rows": 5,
+      "numeric_values": 5,
+      "max_abs_difference": 4.440892098500626e-16
+    },
+    {
+      "file": "05_product_export_indices_panel2.csv",
+      "rows": 8,
+      "numeric_values": 40,
+      "max_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "file": "06_product_shares_panel2.csv",
+      "rows": 8,
+      "numeric_values": 40,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "file": "07_export_waterfall_panel2.csv",
+      "rows": 5,
+      "numeric_values": 5,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "08_concentration_panel1.csv",
+      "rows": 8,
+      "numeric_values": 24,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "08_concentration_panel2.csv",
+      "rows": 8,
+      "numeric_values": 24,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "09_destination_shares_panel1.csv",
+      "rows": 9,
+      "numeric_values": 18,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "file": "09_destination_shares_panel2.csv",
+      "rows": 9,
+      "numeric_values": 18,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "file": "10_product_destination.csv",
+      "rows": 72,
+      "numeric_values": 72,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "file": "11_export_episodes.csv",
+      "rows": 9,
+      "numeric_values": 45,
+      "max_abs_difference": 1.4210854715202004e-14
+    },
+    {
+      "file": "12_four_structures.csv",
+      "rows": 8,
+      "numeric_values": 24,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "13_shapley_waterfall_panel1.csv",
+      "rows": 3,
+      "numeric_values": 3,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "13_shapley_waterfall_panel2.csv",
+      "rows": 3,
+      "numeric_values": 3,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "14_memory_composition.csv",
+      "rows": 4,
+      "numeric_values": 12,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "15_geographic_components.csv",
+      "rows": 6,
+      "numeric_values": 18,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "16_destination_contributions.csv",
+      "rows": 18,
+      "numeric_values": 54,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "17_leave_one_year_out_panel1.csv",
+      "rows": 7,
+      "numeric_values": 21,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "17_leave_one_year_out_panel2.csv",
+      "rows": 7,
+      "numeric_values": 21,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "18_memory_scenarios_panel1.csv",
+      "rows": 5,
+      "numeric_values": 20,
+      "max_abs_difference": 5.898059818321144e-17
+    },
+    {
+      "file": "18_memory_scenarios_panel2.csv",
+      "rows": 5,
+      "numeric_values": 20,
+      "max_abs_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "19_nonmemory_expansion_panel1.csv",
+      "rows": 2,
+      "numeric_values": 4,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "file": "19_nonmemory_expansion_panel2.csv",
+      "rows": 2,
+      "numeric_values": 4,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "20_geographic_scenarios.csv",
+      "rows": 16,
+      "numeric_values": 48,
+      "max_abs_difference": 8.673617379884035e-17
+    },
+    {
+      "file": "21_cell_expansion.csv",
+      "rows": 48,
+      "numeric_values": 48,
+      "max_abs_difference": 4.547473508864641e-13
+    },
+    {
+      "file": "23_monthly_product_growth.csv",
+      "rows": 672,
+      "numeric_values": 672,
+      "max_abs_difference": 2.842170943040401e-14
+    },
+    {
+      "file": "24_destination_correlations.csv",
+      "rows": 162,
+      "numeric_values": 162,
+      "max_abs_difference": 3.3306690738754696e-16
+    },
+    {
+      "file": "25_conditional_series_panel1.csv",
+      "rows": 84,
+      "numeric_values": 168,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "file": "25_conditional_series_panel2.csv",
+      "rows": 84,
+      "numeric_values": 168,
+      "max_abs_difference": 7.105427357601002e-15
+    },
+    {
+      "file": "26_trade_flows_panel1.csv",
+      "rows": 36,
+      "numeric_values": 36,
+      "max_abs_difference": 9.8879238130678e-17
+    },
+    {
+      "file": "26_trade_flows_panel2.csv",
+      "rows": 36,
+      "numeric_values": 36,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "27_bootstrap_blocks.csv",
+      "rows": 16,
+      "numeric_values": 48,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "file": "28_covariance_windows_panel1.csv",
+      "rows": 2,
+      "numeric_values": 2,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "28_covariance_windows_panel2.csv",
+      "rows": 2,
+      "numeric_values": 6,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "28_covariance_windows_panel3.csv",
+      "rows": 2,
+      "numeric_values": 2,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "28_covariance_windows_panel4.csv",
+      "rows": 2,
+      "numeric_values": 6,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "29_memory_windows_panel1.csv",
+      "rows": 5,
+      "numeric_values": 15,
+      "max_abs_difference": 5.551115123125783e-17
+    },
+    {
+      "file": "29_memory_windows_panel2.csv",
+      "rows": 5,
+      "numeric_values": 15,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "30_annual_monthly_check_panel1.csv",
+      "rows": 48,
+      "numeric_values": 96,
+      "max_abs_difference": 3.552713678800501e-15
+    },
+    {
+      "file": "30_annual_monthly_check_panel2.csv",
+      "rows": 8,
+      "numeric_values": 56,
+      "max_abs_difference": 9.658940314238862e-15
+    },
+    {
+      "file": "30_annual_monthly_check_panel3.csv",
+      "rows": 48,
+      "numeric_values": 96,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "30_annual_monthly_check_panel4.csv",
+      "rows": 8,
+      "numeric_values": 56,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "status": "Passed; the three identified display issues have been corrected before insertion",
+  "issues_found": [
+    "18: отсутствуют подписи стран",
+    "20: оценки округлены до −0 / 0",
+    "25: минимум −67.57 п.п. выходит за предел −60 п.п."
+  ],
+  "preservation": {
+    "tables_preserved": true,
+    "equations_identical": true,
+    "footnotes_identical": true,
+    "bibliography_identical": true,
+    "footnote_references": 65,
+    "all_figures": 30,
+    "image_panels": 32
+  },
+  "original_visual_score_out_of_10": 8.5,
+  "archive_sha256": "ae15a84337e08462e1fe2f297838b9cce397decff0b822c77e7fec5e95e6de76",
+  "visual_review": "All 30 originals and all rendered thesis pages inspected; final layout reviewed separately.",
+  "final_document": {
+    "sha256": "7fd23ae2686dab086abc8a0871f85dff06fd5fc60806b2ecea1594072bd62eea",
+    "pages": 109,
+    "figures": [
+      {
+        "caption": "Рисунок 1.1 — Международная цепочка создания интегральных схем",
+        "page": 7
+      },
+      {
+        "caption": "Рисунок 1.2 — Структура экспорта и условная волатильность",
+        "page": 15
+      },
+      {
+        "caption": "Рисунок 1.3 — Число рынков и корреляция экспортных потоков",
+        "page": 17
+      },
+      {
+        "caption": "Рисунок 2.1 — Месячная стоимость экспорта интегральных схем и годовые темпы ее изменения",
+        "page": 34
+      },
+      {
+        "caption": "Рисунок 2.2 — Индексы стоимости экспорта четырех товарных групп, 2017 = 100",
+        "page": 37
+      },
+      {
+        "caption": "Рисунок 2.3 — Товарная структура экспорта интегральных схем",
+        "page": 38
+      },
+      {
+        "caption": "Рисунок 2.4 — Товарный вклад в изменение номинальной стоимости экспорта между 2017 и 2024 годами",
+        "page": 39
+      },
+      {
+        "caption": "Рисунок 2.5 — Товарная и географическая концентрация экспорта",
+        "page": 40
+      },
+      {
+        "caption": "Рисунок 2.6 — Изменение долей направлений в экспорте интегральных схем",
+        "page": 41
+      },
+      {
+        "caption": "Рисунок 2.7 — Географическая структура экспорта внутри товарных групп",
+        "page": 42
+      },
+      {
+        "caption": "Рисунок 2.8 — Динамика экспорта в двух сопоставляемых эпизодах",
+        "page": 44
+      },
+      {
+        "caption": "Рисунок 2.9 — Стандартное отклонение четырех условных структур экспорта",
+        "page": 46
+      },
+      {
+        "caption": "Рисунок 2.10 — Товарный и географический вклады в изменение условной дисперсии",
+        "page": 48
+      },
+      {
+        "caption": "Рисунок 2.11 — Доля памяти и состав продукции вне памяти в товарном вкладе",
+        "page": 50
+      },
+      {
+        "caption": "Рисунок 2.12 — Собственные дисперсии и ковариации в географическом вкладе",
+        "page": 51
+      },
+      {
+        "caption": "Рисунок 2.13 — Детализация географического вклада по направлениям",
+        "page": 53
+      },
+      {
+        "caption": "Рисунок 2.14 — Чувствительность изменения стандартного отклонения к исключению одного года",
+        "page": 58
+      },
+      {
+        "caption": "Рисунок 3.1 — Сдвиг доли памяти и изменение условного стандартного отклонения",
+        "page": 63
+      },
+      {
+        "caption": "Рисунок 3.2 — Необходимое расширение экспорта продукции вне памяти",
+        "page": 64
+      },
+      {
+        "caption": "Рисунок 3.3 — Сопоставление географических сценариев с пропорциональным расширением",
+        "page": 74
+      },
+      {
+        "caption": "Рисунок 3.4 — Требуемое расширение ячеек «товар — рынок»",
+        "page": 76
+      },
+      {
+        "caption": "Рисунок 3.5 — Этапы отбора, проверки и реализации экспортного проекта",
+        "page": 81
+      },
+      {
+        "caption": "Рисунок Б.1 — Корреляции годовых темпов роста направлений экспорта",
+        "page": 93
+      },
+      {
+        "caption": "Рисунок Б.2 — Поставки от товарных групп к направлениям экспорта в 2024 году",
+        "page": 94
+      },
+      {
+        "caption": "Рисунок В.1 — Основные оценки и интервалы при бутстреп-блоках 6 и 12 месяцев",
+        "page": 96
+      },
+      {
+        "caption": "Рисунок В.2 — Основная оценка и вклады на двух исторических окнах",
+        "page": 97
+      },
+      {
+        "caption": "Рисунок Д.1 — Месячные годовые темпы роста экспорта по товарным группам",
+        "page": 101
+      },
+      {
+        "caption": "Рисунок Д.2 — Временные ряды условных индексов при структурах 2017 и 2024 годов",
+        "page": 102
+      },
+      {
+        "caption": "Рисунок Е.1 — Сверка сумм месячных и годовых данных",
+        "page": 105
+      },
+      {
+        "caption": "Рисунок Ж.1 — Чувствительность сценариев доли памяти к историческому окну",
+        "page": 108
+      }
+    ],
+    "logical_figures": 30,
+    "image_panels": 32,
+    "visual_review": "All pages reviewed; captions stay with figures; final TOC separately rendered and checked."
+  }
+}

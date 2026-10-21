@@ -1,0 +1,446 @@
+{
+  "base_sha256": "470b33adfedce0f5d8119dad2f8939ee7216c00e0a86465a7ca287bc710359e0",
+  "output_sha256": "7fd23ae2686dab086abc8a0871f85dff06fd5fc60806b2ecea1594072bd62eea",
+  "figures": [
+    {
+      "archive_number": 1,
+      "number": "1.1",
+      "caption": "Международная цепочка создания интегральных схем",
+      "source_anchor": 53,
+      "images": [
+        {
+          "file": "01_value_chain.png",
+          "sha256": "59abb9c2335137042c150f09bccab3d43918e2e7b2dd0af122d4392c8fd8b3f4",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 2,
+      "number": "1.2",
+      "caption": "Структура экспорта и условная волатильность",
+      "source_anchor": 86,
+      "images": [
+        {
+          "file": "02_structure_mechanism.png",
+          "sha256": "c928e4ae66043f4829d434163000fe47660d2029ba5998828adaa77ad90e2171",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 3,
+      "number": "1.3",
+      "caption": "Число рынков и корреляция экспортных потоков",
+      "source_anchor": 93,
+      "images": [
+        {
+          "file": "03_diversification_example.png",
+          "sha256": "593f6c1fc25a83a772d6a7c15f83284c44c066c7ba826109ad3cc8aeb6637673",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 4,
+      "number": "2.1",
+      "caption": "Месячная стоимость экспорта интегральных схем и годовые темпы ее изменения",
+      "source_anchor": 174,
+      "images": [
+        {
+          "file": "04_export_value_growth.png",
+          "sha256": "76fa3d84db67e96f25177db918d8c3c13b2c4f7ac103c6e707e57cd6ac3f704d",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 5,
+      "number": "2.2",
+      "caption": "Индексы стоимости экспорта четырех товарных групп, 2017 = 100",
+      "source_anchor": 185,
+      "images": [
+        {
+          "file": "05_product_export_indices.png",
+          "sha256": "fc34005c7207ef4a1d283bf728bbae74717c85366e5d81cb3693142beae4a42f",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 6,
+      "number": "2.3",
+      "caption": "Товарная структура экспорта интегральных схем",
+      "source_anchor": 187,
+      "images": [
+        {
+          "file": "06_product_shares.png",
+          "sha256": "eaf1e7f573fabac6c69537c6431f92f45e7e91b7f0a2bf1698ab85016fa6b26b",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 7,
+      "number": "2.4",
+      "caption": "Товарный вклад в изменение номинальной стоимости экспорта между 2017 и 2024 годами",
+      "source_anchor": 191,
+      "images": [
+        {
+          "file": "07_export_waterfall.png",
+          "sha256": "425b147b134bdfd69e3fef7e4ea6aeb52ee8daaa9fcb8153fd757fee50eab649",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 8,
+      "number": "2.5",
+      "caption": "Товарная и географическая концентрация экспорта",
+      "source_anchor": 191,
+      "images": [
+        {
+          "file": "08_concentration.png",
+          "sha256": "cc337cbc0be25223acb702132c7448a8f92b45111202a56b484bf15a1c305bdb",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 9,
+      "number": "2.6",
+      "caption": "Изменение долей направлений в экспорте интегральных схем",
+      "source_anchor": 194,
+      "images": [
+        {
+          "file": "09_destination_shares.png",
+          "sha256": "de03baa01b30065dbbe762ef04733b822717828cbab677b4a89a6bf793f56e98",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 10,
+      "number": "2.7",
+      "caption": "Географическая структура экспорта внутри товарных групп",
+      "source_anchor": 200,
+      "images": [
+        {
+          "file": "10_product_destination.png",
+          "sha256": "ffcba8bdfabfb27137cfd38e76358cbecd1de76c36e8089e0cd48eb8357561fa",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 11,
+      "number": "2.8",
+      "caption": "Динамика экспорта в двух сопоставляемых эпизодах",
+      "source_anchor": 207,
+      "images": [
+        {
+          "file": "11_export_episodes.png",
+          "sha256": "962cd2a758fad3d1aa40f45281f8a0f256914e6be282548af970e99bf9ebe845",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 12,
+      "number": "2.9",
+      "caption": "Стандартное отклонение четырех условных структур экспорта",
+      "source_anchor": 216,
+      "images": [
+        {
+          "file": "12_four_structures.png",
+          "sha256": "498f260e7a3d5f4f95eb92874b447d8535152a0ad7d72b28a11f7d25d988f7f1",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 13,
+      "number": "2.10",
+      "caption": "Товарный и географический вклады в изменение условной дисперсии",
+      "source_anchor": 225,
+      "images": [
+        {
+          "file": "13_shapley_waterfall.png",
+          "sha256": "175be773128aa7a988213329ab60dbc305e21aec6a22c1de6ff0691f0ea25169",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 14,
+      "number": "2.11",
+      "caption": "Доля памяти и состав продукции вне памяти в товарном вкладе",
+      "source_anchor": 236,
+      "images": [
+        {
+          "file": "14_memory_composition.png",
+          "sha256": "40f2adf21e490fb07fc1bbfaf3e34ab707868869c31c837e0024e79543c28400",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 15,
+      "number": "2.12",
+      "caption": "Собственные дисперсии и ковариации в географическом вкладе",
+      "source_anchor": 244,
+      "images": [
+        {
+          "file": "15_geographic_components.png",
+          "sha256": "121c9f5c3691677b057fcf8bace00ef6d13d5a17330305d22e429867196cca26",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 16,
+      "number": "2.13",
+      "caption": "Детализация географического вклада по направлениям",
+      "source_anchor": 254,
+      "images": [
+        {
+          "file": "16_destination_contributions.png",
+          "sha256": "df330bd97cab0d44b995aeb7387566ddee6eea74b46e90ad1db62526f8c2571d",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 17,
+      "number": "2.14",
+      "caption": "Чувствительность изменения стандартного отклонения к исключению одного года",
+      "source_anchor": 273,
+      "images": [
+        {
+          "file": "17_leave_one_year_out.png",
+          "sha256": "9bfec6672100f17e44675334247632f8ca9c9f43ccaa59305796b4f8148203f5",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 18,
+      "number": "3.1",
+      "caption": "Сдвиг доли памяти и изменение условного стандартного отклонения",
+      "source_anchor": 294,
+      "images": [
+        {
+          "file": "18_memory_scenarios.png",
+          "sha256": "b636c698b4ddb9b87af54a6c9b91dbc45cfa69f22657563dc8d4efd8720bffe7",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 19,
+      "number": "3.2",
+      "caption": "Необходимое расширение экспорта продукции вне памяти",
+      "source_anchor": 296,
+      "images": [
+        {
+          "file": "19_nonmemory_expansion.png",
+          "sha256": "15ef011b03d78aeb1ac2dde83384a31a8db31185dc4d9c68ce434f3e738ce14b",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 20,
+      "number": "3.3",
+      "caption": "Сопоставление географических сценариев с пропорциональным расширением",
+      "source_anchor": 339,
+      "images": [
+        {
+          "file": "20_geographic_scenarios.png",
+          "sha256": "ab69f9a02c9d82ebdbd26d4f3767e300e437a362a133222b042bcdf0821da7a3",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 21,
+      "number": "3.4",
+      "caption": "Требуемое расширение ячеек «товар — рынок»",
+      "source_anchor": 343,
+      "images": [
+        {
+          "file": "21_cell_expansion.png",
+          "sha256": "b053e5f1514f288ec9727046cb93f4988267fe4bd360cf3214f46d05d80769cd",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 22,
+      "number": "3.5",
+      "caption": "Этапы отбора, проверки и реализации экспортного проекта",
+      "source_anchor": 383,
+      "images": [
+        {
+          "file": "22_project_stages.png",
+          "sha256": "f143a428914dfd48f5386d3af9d2606c122d07bf375f05fea7f11c4e884e06eb",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 24,
+      "number": "Б.1",
+      "caption": "Корреляции годовых темпов роста направлений экспорта",
+      "source_anchor": 461,
+      "images": [
+        {
+          "file": "24_destination_correlations.png",
+          "sha256": "4027b1d9682aeaf817b1fd275a1981fbe83eac44f40fb2a7222faa7aae6aa57f",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 26,
+      "number": "Б.2",
+      "caption": "Поставки от товарных групп к направлениям экспорта в 2024 году",
+      "source_anchor": 461,
+      "images": [
+        {
+          "file": "26_trade_flows.png",
+          "sha256": "64a87768f365b9203600a727d01fd2438de2bf7aeb8eea89d3c5cfde39cb2dc0",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 27,
+      "number": "В.1",
+      "caption": "Основные оценки и интервалы при бутстреп-блоках 6 и 12 месяцев",
+      "source_anchor": 468,
+      "images": [
+        {
+          "file": "27_bootstrap_blocks.png",
+          "sha256": "64f424d9dd3f750ff551cf8977518e5cdeec12590e4790a4f42130d050517fb3",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 28,
+      "number": "В.2",
+      "caption": "Основная оценка и вклады на двух исторических окнах",
+      "source_anchor": 468,
+      "images": [
+        {
+          "file": "28_covariance_windows_part1.png",
+          "sha256": "392e4ba1518af8111aba2ac28d45732d37df1a76abd1e77117c01cf25673863c",
+          "width_cm": 16.356862745098038
+        },
+        {
+          "file": "28_covariance_windows_part2.png",
+          "sha256": "8209707bd6e3eff7810fcdee0420976433daa9b4e1c4b8b8bbf94b6017d2d907",
+          "width_cm": 16.356862745098038
+        }
+      ]
+    },
+    {
+      "archive_number": 23,
+      "number": "Д.1",
+      "caption": "Месячные годовые темпы роста экспорта по товарным группам",
+      "source_anchor": 479,
+      "images": [
+        {
+          "file": "23_monthly_product_growth.png",
+          "sha256": "1baabd30ebe4d65a223c5cff796f2d36411346477431f4057d232bee99427d45",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 25,
+      "number": "Д.2",
+      "caption": "Временные ряды условных индексов при структурах 2017 и 2024 годов",
+      "source_anchor": 479,
+      "images": [
+        {
+          "file": "25_conditional_series.png",
+          "sha256": "afe635eefdfd6dee9fbe6452efaefab36aee416e4f81c0dfddee19e94953b9f1",
+          "width_cm": 16.5
+        }
+      ]
+    },
+    {
+      "archive_number": 30,
+      "number": "Е.1",
+      "caption": "Сверка сумм месячных и годовых данных",
+      "source_anchor": 485,
+      "images": [
+        {
+          "file": "30_annual_monthly_check_part1.png",
+          "sha256": "e922b5065267cc52290a91ff53201965b90bc4435dba4b0e7d42a8ec71f1b0c6",
+          "width_cm": 15.739622641509435
+        },
+        {
+          "file": "30_annual_monthly_check_part2.png",
+          "sha256": "10cefc5324745f61c610327d704821a78bebb977c79e786cb3c92c689b8b3b51",
+          "width_cm": 15.739622641509435
+        }
+      ]
+    },
+    {
+      "archive_number": 29,
+      "number": "Ж.1",
+      "caption": "Чувствительность сценариев доли памяти к историческому окну",
+      "source_anchor": 492,
+      "images": [
+        {
+          "file": "29_memory_windows.png",
+          "sha256": "c7f010b2d927ee9f0481fb8f7864b99ddaa486dc49f1a363d38293017bf34973",
+          "width_cm": 16.5
+        }
+      ]
+    }
+  ],
+  "logical_figures": 30,
+  "image_panels": 32,
+  "preserved_tables": 23,
+  "preserved_equations": 54,
+  "preserved_footnotes_sha256": "582a770579e325a24c24f219d246891d7c92e93f0fe68b0e244f2ffc6228808d",
+  "corrections": [
+    "18: explicit country headings",
+    "20: four decimal places instead of rounded zeros",
+    "25: common vertical range expanded to include -67.567265 pp"
+  ],
+  "layout_adaptation": "28 and 30 split into column panels, same logical figure number",
+  "rendered_pages": 109,
+  "toc_pages": {
+    "Введение": 2,
+    "Глава 1 Теоретические основы диверсификации и волатильности экспорта интегральных схем": 6,
+    "1.1 Особенности международной торговли интегральными схемами": 6,
+    "1.2 Товарная и географическая диверсификация экспортных поставок": 13,
+    "1.3 Подходы к оценке экспортной волатильности и результаты существующих исследований": 20,
+    "Глава 2 Эмпирический анализ структуры и волатильности экспорта интегральных схем Японии и Республики Корея": 26,
+    "2.1 Информационная база и методика анализа структуры и волатильности экспорта": 26,
+    "2.2 Динамика и структурные изменения экспорта интегральных схем Японии и Республики Корея": 33,
+    "2.3 Товарные и географические вклады в изменение условной волатильности экспорта": 45,
+    "2.4 Устойчивость результатов и их экономическая интерпретация": 54,
+    "Глава 3 Направления диверсификации экспорта интегральных схем Японии и Республики Корея": 62,
+    "3.1 Приоритеты диверсификации экспорта по результатам исследования": 62,
+    "3.2 Направления товарной диверсификации экспорта интегральных схем": 66,
+    "3.3 Совершенствование географической структуры экспортных поставок": 71,
+    "3.4 Условия реализации рекомендаций и оценка их результатов": 77,
+    "Заключение": 84,
+    "Список использованных источников": 88,
+    "Приложения": 91,
+    "Приложение А Годовые характеристики экспорта": 91,
+    "Приложение Б Структуры и направления поставок": 92,
+    "Приложение В Полные результаты проверок устойчивости": 95,
+    "Приложение Г Детализация географического вклада": 99,
+    "Приложение Д Изменчивость индексов памяти и остальных схем": 100,
+    "Приложение Е Воспроизводимость расчетов": 103,
+    "Приложение Ж Чувствительность товарных сценариев": 107,
+    "Приложение З Дополнительные результаты географических сценариев": 109
+  }
+}
