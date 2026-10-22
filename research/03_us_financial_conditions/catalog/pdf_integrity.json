@@ -1,0 +1,170 @@
+[
+  {
+    "id": "S01",
+    "pages": 56,
+    "text_characters": 88913,
+    "tail": "od\nQuantile regression, GDP only\nTheoretical and 5% Critical Values (f ) PIT s: Non-parametric\n0 0.2 0.4 0.6 0.8 1\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1\nEmpirical CDF\nNonparametric\nQuantile regression, GDP only\nTheoretical and 5% Critical Values\n14"
+  },
+  {
+    "id": "S02",
+    "pages": 49,
+    "text_characters": 130730,
+    "tail": "ronic library or \nfrom RePEc: Research Papers in Economics. Information on all of the papers published in the ECB Working Paper Series can be found \non the ECB’s website. \nPDF ISBN 978-92-899-6127-1 ISSN 1725-2806 doi:10.2866/25709 QB-AR-23-079-EN-N "
+  },
+  {
+    "id": "S03",
+    "pages": 27,
+    "text_characters": 77153,
+    "tail": "−CC−HSP\nCISS−HS\nCISS−HSP\nFigure 10: Relative quantile scores (QSs) for h = 4 and models with Λ̸= 0. The results are\nbenchmarked to ABG with Λ = 0 andω = 0. Lower ratios (shaded an green) indicate better\nperformance (and vice versa, shaded in red).\n27"
+  },
+  {
+    "id": "S04",
+    "pages": 45,
+    "text_characters": 101322,
+    "tail": "W atson (2003): “Forecasting Output and Inﬂation:\nThe Role of Asset Prices,”Journal of Economic Literature, 41, 788–829.\n——— (2012): “Disentangling the Channels of the 2007–09 Recession,” Brookings\nPapers on Economic Activity, Spring 2012, 81–135.\n45"
+  },
+  {
+    "id": "S06",
+    "pages": 53,
+    "text_characters": 117411,
+    "tail": " on initial loosest decile, tightest decile, and mid (middle four deciles) of FCI. Estimates are based on quantile \nregressions with local projection estimation methods. Advanced economies include 11 countries with data for most from 1973 \nto 2017. \n"
+  },
+  {
+    "id": "S07",
+    "pages": 39,
+    "text_characters": 91796,
+    "tail": "., and M. W. Watson. 2003. “Forecasting Output and Inflation: The Role of Asset \nPrices.” Journal of Economic Literature 41 (3): 788–829. \nTay, A. S., and K. F. Wallis. 2000. “Density Forecasting: A Survey.” Journal of Forecasting \n19 (4): 235–54. \n "
+  },
+  {
+    "id": "S08",
+    "pages": 27,
+    "text_characters": 37134,
+    "tail": "onic library or \nfrom RePEc: Research Papers in Economics. Information on all of the papers published in the ECB Working Paper Series can be found \non the ECB’s website. \nPDF ISBN 978-92-899-4375-8 ISSN 1725-2806 doi:10.2866/903796 QB-AR-20-110-EN-N "
+  },
+  {
+    "id": "S11",
+    "pages": 27,
+    "text_characters": 116791,
+    "tail": "ometrica 64 (5), 1067–1084.\nWhite, H., 2000. A reality check for data snooping. Econometrica 68 (5), 1097–1126.\nZhu, Y., Timmermann, A., 2020. Can Two Forecasts Have the Same Conditional Expected Accuracy?. arXiv working paper, arXiv:2006.03238v1.\n26"
+  },
+  {
+    "id": "S12",
+    "pages": 43,
+    "text_characters": 86499,
+    "tail": "onic library or \nfrom RePEc: Research Papers in Economics. Information on all of the papers published in the ECB Working Paper Series can be found \non the ECB’s website. \nPDF ISBN 978-92-899-6071-7 ISSN 1725-2806 doi:10.2866/581800 QB-AR-23-045-EN-N "
+  },
+  {
+    "id": "S13",
+    "pages": 24,
+    "text_characters": 46368,
+    "tail": "–430.\nYang,Y.,Wang,H.J.,He,X.,2016.PosteriorinferenceinBayesianquantileregressionwithAsymmetric\nLaplacelikelihood.InternationalStatisticalReview84(3),327–344.\nYu,K.,Moyeed,R.,2001.Bayesianquantileregression.Statistics&ProbabilityLetters54(4),437–447."
+  },
+  {
+    "id": "S14",
+    "pages": 53,
+    "text_characters": 133499,
+    "tail": "ic library  or \nfrom RePEc: Research Papers in Economics . Information on all of the papers published in the ECB Working Paper Series can be found \non the ECB’s website. \nPDF ISBN 978-92-899-4079-5 ISSN 1725-2806 doi:10.2866/019813 QB-AR-20-088-EN-N "
+  },
+  {
+    "id": "S15",
+    "pages": 51,
+    "text_characters": 101830,
+    "tail": "fy observations ex-ante as out-\nliers, based on being more than 5 times the inter-quartile range away from the median; these outliers are indicated with\na circle, and the corresponding backcast densities from the SV-OutMiss model are superimposed.\n49"
+  },
+  {
+    "id": "S16",
+    "pages": 49,
+    "text_characters": 68888,
+    "tail": " regression,”Journal of the American\nStatistical Association, 104, 1233–1240.\nW ang, H. J. and D. Li(2013): “Estimation of extreme conditional quantiles through\npower transformation,”Journal of the American Statistical Association, 108, 1062–1074.\n49"
+  },
+  {
+    "id": "S17",
+    "pages": 46,
+    "text_characters": 80879,
+    "tail": "4\n0.5 2008Q3\nActual value\n-5 0 5 10\n0\n0.05\n0.1\n0.15\n0.2\n0.25\n0.3 2008Q4\nActual value\nABG\nNP(freq)\nNP(B)\nNP(BM)\nEW(B)\nABG Kernel\nFigure 24: GDP growth density forecasts conditional on NFCI and lagged GDP for 2008 made\none-year-ahead (out-of-sample)\n45"
+  },
+  {
+    "id": "S18",
+    "pages": 35,
+    "text_characters": 59033,
+    "tail": "05). What are the eﬀects of monetary policy on output? Results\nfrom an agnostic identiﬁcation procedure. Journal of Monetary Economics ,\n52(2):381–419.\nvan Roye, B. (2013). Financial stress and economic activity in Germany. Empir-\nica, pages 1–26.\n32"
+  },
+  {
+    "id": "S20",
+    "pages": 24,
+    "text_characters": 9565,
+    "tail": "6.\nStable URL:\nhttp://links.jstor.org/sici?sici=0162-1459%28196103%2956%3A293%3C175%3AAOIO%3E2.0.CO%3B2-I\nhttp://www.jstor.org\nLINKED CITATIONS\n- Page 5 of 5 -\nNOTE: The reference numbering from the original has been maintained in this citation list."
+  },
+  {
+    "id": "S21",
+    "pages": 20,
+    "text_characters": 113584,
+    "tail": "vnyi, V . P. (1993), “Positive Deﬁnite Functions Depending on the Norm,”\nRussian Journal of Mathematical Physics, 1, 511–522.\nZuo, Y ., and Serﬂing, R. (2000), “General Notions of Statistical Depth Func-\ntions,” The Annals of Statistics, 28, 461–482."
+  },
+  {
+    "id": "S23",
+    "pages": 51,
+    "text_characters": 148791,
+    "tail": "stands at or above the estimated threshold. IRFs for orthogonalised innovations \n(Choleski factorisation) with shocks in the CISS allowed to have a contemporaneous impact on industrial production \ngrowth. Monthly data from Jan. 1987 to June 2011. \n49"
+  },
+  {
+    "id": "S24",
+    "pages": 55,
+    "text_characters": 142878,
+    "tail": "brary or \nfrom RePEc: Research Papers in Economics. Information on all of the papers published in the ECB Occasional Paper Series can be \nfound on the ECB’s website. \nPDF ISBN 978-92-899-7915-3, ISSN 1725-6534, doi:10.2866/6868685, QB-01-26-160-EN-N "
+  },
+  {
+    "id": "S25",
+    "pages": 7,
+    "text_characters": 27761,
+    "tail": "ei, T., 2021. Decoupling shrinkage and selection for the Bayesian\nquantile regression. arXiv preprint arXiv:2107.08498.\nTibshirani, R., 1996. Regression shrinkage and selection via the Lasso. J. R. Stat.\nSoc. Ser. B Stat. Methodol. 58 (1), 267–288.\n6"
+  },
+  {
+    "id": "S26",
+    "pages": 21,
+    "text_characters": 42424,
+    "tail": "16 \n \nB  The evaluated GaR and historical quantiles – 1971 to 2025 \n \n \n \n \n \n \n"
+  },
+  {
+    "id": "S27",
+    "pages": 49,
+    "text_characters": 103411,
+    "tail": "0 0.14 0.20\n500 0.11 0.10 0.12 0.09 0.08 0.07 0.08 0.10 0.15 0.22 0.36 0.53\n1000 0.09 0.10 0.10 0.07 0.06 0.05 0.10 0.13 0.20 0.37 0.55 0.68\nNotes: See the notes to Table 3. All tests are compared against two-sided\nstandard normal critical values.\n47"
+  },
+  {
+    "id": "S28",
+    "pages": 42,
+    "text_characters": 76536,
+    "tail": "ic library  or \nfrom RePEc: Research Papers in Economics . Information on all of the papers published in the ECB Working Paper Series can be found \non the ECB’s website. \nPDF ISBN 978-92-899-4368-0 ISSN 1725-2806 doi:10.2866/006262 QB-AR-20-103-EN-N "
+  },
+  {
+    "id": "S29",
+    "pages": 33,
+    "text_characters": 65331,
+    "tail": "ence in log scores:\nSPF and ﬁnancial conditions - SPF only (20-year rolling window)\nReal GDP growth GDP price index inﬂation Unemployment\nh = 1 0.013 0.135 0.060\n(s.e.) (0.025) (0.047) (0.047)\nh = 4 0.073 0.148 0.157\n(s.e.) (0.041) (0.105) (0.063)\n31"
+  },
+  {
+    "id": "S30",
+    "pages": 63,
+    "text_characters": 106946,
+    "tail": "onic library or \nfrom RePEc: Research Papers in Economics. Information on all of the papers published in the ECB Working Paper Series can be found \non the ECB’s website. \nPDF ISBN 978-92-899-4746-6 ISSN 1725-2806 doi:10.2866/254568 QB-AR-21-051-EN-N "
+  },
+  {
+    "id": "S31",
+    "pages": 14,
+    "text_characters": 56155,
+    "tail": "rity \nand Misspecification Tests for Vector Smooth \nTransition Regression Model (CREATES \nResearch Papers, 2014–04). Aarhus: Aarhus \nUniversity. Retrieved from ftp://ftp.econ.au.dk/\ncreates/rp/14/rp14_04.pdf\nEM_4_2020.indd   165 18.11.2020   12:28:22"
+  },
+  {
+    "id": "S33",
+    "pages": 49,
+    "text_characters": 91360,
+    "tail": ". Clements and D. E. Hardy,\n35–60. Oxford University Press.\nWatson, M. W., and R. F. Engle. 1983. “Alternative Algorithms for\nthe Estimation of Dynamic Factor, Mimic and Varying Coeﬃ-\ncient Regression Models.”Journal of Econometrics 23 (3): 385–\n400."
+  },
+  {
+    "id": "S34",
+    "pages": 22,
+    "text_characters": 68440,
+    "tail": " New York: \nJohn Wiley and Sons.\nWatson, M. W., and R. F. Engle, 1983, “Alternative \nalgorithms for the estimation of dynamic factor, mimic \nand varying coefficient regression models,” Journal \nof Econometrics, V ol. 23, No. 3, December, pp. 385–400."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S15",
+    "source_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2021/wp2102r.pdf",
+    "version": "Cleveland Fed Working Paper 21-02R, revised manuscript",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2021/wp2102r.pdf",
+    "status": "downloaded",
+    "file": "papers/S15.pdf",
+    "pages": 51,
+    "sha256": "f0293acd25d903f4508757c0c5f5cca3c072f333d13d82c2d52bd051cccf0bbb",
+    "first_page": "Federal Reserve Bank of Cleveland Working Paper Series\nAddressing COVID-19 Outliers in BV ARs with Stochastic Volatility\nAndrea Carriero, Todd E. Clark, Massimiliano Marcellino, and Elmar Mertens\nWorking Paper No. 21-02R\nAugust 2021\nSuggested citation: Carriero, Andrea, Todd E. Clark, Massimiliano Marcellino, and Elmar Mertens. \n2021. “Addressing COVID-19 Outliers in BV ARs with Stochastic V olatility.” Federal Reserve Bank \nof Cleveland, Working Paper No. 21-02R. https://doi.org/10.26509/frbc-wp-202102r.\nFederal Reserve Bank of Cleveland Working Paper Series\nISSN: 2573-7953 \nWorking papers of the Federal Reserve Bank of Cleveland are preliminary materials circulated to \nstimulate discussion and critical comment on research in progress. They may not have been subject \nto the formal editorial review accorded official Federal Reserve Bank of Cleveland publications. \nSee more working papers at: www.clevelandfed.org/research. Subscribe to email alerts to be notified \nwhen a new working paper is posted at: www.clevelandfed.org/subscribe."
+  },
+  {
+    "id": "S17",
+    "source_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2022/wp2212.pdf",
+    "version": "Cleveland Fed Working Paper 22-12, May 2022",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2022/wp2212.pdf",
+    "status": "downloaded",
+    "file": "papers/S17.pdf",
+    "pages": 46,
+    "sha256": "896df4b8832ed070bb13dcf24554721e8e3fa2222a9002daf7280538e9d0af9c",
+    "first_page": " \n \nFederal Reserve Bank of Cleveland Working Paper Series \n \n \n \n \nConstructing Density Forecasts from Quantile Regressions: \nMultimodality in Macro-Financial Dynamics \nJames Mitchell, Aubrey Poon, and Dan Zhu \nWorking Paper No. 22-12 \nMay 2022 \n \nSuggested citation: Mitchell, James, Aubrey Poon, and Dan Zhu. 2022. ''Constructing Density Forecasts \nfrom Quantile Regressions: Multimodality in Macro-Financial Dynamics.'' Working Paper No. 22-12. \nFederal Reserve Bank of Cleveland. https://doi.org/10.26509/frbc-wp-202212. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFederal Reserve Bank of Cleveland Working Paper Series \nISSN: 2573-7953 \n \nWorking papers of the Federal Reserve Bank of Cleveland are preliminary materials circulated to \nstimulate discussion and critical comment on research in progress. They may not have been subject to the \nformal editorial review accorded official Federal Reserve Bank of Cleveland publications. \n \nSee more working papers at: www.clevelandfed.org/research. Subscribe to email alerts to be notified \nwhen a new working paper is posted at: www.clevelandfed.org/subscribe. \n"
+  }
+]

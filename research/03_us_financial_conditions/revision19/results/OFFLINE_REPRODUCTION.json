@@ -1,0 +1,31 @@
+{
+  "offline_network_connections_blocked": true,
+  "relocated_unpacked_github_reproduction": true,
+  "forecast_checks": [
+    {
+      "revision": "revision18",
+      "rows": 1695,
+      "maximum_differences": {
+        "forecast": 0.0,
+        "actual": 0.0,
+        "loss": 0.0,
+        "n_train": 0.0
+      },
+      "pass_numerical": true
+    },
+    {
+      "revision": "revision19",
+      "rows": 2373,
+      "maximum_differences": {
+        "forecast": 0.0,
+        "actual": 0.0,
+        "loss": 0.0,
+        "n_train": 0.0
+      },
+      "pass_numerical": true
+    }
+  ],
+  "all_bulletin_repair_rows_identical": true,
+  "all_model_checks_passed": true,
+  "public_package_contains_every_required_current_model_input": true
+}

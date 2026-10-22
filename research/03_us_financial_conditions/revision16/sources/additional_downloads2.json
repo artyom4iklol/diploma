@@ -1,0 +1,80 @@
+[
+  {
+    "file": "esi_calendar_2017.pdf",
+    "url": "https://economy-finance.ec.europa.eu/system/files/2017-01/schedule_2017.pdf",
+    "ok": true,
+    "bytes": 33786
+  },
+  {
+    "file": "esi_calendar_2021.pdf",
+    "url": "https://economy-finance.ec.europa.eu/system/files/2020-12/publication_dates_2021.pdf",
+    "ok": true,
+    "bytes": 24194
+  },
+  {
+    "file": "esi_calendar_2020.pdf",
+    "url": "https://economy-finance.ec.europa.eu/document/download/f9b1f857-6d70-49c0-8bcd-fa7678551cbc_en?filename=publication_dates_2020.pdf",
+    "ok": true,
+    "bytes": 257888
+  },
+  {
+    "file": "nfci_launch_2011.html",
+    "url": "https://www.chicagofed.org/utilities/newsroom/news-releases/2011/04-05-nfci-release",
+    "ok": true,
+    "bytes": 69801
+  },
+  {
+    "file": "ecb_fsr_may2020.html",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/ecb.fsr202005~1b75555f66.en.html",
+    "ok": true,
+    "bytes": 343649
+  },
+  {
+    "file": "esi_release_2016_01.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_01_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  },
+  {
+    "file": "esi_release_2016_02.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_02_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  },
+  {
+    "file": "esi_release_2016_04.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_04_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  },
+  {
+    "file": "esi_release_2016_05.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_05_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  },
+  {
+    "file": "esi_release_2016_07.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_07_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  },
+  {
+    "file": "esi_release_2016_08.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_08_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  },
+  {
+    "file": "esi_release_2016_10.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_10_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  },
+  {
+    "file": "esi_release_2016_11.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/2016/bcs_2016_11_en.pdf",
+    "ok": false,
+    "bytes": 68311
+  }
+]

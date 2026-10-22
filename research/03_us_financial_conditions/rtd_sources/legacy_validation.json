@@ -1,0 +1,22 @@
+[
+  {
+    "series": "esi",
+    "vintages": 168,
+    "nonempty_vintages": 155,
+    "records": 47303,
+    "earliest_vintage": "200101",
+    "latest_vintage": "201412",
+    "geography": "policy concept of the euro area in each vintage; NOT fixed EA20",
+    "public_release_day_verified": false
+  },
+  {
+    "series": "gdp",
+    "vintages": 168,
+    "nonempty_vintages": 168,
+    "records": 9737,
+    "earliest_vintage": "200101",
+    "latest_vintage": "201412",
+    "geography": "policy concept of the euro area in each vintage; NOT fixed EA20",
+    "public_release_day_verified": false
+  }
+]

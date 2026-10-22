@@ -1,0 +1,17 @@
+{
+  "rounded_GDP_scenarios": 144,
+  "maximum_full_sample_mean_loss_change": 5.0595961661237254e-05,
+  "all_public_calendar_checks": true,
+  "all_training_cutoff_checks": true,
+  "all_target_maturity_checks": true,
+  "all_forecasts_finite": true,
+  "source_tables_visually_checked": [
+    "eb202204 table2.1 p153 and table2.6 p157",
+    "eb202302 table2.6 p126",
+    "eb202304 table2.6 p125",
+    "eb202506 table2.6 p120"
+  ],
+  "primary_decision": "GO: write diploma and an applied replication/extension article; no stable NFCI superiority established; no publication guarantee",
+  "GDP_lag_actual_release_dates_verified": 59,
+  "ESI_actual_monthly_release_dates_verified": 118
+}

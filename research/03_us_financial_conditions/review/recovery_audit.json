@@ -1,0 +1,318 @@
+[
+  {
+    "file": "thesis_us_financial_conditions_09/LITERATURE_UPDATE.md",
+    "status": "CRC_OK",
+    "bytes": 7250
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/README.md",
+    "status": "CRC_OK",
+    "bytes": 4979
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/TOPIC_AND_PLAN.md",
+    "status": "CRC_OK",
+    "bytes": 13649
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch1.json",
+    "status": "CRC_OK",
+    "bytes": 1052
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch2.json",
+    "status": "CRC_OK",
+    "bytes": 1057
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch3.json",
+    "status": "CRC_OK",
+    "bytes": 918
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch4.json",
+    "status": "CRC_OK",
+    "bytes": 347
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch5.json",
+    "status": "CRC_OK",
+    "bytes": 379
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch6.json",
+    "status": "CRC_OK",
+    "bytes": 499
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch7.json",
+    "status": "CRC_OK",
+    "bytes": 128
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/batch8.json",
+    "status": "CRC_OK",
+    "bytes": 89
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/build_catalog.py",
+    "status": "CRC_OK",
+    "bytes": 12560
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/MISSING_FULL_TEXTS.md",
+    "status": "CRC_OK",
+    "bytes": 1595
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/READING_CATALOG.md",
+    "status": "CRC_OK",
+    "bytes": 42353
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/S27_reading_extract.txt",
+    "status": "CRC_OK",
+    "bytes": 9646
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch1_results.json",
+    "status": "CRC_OK",
+    "bytes": 9932
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch2_results.json",
+    "status": "CRC_OK",
+    "bytes": 10481
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch3_results.json",
+    "status": "CRC_OK",
+    "bytes": 5863
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch4_results.json",
+    "status": "CRC_OK",
+    "bytes": 902
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch5_results.json",
+    "status": "CRC_OK",
+    "bytes": 3407
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch6_results.json",
+    "status": "CRC_OK",
+    "bytes": 5177
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch7_results.json",
+    "status": "CRC_OK",
+    "bytes": 2340
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/batch8_results.json",
+    "status": "CRC_OK",
+    "bytes": 248
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/download_attempts.json",
+    "status": "CRC_OK",
+    "bytes": 46017
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/inherited_results.json",
+    "status": "CRC_OK",
+    "bytes": 7485
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/pdf_integrity.json",
+    "status": "CRC_OK",
+    "bytes": 9583
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/references.bib",
+    "status": "CRC_OK",
+    "bytes": 13193
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/catalog/registry.json",
+    "status": "CRC_OK",
+    "bytes": 83154
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/consensus/initial_search_fetch.json",
+    "status": "CRC_OK",
+    "bytes": 33534
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/consensus/nfci_methodology.json",
+    "status": "CRC_OK",
+    "bytes": 25041
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/consensus/second_fetch.json",
+    "status": "CRC_OK",
+    "bytes": 5673
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/consensus/spillovers.json",
+    "status": "CRC_OK",
+    "bytes": 31657
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/download.py",
+    "status": "CRC_OK",
+    "bytes": 1169
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/manifest.json",
+    "status": "CRC_OK",
+    "bytes": 8982
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S01.pdf",
+    "status": "CRC_OK",
+    "bytes": 1766785
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S02.pdf",
+    "status": "CRC_OK",
+    "bytes": 2154763
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S03.pdf",
+    "status": "CRC_OK",
+    "bytes": 874851
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S04.pdf",
+    "status": "CRC_OK",
+    "bytes": 1083954
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S06.pdf",
+    "status": "CRC_OK",
+    "bytes": 2302061
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S07.pdf",
+    "status": "CRC_OK",
+    "bytes": 2362043
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S08.pdf",
+    "status": "CRC_OK",
+    "bytes": 1522217
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S11.pdf",
+    "status": "CRC_OK",
+    "bytes": 600225
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S12.pdf",
+    "status": "CRC_OK",
+    "bytes": 6020112
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S13.pdf",
+    "status": "CRC_OK",
+    "bytes": 3095177
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S14.pdf",
+    "status": "CRC_OK",
+    "bytes": 2175306
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S15.pdf",
+    "status": "CRC_OK",
+    "bytes": 655064
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S16.pdf",
+    "status": "CRC_OK",
+    "bytes": 6355575
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S17.pdf",
+    "status": "CRC_OK",
+    "bytes": 4841005
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S18.pdf",
+    "status": "CRC_OK",
+    "bytes": 742116
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S20.pdf",
+    "status": "CRC_OK",
+    "bytes": 2060914
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S21.pdf",
+    "status": "CRC_OK",
+    "bytes": 556804
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S23.pdf",
+    "status": "CRC_OK",
+    "bytes": 1207980
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S24.pdf",
+    "status": "CRC_OK",
+    "bytes": 3438343
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S25.pdf",
+    "status": "CRC_OK",
+    "bytes": 940211
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S26.pdf",
+    "status": "CRC_OK",
+    "bytes": 584604
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S27.pdf",
+    "status": "CRC_OK",
+    "bytes": 4828678
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S28.pdf",
+    "status": "CRC_OK",
+    "bytes": 1453530
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S29.pdf",
+    "status": "CRC_OK",
+    "bytes": 1371625
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S30.pdf",
+    "status": "CRC_OK",
+    "bytes": 6451295
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S31.pdf",
+    "status": "CRC_OK",
+    "bytes": 1077064
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S33.pdf",
+    "status": "CRC_OK",
+    "bytes": 730217
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/papers/S34.pdf",
+    "status": "CRC_OK",
+    "bytes": 2316010
+  },
+  {
+    "file": "thesis_us_financial_conditions_09/previous_stage/growth_at_risk_08_esi_models.zip",
+    "status": "TRUNCATED",
+    "expected": 20575313,
+    "available": 19418558
+  }
+]

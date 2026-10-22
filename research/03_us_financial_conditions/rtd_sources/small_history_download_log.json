@@ -1,0 +1,26 @@
+[
+  {
+    "file": "esi_one_history.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/M.S0.S.Y_ESIND.F?includeHistory=true&startPeriod=2020-01&endPeriod=2020-01&format=csvdata",
+    "bytes": 9435,
+    "snippet": "KEY,FREQ,REF_AREA,ADJUSTMENT,RT_ECON_CONCEPT,RT_DENOM,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,UNIT_PRICE_BASE,AGG_EQUN,COMPILATION,COVERAGE,DECIMALS,SOURCE_AGENCY,SOURCE_DETAIL,TITLE,TITLE_COMPL,UNIT,UNIT_MULT,ACTION,VALID_FROM,VALID_TO\r\nRTD.M.S0.S.Y_ESIND.F,M,S0,S,Y_ESIND,F,2020-01,102.6,A,F,,,P1M,B,,,ECS.M.I10.S.4D1.ESI000.TT,,,Long-term average = 100,,,\"See <a class=\"\"external\"\" href=\"\"http://sdw.ecb.europa.eu/web/generator/docu/rtdb_docu.pdf\"\"> notes</a>; block Monthly; series: FN\",,1,4D1,,Economic sentiment indicator,Euro area (moving concept in the Real Time database context) - Economic Sentiment Indicator - Percentage,UNITS,0,Replace,2020-03-11T15:30:00.000+01:00,\r\nRTD.M.S0.S.Y_ESIND.F,M,S0,S,Y_ESIND,F,2020-01,103.2,A,F,,,P1M,B,,,ECS.M.I10.S.4D1.ESI000.TT,,,Long-term average = 100,,,\"See <a class=\"\"external\"\" href=\"\"http://sdw.ecb.europa.eu/web/generator/docu/rtdb_docu.pdf\"\"> notes</a>; block Monthly; series: FN\",,1,4D1,,Economic sentiment indicator,Euro area (moving concept in the Real Time database context) - Economic Sentiment Indicator - Percentage,UNITS,0,Replace,2021-03-10T15:30:00.000+01:00,\r\nRTD.M.S0.S.Y_ESIND.F,M,S0,S,Y_ESIND,F,2020-01,102.9,A,F,,,"
+  },
+  {
+    "file": "gdp_one_history.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/Q.S0.S.G_GDPM_TO_C.E?includeHistory=true&startPeriod=2020-Q1&endPeriod=2020-Q1&format=csvdata",
+    "bytes": 23179,
+    "snippet": "KEY,FREQ,REF_AREA,ADJUSTMENT,RT_ECON_CONCEPT,RT_DENOM,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,UNIT_PRICE_BASE,AGG_EQUN,COMPILATION,COVERAGE,DECIMALS,SOURCE_AGENCY,SOURCE_DETAIL,TITLE,TITLE_COMPL,UNIT,UNIT_MULT,ACTION,VALID_FROM,VALID_TO\r\nRTD.Q.S0.S.G_GDPM_TO_C.E,Q,S0,S,G_GDPM_TO_C,E,2020-Q1,2736967.99098,A,F,,,P3M,S,,,MNA.Q.Y.I10.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.LR.N,,,,,,\"See <a class=\"\"external\"\" href=\"\"http://sdw.ecb.europa.eu/web/generator/docu/rtdb_docu.pdf\"\"> notes</a>; block Quarterly; series: BM\",,2,,,\"Gross domestic product at market prices, volume\",Euro area (moving concept in the Real Time database context) - Gross domestic product at market price - Chain linked volumes - Euro,EUR,6,Replace,2020-04-29T15:30:00.000+02:00,\r\nRTD.Q.S0.S.G_GDPM_TO_C.E,Q,S0,S,G_GDPM_TO_C,E,2020-Q1,2739122.46263,A,F,,,P3M,S,,,MNA.Q.Y.I10.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.LR.N,,,,,,\"See <a class=\"\"external\"\" href=\"\"http://sdw.ecb.europa.eu/web/generator/docu/rtdb_docu.pdf\"\"> notes</a>; block Quarterly; series: BM\",,2,,,\"Gross domestic product at market prices, volume\",Euro area (moving concept in the Real Time database context) - Gross domestic product at market price - Chain linked vol"
+  },
+  {
+    "file": "ciss_one_history.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/CISS/D.U2.Z0Z.4F.EC.SS_CIN.IDX?includeHistory=true&startPeriod=2020-01-06&endPeriod=2020-01-06&format=csvdata",
+    "bytes": 796,
+    "snippet": "KEY,FREQ,REF_AREA,CURRENCY,PROVIDER_FM,INSTRUMENT_FM,PROVIDER_FM_ID,DATA_TYPE_FM,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,FM_CONTRACT_TIME,FM_COUPON_RATE,FM_IDENTIFIER,FM_LOT_SIZE,FM_MATURITY,FM_OUTS_AMOUNT,FM_PUT_CALL,FM_STRIKE_PRICE,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,SOURCE_AGENCY,SOURCE_PUB,TITLE,TITLE_COMPL,UNIT,UNIT_MULT,ACTION,VALID_FROM,VALID_TO\r\nCISS.D.U2.Z0Z.4F.EC.SS_CIN.IDX,D,U2,Z0Z,4F,EC,SS_CIN,IDX,2020-01-06,0.019691202047705452,A,F,,,P1D,,V,,,,,,,,,,,,,,,,,4,4F0,,NEW CISS - Composite Indicator of Systemic Stress.,\"Euro area (changing composition), New Composite Indicator of Systemic Stress (CISS), Index\",PURE_NUMB,0,Replace,2026-10-01T09:15:45.000+02:00,\r\n"
+  },
+  {
+    "file": "ciss_old_one_history.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/CISS/D.U2.Z0Z.4F.EC.SS_CI.IDX?includeHistory=true&startPeriod=2010-01-08&endPeriod=2010-01-08&format=csvdata",
+    "bytes": 761,
+    "snippet": "KEY,FREQ,REF_AREA,CURRENCY,PROVIDER_FM,INSTRUMENT_FM,PROVIDER_FM_ID,DATA_TYPE_FM,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,FM_CONTRACT_TIME,FM_COUPON_RATE,FM_IDENTIFIER,FM_LOT_SIZE,FM_MATURITY,FM_OUTS_AMOUNT,FM_PUT_CALL,FM_STRIKE_PRICE,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,COMPILATION,COVERAGE,DECIMALS,SOURCE_AGENCY,SOURCE_PUB,TITLE,TITLE_COMPL,UNIT,UNIT_MULT,ACTION,VALID_FROM,VALID_TO\r\nCISS.D.U2.Z0Z.4F.EC.SS_CI.IDX,D,U2,Z0Z,4F,EC,SS_CI,IDX,2010-01-08,0.2944,A,F,,,P1D,,V,,,,,,,,,,,,,,,,,4,4F0,,CISS - Composite Indicator of Systemic Stress,\"Euro area (changing composition), Systemic Stress Composite Indicator, Index\",PURE_NUMB,0,Replace,2025-01-13T17:31:25.000+01:00,\r\n"
+  }
+]

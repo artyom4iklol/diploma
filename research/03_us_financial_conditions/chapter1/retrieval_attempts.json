@@ -1,0 +1,25 @@
+[
+  {
+    "name": "S05_Souza_thesis.pdf",
+    "url": "https://tesisenred.net/bitstream/handle/10803/672997/tabms.pdf?isAllowed=y&sequence=1",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "name": "S22_candidate.pdf",
+    "url": "https://citeseerx.ist.psu.edu/document?doi=07b14f69099d1fdab8f09ff4e4155f379a5fcd8d&repid=rep1&type=pdf",
+    "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+    "name": "S22_UW_page.html",
+    "url": "https://stat.uw.edu/research/tech-reports/comparing-density-forecasts-using-threshold-and-quantile-weighted-scoring-rules",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "url": "https://www.tesisenred.net/bitstream/handle/10803/672997/tabms.pdf",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "url": "https://www.tdx.cat/bitstream/handle/10803/672997/tabms.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

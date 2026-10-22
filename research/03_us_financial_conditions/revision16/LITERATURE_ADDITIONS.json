@@ -1,0 +1,126 @@
+[
+  {
+    "id": "S35",
+    "author": "Miranda-Agrippino, Silvia and Rey, Helene",
+    "year": "2020",
+    "title": "U.S. Monetary Policy and the Global Financial Cycle",
+    "journal": "Review of Economic Studies",
+    "doi": "10.1093/restud/rdaa019",
+    "url": "https://doi.org/10.1093/restud/rdaa019",
+    "version": "NBER WP21722, revised March2019",
+    "source_file": "Miranda_Rey_NBER21722.pdf",
+    "full_text_status": "PDF downloaded; abstract introduction and relevant mechanism sections examined",
+    "retrieved_via": [
+      "Consensus",
+      "official NBER source"
+    ],
+    "review_date": "2026-10-15",
+    "review_card": "revision16/INTERNATIONAL_MECHANISM.md",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "sha256": "a9411fb989b535c04a8aabcc1c06c5daceea9fca0fa52c24d2495013bdabbb15",
+    "file": "revision16/sources/Miranda_Rey_NBER21722.pdf",
+    "read_status": "PDF downloaded; abstract introduction and relevant mechanism sections examined",
+    "review_stage": "16",
+    "full_text": {
+      "status": "downloaded",
+      "file": "revision16/sources/Miranda_Rey_NBER21722.pdf",
+      "source_url": "https://doi.org/10.1093/restud/rdaa019",
+      "version": "NBER WP21722, revised March2019",
+      "sha256": "a9411fb989b535c04a8aabcc1c06c5daceea9fca0fa52c24d2495013bdabbb15",
+      "retrieved_at": "2026-10-15"
+    }
+  },
+  {
+    "id": "S36",
+    "author": "Kaufmann, Christoph",
+    "year": "2020",
+    "title": "Investment funds, monetary policy, and the global financial cycle",
+    "journal": "ECB Working Paper2489, revised December2022",
+    "doi": "",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2489~26b7eca600.en.pdf",
+    "version": "ECB WP2489 revisedDecember2022; same work as SSRN2021 record",
+    "source_file": "Kaufmann_ECB2489.pdf",
+    "full_text_status": "PDF downloaded; nontechnical summary and relevant introduction sections examined",
+    "retrieved_via": [
+      "Consensus",
+      "Undermind",
+      "official primary sources"
+    ],
+    "review_date": "2026-10-15",
+    "review_card": "revision16/INTERNATIONAL_MECHANISM.md",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "sha256": "5080226b3d50d97b60b5136e4affbfd8eeb5cd150b4565349c73dd151d2f11c4",
+    "file": "revision16/sources/Kaufmann_ECB2489.pdf",
+    "read_status": "PDF downloaded; nontechnical summary and relevant introduction sections examined",
+    "review_stage": "16",
+    "full_text": {
+      "status": "downloaded",
+      "file": "revision16/sources/Kaufmann_ECB2489.pdf",
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2489~26b7eca600.en.pdf",
+      "version": "ECB WP2489 revisedDecember2022; same work as SSRN2021 record",
+      "sha256": "5080226b3d50d97b60b5136e4affbfd8eeb5cd150b4565349c73dd151d2f11c4",
+      "retrieved_at": "2026-10-15"
+    }
+  },
+  {
+    "id": "S37",
+    "author": "Habib, Maurizio Michael and Venditti, Fabrizio",
+    "year": "2018",
+    "title": "The global financial cycle: implications for the global economy and the euro area",
+    "journal": "ECB Economic Bulletin6/2018",
+    "doi": "",
+    "url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2018/html/ecb.ebart201806_01.en.html",
+    "version": "official full HTML",
+    "source_file": "Habib_Venditti_2018.html",
+    "full_text_status": "Full HTML saved; section4 and conclusions examined",
+    "retrieved_via": [
+      "Undermind",
+      "official ECB source"
+    ],
+    "review_date": "2026-10-15",
+    "review_card": "revision16/INTERNATIONAL_MECHANISM.md",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "sha256": "52849722ba4adf40fd78eff40a5a5b01469fa3a270f9471dd59cb40b26ed3b0d",
+    "file": "revision16/sources/Habib_Venditti_2018.html",
+    "read_status": "Full HTML saved; section4 and conclusions examined",
+    "review_stage": "16",
+    "full_text": {
+      "status": "html_saved",
+      "file": "revision16/sources/Habib_Venditti_2018.html",
+      "source_url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2018/html/ecb.ebart201806_01.en.html",
+      "version": "official full HTML",
+      "sha256": "52849722ba4adf40fd78eff40a5a5b01469fa3a270f9471dd59cb40b26ed3b0d",
+      "retrieved_at": "2026-10-15"
+    }
+  },
+  {
+    "id": "S38",
+    "author": "Bruno, Valentina and Shin, Hyun Song",
+    "year": "2015",
+    "title": "Cross-Border Banking and Global Liquidity",
+    "journal": "Review of Economic Studies82(2),535-564",
+    "doi": "",
+    "url": "https://www.bis.org/publications/working-paper-458-cross-border-banking-and-global-liquidity",
+    "version": "BIS WP458 August2014; journal2015 same work",
+    "source_file": "Bruno_Shin_BIS458.pdf",
+    "full_text_status": "PDF downloaded; abstract and introduction PDF pages3-7 examined",
+    "retrieved_via": [
+      "official BIS source"
+    ],
+    "review_date": "2026-10-15",
+    "review_card": "revision16/INTERNATIONAL_MECHANISM.md",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "file": "revision16/sources/Bruno_Shin_BIS458.pdf",
+    "sha256": "96d1a2caf837c00d42ef304c646900364590a645b1c26b33b1fe4dfc46960215",
+    "read_status": "PDF downloaded; abstract and introduction PDF pages3-7 examined",
+    "review_stage": "16",
+    "full_text": {
+      "status": "downloaded",
+      "file": "revision16/sources/Bruno_Shin_BIS458.pdf",
+      "source_url": "https://www.bis.org/publications/working-paper-458-cross-border-banking-and-global-liquidity",
+      "version": "BIS WP458 August2014; journal2015 same work",
+      "sha256": "96d1a2caf837c00d42ef304c646900364590a645b1c26b33b1fe4dfc46960215",
+      "retrieved_at": "2026-10-15"
+    }
+  }
+]

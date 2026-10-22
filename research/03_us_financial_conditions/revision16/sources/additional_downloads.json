@@ -1,0 +1,20 @@
+[
+  {
+    "file": "esi_archive_before2016.html",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/archive_publications/index_en.htm",
+    "ok": true,
+    "bytes": 376092
+  },
+  {
+    "file": "esi_press_archive.html",
+    "url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/press-releases_en",
+    "ok": true,
+    "bytes": 620516
+  },
+  {
+    "file": "ciss_data_information.html",
+    "url": "https://data.ecb.europa.eu/data/datasets/ciss/data-information",
+    "ok": true,
+    "bytes": 63522
+  }
+]

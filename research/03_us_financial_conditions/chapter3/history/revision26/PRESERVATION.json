@@ -1,0 +1,16 @@
+{
+  "baseline": "revision25",
+  "baseline_files": 797,
+  "unchanged_before_manifest_update": 795,
+  "changed_old_files_before_manifest_update": [
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "missing_files": [],
+  "expected_final_changed_old_files": [
+    "README.md",
+    "CHANGELOG.md",
+    "MANIFEST_SHA256.json"
+  ],
+  "chapters_1_2_and_previous_data_code_articles_unchanged": true
+}

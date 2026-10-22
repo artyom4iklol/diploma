@@ -1,0 +1,2261 @@
+
+PAGE 1
+ 
+Working Paper Series 
+What drives euro area financial 
+markets? The role of US spillovers 
+and global risk 
+Revised March 2026 
+ 
+Lennart Brandt, Arthur Saint Guilhem, 
+Maximilian Schröder, Ine Van Robays 
+Disclaimer: This paper should not be reported as representing the views of the European Central Bank 
+(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB.  
+No 2560 / May 2021 
+
+PAGE 2
+Abstract
+Understanding euro area ﬁnancial market dynamics requires looking beyond bor-
+ders. We introduce a novel Bayesian structural VAR model designed to jointly
+estimate the main drivers of euro area ﬁnancial asset prices on a daily basis. The
+model explicitly accounts for transatlantic spillovers and the distinctive inﬂuence
+of the United States, particularly through its monetary policy and its role as a
+safe haven during periods of heightened risk aversion. The results show that euro
+area ﬁnancial markets are inﬂuenced by a complex interplay of domestic factors,
+US inﬂuences, and global risk shocks, which can either amplify or mitigate ﬁnancial
+dynamics at home. These signiﬁcant spillovers can pose substantial challenges for
+monetary policy, particularly amidst economic and monetary policy divergence.
+Keywords: International spillovers, ﬁnancial markets, global risk, monetary pol-
+icy, Structural VAR.
+JEL Codes: C32, C54, E44, E52.
+ECB Working Paper Series No 2560 1
+
+PAGE 3
+Non-technical summary 
+Monetary policy makers closely monitor fluctuations in financial asset prices in search for 
+signals on monetary policy transmission and the expected dynamics of the economy. It is well-
+established that asset prices contain a rich set of information; they react in real time to economic 
+news as market participants price in their revised expectations and hint at the effects of these 
+on growth and inflation going forward.  
+The difficulty in extracting information from asset prices in real time is that these are  jointly 
+determined by a multitude of factors. Economic shocks do not occur in isolation and often steer 
+financial variables in different directions, hence blurring their signalling content. In addition, 
+financial conditions are not only driven by domestic  developments but also by foreign spill -
+overs, reflecting in particular the dominant role of the US economy in global financial markets. 
+The safe haven status of US dollar -denominated assets implies that US asset prices  are also 
+susceptible to shifts in global risk sentiment, with the latter taking centre stage during periods 
+of heightened market uncertainty such as observed during the COVID-19 pandemic. When 
+extracting information from financial market developments, it is therefore crucial to allow for 
+spillovers from the major financial centres, while also accounting for the unique role of US 
+dollar-denominated assets in shaping global financial market dynamics.   
+Disentangling the drivers of financial asset prices can provide relevant insights into the 
+interpretation of financial market developments, as the transmission of any given movement in 
+financial variables to the economy might differ depending on its underlying driver. For 
+example, a decline in long -term interest rates due to accommodative monetary  policy can be 
+associated with very different economic outcomes compared to when yields decline because of 
+adverse macroeconomic news. The fact that shock  dependence matters has been well 
+documented in the literature on exchange rate passthrough, for examp le, but it applies to 
+financial asset prices more generally.  
+The contribution of this paper is twofold. First, we propose an empirical framework to jointly 
+decompose daily movements in euro area and US financial asset prices into several key 
+underlying drivers – euro area and US monetary policy, euro area and US domestic macro risk, 
+ECB Working Paper Series No 2560 
+2
+
+PAGE 4
+and global risk – based on an identification approach that exploits the information content of 
+daily co -movements in asset prices. A novelty of our paper is that we explicitly allow for 
+spillovers between the euro area and the US while at the same time accounting for the potential 
+importance of global risk shocks. The main aim is to offer a high-frequency and comprehensive 
+assessment of the drivers of financial conditions , which  proves especially useful for policy 
+makers to understand  the underlying economic dynamics  and the impact of their policies in 
+“real time”. 
+Our findings first show that both US spillovers and global risk shocks are indeed important 
+drivers of euro area ass et prices and need to be duly accounted for when assessing daily euro 
+area financial market movements. In comparison, euro area shocks are found to be less relevant 
+for US daily financial market movements. Instead, shifts in global risk sentiment determine an 
+important part of the dynamics in US risk-free yields and the US dollar, consistent with its safe-
+haven status. We extensively test the performance of our model and find that our identified 
+drivers have a clear economic interpretation, behave as expected following important narrative 
+events and correlate strongly with alternative market -based measures commonly used by 
+market participants to assess policy and risk factors.  
+Second, we show that the information extracted from the daily co-movement in financial asset 
+prices carries over to macroeconomic aggregates at lower frequencies. In other words, daily 
+financial markets developments are informative on the growth and inflation outlook. We find 
+that, depending on the mix of drivers underlying financial market developments, the 
+transmission to the macroeconomy can differ substantially – which underlines the importance 
+of understanding what drives financial market developments in the first place.  
+ECB Working Paper Series No 2560 
+3
+
+PAGE 5
+1 Introduction
+Monetary policy makers closely monitor daily ﬂuctuations in ﬁnancial asset prices such
+as bond yields, stock prices and exchange rates in search for signals on the underlying
+expected dynamics of the economy. Asset prices contain a rich set of information; they
+react in real time to economic news and hint at how markets assess the eﬀect of recent
+news or policy decisions on growth and inﬂation.
+At the same time, extracting information from asset prices in real time is challenging;
+economic shocks do not occur in isolation and can steer asset prices in diﬀerent directions,
+blurring their signalling content. Euro area ﬁnancial markets are also largely driven by
+international factors, which adds to the complexity. Two particularly important sources
+of global impulses have been documented in the literature.
+First, many studies have documented the importance of US monetary policy spillovers
+(Bruno and Shin, 2015; Dedola et al., 2017; Ca’Zorzi et al., 2023; Jaroci´ nski,2022; Buch
+et al., 2019), reﬂecting the central role of US monetary policy in steering the global
+ﬁnancial cycle (Miranda-Agrippino and Rey, 2020; Gourinchas and Rey, 2022) and the
+dominant role of the US dollar in the international monetary system (Maggiori et al.,
+2019; Ilzetzki et al., 2019; Boz et al., 2022). US developments aﬀect economic conditions
+abroad through various channels, including demand, the exchange rate and ﬁnancial
+linkages. As a result not only US monetary policy shocks but also news about the US
+economy can inﬂuence global ﬁnancial markets (Albuquerque and Vega, 2009; Pinchetti
+and Szczepaniak, 2023).
+Second, global ﬁnancial markets are vulnerable to sudden shifts in global risk senti-
+ment, as shown by the global ﬁnancial crisis of 2008 and the outbreak of the COVID-19
+pandemic in 2020. During such episodes, global investors typically rotate from risky into
+safe assets amid heightened global risk aversion, which aﬀects the pricing of ﬁnancial
+assets globally (Baele et al., 2020; Ahmed, 2023). The safe haven status of US dollar-
+denominated assets implies that the US dollar and US Treasury yields are particularly
+susceptible to shifts in global risk sentiment (Habib and Stracca, 2012; Fatum and Ya-
+mamoto, 2016; Georgiadis et al., 2024; Bodenstein et al., 2023), which in turn can aﬀect
+asset pricing in the euro area.
+To gauge the driving forces behind euro area ﬁnancial markets, it is important to
+ECB Working Paper Series No 2560 
+4
+
+PAGE 6
+jointly account for the eﬀects of these two types of shocks – US-speciﬁc shocks and global
+risk shocks. The academic literature so far has mostly evaluated these in isolation. This
+leaves open the question of their relative importance, which is key to understand the
+policy implications of a given change in ﬁnancial conditions. For instance, a decline in
+euro area interest rates is likely to exert very diﬀerent eﬀects depending on whether it
+reﬂects a domestic monetary policy easing, negative macroeconomic news, spillovers from
+US monetary policy accommodation, or heightened global risk aversion. 1 Disentangling
+these diﬀerent drivers of ﬁnancial market movements in a simultaneous way is therefore
+an important endeavour for monetary policy makers and central bankers at large.
+To address this challenge, this paper proposes a parsimonious uniﬁed framework that
+allows separating daily movements of key euro area ﬁnancial variables into their under-
+lying drivers, while accounting for the unique role of the US in shaping global ﬁnancial
+market dynamics. The primary goal of the model is to provide a real-time evaluation of
+what steers key euro area asset prices on a daily basis. We stand out from prior research
+by explicitly considering international channels2 and integrating various driving factors in
+one common framework3, which allows us to untangle their relative importance. In addi-
+tion, our approach departs from the high frequency literature identifying monetary policy
+shocks in a narrow time interval around monetary policy announcements (e.g. Jaroci´ nski
+and Karadi, 2020), in that we identify euro area and US shocks on a continuous, daily
+basis, aligning with the frequency at which market participants adjust their perception of
+the macroeconomic and policy outlook. This broader approach has the beneﬁt of captur-
+ing anticipation eﬀects of monetary policy, which play a pivotal role in the transmission
+of monetary policy to ﬁnancial conditions (Cao et al., 2013). It also allows capturing
+1The fact that shock-dependence matters for the interpretation of changes in asset prices has been
+documented in the literature on exchange rate pass-through (Forbes et al., 2018), for instance, but it
+applies to ﬁnancial asset prices more generally.
+2For example, Matheson and Stavrev (2014) estimate a daily BVAR model for US yields and stock
+prices based on sign restrictions exploiting cross-asset price movements. Compared to them, we ex-
+tend the model to a two-country euro area/US framework including not only bond yields and equity
+prices but also the bilateral USD/EUR exchange rate. Additionally, we build on the role of US dollar-
+denominated assets as safe haven assets for global investors to identify a new important source of daily
+market movements; the so-called “global risk” factor.
+3For example, Ca’Zorzi et al. (2023) compare the international transmission of euro area and US
+monetary policy shocks relying on “pure” monetary policy shocks which are identiﬁed in a narrow time
+window and purged for central bank information eﬀects following Jaroci´ nski and Karadi(2020). Our
+paper diﬀers by simultaneously identifying macro, monetary policy and global risk shocks, which provide
+a more comprehensive picture of the relative importance of monetary policy shocks in driving ﬁnancial
+markets.
+ECB Working Paper Series No 2560 
+5
+
+PAGE 7
+changes in the perception of market investors on the monetary policy stance which hap-
+pen on non-meeting days (Jayawickrema and Swanson, 2021; Bauer and Swanson, 2023).
+Our identiﬁcation leads to an interpretation of monetary policy shocks that is broader
+and more general than in the standard high frequency literature, in essence capturing the
+continuous repricing by markets of monetary policy expectations, similar to Cieslak and
+Pang (2021). Despite these diﬀerences, however, we ﬁnd that our estimated monetary
+policy shocks co-move signiﬁcantly with estimates from the high-frequency literature on
+the days when a monetary policy announcement takes place. We also ﬁnd that realiza-
+tions of our monetary policy shocks are signiﬁcantly larger on monetary policy meeting
+days than on non-meeting days.
+In a ﬁrst step, we set up a Bayesian Vector Autoregression (BVAR) model at daily
+frequency that identiﬁes ﬁve diﬀerent drivers of asset price ﬂuctuations: euro area and
+US monetary policy, euro area and US domestic macro news, and global risk. We rely
+on an identiﬁcation approach based on sign and magnitude restrictions following Arias
+et al. (2018), exploiting the information content of daily co-movements in risk-free yields,
+equity prices and the US dollar-euro exchange rate. The key novelty is that we explicitly
+allow for simultaneous spillovers between the euro area and the US and account for
+the potential importance of global risk in driving ﬁnancial markets on both sides of
+the Atlantic. This contrasts our approach from the literature on international spillovers
+of monetary policy shocks that leverages high frequency information in proxy-SVARs
+(Degasperi et al., 2024; Miranda-Agrippino and Nenova, 2022) or by a combination of
+high frequency policy proxies and traditional sign restrictions (Cesa-Bianchi and Sokol,
+2022). In particular, Cesa-Bianchi and Sokol (2022) disentangle domestic and foreign
+dynamics by ruling out spillovers from the domestic to the foreign economy with zero
+restrictions, whereas we allow for simultaneous international spillovers by imposing softer
+magnitude restrictions. This oﬀers a complementary perspective on the identiﬁcation of
+international spillovers and cross-country shocks. We extensively test the performance of
+our model by benchmarking its interpretation of daily ﬁnancial market movements against
+our knowledge of clear narrative events, and by comparing the estimated structural shocks
+with other established standards from the literature. In a second step, we use our set
+of daily shocks as econometric instruments in a monthly proxy structural VAR model,
+following Gertler and Karadi (2015), Mertens and Ravn (2013), Stock and Watson(2012),
+ECB Working Paper Series No 2560 
+6
+
+PAGE 8
+and particularly Caldara and Herbst (2019). We use this monthly model to assess how
+daily ﬁnancial dynamics carry over to the real economy, and to illustrate why it matters
+to diﬀerentiate between diﬀerent drivers of ﬁnancial variables in the ﬁrst place.
+Two sets of results are worth highlighting. First, to grasp the daily shifts in the set of
+key ﬁnancial variables that we consider, it is essential to account for the US inﬂuence and
+the impact of global risk. Our results show that spillovers from the US and changes in
+global risk aversion can explain close to half of the average variation in selected asset prices
+in the euro area. This large eﬀect of foreign forces might pose challenges for domestic
+policy makers. At times, these spillover eﬀects might align with the intended direction
+set by domestic monetary policy. But there might be instances when these spillovers
+push asset prices in the opposite direction, and policymakers are faced with the decision
+to counteract these or not. While US spillovers explain a large part of dynamics in euro
+area ﬁnancial markets, euro area shocks are found less relevant for US ﬁnancial markets.
+Instead, shifts in global risk sentiment determine a larger part of the US ﬁnancial market
+dynamics, consistent with its safe haven role.
+The second key ﬁnding is that daily movements in ﬁnancial markets provide valuable
+information about broader, longer-term expectations for economic growth and inﬂation.
+Our proxy VAR results show that the way ﬁnancial markets aﬀect the overall economy
+can vary signiﬁcantly based on the combination of factors driving their developments.
+This implies that for policymakers, breaking down signals from daily ﬁnancial market
+indicators is particularly relevant; it provides a crucial signal on expected core economic
+trends and insights into how monetary policy is being transmitted to the real economy.
+The remainder of the paper proceeds as follows. The next section explains the setup
+of the daily Bayesian VAR model, the data and the sign restriction identiﬁcation scheme,
+while subsection 2.5 empirically evaluates the validity of the model set-up. Section 3 re-
+views the main empirical results, focusing on the factors driving euro area ﬁnancial mar-
+kets since the inception of the euro with particular attention to cross-Atlantic spillovers
+and global risk shocks. It then assesses the transmission of the identiﬁed shocks to the real
+economy using a proxy VAR model which is described in Section 4. Section 5 concludes.
+ECB Working Paper Series No 2560 
+7
+
+PAGE 9
+2 Identifying daily drivers of euro area asset prices
+2.1 A daily two-country structural VAR model
+In order to analyse the drivers of euro area ﬁnancial markets, we set up a two-country
+Structural Vector Autoregression model (SVAR) containing key asset price data for the
+euro area and the US, which we estimate using Bayesian methods. The underlying drivers
+of daily changes in these euro area and US asset prices are identiﬁed using sign restric-
+tions exploiting cross-asset price movements on the day of the shock. Using these models
+to analyse interactions at daily frequency oﬀers a number of beneﬁts to circumvent some
+of the well-documented limitations of shock identiﬁcation with low-frequency macroeco-
+nomic data. In particular, due to the rich data environment, the estimation can rely on
+rather minimalistic prior assumptions.
+Following the notation ofRubio-Ramirez et al. (2010), the structural form of the VAR
+is given by:
+y′
+tA0 =x′
+tA+ +ε′
+t (2.1)
+Here,yt is ann×1 vector of endogenous variables andxt is an (np+k)×1 vector which
+collects all pre-determined variables, that is, p lags of the endogenous variables and k
+exogenous and deterministic variables. The conformable matrices A0 andA+ capture the
+contemporaneous co-movement between endogenous variables and the VAR parameters
+of the pre-determined variables, respectively. The corresponding reduced form is given
+by
+y′
+t =x′
+tB +u′
+t (2.2)
+where, B =A+A−1
+0 and ut =ε′
+tA−1
+0 with E[utu′
+t] = Σ = (A′
+0A0)−1. For an orthonor-
+mal n×n rotation matrix, Q, (A0,A +) can alternatively be expressed as the observa-
+tionally equivalent (A0Q,A +Q). Since the set of possible orthogonal matrices is inﬁnite,
+there exists an inﬁnite number of structural models that give rise to the same observable
+data.4 However, given a speciﬁc Q, there exists a one-to-one mapping between reduced
+and structural form. Given the Cholesky-factorisation 5 of the covariance matrix of the
+residuals, we can write the reduced form in terms of the underlying structural shocks and
+4Because B = A+A−1
+0 = A+Q· Q−1A−1
+0 and Σ = A0Q· Q−1A−1
+0 ∀ Q∈O n.
+5Or any other decomposition h for which is holds that h (Σ)′ h (Σ) = Σ (Arias et al., 2018).
+ECB Working Paper Series No 2560 
+8
+
+PAGE 10
+the rotation matrix Q (Arias et al., 2018):
+y′
+t =x′
+tB +ε′
+tQ′chol(Σ) (2.3)
+Since B and Σ are exactly identiﬁed and Q uniquely links these to a valid structural
+model, Q can be used as a parsimonious way to carry theoretical restrictions on the
+structural parameters that are independent of the reduced form. In particular, these
+restrictions can be expressed as a Bayesian prior overQ that assigns zero probability mass
+to parts of the parameter space where the restrictions do not hold. This forms the basis for
+identiﬁcation. Statistics, such as impulse response functions or historical decompositions
+can be computed in a standard way. In general, however, this identiﬁcation will not be
+unique and the imposed sign restrictions will yield a set of models that is plausible under
+these sign restrictions.
+2.2 Priors and Estimation
+In the empirical exercises, we follow Arias et al. (2018) and impose a conjugate normal-
+inverse-Wishart prior on the reduced form parameters as well as a uniform prior on the
+rotation matrix, Q. The joint prior is hence given by
+p(B, Σ,Q ) =P (B, Σ)·P (Q). (2.4)
+Together with a normal likelihood this parametrisation gives rise to a so-called normal-
+generalised-normal posterior distribution over the structural parameters (A 0,A +) condi-
+tional on the restrictions imposed. Because p (B, Σ|YT ) is itself a proper posterior den-
+sity, i.e. p (B, Σ|YT )∝p (B, Σ)·p (YT|B, Σ), and because Q is not informative about
+the reduced form, i.e. the reduced from is unaﬀected by the choice of restrictions, this
+posterior is given by
+p (B, Σ,Q|YT )∝p (Q)·p (B, Σ)·p (YT|B, Σ). (2.5)
+In the empirical application, estimation is implemented with Algorithm 1 of Arias
+et al. (2018) which yields i.i.d. draws from the normal-generalised-normal posterior con-
+ditional on the set of sign restrictions. In doing so, we do not restrict the set of (A 0,A +)
+ECB Working Paper Series No 2560 
+9
+
+PAGE 11
+itself but the contemporaneous impulse response functions. Each iteration, we draw a
+naive candidate for the impulse response function which we repeatedly rotate with draws
+ofQ. If the rotated impulse response function conforms to our sign restrictions, we retain
+the draw, otherwise we discard it.
+2.3 Data
+Our set of variables comprises the 10-year euro area Overnight Index Swap (OIS), the
+EUROSTOXX price index, the US S&P 500 and the bilateral euro-US dollar exchange
+rate, as well as the spread between the 10-year euro OIS rate and 10-year US Treasury
+yield.6 We use the 10-year euro area OIS rate and US Treasury yield, as they are the
+main references for long-term risk-free rates in both jurisdictions. 7,8 Including long-term
+rates in the model, as opposed to short-term rates, allows for a broader deﬁnition of
+monetary policy shocks and might better capture shifts in risk sentiment. Regarding
+monetary policy shocks, using the 10-year yield allows capturing not only conventional
+monetary policy – which mostly aﬀects the yield curve at short to medium maturities
+– but also unconventional measures such as those deployed by the Fed following the
+Global Financial Crisis. Large-scale asset purchases have been shown to indeed exert a
+larger impact at longer maturities by compressing term premia. 9 In addition, focusing
+on longer-term risk-free rates is instrumental to identify the global risk shock, as ﬂight
+to safety episodes primarily aﬀect investors’ appetite for risk-free bonds against riskier
+assets, and the US Treasury market is the largest provider of safe, US dollar-denominated
+assets globally. Cieslak and Povala (2015) and Cieslak and Pang (2021) have shown that
+risk premium shocks more strongly aﬀect longer maturities of US Treasury bonds, moving
+6The yield and spread variables enter the model in ﬁrst diﬀerence, while stock prices and the exchange
+rate are in log-diﬀerence. All variables are at business day frequency.
+7The swap rate is the ﬁxed rate which banks engaging in swap contracts agree to pay in exchange for
+receiving the average overnight interest rate for the duration of the swap. Unlike an unsecured interbank
+loan, in which the lender is exposed to the full credit risk of the borrower, a swap contract is settled in
+notional amounts, namely without involving a physical exchange of principals, and thus it is considered
+near risk-free.
+8An alternative would be to use the 10-year German Bund as a measure of the long-term risk-free
+rate. However, given that the 10-year OIS and 10-year German Bund are tightly correlated over time,
+estimating the model with the 10-year German Bund instead of the 10-year OIS leaves the results largely
+unaﬀected.
+9The downward pressures on the term premium stem from the central bank extracting duration risk
+from the market, which is the well-documented duration channel of asset purchases. For an empirical
+assessment of the duration channel of ECB asset purchases based on a term structure model, see Eser
+et al. (2023).
+ECB Working Paper Series No 2560 
+10
+
+PAGE 12
+10-year yields more than twice as strongly as 2-year yields. The model is estimated over
+the period January 1999 – December 2023, including 4 lags of the dependent variables. 10
+2.4 Shock identiﬁcation
+Shock identiﬁcation is achieved by way of imposing sign restrictions as in Arias et al.
+(2018). Our approach consists of imposing sign restrictions on daily cross-asset price
+movements, motivated by the intuition often portrayed in market commentaries that
+these co-movements reveal information about the underlying drivers of ﬁnancial markets.
+For instance, bond yields and stock prices typically co-move positively in response to
+news about the economy and negatively in response to news related to monetary policy.
+This intuition ﬁnds strong empirical support (Rigobon and Sack, 2003; Rigobon and
+Sack, 2004; Matheson and Stavrev, 2014), and has been formalised in several papers that
+identify the contribution of monetary policy or growth shocks to yield and stock price
+reactions around monetary policy announcements. 11 The imposed sign restrictions are
+also in line with well-established closed and open economy structural model dynamics,
+such as those described in Bernanke et al. (1999) and Christiano et al. (2014) for the
+domestic shocks, and Gali and Monacelli(2005), Dedola and Lombardo(2012) and Dedola
+et al. (2013) for the cross-country spillovers.
+A crucial departure from the literature using higher frequency asset price dynamics for
+shock identiﬁcation lies in our broader framework, and this along two dimensions. First,
+we do not conﬁne the estimates to a speciﬁc narrow time window surrounding particular
+announcements, but instead allow shock identiﬁcation in “continuous time”. This is
+consistent with the observation that market-moving news, which inﬂuence perceptions on
+monetary policy or the growth outlook, unfold virtually every day. Nuances in monetary
+policy communication which move ﬁnancial markets often occur outside of these narrow
+time frames (Bauer and Swanson, 2023; Jayawickrema and Swanson, 2021), for example.
+10While our main interest is on the most recent years, we include the pre-crisis sample as a way to
+benchmark post-crisis developments vis-` a-vis “normal” times.
+11For example, Jaroci´ nski and Karadi (2020) use high-frequency co-movement of interest rates and
+stock prices around policy announcements to disentangle monetary policy surprises from central bank
+information shocks. Andrade and Ferroni (2021) use co-movements between yields and inﬂation expec-
+tations to disentangle “Odyssean” monetary policy signals from “Delphic” monetary policy surprises
+(Campbell et al., 2012). Cieslak and Schrimpf (2019) use co-movements between stock prices and bond
+yields at diﬀerent maturities to decompose asset price ﬂuctuations into monetary policy surprises, infor-
+mation (or growth) surprises and risk shocks.
+ECB Working Paper Series No 2560 
+11
+
+PAGE 13
+A second departure from this literature is that we identify multiple shocks jointly, which
+is a key contribution as it allows us to compare the relative importance of the key driving
+factors, while taking a consistent approach to identiﬁcation. 12
+Table 1 summarises the structural shock identiﬁcation scheme via sign restrictions on
+the contemporaneous impulse response functions. A “+” and “-” denote an increase or
+decrease, respectively, in the variable following a speciﬁc shock, while empty ﬁelds leave
+that response unrestricted. All restrictions are imposed on impact, reﬂecting the fact
+that markets typically react to news within the same day.
+[Table 1 roughly intended here.]
+As shown in Table 1, monetary policy shocks diﬀer from macro shocks through the
+implied co-movement between yields and stock prices; a restrictive monetary policy shock
+drives yields up and equity prices down, while a positive macro shock increases yields and
+equity prices (Matheson and Stavrev, 2014; Altavilla et al., 2019; Cieslak and Schrimpf,
+2019; Jaroci´ nski and Karadi,2020). Both shocks are assumed to aﬀect the exchange rate
+similarly, with higher domestic interest rates leading, ceteris paribus, to an appreciation
+of the domestic currency (Engel, 2014; Ca’Zorzi et al., 2023). We leave the eﬀect of a
+domestic shock on foreign equity prices unrestricted as the eﬀect is a priori ambiguous. 13
+Second, we allow for instantaneous spillovers between the euro area and the US, which
+requires to properly control for the country of origin. We address this issue by assuming
+that a domestic shock has a larger eﬀect on the domestic variable than on the foreign
+variable. In practice, we apply this magnitude restriction through the spread between
+euro area and US yields. For example, a monetary policy tightening in the US might
+put upward pressures on US and euro area yields, but as the spread of euro area over
+US rates declines, US yields will react more strongly. This contrasts our approach from
+Cesa-Bianchi and Sokol (2022) who rule out direct spillovers from the domestic to the
+foreign economy by means of stricter zero restrictions.
+Finally, a global risk shock causes investors to re-allocate their holdings of risky versus
+safe assets, which causes equity prices and bond yields to move in the same direction.
+12For shocks other than the monetary policy shocks, such as the global risk or macro shocks, deﬁning a
+narrow window around a speciﬁc event for identiﬁcation is more challenging and arguably more arbitrary.
+13News about the domestic macroeconomic outlook may drive a re-allocation from domestic risky
+assets into foreign risky assets, which all else equal would exert opposite eﬀects on domestic and foreign
+equity prices. On the other hand, positive domestic news on the economy can lift foreign equity prices
+through the demand channel.
+ECB Working Paper Series No 2560 
+12
+
+PAGE 14
+For example, higher risk aversion will reduce appetite for risky assets (Baele et al., 2020)
+while causing inﬂows into safe assets. During episodes of heightened global risk, investors
+ﬂee into US dollar-denominated assets as these are considered liquid and safe (Farhi and
+Gabaix, 2016; Jiang et al., 2021), which holds in particular for US Treasury bonds in
+that they embed a convenience yield (Krishnamurthy and Vissing-Jorgensen, 2012; Du
+et al., 2018). Due to the higher liquidity and safety of US Treasuries, we assume that
+Treasury rates will fall more strongly than euro area yields upon a worsening in global
+risk sentiment, which causes the euro area-US rate spread to decline. In addition, the
+US dollar is assumed to appreciate vis-` a-vis the euro exchange rate, reﬂecting the role
+of the US dollar as safe haven currency (Georgiadis et al., 2024), and the US economy
+providing insurance in times of global stress (Gourinchas and Rey, 2022).
+Interpretation of the structural shocks. Our choice to identify the structural shocks
+in “continuous time” by relying on co-movements in asset prices has implications for
+the interpretation of the shocks. We identify the structural shocks through the lens
+of ﬁnancial markets, with the shocks capturing changes in the interpretation of market
+participants of daily news on the macroeconomic outlook, global risk and monetary policy,
+as captured by changes in asset pricing. This implies that we attain a wider deﬁnition
+of the structural shocks than part of the literature does. For example, compared to the
+studies using high-frequency monetary policy shock identiﬁcation during narrow time
+windows (e.g. Jaroci´ nski and Karadi,2020), our monetary policy shocks capture changes
+in the perception of market participants of the monetary policy stance, similar to Cieslak
+and Pang (2021). These will include shifts in interest rates on days of monetary policy
+meetings and speeches, but also shifts caused by news that induce market participants to
+re-price their monetary policy expectations. This could happen following important data
+releases when monetary policy is data dependent, for example. As such, our monetary
+policy shocks encompass a broader range of innovations beyond those directly stemming
+from surprises in monetary policy decisions or communication, as we identify these shocks
+through asset price movements. Similarly, the global risk shock captures market reactions
+to events that cause investors to price in increased risk aversion, by shifting towards risk-
+free assets and safe US dollar-denominated assets. For each day, typically a multitude of
+shocks is identiﬁed.
+ECB Working Paper Series No 2560 
+13
+
+PAGE 15
+There are advantages to our identiﬁcation approach. For example, compared to the
+literature exploiting market movements over narrow time windows around monetary pol-
+icy events, there are two main diﬀerences. First, our approach is not restricted to days of
+monetary policy announcements but we allow for monetary surprises to occur any day.
+This is consistent with the ﬁndings of Jayawickrema and Swanson (2021) and Bauer and
+Swanson (2023), who have underlined the importance of broadening the time window to a
+wider set of events in order to accurately pin down monetary policy surprises and central
+bank information eﬀects. Particularly when monetary policy takes a data-driven ap-
+proach, markets might re-assess the expected stance of monetary policy more frequently.
+Second, because we do not restrict the time window to speciﬁc events, our approach also
+allows capturing in full anticipation eﬀects that materialise ahead of the actual policy an-
+nouncement through nuances in monetary policy communication on non-monetary policy
+meeting days such as in speeches. These anticipation eﬀects are an important channel of
+monetary policy transmission, as shown by Cao et al. (2013) who uses surveys, newspaper
+articles and internet searches to show that announcements for various rounds of LSAPs
+in the US were largely expected. Our results, discussed below, conﬁrm that monetary
+policy announcements are typically largely anticipated by market participants – and our
+framework eﬀectively categorizes these as monetary policy shocks. 14 Moreover, we ﬁnd
+that realisations of monetary policy shocks are signiﬁcantly larger on monetary policy
+meeting days than on non-meeting days which reﬂects our broader deﬁnition of monetary
+policy shocks. 15
+Despite these conceptual diﬀerences, we ﬁnd that our monetary policy shocks co-move
+strongly with estimates from the high-frequency literature on announcement days. To
+illustrate the validity and information content of the shocks retrieved from our daily
+SVAR, we project onto them the high-frequency surprises in OIS rates across the term
+structure, using the changes in OIS rates around ECB announcements from the EA
+Monetary Policy Database of Altavilla et al. (2019).
+For each high-frequency change hf in the OIS rate at maturity τ recorded on an-
+14In particular, our results suggest that, once accounting for anticipation eﬀects, there is no evidence
+that the marginal impact of LSAP programmes on long-term interest rates has declined over time. This
+ﬁnding is in line with the evidence provided by Carlson et al. (2020), Cahill et al. (2013), and Cao et al.
+(2013). Cahill et al. (2013) show that, after controlling for pre-announcement market expectations, the
+yield impact of the Fed’s asset purchases has not reduced over time.
+15See Figure A.1 in the online appendix.
+ECB Working Paper Series No 2560 
+14
+
+PAGE 16
+nouncement dayt, we run the following univariate regression, where ε(i) is the i’th shock
+in the daily SVAR:
+hfτ,t =α(i) +β(i)
+τ ε(i)
+t +ν(i)
+τ,t (2.6)
+[Figure 1 roughly intended here.]
+Figure 1 shows that the shocks from the daily SVAR have signiﬁcant explanatory
+power for high-frequency movements in ﬁnancial market variables around policy an-
+nouncements. We ﬁnd that our monetary policy shock explains a signiﬁcant share of
+the variation in OIS rates around policy announcements – around 40% beyond the four-
+year mark. Since our shocks are identiﬁed using a fairly long risk-free rate and estimated
+on a sample which includes a long period of unconventional monetary policy with short-
+term interest rates near the eﬀective lower bound, it is expected that they co-move most
+with surprises at medium- to long-term maturities. Point estimates of the parameter β
+are statistically signiﬁcant (at the 5%-level) and sizable with a one-standard-deviation
+monetary policy shock increasing OIS surprises by about 2.5 basis points (compared to
+a standard deviation of around 5 basis points for most OIS surprises).
+Possible extensions to our framework. While our baseline speciﬁcation is rather
+parsimonious, it could be extended to capture additional drivers of euro area ﬁnancial
+conditions, such as sovereign or corporate credit risk. Additionally, one could consider
+yields at other maturities as a way to capture diﬀerent dimensions of monetary policy
+(e.g. negative interest rate policy versus rate forward guidance versus the ECB’s asset
+purchase programme). 16 17 While changing the speciﬁcation of the model may enrich
+the interpretation of monetary policy factors, the results remain largely unaﬀected. 18 For
+our global risk shock, this implies that in essence, a simple framework that rests on two
+16In practice, empirically disentangling the diﬀerent monetary policy instruments in one single frame-
+work proves challenging. Rostagno et al. (2021) propose an approach that overcomes this challenge based
+on combining yield curve identiﬁcation with a large macro BVAR.
+17One important implication of using long-term yields is that the estimated monetary policy shock
+spans multiple dimensions in line with the target, path and QE factors from the literature. The online
+appendix provides a cross-check of our estimated monetary policy shock against the Target, Path, and
+QE instruments from Miranda-Agrippino and Nenova (2022). The results indicate that our monetary
+policy shock loads positively on all three factors and can therefore be interpreted as spanning multiple
+monetary policy dimensions. See Figure B.15 and subsequent.
+18The online appendix provides robustness checks of alternative model speciﬁcations, for example using
+sovereign yields.
+ECB Working Paper Series No 2560 
+15
+
+PAGE 17
+types of assets – risk-free bonds and equity – in combination with a safe haven currency
+such as the US dollar seems suﬃcient to pin down the “ﬂight-to-safety” component.
+2.5 Model interpretation and validation
+We check the validity of our identiﬁcation strategy in two ways. First, we inspect the
+estimated shocks and compare them to alternative empirical measures over time (Section
+2.5.1). Second, we review the shock decomposition over a selection of signiﬁcant market
+events for which we have a strong prior knowledge on the dominant factor driving market
+developments over that speciﬁc event (Section 2.5.2).
+2.5.1 Economic interpretation of the identiﬁed drivers.
+Monetary policy shocks. An inspection of the estimated euro area and US monetary
+policy shocks shows that over periods when the ECB and the Fed have been most active in
+deploying unconventional policy measures19, large realisations of the shocks coincide with
+important monetary policy announcements (Figure 2). For example, large shocks for the
+euro area come with the ﬁrst Asset Purchase Programme (APP) announcement in early
+2015, its subsequent recalibrations and the announcement of the Pandemic Emergency
+Purchase Programme (PEPP) at the onset of the pandemic. For the US, the largest
+negative monetary policy shock during that time frame occured on the day of the ﬁrst
+Large-Scale Asset Purchase (LSAP) announcement in November 2008. We also inspect
+other policy announcements and ﬁnd a signiﬁcant contribution of monetary policy shocks
+in shaping ﬁnancial conditions on these days. Overall, this indicates that our approach
+eﬀectively captures key monetary policy announcements. 20
+[Figure 2 roughly intended here.]
+19We focus on (i) 2014-2020 for the euro area, covering the adoption of negative interest rate policy
+(NIRP) and the Asset Purchase Programme (APP) announcement and the measures taken in response
+to the COVID-19 pandemic such as the Pandemic Emergency Purchase Programme (PEPP); and (ii) the
+period 2008-2012 for the US, during which the various Large-Scale Asset Purchase (LSAP) Programmes
+were announced. The choice to focus on this speciﬁc period is arbitrary; also beyond this time frame
+important monetary policy shocks are well captured.
+20These ﬁndings are consistent with the literature documenting a strong asset price reaction around
+large-scale asset purchase announcements. For the euro area, see Altavilla et al. (2021) and Andrade
+et al. (2016). For the US, see Vissing-Jorgensen and Krishnamurthy (2011) and Gagnon et al. (2011).
+ECB Working Paper Series No 2560 
+16
+
+PAGE 18
+Macro shocks. We assess the euro area and US macro shocks by comparing them with
+the Citigroup Economic Surprise Index (“CESI”), a measure of macroeconomic surprises
+commonly used by market analysts. 21 As our identiﬁcation of the macro shock aims
+at capturing news that aﬀect the market perception of the macroeconomic outlook, the
+estimated macro shocks should exhibit some degree of co-movement with actual macro
+surprises. In fact the comparison shows that both measures strongly co-move over the
+estimated sample for both the euro area and the US. 22 It also shows that the correlation
+tends to vary over time. In particular, the identiﬁed macro factor disconnects at times
+from actual macro surprises with some persistence. There are two possible explanations
+for this. First, while the CESI index is an aggregation of all diﬀerent macro releases,
+market participants might be inclined to give more attention to speciﬁc news at speciﬁc
+periods of time. Second, the disconnect between actual macro surprises and the market
+perception of the macro outlook as estimated in our model is also consistent with the
+tendency of markets to over- or under-react to news about the state of the economy in
+bouts of optimism or pessimism, as in Benhabib et al. (2016). Alternatively, it might
+be that under imperfect information market investors take into account a wider set of
+economic indicators than pure data releases when forming their expectations about the
+state of the economy and the central bank’s reaction to it, as suggested by Pastor and
+Veronesi (2009).
+Global risk shock. To assess how well we capture shifts in global risk, we compare
+our estimated shock series to alternative risk measures: the US and euro area indices of
+stock market volatility (VIX and VSTOXX, respectively), the euro area “CISS” index
+of systemic stress (Hollo et al., 2012) and the global economic uncertainty measure of
+Bobasu et al. (2024), as plotted in Figure 3. Our global risk factor, which aims at
+capturing episodes of shifting risk aversion and ﬂight to quality, strongly co-moves with
+these alternative risk measures, exhibiting spikes during episodes of market turmoil such
+as the 2008 Lehman collapse or at the start of the COVID-19 pandemic in early 2020. We
+also ﬁnd evidence that the euro area sovereign debt crisis was accompanied by a surge
+21The CESI is deﬁned as a weighted historical standard deviation of data surprises (actual releases
+versus the Bloomberg median survey) and is calculated daily in a rolling three-month window. The
+weights of the economic indicators are derived from relative high-frequency spot foreign exchange impacts
+of 1 standard deviation data surprises adjusted to include a time decay feature so as to replicate the
+contained memory of markets.
+22See Figure A.3 in the online appendix.
+ECB Working Paper Series No 2560 
+17
+
+PAGE 19
+in global risk aversion with investors moving out of euro-denominated assets toward US-
+denominated assets in an attempt to reduce their exposure to redenomination risk.23 Our
+global risk factor – being two-sided – tracks symmetrically both adverse and benign risk
+sentiment episodes. We ﬁnd, for example, that at times when the euro area economy was
+on a recovery track, such as in the mid-2000s or over 2015-2018, the risk environment
+was especially favourable, which may have further supported the recovery.
+[Figure 3 roughly intended here.]
+2.5.2 Event study evidence
+As a second test of validation, we study the model performance more systematically over
+selected events that caused a market reaction following important news on euro area
+monetary policy (such as announcements of APP or negative interest rate policy), US
+monetary policy (such as the LSAP announcement) or relevant euro area or US macro
+releases. Table 2 lists the selected events, and our prior expectation of the speciﬁc shock
+in our model that should dominate ﬁnancial market movements on that day. Figure 4
+plots the two-day reaction of euro area long-term rates for each of the selected events,
+together with the contributions of the underlying drivers. 24 The results for US yields,
+euro area stock prices and the exchange rate are reported in the Online Appendix.
+[Table 2 roughly intended here.]
+Two ﬁndings are worth highlighting. First, the results show that the model iden-
+tiﬁcation is successful at capturing the speciﬁc nature of each event. For events that
+are caused by an important monetary policy announcement, the model tends to identify
+the monetary policy shock as the dominant driver of the change in euro area long-term
+rates over the two-day window around the event (see left panel in Figure 4). Similar
+conclusions apply to spillovers around US monetary policy events; US monetary policy
+23This is consistent with evidence of investors’ fears of a euro area breakdown, as captured by rising
+redenomination risk (De Santis, 2019).
+24On any given day, releases of macroeconomic data, monetary policy announcements, or any other
+type event can generally coincide. The daily VAR, decomposes the reduced from residuals of the system
+into orthogonal structural shocks, conditional on our set of identifying sign restrictions. The historical
+decompositions that form the basis for our event study utilize the identiﬁed VAR to express all variables
+and hence daily movements as a sum of current and past shocks, conditional on the dynamics of the
+system. This is why the contributions are generally non- zero anywhere, even though the underlying
+shocks are orthogonal.
+ECB Working Paper Series No 2560 
+18
+
+PAGE 20
+shocks tend to be the dominant driver of euro area long-term rates on these days (see
+middle panel in Figure 4). Finally, also global risk and macro events are well-captured
+(see right panel). For example, the Brexit referendum is associated with a large decline
+in the 10-year OIS in the euro area (-20 basis points), which is equally split between two
+factors – global risk and euro area macro. This decomposition sheds light on the market
+perception of the implications of Brexit: increased risk aversion leading to investment
+ﬂows into safe dollar-denominated assets, combined with a sudden negative re-appraisal
+of the euro area macro landscape through close trade and ﬁnancial linkages with the UK.
+[Figure 4 roughly intended here.]
+Second, the exercise also underlines that – while one shock might dominate devel-
+opments on a given day – other shocks also matter. This may reﬂect two elements.
+First, news typically encompasses diverse topics. Some of these updates are focused on
+monetary policy, while others revolve around macro information. For example, the ECB
+Governing Council meetings tend to coincide with the release of important US macro
+news such as the preliminary release of US non-farm payroll data. This might blur the
+signal associated to the speciﬁc event that one tries to isolate. Second, the announce-
+ment may give rise to a re-appraisal along dimensions that are not directly related to the
+original signal. For instance, euro area monetary policy events tend to be associated not
+only with a monetary policy shock, but also with a re-appraisal of the euro area macro
+factor. This result is consistent with the well-documented ﬁnding that ECB monetary
+policy events give rise to two types of monetary policy signals, namely a classic “Delphic”
+component (signal about a turn in the monetary policy stance) as well as an “Odyssean”
+component (signal on the central bank’s assessment of the economic outlook), see also
+Andrade and Ferroni (2021) and Jaroci´ nski and Karadi(2020). Our approach allows us
+to eﬀectively isolate the Delphic component of monetary news. At the same time, our
+results also suggest an important role of non-monetary news – shifts in macro and global
+risk – in explaining the daily reaction of asset prices around monetary policy events,
+which is consistent with the ﬁndings from the literature (Nakamura and Steinsson, 2018,
+Cieslak and Schrimpf, 2019).
+ECB Working Paper Series No 2560 
+19
+
+PAGE 21
+3 Empirical results
+3.1 What drives euro area and US ﬁnancial markets?
+To get a broader overview of the drivers of euro area asset prices, we present the historical
+decomposition of euro area long-term rates, equity prices and the euro- dollar exchange
+rate over three sub-periods: (i) January 2008 – December 2013, dominated by the global
+ﬁnancial and euro area sovereign debt crises (“double-dip recession”), (ii) January 2014
+– December 2019, containing the shift of the ECB’s monetary policy into unconventional
+domain and (iii) the COVID-19 pandemic and the inﬂation surge of 2022. 25
+Double-dip recession. During the global ﬁnancial crisis, the deterioration of the euro
+area domestic macro outlook explained about half of the decline in euro area risk-free
+rates and caused close to 20% fall in euro area equity prices compared to early 2008, see
+top panel in Figure 5. The ECB’s monetary policy response (as captured in the euro area
+policy factor) lowered long-term yields, while supporting domestic equity markets. The
+euro fell substantially against the US dollar in the ﬁrst months of the crisis, reﬂecting safe
+haven ﬂows into dollar-denominated assets (as captured by the global risk shock). As
+the macroeconomic outlook deteriorated on both sides of the Atlantic, macro shocks did
+not steer the bilateral exchange rate in a speciﬁc direction. That changed in the years
+thereafter, however, when the US economy recovered from the global ﬁnancial crisis
+while adverse macro shocks continued to weigh on ﬁnancial markets in the euro area as
+the sovereign debt crisis intensiﬁed, lowering long-term yields and equity prices further.
+The euro exchange rate weakened substantially as investors questioned the robustness
+of the common currency (captured by a combination of euro area macro and global
+risk shocks). These factors more than oﬀset upward pressures on the euro from the
+Fed’s unconventional policy measures in 2011-2012 that depreciated the US dollar. The
+persistent drag of adverse macro risk shocks on the outlook for economic activity and
+inﬂation in the euro area triggered the ECB to resort to unconventional monetary policy
+in the months thereafter.
+[Figure 5 roughly intended here.]
+25The corresponding results for the US are shown in the Online Appendix, see Figure A.8.
+ECB Working Paper Series No 2560 
+20
+
+PAGE 22
+Unconventional monetary policy. Over the period 2014-2019, the ECB widened its
+toolkit to include unconventional measures such as negative interest rates, rate forward
+guidance and asset purchases, with the objective to bring inﬂation back to target in
+face of persistent deﬂationary pressures. Model results show that these measures left a
+signiﬁcant footprint on euro area ﬁnancial markets. This is particularly visible in the
+contribution of the policy factor, which lowered euro area long-term yields by about 60
+basis points in cumulated terms over 2014-2019. This supported domestic equity markets
+and signiﬁcantly depreciated the euro exchange rate throughout the review period, see
+panel (b) in Figure 5. The deterioration in the euro area macro outlook added to the
+downward pressure on long-term yields and the euro exchange rate. By contrast, the
+improvement in the US macroeconomic outlook pushed up euro area long-term yields and
+stock prices, while adding downward pressures on the euro exchange rate. Although the
+Fed started to raise policy rates in December 2015, the US policy factor continued to exert
+downward pressures on US and euro area yields, indicating a persistently accommodative
+stance.
+COVID-19 pandemic and the inﬂation surge. The outbreak of the COVID-19
+pandemic in early 2020 aﬀected euro area ﬁnancial markets diﬀerently. The shock mainly
+impacted markets through inﬂows into safe assets, lowering euro area long-term yields
+further, and explaining a substantial part of the fall in equity prices in the ﬁrst months
+of 2020. Shifts in global risk sentiment were even more impactful in the US – aligning
+with its recognized status as a safe haven — and accounted for a signiﬁcant portion of the
+strengthening of the US dollar in the early part of the pandemic, see panel (c) in Figure5.
+Domestic macro and monetary policy factors did not point to a clear direction initially,
+which might be consistent with the highly accommodative ECB monetary policy stance
+before the pandemic hit. 26 Central bank communication might have also played a role.
+Model results suggest that initial ECB communication failed to fully reassure markets,
+as visible in the large tightening shock at the early March press conference. This was
+however soon followed by a sharp reversal in the accommodative direction after the 18
+March decision to launch PEPP.
+26With policy rates in negative territory and a sizeable balance sheet, markets might have anticipated
+that room for monetary policy to maneuver was limited, at least regarding the ability to further lower
+the risk-free yield curve.
+ECB Working Paper Series No 2560 
+21
+
+PAGE 23
+In the years thereafter, yields and equity prices increased again as the global economy
+recovered from the pandemic slump. Between 2021 and 2023, the model attributes a
+sizeable part of the recovery in yields and equity prices to improving expectations on
+the macro outlook on both sides of the Atlantic. As macro dynamics were stronger in
+the US, however, the euro depreciated against the dollar. At the same time, monetary
+policy started to tighten at an unprecedented pace as inﬂation hit record high levels due
+to the recovery in demand and surging energy prices after Russia invaded Ukraine. 27
+The simultaneous economic rebound in both the euro area and the US, accompanied by
+a synchronous tightening of monetary policies, largely accounted for the sharp rise in
+yields in the euro area, while intensifying ﬂuctuations in euro area equities, see panel (c)
+in Figure 5. By contrast, because both euro area and US factors were of similar nature
+but tended to oﬀset each others in terms of their exchange rate impact, movements in
+the euro-US dollar were relatively more contained.
+Overall, these events illustrate that ﬁnancial markets in the euro area are inﬂuenced by
+a complex interplay of shocks that do not occur in isolation and can amplify, or suppress,
+ﬁnancial dynamics. This is particularly the case for US spillovers to euro area markets,
+as illustrated next.
+3.2 Cross-Atlantic ﬁnancial spillovers
+Financial market dynamics – particularly in the euro area – are signiﬁcantly determined
+by cross-Atlantic spillovers. The forecast error variance decomposition indicates that US
+shocks are found to explain close to 40% of variability in euro area yields and equity prices
+over the full sample, see Figure6. Shocks originating in the euro area, while relatively less
+important, still exert sizeable inﬂuence on US ﬁnancial markets, and account for about
+30% of the dynamics in US equity prices on average. Interestingly, our ﬁnding that
+spillovers might run both ways is similar to Kearns et al., 2023, who focus on monetary
+policy shocks and ﬁnd that Fed spillovers tend to dominate ECB spillovers but that ECB
+27This additional tightening impulse – over and above the reaction to an improving macro outlook –
+might in part reﬂect the resurgence of adverse supply factors. In theory, the impact of a supply shock
+on asset prices is ambiguous and depends on how markets expect the central bank to react. If the shock
+is perceived to be temporary, markets may expect the central bank to look through, leaving ﬁnancial
+variables unaﬀected. On the other hand, the types of supply shock observed during the pandemic
+recovery — especially the sharp increase in energy prices — are likely to have contributed to a more
+forceful monetary policy response than during “normal” times, hence leading the central bank to deviate
+from its standard reaction function and adding upward pressures on yields as shown by the model results.
+ECB Working Paper Series No 2560 
+22
+
+PAGE 24
+spillovers to US ﬁnancial conditions remain tangible. Euro area ﬁnancial markets are also
+aﬀected by shifts in global risk sentiment, although these types of shocks play a larger
+role for US ﬁnancial markets given the safe haven status of US dollar-denominated assets.
+Taken together, spillovers from US shocks and changes in global risk aversion can explain
+close to half of the average variation in selected asset prices in the euro area.
+Interestingly, the extent to which foreign shocks drive euro area ﬁnancial markets
+diﬀers across assets. Foreign forces explain more than half of euro area equity prices over
+our sample, while this share is less for euro area yields, possibly reﬂecting the role of
+ECB’s rate forward guidance in shielding euro area shorter-term rate expectations from
+foreign inﬂuence. For the euro-US dollar exchange rate, euro area-speciﬁc shocks only
+account for about 20% of the variability, with US shocks explaining about double that
+amount. Variation in global risk sentiment is however the dominant driver of the bilateral
+euro-US dollar pair, which is in line with the literature that underscores the importance
+of risk premia in driving exchange rates (Engel, 2014), as well as the safe haven role of
+the US dollar (Georgiadis et al., 2024).
+[Figure 6 roughly intended here.]
+To illustrate the importance of cross-Atlantic ﬁnancial spillovers, it is useful to focus
+on periods that brought about major shifts in ﬁnancial markets. As the extent of spillovers
+depends on the underlying dominant shock, we study the spillovers during (i) the US dot-
+com bubble (US macro shock), (ii) the euro area sovereign debt crisis (euro area macro
+shock), (iii) the aftermath of the ﬁrst round of LSAP by the Fed (US monetary policy
+shock) and (iv) the period since the ECB started using unconventional monetary policy
+(euro area monetary policy shocks).
+The US dot-com bubble period illustrates that US-driven macro shocks can signiﬁ-
+cantly steer euro area ﬁnancial markets. After a prolonged period of optimistic macro
+prospects, the burst of the dot-com bubble in early March 2000 triggered a sharp sell-oﬀ
+in equity markets in the US that largely transmitted to EA equity prices. Adverse US
+macro shocks caused EA equity prices to decline by about 20% over a period of almost
+two years, which is close to the magnitude of the domestic US equity price reaction.
+The burst of the bubble also motivated investors to shift their portfolios from equities
+to bonds — as captured by the global risk shock — which further weighed on euro area
+ECB Working Paper Series No 2560 
+23
+
+PAGE 25
+equity prices. The negative US shock came at a time when the ECB was tightening
+its policy, causing the overall decline in equity prices in the euro area to be much more
+pronounced than the one observed in the US over that period.
+[Figure 7 roughly intended here.]
+In comparison, the spillovers of euro area macro shocks to US ﬁnancial markets are
+found to be noticeably smaller. Whereas the transmission following the US dot-com
+bubble across equity markets was close to full, only less than half of the drop in euro
+area equity prices caused by adverse macro shocks spilled over to US equity markets
+following the sovereign debt crisis (see panel B in Figure 7). However, as the debt crisis
+also triggered ﬂows into safer assets such as bonds, particularly dollar-denominated ones,
+US equity prices and long-term yields were importantly aﬀected through the global risk
+channel instead.
+Regarding monetary policy spillovers, it is also the case that US monetary policy
+shocks spill over more signiﬁcantly to euro area ﬁnancial markets than the other way
+around, which is in line with the literature that underlines the dominant role of US
+monetary policy in steering the global ﬁnancial cycle (Miranda-Agrippino and Rey, 2020;
+Ca’Zorzi et al., 2023). After the Fed embarked upon quantitative easing policies in late
+2008, accommodative US monetary policy shocks are found to have considerably lowered
+euro area long-term yields, see panel C in Figure 7. Overall, as the ECB was loosening
+its policy stance as well over most of that period, the spillovers from the Fed supported
+domestic eﬀorts to ease ﬁnancial conditions. In contrast, the spillovers of the ECB’s
+unconventional policies since mid-2013 – comprising forward guidance, negative short-
+term rates, and asset purchases – are hardly registered in US long-term yields, as shown
+in panel D. At that time, rates in the US were partly anchored by rate forward guidance,
+which might have been a reason why euro area-to-US spillovers were smaller than those of
+the Fed’s policies to euro area yields before 2013 when the ECB introduced rate forward
+guidance as well.
+In sum, these ﬁndings underscore the necessity of considering external inﬂuences when
+dissecting ﬁnancial conditions. For the euro area, changes in US monetary policy as well
+as global risk perceptions play important roles, impacting yields, equity prices, and deter-
+mining the strength of the euro exchange rate. For US ﬁnancial markets, by contrast, euro
+ECB Working Paper Series No 2560 
+24
+
+PAGE 26
+area-speciﬁc dynamics can matter, but are typically less relevant than domestic or global
+risk factors. Overall, looking beyond borders appears key for a proper understanding of
+ﬁnancial market dynamics in real time.
+4 Transmission to the macroeconomy: Proxy SVAR
+As a ﬁnal exercise, this section analyses the response of macroeconomic variables to
+the shocks extracted in the previous section. In doing so, we draw on the proxy-SVAR
+literature (see e.g. Gertler and Karadi, 2015; Mertens and Ravn, 2013; Stock and Watson,
+2012) and employ the Bayesian proxy-SVAR algorithm proposed by Caldara and Herbst
+(2019). The starting point is a VAR at monthly frequency that includes the ﬁnancial
+variables contained in the daily model as well as industrial production, inﬂation, and
+the unemployment rate for both the euro area and the US. Stacking these variables in a
+vector denoted by Yt, yields the structural form VAR
+B0Yt =B+Yt−1 +εt, (4.1)
+where B0 and B+ contain the structural parameters, and εt∼ N(0,I ) is the vector
+of structural shocks. The reduced form residuals ut∼ N(0, Σ) are hence given by ut =
+B−1
+0 εt, with Σ = ( B′
+0B0)−1 and the reduced form VAR coeﬃcients by ¯B+ = B−1
+0 B+,
+where without loss of generality ¯B+ and B+ collect constants and coeﬃcients on lags.
+As with any standard VAR, this model requires additional restrictions for identiﬁca-
+tion due to the many combinations of structural parameters that yield the same reduced
+form parameters and hence likelihood function. We leverage this identiﬁcation challenge
+to connect high-frequency shocks derived from our daily ﬁnancial VAR to the set of
+monthly macroeconomic variables. In doing so, we draw from the proxy-SVAR litera-
+ture (see e.g. Gertler and Karadi, 2015; Mertens and Ravn, 2013; Stock and Watson,
+2012) and identify the structural shocks in the monthly VAR one at a time using a single
+instrument, Zt, for each economic shock of interest, εtp, and its corresponding row in
+the inverse impact matrix, Bp
+0. In our setup, the natural choice for the instruments are
+then the structural shocks from our daily BVAR. Formally, we followCaldara and Herbst
+(2019) and establish a link between the structural shock, εp
+t , and the instrument, Zt,
+ECB Working Paper Series No 2560 
+25
+
+PAGE 27
+through:
+Zt =βεp
+t +σννt, with νt∼N(0, 1) and νt⊥εt. (4.2)
+Two critical assumptions in the proxy-SVAR literature are directly implied by this
+mapping:
+E[Ztεp
+t
+′] =θ (4.3)
+E[Ztεq
+t
+′] = 0 (4.4)
+Assumption 4.3 requires that the instrument is correlated with the policy shock of
+interest, εp
+t . The relevance of the proxy is directly related to the signal-to-noise ratio
+β/σν. The higher this ratio, the more information the proxy contains on the structural
+shock and the closer the time series of the structural shock to the time series of the proxy.
+Conversely, whenβ/σν = 0, then the proxy is driven by noise entirely and does not contain
+information on εt. Weak identiﬁcation results when β/σν is close to zero. Because the
+structural shocks extracted from the daily VAR are identiﬁed using sign restrictions that
+embody the economic interpretation of εp
+t , condition 4.3 is by construction fulﬁlled. In
+addition, prior believes about the relationship between the proxy and the structural shock
+of interest can be directly introduced through the tightness of the prior on σν (Caldara
+and Herbst, 2019). In this exercise, we focus on macro-level responses to our daily
+ﬁnancial shocks. Therefore, we favor structural shocks that closely align with the proxy
+by adopting the high relevance prior outlined in (Caldara and Herbst, 2019). This prior
+suggests that only half of the variation in the proxy can be attributed to measurement
+error, although our empirical results remain robust even when imposing an uninformative
+prior.
+Assumption (4.4) requires that the instrument is orthogonal to the other structural
+shocks, εq
+t, in the macro VAR. To ensure that this condition continues to hold once
+we aggregate the daily structural shocks to monthly frequency, we control for possible
+correlations during the aggregation process. 28
+28To obtain the monthly instruments we aggregate the daily structural shock series from the BVAR
+model over the number of successful draws and over time, which introduces some correlation between
+the instruments in monthly frequency – even though shocks from each draw are uncorrelated at the daily
+ECB Working Paper Series No 2560 
+26
+
+PAGE 28
+4.1 Proxy SVAR methodology and estimation
+To estimate the proxy SVAR described above, we employ the algorithm in Caldara and
+Herbst (2019) throughout, which has key advantages over other algorithms in the lit-
+erature. Taking the proxy into account, the structural VAR can be augmented such
+that
+˜B0 ˜Yt = ˜Bj ˜Yt−1 + ˜εt, (4.5)
+where ˜Yt = [Y′
+tZt]′ and ˜εt = [ε′
+tνt]′. ˜B0 and ˜B0 contain the SVAR parameters as well
+as the parameters from proxy equation, 4.2 with
+˜B0 =
+
+ B0 0
+− β
+σν
+Bp
+0
+1
+σν
+
+ and ˜B+ =
+
+ B+
+− β
+σν
+Bp
++
+
+. (4.6)
+This gives rise to the likelihood function
+p(Y1:T,Z 1:T| ˜B0, ˜B+) =p(Y1:T|Σ, ¯B+)p(Z1:T|Y1:T,B 0,B +,β,σ ν), (4.7)
+which contains not only the likelihood function of the reduced form VAR but also the
+likelihood of the proxy given the macroeconomic data and structural parameters. This
+allows for eﬃcient use of information contained in the proxy, as it is utilized during the
+estimation of both the structural and reduced form parameters, while also allowing for
+the joint modeling of all sources of uncertainty (Caldara and Herbst, 2019). In contrast,
+traditional proxy-SVAR approaches rely on a two-step procedure which does not leverage
+proxy information during the estimation of the reduced form VAR. 29 For comprehensive
+explanations and detailed derivations of the algorithm, readers are directed to Caldara
+and Herbst (2019).
+frequency. To address this issue, we purge the instruments by sequentially regressing these on the other
+shock series to ensure the shock instruments are uncorrelated.
+29The ﬁrst stage regression isolates the variation of the reduced form residual,up
+t , that can be explained
+by the proxy. In the second stage regression, the reduced form residuals of the other variables in the VAR
+are regressed on the ﬁtted values, which then allows to compute Bp
+0 based on the restrictions implied by
+these regression estimates.
+ECB Working Paper Series No 2560 
+27
+
+PAGE 29
+4.2 Empirical results: shock dependence matters
+Figure 8 shows the estimated macroeconomic eﬀects of an impact increase in long-term
+rates in the euro area by 10 basis points depending on the shock causing higher yields:
+(i) a euro area monetary policy shock, (ii) a US monetary policy shock, (iii) a euro
+area macro shock, (iv) a US macro shock or a (v) global risk shock. Here we report
+results using the euro area yields to normalise the impact of the shocks, but the macro
+implications are the same when another endogenous variable is used to normalize, such
+as the exchange rate.
+[Figure 8 roughly intended here.]
+The results show that indeed, the implications of higher yields for euro area industrial
+production, inﬂation and unemployment diﬀer depending on the underlying driver. For
+example, a monetary policy shock originating within the euro area leads to higher un-
+employment and lower output, whereas the same shock originating in the US has largely
+insigniﬁcant eﬀects. Likewise, euro area inﬂation responds less strongly to a US monetary
+policy tightening, likely due to the conﬂicting eﬀect of the euro depreciation. However, in
+both cases, the responses are generally insigniﬁcant and accompanied by wide conﬁdence
+bounds. In contrast, when long-term euro area yields rise due to an improving domestic
+macroeconomic outlook, industrial production and inﬂation tend to beneﬁt from stronger
+demand rather than being dampened by higher yields and an appreciating euro. Simi-
+larly, when euro area yields increase in response to positive US macroeconomic news that
+spills over into euro area ﬁnancial markets, domestic industrial production and inﬂation
+increase. Finally, when euro area risk-free rates are higher because of improving global
+risk sentiment – in the recovery phase from the global ﬁnancial crisis or the COVID-19
+pandemic for example – higher yields will also be associated with strengthening growth
+and rising inﬂationary pressures.
+These ﬁndings conﬁrm that looking at daily ﬁnancial market dynamics is useful for
+policy makers; their co-movements convey valuable information on how changes in ﬁnan-
+cial assets will transmit to the real economy and inﬂation. Depending on the dominant
+driver, the implications can diﬀer greatly. This underscores the need to understand the
+drivers of ﬁnancial market dynamics in the ﬁrst place.
+ECB Working Paper Series No 2560 
+28
+
+PAGE 30
+5 Conclusions
+Understanding ﬁnancial market dynamics in the euro area requires looking beyond bor-
+ders. In this paper, we provide a novel, parsimonious model which jointly estimates key
+drivers of euro area ﬁnancial asset prices. The model explicitly accounts for the unique
+role of the US in shaping global ﬁnancial market dynamics and cross-Atlantic spillovers.
+The results show that euro area ﬁnancial markets are driven by a complex interplay of
+domestic and foreign shocks that can amplify, or suppress, ﬁnancial dynamics at home.
+Spillovers from the US and changes in global risk aversion account for close to half of the
+average variation in selected asset prices in the euro area. This high degree of spillovers
+can pose challenges for monetary policy making and at times counteract domestic ef-
+forts to stabilise inﬂation. Moreover, depending on the driving force, the same change in
+ﬁnancial market variables can have diﬀerent implications for macroeconomic variables.
+Therefore, a comprehensive understanding of the underlying drivers of ﬁnancial market
+dynamics is crucial.
+ECB Working Paper Series No 2560 
+29
+
+PAGE 31
+Figures and Tables
+1M 1Y 2Y 3Y 4Y 5Y 6Y 7Y 8Y 9Y 10Y
+Maturity
+-1
+0
+1
+2
+3
+4
+5
+EA policy
+OIS surprise by maturity
+1st PC of short OIS
+(a) Eﬀect of EA policy by maturity
+1M 1Y 2Y 3Y 4Y 5Y 6Y 7Y 8Y 9Y 10Y
+Maturity
+0
+0.2
+0.4
+0.6
+0.8
+1
+R2
+EA policy
+OIS surprise by maturity
+1st PC of short OIS (b) R2 of EA policy by maturity
+Figure 1: Explanatory power of euro area shocks for high-frequency changes in OIS rates
+around ECB policy announcements
+Notes: Panel (a) shows the term structure of regression coeﬃcients from equation 2.6. Error bars denote
+the 95% conﬁdence interval. Panel (b) shows the associated share of variance explained. Orange lines
+and grey swathes additionally show the respective parameters of the regression with the ﬁrst principal
+component of OIS with maturity up to one year on the left-hand side; as in, for example, Nakamura and
+Steinsson (2018) and Ca’Zorzi et al. (2023).
+ECB Working Paper Series No 2560 
+30
+
+PAGE 32
+2014 2015 2016 2017 2018 2019 2020
+-6
+-4
+-2
+0
+2
+4
+6
+Standard deviations
+APP announcement
+APP recalibration
+Draghi Sintra speech
+APP recalibration
+June 2018 rotation
+Draghi Sintra speech
+March 2020 GovC
+PEPP announcement
+(a) Euro area: 1 January 2014 - 30 June 2020
+2006 2007 2008 2009 2010 2011 2012 2013 2014
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+Standard deviations
+TAF expansion
+LSAP1 expansion
+LSAP2 announcement
+August 2011 FOMC
+LSAP3 announcement
+Taper tantrum
+(b) United States: 1 January 2006 - 31 December 2014
+Figure 2: Euro area and US monetary policy shocks during periods of unconventional
+policy
+Notes: The ﬁgures show the respective posterior mean over all accepted draws from the BVAR.
+ECB Working Paper Series No 2560 
+31
+
+PAGE 33
+2000 2005 2010 2015 2020
+-3
+-2
+-1
+0
+1
+2
+3
+Standard deviations
+0
+20
+40
+60
+80
+100
+120
+Index
+9/11 attacks
+2002 market crash
+Lehman Brothers
+Greek programme
+EFSF/SMP
+Whatever it takes
+ECB APP
+Brexit
+Italian elections
+COVID-19
+Russian invasion
+Global risk factor (lhs) VSTOXX (rhs) VIX (rhs) CISS (rhs) Bobasu et al. (rhs)
+Figure 3: Comparison of the global risk factor with alternative risk indicators
+Notes: To align the volatility of our global risk measure to that of other measures for easier visual
+comparison, the global risk factor is the six-months moving average of the standardised posterior mean
+global risk shock from the daily BVAR, while ﬁnancial market indicators are shown as monthly averages.
+The yellow line shows the Global Uncertainty Measure ofBobasu et al. (2024). To note, the measures are
+not fully comparable, because by construction the global risk shock takes positive and negative values
+(capturing risk-on and risk-oﬀ episodes), while ﬁnancial market indicators measure volatility and only
+take positive values, hence the two distinct scales.
+Jackson hole 2014
+Sep14 rate cut
+APP announcement
+APP extension
+Mar20 Governing Council
+PEPP announcement
+LSAP1 announcement
+LSAP1 expansion
+LSAP2 announcement
+Taper Tantrum
+Lehman Brothers
+'Whatever it takes'
+Jan16 sell-off
+Brexit referendum
+Trump election
+Apr17 French elections
+Covid-19
+Russia sanctions
+-30
+-25
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+Basis points
+EA monetary policy US MP Macro/Global risk
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EA 10y OIS
+Figure 4: Drivers of the euro area 10-year OIS rate around selected events
+Notes: The chart shows the decomposition of the change on the day of the event and the day after. The
+results for the variables not shown can be found in the online appendix, see Figures A.4 to A.7
+ECB Working Paper Series No 2560 
+32
+
+PAGE 34
+2008 2010 2012
+-4
+-3
+-2
+-1
+0
+1Percentage points
+EA 10y OIS
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+Change in observable
+2008 2010 2012
+-60
+-40
+-20
+0
+20Percent
+EURO STOXX
+2008 2010 2012
+-30
+-20
+-10
+0
+10
+20Percent
+EUR/USD
+(a) Double-dip recession: 2008-2013
+2014 2016 2018
+-3
+-2
+-1
+0
+1Percentage points
+EA 10y OIS
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+Change in observable
+2014 2016 2018
+-40
+-20
+0
+20
+40
+60Percent
+EURO STOXX
+2014 2016 2018
+-30
+-20
+-10
+0
+10Percent
+EUR/USD
+(b) Unconventional monetary policy: 2014-2019
+Jan 2020 Jul 2021 Jan 2023
+-1
+0
+1
+2
+3
+4Percentage points
+EA 10y OIS
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+Change in observable
+Jan 2020 Jul 2021 Jan 2023
+-40
+-20
+0
+20
+40Percent
+EURO STOXX
+Jan 2020 Jul 2021 Jan 2023
+-30
+-20
+-10
+0
+10
+20Percent
+EUR/USD
+(c) Covid and inﬂation surge: 2020-2023
+Figure 5: Historical decomposition of euro area asset prices
+Notes: Contributions are rebased to zero at the beginning of the review period. For equity prices and
+the exchange rate they are re-scaled to match cumulative growth in the observable variable in percent
+instead of log-diﬀerences. The corresponding decomposition of the US variables can be found in the
+online appendix, see Figure A.8.
+ECB Working Paper Series No 2560 
+33
+
+PAGE 35
+EA 10y OIS EURO STOXX S&P 500 EUR/USD
+0
+20
+40
+60
+80
+100Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+Figure 6: Forecast error variance decomposition
+Notes: The ﬁgure shows the one-step ahead forecast error variance decomposition, averaged over all
+accepted draws from the daily BVAR.
+ECB Working Paper Series No 2560 
+34
+
+PAGE 36
+Jul 2000 Jul 2001 Jul 2002
+-60
+-40
+-20
+0
+20
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EURO STOXX
+(a) US dot-com crash:
+spillovers to EA equity prices
+Jan 2012 Jul 2012
+-20
+-10
+0
+10
+20
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+S&P 500
+(b) EA sovereign debt crisis:
+spillovers to US equity prices
+2010 2012 2014 2016 2018
+-4
+-2
+0
+2
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EA 10y OIS
+(c) Fed unconventional policy:
+spillovers to EA long-term yields
+2014 2015 2016 2017 2018 2019
+-2
+-1
+0
+1
+2
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+US 10y Treasury
+(d) ECB unconventional policy:
+spillovers to US long-term yields
+Figure 7: Cross-Atlantic spillovers in ﬁnancial markets
+Notes: Panel A shows cumulative changes in EA equity prices from 10 March 2000 to 31 December 2002
+and panel B shows cumulative changes in US equity prices from 07 July 2011 to 31 December 2012.
+Panel C shows cumulative changes in EA 10y OIS from 24 November 2008 to 31 December 2019, and
+panel D cumulative changes in 10y US Treasury yields from 04 July 2013 to 31 December 2019. All
+shock contributions are normalised to zero at the beginning of the review period. The corresponding
+decomposition of variables not shown here can be found in the online appendix, see Figures A.9 to A.12.
+ECB Working Paper Series No 2560 
+35
+
+PAGE 37
+Figure 8: PSVAR impulse response functions for euro area macro variables
+Notes: Responses to the policy and macro shocks are normalised to a shock which increases the respective
+long-term interest rate by 10 basis points on impact. Responses to the global risk shock are normalised to
+a shock which causes an appreciation of the bilateral euro-Dollar exchange rate by 1 percent on impact.
+The responses in the US and the ﬁnancial block are shown in Online Appendix Figures A.13 and A.14
+respectively.
+Table 1: Sign restriction table
+EA monetary EA macro US monetary US macro global
+policy news policy news risk
+EA LT yields + + + + –
+EA equity – + –
+US equity – + –
+USD/EUR + + – – –
+EA-US yield spread + + – – +
+Notes: Empty ﬁelds leave that parameter unrestricted, “+” and “–” denote an increase or
+a decrease in the respective variable on impact. A “+” (“–”) for the USD/EUR denotes
+an appreciation (a depreciation) of the euro vis-` a-vis the US dollar. The global risk shock
+displays a worsening of global risk sentiment.
+ECB Working Paper Series No 2560 
+36
+
+PAGE 38
+Table 2: List of selected events
+Date Announcement Type of shock
+15 Sep 2008 Lehman Brothers collapse Global risk/macro
+25 Nov 2008 LSAP1 ann. US monetary policy
+18 Mar 2009 LSAP1 expansion US monetary policy
+10 May 2010 Greek programme + EFSF + SMP ann. EA monetary policy/macro
+3 Nov 2010 LSAP2 ann. US monetary policy
+26 Jul 2012 Draghi London speech: “Whatever it takes” EA monetary policy/risk
+19 Jun 2013 FOMC meeting; Fed taper tantrum US monetary policy
+22 Aug 2014 Draghi Jackson Hole speech EA monetary policy
+4 Sep 2014 10bps DFR cut and ABSPP/CBPP ann. EA monetary policy
+22 Jan 2015 APP ann. EA monetary policy
+3 Dec 2015 10bps DFR cut and APP extension EA monetary policy
+4 Jan 2016 Stock market sell-oﬀ EA macro/global risk
+23 Jun 2016 Brexit referendum EA macro/global risk
+8 Nov 2016 US presidential elections US macro/global risk
+23 Apr 2017 First round French presidential elections EA macro/global risk
+25 Feb 2020 Intensiﬁcation COVID-19 crisis Global risk/macro
+12 Mar 2020 March 2020 Governing Council EA monetary policy
+18 Mar 2020 PEPP ann. EA monetary policy
+Notes: “ann.” stands for announcement, “DFR” for deposit facility rate.
+ECB Working Paper Series No 2560 
+37
+
+PAGE 39
+References
+Ahmed, R. (2023). Flights-to-safety and macroeconomic adjustment in emerging mar-
+kets: The role of US monetary policy. Journal of International Money and Fi-
+nance 133 (102827), 1–31.
+Albuquerque, R. and C. Vega (2009). Economic news and international stock market
+co-movement. Review of Finance 13 (3), 401–465.
+Altavilla, C., L. Brugnolini, R. S. G¨ urkaynak, R. Motto, and G. Ragusa (2019). Measuring
+euro area monetary policy. Journal of Monetary Economics 108 , 162–179.
+Altavilla, C., G. Carboni, and R. Mottoa (2021). Asset purchase programs and ﬁnancial
+markets: Lessons from the euro area. International Journal of Central Banking 17 (4),
+1–48.
+Andrade, P., J. Breckenfelder, F. De Fiore, , P. Karadi, and O. Tristani (2016). The
+ECB’s asset purchase programme: an early assessment. Working Paper Series 1956,
+European Central Bank.
+Andrade, P. and F. Ferroni (2021). Delphic and odyssean monetary policy shocks: Evi-
+dence from the euro area. Journal of Monetary Economics 117 , 816–832.
+Arias, J. E., J. F. Rubio-Ram´ ırez, and D. F. Waggoner (2018). Inference based on
+structural vector autoregressions identiﬁed with sign and zero restrictions: Theory and
+applications. Econometrica 86 (2), 685–720.
+Baele, L., G. Bekaert, K. Inghelbrecht, and M. Wei (2020). Flights to safety. The Review
+of Financial Studies 33 (2), 689–746.
+Bauer, M. D. and E. T. Swanson (2023). A reassessment of monetary policy surprises
+and high-frequency identiﬁcation. NBER Macroeconomics Annual 37 , 87–155.
+Benhabib, J., X. Liu, and P. Wang (2016). Sentiment, ﬁnancial markets, and macroeco-
+nomic ﬂuctuations. Journal of Financial Economics 120 (2), 420–443.
+Bernanke, B. S., M. Gertler, and S. Gilchrist (1999). The ﬁnancial accelerator in a
+quantitative business cycle framework. Handbook of Macroeconomics 1, 1341–1393.
+Bobasu, A., L. Quaglietti, and M. Ricci (2024). Tracking global economic uncertainty:
+implications for the euro area. IMF Economic Review 72 (2), 820–857.
+Bodenstein, M., P. Cuba-Borda, N. Gornemann, I. Presno, A. Prestipino, A. Queralto,
+and A. Raﬀo (2023). Global ﬂight to safety, business cycles, and the dollar. Interna-
+tional Finance Discussion Papers 1381, Federal Reserve Board.
+Boz, E., C. Casas, G. Georgiadis, G. Gopinath, H. Le Mezo, A. Mehl, and T. Nguyen
+(2022). Patterns of invoicing currency in global trade: New evidence. Journal of
+International Economics 136 , 103604.
+Bruno, V. and H. S. Shin (2015). Capital ﬂows and the risk-taking channel of monetary
+policy. Journal of Monetary Economics 71 , 119–132.
+ECB Working Paper Series No 2560 
+38
+
+PAGE 40
+Buch, C. M., M. Bussiere, L. Goldberg, and R. Hills (2019). The international transmis-
+sion of monetary policy. Journal of International Money and Finance 91 , 29–48.
+Cahill, M., S. D’Amico, C. Li, and J. Sears (2013). Duration risk versus local supply
+channel in Treasury yields: evidence from the Federal Reserve’s asset purchase an-
+nouncements. Finance and Economics Discussion Series 35, Federal Reserve Board.
+Caldara, D. and E. Herbst (2019). Monetary policy, real activity, and credit spreads: Evi-
+dence from bayesian proxy svars.American Economic Journal: Macroeconomics 11 (1),
+157–92.
+Campbell, J. R., C. L. Evans, J. D. Fisher, A. Justiniano, C. W. Calomiris, and M. Wood-
+ford (2012). Macroeconomic eﬀects of Federal Reserve forward guidance. Brookings
+Papers on Economic Activity , 1–80.
+Cao, G., A. Foerster, et al. (2013). Expectations of large-scale asset purchases. Economic
+Review (Q II), 5–29.
+Carlson, M. A., S. D’Amico, C. Fuentes-Albero, B. Schlusche, and P. R. Wood (2020).
+Issues in the use of the balance sheet tool. Finance and Economics Discussion Series 71,
+Federal Reserve Board.
+Ca’Zorzi, M., L. Dedola, G. Georgiadis, M. Jarocinski, L. Stracca, and G. Strasser (2023).
+Making waves: Monetary policy and its asymmetric spillovers in a globalised world.
+International Journal of Central Banking 19 (2), 95–144.
+Cesa-Bianchi, A. and A. Sokol (2022). Financial shocks, credit spreads, and the interna-
+tional credit channel. Journal of International Economics 135 , 103543.
+Christiano, L. J., R. Motto, and M. Rostagno (2014). Risk shocks. American Economic
+Review 104 (1), 27–65.
+Cieslak, A. and H. Pang (2021). Common shocks in stocks and bonds. Journal of
+Financial Economics 142 (2), 880–904.
+Cieslak, A. and P. Povala (2015). Expected returns in Treasury bonds. The Review of
+Financial Studies 28 (10), 2859–2901.
+Cieslak, A. and A. Schrimpf (2019). Non-monetary news in central bank communication.
+Journal of International Economics 118 , 293–315.
+De Santis, R. A. (2019). Redenomination risk. Journal of Money, Credit and Bank-
+ing 51 (8), 2173–2206.
+Dedola, L., P. Karadi, and G. Lombardo (2013). Global implications of national uncon-
+ventional policies. Journal of Monetary Economics 60 (1), 66–85.
+Dedola, L. and G. Lombardo (2012). Financial frictions, ﬁnancial integration and the
+international propagation of shocks. Economic Policy 27 (70), 319–359.
+Dedola, L., G. Rivolta, and L. Stracca (2017). If the Fed sneezes, who catches a cold?
+Journal of International Economics 108 , S23–S41.
+ECB Working Paper Series No 2560 
+39
+
+PAGE 41
+Degasperi, R., S. S. Hong, and G. Ricco (2024). The global transmission of U.S. monetary
+policy. Working Paper Series 1466, Bank of Italy.
+Du, W., J. Im, and J. Schreger (2018). The US Treasury premium. Journal of Interna-
+tional Economics 112 , 167–181.
+Engel, C. (2014). Exchange rates and interest parity. Handbook of International Eco-
+nomics 4, 453–522.
+Eser, F., W. Lemke, K. Nyholm, S. Radde, and A. L. Vladu (2023). Tracing the impact of
+the ecb’s asset purchase program on the yield curve. International Journal of Central
+Banking 19 (3), 359–422.
+Farhi, E. and X. Gabaix (2016). Rare disasters and exchange rates. The Quarterly
+Journal of Economics 131 (1), 1–52.
+Fatum, R. and Y. Yamamoto (2016). Intra-safe haven currency behavior during the global
+ﬁnancial crisis. Journal of International Money and Finance 66 , 49–64.
+Forbes, K., I. Hjortsoe, and T. Nenova (2018). The shocks matter: improving our esti-
+mates of exchange rate pass-through.Journal of International Economics 114 , 255–275.
+Gagnon, J., M. Raskin, J. Remache, and B. P. Sack (2011). Large-scale asset purchases
+by the federal reserve: did they work? Economic Policy Review 17 (1), 41.
+Gali, J. and T. Monacelli (2005). Monetary policy and exchange rate volatility in a small
+open economy. The Review of Economic Studies 72 (3), 707–734.
+Georgiadis, G., G. J. M¨ uller, and B. Schumann (2024). Global risk and the dollar.Journal
+of Monetary Economics 144 , 103549.
+Gertler, M. and P. Karadi (2015). Monetary policy surprises, credit costs, and economic
+activity. American Economic Journal: Macroeconomics 7 (1), 44–76.
+Gourinchas, P.-O. and H. Rey (2022). Exorbitant privilege and exorbitant duty. Discus-
+sion Paper Series 16944, CEPR.
+Habib, M. M. and L. Stracca (2012). Getting beyond carry trade: What makes a safe
+haven currency? Journal of International Economics 87 (1), 50–64.
+Hollo, D., M. Kremer, and M. Lo Duca (2012). CISS - a composite indicator of systemic
+stress in the ﬁnancial system. Working Paper Series 1426, European Central Bank.
+Ilzetzki, E., C. M. Reinhart, and K. S. Rogoﬀ (2019). Exchange arrangements entering
+the twenty-ﬁrst century: Which anchor will hold? The Quarterly Journal of Eco-
+nomics 134 (2), 599–646.
+Jaroci´ nski, M. (2022). Central bank information eﬀects and transatlantic spillovers.Jour-
+nal of International Economics 139 , 103683.
+Jaroci´ nski, M. and P. Karadi (2020). Deconstructing monetary policy surprises—the role
+of information shocks. American Economic Journal: Macroeconomics 12 (2), 1–43.
+ECB Working Paper Series No 2560 
+40
+
+PAGE 42
+Jayawickrema, V. and E. Swanson (2021). Speeches by the Fed chair are more important
+than FOMC announcements: An improved high-frequency measure of US monetary
+policy shocks. Unpublished manuscript.
+Jiang, Z., A. Krishnamurthy, and H. Lustig (2021). Foreign safe asset demand and the
+dollar exchange rate. The Journal of Finance 76 (3), 1049–1089.
+Kearns, J., A. Schrimpf, and F. Xia (2023). Explaining monetary spillovers: The matrix
+reloaded. Journal of Money, Credit and Banking 55 (6), 1535–1568.
+Krishnamurthy, A. and A. Vissing-Jorgensen (2012). The aggregate demand for Treasury
+debt. Journal of Political Economy 120 (2), 233–267.
+Maggiori, M., B. Neiman, and J. Schreger (2019). The rise of the dollar and fall of the
+euro as international currencies. In AEA Papers and Proceedings, Volume 109, pp.
+521–526. American Economic Association.
+Matheson, T. and E. Stavrev (2014). News and monetary shocks at a high frequency: a
+simple approach. Economics Letters 125 (2), 282–286.
+Mertens, K. and M. O. Ravn (2013). The dynamic eﬀects of personal and corporate
+income tax changes in the united states. American Economic Review 103 (4), 1212–
+1247.
+Miranda-Agrippino, S. and T. Nenova (2022). A tale of two global monetary policies.
+Journal of International Economics 136 , 103606.
+Miranda-Agrippino, S. and H. Rey (2020). US monetary policy and the global ﬁnancial
+cycle. The Review of Economic Studies 87 (6), 2754–2776.
+Nakamura, E. and J. Steinsson (2018). High-frequency identiﬁcation of monetary non-
+neutrality: the information eﬀect. The Quarterly Journal of Economics 133 (3), 1283–
+1330.
+Pastor, L. and P. Veronesi (2009). Learning in ﬁnancial markets. Annual Review of
+Financial Economics 1 , 361–381.
+Pinchetti, M. and A. Szczepaniak (2023). Global spillovers of the Fed information eﬀect.
+IMF Economic Review , 1–47.
+Rigobon, R. and B. Sack (2003). Measuring the reaction of monetary policy to the stock
+market. The Quarterly Journal of Economics 118 (2), 639–669.
+Rigobon, R. and B. Sack (2004). The impact of monetary policy on asset prices. Journal
+of Monetary Economics 51 (8), 1553–1575.
+Rostagno, M., C. Altavilla, G. Carboni, W. Lemke, R. Motto, A. Saint Guilhem, and
+J. Yiangou (2021). Monetary policy in times of crisis: A tale of two decades of the
+European Central Bank. Oxford University Press.
+Rubio-Ramirez, J. F., D. F. Waggoner, and T. Zha (2010). Structural vector autoregres-
+sions: Theory of identiﬁcation and algorithms for inference. The Review of Economic
+Studies 77 (2), 665–696.
+ECB Working Paper Series No 2560 
+41
+
+PAGE 43
+Stock, J. H. and M. W. Watson (2012). Disentangling the channels of the 2007-2009
+recession. Brookings Papers on Economic Activity , 81–156.
+Vissing-Jorgensen, A. and A. Krishnamurthy (2011). The eﬀects of quantitative easing
+on interest rates: Channels and implications for policy. Brookings Papers on Economic
+Activity, 215–287.
+ECB Working Paper Series No 2560 
+42
+
+PAGE 44
+Online Appendix
+A Additional ﬁgures
+All dates GovC datesRate changes
+1
+1.5
+2
+2.5
+3
+Standard deviation
+EA policy
+All dates
+FOMC datesRate changes
+1
+1.5
+2
+2.5
+3
+Standard deviation
+US policy
+Figure A.1: Posterior distribution of policy shock volatilities
+Notes: The two panels show the posterior distribution of standard deviations of the two policy shocks
+summed over (i) all overlapping 2-day windows, (ii) days of policy meetings and the day after, and (iii)
+those policy meetings at which rates were changed. The one-day standard deviation of the shocks in the
+model is standardised to unity. Therefore, the expected standard deviation of two-day sums is roughly√
+2 = 1.41.
+ECB Working Paper Series No 2560 
+43
+
+PAGE 45
+Aug 2014 Sep 2014 Oct 2014 Nov 2014 Dec 2014 Jan 2015 Feb 2015 Mar 2015
+-50
+-40
+-30
+-20
+-10
+0
+10
+Draghi Jackson Hole speech
+25-Aug-2014
+APP announcement
+22-Jan-2015
+Start of 
+APP purchases
+09-Mar-2015
+Contribution of EA monetary policy 
+to EA 10y OIS
+(a) Euro area: 1 August 2014 - 31 March 2015
+Jul Aug Sep Oct Nov Dec
+2010   
+-60
+-50
+-40
+-30
+-20
+-10
+0
+10
+June FOMC meeting
+22-Jun-2010
+September FOMC meeting
+21-Sep-2010
+LSAP2 announcement
+03-Nov-2010
+Contribution of US monetary policy 
+to 10y US Treasury yields
+(b) United States: 3 June 2010 - 31 December 2010
+Figure A.2: Anticipation of ECB and Fed asset purchases
+Notes: Panel (a) shows the cumulative contribution of the euro area monetary policy shock to changes
+in the euro area 10y OIS rate from 1 August 2014 to 31 March 2015. Panel (b) that of the US monetary
+policy shock to the US 10y Treasury yield from 3 June 2010 to 31 December 2010.
+ECB Working Paper Series No 2560 
+44
+
+PAGE 46
+2004 2006 2008 2010 2012 2014 2016 2018
+-6
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+Standard deviations
+EA CESI EA macro shock
+(a) Euro area
+2004 2006 2008 2010 2012 2014 2016 2018
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+Standard deviations
+US CESI US macro shock
+(b) United States
+Figure A.3: Comparison of estimated macro shocks with the Citigroup Economic Surprise
+Index
+Notes: The ﬁgures show the standardised rolling three-month sum of the respective posterior mean over
+all accepted draws from the daily BVAR.
+ECB Working Paper Series No 2560 
+45
+
+PAGE 47
+Jackson hole 2014
+Sep14 rate cut
+APP announcement
+APP extension
+Mar20 Governing Council
+PEPP announcement
+LSAP1 announcement
+LSAP1 expansion
+LSAP2 announcement
+Taper Tantrum
+Lehman Brothers
+'Whatever it takes'
+Jan16 sell-off
+Brexit referendum
+Trump election
+Apr17 French elections
+Covid-19
+Russia sanctions
+-15
+-10
+-5
+0
+5
+10
+Percent
+EA monetary policy US MP Macro/Global risk
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EURO STOXX
+Figure A.4: Drivers of the euro area equity prices around selected events
+Notes: The chart shows the decomposition of the change on the day of the event and the day after.
+ECB Working Paper Series No 2560 
+46
+
+PAGE 48
+Jackson hole 2014
+Sep14 rate cut
+APP announcement
+APP extension
+Mar20 Governing Council
+PEPP announcement
+LSAP1 announcement
+LSAP1 expansion
+LSAP2 announcement
+Taper Tantrum
+Lehman Brothers
+'Whatever it takes'
+Jan16 sell-off
+Brexit referendum
+Trump election
+Apr17 French elections
+Covid-19
+Russia sanctions
+-6
+-4
+-2
+0
+2
+4
+6
+Percent
+EA monetary policy US MP Macro/Global risk
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EUR/USD
+Figure A.5: Drivers of the Euro-Dollar exchange rate around selected events
+Notes: The chart shows the decomposition of the change on the day of the event and the day after.
+ECB Working Paper Series No 2560 
+47
+
+PAGE 49
+Jackson hole 2014
+Sep14 rate cut
+APP announcement
+APP extension
+Mar20 Governing Council
+PEPP announcement
+LSAP1 announcement
+LSAP1 expansion
+LSAP2 announcement
+Taper Tantrum
+Lehman Brothers
+'Whatever it takes'
+Jan16 sell-off
+Brexit referendum
+Trump election
+Apr17 French elections
+Covid-19
+Russia sanctions
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+Percent
+EA monetary policy US MP Macro/Global risk
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+S&P 500
+Figure A.6: Drivers of the US equity prices around selected events
+Notes: The chart shows the decomposition of the change on the day of the event and the day after.
+ECB Working Paper Series No 2560 
+48
+
+PAGE 50
+Jackson hole 2014
+Sep14 rate cut
+APP announcement
+APP extension
+Mar20 Governing Council
+PEPP announcement
+LSAP1 announcement
+LSAP1 expansion
+LSAP2 announcement
+Taper Tantrum
+Lehman Brothers
+'Whatever it takes'
+Jan16 sell-off
+Brexit referendum
+Trump election
+Apr17 French elections
+Covid-19
+Russia sanctions
+-70
+-60
+-50
+-40
+-30
+-20
+-10
+0
+10
+20
+30
+Basis points
+EA monetary policy US MP Macro/Global risk
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+US 10y Treasury
+Figure A.7: Drivers of the US Treasury yields around selected events
+Notes: The chart shows the decomposition of the change on the day of the event and the day after.
+ECB Working Paper Series No 2560 
+49
+
+PAGE 51
+(a) Euro area double-dip recession: 2008-2013
+(b) ECB unconventional monetary policy: 2014-2019
+(c) Covid and inﬂation surge: 2020-2023
+Figure A.8: Historical decomposition of US asset prices
+Notes: Contributions are rebased to zero at the beginning of the review period. For equity prices and
+the exchange rate they are re-scaled to match cumulative growth in the observable variable in percent
+instead of log-diﬀerences.
+ECB Working Paper Series No 2560 
+50
+
+PAGE 52
+Jul 2000 Jul 2001 Jul 2002
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EA 10y OIS
+(a) EA long-term yields
+Jul 2000 Jul 2001 Jul 2002
+-20
+-10
+0
+10
+20
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EUR/USD (b) Euro-Dollar exchange rate
+Jul 2000 Jul 2001 Jul 2002
+-3
+-2
+-1
+0
+1
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+US 10y Treasury
+(c) US long-term yields
+ (d) US equity prices
+Figure A.9: Cross-Atlantic spillovers in ﬁnancial markets: US dot-com crash 2000-2002
+Notes: The charts show the average historical decomposition of changes from 10 March 2000 to 31
+December 2002 in asset prices not displayed in Figure 7. All shock contributions are normalised to zero
+at the beginning of the review period.
+ECB Working Paper Series No 2560 
+51
+
+PAGE 53
+Jan 2012 Jul 2012
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EA 10y OIS
+(a) EA long-term yields
+Jan 2012 Jul 2012
+-30
+-20
+-10
+0
+10
+20
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EURO STOXX (b) EA equity prices
+Jan 2012 Jul 2012
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+US 10y Treasury
+(c) US long-term yields
+Jan 2012 Jul 2012
+-20
+-10
+0
+10
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EUR/USD (d) Euro-Dollar exchange rate
+Figure A.10: Cross-Atlantic spillovers in ﬁnancial markets: EA sovereign debt crisis 2011-
+2012
+Notes: The charts show the average historical decomposition of changes from 7 July 2011 to 31 December
+2012 in asset prices not displayed in Figure 7. All shock contributions are normalised to zero at the
+beginning of the review period.
+ECB Working Paper Series No 2560 
+52
+
+PAGE 54
+2010 2012 2014 2016 2018
+-50
+0
+50
+100
+150Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EURO STOXX
+(a) EA equity prices
+2010 2012 2014 2016 2018
+-40
+-20
+0
+20
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EUR/USD (b) Euro-Dollar exchange rate
+2010 2012 2014 2016 2018
+-4
+-2
+0
+2
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+US 10y Treasury
+(c) US long-term yields
+2010 2012 2014 2016 2018
+0
+100
+200
+300Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+S&P 500 (d) US equity prices
+Figure A.11: Cross-Atlantic spillovers in ﬁnancial markets: Fed unconventional policy
+2008-2019
+Notes: The charts show the average historical decomposition of changes from 24 November 2008 to 31
+December 2019 in asset prices not displayed in Figure 7. All shock contributions are normalised to zero
+at the beginning of the review period.
+ECB Working Paper Series No 2560 
+53
+
+PAGE 55
+2014 2015 2016 2017 2018 2019
+-3
+-2
+-1
+0
+1
+Percentage points
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EA 10y OIS
+(a) EA long-term yields
+2014 2015 2016 2017 2018 2019
+-20
+0
+20
+40
+60
+80
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EURO STOXX (b) Euro-Dollar exchange rate
+2014 2015 2016 2017 2018 2019
+0
+20
+40
+60
+80
+100Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+S&P 500
+(c) US long-term yields
+2014 2015 2016 2017 2018 2019
+-30
+-20
+-10
+0
+10
+Percent
+EA policy
+EA macro
+US policy
+US macro
+Global risk
+EUR/USD (d) US equity prices
+Figure A.12: Cross-Atlantic spillovers in ﬁnancial markets: ECB unconventional policy
+2013-2019
+Notes: The charts show the average historical decomposition of changes from 4 July 2013 to 31 December
+2019 in asset prices not displayed in Figure 7. All shock contributions are normalised to zero at the
+beginning of the review period.
+ECB Working Paper Series No 2560 
+54
+
+PAGE 56
+Figure A.13: PSVAR impulse response functions for US macro variables
+Notes: Responses to the policy and macro shocks are normalised to a shock which increases the respective
+long-term interest rate by 10 basis points on impact. Responses to the global risk shock are normalised to
+a shock which causes an appreciation of the bilateral euro-Dollar exchange rate by 1 percent on impact.
+Figure A.14: PSVAR impulse response functions for ﬁnancial variables
+Notes: Responses to the policy and macro shocks are normalised to a shock which increases the respective
+long-term interest rate by 10 basis points on impact. Responses to the global risk shock are normalised to
+a shock which causes an appreciation of the bilateral euro-Dollar exchange rate by 1 percent on impact.
+ECB Working Paper Series No 2560 
+55
+
+PAGE 57
+B Additional robustness exercises
+B.1 Choice of maturity
+The table below presents the results of an alternative estimation of the model using the
+2-year rate instead of the 10-year rate. The maturity aﬀects the identiﬁcation of the
+various shocks, but overall the results remain close with a highly positive correlation
+across the shocks from the two speciﬁcations.
+EA policy EA macro US policy US macro Global risk
+2-year 0.79 0.74 0.85 0.95 0.86
+Table B.1: Correlation of shocks relative to benchmark speciﬁcation
+B.2 Alternative risk indicators
+In the below, we test the robustness of the model by (i) replacing the bilateral euro-US
+dollar exchange rate with the broad US dollar exchange rate and (ii) replacing the euro
+area 10-year OIS rate with the euro area GDP-weighed sovereign yield (also in the inter-
+est rate spread). It appears that the estimated global risk shock in both cases is highly
+correlated with the global risk shock of our benchmark model when making these changes
+(correlation of 0.7 and 0.99, respectively), which indicates that the results are robust to
+these alternative risk indicators.
+EA policy EA macro US policy US macro Global risk
+EA Sov. 0.75 0.74 0.98 0.96 0.99
+US NEER 0.92 0.99 0.91 0.74 0.70
+Table B.2: Correlation of shocks relative to benchmark speciﬁcation
+However, it is important to note that using euro area sovereign yields to identify
+shocks might inadvertently incorporate euro area-speciﬁc risk factors into broader shock
+deﬁnitions, such as the global risk shock and the euro area monetary policy shock. The
+correlation of shocks shown in the table above suggests, for example, that the identiﬁed
+euro area monetary policy shocks diﬀer when using sovereign yields. This discrepancy
+ECB Working Paper Series No 2560 
+56
+
+PAGE 58
+may arise because sovereign yields could misinterpret shifts in euro area sovereign spreads
+– such as those observed during the euro area sovereign debt crisis – as monetary policy
+shocks, which might be problematic.
+B.3 Composition of the monetary policy shocks
+In this section, we present a robustness exercise where we regress the three monetary
+policy factors from Miranda-Agrippino and Nenova (target, path, QE) onto our own
+monetary policy factor. Several results are worth highlighting. First, all three monetary
+policy factors load positively on our monetary policy factor with a reasonable ﬁt (see
+Figure B.15 below). Second, as expected, our monetary policy shock loads more positively
+on the path and QE dimensions than on the target dimension. And when using the 2-year
+rate instead, the loading on the target factor increases signiﬁcantly (Figure B.16). Last,
+using the target, path and QE shocks purged from the information eﬀects, as has become
+usual practice in the literature, tends to improve the ﬁt of the regression (see light blue
+bars compared to dark blue bars). This is reassuring because our identiﬁcation scheme
+to separate monetary policy and macro shocks based on the co-movement of yields and
+stock prices bears similarity with the ”poor man’s restriction” of Jarocinski and Karadi,
+which is precisely intended to extract monetary policy shocks distinct from information
+eﬀects.
+ECB Working Paper Series No 2560 
+57
+
+PAGE 59
+Figure B.15: Euro area: benchmark speciﬁcation
+Notes: This ﬁgure shows coeﬃcients and goodness-of-ﬁt statistics from a regression of the EA mone-
+tary policy factors of Miranda-Agrippino and Nenova (2022) onto the mean EA policy shock from the
+benchmark speciﬁcation of the daily VAR.
+ECB Working Paper Series No 2560 
+58
+
+PAGE 60
+Figure B.16: Euro area: alternative speciﬁcation
+Notes: This ﬁgure shows coeﬃcients and goodness-of-ﬁt statistics from a regression of the EA mone-
+tary policy factors of Miranda-Agrippino and Nenova (2022) onto the mean EA policy shock from an
+alternative speciﬁcation using 2y yields in the daily VAR.
+ECB Working Paper Series No 2560 
+59
+
+PAGE 61
+Figure B.17: US: benchmark speciﬁcation
+Notes: This ﬁgure shows coeﬃcients and goodness-of-ﬁt statistics from a regression of the US mone-
+tary policy factors of Miranda-Agrippino and Nenova (2022) onto the mean US policy shock from the
+benchmark speciﬁcation of the daily VAR.
+ECB Working Paper Series No 2560 
+60
+
+PAGE 62
+Figure B.18: US: alternative speciﬁcation
+Notes: This ﬁgure shows coeﬃcients and goodness-of-ﬁt statistics from a regression of the US mone-
+tary policy factors of Miranda-Agrippino and Nenova (2022) onto the mean US policy shock from an
+alternative speciﬁcation using 2y yields in the daily VAR.
+ECB Working Paper Series No 2560 
+61
+
+PAGE 63
+Acknowledgements 
+We would like to thank Zymantas Budrys, Natalie Burr, Giacomo Carboni, Massimo Ferrari Minesso, Roberto de Santis, Maren Froemel, 
+Catherine L. Mann, and Roberto Motto for fruitful discussions of the model. 
+The views expressed here are those of the authors and do not necessarily reflect those of the European Central Bank, the Eurosystem, 
+the Bank of England, or Norges Bank. 
+ 
+Lennart Brandt 
+Bank of England, London, United Kingdom; email: lennart.brandt@bankofengland.co.uk 
+ 
+Arthur Saint Guilhem 
+Banque de France, Paris, France; email: arthur.saint-guilhem@banque-france.fr 
+ 
+Maximilian Schröder 
+European Central Bank, Frankfurt am Main, Germany; email: maximilian.schroder@ecb.europa.eu 
+ 
+Ine Van Robays 
+European Central Bank, Frankfurt am Main, Germany; email: ine.van-robays@ecb.europa.eu 
+© European Central Bank, 2026 
+Postal address 60640 Frankfurt am Main, Germany 
+Telephone +49 69 1344 0 
+Website www.ecb.europa.eu 
+All rights reserved. Any reproduction, publication and reprint in the form of a different publication, whether printed or produced 
+electronically, in whole or in part, is permitted only with the explicit written authorisation of the ECB or the authors.  
+This paper can be downloaded without charge from www.ecb.europa.eu, from the Social Science Research Network electronic library or 
+from RePEc: Research Papers in Economics. Information on all of the papers published in the ECB Working Paper Series can be found 
+on the ECB’s website. 
+PDF ISBN 978-92-899-4746-6 ISSN 1725-2806 doi:10.2866/254568 QB-AR-21-051-EN-N 

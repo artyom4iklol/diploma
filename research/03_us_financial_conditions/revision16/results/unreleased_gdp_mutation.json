@@ -1,0 +1,175 @@
+{
+  "checks": [
+    {
+      "origin": "2010Q1",
+      "h": 1,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2010Q1",
+      "h": 1,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2010Q1",
+      "h": 1,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2010Q1",
+      "h": 4,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2010Q1",
+      "h": 4,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2010Q1",
+      "h": 4,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2018Q4",
+      "h": 1,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2018Q4",
+      "h": 1,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2018Q4",
+      "h": 1,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2018Q4",
+      "h": 4,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2018Q4",
+      "h": 4,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2018Q4",
+      "h": 4,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2020Q4",
+      "h": 1,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2020Q4",
+      "h": 1,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2020Q4",
+      "h": 1,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2020Q4",
+      "h": 4,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2020Q4",
+      "h": 4,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2020Q4",
+      "h": 4,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2024Q4",
+      "h": 1,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2024Q4",
+      "h": 1,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2024Q4",
+      "h": 1,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2024Q4",
+      "h": 4,
+      "model": "BASE",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2024Q4",
+      "h": 4,
+      "model": "US_CISS",
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "origin": "2024Q4",
+      "h": 4,
+      "model": "US_NFCI",
+      "difference": 0.0,
+      "passed": true
+    }
+  ],
+  "n_checks": 24,
+  "all_passed": true,
+  "scope": "Tests computation only; does not certify historical data vintages."
+}

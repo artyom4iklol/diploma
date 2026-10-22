@@ -1,0 +1,71 @@
+{
+  "forecasts": 1695,
+  "historical_forecasts": 1356,
+  "NFCI_counterfactual_forecasts": 339,
+  "independent_LP_solver_checks": [
+    {
+      "h": 1,
+      "origin": "2011Q2",
+      "objective_difference": 1.7763568394002505e-15,
+      "forecast_difference": 2.220446049250313e-16
+    },
+    {
+      "h": 1,
+      "origin": "2020Q4",
+      "objective_difference": 0.0,
+      "forecast_difference": -1.4210854715202004e-14
+    },
+    {
+      "h": 1,
+      "origin": "2023Q1",
+      "objective_difference": -1.4210854715202004e-14,
+      "forecast_difference": 1.1102230246251565e-15
+    },
+    {
+      "h": 1,
+      "origin": "2025Q3",
+      "objective_difference": 0.0,
+      "forecast_difference": 1.1102230246251565e-16
+    },
+    {
+      "h": 4,
+      "origin": "2011Q2",
+      "objective_difference": -3.552713678800501e-15,
+      "forecast_difference": 2.220446049250313e-16
+    },
+    {
+      "h": 4,
+      "origin": "2020Q4",
+      "objective_difference": 7.105427357601002e-15,
+      "forecast_difference": -1.4210854715202004e-14
+    },
+    {
+      "h": 4,
+      "origin": "2023Q1",
+      "objective_difference": -7.105427357601002e-15,
+      "forecast_difference": 3.9968028886505635e-15
+    }
+  ],
+  "current_future_label_mutation": [
+    {
+      "h": 1,
+      "prediction_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prediction_difference": 0.0
+    }
+  ],
+  "all_models_common_origins": true,
+  "all_models_common_training_rows": true,
+  "all_designs_full_rank": true,
+  "minimum_training_rows": 52,
+  "maximum_condition": 4.104617861211316,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "no_unconditional_superiority_claim_from_expanding": true
+}

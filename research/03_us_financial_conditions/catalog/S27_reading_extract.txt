@@ -1,0 +1,120 @@
+On the Real-Time Predictive Content of Financial Conditions
+Indices for Growth∗
+Aaron J. Amburgey† and Michael W. McCracken‡
+June 3, 2022
+Abstract
+We provide evidence on the real-time predictive content of the National Financial
+Conditions Index (NFCI), for conditional quantiles of U.S. real GDP growth. Our work
+is distinct from the literature in two speciﬁc ways. First, we construct (unoﬃcial) real-
+time vintages of the NFCI. This allows us to conduct out-of-sample analysis without
+introducing the kind of look-ahead biases that are naturally introduced when using a
+single current vintage. We then develop methods for conducting asymptotic inference
+on tests of equal tick loss between nested quantile regression models when the data
+are subject to revision. We conclude by evaluating the real-time predictive content of
+NFCI vintages for quantiles of real GDP growth. While our results largely reinforce the
+literature, we ﬁnd gains to using real-time vintages leading up to recessions — precisely
+when policymakers need such a monitoring device.
+JEL Nos.: C12, C32, C38, C52
+Keywords: out-of-sample forecasts, real-time data, quantiles
+∗We are grateful to Scott Brave, Todd Clark, and Ana Galv˜ ao for helpful comments as well as participants
+at the Friendly Faces workshop, the 2021 CFE conference, 2022 SNDE conference and seminar participants
+at the Federal Reserve Bank of St. Louis, University of Kansas, and the Booth School of Business. The
+views expressed here are those of the individual authors and do not necessarily reﬂect oﬃcial positions of
+the Federal Reserve Bank of St. Louis, the Federal Reserve System, or the Board of Governors.
+†Federal Reserve Bank of St. Louis. Address: P.O. Box 442. St. Louis, MO 63166, U.S.A. Tel: 314-444-
+4229. Email: aaron.amburgey@stls.frb.org
+‡Federal Reserve Bank of St. Louis. Address: P.O. Box 442. St. Louis, MO 63166, U.S.A. Tel: 314-444-
+8594. Email: michael.w.mccracken@stls.frb.org
+1 Introduction
+Building on work by De Nicol´ o and Lucchetta (2017) and Alessandri and Mumtaz (2017),
+Adrian, Boyarchenko, and Giannone (2019; ABG) observe that current ﬁnancial conditions
+have a substantial negative eﬀect on the lower quantiles of future real GDP (RGDP) growth
+but have limited eﬀect elsewhere in its conditional distribution. This observation has lead
+to a surge of interest in growth-at-risk including, but not limited to, work by Coe and
+Vahey (2020), who take a much longer historical context; Carriero, Clark, and Marcellino
+(2020), who consider the role of conditional volatility; Brownlees and Souza (2021), who
+take an international perspective, and Reichlin, Ricco, and Hasenzagl (2020), who provide
+a negative assessment, concluding that ﬁnancial conditions have little predictive content for
+quantiles conditional on other macroeconomic information.
+Although each of these papers bring their own angle to the literature on growth-at-risk,
+they all share one thing in common: at least part of their analysis uses a current vintage
+of the National Financial Conditions Index (NFCI) in a pseudo out-of-sample framework
+to form predictions of RGDP growth. While instructive, by taking a pseudo out-of-sample
+approach they do not ascertain whether the NFCI would have been useful for monitoring
+tail risk in real time. To be fair, vintages of the NFCI only became available in May 2011
+and hence could not have been used leading into the Great Recession or any other U.S.
+recession prior to the COVID-19-induced recession of 2020. Even so, several of the series
+used to construct the NFCI depend on GDP directly (e.g., the corporate debt-to-GDP
+ratio) and hence pseudo out-of-sample analyses potentially lead to look-ahead biases when
+predicting GDP growth. In addition, as emphasized by Brownlees and Souza (2021), since
+the NFCI is estimated using a mixed frequency dynamic factor model, using the most recent
+vintage avoids ﬁltering uncertainty at the sample endpoints — an issue that is unavoidable
+when using real-time data.
+With this in mind, we make three contributions to the literature on growth-at-risk with
+an eye towards the real-time nature of the problem. First, we construct (unoﬃcial) real-
+time weekly vintages of the NFCI from January 1988 through May 2011 with values that
+date back to January 1973. The vintages are constructed using most of the ﬁnancial series
+in the oﬃcial version as well as real-time GNP and GDP vintage data. They cover the
+1
+same time span as the oﬃcial NFCI, are weekly, and are constructed using mixed frequency
+state-space code written by Scott Brave and Andrew Butters - the originators and curators
+of the oﬃcial NFCI. We then show that while the unoﬃcial vintages are highly correlated
+with the current oﬃcial vintages, end-of-sample diﬀerences exist, making them less smooth
+than current vintage values.
+This leads to our second contribution. We provide analytical and Monte Carlo evidence
+on tests of equal expected tick loss for nested quantile models when data are subject to
+revision. The vast majority of the literature on tests of equal predictive ability, including
+West (1996), Clark and McCracken (2001), Giacomini and Rossi (2010), and Rossi and
+Sekhposyan (2011), assume that the observables, used to form and evaluate the forecast,
+are unrevised. One could form an argument that the tests developed in Diebold and Mariano
+(1995) and Giacomini and White (2006) are robust to the presence of revisions, but they
+introduce other complicating issues: either parameter estimation is not present or they
+require that a ﬁnite rolling window of observations is used to estimate parameters.
+In contrast, Clark and McCracken (2009) develop tests of equal predictive ability un-
+der quadratic loss, between OLS-estimated nested linear models, when the predictors and
+predictands are subject to revision. They ﬁnd that the presence of revisions can lead
+to dramatically diﬀerent asymptotic distributions associated with tests of equal accuracy.
+Speciﬁcally, they ﬁnd that test statistics with otherwise non-standard asymptotic distribu-
+tions become asymptotically normal in the presence of predictable revisions. We ﬁnd that
+the same result applies to nested quantile models evaluated under tick loss. 1
+Having developed a method for evaluating forecast accuracy under tick loss in the pres-
+ence of revisions, our ﬁnal contribution is a thorough and methodologically sound evaluation
+of the real-time predictive content of the NFCI vintages for RGDP growth. We ﬁnd that
+adding a single lag of the NFCI to a baseline Quantile Autoregressive (QAR) model with
+one lag provides robust, substantial performance gains when predicting the lower tails of
+RGDP growth. While this result only reinforces much of the existing literature, we also ﬁnd
+some evidence that the real-time vintages can lead to more accurate forecasts. Speciﬁcally,
+we ﬁnd that real-time vintages have superior predictive content leading into recessions. The
+1Corradi, Fosten, and Gutknecht (2020) constructs tests of equal tick loss between non-nested models
+but do not consider data that are subject to revision.
+2
+reason for this superiority appears to be that current vintages smooth over turning point
+information in order to obtain lower factor volatility. Vintages leading into a recession may
+be more volatile, but they cannot smooth through a recession that has yet to occur and
+hence retain their signal.
+Before proceeding, it is worth emphasizing that we are not the ﬁrst to highlight the
+real-time nature of growth-at-risk. Delle Monache, De Polis, and Petrella (2021) use a
+current vintage of the NFCI for part of their analysis but then perform a related exercise
+using a real-time data set composed of the individual series underlying the NFCI. Caldara,
+Cascaldi-Garcia, Cuba-Borda, and Loria (2020) also consider the NFCI for part of their
+analysis but also construct their own real-time macroeconomic and ﬁnancial factors based
+on a modest collection of ﬁve macroeconomic and four ﬁnancial series. In the context of
+the euro area, Ferrara, Mogliani, and Sahuc (2020) gather real-time macroeconomic and
+ﬁnancial data to predict growth-at-risk at the daily frequency. Nevertheless, our paper
+stands out, ﬁrst and foremost, by formally constructing (unoﬃcial) historical vintages of
+the NFCI and using those to conduct the forecasting exercises. In addition, in order to
+assess these forecasts, we develop analytical tools for conducting asymptotic inference in
+tests of equal tick loss in the presence of data revisions.
+The remainder of the paper proceeds as follows. Section 2 describes construction of
+the unoﬃcial vintages of the NFCI and provides an assessment of their validity. Section
+3 presents our proposed method for constructing tests of equal expected tick loss when
+revisions are present. Section 4 presents Monte Carlo evidence on the ﬁnite sample size and
+power of these tests. Section 5 assesses the predictive content of the NFCI in a real-time
+environment while also noting its behavior leading into recessions. Section 6 concludes.
+2 Real-Time (Unoﬃcial) Vintages of the NFCI
+As we note in the introduction, the increasingly large literature on growth-at-risk typically
+uses current vintages of the NFCI when forming retrospective quantile predictions of growth
+in RGDP. In this section we ﬁrst describe our approach to constructing a sequence of
+unoﬃcial real-time vintages of the NFCI. We then assess the quality of these vintages
+relative to the current oﬃcial NFCI vintages. Finally, we analyze the evolution of the
+3

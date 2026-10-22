@@ -1,0 +1,14 @@
+[
+  {
+    "id": "S31",
+    "source_url": "https://dspace.tul.cz/bitstream/handle/15240/158179/EM_4_2020_10.pdf?sequence=1&isAllowed=y",
+    "version": "Journal article, 2020",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://dspace.tul.cz/server/api/core/bitstreams/03e9efdf-d2ff-4917-a9ed-8f5575089898/content",
+    "status": "downloaded",
+    "file": "papers/S31.pdf",
+    "pages": 14,
+    "sha256": "49e0decd2f429c0cb366e1cf293b470d1fffe09bced0c3235bc737e53f1974f2",
+    "first_page": "152 2020, XXIII, 4\nFinance\nDOI: 10.15240/tul/001/2020-4-010\nTRANSMISSION OF FINANCIAL STRESS \nSHOCKS BETWEEN THE USA AND THE \nEURO AREA DURING DIFFERENT BUSINESS \nCYCLE PHASES\nSilvo Dajčman1, Alenka Kavkler2, Peter Mikek3, Dejan Romih4\n1 University of Maribor, Faculty of Economics and Business, Department of Economic Policy, Slovenia,  \nsilvo.dajcman@um.si;\n2 University of Maribor, Faculty of Economics and Business, Department of Quantitative Economic Analysis,  \nSlovenia, alenka.kavkler@um.si;\n3 Wabash College, Department of Economics, United States of America, mikekp@wabash.edu;\n4 University of Maribor, Faculty of Economics and Business, Department of International Economics and Business, \nSlovenia, ORCID: 0000-0001-9123-0183, dejan.romih@um.si;\nAbstract: This paper examines the transmission of financial stress shocks between the USA and \nthe euro area for recessionary and non-recessionary regimes in the shock-recipient economy. The \ninvestigated period is 1999M1–2017M11, which includes several episodes of recessionary and \nnon-recessionary regimes, endogenously determined by the model, as well as several financial \nstress episodes. After testing for non-linearity, we employ a\n five-variable \nBayesian threshold vector \nautoregression model using internationally compatible data for financial stress indices. Our results \nshow significant non-linearities in the financial stress-business cycle interactions for the euro area. \nIn comparison to the non-recessionary regime, the US financial stress shocks are more detrimental \nto the stability of the European financial system, output growth, and inflation in recessions. US \nfinancial stress shocks negatively affect euro area unemployment rate, but the effect is independent \nof the euro area industrial production growth regime"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-19",
+  "from_revision": 24,
+  "to_revision": 25,
+  "baseline_files": 753,
+  "unchanged_before_manifest": 745,
+  "edited_before_manifest": [
+    "CHANGELOG.md",
+    "README.md",
+    "chapter2/Chapter_2_Empirical_Analysis.md",
+    "chapter2/Chapter_2_Review_and_Changes.md",
+    "chapter2/EVIDENCE_MAP.md",
+    "chapter2/READ_ME.md",
+    "chapter2/evidence/verification.json",
+    "chapter2/verify_chapter2.py"
+  ],
+  "missing_files": [],
+  "earlier_data_code_results_and_papers_unchanged": true,
+  "chapter1_unchanged": true
+}

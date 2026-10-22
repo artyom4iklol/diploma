@@ -1,0 +1,34 @@
+[
+  {
+    "id": "S33",
+    "source_url": "https://www.ijcb.org/sites/default/files/journal/v8n2/ijcb-v8n2-diagnosing-financial-system-financial-conditions-and-financial-stress.pdf",
+    "version": "Journal article, June 2012",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.ijcb.org/sites/default/files/journal/v8n2/ijcb-v8n2-diagnosing-financial-system-financial-conditions-and-financial-stress.pdf",
+    "status": "downloaded",
+    "file": "papers/S33.pdf",
+    "pages": 49,
+    "sha256": "aed7624ca48c8325aaefb21c58e2ca6b0f2483f8b0d1504f91a8cf1fa6264b52",
+    "first_page": "Diagnosing the Financial System: Financial\nConditions and Financial Stress ∗\nScott Bravea and R. Andrew Butters b\naFederal Reserve Bank of Chicago\nbNorthwestern University\nWe approach the task of monitoring ﬁnancial stability\nwithin a framework that balances the costs and beneﬁts of\nidentifying future crisis-like conditions based on past U.S.\nﬁnancial crises. Our results indicate that the National Finan-\ncial Conditions Index (NFCI) produced by the Federal Reserve\nBank of Chicago is a highly predictive and robust indicator\nof ﬁnancial stress at leading horizons of up to one year, with\nmeasures of leverage playing a crucial role in signaling ﬁnancial\nimbalances. At longer forecast horizons, we propose an alter-\nnative sub-index of the NFCI that captures the relationship\nbetween non-ﬁnancial leverage, ﬁnancial stress, and economic\nactivity.\nJEL Codes: G01, G17, C43.\n1. Introduction\nMonitoring ﬁnancial stability is not unlike a medical practitioner\nusing a person’s body temperature, blood pressure, and other vital\nsigns to make a diagnosis of their health. Identifying the magnitude\nof ﬁnancial stress at any given point in time can depend critically on\n∗This article is a revision of a previously published working paper (Scott Brave\nand R. Andrew Butters, 2010, “Gathering Insights on the Forest from the Trees:\nA New Metric for Financial Conditions,” Federal Reserve Bank of Chicago Work-\ning Paper No. 2010-07). The views expressed herein are those of the authors and\ndo not necessarily represent the views of the Federal Reserve Bank of Chicago\nor the Federal Reserve System. The authors thank the editor and two anony-\nmous referees as well as Hesna Genay, Spencer Krane, Alejandro Justiniano, and\nFederal Reserve Bank of Chicago, 2011 Midwest Finance Association, and 2011\nComputi"
+  },
+  {
+    "id": "S34",
+    "source_url": "https://www.chicagofed.org/-/media/publications/economic-perspectives/2011/1qtr2011-part2-brave-butters-pdf.pdf",
+    "version": "Economic Perspectives article, 2011",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.chicagofed.org/-/media/publications/economic-perspectives/2011/1qtr2011-part2-brave-butters-pdf.pdf",
+    "status": "downloaded",
+    "file": "papers/S34.pdf",
+    "pages": 22,
+    "sha256": "7f835cf8ae091ac707818d8d2bc628378e8bb5ba5ed7389ce7800fdb697c4a82",
+    "first_page": "22 1Q/2011, Economic Perspectives\nIntroduction and summary\nOne of the key observations to come out of the recent \ncrisis is that financial innovation has made it difficult \nto capture broad financial conditions in a small number of \nvariables covering just a few traditional financial markets. \nThe network of financial firms outside the traditional \ncommercial banking system—that is, the so-called shad-\now banking system—was at the forefront of many of \nthe major events of the crisis, as were newer financial \nmarkets for derivatives and asset-backed securities. \nIn the wake of the crisis, policymakers, regulators, \nfinancial market participants, and researchers have all \naffirmed the importance of the interconnections between \ntraditional and newly developed financial markets, as \nwell as their linkages to the nonfinancial sectors of the \neconomy. The Dodd–Frank Wall Street Reform and \nConsumer Protection Act of 2010 sets forth a financial \nstability mandate built on this widespread affirmation. \nMonitoring financial stability, thus, now explicitly \nrequires an understanding of both how traditional and \nevolving financial markets relate to each other and \nhow they relate to economic conditions. Indexes of  \nfinancial conditions are an attempt to quantify these \nrelationships. Here, we describe two new indexes that \nexpand on the work of Illing and Liu (2006), Nelson \nand Perli (2007), Hakkio and Keeton (2009), and \nHatzius et al. (2010). \nIn what follows, we first describe our method  \nof index construction. The novel contribution of our \nmethod is that it takes into account both the cross-\ncorrelations of a large number of financial variables \nand the historical evolution of the index to derive a \nset of weights for each element of the index. We also \ndevelop an alterna"
+  },
+  {
+    "id": "S22",
+    "source_url": "https://citeseerx.ist.psu.edu/document?doi=07b14f69099d1fdab8f09ff4e4155f379a5fcd8d&repid=rep1&type=pdf",
+    "version": "Author manuscript, CiteSeerX repository",
+    "retrieved_at": "2026-10-01",
+    "status": "unavailable",
+    "error": "HTTP Error 404: NOT FOUND"
+  }
+]

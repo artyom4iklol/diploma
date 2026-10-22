@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "date": "2026-10-19",
+  "scope": "Text structure, reference availability and selected numerical claims; no model refits or new statistical tests.",
+  "body_whitespace_words": 4165,
+  "footnotes": 15,
+  "tables": 2,
+  "mermaid_diagrams": 1,
+  "chapter_sha256": "b81031c55645a706efc35a66191bbdce7bb97f2175f90ec303f4b2444e28985e",
+  "referenced_archive_files": [
+    "chapter2/Appendix_Chapter_2_Additional_Experiments.md",
+    "chapter2/evidence/forecast_2021_01_15_diagnostic.json",
+    "papers/S04.pdf",
+    "papers/S11.pdf",
+    "papers/S21.pdf",
+    "papers/S27.pdf",
+    "papers/S41.pdf",
+    "revision16/sources/Bruno_Shin_BIS458.pdf",
+    "revision16/sources/Miranda_Rey_NBER21722.pdf",
+    "revision18/results/ESI_monthly_actual_dates_118.csv",
+    "revision18/results/evaluation_targets.csv",
+    "revision18/results/forecast_calendar_59.csv",
+    "revision18/sources/Giacomini_White_2003.pdf",
+    "revision19/results/ANFCI_calendar_59.csv",
+    "revision19/results/ANFCI_episode_scores.csv",
+    "revision19/results/ANFCI_revision_effect.csv",
+    "revision25/results/forecasts.csv",
+    "revision25/results/rolling52_inference.csv",
+    "revision25/results/scores.csv"
+  ],
+  "quantitative_checks": {
+    "base_loss_reduction_h1_percent": 26.336519556679704,
+    "base_loss_reduction_h4_percent": 51.460308251717215,
+    "original_h4_gain_AR_ESI_NFCI_percent": 23.24292945268426,
+    "original_h4_gain_AR_ESI_ANFCI_percent": 42.51553982595095,
+    "us_expansions_lose_to_guarded_base_all_guarded_designs": true,
+    "hit_rate_M2_clip_AR_ESI_NFCI_h1_percent": 25.862068965517242,
+    "hit_rate_M2_clip_AR_ESI_NFCI_h4_percent": 43.63636363636363,
+    "hit_rate_M2_clip_AR_ESI_ANFCI_h1_percent": 12.068965517241379,
+    "hit_rate_M2_clip_AR_ESI_ANFCI_h4_percent": 16.363636363636363,
+    "recent_h1_n_and_zero_hits": {
+      "n": 16,
+      "zero_hits_all_five": true
+    },
+    "recent_h4_n_and_zero_hits": {
+      "n": 13,
+      "zero_hits_all_five": true
+    },
+    "case_2021_01_15_Q_raw": {
+      "forecast": 28.049985750813978,
+      "actual": -1.1515647006657022
+    },
+    "case_2021_01_15_Q_clip_g": {
+      "forecast": 0.6105464663340676,
+      "actual": -1.1515647006657022
+    },
+    "historical_vs_revised_h4_ranking_reversal": true,
+    "inference_matches_limited_claims": true
+  }
+}

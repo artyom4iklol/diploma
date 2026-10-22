@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "from_revision": 23,
+  "to_revision": 24,
+  "baseline_files": 733,
+  "identical_before_manifest_update": 727,
+  "edited_before_manifest_update": [
+    "CHANGELOG.md",
+    "README.md",
+    "chapter2/Chapter_2_Empirical_Analysis.md",
+    "chapter2/READ_ME.md",
+    "chapter2/evidence/verification.json",
+    "chapter2/verify_chapter2.py"
+  ],
+  "missing_files": [],
+  "frozen_empirical_inputs_and_results_unchanged": true,
+  "chapter1_unchanged": true,
+  "source_articles_unchanged": true,
+  "previous_chapter_sha256": "5211cca4ab950889d21e428314b4ec6b06592880d6aa2fdf30eec5cd852a1802",
+  "note": "The new root manifest is regenerated after this report; the previous manifest is preserved separately."
+}

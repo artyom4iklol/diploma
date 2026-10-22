@@ -1,0 +1,12 @@
+[
+  {
+    "file": "esi_history_dataonly.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/M.S0.S.Y_ESIND.F?includeHistory=true&startPeriod=1995-01&endPeriod=2025-12&detail=dataonly&format=csvdata",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "gdp_history_dataonly.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/Q.S0.S.G_GDPM_TO_C.E?includeHistory=true&startPeriod=1995-Q1&endPeriod=2025-Q4&detail=dataonly&format=csvdata",
+    "error": "The read operation timed out"
+  }
+]

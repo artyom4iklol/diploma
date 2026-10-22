@@ -1,0 +1,49 @@
+[
+  {
+    "month":"2013-06",
+    "invalid_source_date":"37 June 2013",
+    "evidence":"esi_archive_before2016.html",
+    "old":null,
+    "new_date":null,
+    "new_evidence":null
+  },
+  {
+    "month":"2022-04",
+    "invalid_source_date":null,
+    "evidence":null,
+    "old":{
+      "month":"2022-04",
+      "release_date":"2022-05-02",
+      "evidence":"esi_calendar_2022.pdf",
+      "status":"official_planned_calendar"
+    },
+    "new_date":"2022-05-03",
+    "new_evidence":"esi_press_archive.html"
+  },
+  {
+    "month":"2022-11",
+    "invalid_source_date":null,
+    "evidence":null,
+    "old":{
+      "month":"2022-11",
+      "release_date":"2022-11-29",
+      "evidence":"esi_press_archive.html",
+      "status":"official_release_archive"
+    },
+    "new_date":"2021-11-29",
+    "new_evidence":"esi_press_archive.html"
+  },
+  {
+    "month":"2022-11",
+    "invalid_source_date":null,
+    "evidence":null,
+    "old":{
+      "month":"2022-11",
+      "release_date":"2021-11-29",
+      "evidence":"esi_press_archive.html",
+      "status":"official_release_archive"
+    },
+    "new_date":"2022-11-29",
+    "new_evidence":"esi_press_archive.html release title"
+  }
+]

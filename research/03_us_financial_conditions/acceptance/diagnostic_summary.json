@@ -1,0 +1,30 @@
+[
+  {
+    "h": 1,
+    "metric": "loss",
+    "NFCI_BASE": 0.8416972094184816,
+    "CISS_BASE": 0.9657427225540611,
+    "outside_growth_n": 3
+  },
+  {
+    "h": 1,
+    "metric": "bounded_growth_loss",
+    "NFCI_BASE": 0.9603304583925589,
+    "CISS_BASE": 1.0171629839151282,
+    "outside_growth_n": 3
+  },
+  {
+    "h": 4,
+    "metric": "loss",
+    "NFCI_BASE": 1.304920058649086,
+    "CISS_BASE": 1.3266677546223364,
+    "outside_growth_n": 5
+  },
+  {
+    "h": 4,
+    "metric": "bounded_growth_loss",
+    "NFCI_BASE": 1.147226972036397,
+    "CISS_BASE": 1.2041995420313276,
+    "outside_growth_n": 5
+  }
+]

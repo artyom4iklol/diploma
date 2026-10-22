@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-19",
+  "forecasts_verified": 4520,
+  "baseline_rows_verified": 1130,
+  "coefficient_reconstructions": 4520,
+  "HAC_checks": 80,
+  "pair_comparisons": 80,
+  "single_omissions": 4520,
+  "new_numeric_tables_verified": true,
+  "protocol_hash_verified": true,
+  "source_hashes_verified": true,
+  "all_growth_bounds_historical": true,
+  "training_rows_identical": true,
+  "primary_h1_rejections_after_Holm": 0,
+  "auxiliary_h4_L4_rejections_after_Holm": 0,
+  "auxiliary_h4_L8_rejections_after_Holm": 2,
+  "auxiliary_rejections_favor": "HIST",
+  "independent_evaluation_dates": {
+    "h1": 58,
+    "h4": 55
+  },
+  "body_words": 9698
+}

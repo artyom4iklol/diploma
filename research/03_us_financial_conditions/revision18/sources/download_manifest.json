@@ -1,0 +1,44 @@
+[
+  {
+    "file": "bulletin_releases.html",
+    "url": "https://www.ecb.europa.eu/press/economic-bulletin/html/all_releases.en.html",
+    "bytes": 172046,
+    "sha256": "276b223702dcfeb4bd6a1ad1d5167cab3ca4d57139bf4bebd390897ad1cd85e4",
+    "status": "ok"
+  },
+  {
+    "file": "monthly_bulletins.html",
+    "url": "https://www.ecb.europa.eu/press/economic-bulletin/mb/html/index.en.html",
+    "bytes": 127371,
+    "sha256": "17d515276db83f8f578c1911a6450f0b38c68eaf00a8902920a3f97af647d78e",
+    "status": "ok"
+  },
+  {
+    "file": "eb202204.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/ecbu/eb202204.en.pdf",
+    "bytes": 2556662,
+    "sha256": "b26a50b0073f6048e143196003aa3bbad6bab3e9ed42090f1f3f0dea65336e16",
+    "status": "ok"
+  },
+  {
+    "file": "eb202302.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/ecbu/eb202302.en.pdf",
+    "bytes": 2132330,
+    "sha256": "946f1c02954eb73337ad32ce40b14285b175d5546511ed8d9447069c7e914623",
+    "status": "ok"
+  },
+  {
+    "file": "eb202304.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/ecbu/eb202304.en.pdf",
+    "bytes": 2054650,
+    "sha256": "088b9e1e9434100c41e6284eaabe29358893cac3feec05939c57d7293e7c6bdc",
+    "status": "ok"
+  },
+  {
+    "file": "eb202506.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/ecbu/eb202506.en.pdf",
+    "bytes": 3865291,
+    "sha256": "9bb8ff89e28ac04981f40291727d535df196da32e5fcf4cc07b241a7b3e0fc85",
+    "status": "ok"
+  }
+]

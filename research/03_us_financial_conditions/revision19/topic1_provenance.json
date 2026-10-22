@@ -1,0 +1,16 @@
+{
+  "source_template": "upload/diploma3 (1).docx",
+  "template_role": "Plain formatting and conceptual outline; outdated numbers replaced with revision18",
+  "source_results": "revision18/results",
+  "model_status": "Frozen NFCI historical pilot plus separately labelled ANFCI appendix",
+  "required_comments": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sha256": "68bee73c341cd5333a6b48ff88c8c2e1104627e5ceb57419de2632df328fac93",
+  "body_paragraphs": 116,
+  "tables": 7
+}

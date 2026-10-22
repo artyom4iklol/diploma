@@ -1,0 +1,110 @@
+[
+  {
+    "id": "S07",
+    "source_url": "https://www.imf.org/-/media/Files/Publications/WP/2019/WPIEA2019036.ashx",
+    "version": "IMF Working Paper 19/36, 2019",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.imf.org/-/media/files/publications/wp/2019/wpiea2019036.pdf",
+    "status": "downloaded",
+    "file": "papers/S07.pdf",
+    "pages": 39,
+    "sha256": "292ab5c221a37231b12accbb39a35a8d33a5f2bf964f41d50deb3a163c89e95e",
+    "first_page": "WP/19/36 \nGrowth at Risk: \nConcept and Application in IMF Country Surveillance \nAnanthakrishnan Prasad, Selim Elekdag, Phakawa Jeasakul, Romain Lafarguette, \nAdrian Alter, Alan Xiaochen Feng, and Changchun Wang \nIMF Working Papers describe research in progress by the author(s) and are published \nto elicit comments and to encourage debate. The views expressed in IMF Working Papers \nare those of the author(s) and do not necessarily represent the views of the IMF, its \nExecutive Board, or IMF management.   "
+  },
+  {
+    "id": "S12",
+    "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2808~573fdb4019.en.pdf",
+    "version": "ECB Working Paper 2808, 2023",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2808~573fdb4019.en.pdf",
+    "status": "downloaded",
+    "file": "papers/S12.pdf",
+    "pages": 43,
+    "sha256": "98b66c2fc08236fe8d9b008eec3ba0921e7c52f1f46452cca09bf0dfa1898ddc",
+    "first_page": " \nWorking Paper Series \nMedium-term growth-at-risk in the \neuro area \n \nJan Hannes Lang, Marek Rusnák, \nMoritz Greiwe, \nDisclaimer: This paper should not be reported as representing the views of the European Central Bank \n(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB.  \nNo 2808 \n"
+  },
+  {
+    "id": "S16",
+    "source_url": "https://arxiv.org/pdf/2508.00263",
+    "version": "arXiv preprint; version as downloaded",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://arxiv.org/pdf/2508.00263",
+    "status": "downloaded",
+    "file": "papers/S16.pdf",
+    "pages": 49,
+    "sha256": "522cb016de23ea4cbb3ff495410aa85fc06d207e5dfb251b309e2968190f15b2",
+    "first_page": "Robust Econometrics for Growth-at-Risk ∗\nTobias Adrian† Yuya Sasaki‡ Yulong Wang§\nAbstract\nThe Growth-at-Risk (GaR) framework has garnered attention in recent econometric\nliterature, yet current approaches implicitly assume a constant Pareto exponent. We\nintroduce novel and robust econometrics to estimate the tails of GaR based on a rigor-\nous theoretical framework and establish validity and effectiveness. Simulations demon-\nstrate consistent outperformance relative to existing alternatives in terms of predictive\naccuracy. We perform a long-term GaR analysis that provides accurate and insightful\npredictions, effectively capturing financial anomalies better than current methods.\nKeywords:Growth-at-Risk, Robust Estimation, Forecast Distributions\n∗We benefited from valuable comments from seminar participants at the University of Pennsylvania.\nAll remaining errors are our own. The views expressed in this paper are those of the authors and do\nnot necessarily represent the views of the International Monetary Fund, its Management, or its Executive\nDirectors. Sasaki gratefully acknowledges the research support provided by Brian and Charlotte Grove.\n†Tobias Adrian: Financial Counsellor and Director of the Monetary and Capital Markets Department,\nInternational Monetary Fund. Email:TAdrian@imf.org.\n‡Yuya Sasaki: Brian and Charlotte Grove Chair and Professor of Economics, Vanderbilt University.\nEmail:yuya.sasaki@vanderbilt.edu.\n§Yulong Wang: Associate Professor of Economics, Lehigh University. Email:yuw925@lehigh.edu.\n1\narXiv:2508.00263v3  [econ.EM]  13 Mar 2026"
+  },
+  {
+    "id": "S23",
+    "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1426.pdf",
+    "version": "ECB Working Paper 1426, 2012",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1426.pdf",
+    "status": "downloaded",
+    "file": "papers/S23.pdf",
+    "pages": 51,
+    "sha256": "3f9bf4d44622a51da82dc2c7104efc2c78309f6d95782905bf4b2eefef3a76ce",
+    "first_page": "WORKING PAPER SERIES\nNO 1426 / M AR ch 2012\nc ISS – A cOMPOSI t E INd Ic At O R \nOf\n Sy S\nt E\nMIc\n St R\nESS \nI\nN\n th E\n \nfINAN c I\nA\nl Sy St E\nM\nby Dániel Holló, Manfred Kremer \nand Marco Lo Duca\nNOTE: This Working Paper should not be reported as representing the \nviews of the European Central Bank (ECB). The views expressed are \nthose of the authors and do not necessarily reflect those of the ECB.\n,Q\u0003\u0015\u0013\u0014\u0015\u0003DOO\u0003(&%\u0003\nSXEOLFDWLRQV\u0003\nIHDWXUH\u0003D\u0003PRWLI\u0003\nWDNHQ\u0003IURP\u0003\nWKH\u0003»\u0018\u0013\u0003EDQNQRWH\u0011\nMAc ROPRud ENt IAl \nR\nESEAR\nch N\nE\nt\nWORK"
+  },
+  {
+    "id": "S25",
+    "source_url": "https://pure.hw.ac.uk/ws/portalfiles/portal/80251351/1_s2.0_S0165176523000150_main.pdf",
+    "version": "Publisher full text, institutional repository",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://pure.hw.ac.uk/ws/portalfiles/portal/80251351/1_s2.0_S0165176523000150_main.pdf",
+    "status": "downloaded",
+    "file": "papers/S25.pdf",
+    "pages": 7,
+    "sha256": "04980ea938894def7dc7128bc32671d390d8c76b24b588f09c2b6e6930d88069",
+    "first_page": " \n \n \n \nHeriot-Watt University \nResearch Gateway\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nRevisiting vulnerable growth in the Euro Area: Identifying the\nrole of financial conditions in the distribution\nCitation for published version:\nSzendrei, T & Varga, K 2023, 'Revisiting vulnerable growth in the Euro Area: Identifying the role of financial\nconditions in the distribution', Economics Letters, vol. 223, 110990.\nhttps://doi.org/10.1016/j.econlet.2023.110990\nDigital Object Identifier (DOI):\n10.1016/j.econlet.2023.110990\nLink:\nLink to publication record in Heriot-Watt Research Portal\nDocument Version:\nPublisher's PDF, also known as Version of record\nPublished In:\nEconomics Letters\nPublisher Rights Statement:\n© 2023 The Authors.\nGeneral rights\nCopyright for the publications made accessible via Heriot-Watt Research Portal is retained by the author(s) and /\nor other copyright owners and it is a condition of accessing these publications that users recognise and abide by\nthe legal requirements associated with these rights.\nTake down policy\nHeriot-Watt University has made every reasonable effort to ensure that the content in Heriot-Watt Research\nPortal complies with UK legislation. If you believe that the public display of this file breaches copyright please\ncontact open.access@hw.ac.uk providing details, and we will remove access to the work immediately and\ninvestigate your claim.\nDownload date: 01. Oct. 2026"
+  },
+  {
+    "id": "S26",
+    "source_url": "https://www.econstor.eu/bitstream/10419/333425/1/1943279594.pdf",
+    "version": "Bundesbank Technical Paper 05/2025",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.econstor.eu/bitstream/10419/333425/1/1943279594.pdf",
+    "status": "downloaded",
+    "file": "papers/S26.pdf",
+    "pages": 21,
+    "sha256": "93f4b964cbeb3fbf2c46cf5f5e5ec66ee723a43b1c012b62861fa050612cefe8",
+    "first_page": "Technical Paper\nA Growth-at-Risk model for the\nGerman economy\n05/2025\nJannick Plaasch\nAndreas Röthig\nTechnical Papers represent the authors’ personal opinions and do not necessarily \nreflect the views of the Deutsche Bundesbank or the Eurosystem."
+  },
+  {
+    "id": "S27",
+    "source_url": "https://doi.org/10.20955/wp.2022.003",
+    "version": "St Louis Fed Working Paper 2022-003",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://s3.amazonaws.com/real.stlouisfed.org/wp/2022/2022-003.pdf",
+    "status": "downloaded",
+    "file": "papers/S27.pdf",
+    "pages": 49,
+    "sha256": "77bcc4f9408f4e972c64ad4447044fc00d056b571c3b8e17ac5aa3b10adf5fa3",
+    "first_page": "On the Real-Time Predictive Content of Financial Conditions\nIndices for Growth\nECONOMIC RESEARCH\nFEDERAL RESERVE BANK OF ST. LOUIS\nWORKING PAPER SERIES\nAuthors\nAaron Amburgey, and Michael W. McCracken\nWorking Paper Number\n2022-003B\nRevision \nDate\nJune 2022\nCitable Link\nhttps://doi.org/10.20955/wp.2022.003\nSuggested Citation\nAmburgey, A., McCracken, M.W., 2022; On the Real-Time Predictive Content of\nFinancial Conditions Indices for Growth, Federal Reserve Bank of St. Louis Working\nPaper 2022-003. URL \nhttps://doi.org/10.20955/wp.2022.003\nFederal Reserve Bank of St. Louis, Research Division, P.O. Box 442, St. Louis, MO 63166\nThe views expressed in this paper are those of the author(s) and do not necessarily reflect the views of \nthe Federal Reserve\nSystem, the Board of Governors, or the regional Federal Reserve Banks. Federal Reserve \nBank of St. Louis Working Papers\nare preliminary materials circulated to stimulate discussion and critical \ncomment."
+  },
+  {
+    "id": "S05",
+    "source_url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3721956_code2684528.pdf?abstractid=3461214",
+    "version": "SSRN working paper",
+    "retrieved_at": "2026-10-01",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S09",
+    "source_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jae.3005",
+    "version": "Journal article",
+    "retrieved_at": "2026-10-01",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S10",
+    "source_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jae.3136",
+    "version": "Journal article",
+    "retrieved_at": "2026-10-01",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

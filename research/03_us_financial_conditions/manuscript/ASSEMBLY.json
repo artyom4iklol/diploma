@@ -1,0 +1,28 @@
+{
+  "revision": 30,
+  "date": "2026-10-22",
+  "sources": 62,
+  "academic_works": 45,
+  "official_sources": 17,
+  "calculation_notes": 19,
+  "new_model_fits": 904,
+  "words": {
+    "introduction": 1538,
+    "chapter-1": 6355,
+    "chapter-2": 11726,
+    "chapter-3": 5391,
+    "conclusion": 1613,
+    "references": 1780,
+    "appendices": 11362
+  },
+  "source_sha256": {
+    "manuscript/sections/introduction.md": "4ef178f94e022802627e5df60f92976171580709d0f0665ee6afcc3ecc854ed4",
+    "manuscript/sections/chapter-1.md": "5ff409e7cee2a03655c9884711c4cb89000a9d821941007750ab35046964de33",
+    "manuscript/sections/chapter-2.md": "4db6bf3f4a23b79ce84b1f9a8c4656866c884b37e5567cf506665d685eef0db0",
+    "manuscript/sections/chapter-3.md": "d8cdfec6c23c0ffb6408aaf20f9cb90672ea50b928f107f2f72f11a42ed52fe2",
+    "manuscript/sections/conclusion.md": "53cea1ed5e4d93d44171bd9359d5af07a77785f1deb7f78c1133a1db80cfce01",
+    "manuscript/sections/references.md": "5759d925b4184f363eb02a07418a98f1eb06411f925565defe32871f5dfa43c0",
+    "manuscript/sections/appendices.md": "e6165d04fee52c7a1ca210737be411c55735b9edf48c1fd3c4964f27acfa3bc8"
+  },
+  "output_sha256": "bbcf9f3fc2c68c7af75dad346e4d74e8ed55d06acb798d0ffd9de192c9de270b"
+}

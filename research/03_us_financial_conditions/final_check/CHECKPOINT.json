@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-06",
+  "decision": "GO retrospective comparative thesis; no guaranteed superiority",
+  "done": [
+    "recovery",
+    "raw feature reconstruction",
+    "2460 forecasts",
+    "984 archived forecasts matched",
+    "HAC and coverage diagnostics",
+    "influence and economic interpretation"
+  ],
+  "next": [
+    "supervisor scope agreement",
+    "write introduction and chapter1"
+  ],
+  "not_done": [
+    "thesis chapters",
+    "full real-time data set",
+    "formal conditional-coverage wild bootstrap"
+  ],
+  "canonical_entry": "final_check/run.py"
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-18",
+  "revision": 24,
+  "model_refit": false,
+  "frozen_forecasts_verified": 2373,
+  "all_numeric_tables_checked": true,
+  "previous_chapter_preserved": true,
+  "standalone_2_1_preserved_as_history": true,
+  "current_2_1_revised": true,
+  "reconstructed_forecasts": 10,
+  "HIST_single_omission_comparisons": [
+    {
+      "h": 1,
+      "model": "AR_ESI_NFCI",
+      "n": 58,
+      "HIST_better_count": 58,
+      "minimum_ratio": 1.0426319275253777
+    },
+    {
+      "h": 1,
+      "model": "AR_ESI_ANFCI",
+      "n": 58,
+      "HIST_better_count": 58,
+      "minimum_ratio": 1.048185052290353
+    },
+    {
+      "h": 4,
+      "model": "AR_ESI_NFCI",
+      "n": 55,
+      "HIST_better_count": 55,
+      "minimum_ratio": 1.4891321921732645
+    },
+    {
+      "h": 4,
+      "model": "AR_ESI_ANFCI",
+      "n": 55,
+      "HIST_better_count": 55,
+      "minimum_ratio": 1.1149635081259555
+    }
+  ],
+  "body_words": 8606,
+  "formulas": 9,
+  "tables": 5,
+  "footnotes": 25,
+  "chapter_sha256": "dae773577ae41a6c8f05f403bf582263645f7a3a0d1143abac72a0a467b13570",
+  "review_diagnostics": {
+    "date": "2026-10-18",
+    "model_refit": false,
+    "paired_comparisons_verified": 10,
+    "new_table_2_3_verified": true,
+    "rounding_scenarios": 144,
+    "rounding_check_origin": "2022Q2",
+    "rounding_includes_ANFCI": false,
+    "rounding_refits_future_dates": false,
+    "maximum_local_rounding_mean_loss_change": 5.0595961661237254e-05,
+    "forecast_2021_01_15_h4_addends": {
+      "base_growth_addend": 47.43266779133113,
+      "ANFCI_model_growth_addend": 4.097746035921607,
+      "ANFCI_direct_addend": 1.9439905767923233
+    }
+  }
+}

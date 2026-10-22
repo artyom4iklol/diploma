@@ -1,0 +1,137 @@
+{
+  "core_inputs_complete": true,
+  "ANFCI_inputs_complete": true,
+  "evaluation_end": "2025Q4",
+  "complete_historical_CISS": false,
+  "US_activity_regressor_estimated": false,
+  "files": [
+    {
+      "dataset": "История GDP RTD",
+      "pattern": "rtd_sources/history_chunks/gdp_*.csv",
+      "files": 31,
+      "expected_files": 31,
+      "all_present": true,
+      "bytes": 6908630
+    },
+    {
+      "dataset": "История ESI RTD",
+      "pattern": "rtd_sources/history_chunks/esi_*.csv",
+      "files": 31,
+      "expected_files": 31,
+      "all_present": true,
+      "bytes": 6153847
+    },
+    {
+      "dataset": "Самостоятельные старые версии GDP",
+      "pattern": "rtd_sources/extracted/gdp_legacy_vintages.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 624221
+    },
+    {
+      "dataset": "Самостоятельные старые версии ESI",
+      "pattern": "rtd_sources/extracted/esi_legacy_vintages.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 2029793
+    },
+    {
+      "dataset": "Архив NFCI",
+      "pattern": "revision16/sources/nfci_vintages/nfci_*.csv",
+      "files": 59,
+      "expected_files": 59,
+      "all_present": true,
+      "bytes": 1333493
+    },
+    {
+      "dataset": "Архив ANFCI",
+      "pattern": "revision19/sources/anfci_vintages/anfci_*.csv",
+      "files": 59,
+      "expected_files": 59,
+      "all_present": true,
+      "bytes": 1325166
+    },
+    {
+      "dataset": "GDP и ESI на каждую прогнозную дату",
+      "pattern": "revision18/results/vintaged_model_frames.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 685919
+    },
+    {
+      "dataset": "Цели и оценочные версии GDP",
+      "pattern": "revision18/results/evaluation_targets.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 20701
+    },
+    {
+      "dataset": "Календарь основной модели",
+      "pattern": "revision18/results/forecast_calendar_59.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 29968
+    },
+    {
+      "dataset": "Даты выпусков ESI",
+      "pattern": "revision18/results/ESI_monthly_actual_dates_118.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 22393
+    },
+    {
+      "dataset": "Календарь ANFCI",
+      "pattern": "revision19/results/ANFCI_calendar_59.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 5526
+    },
+    {
+      "dataset": "Прогнозы основной модели",
+      "pattern": "revision18/results/pilot_forecasts.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 374087
+    },
+    {
+      "dataset": "Прогнозы ANFCI дополнения",
+      "pattern": "revision19/results/ANFCI_forecasts.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 533457
+    },
+    {
+      "dataset": "Поздняя парная версия индексов",
+      "pattern": "revision19/sources/current/*_2026-10-16.csv",
+      "files": 2,
+      "expected_files": 2,
+      "all_present": true,
+      "bytes": 57897
+    },
+    {
+      "dataset": "Пересмотренный CISS еврозоны",
+      "pattern": "robustness/model/raw/ecb_ciss_ea.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 3319512
+    },
+    {
+      "dataset": "Пересмотренный CISS США",
+      "pattern": "robustness/model/raw/ecb_ciss_us.csv",
+      "files": 1,
+      "expected_files": 1,
+      "all_present": true,
+      "bytes": 3149555
+    }
+  ]
+}

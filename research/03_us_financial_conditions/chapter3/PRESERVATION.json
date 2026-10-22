@@ -1,0 +1,27 @@
+{
+  "baseline": "revision26",
+  "baseline_files": 808,
+  "unchanged_before_manifest_and_preservation_update": 801,
+  "changed_old_files_before_final_metadata": [
+    "CHANGELOG.md",
+    "README.md",
+    "chapter3/Chapter_3_Recommendations.md",
+    "chapter3/EVIDENCE_MAP.md",
+    "chapter3/README.md",
+    "chapter3/VERIFICATION.json",
+    "chapter3/verify_chapter3.py"
+  ],
+  "missing_files": [],
+  "permitted_old_file_changes": [
+    "CHANGELOG.md",
+    "MANIFEST_SHA256.json",
+    "README.md",
+    "chapter3/Chapter_3_Recommendations.md",
+    "chapter3/EVIDENCE_MAP.md",
+    "chapter3/PRESERVATION.json",
+    "chapter3/README.md",
+    "chapter3/VERIFICATION.json",
+    "chapter3/verify_chapter3.py"
+  ],
+  "chapters_1_2_and_existing_data_code_articles_unchanged": true
+}

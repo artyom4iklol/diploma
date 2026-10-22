@@ -1,0 +1,2287 @@
+
+PAGE 1
+Working Paper Series 
+Investment funds, monetary policy, 
+and the global ﬁnancial cycle 
+Revised December 2022 
+Christoph Kaufmann 
+Disclaimer: This paper should not be reported as representing the views of the European Central Bank 
+(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB. 
+No 2489 / November 2020 
+
+
+PAGE 2
+Abstract
+This paper examines the role of international investment funds in the transmission of
+global ﬁnancial conditions to the euro area using structural Bayesian vector auto regres-
+sions. While cross-border banking sector capital ﬂows receded signiﬁcantly in the aftermath
+of the global ﬁnancial crisis, portfolio ﬂows from investors actively searching for yield on ﬁ-
+nancial markets world-wide gained importance during the post-crisis “second phase of global
+liquidity” (Shin, 2013). The analysis presented in this paper shows that a loosening of US
+monetary policy leads to higher investment fund inﬂows to equities and debt globally. Fo-
+cussing on the euro area, these inﬂows not only imply elevated asset prices, but also coincide
+with increased debt and equity issuance. The ﬁndings demonstrate the growing importance
+of non-bank ﬁnancial intermediation over the past decade and hold important policy impli-
+cations for monetary and ﬁnancial stability.
+JEL classiﬁcation: F32; F42; G15; G23
+Keywords: Monetary policy; international spillovers; capital ﬂows; non-bank ﬁnancial in-
+termediation
+ECB Working Paper Series No 2489 / November 2020
+1
+
+PAGE 3
+Non-technical summary
+As the role of investment funds in ﬁnancing the global economy has grown, so has their role
+in capital ﬂows and in transmitting the global ﬁnancial cycle. Movements of asset prices have
+become more synchronised across countries since the early 1990s, indicating that a global ﬁ-
+nancial cycle has emerged. US monetary policy is often considered as one of the main drivers
+of this cycle. Up to the mid-2000s, banks played a key role in the global synchronisation of
+ﬁnancial conditions. Since then, portfolio ﬂows of investment funds actively searching for yield
+in ﬁnancial markets worldwide have increased.
+Funds adjust their global asset allocation as investors respond to return diﬀerentials and fund
+performance or as they change their risk-taking. For example, after a loosening in monetary
+conditions in one region, global investors tend to reallocate away from assets there towards other
+regions where assets have a higher expected return. This might also imply that investment funds
+rebalance their portfolios towards riskier market segments. In addition, monetary conditions can
+aﬀect fund returns through changes in valuations and thus inﬂuence investment fund ﬂows, since
+there is evidence of a positive relationship between fund ﬂows and past returns.
+This paper investigates the role of international investment funds in the transmission of
+global ﬁnancial conditions to the euro area. The analysis is based on a structural Bayesian
+vector autoregression model and uses unexpected changes in US monetary policy, obtained from
+a high-frequency shock identiﬁcation scheme, as an illustrative example of a shock to global
+ﬁnancial conditions.
+The baseline speciﬁcation of the model considers ﬁve macro-ﬁnancial variables. These in-
+clude: ﬂows from global investment funds towards diﬀerent segments of global and euro area
+bond and equity markets, the VIX volatility index as a measure of global risk aversion, the
+S&P 500 stock market index, the US dollar/euro exchange rate, and the ten-year US Treasury
+rate. This model is augmented with further variables, including the debt issuance by euro area
+non-ﬁnancial corporations, interest rate diﬀerentials between the United States and the euro
+area, and indices for global bond and equity markets. The analysis is based on monthly data
+from April 2007 until March 2019, therefore capturing the growing importance of investment
+funds and market-based ﬁnance over this period.
+The results provide evidence of global spill-overs to euro area ﬁnancial conditions via the
+investment fund sector. After an easing of global ﬁnancial conditions, investment funds tend
+to increase their purchases of bonds globally and in the euro area. These portfolio inﬂows are
+particularly strong in riskier market segments, such as corporate and high-yield bonds, while
+safer money market funds experience outﬂows. At the same time, issuance of debt securities by
+euro area non-ﬁnancial corporations increases as well. This suggests that euro area ﬁnancing
+conditions improve after an easing in global ﬁnancial conditions.
+ECB Working Paper Series No 2489 / November 2020
+2
+
+PAGE 4
+1 Introduction
+Fostered by the progress in ﬁnancial integration since the 1990s, a global ﬁnancial cycle emerged
+that has led to an increased synchronisation in the movements of risky asset prices, capital ﬂows,
+and leverage across borders (Rey, 2015). This development can imply improved international
+risk sharing via ﬁnancial markets, but it also leads to a faster and widespread contagion of
+economic and ﬁnancial shocks globally. The monetary policy of the United States (US), as the
+most important centre of the global ﬁnancial system, is viewed as one of the main drivers of the
+global ﬁnancial cycle, and global banks’ balance sheets are identiﬁed as the main transmitter
+of US ﬁnancial conditions to the rest of the world – at least until the global ﬁnancial crisis of
+2007 (Bruno and Shin, 2015a; Bruno and Shin, 2015b; Miranda-Agrippino and Rey, 2020b; Rey,
+2016).
+As highlighted by Shin (2013), the banking sector’s relevance in spreading global liquidity
+across borders receded signiﬁcantly in the aftermath of the global ﬁnancial crisis. Instead,
+portfolio ﬂows from global investors actively searching for yield on bond and equity markets
+worldwide gained importance during this “second phase of global liquidity.”
+ 
+10%
+15%
+20%
+25%
+30%
+35%
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+All investment funds/No breakdown
+Equity funds
+Fixed income funds
+Share IF/Bank assets (RHS, %)
+Figure 1: Total assets under management of investment funds globally
+Notes: Left axis unit: USD trillion. Right axis unit: percentages. The black diamond line
+indicates the percentage ratio of total assets of investment funds relative to banks worldwide.
+Data source: Financial Stability Board (2020)
+Figure 1 shows that the assets under management in the investment fund sector globally
+almost tripled between 2008 and 2019 to more than USD 42 trillion. Also, the importance of
+investment fund relative to bank ﬁnancing increased steadily post-crisis, from a low point of 14%
+in 2008 to 28% at the beginning of 2019. 1 Given its internationally diversiﬁed asset holdings,
+the investment fund sector by now accounts for more than half of all global debt and equity
+1As demonstrated regularly, for example by Financial Stability Board (2020), the investment fund sector
+comprises the largest sub-sector of the growing ﬁeld of non-bank ﬁnancial intermediation (NBFI) in the post-
+ﬁnancial crisis period.
+ECB Working Paper Series No 2489 / November 2020
+3
+
+PAGE 5
+portfolio ﬂows (see Figure 2, left panel). In the euro area (EA), the relative size of debt portfolio
+inﬂows to other investment ﬂows, which can be attributed mainly to banks, increased from on
+average 65% before 2008 to 175% after the global ﬁnancial crisis (see Figure 2, right panel). 2
+This paper sheds light on the investment fund sector’s role in the transmission of global
+ﬁnancial conditions during the post-ﬁnancial crisis period using a structural Bayesian vector
+auto regression (BVAR) approach. Focussing particularly on the EA, the paper addresses the
+following research questions: Do investment fund ﬂows respond systematically to changes in
+global liquidity, as measured by US monetary policy shocks? If yes, are these ﬂows directed
+toward particularly risky segments of bond and equity markets? And, ﬁnally, can these portfolio
+ﬂows be linked to changes in ﬁrms’ ﬁnancing conditions and real economic activity?
+ 
+-100%
+-50%
+0%
+50%
+100%
+150%
+200%
+250%
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+Millions
+Portfolio investment flows
+Direct investment flows
+Other investment flows
+Debt portfolio/bank flows pre-crisis avg. (RHS, %)
+Debt portfolio/bank flows post-crisis avg. (RHS, %)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Investment fund share in total cross-border portfolio flows (LHS, %)
+Total investment fund cross-border holdings (RHS, USD trillion)
+Figure 2: Investment funds’ role in international portfolio ﬂows
+Notes: Left panel: Data is shown from the end of 2018. ’Global’ represents the weighted average of countries cited
+covering approximately 80% of global investment funds’ assets under management. Right panel: Left axis unit: EUR
+trillion. The bars indicate categories of capital inﬂows to the euro area. Right axis unit: percentages. The black
+lines indicate ratios of average debt portfolio inﬂows to ’Other investment ﬂows’, which mainly comprise bank sector
+inﬂows. Diamond (squared) lines denote averages from 1999 to 2007 (pre-crisis) and from 2008 to 2019 (post-crisis).
+Data sources: IMF Coordinated Portfolio Investment Survey and ECB Balance of Payments Statistics.
+As discussed extensively, for example by Rey (2016), the international transmission of US
+monetary policy before the global ﬁnancial crisis worked via global banks through the credit and
+the risk-taking channel of monetary policy (Borio and Zhu, 2012). According to these channels,
+monetary policy aﬀects net worth, risk-taking, leverage constraints, and, thus, loan origination
+of globally active ﬁnancial intermediaries that not only reﬁnance themselves in US dollars, but
+also lend in dollars, even to non-US borrowers. While such bank-based channels still can be at
+work, their importance to the EA has declined in line with the reduction in bank-related capital
+ﬂows (Figure 2).
+2These aggregate developments reﬂect Shin’s (2013) discussion about banks’ diminishing role in the transmis-
+sion of global ﬁnancial conditions. In fact, Bruno and Shin (2015a) note that the bank-based global transmission of
+US monetary policy was relevant only up until the global ﬁnancial crisis surfaced, mainly because of the structural
+change in the dynamics of global banking sector leverage at that time.
+ECB Working Paper Series No 2489 / November 2020
+4
+
+PAGE 6
+In the post-crisis era, global investment funds now transmit US monetary policy also through
+the following main channels: international risk-taking, searching for yield, and pro-cyclical ﬂow-
+performance behaviour.
+Through its eﬀect on global risk appetite (Bekaert et al., 2013; Bruno and Shin, 2015a),
+looser US monetary policy aﬀects global ﬁnancial investors’ risk-taking behaviour. This can
+imply additional inﬂows to the investment fund sector generally, as well as a re-balancing of
+investors’ portfolios towards riskier asset classes.
+By means of a search-for-yield channel, global investors reallocate their portfolios towards
+assets associated with higher comparative expected returns. This can involve fund investors re-
+balancing towards higher yielding, but riskier assets. This type of behaviour is well-documented,
+particularly for the post-crisis low-yield environment (Choi and Kronlund, 2017; Di Maggio and
+Kacperczyk, 2017; Becker and Ivashina, 2015). Searching for yield also has an international
+dimension. For example, the relatively higher interest rate diﬀerential between international
+and US securities after a monetary expansion by the Federal Reserve can steer investor ﬂows
+away from US assets and towards international ones, including EA assets (Ammer et al., 2018,
+2019; Fratzscher et al., 2018; Kroencke et al., 2015).
+At the same time, a reduction in US interest rates can exert positive asset valuation eﬀects
+globally, which may trigger momentum in returns from investment funds (Feroli et al., 2014).
+Due to pro-cyclical ﬂow-performance behaviour by ultimate investors (Goldstein et al., 2017;
+Timmer, 2018), investment funds may experience further inﬂows as a result.
+For transmission into the real economy, it is relevant to what extent these portfolio adjust-
+ments and capital ﬂows only lead to asset price inﬂation and share buybacks (Acharya and
+Plantin, 2018), or whether improved ﬁnancing conditions for non-ﬁnancial corporations (NFCs)
+also lead to increased securities issuance and, ultimately, higher real activity and inﬂation.
+While questions about market-based ﬁnancing sources are discussed widely in policy circles,
+systematic empirical evidence on the role and eﬀects of non-bank ﬁnance in the transmission of
+shocks to ﬁnancial and real economic activity remains limited. 3 The present paper contributes
+in this respect by analysing the international dimension of non-bank ﬁnancial intermediation for
+the EA.
+The empirical analysis is based on 12 years of monthly data between April 2007 and March
+2019. It studies the dynamic interactions between US monetary policy, investment funds, and
+macro-ﬁnancial variables at the global level, in the US, and in the EA.
+I ﬁnd evidence of signiﬁcant spillovers of US monetary policy into bond and equity markets
+via the investment fund sector. After accommodative monetary policy action by the Federal
+Reserve, inﬂows to investment funds increase on a global level. The estimates from the model
+imply additional inﬂows to global bond funds of USD 200 billion after a 25 basis point US
+3Recent publications from policy institutions on this topic – such as Financial Stability Board (2020), European
+Central Bank (2020) and Adrian and Jones (2018) – provide an overview of the growing importance and potential
+risks emanating from this sector.
+ECB Working Paper Series No 2489 / November 2020
+5
+
+PAGE 7
+monetary policy shock. Speciﬁcally, in examining funds investing in European assets, cross-
+border ﬂows towards the EA increase as well. Moreover, even investment funds domiciled within
+the EA receive signiﬁcantly higher inﬂows after a monetary loosening in the US. Inﬂows are
+particularly strong into the riskier segments of ﬁnancial markets, such as high-yield corporate
+bonds and equities with small market capitalisation. Global money market funds experience
+outﬂows instead.
+My results conﬁrm that a global ﬁnancial cycle in risky asset prices continues to exist after the
+global ﬁnancial crisis, while the related literature mainly analyses pre-crisis data. Speciﬁcally,
+I ﬁnd that various global ﬁnancial risk and uncertainty measures, such as the VIX and the
+Habib and Venditti (2019) global risk index, decline, while US and EA bond and equity market
+indices rise after a loosening of US monetary policy. These ﬁnancial market eﬀects can also be
+directly linked to the investment fund ﬂows and they are transmitted to the EA ﬁrm sector,
+which increases its issuance of debt and equity securities. The model implies an additional debt
+securities issuance of about USD 16 billion, corresponding to 1% of NFC debt outstanding,
+after a 25 basis point shock. Industrial production, as a measure of real economic activity, and
+inﬂation increase in both currency areas.
+These ﬁndings potentially hold important policy implications for monetary and ﬁnancial
+stability. The observation that an international loosening of ﬁnancial conditions leads to inﬂows
+into riskier market segments potentially raises ﬁnancial stability concerns. This calls for dili-
+gent oversight of the globally active investment fund industry and possibly the introduction of
+additional macroprudential policy tools to control risks in this sector. 4 To the extent that the
+additional issuance of debt and equity by ﬁrms also leads to increased real economic activity and
+inﬂation in the EA, these international spillovers also would be relevant for monetary stability.
+In terms of methods, the applied BVAR framework has the well-known advantage of avoiding
+problems such as overﬁtting, to which VAR models estimated using a frequentist approach are
+prone. Importantly, it allows for reliable parameter estimation even in the relatively small
+sample available for this study.
+The monetary policy shocks are identiﬁed using the method proposed by Jaroci´ nski and
+Karadi (2020), which is based on a combination of high-frequency identiﬁcation, as proposed by
+Gertler and Karadi (2015) in conventional VARs, and sign-restriction methods, as introduced
+by Arias et al. (2018). 5 This combined method allows for disentangling pure monetary policy
+shocks, deﬁned as negative co-movements between the high-frequency change of a monetary
+policy indicator and a stock market index around Federal Open Market Committee (FOMC)
+monetary policy announcements, from central bank information shocks, deﬁned as positive co-
+movements between these two variables. These information shocks are related to the concept
+expressed in Nakamura and Steinsson (2018). Jaroci´ nski and Karadi (2020) show that the
+4See, for example, Portes et al. (2020) and Cominetta et al. (2018) for a discussion of possible risks and policy
+tools.
+5Caldara and Herbst (2019) propose an alternative approach to implement high-frequency identiﬁed monetary
+policy shocks in a BVAR framework.
+ECB Working Paper Series No 2489 / November 2020
+6
+
+PAGE 8
+responses of macroeconomic and ﬁnancial market variables can diﬀer decisively under these
+two types of shocks. Throughout the paper, I will focus on the analysis of genuine (negative
+co-movement) monetary policy shocks.
+Instead of using short-term innovations in US monetary policy, such as changes in three-
+month federal funds rate futures, as done by Jaroci´ nski and Karadi (2020), I construct a measure
+that captures changes in monetary policy at the longer end of the yield curve. Using the
+method by G¨ urkaynak et al. (2005), I disentangle a monetary policy “target factor” from a
+“term structure factor”, in which the latter forms the basis of the US monetary policy shocks
+in my analysis. I choose this approach because the federal funds rate was set (close) to its
+zero lower bound for an extended period of time after the global ﬁnancial crisis, which is the
+sample period under study. The shock variation at the short-end of the yield curve is, therefore,
+very limited compared with earlier decades. However, most of the monetary policy adjustments
+post-crisis implied changes to the longer end of the term structure, e.g. by means of central
+bank asset purchases or forward guidance. As I will demonstrate, the term structure monetary
+policy shock captures these post-crisis policy changes much better.
+All main results notably are highly robust when using other identiﬁcation methods, such as a
+conventional Cholesky decomposition, and using shocks to the shadow federal funds rate by Wu
+and Xia (2016) instead of the term structure shock. A distinct advantage of using high-frequency
+identiﬁcation compared with causal ordering is that the former allows for simultaneous responses
+from all variables to the monetary policy shock. This is of particular importance given the
+paper’s focus on fast-moving ﬁnancial variables, such as investment fund ﬂows and asset prices.
+The rest of the paper is structured as follows. Section 2 reviews the related literature. Sec-
+tion 3 gives an overview of the data and the estimation methods used to study the second phase
+of global liquidity. All results are presented in Section 4, in which Section 4.1 focusses on the re-
+action of investment fund ﬂows and securities issuance to monetary policy shocks, while Section
+4.2 provides results for various macro-ﬁnancial variables to analyse the transmission mecha-
+nisms in place. The results’ sensitivity with respect to various changes, including alternative
+identiﬁcation methods, is analysed in Section 5. Section 6 concludes the paper.
+2 Related literature
+In terms of approach and methods, the closest research to this paper is by Miranda-Agrippino
+and Rey (2020b), who analyse the eﬀects of US monetary policy on US and EA macro-ﬁnancial
+variables in a BVAR. They focus on the transmission via global banks, and their sample ends
+in 2010, which does not allow for examining the more market-based second phase of global
+liquidity, which is the focus of my paper. In parallel to my work, Miranda-Agrippino and
+Rey (2020a), which I discovered only recently, conﬁrm that their earlier ﬁndings on a global
+ﬁnancial cycle in asset prices continue to hold after the global ﬁnancial crisis. Gerko and Rey
+(2017) perform VAR analyses of US and United Kingdom monetary policy spillovers to the
+ECB Working Paper Series No 2489 / November 2020
+7
+
+PAGE 9
+rest of the world. Bruno and Shin (2015b) formulate a model of the global banking system in
+which an appreciation of the US dollar is associated with de-leveraging of global banks and an
+overall tightening of international ﬁnancial conditions. In turn, Bruno and Shin (2015a) provide
+evidence for the predictions of this model in a small-scale VAR, linking US monetary policy to
+risk aversion, bank leverage and banking-sector capital ﬂows. Compared with these papers, I
+explicitly consider the role and behaviour of non-bank ﬁnancial intermediaries in transmitting
+ﬁnancial conditions internationally after the global ﬁnancial crisis.
+Several papers analyse the eﬀects of monetary policy and global factors on debt and equity
+portfolio ﬂows. Habib and Venditti (2019) construct a measure of global risk based on stock
+market return data. They demonstrate that US monetary policy and more general ﬁnancial
+shocks are, indeed, the main drivers of global capital ﬂow cycles. Scheubel et al. (2019) also
+build a measure of the global ﬁnancial cycle, which is based not only on prices, but also on
+quantities data, such as global bank leverage and credit volumes. They ﬁnd a consistent link
+between their measure and extreme shifts in capital ﬂows, such as sudden stops. Davis et al.
+(2021) show that two global factors, an asset price and a commodity price factor, explain about
+one half of gross capital ﬂows in advanced economies.
+Focussing on emerging markets, Converse et al. (2020) provide evidence that the growing
+presence of exchange-traded funds increased the sensitivity of capital ﬂows to the global ﬁnancial
+cycle. The analysis is based on micro-data for equity and bond mutual funds. Bertaut et al.
+(2021) examine the relationship between ﬁnancial conditions and portfolio ﬂows into emerging
+market government bonds. They ﬁnd that US investment funds pro-cyclically withdraw their
+investments in emerging market local currency bonds when ﬁnancial conditions deteriorate and
+the local currency depreciates. Kalemli- ¨Ozcan (2019) shows that changes in US monetary policy
+exert strong eﬀects on capital ﬂows, particularly for emerging market economies. These eﬀects
+are driven not only by direct changes in interest rate diﬀerentials to the US, but more so by US
+monetary policy’s eﬀect on global investors’ risk perceptions.
+Fratzscher et al. (2018) ﬁnd that US quantitative easing induced signiﬁcant international
+portfolio reallocations by global investors, while Fratzscher et al. (2016) do not observe signiﬁcant
+portfolio rebalancing in response to early unconventional monetary policy by the ECB between
+2007 and 2012. Bubeck et al. (2018) examine the eﬀect of ECB monetary policy announcements
+on EA fund investors’ portfolio allocations. They ﬁnd that these investors’ portfolios mainly are
+aﬀected by valuation eﬀects from asset prices and less by active asset reallocation decisions.
+A study by the International Monetary Fund (2016) examines the links between monetary
+policy and non-bank ﬁnancial intermediation. The analysis ﬁnds some evidence that the increas-
+ing importance of non-bank ﬁnancial intermediation increased monetary policy transmission in
+the recent past. Both banks and non-banks tend to contract their balance sheets after monetary
+tightening. The authors link this behaviour to a risk-taking channel, which they ﬁnd to be
+particularly strong for the investment fund sector.
+Using EA data, Hau and Lai (2016) run country-level fund ﬂow regressions on a country-
+ECB Working Paper Series No 2489 / November 2020
+8
+
+PAGE 10
+speciﬁc measure of short-term real interest rate changes as a measure of monetary policy. They
+also ﬁnd evidence of a risk-shifting channel, in which investors rebalance their portfolios out of
+money market funds and towards equity funds in response to a reduction in country-speciﬁc real
+interest rates. Feroli et al. (2014) argue that in a search-for-yield environment, ﬂows into an asset
+class can induce momentum in returns, leading to further return-chasing behaviour. Based on
+data on ﬁxed-income mutual funds, they provide evidence that changes in the monetary policy
+stance can reverse this return-chasing behaviour rapidly, thereby inducing strong fund in- and
+out-ﬂows.
+Using micro-data from Turkey, Baskaya et al. (2017) show that capital inﬂows increase
+wholesale (non-deposit) funding of domestic banks, leading to higher lending. Based on ﬁrm-
+level data, Bruno and Shin (2017) analyse reasons for the large proportion of non-US ﬁrms’
+dollar-denominated bond issuance. They provide evidence that an issuance of dollar debt is more
+likely when a dollar carry trade is more favourable. As these ﬁrms tend to use these proceeds to
+accumulate ﬁnancial assets in the local currency, they also can contribute to an easing of credit
+conditions for other domestic borrowers. Niepmann and Schmidt-Eisenlohr (2018) document
+that an appreciation of the dollar is associated with a reduction in US credit supply due to
+global mutual funds’ behaviour in US secondary syndicated loan markets. Lo Duca et al. (2016)
+ﬁnd that US quantitative easing policies exerted a signiﬁcant impact on corporate bond issuance
+across advanced and emerging economies. Holm-Hadulla and Th¨ urw¨ achter (2021) analyse the
+role of the aggregate corporate debt structure in the transmission of monetary policy for a panel
+of EA countries. They f that the overall response of bank lending to monetary policy shocks is
+weaker in countries with a higher bond-to-bank ﬁnancing ratio.
+3 Analysing the second phase of global liquidity
+To examine the transmission of global ﬁnancial conditions in a BVAR framework, I set up a
+baseline model of ﬁve variables that includes nominal ﬂows of global investment funds; the VIX
+volatility index as a measure of global risk aversion, which has a high co-movement with the
+global ﬁnancial cycle (Rey, 2015); the S&P 500 stock market index; the USD/EUR nominal
+exchange rate; and the US 10-year Treasury rate as a measure of US monetary policy. This
+selection of variables is akin to the model used by Bruno and Shin (2015a), who focus on a
+measure of the leverage among global banks instead of investment fund ﬂows. As in Jaroci´ nski
+and Karadi (2020), I add two further high-frequency variables for changes in monetary policy
+and in the S&P 500 stock market index on FOMC dates to the model.
+Using a marginal approach, this baseline model subsequently is augmented by further macroe-
+conomic and ﬁnancial variables on the US, EA and global levels to analyse investors’ risk-taking
+behaviour, aspects of the transmission mechanism, and the eﬀects on the real economy.
+The remainder of this section provides a description of the data set, the estimation methods,
+and the identiﬁcation of the monetary policy shocks.
+ECB Working Paper Series No 2489 / November 2020
+9
+
+PAGE 11
+3.1 The data set
+The available sample comprises 12 years of monthly data between April 2007 and March 2019,
+which yields 144 observations. The beginning of the sample is restricted by the limited avail-
+ability of data for bond funds. The sample, nevertheless, fully covers the period of growing
+international importance of investment funds and market-based ﬁnance.
+The data on investment funds lies at the heart of this analysis and comes from private data
+provider EPFR Global. Aggregated investment fund data are available in this source by fund
+type (i.e., equities, bonds, mixed, money market), regional investment focus (e.g., global, US,
+Western Europe), and domicile country. EPFR decomposes the evolution of total net assets
+over time into nominal ﬂows and into valuation changes. The nominal ﬂows’ response to global
+liquidity shocks is the focus of this paper. As the domicile country of a fund generally is viewed
+as a good proxy for its investors’ origin because of regulatory reasons, the data set allows for the
+construction of, e.g., the cross-border ﬂows from non-EA investors into bond and equity funds
+with an investment focus on Europe.
+The EPFR data’s main advantages, compared with oﬃcial investment fund statistics or
+balance-of-payments data, are the global coverage of investment fund data in one single source,
+the detailed breakdowns in diﬀerent asset classes and the possibility of decomposing changes
+in investment funds’ assets into nominal and valuation changes. Moreover, public statistics
+on cross-border portfolio debt and equity ﬂows are not restricted to investment funds, but
+also include cross-border securities transactions of other sectors, including banks, which would
+complicate the identiﬁcation of the funds sector’s response to global ﬁnancial shocks.
+I use investment fund ﬂows for diﬀerent domicile/investment focus combinations. The main
+results are based on global-to-global investment fund ﬂows, which are based on aggregate data
+for all investment foci and all domiciles. Further results are based on EA-domiciled investment
+funds investing in European assets (hereafter EA-to-EA ﬂows) and globally (non-EA) domiciled
+funds investing in European assets (global-to-EA). 6
+Further breakdowns are available for the diﬀerent fund types. In the case of bond funds,
+I distinguish between funds investing in corporate or sovereign bonds, and in high-yield versus
+investment-grade assets. For equity funds, I use a decomposition in terms of market capitali-
+sation of the underlying corporations. These breakdowns enable me to determine whether in-
+and outﬂows are directed toward less- or more-risky market segments, such as corporate and
+high-yield bonds or small-cap equities.
+The data from EPFR does not cover the full market capitalisation of equities and bonds.
+Yet, for cross-border portfolio ﬂows, Miao and Pant (2012) and Fratzscher (2012) show that this
+source provides a relatively representative sample with aggregate portfolio ﬂows from EPFR
+matching the patterns of those from oﬃcial balance-of-payments statistics closely. Table 1
+6To have a consistent data deﬁnition and ensure comprehensive coverage, EA-domiciled investment funds
+always refer to the EA-12. This country group consistently covers more than 99% of total assets from the
+investment fund sector in the EA over the whole sample.
+ECB Working Paper Series No 2489 / November 2020
+10
+
+PAGE 12
+Table 1: Investment fund assets under management in EPFR and oﬃcial statistics
+Asset type Mixed/
+(USD trillion) Bond Equity No breakdown Total
+2009:
+FSB 4.91 9.59 4.35 18.84
+EPFR 2.14 5.71 3.83 11.67
+Sample coverage 44% 59% 88% 62%
+2018:
+FSB 11.46 21.09 9.59 42.14
+EPFR 7.57 16.44 7.23 31.24
+Sample coverage 66% 78% 75% 74%
+Notes: The table provides investment fund assets under management at the global level from oﬃcial government statistics,
+as provided by Financial Stability Board (2020) and from the sample available from EPFR Global. Numbers are in trillions
+of US dollars. ’Sample coverage’ provides the share of the total investment fund asset universe that is available in EPFR.
+’Mixed/No breakdown’ refers to the category ’Other funds’ in FSB data and includes mixed funds and money market funds
+in the EPFR data.
+compares investment fund assets under management at the global level from oﬃcial govern-
+ment statistics, as provided by Financial Stability Board (2020), with the sample available from
+EPFR Global. The comparisons are made for 2009 and 2018, the earliest and latest available
+breakdowns that allow for a comparison. The sample coverage in EPFR increased over time
+from, on average, 62% in 2009 to 74% in 2018, in which the data set includes USD 31 trillion of
+the USD 42 trillion provided in oﬃcial statistics. The coverage generally is somewhat better for
+equity than for bond funds, e.g. 78% versus 66%, respectively, in 2018. These observations give
+conﬁdence that the analysis in this paper covers the relevant developments in the fund sector in
+a comprehensive way.
+This paper’s focus lies in the analysis of nominal ﬂows, instead of the evolution of assets under
+management, which also include valuation changes. Changes in ﬂows reﬂect investors’ direct
+buying and selling decisions, while valuation changes also aﬀect existing portfolios. Analysing
+ﬂows, therefore, allows for examining investors’ actual responses to changes in global ﬁnancial
+conditions.
+Figures 18 and 19 in Appendix A.2 depict the evolution of the cumulative ﬂows for all asset
+classes available since the starting point of the sample in April 2007. During the whole sample
+period, bond funds by far experienced the strongest cumulative inﬂows of over USD 2.64 trillion,
+while cumulative ﬂows into equity funds ended up close to the level from the beginning of the
+sample. The strong growth of assets under management in equity funds, which is also visible in
+Figure 1 and Table 1, mainly was driven accordingly by increases in stock valuations.
+In the regression models from Section 4, I use the cumulative ﬂows as a percentage of lagged
+assets under management. Time series for the diﬀerent asset class breakdowns of the global
+investment fund series, as used in the BVAR models, can be found in Figures 20 and 21 in
+ECB Working Paper Series No 2489 / November 2020
+11
+
+PAGE 13
+Appendix A.2. The construction of these series follows the methodology by EPFR Global,
+which allows for a straightforward interpretation in percentage terms.
+All other data used in this paper are relatively standard ﬁnancial and macroeconomic time
+series from various private and public data providers, as well as from other academic works. An
+overview of all variables used in the analysis, together with their sources and applied transfor-
+mations, is given in Appendix A.1.
+3.2 Estimation method and identiﬁcation
+The model is estimated as a Bayesian VAR with four lags and a constant term for each variable
+using the Independent Normal-Wishart prior. 7 Unless stated otherwise, I use the following
+hyperparameter values that are standard in the related literature.
+As a prior belief about the regression coeﬃcients, I assume that each endogenous variable
+follows a unit root process in its own ﬁrst lag and has zero coeﬃcient values for all further own
+and cross-variable lags. The overall tightness parameter for this prior belief is assumed to be
+λ1 = 0.1. The cross-variable weighting parameter that determines the tightness of the prior
+belief for cross-variable lags is set to λ2 = 0.5. The lag decay parameter, which determines
+the speed at which the lag coeﬃcients converge to 0 with greater certainty, reads λ3 = 2. For
+the constant term, a diﬀuse prior is implemented by setting the exogenous variable tightness to
+λ4 = 100.
+The total number of iterations is set at 2,000, with 1,000 burn-in iterations. The number
+of lags in the model is set on the basis of comparing model marginal likelihoods and deviance
+information criteria. The results continue to hold with a smaller and higher number of lags.
+The results are robust to using other priors, including the Litterman (1986) “Minnesota” prior
+and a conventional Normal-Wishart prior. I ensure that all estimated models are stationary,
+which is not a necessary requirement for valid inference when using Bayesian methods. In
+practise, credibility intervals are, however, often very wide in models in which not all roots of
+the characteristic polynomial lie inside the unit circle.
+The monetary policy shocks are identiﬁed using the approach introduced by Jaroci´ nski and
+Karadi (2020), which is based on a combination of high-frequency identiﬁcation and sign re-
+strictions methods. Jaroci´ nski and Karadi (2020) show that surprise changes of federal funds
+rate futures in a 30-minute window around FOMC announcements do not always coincide with
+stock market movements in the opposite direction. Such a negative co-movement between a
+monetary policy indicator and stock markets is, however, the expected result of a monetary
+policy shock in conventional economic theory. The approach by Jaroci´ nski and Karadi (2020)
+allows for disentangling these pure negative co-movement monetary policy shocks from positive
+co-movement shocks that the authors interpreted as central bank information shocks, in which
+the central bank conveys additional information to market participants. For example, an in-
+crease in equity markets after a monetary policy tightening could be the result when the central
+7For the estimation, I use the BEAR toolbox, Version 4.2, by Dieppe et al. (2016).
+ECB Working Paper Series No 2489 / November 2020
+12
+
+PAGE 14
+bank reveals information that tightening of monetary conditions was required to prevent the
+economy from overheating, which ﬁnancial markets can interpret as positive economic news.
+The authors show that the responses from macroeconomic and ﬁnancial market variables can
+diﬀer decisively under these two types of shocks.
+−40 −20 0 20 40 60
+Surprise in S&P 500
+−40 −20 0 20 40
+Surprise in 10−year term structure factor
+Figure 3: Term structure factor and stock price surprises at FOMC announcements
+Notes: Horizontal axis in basis points, vertical axis in index points. Each dot represents one FOMC announce-
+ment between April 2007 and March 2019.
+Table 2: Comparison of US monetary policy surprise alternatives
+Nr. of obs. with Nr. of obs. with
+Mean Std. Dev. negative co-movement positive co-movement
+Term structure 0.55 8.81 41 56
+factor
+Target factor 0.97 4.68 50 47
+3-month FFR -0.30 2.96 24 22
+future
+Notes: The table provides summary statistics on US monetary policy surprise measures from the 97 FOMC announcements
+between April 2007 and March 2019. An increase in the term structure (target) factor by one unit reﬂects a 100bps increase
+of the 10-year US Treasury (current month federal funds) rate. Mean and standard deviations (std. dev.) are given in bps.
+The third and fourth column count the observations with negative and positive correlations with the change in the S&P
+500 stock market index. The change in the three-month federal funds rate (FFR) is zero for 51 observations.
+The method is implemented in a VAR framework by aggregating the daily observations of
+monetary policy and stock market changes on FOMC announcement dates to monthly frequency.
+These two time series then are added alongside the other variables in the VAR model. The
+negative and positive co-movement shocks to these two surprise measures are disentangled by
+means of sign restrictions, as shown in Table 3 in Appendix A.3.
+ECB Working Paper Series No 2489 / November 2020
+13
+
+PAGE 15
+While Jaroci´ nski and Karadi (2020) use surprise changes in three-month federal funds rate
+futures around the FOMC announcements, I construct a measure that also captures changes in
+the monetary policy stance at the longer end of the yield curve. I generate this monetary policy
+term structure surprise measure using the method by G¨ urkaynak et al. (2005). To this end, I use
+end-of-day data on federal funds rate futures with maturities of up to four months and eurodollar
+futures with maturities of six, nine and 12 months. To capture eﬀects from monetary policy at
+the longer end of the yield curve, I add US Treasury rates with maturities of two, ﬁve and 10
+years to this set. Following the procedure by G¨ urkaynak et al. (2005), I calculate the ﬁrst two
+principal components of this data set. After suitable transformations, these can be interpreted as
+a monetary policy “target factor”, capturing changes in the current monetary policy stance, and
+as a “term structure factor”, which captures monetary policy-induced movements throughout
+the yield curve. I normalise the term structure factor such that an increase in the factor by
+one unit is equivalent to an increase in the 10-year Treasury rate of 100 basis points (bps).
+The resulting variable comprises my measure of yield surprise changes at US monetary policy
+announcements for the analysis in Section 4.
+Figure 3 plots the surprise changes in the term structure factor and stock prices from FOMC
+announcements. Table 2 provides summary statistics on the surprises, as well as a comparison
+between term structure factor, target factor and the three-month federal funds rate future.
+Altogether, there are 97 FOMC announcements between April 2007 and March 2019, of which
+41 are events with negative co-movements with the stock market (to be found in the upper left
+and lower right quadrants of Figure 3), while 56 events feature a positive co-movement (lower
+left and upper right quadrants).
+Comparing the standard deviations for the diﬀerent measures also exempliﬁes the importance
+of using changes over the whole term structure. As the federal funds rate was kept (close) to
+zero for an extended period of time after the global ﬁnancial crisis, the variation at the short-end
+of the yield curve is very limited compared with earlier decades. However, most of the monetary
+policy adjustments post-crisis implied changes at the longer end of the term structure, e.g.,
+through central bank asset purchases or forward guidance. As a result, the standard deviation
+of the term structure factor is almost twice as high as for the target factor and almost three
+times as high as for the three-month federal funds rate future (Table 2). 8 In fact, at more than
+50% (51 out of 97) of the FOMC announcements in this post-ﬁnancial crisis sample, the surprise
+changes in the three-month federal funds rate are zero. Using shocks to this variable would,
+therefore, make it very diﬃcult to identify eﬀects from monetary policy. This highlights the
+importance of using monetary policy surprise changes over the whole term structure. Since I
+am interested in the eﬀects from a genuine monetary policy on global ﬁnancial conditions in this
+paper, I will focus on shocks with negative co-movement between the monetary policy surprise
+and equity markets throughout the rest of the analysis.
+8See also Figures 24 and 25 in Appendix A.3 for scatter plots of the target factor and the three-month federal
+funds rate future against stock market changes.
+ECB Working Paper Series No 2489 / November 2020
+14
+
+PAGE 16
+4 Results
+In this section, I show impulse response functions to US monetary policy shocks, identiﬁed as
+in Jaroci´ nski and Karadi (2020), and to fund ﬂow shocks, identiﬁed via Cholesky ordering.
+After discussing the baseline model used throughout the whole analysis, Section 4.1 describes
+the reaction of investment fund ﬂows for diﬀerent asset classes and domicile/investment focus
+combinations. The ﬂows are analysed at the global and EA levels. Section 4.2 show impulse
+responses for several ﬁnancial and macroeconomic variables. The results provide evidence that
+US monetary policy shocks continue to be an important driver of global asset prices after the
+global ﬁnancial crisis. The section also discusses how the ﬁndings from the investment fund ﬂows
+can be linked to the transmission channels discussed in the introduction. The responses from
+all variables shown behave intuitively and in line with economic theory. This provides further
+support for the identiﬁcation scheme’s reliability.
+4.1 Investment fund ﬂows and securities issuance
+Figure 4 presents impulse responses from the variables in the baseline model to study the trans-
+mission of a loosening in global ﬁnancial conditions, induced by US monetary policy, through
+the investment fund sector. The blue lines always provide the median response of the vari-
+ables’ posterior distribution. The blue-shaded areas indicate 68% credibility intervals, and the
+grey-shaded areas indicate 90% credibility bands. The responses from all variables are given in
+percentages, except for those from the VIX index that is used in levels. The surprise changes to
+the term structure and the S&P index are given in basis points and index points, respectively.
+The x-axis denotes the number of months after the shock.
+The surprises in the US term structure and in the S&P 500 are the high-frequency measures
+that identify a US monetary policy shock as a negative co-movement between the two variables.
+As a result of the monetary shock, the US term structure factor decreases by about 4 bps, which
+translates into a reduction in the monthly US 10-year Treasury rate by about 5 bps on impact.
+Simultaneously, the high-frequency S&P 500 increases by 10 index points, translating into a
+0.8% increase in the monthly S&P 500 series.
+This expansionary monetary shock leads to increased risk appetite among global ﬁnancial
+investors, as proxied by the VIX (Rey, 2015). After a short-lived initial increase for one month,
+risk aversion declines persistently and statistically signiﬁcantly.
+The loosening of US monetary policy leads to an immediate depreciation of the US dollar rel-
+ative to the euro, which lasts about a year. This is in line with the results in Miranda-Agrippino
+and Rey (2020b). The result does not display a “delayed overshooting” of the exchange rate,
+which is often found in recursively identiﬁed VAR models, for example by Bruno and Shin
+(2015a).
+The nominal ﬂows from international investors to global investment funds increase signiﬁ-
+cantly and persistently. In response to the about 5 bps reduction in the US 10-year rate, the
+ECB Working Paper Series No 2489 / November 2020
+15
+
+PAGE 17
+5 10 15 20
+0
+0.2
+0.4
+0.6
+0.8
+Global bond fund flows
+5 10 15 20
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+USD/EUR exchange rate
+5 10 15 20
+-1
+-0.5
+0
+0.5
+1
+VIX
+5 10 15 20
+-0.1
+-0.05
+0
+US 10-year rate
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5
+S&P 500
+5 10 15 20
+-6
+-4
+-2
+0
+Surprise in US term structure
+5 10 15 20
+0
+5
+10
+15
+Surprise in S&P 500
+Figure 4: Impulse responses in baseline model with global bond fund ﬂows
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation.
+ﬂows to bond funds increase by up to 0.4%, with the maximum eﬀect arising after 12 months.
+This ﬁnding provides the ﬁrst line of evidence that the investment fund sector responds system-
+atically at the international level to changes in US monetary policy, thereby transmitting this
+change in ﬁnancial conditions globally.
+Figure 5 provides results for breakdowns of investment fund ﬂows in a wide range of diﬀerent
+asset classes. While the response from the bond fund ﬂows is repeated in the upper left panel
+to facilitate comparison, all other variables shown in the ﬁgure are added one by one to the
+baseline model of Figure 4 instead of the bond fund ﬂows. 9
+9The responses from the other variables in the baseline model that are not shown again are very close to those
+displayed in Figure 4 and are available upon request.
+ECB Working Paper Series No 2489 / November 2020
+16
+
+PAGE 18
+5 10 15 20
+0
+0.2
+0.4
+0.6
+0.8
+Bond fund flows
+5 10 15 20
+0
+0.5
+1
+Corporate bond fund flows
+5 10 15 20
+0
+0.5
+1
+High-yield bond fund flows
+5 10 15 20
+-0.5
+0
+0.5
+1
+Sovereign bond fund flows
+5 10 15 20
+0
+0.2
+0.4
+Mixed fund flows
+5 10 15 20
+-1
+-0.5
+0
+Money market fund flows
+5 10 15 20
+-0.05
+0
+0.05
+0.1
+Equity fund flows
+5 10 15 20
+-0.1
+0
+0.1
+0.2
+Small-cap equity fund flows
+Figure 5: Impulse responses of global investment fund ﬂows
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 4.
+The impulse responses show that the investor ﬂows to global corporate (Panel 2) and high-
+yield (Panel 3) bond funds also increase after the expansionary shock. In fact, ﬂows to both
+categories increase by more than the overall global bond fund ﬂows. The peak responses from
+these two asset classes read 0.6% and 0.5%, respectively, compared with 0.4% for the overall
+ﬂows. By contrast, ﬂows to sovereign bond funds (Panel 4) are insigniﬁcant, while money
+market funds (Panel 6) experience signiﬁcant outﬂows at the global level. Accordingly, investors
+increase their investments in global bond markets, and they re-balance from less risky sovereign
+and money market funds to riskier corporate and high-yield bond funds.
+The economic signiﬁcance of these results can be gauged when the percentage ﬂows are trans-
+ECB Working Paper Series No 2489 / November 2020
+17
+
+PAGE 19
+formed into USD ﬂows. According to the data by Financial Stability Board (2020), displayed in
+Figure 1, bond funds had about USD 11.5 trillion in assets under management globally in 2018.
+Using the median coeﬃcient of 0.4% for bond funds from the model and scaling the monetary
+policy shock up to 25 bps implies that global investor ﬂows into bond funds increase persistently
+by about USD 200 billion.
+In examining further asset classes beyond bonds, mixed funds (Panel 5), which invest both in
+equity and debt securities, also experience signiﬁcant inﬂows after the shock. Inﬂows to equity
+funds (Panel 7) are positive. The impact eﬀect of 0.03% is relatively small and turns insigniﬁcant
+after a few months. Besides the response from overall equity fund ﬂows, I show the response
+for ﬂows to equities issued by ﬁrms with a relatively small market capitalisation between USD
+300 million and 2 billion (Panel 8). This market segment is viewed as riskier than the “large
+cap” segment. Small caps’ price and return volatility usually are found to be larger than for
+large caps. The percentage increase in small caps is signiﬁcantly more pronounced than the
+overall increase in equity ﬂows. This ﬁnding again indicates a rebalancing to riskier segments of
+ﬁnancial markets after a global monetary loosening.
+Comparing the percentage coeﬃcient to the assets under management from equity funds
+globally, which stood at USD 21 trillion in 2018, implies that equity funds experience inﬂows of
+about USD 33 billion in response to a 25 bps loosening of US monetary policy. 10
+As it is a special focus of the paper to analyse the transmission of global ﬁnancial conditions
+to the EA, I examine the ﬂows of global (i.e., non-domestic) investors towards funds that invest
+in European assets in Figure 6. Overall, these results are in line with those presented in Figure
+5 earlier. Global funds investing in European assets experience signiﬁcant inﬂows after a global
+monetary loosening.
+Again, there is evidence of a re-balancing towards riskier asset classes, such as corporate
+bonds, while ﬂows to European money market funds are declining. 11 Mixed funds are found
+to experience inﬂows after the shock. While global investors’ ﬂow response to European equity
+funds is insigniﬁcant, the relatively riskier small-cap equity funds have strong signiﬁcant inﬂows.
+The results in Figure 6 indicate that European asset markets can obtain additional funding
+from international investment funds after a loosening of global ﬁnancial conditions. In this way,
+these funds can contribute to the transmission of the global ﬁnancial cycle to the EA.
+To assess investment funds’ role in the transmission of global ﬁnancial conditions to the EA
+fully, it is also important to study the behaviour of investors that are domiciled within the EA.
+EA-domiciled investment funds hold about 30% of total investment fund sector assets globally.12
+10The relatively smaller absolute response from equity funds compared with bond funds is hardly surprising
+when examining the underlying raw data. As Figure 18 in Appendix A.2 shows, cumulative ﬂows to bond funds
+were much higher and ﬂuctuated more widely than those for equity funds during the sample period.
+11Assets under management and ﬂows of internationally domiciled sovereign and high-yield bond funds with a
+European investment focus are very small in the EPFR data. Results are therefore not provided for these two
+categories, but are consistent broadly with the ﬁndings in Figure 5.
+12See Figure 22 in Appendix A.2 for an overview of the growth of the EA investment fund sector since the
+global ﬁnancial crisis ended.
+ECB Working Paper Series No 2489 / November 2020
+18
+
+PAGE 20
+5 10 15 20
+-0.2
+-0.1
+0
+0.1
+0.2
+Bond fund flows
+5 10 15 20
+-0.2
+0
+0.2
+0.4
+0.6
+Corporate bond fund flows
+5 10 15 20
+0
+0.5
+1
+1.5
+Mixed fund flows
+5 10 15 20
+-2
+-1
+0
+1
+Money market fund flows
+5 10 15 20
+-0.2
+-0.1
+0
+0.1
+Equity fund flows
+5 10 15 20
+-0.2
+0
+0.2
+0.4
+0.6
+Small-cap equity fund flows
+Figure 6: Impulse responses of global-to-EA investment fund ﬂows
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 26.
+Figure 7 provides ﬂow responses from EA-domiciled investors to funds investing in European
+assets. To take into account that these fund ﬂows stem from domestic investors, I add a BBB
+bond spread to the underlying model instead of the exchange rate (see Figure 27 in Appendix
+B). Jaroci´ nski and Karadi (2020) use this variable as a measure of ﬁnancial frictions in the EA
+and ﬁnd that it is important for explaining macroeconomic dynamics after monetary shocks.
+Figure 7 shows that EA investors increase their ﬂows to funds with a European investment
+focus signiﬁcantly across all asset classes. European corporate and high-yield bond funds obtain
+persistently higher inﬂows of more than 0.7% and 1%, respectively, while ﬂows to mixed funds
+increase by about 0.5%. Flows to equity funds increase by about 0.1%. The riskier small-cap
+equity category obtains additional inﬂows of 0.5%.
+This indicates that domestic EA investors increase their exposure to riskier asset classes in
+their home markets in response to a loosening of ﬁnancial conditions abroad. This ﬁnding could
+be interpreted as searching for yield behaviour among EA investors when European assets oﬀer
+relatively more attractive returns than US (or more broadly, international) assets after the US
+monetary accommodation.
+ECB Working Paper Series No 2489 / November 2020
+19
+
+PAGE 21
+5 10 15 20
+0
+0.2
+0.4
+Bond fund flows
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5
+Corporate bond fund flows
+5 10 15 20
+-1
+0
+1
+2
+3
+High-yield bond fund flows
+5 10 15 20
+-0.1
+0
+0.1
+0.2
+0.3
+Sovereign bond fund flows
+5 10 15 20
+0
+0.5
+1
+Mixed fund flows
+5 10 15 20
+-0.2
+0
+0.2
+0.4
+0.6
+Money market fund flows
+5 10 15 20
+-0.1
+0
+0.1
+0.2
+0.3
+Equity fund flows
+5 10 15 20
+0
+0.5
+1
+Small-cap equity fund flows
+Figure 7: Impulse responses of EA-to-EA investment fund ﬂows
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 27.
+As opposed to global investors, EA investors also increase their ﬂows to less-risky sovereign
+bond and money market funds. Both responses in Figure 7 are only statistically signiﬁcant at
+the 68% credibility band for the ﬁrst few months, but the median responses stay positive for
+about one year for sovereign bond funds and longer than two years for money market funds.
+This behaviour also could be rationalised by searching for yield motives amid the reduction in
+risk-free rates in the US. EA investors that aim to invest a certain share of their portfolios in
+safe assets might be incentivised to reduce their holdings of safe international assets, such as US
+Treasuries, and move to European sovereign bonds if the latter oﬀer a relatively higher return.
+Section 4.2 provides results that support such reasoning.
+ECB Working Paper Series No 2489 / November 2020
+20
+
+PAGE 22
+5 10 15 20
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+Debt issuance
+5 10 15 20
+-0.04
+-0.02
+0
+0.02
+Equity issuance
+Figure 8: Impulse responses of EA securities issuance
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 4.
+The analysis so far has focussed on investment fund ﬂows and, thus, the demand-side reaction
+on securities markets after a global ﬁnancial loosening. To assess to what extent this leads not
+only to higher asset prices or share buybacks (Acharya and Plantin, 2018), it also is important
+to study the supply side of debt and equity markets. Figure 8 provides the responses of the
+outstanding amounts of debt and equity from EA non-ﬁnancial corporations.
+The issuance of debt securities increases signiﬁcantly by about 0.2%. Given the total amount
+outstanding of euro area NFC debt of EUR 1.4 trillion in 2019, this implies an increase of about
+EUR 14 billion after a 25 bps monetary policy shock. Parallel to the much smaller inﬂows to
+equity funds, listed shares outstanding increase by 0.01% only, corresponding to about EUR 3
+billion. Compared with the eﬀect of debt outstanding, this impulse is relatively short-lived and
+becomes insigniﬁcant after two months.
+According to the ECB Securities Holding Statistics, domestic and foreign investment funds
+held up to 50% of debt securities issued by euro area NFCs in 2019, while EA banks only
+held about 8%. 13 Therefore, by absorbing a large share of any newly issued debt, investment
+funds are likely to contribute signiﬁcantly to improving ﬁnancing conditions for EA ﬁrms after
+a global monetary loosening. In this way, ﬁrms will be relatively less reluctant to ﬁnance new
+investments and expand their operations. Increased investment fund ﬂows may, hence, also
+aﬀect real macroeconomic activity, which will be analysed in the next section.
+4.2 Financial transmission and macroeconomic eﬀects
+This section presents results for several ﬁnancial market variables to assess whether the in-
+vestment fund ﬂow responses can be rationalised with the transmission channels discussed in
+the introduction – the international risk-taking channel, the search-for-yield channel, and pro-
+13See Figure 23 in Appendix A.2 for an overview of the investor base of debt issued by euro area NFCs. Euro
+area NBFIs in total held about 70% of euro area NFC debt, of which investment and money market funds were
+the largest individual sector, responsible for about one third of the total. Foreign (non-euro area) investors held
+another 17% that, as argued earlier, also mainly comprise investment funds (see Figure 2).
+ECB Working Paper Series No 2489 / November 2020
+21
+
+PAGE 23
+5 10 15 20
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+Global risk factor (HV, 2019)
+5 10 15 20
+-1
+-0.5
+0
+0.5
+VSTOXX
+5 10 15 20
+-0.08
+-0.06
+-0.04
+-0.02
+0
+US excess bond premium
+5 10 15 20
+-0.06
+-0.04
+-0.02
+0
+0.02
+EA BBB-spread
+Figure 9: Impulse responses of global risk and uncertainty
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable is
+added separately to the baseline model in Figure 4. “HV, 2019” denotes the global risk factor by Habib and
+Venditti (2019). The US excess bond premium is taken from Gilchrist and Zakrajˇ sek (2012).
+cyclical ﬂow-performance relations. It also analyses to what extent these ﬁnancial eﬀects spill
+over into the macroeconomy of the US and the EA during the post-global ﬁnancial crisis era.
+Again, all variables shown are added one by one using the marginal approach to the baseline
+model presented in Figure 4.
+Figure 9 analyses the eﬀects from the US monetary policy shock on global risk sentiment,
+ﬁnancial uncertainty and frictions. The baseline model indicated that the VIX, as a measure
+of investor risk sentiment, declines after the loosening of US monetary policy. This ﬁnding
+is corroborated by the global risk factor of Habib and Venditti (2019), which also declines
+signiﬁcantly and persistently on impact. This index represents the global component of expected
+stock returns and provides a further concise measure for the global ﬁnancial cycle. A decline in
+the variable indicates less global ﬁnancial risk. Next, the ﬁgure also shows that the VSTOXX,
+the volatility index for the Euro Stoxx 50, declines in response to US monetary easing, suggesting
+that expected market volatility and risk aversion also decline in the EA. In sum, these responses
+provide a clear indication for increased global risk appetite among investors after a loosening of
+monetary policy in the US. In line with an international risk-taking channel of monetary policy,
+this is one explanation for the higher investment fund ﬂows – particularly to riskier market
+segments – that were discussed in the previous section.
+While the volatility indices and the global risk factor focus on equity markets, I analyse credit
+spread variables to study changing conditions in US and EA bond markets as well. For the US,
+I use the excess bond premium by Gilchrist and Zakrajˇ sek (2012), which is an average corporate
+ECB Working Paper Series No 2489 / November 2020
+22
+
+PAGE 24
+bond spread from which default risk is removed. For this reason, Gertler and Karadi (2015)
+argue that it can be interpreted as a measure for ﬁnancial frictions in the economy. Moreover,
+the excess bond premium is shown to have excellent properties in forecasting economic activity.
+Caldara and Herbst (2019) show that it improves the reliability and forecasting performance of
+macro-VAR models signiﬁcantly. For the EA, I follow Jaroci´ nski and Karadi (2020) in using the
+spread between BBB-rated bonds of non-ﬁnancial corporations and the Bund yield, in which
+the latter serves as the measure for the EA risk-free rate. The impulse responses in Figure 9
+indicate that the bond risk spreads decrease signiﬁcantly in both regions. The US excess bond
+premium reacts relatively stronger by -4 bps on impact, while the euro area BBB spread declines
+by 2 bps. Financial frictions and ﬁnancing conditions for NFCs in both regions, accordingly,
+ease after the monetary shock.
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5
+S&P 500
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5
+2
+EuroStoxx
+5 10 15 20
+0
+0.5
+1
+US HY bond index
+5 10 15 20
+0
+0.5
+1
+EA HY bond index
+Figure 10: Impulse responses of equity and bond market indices
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 4.
+In Figure 10, I present the results from examining the reaction and international co-movement
+of risky assets’ prices in the US and EA further. The ﬁgure provides the impulse responses of the
+S&P 500 and the EuroStoxx 50 equity indices, as well as indices for the high-yield segments of
+EA and US bond markets. In both regions, the measures increase persistently after the interest
+rate decline. This implies more attractive conditions for ﬁrms who seek (additional) funding on
+bond and equity markets. As they also imply higher investment returns, the higher asset prices
+also may reinforce the investor ﬂows visible in Section 4.1 due to pro-cyclical ﬂow-performance
+behaviour (Timmer, 2018; Goldstein et al., 2017; Feroli et al., 2014). Overall, the ﬁndings in
+Figure 9 and 10 are consistent with the observation of the literature initiated by Rey (2015)
+ECB Working Paper Series No 2489 / November 2020
+23
+
+PAGE 25
+on a global ﬁnancial cycle in risky asset prices. While this literature so far mainly analysed
+the period before the global ﬁnancial crisis, I can conﬁrm that these ﬁndings also extend to the
+post-crisis period.
+5 10 15 20
+-0.04
+-0.02
+0
+0.02
+DE 10-year rate
+5 10 15 20
+-0.06
+-0.04
+-0.02
+0
+0.02
+US-DE 10-year rate differential
+5 10 15 20
+-0.1
+-0.05
+0
+US term spread
+5 10 15 20
+-0.06
+-0.04
+-0.02
+0
+0.02
+DE term spread
+Figure 11: Impulse responses of interest rate diﬀerentials
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 4. Term spreads are calculated as the diﬀerence between
+10- and one-year US Treasury and German Bund (DE) rates, respectively.
+Figure 11 provides results from analyses of interest rates and their diﬀerentials in the two
+currency areas. The ﬁgure shows that a monetary expansion in the US is not followed by a
+statistically signiﬁcant loosening of the EA monetary policy stance, as measured by the 10-year
+German Bund rate. This ﬁnding diﬀers from Miranda-Agrippino and Rey (2020b), who ﬁnd
+that the ECB adjusts its policy systematically after US monetary policy changes in their pre-
+crisis sample – be it for reasons related to a “fear of ﬂoating” or due to endogenous economic
+developments in the EA. As a consequence, the interest rate diﬀerential between the 10-year US
+and EA interest rates (the latter again proxied by the German Bund rate) decreases signiﬁcantly.
+This observation is consistent with the hypothesis that global investors adjust their portfolios
+towards relatively higher yield in international, such as European, assets after the shock (Ammer
+et al., 2019), as shown in Figures 5, 6, and 7.
+Figure 11 also ﬁnds that the term spread in the US, measured as the diﬀerence between 10-
+and one-year Treasury rates, declines signiﬁcantly by about 5 bps and thus by the same amount
+as the 10-year rate itself. The shock accordingly implies a ﬂattening of the yield curve. This
+provides a consistency check of the construction of the shock, which aims to capture monetary
+policy eﬀects in the longer end of the term structure. It is also in line with the fact that
+monetary policy for the largest part of my sample predominantly aimed to control the yield
+ECB Working Paper Series No 2489 / November 2020
+24
+
+PAGE 26
+curve’s steepness, while its short end remained at relatively low levels. Consistent with the
+small, insigniﬁcant response of the German 10-year rate, the Bund term spread only reacts
+mildly as well. The yield curve ﬂattens by 2 bps on impact, but the response turns statistically
+insigniﬁcant after only two months.
+5 10 15 20
+0.4
+0.6
+0.8
+1
+1.2
+Global bond fund flows
+5 10 15 20
+0
+0.2
+0.4
+0.6
+Debt issuance
+5 10 15 20
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+USD/EUR exchange rate
+5 10 15 20
+-1
+-0.5
+0
+0.5
+VIX
+5 10 15 20
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+US 10-year rate
+5 10 15 20
+0
+1
+2
+3
+S&P 500
+Figure 12: Impulse responses in the baseline model to a global bond fund ﬂow shock
+Notes: Impulse responses to an inﬂow shock to global bond funds (blue lines) with 68% (blue-shaded areas)
+and 90% (grey-shaded areas) credibility intervals obtained from a structural BVAR with Cholesky recursive
+identiﬁcation. Global bond fund ﬂows are ordered ﬁrst.
+The results so far document that investment fund ﬂows respond systematically to changes in
+US monetary policy and that these ﬂows can be explained with a variety of transmission channels.
+In a next step, I examine to what extent the investment fund ﬂows themselves contribute to the
+demonstrated improvement in ﬁnancing conditions.
+To this end, I re-run the baseline model from Figure 4, as well as several marginal extensions
+– this time focussing on shocks to the investment fund ﬂows. The model features the same
+variables as before, except for the two high-frequency measures needed to identify the monetary
+policy shocks. The fund ﬂow shocks are identiﬁed using a Cholesky approach, with the fund
+ﬂows ordered ﬁrst. Under this ordering, all variables can respond immediately to changes in
+the fund ﬂows, while fund ﬂows can only respond with a lag to the other variables, reﬂecting a
+notion that quantities move slower than prices.
+ECB Working Paper Series No 2489 / November 2020
+25
+
+PAGE 27
+The responses to the fund ﬂow shock in the baseline model, extended by the debt issuance of
+EA NFCs, are provided in Figure 12. 14 The responses of all variables are fully consistent with
+the ﬁndings from the monetary policy shock in Figure 4. Speciﬁcally, the shock implies that
+inﬂows to global investment funds increase immediately by almost 0.8% and increase further in
+subsequent months before decaying slowly. In response, the VIX drops strongly, by more than
+0.5 points. The US 10-year rate falls by 4 bps, while the S&P 500 increases markedly, by more
+than 2%. The debt issued by EA NFCs increases by 0.35%, indicating that EA ﬁrms use the
+additional ﬁnancing oﬀered by the investment fund sector.
+5 10 15 20
+-0.1
+-0.05
+0
+Global risk factor (HV, 2019)
+5 10 15 20
+0
+1
+2
+3
+4
+EuroStoxx
+5 10 15 20
+0.5
+1
+1.5
+US HY bond index
+5 10 15 20
+0.5
+1
+1.5
+EA HY bond index
+5 10 15 20
+-0.1
+-0.05
+0
+US excess bond premium
+5 10 15 20
+-0.15
+-0.1
+-0.05
+0
+EA BBB-spread
+Figure 13: Impulse responses of ﬁnancial market variables to a global bond fund ﬂow shock
+Notes: Impulse responses to an inﬂow shock to global bond funds (blue lines) with 68% (blue-shaded areas)
+and 90% (grey-shaded areas) credibility intervals obtained from a structural BVAR with Cholesky recursive
+identiﬁcation. Global bond fund ﬂows are ordered ﬁrst. Each variable is added separately to the baseline
+model in Figure 32.
+The responses of global risk, as well as stock and bond market indicators to the fund ﬂow
+shock are presented in Figure 13. The results show that fund inﬂows lead to a reduction in
+global ﬁnancial risk and a loosening of ﬁnancial conditions both in the US and EA. Fund inﬂows
+14All results remain virtually unchanged without the debt issuance variable (see Figure 32 in Appendix B). The
+results also are unaﬀected if an additional variable as a basis for a monetary policy shock, such as the surprise in
+the term structure factor or the Wu and Xia (2016) shadow federal funds rate, is added and ordered ﬁrst. Bertaut
+et al. (2021) use the same ordering between monetary policy, investment fund ﬂows, and ﬁnancial variables in a
+Cholesky-identiﬁed VAR. Results for monetary policy shocks identiﬁed in such a way are discussed in Section 5.
+ECB Working Paper Series No 2489 / November 2020
+26
+
+PAGE 28
+can, accordingly, amplify the easing of ﬁnancial conditions that was documented in Figures 9
+and 10 after a monetary policy shock.
+(a) Monetary policy shock
+5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+US inflation
+5 10 15 20
+-0.2
+0
+0.2
+0.4
+US industrial production
+5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+EA inflation
+5 10 15 20
+-0.2
+0
+0.2
+0.4
+EA industrial production
+(b) Fund ﬂow shock
+5 10 15 20
+0
+0.05
+0.1
+0.15
+0.2
+US inflation
+5 10 15 20
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+US industrial production
+5 10 15 20
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+EA inflation
+5 10 15 20
+0
+0.2
+0.4
+0.6
+0.8
+EA industrial production
+Figure 14: Impulse responses of macro-variables
+Notes: Panel (a): Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease
+in the 10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas)
+credibility intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Panel
+(b): Impulse responses to an inﬂow shock to global bond funds obtained with Cholesky recursive identiﬁcation.
+Global bond fund ﬂows are ordered ﬁrst. Each variable is added separately to the baseline model in Figures
+4 and 32, respectively. Models with US (EA) macro-variables additionally include the excess bond premium
+(BBB spread).
+The question of whether the ﬁnancial spillovers also aﬀect the EA macroeconomy is examined
+next. Figure 14 provides responses from macro-variables for the US and EA to both monetary
+ECB Working Paper Series No 2489 / November 2020
+27
+
+PAGE 29
+policy and fund ﬂow shocks. The US and EA variables again are added jointly with the excess
+bond premium or BBB spread, respectively. For the identiﬁcation of the fund ﬂow shock, the
+macro-variables are ordered ﬁrst, while the bond market spreads are ordered among the other
+ﬁnancial variables.
+Industrial production increases in both regions after the US monetary shock (Panel (a)),
+which is in line with the ﬁndings by Miranda-Agrippino and Rey (2020b). The response of US
+industrial production turns signiﬁcant after seven months and reaches a peak of almost 0.2%
+after about a year. The response from EA industrial production is estimated less precisely. It
+turns signiﬁcant after 13 months, when it also reaches its peak of about 0.1%. Consumer price
+inﬂation also rises in both the US and EA, in which, again, the eﬀects are stronger and more
+signiﬁcant in the US.
+While several transmission channels contribute to these monetary spillovers, the role of
+investment funds in this is analysed further in Panel (b) of the ﬁgure. Industrial production
+and inﬂation increase pronouncedly and statistically signiﬁcantly in both regions after inﬂows to
+global bond funds. This clear link between fund ﬂows and the macroeconomy is in line with Ben-
+Rephael et al. (2021), who ﬁnd that indicators based on bond fund ﬂows have strong predictive
+power on GDP and unemployment. Taken together, Figure 14 illustrates that investment funds,
+indeed, can play a meaningful role in the transmission of global monetary loosening to real
+economic conditions along the narrative developed in Section 4: Monetary easing in the US
+leads to higher asset prices and improved ﬁnancing conditions globally, which are supported
+by inﬂows to the investment fund sector. The better access to ﬁnance, in turn, stimulates
+ﬁrms to raise additional funding, particularly via higher debt securities issuance. This allows
+the corporate sector to ﬁnance investments and create new jobs that ultimately can lead to an
+increase in real economic activity and inﬂation.
+5 10 15 20
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+US bank lending
+5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+EA bank lending
+Figure 15: Impulse responses of bank lending to a US monetary policy shock
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 4. The model with US (EA) bank lending additionally
+includes the excess bond premium (BBB spread).
+At the same time, the (international) bank lending channels discussed by Rey (2016) continue
+to play a role in the macro-spillovers. Consistent with Miranda-Agrippino and Rey (2020b),
+ECB Working Paper Series No 2489 / November 2020
+28
+
+PAGE 30
+Figure 15 indicates that domestic bank lending increases signiﬁcantly not only in the US, but
+also in the EA, after a monetary loosening in the US. US banks increase their loan origination
+signiﬁcantly with a peak response of 0.5%. The eﬀect on EA bank lending is much smaller
+than in the US, with a peak response of about 0.1%, and it remains signiﬁcant at the 68%
+credibility level for one-and-a-half years. However, compared with debt portfolio ﬂows that
+predominantly are driven by investment funds, the size of bank-related capital inﬂows to the
+EA fell signiﬁcantly after the global ﬁnancial crisis (see Figure 2) – a point already made by
+Shin (2013). Thus, the relative importance of channels related to international banks’ behaviour
+is likely to have declined compared with the more market-based investment fund channels that
+stand in the focus of the present analysis.
+5 Sensitivity analysis
+This section discusses a series of robustness checks for the paper’s main results.
+First, I analyse the main results’ sensitivity with respect to the identiﬁcation scheme of the
+VAR. Figure 16 provides results from the baseline model, using a standard high-frequency iden-
+tiﬁcation instead of the more involved Jaroci´ nski and Karadi (2020) approach. In the standard
+approach, the high-frequency monetary surprise factor continues to be part of the model, but
+the surprise change in the S&P 500 index is left out. The model then is identiﬁed through the
+Cholesky decomposition, in which the high-frequency variable is ordered ﬁrst. 15 This implies
+that all other variables in the VAR can respond contemporaneously to the monetary policy
+shock, while monetary policy responds to all further variables only with a lag. Given the high
+speed with which all the ﬁnancial variables used in the model react to news, this ordering is
+very plausible. Moreover, it also mirrors “the periodic decision making process at the Federal
+Reserve and the slowly evolving implementation of monetary policy”, as argued by Bruno and
+Shin (2015a).
+Figure 16 makes it clear that all variables’ responses in the baseline from Figure 4 are highly
+robust when using the standard high-frequency approach, both qualitatively and quantitatively.
+Figure 28 in Appendix B conﬁrms that this also holds for all investment fund ﬂow types depicted
+in Figure 5.
+To prove that the results do not depend on the selection of the speciﬁc monetary policy
+surprise indicator and the high-frequency approach in general, I demonstrate that similar results
+also can be obtained using a conventional Cholesky identiﬁcation of the monetary policy shock
+without using high-frequency data. To this end, I add the Wu and Xia (2016) shadow federal
+funds rate as the monetary policy indicator to the model. This variable is an adjusted federal
+funds rate that takes into account the eﬀects from the unconventional measures conducted while
+the eﬀective federal funds rate was close to its zero lower bound. Figure 17 provides results
+15This procedure is related closely to the external instruments approach proposed by Gertler and Karadi (2015),
+and it also is used by Jaroci´ nski and Karadi (2020) for comparison purposes.
+ECB Working Paper Series No 2489 / November 2020
+29
+
+PAGE 31
+5 10 15 20
+-8
+-6
+-4
+-2
+0
+Surprise in US term structure
+5 10 15 20
+0
+0.2
+0.4
+0.6
+0.8
+Global bond fund flows
+5 10 15 20
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+USD/EUR exchange rate
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5
+VIX
+5 10 15 20
+-0.1
+-0.05
+0
+US 10-year rate
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5
+S&P 500
+Figure 16: Impulse responses in the baseline model with standard high-frequency identiﬁcation
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 6 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency Cholesky identiﬁcation. The high-frequency
+monetary policy indicator (a surprise in US term structure) is ordered ﬁrst.
+from the baseline model. The shadow federal funds rate decreases by 13 bps on impact. As
+with the high-frequency methods, this leads to a depreciation in the US dollar relative to the
+euro, a reduction in the VIX, an increase in the S&P 500 index, and inﬂows to global bond
+funds. Figure 29 in Appendix B demonstrates that the results also are robust for the further
+investment fund ﬂow categories.
+As a ﬁnal check, I analyse the results’ robustness in a sample that starts in June 2009 when
+the US recession resulting from the global ﬁnancial crisis was declared to be over. This reduces
+the sample size further to only 118 observations. Results can be found in Figures 30 and 31
+in Appendix B. The responses of the exchange rate and the S&P 500 index are now mostly
+insigniﬁcant. The VIX still decreases after the shock, but the initial positive spike now lasts
+six months. Nevertheless, all bond fund ﬂows maintain the correct signs and remain highly
+signiﬁcant. In line with the rebalancing to riskier assets, sovereign bond funds now also are
+found to experience outﬂows. However, equity fund ﬂows are estimated to be insigniﬁcant, and
+they even become negative in the case of small-cap ﬂows. This last somewhat odd ﬁnding is
+related to the negative insigniﬁcant response of the S&P equity index, which weighs down on
+ECB Working Paper Series No 2489 / November 2020
+30
+
+PAGE 32
+5 10 15 20
+-0.15
+-0.1
+-0.05
+Shadow federal funds rate
+5 10 15 20
+0
+0.2
+0.4
+0.6
+Global bond fund flows
+5 10 15 20
+-0.5
+0
+0.5
+USD/EUR exchange rate
+5 10 15 20
+-0.5
+0
+0.5
+VIX
+5 10 15 20
+-0.04
+-0.02
+0
+0.02
+US 10-year rate
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5 S&P 500
+Figure 17: Impulse responses in the baseline model with recursive identiﬁcation
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 1 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with Cholesky recursive identiﬁcation. The Wu and Xia (2016)
+shadow federal funds rate is used as the monetary policy indicator and is ordered ﬁrst.
+the response of the fund ﬂows.
+6 Conclusion
+This paper provides empirical evidence of substantial spillovers from changes in global liquidity
+induced by US monetary policy into the EA during the 2007–2019 period. The results show
+that a loosening in US monetary policy leads to inﬂows to the investment fund sector globally
+and within the EA, particularly in corporate bond markets. These inﬂows are particularly
+strong for riskier segments of ﬁnancial markets, and they also can be linked with improving
+ﬁnancing conditions and an increased securities issuance by EA non-ﬁnancial corporations. In
+this way, the results indicate that the investment fund sector emerged as a new additional channel
+through which ﬁnancial spillovers also can aﬀect the real economy. The ﬁndings demonstrate
+the growing importance of non-bank ﬁnancial intermediation over the past decade and hold
+potentially important policy implications for monetary and ﬁnancial stability.
+ECB Working Paper Series No 2489 / November 2020
+31
+
+PAGE 33
+References
+Acharya, V. V. and G. Plantin (2018). Monetary Easing, Investment and Financial Instability.
+Discussion Paper 13072, Centre for Economic Policy Research.
+Adrian, T. and B. Jones (2018). Shadow Banking and Market-Based Finance. Departmental
+Paper 18/14, International Monetary Fund.
+Ammer, J., S. Claessens, A. Tabova, and C. Wroblewski (2018). Searching for Yield Abroad:
+Risk-Taking Through Foreign Investment in U.S. Bonds. Discussion Paper 1224, Board of
+Governors of the Federal Reserve System.
+Ammer, J., S. Claessens, A. Tabova, and C. Wroblewski (2019). Home Country Interest Rates
+and International Investment in U.S. Bonds. Journal of International Money and Finance 95,
+212 – 227.
+Arias, J. E., J. F. Rubio-Ram´ ırez, and D. F. Waggoner (2018). Inference Based on Structural
+Vector Autoregressions Identiﬁed With Sign and Zero Restrictions: Theory and Applications.
+Econometrica 86 (2), 685 – 720.
+Baskaya, Y. S., J. di Giovanni, S. Kalemli- ¨Ozcan, J.-L. Peydro, and M. F. Ulu (2017). Capital
+Flows and the International Credit Channel. Journal of International Economics 108, S15 –
+S22.
+Becker, B. and V. Ivashina (2015). Reaching for Yield in the Bond Market. The Journal of
+Finance 70 (5), 1863 – 1902.
+Bekaert, G., M. Hoerova, and M. Lo Duca (2013). Risk, Uncertainty and Monetary Policy.
+Journal of Monetary Economics 60 (7), 771 – 788.
+Ben-Rephael, A., J. Choi, and I. Goldstein (2021). Mutual Fund Flows and Fluctuations in
+Credit and Business Cycles. Journal of Financial Economics 139 (1), 84 – 108.
+Bertaut, C., V. Bruno, and H. S. Shin (2021). Original Sin Redux. Mimeo.
+Borio, C. and H. Zhu (2012). Capital Regulation, Risk-taking and Monetary Policy: A Missing
+Link in the Transmission Mechanism? Journal of Financial Stability 8 (4), 236 – 251.
+Bruno, V. and H. S. Shin (2015a). Capital Flows and the Risk-taking Channel of Monetary
+Policy. Journal of Monetary Economics 71 , 119 – 132.
+Bruno, V. and H. S. Shin (2015b). Cross-Border Banking and Global Liquidity. The Review of
+Economic Studies 82 (2), 535 – 564.
+Bruno, V. and H. S. Shin (2017). Global Dollar Credit and Carry Trades: A Firm-Level Analysis.
+The Review of Financial Studies 30 (3), 703 – 749.
+ECB Working Paper Series No 2489 / November 2020
+32
+
+PAGE 34
+Bubeck, J., M. M. Habib, and S. Manganelli (2018). The Portfolio of Euro Area Fund Investors
+and ECB Monetary Policy Announcements. Journal of International Money and Finance 89,
+103 – 126.
+Caldara, D. and E. Herbst (2019). Monetary Policy, Real Activity, and Credit Spreads: Evidence
+from Bayesian Proxy SVARs.American Economic Journal: Macroeconomics 11 (1), 157 – 192.
+Choi, J. and M. Kronlund (2017, 11). Reaching for Yield in Corporate Bond Mutual Funds.
+The Review of Financial Studies 31 (5), 1930 – 1965.
+Cominetta, M., C. Lambert, A. Levels, A. Ryd´ en, and C. Weistroﬀer (2018). Macroprudential
+Liquidity Tools for Investment Funds - A Preliminary Discussion. Macroprudential Bulletin 6,
+European Central Bank.
+Converse, N., E. Levy-Yeyati, and T. Williams (2020). How ETFs Amplify the Global Financial
+Cycle in Emerging Markets. Discussion Paper 1268, Board of Governors of the Federal Reserve
+System.
+Davis, J. S., G. Valente, and E. van Wincoop (2021). Global Drivers of Gross and Net Capital
+Flows. Journal of International Economics 128 , 103397.
+Di Maggio, M. and M. Kacperczyk (2017). The Unintended Consequences of the Zero Lower
+Bound Policy. Journal of Financial Economics 123 (1), 59 – 80.
+Dieppe, A., R. Legrand, and B. van Roye (2016). The BEAR toolbox. Working Paper 1934,
+European Central Bank.
+European Central Bank (2020, November). Financial Stability Review.
+Feroli, M., A. Kashyap, K. Schoenholtz, and H. S. Shin (2014). Market Tantrums and Monetary
+Policy. Working Paper 101, Chicago Booth.
+Financial Stability Board (2020). Global Monitoring Report on Non-Bank Financial Intermedi-
+ation 2019.
+Fratzscher, M. (2012). Capital Flows, Push Versus Pull Factors and the Global Financial Crisis.
+Journal of International Economics 88 (2), 341 – 356.
+Fratzscher, M., M. Lo Duca, and R. Straub (2016). ECB Unconventional Monetary Policy:
+Market Impact and International Spillovers. IMF Economic Review 64 (1), 36 – 74.
+Fratzscher, M., M. Lo Duca, and R. Straub (2018). On the International Spillovers of US
+Quantitative Easing. The Economic Journal 128 (608), 330 – 377.
+Gerko, E. and H. Rey (2017). Monetary Policy in the Capitals of Capital. Journal of the
+European Economic Association 15 (4), 721 – 745.
+ECB Working Paper Series No 2489 / November 2020
+33
+
+PAGE 35
+Gertler, M. and P. Karadi (2015). Monetary Policy Surprises, Credit Costs, and Economic
+Activity. American Economic Journal: Macroeconomics 7 (1), 44 – 76.
+Gilchrist, S. and E. Zakrajˇ sek (2012). Credit Spreads and Business Cycle Fluctuations.American
+Economic Review 102 (4), 1692 – 1720.
+Goldstein, I., H. Jiang, and D. Ng (2017). Investor Flows and Fragility in Corporate Bond
+Funds. Journal of Financial Economics 126 (3), 592 – 613.
+G¨ urkaynak, R. S., B. Sack, and E. T. Swanson (2005). Do Actions Speak Louder Than Words?
+The Response of Asset Prices to Monetary Policy Actions and Statements. International
+Journal of Central Banking 1 (1), 55 – 93.
+Habib, M. M. and F. Venditti (2019). The Global Capital Flows Cycle: Structural Drivers and
+Transmission Channels. Working Paper 2280, European Central Bank.
+Hau, H. and S. Lai (2016). Asset Allocation and Monetary Policy: Evidence from the Eurozone.
+Journal of Financial Economics 120 (2), 309 – 329.
+Holm-Hadulla, F. and C. Th¨ urw¨ achter (2021). Heterogeneity in Corporate Debt Structures and
+the Transmission of Monetary Policy. European Economic Review 136 , 103743.
+International Monetary Fund (2016). Monetary Policy and the Rise of Nonbank Finance. Global
+Financial Stability Report, Chapter 2, pp. 49 – 80.
+Jaroci´ nski, M. and P. Karadi (2020). Deconstructing Monetary Policy Surprises—The Role of
+Information Shocks. American Economic Journal: Macroeconomics 12 (2), 1 – 43.
+Kalemli- ¨Ozcan, S. (2019). U.S. Monetary Policy and International Risk Spillovers. Working
+Paper 26297, National Bureau of Economic Research.
+Kroencke, T., M. Schmeling, and A. Schrimpf (2015). Global Asset Allocation Shifts. Working
+Paper 497, Bank for International Settlements.
+Litterman, R. (1986). Forecasting with Bayesian Vector Autoregressions - Five Years of Expe-
+rience. Journal of Business and Economic Statistics 4 (1), 25 – 38.
+Lo Duca, M., G. Nicoletti, and A. Vidal Mart´ ınez (2016). Global Corporate Bond Issuance:
+What Role for US Quantitative Easing? Journal of International Money and Finance 60 , 114
+– 150.
+Miao, Y. and M. Pant (2012). Coincident Indicators of Capital Flows. Working Paper 12/55,
+International Monetary Fund.
+Miranda-Agrippino, S. and H. Rey (2020a). The Global Financial Cycle After Lehman. AEA
+Papers and Proceedings 110, 523 – 528.
+ECB Working Paper Series No 2489 / November 2020
+34
+
+PAGE 36
+Miranda-Agrippino, S. and H. Rey (2020b). US Monetary Policy and the Global Financial
+Cycle. Review of Economic Studies 87 (6), 2754 – 2776.
+Nakamura, E. and J. Steinsson (2018). High-Frequency Identiﬁcation of Monetary Non-
+Neutrality: The Information Eﬀect. Quarterly Journal of Economics 133 (3), 1283 – 1330.
+Niepmann, F. and T. Schmidt-Eisenlohr (2018). Global Investors, the Dollar, and U.S. Credit
+Conditions. Discussion Paper 13237, Centre for Economic Policy Research.
+Portes, R., T. Beck, W. Buiter, K. Dominguez, D. Gros, C. Gross, S. Kalemli-Ozcan, T. Peltonen,
+and A. S´ anchez Serrano (2020). The Global Dimensions of Macroprudential Policy. Reports
+of Advisory Scientiﬁc Committee 10, European Systemic Risk Board.
+Rey, H. (2015). Dilemma not Trilemma: The Global Financial Cycle and Monetary Policy
+Independence. Working Paper 21162, National Bureau of Economic Research.
+Rey, H. (2016). International Channels of Transmission of Monetary Policy and the Mundellian
+Trilemma. IMF Economic Review 64 (1), 6 – 35.
+Scheubel, B., L. Stracca, and C. Tille (2019). The Global Financial Cycle and Capital Flow
+Episodes: a Wobbly Link? Working Paper 2337, European Central Bank.
+Shin, H. S. (2013, November). The Second Phase of Global Liquidity and its Impact on Emerging
+Economies. Remarks at the 2013 Federal Reserve Bank of San Francisco Asia Economic Policy
+Conference.
+Timmer, Y. (2018). Cyclical Investment Behavior Across Financial Institutions. Journal of
+Financial Economics 129 (2), 268 – 286.
+Wu, J. C. and F. D. Xia (2016). Measuring the Macroeconomic Impact of Monetary Policy at
+the Zero Lower Bound. Journal of Money, Credit and Banking 48 (2-3), 253 – 291.
+ECB Working Paper Series No 2489 / November 2020
+35
+
+PAGE 37
+Appendix
+A Data
+A.1 Data sources and description
+This appendix gives a brief description of all variables used in the analysis together with their
+source and the transformation applied.
+• Investment fund variables: Monthly nominal net portfolio ﬂows of investment funds calcu-
+lated as cumulative percentage ﬂows of lagged assets under management relative to sample
+starting point in April 2007.
+Asset classes used:
+– All bond funds
+– Corporate / sovereign bond funds
+– High-yield bond funds
+– Money market funds
+– Mixed funds, which consists of all multi asset funds
+– All equity funds
+– Small cap equity, which includes equities of ﬁrms with a market capitalisation between
+USD 300 million and 2 billion
+Investment focus-domicile combinations:
+– Global investment focus, global domicile
+– Regional investment focus “Western Europe”, domiciled in the euro area (EA-12)
+– Regional investment focus “Western Europe”, domiciled outside the euro area (EA-
+12)
+Source: EPFR Global
+• Debt securities issuance: Notional stocks of all securities issued by euro area non-ﬁnancial
+corporations. Source: ECB Securities Statistics; data set mnemonic [SEC]. Transformed
+to logs.
+• Equity issuance: Notional stocks of all equity shares issued by euro area non-ﬁnancial
+corporations. Source: ECB Securities Statistics; data set mnemonic [SEC]. Transformed
+to logs.
+• DE government bond rates: German 1, 3, 10-year government benchmark bond yield.
+Source: ECB Financial Market Data; data set mnemonic [FM]. No further transformations.
+ECB Working Paper Series No 2489 / November 2020
+36
+
+PAGE 38
+• US Treasury rates: 1, 10-year treasury constant maturity rate. Source: FRB of St. Louis
+FRED; mnemonic [GS]. No further transformations.
+• Shadow federal funds rate. Source: Wu and Xia (2016). No further transformations.
+• US Dollar/Euro exchange rate: ECB reference exchange rate, US dollar/Euro, 2:15 pm
+(C.E.T.). Source: ECB Exchange Rates; data set mnemonic [EXR]. Transformed to logs.
+• Eurostoxx stock index: Dow Jones Euro Stoxx 50 Index - Historical close. Source: ECB
+Financial Market Data; data set mnemonic [FM]. Transformed to annual growth rates.
+• S&P 500 stock index: Standard and Poors 500 Index - Historical close. Source: ECB
+Financial Market Data; mnemonic [FM]. Transformed to annual growth rates.
+• VIX volatility index. Source: Datastream; mnemonic [CBOEVIX]. No further transfor-
+mations.
+• VSTOXX volatility index. Source: Datastream; mnemonic [VSTOXXI]. No further trans-
+formations.
+• Global risk factor. Source: Habib and Venditti (2019). No further transformations.
+• Excess bond premium: Financial friction index for the United States. Source: Gilchrist
+and Zakrajˇ sek (2012). No further transformations.
+• EA BBB-spread: Spread between iBoxx Euro BBB-rated non-ﬁnancial corporates yield
+index; residual maturity 3-5 years; and 3-year German government benchmark bond yield.
+Source: ECB Financial Market Data; data set mnemonic [FM]. No further transformations.
+• European HY bond index: Bloomberg Barclays Pan-European High Yield (Euro) TR Index
+Value Unhedged EUR. Source: Bloomberg; mnemonic [LP02TREU:IND]. Transformed to
+logs.
+• US HY bond index: Bloomberg Barclays US Corporate High Yield Total Return Index
+Value Unhedged USD. Source: Bloomberg; mnemonic [LF98TRUU:IND]. Transformed to
+logs.
+• EA industrial production: Industrial production for the euro area; total industry (exclud-
+ing construction) - NACE Rev2; monthly index. Source: ECB Short-Term Statistics; data
+set mnemonic [STS]. Transformed to annual growth rates.
+• US industrial production: Industrial production index; monthly index 2012=100. Source:
+FRB of St. Louis FRED; mnemonic [INDPRO]. Transformed to annual growth rates.
+• EA inﬂation: HICP - overall index, monthly index. Source: ECB Indices of Consumer
+Prices; mnemonic [ICP]. Transformed to annual growth rates.
+ECB Working Paper Series No 2489 / November 2020
+37
+
+PAGE 39
+• US inﬂation: Consumer Price Index for All Urban Consumers: All Items; monthly index
+1982-1984=100. Source: FRB of St. Louis FRED; mnemonic [CPIAUCSL]. Transformed
+to annual growth rates.
+• US bank lending: Commercial and Industrial Loans, All Commercial Banks; outstand-
+ing amounts in US Dollar. Source: FRB of St. Louis FRED; mnemonic [BUSLOANS].
+Transformed to annual growth rates.
+• EA bank lending: Loans reported by monetary ﬁnancial institutions excluding ESCB in
+the euro area; outstanding amounts in EUR. Source: ECB Balance Sheet Item Statistics;
+data set mnemonic [BSI]. Transformed to annual growth rates.
+High-frequency data used to construct monetary policy surprise measures:
+• 30-day federal funds rate futures: continuous contract for the front month and for delivery
+in 2, 3, 4 months; daily frequency; basis points. Source: Bloomberg; mnemonic [FF
+Comdty].
+• Eurodollar futures: continuous contract for delivery in 6, 9, 12 months; daily frequency;
+basis points. Source: Bloomberg; mnemonic [ED Comdty].
+• US Treasury rates: 2, 5, 10-year treasury constant maturity rate; daily frequency. Source:
+FRB of St. Louis FRED; mnemonic [DGS].
+• S&P 500 equity stock index: daily frequency. Source: Bloomberg; mnemonic [SPX:IND].
+ECB Working Paper Series No 2489 / November 2020
+38
+
+PAGE 40
+A.2 Additional overview charts
+Figure 18: Cumulative global investment fund ﬂows
+Notes: Cumulative nominal monthly global ﬂows into diﬀerent investment fund classes relative to April 2007.
+Axis unit: USD billion.
+Figure 19: Cumulative global bond investment fund ﬂows
+Notes: Cumulative nominal monthly global ﬂows into diﬀerent bond fund classes relative to April 2007. Axis
+unit: USD billion.
+ECB Working Paper Series No 2489 / November 2020
+39
+
+PAGE 41
+Figure 20: Cumulative percentage global investment fund ﬂows
+Notes: Cumulative monthly global ﬂows into diﬀerent investment fund classes as a percentage of lagged assets
+under management relative to April 2007. Construction follows methodology by EPFR Global. Variables as
+used in BVAR models in Section 4. Axis unit: percentages.
+Figure 21: Cumulative percentage global bond investment fund ﬂows
+Notes: Cumulative monthly global ﬂows into diﬀerent bond fund classes as a percentage of lagged assets under
+management relative to April 2007. Construction follows methodology by EPFR Global. Variables as used in
+BVAR models in Section 4. Axis unit: percentages.
+ECB Working Paper Series No 2489 / November 2020
+40
+
+PAGE 42
+Figure 22: Total assets under management of euro area investment funds
+Notes: Left axis unit: EUR trillion. Right axis unit: percentages. Black diamond line shows percentage ratio
+of total assets of investment funds relative to banks in the euro area.
+Figure 23: Investor base of bonds issued by euro area non-ﬁnancial corporations
+Notes: Axis unit: EUR billion. Data is shown from the end of 2019.
+Data source: ECB Securities Holding Statistics
+ECB Working Paper Series No 2489 / November 2020
+41
+
+PAGE 43
+A.3 Monetary policy shock identiﬁcation
+−40 −20 0 20 40 60
+Surprise in S&P 500
+−20 −10 0 10 20
+Surprise in 3m FFR future
+Figure 24: 3-months federal funds rate future and stock price surprises at FOMC announcements
+Notes: Horizontal axis in basis points, vertical axis in index points. Each dot represents one FOMC announce-
+ment between April 2007 and March 2019.
+−40 −20 0 20 40 60
+Surprise in S&P 500
+−20 −10 0 10 20
+Surprise in target factor
+Figure 25: Target factor and stock price surprises at FOMC announcements
+Notes: Horizontal axis in basis points, vertical axis in index points. Each dot represents one FOMC announce-
+ment between April 2007 and March 2019.
+ECB Working Paper Series No 2489 / November 2020
+42
+
+PAGE 44
+Table 3: Identifying restrictions in VAR model under Jaroci´ nski-Karadi method
+Shock type
+Monetary policy CB information other
+Variables (negative co-movement) (positive co-movement)
+High-frequency:
+Interest rate measure + + 0
+Stock index - + 0
+Low-frequency:
+Investment fund ﬂows etc. • • •
+Notes: The table shows restrictions on the contemporaneous responses of variables to shocks to implement the identiﬁcation
+method by Jaroci´ nski and Karadi (2020). +, -, and 0 denote sign and zero restrictions, while• denotes unrestricted responses.
+ECB Working Paper Series No 2489 / November 2020
+43
+
+PAGE 45
+B Additional results
+5 10 15 20
+-0.2
+-0.1
+0
+0.1
+0.2
+Bond fund flows (Global to EA)
+5 10 15 20
+-0.5
+0
+0.5
+USD/EUR exchange rate
+5 10 15 20
+-1
+-0.5
+0
+0.5
+1
+VIX
+5 10 15 20
+-0.1
+-0.05
+0
+US 10-year rate
+5 10 15 20
+-0.5
+0
+0.5
+1
+1.5
+S&P 500
+5 10 15 20
+-6
+-4
+-2
+0
+Surprise in US term structure
+5 10 15 20
+0
+5
+10
+15
+Surprise in S&P 500
+Figure 26: Impulse responses in baseline model for global-to-euro-area investment fund ﬂows
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation.
+ECB Working Paper Series No 2489 / November 2020
+44
+
+PAGE 46
+5 10 15 20
+0
+0.2
+0.4
+Bond fund flows (EA to EA)
+5 10 15 20
+-0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+BBB bond spread
+5 10 15 20
+-1
+-0.5
+0
+0.5
+1
+VIX
+5 10 15 20
+-0.1
+-0.05
+0
+US 10-year rate
+5 10 15 20
+-1
+-0.5
+0
+0.5
+1
+S&P 500
+5 10 15 20
+-6
+-4
+-2
+0
+Surprise in US term structure
+5 10 15 20
+0
+5
+10
+15
+Surprise in S&P 500
+Figure 27: Impulse responses in baseline model for euro-area-to-euro-area investment fund ﬂows
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation.
+ECB Working Paper Series No 2489 / November 2020
+45
+
+PAGE 47
+5 10 15 20
+0
+0.2
+0.4
+0.6
+0.8
+Bond fund flows
+5 10 15 20
+0
+0.5
+1
+Corporate bond fund flows
+5 10 15 20
+0
+0.5
+1
+High-yield bond fund flows
+5 10 15 20
+0
+0.5
+1
+Sovereign bond fund flows
+5 10 15 20
+0
+0.2
+0.4
+Mixed fund flows
+5 10 15 20
+-1
+-0.5
+0
+Money market fund flows
+5 10 15 20
+-0.05
+0
+0.05
+0.1
+Equity fund flows
+5 10 15 20
+-0.1
+0
+0.1
+Small-cap equity fund flows
+Figure 28: Impulse responses of global investment fund ﬂows with standard high-frequency
+identiﬁcation
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 6 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency Cholesky identiﬁcation. The high-frequency
+monetary policy indicator (a surprise in US term structure) is ordered ﬁrst. Each variable is added separately
+to the baseline model in Figure 16.
+ECB Working Paper Series No 2489 / November 2020
+46
+
+PAGE 48
+5 10 15 20
+0
+0.2
+0.4
+0.6
+Bond fund flows
+5 10 15 20
+0
+0.5
+1
+Corporate bond fund flows
+5 10 15 20
+0.2
+0.4
+0.6
+0.8
+1
+High-yield bond fund flows
+5 10 15 20
+0
+0.5
+1
+Sovereign bond fund flows
+5 10 15 20
+0
+0.2
+0.4
+Mixed fund flows
+5 10 15 20
+-1
+-0.5
+0
+Money market fund flows
+5 10 15 20
+-0.05
+0
+0.05
+0.1
+0.15
+Equity fund flows
+5 10 15 20
+-0.05
+0
+0.05
+0.1
+Small-cap equity fund flows
+Figure 29: Impulse responses of global investment fund ﬂows with recursive identiﬁcation
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 1 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with Cholesky recursive identiﬁcation. The Wu and Xia (2016)
+shadow federal funds rate is used as the monetary policy indicator and is ordered ﬁrst. Each variable is added
+separately to the baseline model in Figure 17.
+ECB Working Paper Series No 2489 / November 2020
+47
+
+PAGE 49
+5 10 15 20
+0
+0.2
+0.4
+Global bond fund flows
+5 10 15 20
+-0.4
+-0.2
+0
+0.2
+0.4
+USD/EUR exchange rate
+5 10 15 20
+-0.5
+0
+0.5
+VIX
+5 10 15 20
+-0.1
+-0.05
+0
+US 10-year rate
+5 10 15 20
+-1
+-0.5
+0
+0.5
+1
+S&P 500
+5 10 15 20
+-6
+-4
+-2
+0
+Surprise in US term structure
+5 10 15 20
+0
+5
+10
+Surprise in S&P 500
+Figure 30: Impulse responses in baseline model using sample without global ﬁnancial crisis
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. The sample
+starts in June 2009 when the US recession resulting from the global ﬁnancial crisis was declared to be over.
+ECB Working Paper Series No 2489 / November 2020
+48
+
+PAGE 50
+5 10 15 20
+0
+0.2
+0.4
+Bond fund flows
+5 10 15 20
+0
+0.5
+1
+Corporate bond fund flows
+5 10 15 20
+0
+0.5
+1
+High-yield bond fund flows
+5 10 15 20
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+Sovereign bond fund flows
+5 10 15 20
+-0.1
+0
+0.1
+0.2
+0.3
+Mixed fund flows
+5 10 15 20
+-0.2
+0
+0.2
+Money market fund flows
+5 10 15 20
+-0.05
+0
+0.05
+Equity fund flows
+5 10 15 20
+-0.2
+-0.1
+0
+Small-cap equity fund flows
+Figure 31: Impulse responses of global investment fund ﬂows using sample without global ﬁnan-
+cial crisis
+Notes: Impulse responses to an expansionary US monetary policy shock inducing a 5 bps decrease in the
+10-year US Treasury rate (blue lines) with 68% (blue-shaded areas) and 90% (grey-shaded areas) credibility
+intervals obtained from a structural BVAR with high-frequency sign-restriction identiﬁcation. Each variable
+is added separately to the baseline model in Figure 30. The sample starts in June 2009 when the US recession
+resulting from the global ﬁnancial crisis was declared to be over.
+ECB Working Paper Series No 2489 / November 2020
+49
+
+PAGE 51
+5 10 15 20
+0.6
+0.8
+1
+1.2
+1.4
+Global bond fund flows
+5 10 15 20
+-0.5
+0
+0.5
+USD/EUR exchange rate
+5 10 15 20
+-1
+-0.5
+0
+0.5
+VIX
+5 10 15 20
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02
+US 10-year rate
+5 10 15 20
+0
+1
+2
+3
+S&P 500
+Figure 32: Impulse responses to a global bond fund ﬂow shock in the baseline model
+Notes: Impulse responses to an inﬂow shock to global bond funds (blue lines) with 68% (blue-shaded areas)
+and 90% (grey-shaded areas) credibility intervals obtained from a structural BVAR with Cholesky recursive
+identiﬁcation. Global bond fund ﬂows are ordered ﬁrst.
+ECB Working Paper Series No 2489 / November 2020
+50
+
+PAGE 52
+Acknowledgements 
+I wish to thank Lorenzo Cappiello, Sujit Kapadia, Benedetta Bianchi (discussa nt), Katharina Cera, Marek Jaroci ński, Daniel Kapp, 
+Angela Maddaloni, Giulio Nicoletti, Katharina Plessen -Matyas, Björn van Roye, Fabrizio Venditti, Carolina Villegas-Sanchez, Christian 
+Weistroﬀer, and an anonymous referee, as well as conference and sem inar participants at the European Central Bank, the European 
+Economic Association Annual Congress 2020, the German Economic Association (VfS) Annual Congress 2020, the ESCB IRC Expert 
+Network on Financial Flows 2019, and the Econometric Society European W inter Meeting 2019 for helpful comments and suggestions.  
+The views expressed in this paper are those of the author only and do not necessarily reﬂect the views of the European Centra l Bank or 
+the Eurosystem. 
+Christoph Kaufmann 
+European Central Bank, Frankfurt am Main, Germany ; email: christoph.kaufmann@ecb.europa.eu 
+© European Central Bank, 2022 
+Postal address 60640 Frankfurt am Main, Germany  
+Telephone +49 69 1344 0 
+Website www.ecb.europa.eu 
+All rights reserved. Any reproduction, publication and reprint in the form of a different publication, whether printed or pro duced 
+electronically, in whole or in part, is permitted only with the explicit written authorisation of the ECB or the authors.  
+This paper can be downloaded without charge from www.ecb.europa.eu, from the Social Science Research Network electronic library  or 
+from RePEc: Research Papers in Economics . Information on all of the papers published in the ECB Working Paper Series can be found 
+on the ECB’s website. 
+PDF ISBN 978-92-899-4406-9 ISSN 1725-2806 doi:10.2866/493883 QB-AR-20-141-EN-N 

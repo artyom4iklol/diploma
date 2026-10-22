@@ -1,0 +1,158 @@
+Running build_vintages.py
+{
+  "origins": 59,
+  "complete_origin_predictors": 59,
+  "evaluated_pairs": 113,
+  "GDP_legacy_vintage_crosschecks": 16,
+  "ESI_legacy_vintage_crosschecks": 16,
+  "API_legacy_max_difference": 0.0,
+  "public_dates_pass": true,
+  "future_mutation": [
+    {
+      "origin": "2018Q4",
+      "series": "gdp",
+      "future_event_rows_mutated": 5980,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2018Q4",
+      "series": "esi",
+      "future_event_rows_mutated": 8368,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2020Q1",
+      "series": "gdp",
+      "future_event_rows_mutated": 5100,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2020Q1",
+      "series": "esi",
+      "future_event_rows_mutated": 7701,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2023Q1",
+      "series": "gdp",
+      "future_event_rows_mutated": 2746,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2023Q1",
+      "series": "esi",
+      "future_event_rows_mutated": 6016,
+      "max_input_difference": 0.0
+    }
+  ],
+  "repairs": "published rounded values; retained prior public ESI history during API deletion; no imputed GDP levels",
+  "geography": "historical moving policy concept; retained older ESI definitions during archive gap",
+  "important_limit": "Conservative implementable archived-information experiment, not exact reconstruction of all market-available information or every internal vintage"
+}
+Running fit_pilot.py
+expanding complete
+rolling52 complete
+no_covid_training complete
+  variant     information  h       model  n  mean_loss  mean_loss_latest  hits  hit_rate  hit_rate_latest  min_n_train  max_n_train  ratio_HIST  ratio_AR  ratio_AR_ESI
+expanding historical_NFCI  1          AR 58   1.959800          1.835211     4  0.068966         0.086207           62          119    1.448166  1.000000      1.088265
+expanding historical_NFCI  1      AR_ESI 58   1.800848          1.678961     4  0.068966         0.086207           62          119    1.330711  0.918894      1.000000
+expanding historical_NFCI  1 AR_ESI_NFCI 58   1.634342          1.503116    16  0.275862         0.241379           62          119    1.207674  0.833933      0.907540
+expanding historical_NFCI  1        HIST 58   1.353298          1.311366     8  0.137931         0.137931           62          119    1.000000  0.690528      0.751478
+expanding historical_NFCI  4          AR 55   1.024468          1.000757     8  0.145455         0.145455           59          113    1.370864  1.000000      0.682699
+expanding historical_NFCI  4      AR_ESI 55   1.500615          1.462975     9  0.163636         0.163636           59          113    2.008006  1.464774      1.000000
+expanding historical_NFCI  4 AR_ESI_NFCI 55   1.151828          0.963633    26  0.472727         0.436364           59          113    1.541287  1.124318      0.767571
+expanding historical_NFCI  4        HIST 55   0.747316          0.727520    11  0.200000         0.163636           59          113    1.000000  0.729467      0.498007
+  variant  h         comparison  n  L  difference       se         z  p_two_sided        lo       hi                                                                                                           method  holm3_primary_h1
+rolling52  1 AR_ESI_NFCI/AR_ESI 58  4   -0.667221 0.657536 -1.014729     0.310235 -1.955991 0.621549 GW unconditional constant instrument; fixed rolling52; asymptotic Bartlett HAC; instability and revisions caveat          0.795179
+rolling52  1   AR_ESI_NFCI/HIST 58  4    0.476609 0.427639  1.114512     0.265060 -0.361564 1.314781 GW unconditional constant instrument; fixed rolling52; asymptotic Bartlett HAC; instability and revisions caveat          0.795179
+rolling52  1     AR_ESI_NFCI/AR 58  4   -0.852848 0.831062 -1.026215     0.304790 -2.481728 0.776033 GW unconditional constant instrument; fixed rolling52; asymptotic Bartlett HAC; instability and revisions caveat          0.795179
+{
+  "forecasts": 1695,
+  "historical_forecasts": 1356,
+  "NFCI_counterfactual_forecasts": 339,
+  "independent_LP_solver_checks": [
+    {
+      "h": 1,
+      "origin": "2011Q2",
+      "objective_difference": 1.7763568394002505e-15,
+      "forecast_difference": 2.220446049250313e-16
+    },
+    {
+      "h": 1,
+      "origin": "2020Q4",
+      "objective_difference": 0.0,
+      "forecast_difference": -1.4210854715202004e-14
+    },
+    {
+      "h": 1,
+      "origin": "2023Q1",
+      "objective_difference": -1.4210854715202004e-14,
+      "forecast_difference": 1.1102230246251565e-15
+    },
+    {
+      "h": 1,
+      "origin": "2025Q3",
+      "objective_difference": 0.0,
+      "forecast_difference": 1.1102230246251565e-16
+    },
+    {
+      "h": 4,
+      "origin": "2011Q2",
+      "objective_difference": -3.552713678800501e-15,
+      "forecast_difference": 2.220446049250313e-16
+    },
+    {
+      "h": 4,
+      "origin": "2020Q4",
+      "objective_difference": 7.105427357601002e-15,
+      "forecast_difference": -1.4210854715202004e-14
+    },
+    {
+      "h": 4,
+      "origin": "2023Q1",
+      "objective_difference": -7.105427357601002e-15,
+      "forecast_difference": 3.9968028886505635e-15
+    }
+  ],
+  "current_future_label_mutation": [
+    {
+      "h": 1,
+      "prediction_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prediction_difference": 0.0
+    }
+  ],
+  "all_models_common_origins": true,
+  "all_models_common_training_rows": true,
+  "all_designs_full_rank": true,
+  "minimum_training_rows": 52,
+  "maximum_condition": 4.104617861211316,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "no_unconditional_superiority_claim_from_expanding": true
+}
+Running final_diagnostics.py
+{
+  "rounded_GDP_scenarios": 144,
+  "maximum_full_sample_mean_loss_change": 5.0595961661237254e-05,
+  "all_public_calendar_checks": true,
+  "all_training_cutoff_checks": true,
+  "all_target_maturity_checks": true,
+  "all_forecasts_finite": true,
+  "source_tables_visually_checked": [
+    "eb202204 table2.1 p153 and table2.6 p157",
+    "eb202302 table2.6 p126",
+    "eb202304 table2.6 p125",
+    "eb202506 table2.6 p120"
+  ],
+  "primary_decision": "GO: write diploma and an applied replication/extension article; no stable NFCI superiority established; no publication guarantee"
+}
+Running finish_calendar.py
+59 GDP regular release dates and 118 actual ESI releases verified before forecasts
+All numerical checks passed. Results are in revision18/results/.

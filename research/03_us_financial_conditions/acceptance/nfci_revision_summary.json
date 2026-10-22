@@ -1,0 +1,9 @@
+{
+  "n": 104,
+  "start": "2019-01-04",
+  "end": "2020-12-25",
+  "mean_abs_revision": 0.03613461538461538,
+  "max_abs_revision": 0.10266999999999998,
+  "correlation": 0.9904135151164326,
+  "note": "one vintage and 2019-2020 observations only; not model real-time backtest; units index points"
+}

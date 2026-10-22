@@ -1,0 +1,20 @@
+{
+  "stage": 14,
+  "date": "2026-10-04",
+  "completed": [
+    "question_and_contribution",
+    "rolling_comparison_and_uncertainty",
+    "extrapolation_decomposition",
+    "vintage_feasibility_and_limits",
+    "interpretation_recommendations_structure"
+  ],
+  "not_done": [
+    "full_real_time_backtest",
+    "causal_identification",
+    "conditional_coverage_wild_bootstrap",
+    "thesis_chapters"
+  ],
+  "decision": "conditional_accept_applied_comparative_topic",
+  "next": "supervisor discussion of this precise scope; do not write chapters until user decides",
+  "base_archive_version": 2
+}

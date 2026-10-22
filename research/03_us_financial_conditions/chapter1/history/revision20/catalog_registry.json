@@ -1,0 +1,1580 @@
+[
+  {
+    "id": "S01",
+    "author": "Adrian, Tobias and Boyarchenko, Nina and Giannone, Domenico",
+    "doi": "10.1257/aer.20161923",
+    "title": "Vulnerable Growth",
+    "journal": "American Economic Review",
+    "year": "2019",
+    "url": "https://doi.org/10.1257/aer.20161923",
+    "relevance": "Исходная рамка GaR и связь финансовых условий с нижним хвостом роста. Основа постановки задачи; не доказательство переносимости результата на еврозону.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr794.pdf",
+      "version": "NY Fed Staff Report 794",
+      "retrieved_at": "2026-10-01",
+      "status": "downloaded",
+      "file": "papers/S01.pdf",
+      "pages": 56,
+      "sha256": "e8592a9647c6580f80033cec0e50b1a12ebd1b2589088bc0465931c191ee6bd2"
+    },
+    "consensus": {
+      "id": "101dddc9d35b53c08f870ed2f1604d6c",
+      "title": "Federal Reserve Bank of New York Staff Reports Vulnerable Growth",
+      "text": "We study the conditional distribution of GDP growth as a function of economic and financial conditions. Deteriorating financial conditions are associated with an increase in the conditional volatility and a decline in the conditional mean of GDP growth, leading the lower quantiles of GDP growth to vary with financial conditions and the upper quantiles to be stable over time. Upside risks to GDP growth are low in most periods while downside risks increase as financial conditions become tighter. We argue that amplification mechanisms in the financial sector generate the observed growth vulnerability dynamics. (JEL C53, E23, E27, E32, E44)",
+      "url": "https://consensus.app/papers/federal-reserve-bank-of-new-york-staff-reports-vulnerable-adrian-boyarchenko/101dddc9d35b53c08f870ed2f1604d6c/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Tobias Adrian, Nina Boyarchenko, Domenico Giannone",
+        "publish_year": "2016",
+        "citation_count": "539"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s01",
+    "chapter1_reference": "Adrian T., Boyarchenko N., Giannone D. Vulnerable Growth. American Economic Review. 2019. Vol. 109. No. 4. P. 1263–1289. DOI: 10.1257/aer.20161923.",
+    "chapter1_review_note": "Базовая связь финансовых условий с нижними квантилями роста США. Из неё не следует автоматическая переносимость на еврозону."
+  },
+  {
+    "id": "S02",
+    "author": "Chavleishvili, Sulkhan and Kremer, Manfred",
+    "doi": "10.2139/ssrn.4551569",
+    "title": "Measuring Systemic Financial Stress and Its Risks for Growth",
+    "year": "2023",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2842~9a4cb3f225.en.pdf",
+    "relevance": "Связывает системный финансовый стресс с рисками роста. Ближайшая работа для выбора новых CISS и интерпретации стрессовых состояний; подробное сопоставление спецификаций обязательно.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite",
+      "Undermind"
+    ],
+    "priority": "основная",
+    "journal": "ECB Working Paper 2842",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2842~9a4cb3f225.en.pdf",
+      "version": "ECB Working Paper 2842, 2023",
+      "retrieved_at": "2026-10-01",
+      "status": "downloaded",
+      "file": "papers/S02.pdf",
+      "pages": 49,
+      "sha256": "8fea4b4ddb88ba88daf1647363aec2a58b86826d03167ba49f0a9237597891d9"
+    },
+    "consensus": {
+      "id": "4f6286bae4db598087140e39519234f6",
+      "title": "Measuring Systemic Financial Stress and its Risks for Growth",
+      "text": "This paper proposes a general statistical framework for systemic financial stress indices which measure the severity of financial crises on a continuous scale. Several index designs from the financial stress and systemic risk literature can be represented as special cases. We introduce an enhanced daily variant of the CISS (composite indicator of systemic stress) for the euro area and the US. The CISS aggregates a representative set of stress indicators using their time-varying cross-correlations as systemic risk weights, computationally similar to how portfolio risk is computed from the risk characteristics of individual assets. A boot-strap algorithm provides test statistics. Single-equation and system quantile growth-at-risk regressions show that the CISS has stronger effects in the lower tails of the growth distribution. Simulations based on a quantile VAR suggest that systemic stress is a major driver of the Great Recession, while its contribution to the COVID-19 crisis appears to be small.",
+      "url": "https://consensus.app/papers/measuring-systemic-financial-stress-and-its-risks-for-chavleishvili-kremer/4f6286bae4db598087140e39519234f6/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Sulkhan Chavleishvili, Manfred K. Kremer",
+        "publish_year": "2023",
+        "journal": "SSRN Electronic Journal",
+        "citation_count": "14"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s02",
+    "chapter1_reference": "Chavleishvili S., Kremer M. Measuring Systemic Financial Stress and Its Risks for Growth. ECB Working Paper No. 2842. 2023.",
+    "chapter1_review_note": "Дневной CISS и учёт системности стресса. Структурные симуляции авторов не приписываются нашей одноуравневой модели."
+  },
+  {
+    "id": "S03",
+    "author": "Clark, Todd E. and Huber, Florian and Koop, Gary M. and Marcellino, Massimiliano Giuseppe and Pfarrhofer, Michael",
+    "doi": "10.1080/07350015.2024.2310020",
+    "title": "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model",
+    "journal": "Journal of Business and Economic Statistics",
+    "year": "2024",
+    "url": "https://doi.org/10.1080/07350015.2024.2310020",
+    "relevance": "Многострановая нелинейная квантильная факторная модель. Показывает альтернативу простой линейной спецификации; воспроизведение столь сложной модели не входит в основной диплом.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "inherited: stage06 provenance",
+      "version": "Author preprint dated 8 October 2021; inherited from stage06, original download URL not retained",
+      "retrieved_at": "2026-10-01",
+      "status": "downloaded",
+      "file": "papers/S03.pdf",
+      "pages": 27,
+      "sha256": "03c6ea4fce61767d771ad98672f303aa0a8ce4012d0a9f389b00f53ef33dbad2"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s03",
+    "chapter1_reference": "Clark T. E., Huber F., Koop G., Marcellino M., Pfarrhofer M. Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model. Journal of Business & Economic Statistics. 2024. Vol. 42. No. 4. P. 1302–1317. DOI: 10.1080/07350015.2024.2310020.",
+    "chapter1_review_note": "Международная информация и нелинейная квантильная факторная модель; описаны возможности расширения, без заявления о её реализации."
+  },
+  {
+    "id": "S04",
+    "author": "Plagborg‐Møller, Mikkel and Reichlin, Lucrezia and Ricco, G. and Hasenzagl, Thomas",
+    "doi": "10.1353/eca.2020.0002",
+    "title": "When Is Growth at Risk?",
+    "journal": "Brookings Papers on Economic Activity",
+    "year": "2020",
+    "url": "https://doi.org/10.1353/eca.2020.0002",
+    "relevance": "Критическая проверка предсказуемости рисков роста. Нужна для разделения зависимости внутри выборки и полезности вне выборки.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://www.mikkelpm.com/files/gar.pdf",
+      "version": "Author manuscript, July 2020",
+      "retrieved_at": "2026-10-01",
+      "status": "downloaded",
+      "file": "papers/S04.pdf",
+      "pages": 45,
+      "sha256": "c91a0504cbeda3de65a121408e1a1b3ddbd86dd7f043d729386a2e44571f18f5"
+    },
+    "consensus": {
+      "id": "d7fa9a4e6109594395af19ad0a77adf5",
+      "title": "When Is Growth at Risk?",
+      "text": "ABSTRACT:This paper empirically evaluates the potentially nonlinear nexus between financial indicators and the distribution of future GDP growth, using a rich set of macroeconomic and financial variables covering thirteen advanced economies. We evaluate the out-of-sample forecast performance of financial variables for GDP growth, including a fully real-time exercise based on a flexible nonparametric model. We also use a parametric model to estimate the moments of the time-varying distribution of GDP and evaluate their in-sample estimation uncertainty. Our overall conclusion is pessimistic: moments other than the conditional mean are poorly estimated, and no predictors we consider provide robust and precise advance warnings of tail risks or indeed about any features of the GDP growth distribution other than the mean. In particular, financial variables contribute little to such distributional forecasts, beyond the information contained in real indicators.",
+      "url": "https://consensus.app/papers/when-is-growth-at-risk-plagborg-møller-reichlin/d7fa9a4e6109594395af19ad0a77adf5/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Mikkel Plagborg-Møller, L. Reichlin, G. Ricco, T. Hasenzagl",
+        "publish_year": "2020",
+        "journal": "Brookings Papers on Economic Activity",
+        "volume": "2020",
+        "pages": "167 - 229",
+        "citation_count": "109"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s04",
+    "chapter1_reference": "Plagborg-Møller M., Reichlin L., Ricco G., Hasenzagl T. When Is Growth at Risk? Brookings Papers on Economic Activity. 2020. Spring. P. 167–229. DOI: 10.1353/eca.2020.0002.",
+    "chapter1_review_note": "Слабая и неточная дополнительная предсказуемость хвостов после учёта реальных индикаторов; аргумент за вневыборочные ориентиры."
+  },
+  {
+    "id": "S05",
+    "author": "Brownlees, Christian T. and Souza, André B.M.",
+    "doi": "10.1016/j.jmoneco.2020.11.003",
+    "title": "Backtesting Global Growth-at-Risk",
+    "journal": "Journal of Monetary Economics",
+    "year": "2021",
+    "url": "https://doi.org/10.1016/j.jmoneco.2020.11.003",
+    "relevance": "Непосредственно посвящена вневыборочной проверке GaR. Определяет роль простых эталонов и проверки качества хвостовых прогнозов.",
+    "read_status": "Проверены библиография, официальная аннотация и доступные фрагменты; полный текст не получен",
+    "retrieved_via": [
+      "Scite",
+      "Undermind",
+      "Consensus fetch 2026-09-28"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3721956_code2684528.pdf?abstractid=3461214",
+      "version": "SSRN working paper",
+      "retrieved_at": "2026-10-01",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "consensus": {
+      "id": "fc83bebaaa775271827d084786805a52",
+      "title": "Backtesting global Growth-at-Risk",
+      "text": "Abstract We conduct an out-of-sample backtesting exercise of Growth-at-Risk (GaR) predictions for 24 OECD countries. We consider forecasts constructed from quantile regression and GARCH models. The quantile regression forecasts are based on a set of recently proposed measures of downside risks to GDP, including the national financial conditions index. The backtesting results show that quantile regression and GARCH forecasts have a similar performance. If anything, our evidence suggests that standard volatility models such as the GARCH(1,1) are more accurate.",
+      "url": "https://consensus.app/papers/backtesting-global-growthatrisk-brownlees-souza/fc83bebaaa775271827d084786805a52/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Christian T. Brownlees, André B.M. Souza",
+        "publish_year": "2020",
+        "journal": "Journal of Monetary Economics",
+        "citation_count": "83"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s05",
+    "chapter1_reference": "Brownlees C., Souza A. B. Backtesting global Growth-at-Risk. Journal of Monetary Economics. 2021. Vol. 118. P. 312–330. DOI: 10.1016/j.jmoneco.2020.11.003.",
+    "chapter1_review_note": "По официальной аннотации: проверка 24 стран ОЭСР, квантильные регрессии не имеют безусловного преимущества перед GARCH. Подробности тестов не пересказываются."
+  },
+  {
+    "id": "S06",
+    "author": "Adrian, Tobias and Grinberg, Federico and Liang, Nellie and Malik, Sheheryar and Yu, Jie",
+    "doi": "10.1257/mac.20180428",
+    "title": "The Term Structure of Growth-at-Risk",
+    "journal": "American Economic Journal Macroeconomics",
+    "year": "2022",
+    "url": "https://doi.org/10.1257/mac.20180428",
+    "relevance": "Рассматривает зависимость GaR от горизонта. Обосновывает раздельный анализ одного и четырёх кварталов, без выбора удачного горизонта после расчётов.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.imf.org/-/media/files/publications/wp/2018/wp18180.pdf",
+      "version": "IMF Working Paper 18/180; downloaded revision has five authors including Jie Yu; PDF cover retains August 2018",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.imf.org/-/media/files/publications/wp/2018/wp18180.pdf",
+      "status": "downloaded",
+      "file": "papers/S06.pdf",
+      "pages": 53,
+      "sha256": "a4ad7e4f4b8bed8db166ed438aa2fc4ca0c6d1924d6ced971f3e99f5f5b97373"
+    },
+    "consensus": {
+      "id": "677314e0e1105e5db20366432c315be8",
+      "title": "The Term Structure of Growth-at-Risk",
+      "text": "We show that the conditional distribution of forecasted GDP growth depends on financial conditions in a panel of 11 advanced economies. Financial conditions have a larger effect on the lower fifth percentile of conditional growth—which we call growth-at-risk (GaR)—than the median. In addition, the term structure of GaR reflects that when initial financial conditions are loose, downside risks are lower in the near term but increase in later quarters. This intertemporal tradeoff for loose financial conditions is amplified when credit-to-GDP growth is rapid. Using granular instrumental variables, we also provide evidence that the relationship from loose financial conditions to future downside risks is causal. Our results suggest that models of macrofinancial linkages should incorporate the endogeneity of higher-order moments to systematically account for downside risks to growth in the medium run. (JEL E23, E27, E32, E44)",
+      "url": "https://consensus.app/papers/the-term-structure-of-growthatrisk-adrian-grinberg/677314e0e1105e5db20366432c315be8/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Tobias Adrian, Federico Grinberg, Nellie Liang, Sheheryar Malik",
+        "publish_year": "2018",
+        "journal": "SSRN Electronic Journal",
+        "citation_count": "222"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s06",
+    "chapter1_reference": "Adrian T., Grinberg F., Liang N., Malik S., Yu J. The Term Structure of Growth-at-Risk. American Economic Journal: Macroeconomics. 2022. Vol. 14, No. 3. P. 283–323. DOI: 10.1257/mac.20180428.",
+    "chapter1_review_note": "Различия краткосрочных и более отдалённых рисков; наша проверка до четырёх кварталов не объявляется анализом трёхлетнего накопления уязвимостей."
+  },
+  {
+    "id": "S07",
+    "author": "Prasad, Ananthakrishnan and Elekdağ, Selim and Jeasakul, Phakawa and Lafarguette, Romain and Alter, Adrian and Feng, Alan and Wang, Changchun",
+    "doi": "10.5089/9781484397015.001",
+    "title": "Growth at Risk: Concept and Application in IMF Country Surveillance",
+    "journal": "Imf Working Paper",
+    "year": "2019",
+    "url": "https://doi.org/10.5089/9781484397015.001",
+    "relevance": "Методическое применение GaR в страновом анализе МВФ. Источник для объяснения показателя и границ практических рекомендаций; рабочий документ, не журнальная статья.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.imf.org/-/media/Files/Publications/WP/2019/WPIEA2019036.ashx",
+      "version": "IMF Working Paper 19/36, 2019",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.imf.org/-/media/files/publications/wp/2019/wpiea2019036.pdf",
+      "status": "downloaded",
+      "file": "papers/S07.pdf",
+      "pages": 39,
+      "sha256": "292ab5c221a37231b12accbb39a35a8d33a5f2bf964f41d50deb3a163c89e95e"
+    },
+    "consensus": {
+      "id": "65b2ff1c641d506b9d9fcfc59311e199",
+      "title": "Growth at Risk: Concept and Application in IMF Country Surveillance",
+      "text": "The growth-at-risk (GaR) framework links current macrofinancial conditions to the distribution of future growth. Its main strength is its ability to assess the entire distribution of future GDP growth (in contrast to point forecasts), quantify macrofinancial risks in terms of growth, and monitor the evolution of risks to economic activity over time. By using GaR analysis, policymakers can quantify the likelihood of risk scenarios, which would serve as a basis for preemptive action. This paper offers practical guidance on how to conduct GaR analysis and draws lessons from country case studies. It also discusses an Excel-based GaR tool developed to support the IMF’s bilateral surveillance efforts.",
+      "url": "https://consensus.app/papers/growth-at-risk-concept-and-application-in-imf-country-prasad-elekdag/65b2ff1c641d506b9d9fcfc59311e199/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "A. Prasad, Selim Elekdag, Phakawa Jeasakul, R. Lafarguette, Adrian Alter, Changchun Wang",
+        "publish_year": "2019",
+        "journal": "IMF Working Papers",
+        "citation_count": "95"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s07",
+    "chapter1_reference": "Prasad A., Elekdag S., Jeasakul P., Lafarguette R., Alter A., Feng A. X., Wang C. Growth at Risk: Concept and Application in IMF Country Surveillance. IMF Working Paper No. 19/36. 2019. DOI: 10.5089/9781484397015.001.",
+    "chapter1_review_note": "Определение и прикладное использование GaR; важны ограничения неструктурной интерпретации."
+  },
+  {
+    "id": "S08",
+    "author": "Figueres, Juan Manuel and Jarociński, Marek",
+    "doi": "10.1016/j.econlet.2020.109126",
+    "title": "Vulnerable Growth in the Euro Area: Measuring the Financial Conditions",
+    "journal": "Economics Letters",
+    "year": "2020",
+    "url": "https://doi.org/10.1016/j.econlet.2020.109126",
+    "relevance": "Прямой предшественник исследования GaR еврозоны и измерения финансовых условий. Главный источник для проверки того, что именно добавляет наш дизайн.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite",
+      "Undermind",
+      "Consensus fetch 2026-09-28"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2458~849f0d9847.en.pdf",
+      "version": "ECB Working Paper 2458, 2020",
+      "retrieved_at": "2026-10-01",
+      "status": "downloaded",
+      "file": "papers/S08.pdf",
+      "pages": 27,
+      "sha256": "0ad90256ca41ac62a8d4544e73da0dfa7aa083fb893372c1362a13cdbccde926"
+    },
+    "consensus": {
+      "id": "968b667eacd05619a18fdefd2658a369",
+      "title": "Vulnerable growth in the euro area: Measuring the financial conditions",
+      "text": "Abstract not available for this paper. See the paper URL for full details.",
+      "url": "https://consensus.app/papers/vulnerable-growth-in-the-euro-area-measuring-the-financial-figueres-jarociński/968b667eacd05619a18fdefd2658a369/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "J. Figueres, M. Jarociński",
+        "publish_year": "2020",
+        "journal": "Economics Letters",
+        "citation_count": "74"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s08",
+    "chapter1_reference": "Figueres J. M., Jarociński M. Vulnerable growth in the euro area: Measuring the financial conditions. Economics Letters. 2020. Vol. 191. Article 109126. DOI: 10.1016/j.econlet.2020.109126.",
+    "chapter1_review_note": "Прямой предшественник по агрегату еврозоны. Выбор индикатора существенен; применение GaR к еврозоне уже известно."
+  },
+  {
+    "id": "S09",
+    "author": "Cho, Dooyeon and Rho, Seunghwa",
+    "doi": "10.1002/jae.3005",
+    "title": "Reassessing Growth Vulnerability",
+    "journal": "Journal of Applied Econometrics",
+    "year": "2024",
+    "url": "https://doi.org/10.1002/jae.3005",
+    "relevance": "Пересматривает выводы об уязвимом росте. Нужна для обсуждения устойчивости исходной рамки; конкретные результаты следует уточнить при полном чтении.",
+    "read_status": "Проверены библиография, официальная аннотация и доступные фрагменты; полный текст не получен",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "version_note": "Scite даёт 2023 — онлайн-публикация; окончательный выпуск датирован 2024. Сверить оформление перед сдачей.",
+    "date_note": "Online 2023; journal issue 2024.",
+    "full_text": {
+      "source_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jae.3005",
+      "version": "Journal article",
+      "retrieved_at": "2026-10-01",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "consensus": {
+      "id": "412f5872aafe591e9334e7d06fa57583",
+      "title": "Reassessing growth vulnerability",
+      "text": "This paper replicates the results of Adrian et al. (American Economic Review, 2019) that GDP growth volatility is mainly driven by the lower quantiles of the distribution which is predicted by the financial condition. It extends their study by estimating the model with the IVX‐QR estimator of Lee (Journal of Econometrics, 2016) and double weighted estimator of Cai et al. (Journal of Econometrics, 2022) considering that the financial condition index is highly serially correlated. Both models are estimated with the smoothed estimating equation approach of Kaplan and Sun (Econometric Theory, 2017). The results show that the findings of Adrian et al. (American Economic Review, 2019) are robust to possible bias due to the existence of persistent predictors. The out‐of‐sample forecasting exercises suggest that methods that are robust to the existence of persistent predictors can improve forecasting performance at the lower quantiles of the GDP growth distribution.",
+      "url": "https://consensus.app/papers/reassessing-growth-vulnerability-cho-rho/412f5872aafe591e9334e7d06fa57583/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Dooyeon Cho, Seunghwa Rho",
+        "publish_year": "2023",
+        "journal": "Journal of Applied Econometrics",
+        "citation_count": "10"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s09",
+    "chapter1_reference": "Cho D., Rho S. Reassessing growth vulnerability. Journal of Applied Econometrics. 2024. Vol. 39. No. 1. P. 225–234. DOI: 10.1002/jae.3005.",
+    "chapter1_review_note": "По официальной аннотации: методы для устойчивых предикторов сохраняют основные результаты и могут улучшать нижние прогнозы. Полная оценка доказательств не заявлена."
+  },
+  {
+    "id": "S10",
+    "author": "Long, Wei and Peng, Liang and Yang, Bingduo",
+    "doi": "10.1002/jae.3136",
+    "title": "Correlated Errors Challenge Vulnerable Growth",
+    "journal": "Journal of Applied Econometrics",
+    "year": "2025",
+    "url": "https://doi.org/10.1002/jae.3136",
+    "relevance": "Разбирает проблему коррелированных ошибок в исследованиях уязвимого роста. Мотивирует аккуратный статистический вывод; содержание методов требует полного чтения.",
+    "read_status": "Проверены библиография, официальная аннотация и доступные фрагменты; полный текст не получен",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jae.3136",
+      "version": "Journal article",
+      "retrieved_at": "2026-10-01",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s10",
+    "chapter1_reference": "Long W., Peng L., Yang B. Correlated Errors Challenge Vulnerable Growth. Journal of Applied Econometrics. 2025. Vol. 40. No. 6. P. 715–721. DOI: 10.1002/jae.3136.",
+    "chapter1_review_note": "По официальной аннотации: корреляция ошибок и дополнительные лаги меняют оценку текущей финансовой переменной; совместная значимость с лагами сохраняется."
+  },
+  {
+    "id": "S11",
+    "author": "Corradi, Valentina and Fosten, Jack and Gutknecht, Daniel",
+    "doi": "10.1016/j.jeconom.2023.105490",
+    "title": "Out-of-Sample Tests for Conditional Quantile Coverage an Application to Growth-at-Risk",
+    "journal": "Journal of Econometrics",
+    "year": "2023",
+    "url": "https://doi.org/10.1016/j.jeconom.2023.105490",
+    "relevance": "Тесты условного покрытия квантилей вне выборки. Методическая база диагностики калибровки; корректное покрытие не тождественно минимальной прогнозной потере.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite",
+      "Consensus fetch 2026-09-28"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://openaccess.city.ac.uk/33296/8/1-s2.0-S0304407623002063-main.pdf",
+      "version": "Journal article with repository cover",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://openaccess.city.ac.uk/id/eprint/33296/8/1-s2.0-S0304407623002063-main.pdf",
+      "status": "downloaded",
+      "file": "papers/S11.pdf",
+      "pages": 27,
+      "sha256": "e6b86df8e5855adf7cd1bedf5cace0fee8335757bc1544aa1e563197c52eb8c9"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s11",
+    "chapter1_reference": "Corradi V., Fosten J., Gutknecht D. Out-of-Sample Tests for Conditional Quantile Coverage an Application to Growth-at-Risk. Journal of Econometrics. 2023. Vol. 236, No. 2. Article 105490. DOI: 10.1016/j.jeconom.2023.105490.",
+    "chapter1_review_note": "Условное покрытие, конкурирующие модели и ограничения коротких квартальных рядов. В главе не утверждается, что тест авторов реализован в нашем эксперименте."
+  },
+  {
+    "id": "S12",
+    "author": "Lang, Jan Hannes and Rusnák, Marek and Greiwe, Moritz",
+    "doi": "10.2139/ssrn.4424153",
+    "title": "Medium-Term Growth-at-Risk in the Euro Area",
+    "year": "2023",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2808~573fdb4019.en.pdf",
+    "relevance": "Среднесрочный GaR еврозоны. Позволяет разграничить нашу краткосрочную задачу и роль медленно меняющихся уязвимостей; ECB WP 2808, 2023.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite",
+      "Undermind"
+    ],
+    "priority": "дополнительная",
+    "publication_note": "В реестре приведена рабочая версия ECB WP 2808 (2023). Журнальная версия IMF Economic Review: online 2025, issue 2026, DOI 10.1057/s41308-024-00272-9; отдельной работой не считается.",
+    "journal": "ECB Working Paper 2808",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2808~573fdb4019.en.pdf",
+      "version": "ECB Working Paper 2808, 2023",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2808~573fdb4019.en.pdf",
+      "status": "downloaded",
+      "file": "papers/S12.pdf",
+      "pages": 43,
+      "sha256": "98b66c2fc08236fe8d9b008eec3ba0921e7c52f1f46452cca09bf0dfa1898ddc"
+    },
+    "consensus": {
+      "id": "05e98ad57e3a56b8be2df5a32363e739",
+      "title": "Medium-Term Growth-at-Risk in the Euro Area",
+      "text": "Financial stability indicators can be grouped into financial stress indicators that reflect heightened spreads and market volatility, and financial vulnerability indicators that reflect credit and asset price imbalances. Based on a panel of euro area countries, we show that both types of indicators contain information about downside risks to real GDP growth (growth-at-risk) in the short-term (1-year ahead). However, only vulnerability indicators contain information about growth-at-risk in the medium-term (3-years ahead and beyond). Among various vulnerability indicators suggested in the literature, the Systemic Risk Indicator (SRI) proposed by Lang et al. (2019) outperforms in terms of in-sample explanatory power and out-of-sample predictive ability for medium-term growth-at-risk in euro area countries. Shocks to the SRI induce a rich ”term structure” for growth-at-risk: downside risks to real GDP growth are reduced in the short-term, but over the medium-term the effect reverses and downside risks to real GDP growth go up considerably. We also show that using cross-country information from the panel of euro area countries can improve the out-of-sample forecasting performance of growth-at-risk for the euro area aggregate.",
+      "url": "https://consensus.app/papers/mediumterm-growthatrisk-in-the-euro-area-lang-rusnák/05e98ad57e3a56b8be2df5a32363e739/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "J. Lang, Marek Rusnák, Moritz Greiwe",
+        "publish_year": "2025",
+        "journal": "IMF Economic Review",
+        "volume": "74",
+        "pages": "382 - 424",
+        "citation_count": "8"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s12",
+    "chapter1_reference": "Lang J. H., Rusnák M., Greiwe M. Medium-Term Growth-at-Risk in the Euro Area. ECB Working Paper No. 2808. 2023.",
+    "chapter1_review_note": "Различение стресса и уязвимости и их горизонтов. Основной разбор по ECB WP2808 2023; более поздняя журнальная версия не считается отдельной работой."
+  },
+  {
+    "id": "S13",
+    "author": "Ferrara, Laurent and Mogliani, Matteo and Sahuc, Jean-Guillaume",
+    "doi": "10.1016/j.ijforecast.2021.06.010",
+    "title": "High-Frequency Monitoring of Growth at Risk",
+    "journal": "International Journal of Forecasting",
+    "year": "2022",
+    "url": "https://doi.org/10.1016/j.ijforecast.2021.06.010",
+    "relevance": "Высокочастотный мониторинг GaR. Важна для обсуждения потерь информации при квартальном усреднении и различия прогноза и текущей оценки.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite",
+      "Undermind"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://crawford.anu.edu.au/sites/default/files/2025-05/97_2020_Ferrara_Mogliani_Sahuc.pdf",
+      "version": "CAMA Working Paper 97/2020",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://crawford.anu.edu.au/sites/default/files/2025-05/97_2020_Ferrara_Mogliani_Sahuc.pdf",
+      "status": "downloaded",
+      "file": "papers/S13.pdf",
+      "pages": 24,
+      "sha256": "be9f9ff77c5c1604c2b21f90337d3591b49821dea3521535c4e3dba19f2e2bac"
+    },
+    "consensus": {
+      "id": "a07ec0abb517584b8643868a7a75ec36",
+      "title": "High-frequency monitoring of growth at risk",
+      "text": "Monitoring changes in financial conditions provides valuable information on the contribution of financial risks to future economic growth. For that purpose, central banks need real-time indicators to adjust promptly the stance of their policy. We extend the quarterly Growth-at-Risk (GaR) approach of Adrian et al. (2019) by accounting for the high-frequency nature of financial conditions indicators. Specifically, we use Bayesian mixed data sampling (MIDAS) quantile regressions to exploit the information content of both a financial stress index and a financial conditions index leading to real-time high-frequency GaR measures for the euro area. We show that our daily GaR indicator (i) provides an early signal of GDP downturns and (ii) allows day-to-day assessment of the effects of monetary policies. During the first six months of the Covid-19 pandemic period, it has provided a timely measure of tail risks on euro area GDP.",
+      "url": "https://consensus.app/papers/highfrequency-monitoring-of-growth-at-risk-ferrara-mogliani/a07ec0abb517584b8643868a7a75ec36/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "L. Ferrara, M. Mogliani, Jean-Guillaume Sahuc",
+        "publish_year": "2020",
+        "journal": "International Journal of Forecasting",
+        "citation_count": "72"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s13",
+    "chapter1_reference": "Ferrara L., Mogliani M., Sahuc J. G. High-frequency monitoring of growth at risk. International Journal of Forecasting. 2022. Vol. 38. No. 2. P. 582–595. DOI: 10.1016/j.ijforecast.2021.06.010.",
+    "chapter1_review_note": "MIDAS-квантильные регрессии и оперативное обновление GaR еврозоны. Содержание высокочастотной постановки отделено от нашей квартальной."
+  },
+  {
+    "id": "S14",
+    "author": "De Santis, Roberto A. and Van der Veken, Wouter",
+    "doi": "10.2139/ssrn.3641428",
+    "title": "Forecasting Macroeconomic Risk in Real Time: Great and Covid-19 Recessions",
+    "year": "2020",
+    "url": "https://doi.org/10.2139/ssrn.3641428",
+    "relevance": "Прогнозирование макроэкономического риска в реальном времени в кризисах. Нужна для сопоставления пандемии и финансового кризиса; наша база не является базой исторических винтажей.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite",
+      "Undermind"
+    ],
+    "priority": "основная",
+    "journal": "ECB Working Paper 2436",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2436~df6319728a.en.pdf",
+      "version": "ECB Working Paper 2436, 2020",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2436~df6319728a.en.pdf",
+      "status": "downloaded",
+      "file": "papers/S14.pdf",
+      "pages": 53,
+      "sha256": "6c8cc64000250df901417054b9fd82ac7faf964fc8770ce5c1d6b192f3383e12"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s14",
+    "chapter1_reference": "De Santis R. A., Van der Veken W. Forecasting Macroeconomic Risk in Real Time: Great and Covid-19 Recessions. ECB Working Paper No. 2436. 2020.",
+    "chapter1_review_note": "Реальное время и оценка тяжести кризиса; различаются предупреждение до события и измерение риска после его начала."
+  },
+  {
+    "id": "S15",
+    "author": "Carriero, Andrea and Clark, Todd E. and Marcellino, Massimiliano Giuseppe and Mertens, Elmar",
+    "doi": "10.1162/rest_a_01213",
+    "title": "Addressing COVID-19 Outliers in BVARs With Stochastic Volatility",
+    "journal": "The Review of Economics and Statistics",
+    "year": "2024",
+    "url": "https://doi.org/10.1162/rest_a_01213",
+    "relevance": "Обработка пандемийных выбросов в BVAR со стохастической волатильностью. Показывает проблему экстремальных наблюдений в иной модельной рамке; механический перенос метода в квантильную регрессию не предполагается.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2021/wp2102r.pdf",
+      "version": "Cleveland Fed Working Paper 21-02R, revised manuscript",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2021/wp2102r.pdf",
+      "status": "downloaded",
+      "file": "papers/S15.pdf",
+      "pages": 51,
+      "sha256": "f0293acd25d903f4508757c0c5f5cca3c072f333d13d82c2d52bd051cccf0bbb"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s15",
+    "chapter1_reference": "Carriero A., Clark T. E., Marcellino M., Mertens E. Addressing COVID-19 Outliers in BVARs with Stochastic Volatility. Review of Economics and Statistics. 2024. Vol. 106. No. 5. P. 1403–1417. DOI: 10.1162/rest_a_01213.",
+    "chapter1_review_note": "Сильное влияние экстремальных наблюдений в BVAR; метод авторов не объявляется реализованным в квантильной модели."
+  },
+  {
+    "id": "S16",
+    "author": "Adrian, Tobias and Sasaki, Yuya and Wang, Yulong",
+    "doi": "10.1016/j.jeconom.2026.106235",
+    "title": "Robust Econometrics for Growth-at-Risk",
+    "journal": "Journal of Econometrics",
+    "year": "2026",
+    "url": "https://doi.org/10.1016/j.jeconom.2026.106235",
+    "relevance": "Новая эконометрика хвостов GaR с пересмотром предположения о постоянном показателе Парето. Это отдельная проблема хвостового моделирования, а не готовое решение удаления COVID-наблюдений.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://arxiv.org/pdf/2508.00263",
+      "version": "arXiv preprint; version as downloaded",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://arxiv.org/pdf/2508.00263",
+      "status": "downloaded",
+      "file": "papers/S16.pdf",
+      "pages": 49,
+      "sha256": "522cb016de23ea4cbb3ff495410aa85fc06d207e5dfb251b309e2968190f15b2"
+    },
+    "consensus": {
+      "id": "b3c812afc61f54e1b2caf29f85320a82",
+      "title": "Robust econometrics for growth-at-risk",
+      "text": "Abstract not available for this paper. See the paper URL for full details.",
+      "url": "https://consensus.app/papers/robust-econometrics-for-growthatrisk-adrian-sasaki/b3c812afc61f54e1b2caf29f85320a82/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Tobias Adrian, Yuya Sasaki, Yulong Wang",
+        "publish_year": "2025",
+        "journal": "Journal of Econometrics",
+        "citation_count": "0"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s16",
+    "version_caution": "В arXiv v3 обнаружены несогласованные даты выборки и размещение частот в таблице 1; численные выводы требуют сверки.",
+    "chapter1_reference": "Adrian T., Sasaki Y., Wang Y. Robust Econometrics for Growth-at-Risk. Journal of Econometrics. 2026. Vol. 255. Article 106235. DOI: 10.1016/j.jeconom.2026.106235.",
+    "chapter1_review_note": "Крайние хвосты и изменяющийся хвостовой показатель. Проверены введение, ограничения подходов и раздел 7 Summary and Discussions."
+  },
+  {
+    "id": "S17",
+    "author": "Mitchell, James and Poon, Aubrey and Zhu, Dan",
+    "doi": "10.1002/jae.3049",
+    "title": "Constructing Density Forecasts From Quantile Regressions: Multimodality in Macrofinancial Dynamics",
+    "journal": "Journal of Applied Econometrics",
+    "year": "2024",
+    "url": "https://doi.org/10.1002/jae.3049",
+    "relevance": "Построение плотностей по квантильным регрессиям и мультимодальность. Обосновывает осторожность при переходе от нескольких квантилей к полной плотности; мы оцениваем квантиль напрямую.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite",
+      "Undermind"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2022/wp2212.pdf",
+      "version": "Cleveland Fed Working Paper 22-12, May 2022",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2022/wp2212.pdf",
+      "status": "downloaded",
+      "file": "papers/S17.pdf",
+      "pages": 46,
+      "sha256": "896df4b8832ed070bb13dcf24554721e8e3fa2222a9002daf7280538e9d0af9c"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s17",
+    "chapter1_reference": "Mitchell J., Poon A., Zhu D. Constructing density forecasts from quantile regressions: Multimodality in macrofinancial dynamics. Journal of Applied Econometrics. 2024. Vol. 39. No. 5. P. 790–812. DOI: 10.1002/jae.3049.",
+    "chapter1_review_note": "Форма полной плотности зависит от способа восстановления по квантилям. Один квантиль не превращается в полную плотность."
+  },
+  {
+    "id": "S18",
+    "author": "Dovern, Jonas and van Roye, Björn",
+    "doi": "10.1016/j.jfs.2014.02.006",
+    "title": "International Transmission and Business-Cycle Effects of Financial Stress",
+    "journal": "Journal of Financial Stability",
+    "year": "2014",
+    "url": "https://doi.org/10.1016/j.jfs.2014.02.006",
+    "relevance": "Международная передача финансового стресса и деловой цикл. Источник для экономического механизма; по одной библиографической карточке нельзя утверждать направление или размер эффекта.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.econstor.eu/bitstream/10419/76722/1/751118753.pdf",
+      "version": "Kiel Working Paper 1844, 2013; earlier title International transmission of financial stress: Evidence from a GVAR",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.econstor.eu/bitstream/10419/76722/1/751118753.pdf",
+      "status": "downloaded",
+      "file": "papers/S18.pdf",
+      "pages": 35,
+      "sha256": "6e689d026ff1d2fb54965707104bc70a2f36b299f1c5b3608b1945701852d069"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s18",
+    "chapter1_reference": "Dovern J., van Roye B. International transmission and business-cycle effects of financial stress. Journal of Financial Stability. 2014. Vol. 13. P. 1–17. DOI: 10.1016/j.jfs.2014.02.006.",
+    "chapter1_review_note": "Быстрая международная передача финансового стресса и запаздывающий эффект на активность; изучена доступная рабочая версия."
+  },
+  {
+    "id": "S19",
+    "author": "Apostolakis, George and Giannellis, Nikolaos",
+    "doi": "10.1016/j.jfs.2024.101259",
+    "title": "International Financial Stress Spillovers During Times of Unconventional Monetary Policy Interventions",
+    "journal": "Journal of Financial Stability",
+    "year": "2024",
+    "url": "https://doi.org/10.1016/j.jfs.2024.101259",
+    "relevance": "Международные переливы стресса при нетрадиционной денежной политике. Контекст трансграничной связи; её причинные выводы нельзя автоматически переносить на нашу прогнозную модель.",
+    "read_status": "Проверены библиография, официальная аннотация и доступные фрагменты; полный текст не получен",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1572308924000445/pdf",
+      "version": "Journal article",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.sciencedirect.com/science/article/pii/S1572308924000445/pdf",
+      "status": "unavailable",
+      "error": "Response is not a PDF"
+    },
+    "consensus": {
+      "id": "0163920d5ed45cbe82ad1e8adc8b47c9",
+      "title": "International Financial Stress Spillovers During Times of Unconventional Monetary Policy Interventions",
+      "text": "Abstract not available for this paper. See the paper URL for full details.",
+      "url": "https://consensus.app/papers/international-financial-stress-spillovers-during-times-apostolakis-giannellis/0163920d5ed45cbe82ad1e8adc8b47c9/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "George N. Apostolakis, Nikolaos Giannellis",
+        "publish_year": "2024",
+        "journal": "Journal of Financial Stability",
+        "citation_count": "9"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s19",
+    "chapter1_reference": "Apostolakis G. N., Giannellis N. International financial stress spillovers during times of unconventional monetary policy interventions. Journal of Financial Stability. 2024. Vol. 72. Article 101259. DOI: 10.1016/j.jfs.2024.101259.",
+    "chapter1_review_note": "По официальной аннотации и введению издателя: международные последствия стресса в глобальной VAR. Численные эффекты и результаты конкретных тестов не заимствуются."
+  },
+  {
+    "id": "S20",
+    "author": "Koenker, Roger W. and Bassett, Gilbert W.",
+    "doi": "10.2307/1913643",
+    "title": "Regression Quantiles",
+    "journal": "Econometrica",
+    "year": "1978",
+    "url": "https://doi.org/10.2307/1913643",
+    "relevance": "Классическая работа по квантильной регрессии. Методическая основа оценки условного квантиля вместо условного среднего.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://people.eecs.berkeley.edu/~jordan/sail/readings/koenker-bassett.pdf",
+      "version": "Journal article copy at Berkeley",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://people.eecs.berkeley.edu/~jordan/sail/readings/koenker-bassett.pdf",
+      "status": "downloaded",
+      "file": "papers/S20.pdf",
+      "pages": 24,
+      "sha256": "9bb7d43ab71a7869697b39b392d6088715c17f72377061c1b321f23911b8e4e5"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s20",
+    "chapter1_reference": "Koenker R., Bassett G. Regression Quantiles. Econometrica. 1978. Vol. 46, No. 1. P. 33–50. DOI: 10.2307/1913643.",
+    "chapter1_review_note": "Классическое определение квантильной регрессии. Основной текст сканирован; 18 страниц статьи распознаны OCR, определения сверены с содержанием."
+  },
+  {
+    "id": "S21",
+    "author": "Gneiting, Tilmann and Raftery, Adrian E.",
+    "doi": "10.1198/016214506000001437",
+    "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+    "journal": "Journal of the American Statistical Association",
+    "year": "2007",
+    "url": "https://doi.org/10.1198/016214506000001437",
+    "relevance": "Теория корректных правил оценки вероятностного прогноза. Обосновывает заранее выбранную функцию качества вместо сравнения отдельных коэффициентов.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "version": "Journal article, author-hosted copy",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "status": "downloaded",
+      "file": "papers/S21.pdf",
+      "pages": 20,
+      "sha256": "d31a0c5f0ae8fec1a0a6544db5d056645b2d7296d71b44a2e8efb293c7d87ba2"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s21",
+    "chapter1_reference": "Gneiting T., Raftery A. E. Strictly Proper Scoring Rules, Prediction, and Estimation. Journal of the American Statistical Association. 2007. Vol. 102. No. 477. P. 359–378. DOI: 10.1198/016214506000001437.",
+    "chapter1_review_note": "Согласование критерия качества с объектом прогнозирования, в том числе квантилем. Аксиоматические доказательства не воспроизводились."
+  },
+  {
+    "id": "S22",
+    "author": "Gneiting, Tilmann and Ranjan, Roopesh",
+    "doi": "10.1198/jbes.2010.08110",
+    "title": "Comparing Density Forecasts Using Threshold- And Quantile-Weighted Scoring Rules",
+    "journal": "Journal of Business and Economic Statistics",
+    "year": "2011",
+    "url": "https://doi.org/10.1198/jbes.2010.08110",
+    "relevance": "Сравнение плотностных прогнозов с весами по порогам и квантилям. Нужна для обоснования оценки хвостовой части распределения.",
+    "read_status": "Проверены библиография, официальная аннотация и доступные фрагменты; полный текст не получен",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.stat.washington.edu/research/reports/2008/tr533.pdf",
+      "version": "University of Washington Technical Report 533, 2008",
+      "retrieved_at": "2026-10-01",
+      "status": "unavailable",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s22",
+    "chapter1_reference": "Gneiting T., Ranjan R. Comparing Density Forecasts Using Threshold- and Quantile-Weighted Scoring Rules. Journal of Business & Economic Statistics. 2011. Vol. 29. No. 3. P. 411–422. DOI: 10.1198/jbes.2010.08110.",
+    "chapter1_review_note": "По аннотации авторов/издателя: взвешенные правила оценки позволяют выделять интересующие части распределения. Не используется как доказательство реализации нового теста."
+  },
+  {
+    "id": "S23",
+    "author": "Holló, Dániel and Kremer, Manfred and Lo Duca, Marco",
+    "doi": "10.2139/ssrn.1611717",
+    "title": "CISS - A Composite Indicator of Systemic Stress in the Financial System",
+    "year": "2012",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1426.pdf",
+    "relevance": "Исходная методология CISS. Для цитирования используется ECB WP 1426 от марта 2012 года; год 2010 в автоматическом экспорте Scite относится к записи SSRN и не используется как дата этой версии.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Scite"
+    ],
+    "priority": "основная",
+    "journal": "ECB Working Paper 1426",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1426.pdf",
+      "version": "ECB Working Paper 1426, 2012",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1426.pdf",
+      "status": "downloaded",
+      "file": "papers/S23.pdf",
+      "pages": 51,
+      "sha256": "3f9bf4d44622a51da82dc2c7104efc2c78309f6d95782905bf4b2eefef3a76ce"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s23",
+    "chapter1_reference": "Holló D., Kremer M., Lo Duca M. CISS — A Composite Indicator of Systemic Stress in the Financial System. ECB Working Paper No. 1426. 2012.",
+    "chapter1_review_note": "Портфельное агрегирование CISS и системный характер стресса; важное различие с широким FCI."
+  },
+  {
+    "id": "S24",
+    "author": "Expert Group on Macro-at-Risk, Time-Series Workstream; editors Chahad, M. and Mogliani, M.",
+    "year": "2026",
+    "title": "Macro-at-Risk in the euro area",
+    "journal": "ECB Occasional Paper 396",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op396.en.pdf",
+    "relevance": "Современная рамка Macro-at-Risk еврозоны. Обсуждение обработки пандемии означает, что сама идея исключить COVID не является новизной. Наша задача уже: устойчивость добавочной информации США.",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "ECB primary website",
+      "архив предыдущего этапа"
+    ],
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op396.en.pdf",
+      "version": "ECB Occasional Paper 396, 2026",
+      "retrieved_at": "2026-10-01",
+      "status": "downloaded",
+      "file": "papers/S24.pdf",
+      "pages": 55,
+      "sha256": "a2da610ee35590cf99be14a01fc6ac9cdcd738a72ec9a3dcdab7a7a2e5aeabf1"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s24",
+    "chapter1_reference": "Expert Group on Macro-at-Risk, Time-Series Workstream; Chahad M., Mogliani M. (eds.). Macro-at-Risk in the Euro Area. ECB Occasional Paper No. 396. 2026. DOI: 10.2866/6868685.",
+    "chapter1_review_note": "ЕЦБ Macro-at-Risk: широкий круг факторов и зависимость информативности от горизонта, периода и цели. Используется версия 2026 года."
+  },
+  {
+    "id": "S25",
+    "author": "Szendrei, Tibor and Varga, Katalin",
+    "year": "2023",
+    "title": "Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution",
+    "journal": "Economics Letters",
+    "doi": "10.1016/j.econlet.2023.110990",
+    "url": "https://doi.org/10.1016/j.econlet.2023.110990",
+    "relevance": "Отбор переменных для разных частей распределения роста еврозоны; ближайшая работа для проверки новизны.",
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://pure.hw.ac.uk/ws/portalfiles/portal/80251351/1_s2.0_S0165176523000150_main.pdf",
+      "version": "Publisher full text, institutional repository",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://pure.hw.ac.uk/ws/portalfiles/portal/80251351/1_s2.0_S0165176523000150_main.pdf",
+      "status": "downloaded",
+      "file": "papers/S25.pdf",
+      "pages": 7,
+      "sha256": "04980ea938894def7dc7128bc32671d390d8c76b24b588f09c2b6e6930d88069"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "consensus": {
+      "id": "d8ce1c4728c45fde9ea9fcf55aba73f0",
+      "title": "Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution",
+      "text": "Abstract not available for this paper. See the paper URL for full details.",
+      "url": "https://consensus.app/papers/revisiting-vulnerable-growth-in-the-euro-area-identifying-szendrei-varga/d8ce1c4728c45fde9ea9fcf55aba73f0/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Tibor Szendrei, K. Varga",
+        "publish_year": "2023",
+        "journal": "Economics Letters",
+        "citation_count": "11"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s25",
+    "chapter1_reference": "Szendrei T., Varga K. Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution. Economics Letters. 2023. Vol. 223. Article 110990. DOI: 10.1016/j.econlet.2023.110990.",
+    "chapter1_review_note": "Отбор финансовых переменных, регуляризация и непересечение квантилей в небольшой выборке еврозоны."
+  },
+  {
+    "id": "S26",
+    "author": "Plaasch, Jannick and Röthig, Andreas",
+    "year": "2025",
+    "title": "A Growth-at-Risk model for the German economy",
+    "journal": "Deutsche Bundesbank Technical Paper 05/2025",
+    "doi": "",
+    "url": "https://www.econstor.eu/bitstream/10419/333425/1/1943279594.pdf",
+    "relevance": "Практический пример GaR для европейской экономики; институциональная рабочая публикация, не журнальная статья.",
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.econstor.eu/bitstream/10419/333425/1/1943279594.pdf",
+      "version": "Bundesbank Technical Paper 05/2025",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.econstor.eu/bitstream/10419/333425/1/1943279594.pdf",
+      "status": "downloaded",
+      "file": "papers/S26.pdf",
+      "pages": 21,
+      "sha256": "93f4b964cbeb3fbf2c46cf5f5e5ec66ee723a43b1c012b62861fa050612cefe8"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s26",
+    "chapter1_reference": "Plaasch J., Röthig A. A Growth-at-Risk Model for the German Economy. Deutsche Bundesbank Technical Paper No. 05/2025. 2025.",
+    "chapter1_review_note": "Прямой предшественник с NFCI в модели Германии. Вклад нашей работы сформулирован без приоритета применения американского индекса в Европе."
+  },
+  {
+    "id": "S27",
+    "author": "Amburgey, Aaron J. and McCracken, Michael W.",
+    "year": "2023",
+    "title": "On the real-time predictive content of financial condition indices for growth",
+    "journal": "Journal of Applied Econometrics",
+    "doi": "10.1002/jae.2943",
+    "url": "https://doi.org/10.1002/jae.2943",
+    "relevance": "Основная работа о пересмотрах NFCI, прогнозной проверке и сравнении вложенных квантильных моделей.",
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://doi.org/10.20955/wp.2022.003",
+      "version": "St Louis Fed Working Paper 2022-003B, June 3, 2022; journal publication 2023",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://s3.amazonaws.com/real.stlouisfed.org/wp/2022/2022-003.pdf",
+      "status": "downloaded",
+      "file": "papers/S27.pdf",
+      "pages": 49,
+      "sha256": "77bcc4f9408f4e972c64ad4447044fc00d056b571c3b8e17ac5aa3b10adf5fa3"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "consensus": {
+      "id": "73528294e6ee5602bd09e545c95fa6cb",
+      "title": "On the Real-Time Predictive Content of Financial Conditions Indices for Growth",
+      "text": "We provide evidence on the real-time predictive content of the National Financial Conditions Index (NFCI), for conditional quantiles of U",
+      "url": "https://consensus.app/papers/on-the-realtime-predictive-content-of-financial-amburgey-mccracken/73528294e6ee5602bd09e545c95fa6cb/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Aaron Amburgey, Michael W. McCracken",
+        "publish_year": "2022",
+        "journal": "Journal of Applied Econometrics",
+        "citation_count": "7"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s27",
+    "chapter1_reference": "Amburgey A. J., McCracken M. W. On the real‐time predictive content of financial condition indices for growth. Journal of Applied Econometrics. 2023. Vol. 38. No. 2. P. 137–163. DOI: 10.1002/jae.2943.",
+    "chapter1_review_note": "Исторические версии NFCI, пересмотры и вложенное сравнение. Исторические версии не объявляются неизбежно худшими, а специальные тесты авторов не подменяются обычным DM."
+  },
+  {
+    "id": "S28",
+    "author": "Arrigoni, Simone and Bobasu, Alina and Venditti, Fabrizio",
+    "year": "2022",
+    "title": "Measuring Financial Conditions using Equal Weights Combination",
+    "journal": "IMF Economic Review",
+    "doi": "10.1057/s41308-022-00170-y",
+    "url": "https://doi.org/10.1057/s41308-022-00170-y",
+    "relevance": "Обоснование сравнения способов измерения финансовых условий; рабочая версия имеет другое название.",
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2451~cbf3f02232.en.pdf",
+      "version": "ECB Working Paper 2451; earlier title The simpler the better",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2451~cbf3f02232.en.pdf",
+      "status": "downloaded",
+      "file": "papers/S28.pdf",
+      "pages": 42,
+      "sha256": "6725ccc4e9e280c8dfc169cad5b720ea7ca55f47d5b418dca3aa1aafbddbc0e8"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "consensus": {
+      "id": "b1bbbac1c5b35aecaab29919a507d376",
+      "title": "Measuring Financial Conditions using Equal Weights Combination",
+      "text": "In this paper, we assess the merits of financial condition indices (FCIs) constructed using equal weights averaging versus alternatives that use data reduction techniques, like principal components, or that allow for time-varying parameters. Our analysis is based on data for 18 advanced and emerging economies at the monthly frequency covering about 70% of the world’s GDP. We study the performance of these indicators based on their ability to capture tail risk for economic activity and to predict banking and currency crises. We find that averaging with equal weights produces FCIs that are not inferior to, and often perform better than, those constructed with more sophisticated statistical methods. For the USA and for the euro area, based on the same evaluation criteria, they also work better than two popular alternatives that receive wide attention in policy discussions, namely the Chicago Fed National Financial Conditions Index and the Composite Index of Systemic Stress.",
+      "url": "https://consensus.app/papers/measuring-financial-conditions-using-equal-weights-arrigoni-bobașu/b1bbbac1c5b35aecaab29919a507d376/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Simone Arrigoni, Alina Bobașu, F. Venditti",
+        "publish_year": "2022",
+        "journal": "IMF Economic Review",
+        "volume": "70",
+        "pages": "668 - 697",
+        "citation_count": "14"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s28",
+    "chapter1_reference": "Arrigoni S., Bobasu A., Venditti F. Measuring Financial Conditions using Equal Weights Combination. IMF Economic Review. 2022. Vol. 70. No. 4. P. 668–697. DOI: 10.1057/s41308-022-00170-y.",
+    "chapter1_review_note": "Способ агрегирования не гарантирует качества; простые комбинации могут конкурировать со сложными индексами. Рабочая и журнальная версии названы отдельно."
+  },
+  {
+    "id": "S29",
+    "author": "Adams, Patrick A. and Adrian, Tobias and Boyarchenko, Nina and Giannone, Domenico",
+    "year": "2021",
+    "title": "Forecasting Macroeconomic Risks",
+    "journal": "International Journal of Forecasting",
+    "doi": "10.1016/j.ijforecast.2021.01.003",
+    "url": "https://doi.org/10.1016/j.ijforecast.2021.01.003",
+    "relevance": "Прогнозирование макроэкономических рисков с финансовыми условиями и опросными прогнозами.",
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr914.pdf?sc_lang=en",
+      "version": "NY Fed Staff Report 914, 2020",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr914.pdf?sc_lang=en",
+      "status": "downloaded",
+      "file": "papers/S29.pdf",
+      "pages": 33,
+      "sha256": "44207e1d157435e013379b5b084e65c94bbb9a63a19f78f1d807c912ecae46f7"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "consensus": {
+      "id": "7955dbcdc4dd5841945c9a03b426530d",
+      "title": "Forecasting Macroeconomic Risks",
+      "text": "We construct risks around consensus forecasts of real GDP growth, unemployment and inflation. We find that risks are time-varying, asymmetric and partly predictable. Tight financial conditions forecast downside growth risk, upside unemployment risk and increased uncertainty around the inflation forecast. Growth vulnerability arises as the conditional mean and conditional variance of GDP growth are negatively correlated: downside risks are driven by lower mean and higher variance when financial conditions tighten. Similarly, employment vulnerability arises as the conditional mean and conditional variance of unemployment are positively correlated, with tighter financial conditions corresponding to higher forecasted unemployment and higher variance around the consensus forecast.",
+      "url": "https://consensus.app/papers/forecasting-macroeconomic-risks-adams-adrian/7955dbcdc4dd5841945c9a03b426530d/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "P. Adams, Tobias Adrian, Nina Boyarchenko, D. Giannone",
+        "publish_year": "2021",
+        "journal": "SSRN Electronic Journal",
+        "citation_count": "75"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s29",
+    "chapter1_reference": "Adams P. A., Adrian T., Boyarchenko N., Giannone D. Forecasting macroeconomic risks. International Journal of Forecasting. 2021. Vol. 37. No. 3. P. 1173–1191. DOI: 10.1016/j.ijforecast.2021.01.003.",
+    "chapter1_review_note": "Риски вокруг центрального прогноза и дополнительная информация финансовых условий."
+  },
+  {
+    "id": "S30",
+    "author": "Brandt, Lennart and Saint Guilhem, Arthur and Schröder, Maximilian and Van Robays, Ine",
+    "year": "2026",
+    "title": "What drives euro area financial markets? The role of US spillovers and global risk",
+    "journal": "ECB Working Paper 2560, revised March 2026",
+    "doi": "",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2560~f98f3c7d78.en.pdf",
+    "relevance": "Механизм передачи финансовых условий США в еврозону; разграничение американских и глобальных факторов. Исходная версия 2021 года.",
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2560~f98f3c7d78.en.pdf",
+      "version": "ECB Working Paper 2560 (May 2021), revised March 2026",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2560~f98f3c7d78.en.pdf",
+      "status": "downloaded",
+      "file": "papers/S30.pdf",
+      "pages": 63,
+      "sha256": "23dc3cbf1e9c3dd29bf7bd6574aa4341d6670fb9ffcaf904c6cf6bb3da28d70a"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "consensus": {
+      "id": "71fdae6111ce5850b5b25a244b05cd10",
+      "title": "What Drives Euro Area Financial Market Developments? The Role of US Spillovers and Global Risk",
+      "text": "Financial asset prices contain a rich set of real-time information on the economy. To extract this information, it is crucial to understand the driving factors behind financial market developments. In this paper, we exploit daily cross-asset price movements in a sign-restricted BVAR model to analyse the extent to which euro area and US yields, equity prices, and the euro-US dollar exchange rate are jointly driven by monetary policy, macro and global risk factors. A novelty is that we allow for cross-Atlantic spillovers while also accounting for the unique role of the US in the global financial system. Our results underline the importance of US spillovers and shifts in global risk sentiment for understanding the dynamics of euro area financial variables. Euro area shocks transmit much less to US financial markets in comparison, with global risk shocks being more important instead. Using the daily shocks as instruments in a Proxy-SVAR, we demonstrate that the transmission of financial market movements to the macroeconomy depends on the underlying driver, thereby illustrating why it matters to look into the driving factors in the first place. JEL classification: C32, C54, E44, E52.",
+      "url": "https://consensus.app/papers/what-drives-euro-area-financial-market-developments-the-brandt-guilhem/71fdae6111ce5850b5b25a244b05cd10/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Lennart H. Brandt, Arthur Saint Guilhem, Maximilian Schröder, Ine Van Robays",
+        "publish_year": "2021",
+        "journal": "SSRN Electronic Journal",
+        "citation_count": "11"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s30",
+    "chapter1_reference": "Brandt L., Saint Guilhem A., Schröder M., Van Robays I. What Drives Euro Area Financial Markets? The Role of US Spillovers and Global Risk. ECB Working Paper No. 2560. 2021. Revised March 2026.",
+    "chapter1_review_note": "Внутренние, американские и глобальные факторы европейских цен активов. Использована редакция марта 2026 года, исходная серия WP2560 2021."
+  },
+  {
+    "id": "S31",
+    "author": "Dajčman, Silvo and Kavkler, Alenka and Mikek, Peter and Romih, Dejan",
+    "year": "2020",
+    "title": "Transmission of Financial Stress Shocks between the USA and the Euro Area During Different Business Cycle Phases",
+    "journal": "E&M Economics and Management",
+    "doi": "10.15240/tul/001/2020-4-010",
+    "url": "https://doi.org/10.15240/tul/001/2020-4-010",
+    "relevance": "Механизм трансграничной передачи стресса и зависимость от фазы цикла; не доказательство прогнозного выигрыша нашей модели.",
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://dspace.tul.cz/bitstream/handle/15240/158179/EM_4_2020_10.pdf?sequence=1&isAllowed=y",
+      "version": "Journal article, 2020",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://dspace.tul.cz/server/api/core/bitstreams/03e9efdf-d2ff-4917-a9ed-8f5575089898/content",
+      "status": "downloaded",
+      "file": "papers/S31.pdf",
+      "pages": 14,
+      "sha256": "49e0decd2f429c0cb366e1cf293b470d1fffe09bced0c3235bc737e53f1974f2"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "consensus": {
+      "id": "5c3184f5ff235290804f30e5bf22da93",
+      "title": "Transmission of Financial Stress Shocks between the USA and the Euro Area During Different Business Cycle Phases",
+      "text": "This paper examines the transmission of financial stress shocks between the USA and the euro area for recessionary and non-recessionary regimes in the shock-recipient economy. The investigated period is 1999M1–2017M11, which includes several episodes of recessionary and non-recessionary regimes, endogenously determined by the model, as well as several financial stress episodes. After testing for non-linearity, we employ a five-variable Bayesian threshold vector autoregression model using internationally compatible data for financial stress indices. Our results show significant non-linearities in the financial stress-business cycle interactions for the euro area. In comparison to the non-recessionary regime, the US financial stress shocks are more detrimental to the stability of the European financial system, output growth, and inflation in recessions. US financial stress shocks negatively affect euro area unemployment rate, but the effect is independent of the euro area industrial production growth regime. In contrast, the stability of the US financial system is not susceptible to the euro area’s financial stress shocks. However, due to trade ties, the financial stress in the euro area does lead to output contraction, while not affecting inflation and unemployment in the US. We also found that US industrial production growth and unemployment rate are susceptible to domestic financial stress shocks, more in the recessionary than nonrecessionary episodes of the US economy. The results suggest a need for a careful domestic and foreign financial stress monitoring and coordination of monetary authorities. While this may profit both economic areas, this is relevant more for the European Central Bank than its US counterpart.",
+      "url": "https://consensus.app/papers/transmission-of-financial-stress-shocks-between-the-usa-dajčman-kavkler/5c3184f5ff235290804f30e5bf22da93/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Silvo Dajčman, Alenka Kavkler, Peter Mikek, Dejan Romih",
+        "publish_year": "2020",
+        "journal": "E & M Ekonomie A Management",
+        "volume": "23",
+        "pages": "152-165",
+        "citation_count": "4"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s31",
+    "chapter1_reference": "Dajčman S., Kavkler A., Mikek P., Romih D. Transmission of Financial Stress Shocks between the USA and the Euro Area During Different Business Cycle Phases. E&M Economics and Management. 2020. Vol. 23, No. 4. P. 152–165. DOI: 10.15240/tul/001/2020-4-010.",
+    "chapter1_review_note": "Режимная передача стресса между США и еврозоной; вывод о зависимости от фазы цикла."
+  },
+  {
+    "id": "S32",
+    "author": "Kırcı Altınkeski, Buket and Çevik, Emrah İsmail and Diboğlu, Sel and Kutan, Ali M.",
+    "year": "2022",
+    "title": "Financial stress transmission between the U.S. and the Euro Area",
+    "journal": "Journal of Financial Stability",
+    "doi": "10.1016/j.jfs.2022.101004",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1572308922000328/pdf",
+    "relevance": "Близкое исследование передачи стресса США–еврозона. Полный текст не получен; не использовать как изученный источник.",
+    "priority": "дополнительная",
+    "full_text": {
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1572308922000328/pdf",
+      "version": "Journal article",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.sciencedirect.com/science/article/pii/S1572308922000328/pdf",
+      "status": "unavailable",
+      "error": "Response is not a PDF"
+    },
+    "read_status": "Проверены библиография, официальная аннотация и доступные фрагменты; полный текст не получен",
+    "consensus": {
+      "id": "c6b00444e5ea591295f4cb0105a3ddd2",
+      "title": "Financial Stress Transmission between the U.S. and the Euro Area",
+      "text": "Abstract not available for this paper. See the paper URL for full details.",
+      "url": "https://consensus.app/papers/financial-stress-transmission-between-the-us-and-the-euro-altınkeski-çevik/c6b00444e5ea591295f4cb0105a3ddd2/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Buket Kırcı Altınkeski, E. Çevik, S. Dibooğlu, Ali M. Kutan",
+        "publish_year": "2022",
+        "journal": "Journal of Financial Stability",
+        "citation_count": "27"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s32",
+    "chapter1_reference": "Altınkeski B. K., Cevik E. I., Dibooglu S., Kutan A. M. Financial stress transmission between the U.S. and the Euro Area. Journal of Financial Stability. 2022. Vol. 60. Article 101004. DOI: 10.1016/j.jfs.2022.101004.",
+    "chapter1_review_note": "По официальной аннотации и введению: недельные данные 2000–2021, односторонняя центральная и двусторонняя хвостовая зависимость."
+  },
+  {
+    "id": "S33",
+    "author": "Brave, Scott and Butters, R. Andrew",
+    "year": "2012",
+    "title": "Diagnosing the Financial System: Financial Conditions and Financial Stress",
+    "journal": "International Journal of Central Banking",
+    "doi": "",
+    "url": "https://www.ijcb.org/sites/default/files/journal/v8n2/ijcb-v8n2-diagnosing-financial-system-financial-conditions-and-financial-stress.pdf",
+    "relevance": "Методология NFCI и различие финансовых условий, стресса и долговой нагрузки.",
+    "priority": "основная",
+    "full_text": {
+      "source_url": "https://www.ijcb.org/sites/default/files/journal/v8n2/ijcb-v8n2-diagnosing-financial-system-financial-conditions-and-financial-stress.pdf",
+      "version": "Journal article, June 2012",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.ijcb.org/sites/default/files/journal/v8n2/ijcb-v8n2-diagnosing-financial-system-financial-conditions-and-financial-stress.pdf",
+      "status": "downloaded",
+      "file": "papers/S33.pdf",
+      "pages": 49,
+      "sha256": "aed7624ca48c8325aaefb21c58e2ca6b0f2483f8b0d1504f91a8cf1fa6264b52"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "consensus": {
+      "id": "bb279f211c3d5f758edbcf7527dc5c4e",
+      "title": "Diagnosing the Financial System: Financial Conditions and Financial Stress",
+      "text": "We approach the task of monitoring financial stability within a framework that balances the costs and benefits of identifying future crisis-like conditions based on past U.S. financial crises. Our results indicate that the National Financial Conditions Index (NFCI) produced by the Federal Reserve Bank of Chicago is a highly predictive and robust indicator of financial stress at leading horizons of up to one year, with measures of leverage playing a crucial role in signaling financial imbalances. At longer forecast horizons, we propose an alternative sub-index of the NFCI that captures the relationship between non-financial leverage, financial stress, and economic activity.",
+      "url": "https://consensus.app/papers/diagnosing-the-financial-system-financial-conditions-and-brave-butters/bb279f211c3d5f758edbcf7527dc5c4e/?utm_source=chatgpt",
+      "metadata": {
+        "authors": "Scott A. Brave, R. Butters",
+        "publish_year": "2012",
+        "citation_count": "129"
+      },
+      "retrieved_at": "2026-10-01"
+    },
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s33",
+    "chapter1_reference": "Brave S., Butters R. A. Diagnosing the Financial System: Financial Conditions and Financial Stress. International Journal of Central Banking. 2012. Vol. 8, No. 2. P. 191–239.",
+    "chapter1_review_note": "Риск, кредит и финансовый рычаг содержат разную информацию о стрессе и уязвимостях; связь с задачей выбора горизонта."
+  },
+  {
+    "id": "S34",
+    "author": "Brave, Scott and Butters, R. Andrew",
+    "year": "2011",
+    "title": "Monitoring Financial Stability: A Financial Conditions Index Approach",
+    "journal": "Economic Perspectives, Federal Reserve Bank of Chicago",
+    "doi": "",
+    "url": "https://www.chicagofed.org/-/media/publications/economic-perspectives/2011/1qtr2011-part2-brave-butters-pdf.pdf",
+    "relevance": "Первичное описание индексов финансовых условий; дополнение к S33, не самостоятельное подтверждение нашей гипотезы.",
+    "priority": "дополнительная",
+    "publication_note": "Заголовок карточки Chicago Fed: Monitoring Financial Stability. Заголовок PDF: Measuring financial stability: A financial conditions index approach. Это один документ.",
+    "full_text": {
+      "source_url": "https://www.chicagofed.org/-/media/publications/economic-perspectives/2011/1qtr2011-part2-brave-butters-pdf.pdf",
+      "version": "Economic Perspectives article, 2011",
+      "retrieved_at": "2026-10-01",
+      "resolved_url": "https://www.chicagofed.org/-/media/publications/economic-perspectives/2011/1qtr2011-part2-brave-butters-pdf.pdf",
+      "status": "downloaded",
+      "file": "papers/S34.pdf",
+      "pages": 22,
+      "sha256": "7f835cf8ae091ac707818d8d2bc628378e8bb5ba5ed7389ce7800fdb697c4a82"
+    },
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "evidence_note": "Журнальная публикация и её рабочая версия считаются одной исследовательской работой. Выводы конкретной версии требуют проверки по приложенному тексту.",
+    "review_stage": "chapter1_2026-10-16",
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s34",
+    "chapter1_reference": "Brave S., Butters R. A. Monitoring Financial Stability: A Financial Conditions Index Approach. Economic Perspectives, Federal Reserve Bank of Chicago. 2011. Vol. 35, No. 1. P. 22–43.",
+    "chapter1_review_note": "Широкий охват финансовой системы, индексы и их интерпретация. Двухколоночный текст проверен по введению и заключению."
+  },
+  {
+    "id": "S35",
+    "author": "Miranda-Agrippino, Silvia and Rey, Helene",
+    "year": "2020",
+    "title": "U.S. Monetary Policy and the Global Financial Cycle",
+    "journal": "Review of Economic Studies",
+    "doi": "10.1093/restud/rdaa019",
+    "url": "https://doi.org/10.1093/restud/rdaa019",
+    "version": "NBER WP21722, revised March2019",
+    "source_file": "Miranda_Rey_NBER21722.pdf",
+    "full_text_status": "PDF downloaded; abstract introduction and relevant mechanism sections examined",
+    "retrieved_via": [
+      "Consensus",
+      "official NBER source"
+    ],
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s35",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "sha256": "a9411fb989b535c04a8aabcc1c06c5daceea9fca0fa52c24d2495013bdabbb15",
+    "file": "revision16/sources/Miranda_Rey_NBER21722.pdf",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "review_stage": "chapter1_2026-10-16",
+    "full_text": {
+      "status": "downloaded",
+      "file": "revision16/sources/Miranda_Rey_NBER21722.pdf",
+      "source_url": "https://doi.org/10.1093/restud/rdaa019",
+      "version": "NBER WP21722, revised March2019",
+      "sha256": "a9411fb989b535c04a8aabcc1c06c5daceea9fca0fa52c24d2495013bdabbb15",
+      "retrieved_at": "2026-10-15"
+    },
+    "chapter1_reference": "Miranda-Agrippino S., Rey H. U.S. Monetary Policy and the Global Financial Cycle. Review of Economic Studies. 2020. Vol. 87, No. 6. P. 2754–2776. DOI: 10.1093/restud/rdaa019.",
+    "chapter1_review_note": "Глобальный финансовый цикл и международная передача американской политики. Причинная идентификация статьи не переносится на коэффициент NFCI."
+  },
+  {
+    "id": "S36",
+    "author": "Kaufmann, Christoph",
+    "year": "2020",
+    "title": "Investment funds, monetary policy, and the global financial cycle",
+    "journal": "ECB Working Paper2489, revised December2022",
+    "doi": "",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2489~26b7eca600.en.pdf",
+    "version": "ECB WP2489 revisedDecember2022; same work as SSRN2021 record",
+    "source_file": "Kaufmann_ECB2489.pdf",
+    "full_text_status": "PDF downloaded; nontechnical summary and relevant introduction sections examined",
+    "retrieved_via": [
+      "Consensus",
+      "Undermind",
+      "official primary sources"
+    ],
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s36",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "sha256": "5080226b3d50d97b60b5136e4affbfd8eeb5cd150b4565349c73dd151d2f11c4",
+    "file": "revision16/sources/Kaufmann_ECB2489.pdf",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "review_stage": "chapter1_2026-10-16",
+    "full_text": {
+      "status": "downloaded",
+      "file": "revision16/sources/Kaufmann_ECB2489.pdf",
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2489~26b7eca600.en.pdf",
+      "version": "ECB WP2489 revisedDecember2022; same work as SSRN2021 record",
+      "sha256": "5080226b3d50d97b60b5136e4affbfd8eeb5cd150b4565349c73dd151d2f11c4",
+      "retrieved_at": "2026-10-15"
+    },
+    "chapter1_reference": "Kaufmann C. Investment Funds, Monetary Policy, and the Global Financial Cycle. ECB Working Paper No. 2489. 2020. Revised December 2022.",
+    "chapter1_review_note": "Инвестиционные фонды, международные портфельные потоки и финансирование фирм еврозоны; использована редакция декабря 2022."
+  },
+  {
+    "id": "S37",
+    "author": "Habib, Maurizio Michael and Venditti, Fabrizio",
+    "year": "2018",
+    "title": "The global financial cycle: implications for the global economy and the euro area",
+    "journal": "ECB Economic Bulletin6/2018",
+    "doi": "",
+    "url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2018/html/ecb.ebart201806_01.en.html",
+    "version": "official full HTML",
+    "source_file": "Habib_Venditti_2018.html",
+    "full_text_status": "Full HTML saved; section4 and conclusions examined",
+    "retrieved_via": [
+      "Undermind",
+      "official ECB source"
+    ],
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s37",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "sha256": "52849722ba4adf40fd78eff40a5a5b01469fa3a270f9471dd59cb40b26ed3b0d",
+    "file": "revision16/sources/Habib_Venditti_2018.html",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "review_stage": "chapter1_2026-10-16",
+    "full_text": {
+      "status": "html_saved",
+      "file": "revision16/sources/Habib_Venditti_2018.html",
+      "source_url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2018/html/ecb.ebart201806_01.en.html",
+      "version": "official full HTML",
+      "sha256": "52849722ba4adf40fd78eff40a5a5b01469fa3a270f9471dd59cb40b26ed3b0d",
+      "retrieved_at": "2026-10-15"
+    },
+    "chapter1_reference": "Habib M. M., Venditti F. The Global Financial Cycle: Implications for the Global Economy and the Euro Area. ECB Economic Bulletin. 2018. Issue 6.",
+    "chapter1_review_note": "Совместная динамика стресса при возможном расхождении широких финансовых условий США и еврозоны."
+  },
+  {
+    "id": "S38",
+    "author": "Bruno, Valentina and Shin, Hyun Song",
+    "year": "2015",
+    "title": "Cross-Border Banking and Global Liquidity",
+    "journal": "Review of Economic Studies82(2),535-564",
+    "doi": "",
+    "url": "https://www.bis.org/publications/working-paper-458-cross-border-banking-and-global-liquidity",
+    "version": "BIS WP458 August2014; journal2015 same work",
+    "source_file": "Bruno_Shin_BIS458.pdf",
+    "full_text_status": "PDF downloaded; abstract and introduction PDF pages3-7 examined",
+    "retrieved_via": [
+      "official BIS source"
+    ],
+    "review_date": "2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s38",
+    "review_note": "Not a full replication; examined source sections explicitly listed.",
+    "file": "revision16/sources/Bruno_Shin_BIS458.pdf",
+    "sha256": "96d1a2caf837c00d42ef304c646900364590a645b1c26b33b1fe4dfc46960215",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "review_stage": "chapter1_2026-10-16",
+    "full_text": {
+      "status": "downloaded",
+      "file": "revision16/sources/Bruno_Shin_BIS458.pdf",
+      "source_url": "https://www.bis.org/publications/working-paper-458-cross-border-banking-and-global-liquidity",
+      "version": "BIS WP458 August2014; journal2015 same work",
+      "sha256": "96d1a2caf837c00d42ef304c646900364590a645b1c26b33b1fe4dfc46960215",
+      "retrieved_at": "2026-10-15"
+    },
+    "chapter1_reference": "Bruno V., Shin H. S. Cross-Border Banking and Global Liquidity. BIS Working Paper No. 458. 2014. Журнальная версия: Review of Economic Studies. 2015. Vol. 82, No. 2. P. 535–564.",
+    "chapter1_review_note": "Цикл банковского рычага, валовые потоки капитала и глобальная ликвидность. Проверены аннотация, введение и выводы BIS WP458."
+  },
+  {
+    "id": "S39",
+    "author": "Giacomini, Raffaella and White, Halbert",
+    "year": "2006",
+    "title": "Tests of Conditional Predictive Ability",
+    "journal": "Econometrica 74(6), 1545-1578",
+    "doi": "10.1111/j.1468-0262.2006.00718.x",
+    "url": "https://doi.org/10.1111/j.1468-0262.2006.00718.x",
+    "relevance": "Fixed rolling-window predictive-procedure comparison, including nested models; constant-instrument unconditional case",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "official publisher metadata",
+      "EconWPA open working paper"
+    ],
+    "full_text": {
+      "status": "downloaded",
+      "file": "revision18/sources/Giacomini_White_2003.pdf",
+      "version": "Working paper, 2003; journal publication 2006",
+      "source_url": "https://econwpa.ub.uni-muenchen.de/econ-wp/em/papers/0308/0308001.pdf",
+      "sha256": "712ea4b631759231a36a7c6680131a4ce65d1500da5ebb7135e56989d85be2df"
+    },
+    "review_stage": "chapter1_2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s39",
+    "review_date": "2026-10-16",
+    "chapter1_reference": "Giacomini R., White H. Tests of Conditional Predictive Ability. Econometrica. 2006. Vol. 74, No. 6. P. 1545–1578. DOI: 10.1111/j.1468-0262.2006.00718.x.",
+    "chapter1_review_note": "Сравнивается прогнозная процедура, а не одна формула. Условия применимости не объявляются автоматически выполненными."
+  },
+  {
+    "id": "S40",
+    "author": "Matheson, Troy D.",
+    "year": "2011",
+    "title": "Financial Conditions Indexes for the United States and Euro Area",
+    "journal": "IMF Working Paper 11/93",
+    "doi": "10.5089/9781455253326.001",
+    "url": "https://www.imf.org/en/publications/wp/issues/2016/12/31/financial-conditions-indexes-for-the-united-states-and-euro-area-24814",
+    "relevance": "Earlier US-euro area financial linkages, real-time index construction and revision properties; limits novelty claims",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "retrieved_via": [
+      "Consensus search and fetch 2026-10-16",
+      "IMF official publication page and eLibrary"
+    ],
+    "full_text": {
+      "status": "downloaded",
+      "file": "papers/S40.pdf",
+      "source_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2011/_wp1193.pdf",
+      "resolved_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2011/_wp1193.pdf",
+      "sha256": "558ed1090022286b909d390e2883b231e55ee0c77bea4288d3579e7fb0410ffb",
+      "pages": 11,
+      "retrieved_at": "2026-10-16",
+      "version": "IMF Working Paper 11/93"
+    },
+    "review_stage": "chapter1_2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s40",
+    "review_date": "2026-10-16",
+    "chapter1_reference": "Matheson T. D. Financial Conditions Indexes for the United States and Euro Area. IMF Working Paper No. 11/93. 2011. DOI: 10.5089/9781455253326.001.",
+    "chapter1_review_note": "Полный PDF ранее отсутствовал; получен по актуальной ссылке IMF. Проверены факторная конструкция, публикационные лаги, свойства версий и прогнозная мотивация."
+  },
+  {
+    "id": "S41",
+    "author": "Brave, Scott A. and Kelley, David",
+    "year": "2017",
+    "title": "Introducing the Chicago Fed’s New Adjusted National Financial Conditions Index",
+    "journal": "Chicago Fed Letter 386",
+    "doi": "",
+    "url": "https://www.chicagofed.org/publications/chicago-fed-letter/2017/386",
+    "priority": "основная",
+    "relevance": "Определение и обновление ANFCI, различия с NFCI. Полный PDF уже находился в revision19; в текущем дополнении включён в общий реестр.",
+    "full_text": {
+      "status": "downloaded",
+      "file": "papers/S41.pdf",
+      "version": "Chicago Fed Letter 386, 2017; same PDF already in revision19/sources/ANFCI_method2017.pdf",
+      "source_url": "https://www.chicagofed.org/publications/chicago-fed-letter/2017/386",
+      "sha256": "6f5987b52fab615277481e8b05327da571a193a608e815157026d2bf92a77731",
+      "retrieved_at": "2026-10-16"
+    },
+    "review_stage": "chapter1_2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s41",
+    "review_date": "2026-10-16",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "chapter1_reference": "Brave S. A., Kelley D. Introducing the Chicago Fed’s New Adjusted National Financial Conditions Index. Chicago Fed Letter. 2017. No. 386.",
+    "chapter1_review_note": "Определение ANFCI и изменение 2017 года; учитываются макрокорректировки и различия весов, без интерпретации как чистого структурного шока."
+  },
+  {
+    "id": "S42",
+    "author": "Hatzius, Jan and Hooper, Peter and Mishkin, Frederic S. and Schoenholtz, Kermit L. and Watson, Mark W.",
+    "year": "2010",
+    "title": "Financial Conditions Indexes: A Fresh Look after the Financial Crisis",
+    "journal": "NBER Working Paper 16150",
+    "doi": "10.3386/w16150",
+    "url": "https://www.nber.org/papers/w16150",
+    "priority": "основная",
+    "relevance": "Определение финансовых условий и различие между собственно финансовой и общей макроэкономической информацией.",
+    "full_text": {
+      "status": "downloaded",
+      "file": "papers/S42.pdf",
+      "source_url": "https://www.nber.org/system/files/working_papers/w16150/w16150.pdf",
+      "resolved_url": "https://www.nber.org/system/files/working_papers/w16150/w16150.pdf",
+      "sha256": "205fdf53c9a46031454d7d59f9ed0787fafba283a0ccaeadab3acd1a7f752d1d",
+      "pages": 58,
+      "retrieved_at": "2026-10-16",
+      "version": "NBER Working Paper 16150"
+    },
+    "review_stage": "chapter1_2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s42",
+    "review_date": "2026-10-16",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "chapter1_reference": "Hatzius J., Hooper P., Mishkin F. S., Schoenholtz K. L., Watson M. W. Financial Conditions Indexes: A Fresh Look after the Financial Crisis. NBER Working Paper No. 16150. 2010. DOI: 10.3386/w16150.",
+    "chapter1_review_note": "Финансовые условия включают цены, количества и обследования; проверены определение и обзор механизмов."
+  },
+  {
+    "id": "S43",
+    "author": "Bernanke, Ben S. and Gertler, Mark and Gilchrist, Simon",
+    "year": "1998",
+    "title": "The Financial Accelerator in a Quantitative Business Cycle Framework",
+    "journal": "NBER Working Paper 6455",
+    "doi": "10.3386/w6455",
+    "url": "https://www.nber.org/papers/w6455",
+    "priority": "основная",
+    "relevance": "Теоретический механизм усиления колебаний через баланс заёмщика и премию за внешнее финансирование.",
+    "full_text": {
+      "status": "downloaded",
+      "file": "papers/S43.pdf",
+      "source_url": "https://www.nber.org/system/files/working_papers/w6455/w6455.pdf",
+      "resolved_url": "https://www.nber.org/system/files/working_papers/w6455/w6455.pdf",
+      "sha256": "e48913777b4c0a18b15d6a1d2f5f98a96317ba5c87c785dd8ddc5dedbfdbefdf",
+      "pages": 75,
+      "retrieved_at": "2026-10-16",
+      "version": "NBER Working Paper 6455"
+    },
+    "review_stage": "chapter1_2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s43",
+    "review_date": "2026-10-16",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "chapter1_reference": "Bernanke B. S., Gertler M., Gilchrist S. The Financial Accelerator in a Quantitative Business Cycle Framework. NBER Working Paper No. 6455. 1998. DOI: 10.3386/w6455.",
+    "chapter1_review_note": "Финансовый акселератор, внешний финансовый премиум и баланс заёмщика. PDF сканирован; проверены аннотация и введение с OCR."
+  },
+  {
+    "id": "S44",
+    "author": "Bletzinger, Tilman and Martorana, Giulia and Mistak, Jakub",
+    "year": "2026",
+    "title": "Looser, Tighter, Clearer: A New Financial Conditions Index for the Euro Area",
+    "journal": "ECB Working Paper 3193",
+    "doi": "10.2866/8467971",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3193~9db57822d4.en.pdf",
+    "priority": "дополнительная",
+    "relevance": "Современный подход к измерению FCI с совместной оценкой макрофинансовой VAR; контекст выбора индекса, а не замена нашей модели.",
+    "full_text": {
+      "status": "downloaded",
+      "file": "papers/S44.pdf",
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3193~9db57822d4.en.pdf",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3193~9db57822d4.en.pdf",
+      "sha256": "71740ec1836e92f04f8d0d6b78d40fd57bc3fda53d4268c25721b4a78b7f2b99",
+      "pages": 46,
+      "retrieved_at": "2026-10-16",
+      "version": "ECB Working Paper 3193"
+    },
+    "review_stage": "chapter1_2026-10-16",
+    "review_card": "chapter1/SOURCE_REVIEW.md#s44",
+    "review_date": "2026-10-16",
+    "read_status": "Проверены полный текст в доступной версии, постановка и релевантные разделы; математические доказательства и расчёты независимо не воспроизводились",
+    "chapter1_reference": "Bletzinger T., Martorana G., Mistak J. Looser, Tighter, Clearer: A New Financial Conditions Index for the Euro Area. ECB Working Paper No. 3193. 2026. DOI: 10.2866/8467971.",
+    "chapter1_review_note": "Совместное оценивание FCI и макрофинансовой VAR; новый контекст измерения. Не включается задним числом в наш прогнозный набор."
+  }
+]

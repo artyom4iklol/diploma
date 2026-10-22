@@ -1,0 +1,84 @@
+4 Financial market developments
+4.1 Money market interest rates
+(percentages per annum; period averages)
+
+                                                                             Euro area 1)                                                                       United States                 Japan
+
+              Euro short-term                 Overnight                1-month                   3-month               6-month                12-month              3-month                 3-month
+                          rate                  deposits               deposits                  deposits              deposits                deposits             deposits                deposits
+                    (€STR) 2)                 (EONIA) 3)            (EURIBOR)                 (EURIBOR)             (EURIBOR)               (EURIBOR)               (LIBOR)                 (LIBOR)
+
+                                 1                         2                       3                         4                     5                   6                     7                    8
+2019                         -0.48                   -0.39                   -0.40                   -0.36                     -0.30               -0.22                 2.33                 -0.08
+2020                         -0.55                   -0.46                   -0.50                   -0.43                     -0.37               -0.31                 0.64                 -0.07
+2021                         -0.57                   -0.48                   -0.56                   -0.55                     -0.52               -0.49                 0.16                 -0.08
+2021 Nov.                    -0.57                   -0.49                   -0.57                   -0.57                     -0.53               -0.49                 0.16                 -0.09
+     Dec.                    -0.58                   -0.49                   -0.60                   -0.58                     -0.54               -0.50                 0.21                 -0.08
+2022 Jan.                    -0.58                         -                 -0.56                   -0.56                     -0.53               -0.48                 0.25                 -0.03
+     Feb.                    -0.58                         -                 -0.55                   -0.53                     -0.48               -0.34                 0.43                 -0.02
+     Mar.                    -0.58                         -                 -0.54                   -0.50                     -0.42               -0.24                 0.84                 -0.01
+     Apr.                    -0.58                         -                 -0.54                   -0.45                     -0.31                0.01                 1.10                 -0.01
+     May                     -0.58                         -                 -0.55                   -0.39                     -0.14                0.29                 1.47                 -0.02
+Source: Refinitiv and ECB calculations.
+1) Data refer to the changing composition of the euro area, see the General Notes.
+2) The ECB published the euro short-term rate (€STR) for the first time on 2 October 2019, reflecting trading activity on 1 October 2019. Data on previous periods refer to the
+   pre-€STR, which was published for information purposes only and not intended for use as a benchmark or reference rate in any market transactions.
+3) The European Money Markets Institute discontinued EONIA on 3 January 2022.
+
+
+
+4.2 Yield curves
+(End of period; rates in percentages per annum; spreads in percentage points)
+
+                                          Spot rates                                                             Spreads                                   Instantaneous forward rates
+
+                                       Euro area 1), 2)                                 Euro area 1), 2) United States United Kingdom                             Euro area 1), 2)
+
+             3 months          1 year        2 years           5 years    10 years            10 years           10 years              10 years      1 year       2 years       5 years 10 years
+                                                                                               - 1 year           - 1 year              - 1 year
+
+                         1            2               3             4               5                6                     7                  8             9          10             11         12
+2019             -0.68          -0.66             -0.62         -0.45        -0.14                0.52               0.34                  0.24       -0.62         -0.52         -0.13        0.41
+2020             -0.75          -0.76             -0.77         -0.72        -0.57                0.19               0.80                  0.32       -0.77         -0.77         -0.60       -0.24
+2021             -0.73          -0.72             -0.68         -0.48        -0.19                0.53               1.12                  0.45       -0.69         -0.58         -0.12        0.24
+2021 Nov.        -0.90          -0.85             -0.82         -0.64        -0.35                0.50               1.23                  0.49       -0.81         -0.73         -0.30        0.07
+     Dec.        -0.73          -0.72             -0.68         -0.48        -0.19                0.53               1.12                  0.45       -0.69         -0.58         -0.12        0.24
+2022 Jan.        -0.70          -0.66             -0.57         -0.27            0.03             0.69               1.00                  0.37       -0.59         -0.36            0.17      0.40
+     Feb.        -0.73          -0.68             -0.54         -0.11            0.22             0.90               0.81                  0.44       -0.56         -0.21            0.42      0.59
+     Mar.        -0.70          -0.49             -0.09          0.42            0.62             1.11               0.73                  0.35       -0.05          0.58            0.81      0.81
+     Apr.        -0.59          -0.26              0.21          0.74            0.94             1.20               0.85                  0.42        0.30          0.94            1.13      1.14
+     May         -0.38          -0.08              0.36          0.97            1.22             1.30               0.78                  0.58        0.40          1.10            1.47      1.47
+Source: ECB calculations.
+1) Data refer to the changing composition of the euro area, see the General Notes.
+2) ECB calculations based on underlying data provided by Euro MTS Ltd and ratings provided by Fitch Ratings.
+
+
+
+4.3 Stock market indices
+(index levels in points; period averages)
+
+                                                                         Dow Jones EURO STOXX indices                                                                            United       Japan
+                                                                                                                                                                                 States
+                Benchmark                                                                     Main industry indices
+
+             Broad             50       Basic Consumer Consumer Oil and Financials Industrials Technology Utilities Telecoms Health care Standard                                             Nikkei
+             index                   materials services   goods     gas                                                                  & Poor’s                                               225
+                                                                                                                                              500
+
+                     1          2             3                 4            5            6              7           8                 9      10           11           12            13         14
+2018         375.5 3,386.6                766.3           264.9          172.6     115.8         173.1           629.5          502.5      278.8     292.9          800.5     2,746.2 22,310.7
+2019         373.6 3,435.2                731.7           270.8          183.7     111.9         155.8           650.9          528.2      322.0     294.2          772.7     2,915.5 21,697.2
+2020         360.0 3,274.3                758.9           226.8          163.2      83.1         128.6           631.4          630.2      347.1     257.6          831.9     3,217.3 22,703.5
+2021 Nov. 478.7 4,306.4               1,020.6             311.7          191.9     100.4         176.9           859.8         1,002.3     380.2     286.3          933.0     4,668.9 29,370.6
+     Dec. 469.1 4,207.9               1,020.3             303.9          189.5      99.9         172.3           846.9           961.1     383.4     283.8          909.0     4,677.0 28,514.2
+2022 Jan. 471.0          4,252.3      1,031.4             300.2          190.1     107.0         185.0           846.7          910.8      385.5     281.3          887.8     4,573.8 27,904.0
+     Feb. 452.7          4,084.1        978.2             285.0          180.8     107.8         185.6           805.7          823.6      374.5     286.1          863.7     4,436.0 27,066.5
+     Mar. 422.1          3,796.6        942.7             253.7          172.5     103.1         160.8           762.7          791.8      351.9     279.7          858.7     4,391.3 26,584.1
+     Apr. 428.9          3,837.3        984.0             255.1          179.2     106.2         164.1           751.7          772.3      370.6     298.1          912.6     4,391.3 27,043.3
+     May 413.5           3,691.8        974.9             238.2          172.6     113.1         158.1           725.8          724.2      369.5     298.3          864.5     4,040.4 26,653.8
+Source: Refinitiv.
+
+
+
+
+ECB Economic Bulletin, Issue 4 / 2022 - Statistics                                                                                                                                            S 13

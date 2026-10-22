@@ -1,0 +1,26 @@
+{
+  "prior_file_entries": 888,
+  "all_entries_retained": true,
+  "changed_files": [
+    "CHANGELOG.md",
+    "README.md",
+    "manuscript/ASSEMBLY.json",
+    "manuscript/ASSEMBLY_NOTES.md",
+    "manuscript/Appendices.md",
+    "manuscript/Bibliography.md",
+    "manuscript/Conclusion.md",
+    "manuscript/Diploma_US_Financial_Conditions_Euro_Area.md",
+    "manuscript/Introduction.md",
+    "manuscript/VERIFICATION.json",
+    "manuscript/assemble.py",
+    "manuscript/sections/appendices.md",
+    "manuscript/sections/chapter-1.md",
+    "manuscript/sections/chapter-2.md",
+    "manuscript/sections/chapter-3.md",
+    "manuscript/sections/conclusion.md",
+    "manuscript/sections/introduction.md",
+    "manuscript/sections/references.md",
+    "manuscript/verify_manuscript.py"
+  ],
+  "prior_bytes_saved_in_history": true
+}

@@ -1,0 +1,30 @@
+{
+  "origins": 59,
+  "complete_origins": 59,
+  "missing_origins": [],
+  "evaluation_counts": {
+    "1": 58,
+    "4": 55
+  },
+  "all_public_dates_before_forecast": true,
+  "future_mutations": [
+    {
+      "origin": "2018Q4",
+      "future_rows_mutated": 852,
+      "max_feature_change": 0.0
+    },
+    {
+      "origin": "2020Q1",
+      "future_rows_mutated": 837,
+      "max_feature_change": 0.0
+    },
+    {
+      "origin": "2023Q1",
+      "future_rows_mutated": 727,
+      "max_feature_change": 0.0
+    }
+  ],
+  "current_history_used": false,
+  "repair_months": 4,
+  "protocol_sha256": "f9d116fdf5ce8d624048a1d043b6412e2226fbdd86872dc429bb5b6510beddf7"
+}

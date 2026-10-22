@@ -1,0 +1,50 @@
+{
+  "origins": 59,
+  "complete_origin_predictors": 59,
+  "evaluated_pairs": 113,
+  "GDP_legacy_vintage_crosschecks": 16,
+  "ESI_legacy_vintage_crosschecks": 16,
+  "API_legacy_max_difference": 0.0,
+  "public_dates_pass": true,
+  "future_mutation": [
+    {
+      "origin": "2018Q4",
+      "series": "gdp",
+      "future_event_rows_mutated": 5980,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2018Q4",
+      "series": "esi",
+      "future_event_rows_mutated": 8368,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2020Q1",
+      "series": "gdp",
+      "future_event_rows_mutated": 5100,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2020Q1",
+      "series": "esi",
+      "future_event_rows_mutated": 7701,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2023Q1",
+      "series": "gdp",
+      "future_event_rows_mutated": 2746,
+      "max_input_difference": 0.0
+    },
+    {
+      "origin": "2023Q1",
+      "series": "esi",
+      "future_event_rows_mutated": 6016,
+      "max_input_difference": 0.0
+    }
+  ],
+  "repairs": "published rounded values; retained prior public ESI history during API deletion; no imputed GDP levels",
+  "geography": "historical moving policy concept; retained older ESI definitions during archive gap",
+  "important_limit": "Conservative implementable archived-information experiment, not exact reconstruction of all market-available information or every internal vintage"
+}

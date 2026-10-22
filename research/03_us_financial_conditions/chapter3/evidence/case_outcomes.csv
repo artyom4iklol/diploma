@@ -1,0 +1,5 @@
+origin,h,target_start,target_end,maturity_deadline,matured_snapshot,matured_public_date,actual,actual_latest,latest_snapshot,target_definition,forecast_date,raw_winner,winner_loss,raw_hits
+2020Q4,1,2021Q1,2021Q1,2021-09-30,2021-09-08,2021-09-23,-1.1515647006657022,3.587785893981067,2026-09-09,"within-vintage log growth, moving policy concept, six-month maturity bound",2021-01-15,HIST,0.005086479640307418,4
+2020Q4,4,2021Q1,2021Q4,2022-06-30,2022-06-08,2022-06-23,4.537373739722564,5.545357858363867,2026-09-09,"within-vintage log growth, moving policy concept, six-month maturity bound",2021-01-15,AR_ESI_ANFCI,0.15814203741228214,4
+2024Q4,1,2025Q1,2025Q1,2025-09-30,2025-09-10,2025-09-25,2.2366278562332798,1.956725487234693,2026-09-09,"within-vintage log growth, moving policy concept, six-month maturity bound",2025-01-15,AR_ESI_NFCI,0.23963821489943016,0
+2024Q4,4,2025Q1,2025Q4,2026-06-30,2026-06-10,2026-06-25,1.207537527779827,1.0666935623290548,2026-09-09,"within-vintage log growth, moving policy concept, six-month maturity bound",2025-01-15,AR_ESI_ANFCI,0.043237839096817755,0

@@ -1,0 +1,64 @@
+{
+  "forecasts": 2460,
+  "raw_aggregation_matches": true,
+  "archived_comparisons": {
+    "expanding_lag1": {
+      "n": 369,
+      "max_abs_error": 9.965361869035405e-13
+    },
+    "rolling52": {
+      "n": 615,
+      "max_abs_error": 1.2168044349891716e-13
+    }
+  },
+  "independent_solver_checks": [
+    {
+      "h": 1,
+      "origin": "2010Q1",
+      "objective_difference": 3.552713678800501e-15,
+      "prediction_difference": 2.220446049250313e-16
+    },
+    {
+      "h": 1,
+      "origin": "2020Q4",
+      "objective_difference": 0.0,
+      "prediction_difference": 7.105427357601002e-15
+    },
+    {
+      "h": 1,
+      "origin": "2025Q1",
+      "objective_difference": 1.4210854715202004e-14,
+      "prediction_difference": 1.1657341758564144e-15
+    },
+    {
+      "h": 4,
+      "origin": "2010Q1",
+      "objective_difference": 1.7763568394002505e-15,
+      "prediction_difference": 1.1102230246251565e-15
+    },
+    {
+      "h": 4,
+      "origin": "2020Q4",
+      "objective_difference": -7.105427357601002e-15,
+      "prediction_difference": 1.7763568394002505e-15
+    }
+  ],
+  "future_mutation": [
+    {
+      "h": 1,
+      "difference": 0.0
+    },
+    {
+      "h": 4,
+      "difference": 0.0
+    }
+  ],
+  "full_rank": true,
+  "common_origins": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  }
+}

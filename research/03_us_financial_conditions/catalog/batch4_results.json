@@ -1,0 +1,27 @@
+[
+  {
+    "id": "S22",
+    "source_url": "https://www.stat.washington.edu/research/reports/2008/tr533.pdf",
+    "version": "University of Washington Technical Report 533, 2008",
+    "retrieved_at": "2026-10-01",
+    "status": "unavailable",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "S31",
+    "source_url": "https://dspace.tul.cz/bitstreams/03e9efdf-d2ff-4917-a9ed-8f5575089898/download",
+    "version": "Journal article, 2020",
+    "retrieved_at": "2026-10-01",
+    "status": "unavailable",
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "id": "S32",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S1572308922000328/pdf",
+    "version": "Journal article",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.sciencedirect.com/science/article/pii/S1572308922000328/pdf",
+    "status": "unavailable",
+    "error": "Response is not a PDF"
+  }
+]

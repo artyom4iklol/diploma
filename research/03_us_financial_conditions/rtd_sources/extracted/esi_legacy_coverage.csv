@@ -1,0 +1,169 @@
+vintage_file,vintage_month,rows,source_key,description,first,last
+monthly_200101.csv,200101,0,ECOSEN.I2.M,NA,,
+monthly_200102.csv,200102,0,ECOSEN.I2.M,NA,,
+monthly_200103.csv,200103,0,ECOSEN.I2.M,NA,,
+monthly_200104.csv,200104,0,ECOSEN.I2.M,NA,,
+monthly_200105.csv,200105,0,ECOSEN.I2.M,NA,,
+monthly_200106.csv,200106,0,ECOSEN.I2.M,NA,,
+monthly_200107.csv,200107,0,ECOSEN.I2.M,NA,,
+monthly_200108.csv,200108,0,ECOSEN.I2.M,NA,,
+monthly_200109.csv,200109,0,ECOSEN.I2.M,NA,,
+monthly_200110.csv,200110,0,ECOSEN.I2.M,NA,,
+monthly_200111.csv,200111,0,ECOSEN.I2.M,NA,,
+monthly_200112.csv,200112,0,ECOSEN.I2.M,NA,,
+monthly_200201.csv,200201,0,ECOSEN.I2.M,NA,,
+monthly_200202.csv,200202,265,ECOSEN.I2.M,NA,1980-01,2002-01
+monthly_200203.csv,200203,266,ECOSEN.I2.M,NA,1980-01,2002-02
+monthly_200204.csv,200204,267,ECOSEN.I2.M,NA,1980-01,2002-03
+monthly_200205.csv,200205,267,ECOSEN.I2.M,NA,1980-01,2002-03
+monthly_200206.csv,200206,269,ECOSEN.I2.M,NA,1980-01,2002-05
+monthly_200207.csv,200207,270,ECOSEN.I2.M,NA,1980-01,2002-06
+monthly_200208.csv,200208,270,ECOSEN.I2.M,NA,1980-01,2002-06
+monthly_200209.csv,200209,271,ECOSEN.I2.M,NA,1980-01,2002-07
+monthly_200210.csv,200210,273,ECOSEN.I2.M,NA,1980-01,2002-09
+monthly_200211.csv,200211,274,ECOSEN.I2.M,NA,1980-01,2002-10
+monthly_200212.csv,200212,275,ECOSEN.I2.M,NA,1980-01,2002-11
+monthly_200301.csv,200301,276,ECOSEN.I2.M,NA,1980-01,2002-12
+monthly_200302.csv,200302,277,ECOSEN.I2.M,NA,1980-01,2003-01
+monthly_200303.csv,200303,278,ECOSEN.I2.M,NA,1980-01,2003-02
+monthly_200304.csv,200304,279,ECOSEN.I2.M,NA,1980-01,2003-03
+monthly_200305.csv,200305,280,ECOSEN.I2.M,NA,1980-01,2003-04
+monthly_200306.csv,200306,281,ECOSEN.I2.M,NA,1980-01,2003-05
+monthly_200307.csv,200307,282,ECOSEN.I2.M,NA,1980-01,2003-06
+monthly_200308.csv,200308,283,ECOSEN.I2.M,NA,1980-01,2003-07
+monthly_200309.csv,200309,283,ECOSEN.I2.M,NA,1980-01,2003-07
+monthly_200310.csv,200310,285,ECOSEN.I2.M,NA,1980-01,2003-09
+monthly_200311.csv,200311,286,ECOSEN.I2.M,NA,1980-01,2003-10
+monthly_200312.csv,200312,287,ECOSEN.I2.M,NA,1980-01,2003-11
+monthly_200401.csv,200401,288,ECOSEN.I2.M,NA,1980-01,2003-12
+monthly_200402.csv,200402,289,ECOSEN.I2.M,NA,1980-01,2004-01
+monthly_200403.csv,200403,290,ECOSEN.I2.M,NA,1980-01,2004-02
+monthly_200404.csv,200404,291,ECOSEN.I2.M,NA,1980-01,2004-03
+monthly_200405.csv,200405,292,ECOSEN.I2.M,NA,1980-01,2004-04
+monthly_200406.csv,200406,293,ECOSEN.I2.M,NA,1980-01,2004-05
+monthly_200407.csv,200407,294,ECOSEN.I2.M,NA,1980-01,2004-06
+monthly_200408.csv,200408,295,ECOSEN.I2.M,NA,1980-01,2004-07
+monthly_200409.csv,200409,295,ECOSEN.I2.M,NA,1980-01,2004-07
+monthly_200410.csv,200410,297,ECOSEN.I2.M,NA,1980-01,2004-09
+monthly_200411.csv,200411,298,ECOSEN.I2.M,NA,1980-01,2004-10
+monthly_200412.csv,200412,299,ECOSEN.I2.M,NA,1980-01,2004-11
+monthly_200501.csv,200501,300,ECOSEN.I2.M,NA,1980-01,2004-12
+monthly_200502.csv,200502,301,ECOSEN.I2.M,NA,1980-01,2005-01
+monthly_200503.csv,200503,302,ECOSEN.I2.M,NA,1980-01,2005-02
+monthly_200504.csv,200504,303,ECOSEN.I2.M,NA,1980-01,2005-03
+monthly_200505.csv,200505,305,ECOSEN.I2.M,NA,1980-01,2005-05
+monthly_200506.csv,200506,306,ECOSEN.I2.M,NA,1980-01,2005-06
+monthly_200507.csv,200507,306,ECOSEN.I2.M,NA,1980-01,2005-06
+monthly_200508.csv,200508,306,ECOSEN.I2.M,NA,1980-01,2005-06
+monthly_200509.csv,200509,307,ECOSEN.I2.M,NA,1980-01,2005-07
+monthly_200510.csv,200510,309,ECOSEN.I2.M,NA,1980-01,2005-09
+monthly_200511.csv,200511,310,ECOSEN.I2.M,NA,1980-01,2005-10
+monthly_200512.csv,200512,311,ECOSEN.I2.M,NA,1980-01,2005-11
+monthly_200601.csv,200601,312,ECOSEN.I2.M,NA,1980-01,2005-12
+monthly_200602.csv,200602,313,ECOSEN.I2.M,NA,1980-01,2006-01
+monthly_200603.csv,200603,314,ECOSEN.I2.M,NA,1980-01,2006-02
+monthly_200604.csv,200604,315,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-03
+monthly_200605.csv,200605,316,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-04
+monthly_200606.csv,200606,317,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-05
+monthly_200607.csv,200607,318,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-06
+monthly_200608.csv,200608,319,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-07
+monthly_200609.csv,200609,319,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-07
+monthly_200610.csv,200610,321,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-09
+monthly_200611.csv,200611,322,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-10
+monthly_200612.csv,200612,323,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-11
+monthly_200701.csv,200701,324,SUR.M.I2.S.ECFIN.ESI000.TT,"MU12 (euro area including Greece) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), cons",1980-01,2006-12
+monthly_200702.csv,200702,265,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-01
+monthly_200703.csv,200703,266,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-02
+monthly_200704.csv,200704,267,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-03
+monthly_200705.csv,200705,268,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-04
+monthly_200706.csv,200706,269,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-05
+monthly_200707.csv,200707,270,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-06
+monthly_200708.csv,200708,271,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-07
+monthly_200709.csv,200709,272,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-08
+monthly_200710.csv,200710,273,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-09
+monthly_200711.csv,200711,274,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-10
+monthly_200712.csv,200712,275,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-11
+monthly_200801.csv,200801,276,SUR.M.I3.S.ECFIN.ESI000.TT,"MU13 (euro area including Slovenia) - Economic Sentiment Indicator; DG-ECFIN Code: VAL.EA.ESIN.M - Additional documentation: Economic sentiment indicator (ESI) is a composite indicator calculated as the weighted average of the components of the confidence indicators for industry (weight: 40%), services (weight 30%), co",1985-01,2007-12
+monthly_200802.csv,200802,277,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-01
+monthly_200803.csv,200803,278,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-02
+monthly_200804.csv,200804,279,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-03
+monthly_200805.csv,200805,280,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-04
+monthly_200806.csv,200806,281,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-05
+monthly_200807.csv,200807,282,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-06
+monthly_200808.csv,200808,283,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-07
+monthly_200809.csv,200809,284,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-08
+monthly_200810.csv,200810,285,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-09
+monthly_200811.csv,200811,286,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-10
+monthly_200812.csv,200812,287,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-11
+monthly_200901.csv,200901,288,SUR.M.I4.S.ECFIN.ESI000.TT,NA,1985-01,2008-12
+monthly_200902.csv,200902,289,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-01
+monthly_200903.csv,200903,290,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-02
+monthly_200904.csv,200904,291,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-03
+monthly_200905.csv,200905,292,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-04
+monthly_200906.csv,200906,293,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-05
+monthly_200907.csv,200907,294,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-06
+monthly_200908.csv,200908,295,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-07
+monthly_200909.csv,200909,296,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-08
+monthly_200910.csv,200910,297,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-09
+monthly_200911.csv,200911,298,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-10
+monthly_200912.csv,200912,299,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-11
+monthly_201001.csv,201001,300,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2009-12
+monthly_201002.csv,201002,301,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-01
+monthly_201003.csv,201003,302,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-02
+monthly_201004.csv,201004,303,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-03
+monthly_201005.csv,201005,304,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-04
+monthly_201006.csv,201006,305,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-05
+monthly_201007.csv,201007,306,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-06
+monthly_201008.csv,201008,307,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-07
+monthly_201009.csv,201009,308,SUR.M.I5.S.ECFIN.ESI000.TT,"Euro area 16 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted",1985-01,2010-08
+monthly_201010.csv,201010,309,SUR.M.I5.S.ECFIN.ESI000.TT,NA,1985-01,2010-09
+monthly_201011.csv,201011,310,SUR.M.I5.S.ECFIN.ESI000.TT,NA,1985-01,2010-10
+monthly_201012.csv,201012,311,SUR.M.I5.S.ECFIN.ESI000.TT,NA,1985-01,2010-11
+monthly_201101.csv,201101,312,SUR.M.I5.S.ECFIN.ESI000.TT,NA,1985-01,2010-12
+monthly_201102.csv,201102,313,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-01
+monthly_201103.csv,201103,314,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-02
+monthly_201104.csv,201104,315,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-03
+monthly_201105.csv,201105,316,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-04
+monthly_201106.csv,201106,317,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-05
+monthly_201107.csv,201107,318,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-06
+monthly_201108.csv,201108,319,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-07
+monthly_201109.csv,201109,320,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-08
+monthly_201110.csv,201110,321,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-09
+monthly_201111.csv,201111,322,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-10
+monthly_201112.csv,201112,323,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-11
+monthly_201201.csv,201201,324,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2011-12
+monthly_201202.csv,201202,325,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-01
+monthly_201203.csv,201203,326,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-02
+monthly_201204.csv,201204,327,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-03
+monthly_201205.csv,201205,328,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-04
+monthly_201206.csv,201206,329,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-05
+monthly_201207.csv,201207,330,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-06
+monthly_201208.csv,201208,331,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-07
+monthly_201209.csv,201209,332,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-08
+monthly_201210.csv,201210,333,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-09
+monthly_201211.csv,201211,334,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-10
+monthly_201212.csv,201212,335,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-11
+monthly_201301.csv,201301,336,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2012-12
+monthly_201302.csv,201302,337,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-01
+monthly_201303.csv,201303,338,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-02
+monthly_201304.csv,201304,339,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-03
+monthly_201305.csv,201305,340,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-04
+monthly_201306.csv,201306,341,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-05
+monthly_201307.csv,201307,342,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-06
+monthly_201308.csv,201308,343,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-07
+monthly_201309.csv,201309,344,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-08
+monthly_201310.csv,201310,345,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-09
+monthly_201311.csv,201311,346,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-10
+monthly_201312.csv,201312,347,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-11
+monthly_201401.csv,201401,347,SUR.M.I6.S.ECFIN.ESI000.TT,"Euro area 17 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2013-11
+monthly_201402.csv,201402,349,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-01
+monthly_201403.csv,201403,350,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-02
+monthly_201404.csv,201404,351,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-03
+monthly_201405.csv,201405,352,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-04
+monthly_201406.csv,201406,353,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-05
+monthly_201407.csv,201407,354,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-06
+monthly_201408.csv,201408,355,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-07
+monthly_201409.csv,201409,356,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-08
+monthly_201410.csv,201410,357,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-09
+monthly_201411.csv,201411,358,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-10
+monthly_201412.csv,201412,359,SUR.M.I7.S.ECFIN.ESI000.TT,"Euro area 18 (fixed composition), EU Commission, DG-ECFIN, Economic sentiment indicator, Total, Seasonally adjusted, not working day adjusted - Percentage balances",1985-01,2014-11

@@ -1,0 +1,333 @@
+[
+  {
+    "quarter": "2009Q4",
+    "candidate_date": "2010-03-04",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04032010-ap",
+    "evidence": "gdp_verified_2009Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area and EU27 GDP up by 0.1% GDP increased by 0.1% in both the euro area (EA16) and the EU27 during the fourth quarter of 2009, compared with the previous quarter, according to first estimates released by Eurostat, the statistical office of the European Union. In the third quarter of 2009, growth rates were +0.4% in the euro area and +0.3% in the EU27. ",
+    "sha256": "b421295944b0ba1c6a45ea0f4f1a58089f4c26c1eb72bf2566fd817c48b13372"
+  },
+  {
+    "quarter": "2010Q1",
+    "candidate_date": "2010-06-04",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062010-ap",
+    "evidence": "gdp_verified_2010Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area and EU27 GDP up by 0.2% GDP increased by 0.2% in both the euro area (EA16) and the EU27 during the first quarter of 2010, compared with the previous quarter, according to first estimates released by Eurostat, the statistical office of the European Union. In the fourth quarter of 2009, growth rates were +0.1% in the euro area and +0.2% in the EU27. ",
+    "sha256": "80d6f361a3e2e5fd362f36c5d37681f3450881431bf17de07e43810e2d7d382e"
+  },
+  {
+    "quarter": "2010Q2",
+    "candidate_date": "2010-09-02",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092010-bp",
+    "evidence": "gdp_verified_2010Q2.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area and EU27 GDP up by 1.0% GDP increased by 1.0% in both the euro area (EA16) and the EU27 during the second quarter of 2010, compared with the previous quarter, according to first estimates released by Eurostat, the statistical office of the European Union. In the first quarter of 2010, growth rates were +0.3% in both zones. ",
+    "sha256": "62ebf3f94d5208aa5c891965616642f98f5bcf8ab2fd85fa347d455f88aa1ced",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092010-bp",
+        "matched": true,
+        "body": "Publication Details Euro area and EU27 GDP up by 1.0% GDP increased by 1.0% in both the euro area (EA16) and the EU27 during the second quarter of 2010, compared with the previous quarter, according to first estimates released by Eurostat, the statistical office of the European Union. In the first quarter of 2010, growth rates were +0.3% in both zones. "
+      }
+    ]
+  },
+  {
+    "quarter": "2010Q3",
+    "candidate_date": "2010-12-02",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02122010-bp",
+    "evidence": "gdp_verified_2010Q3.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP up by 0.4% and EU27 GDP up by 0.5% GDP increased by 0.4% in the euro area (EA16) and by 0.5% in the EU27 during the third quarter of 2010, compared with the previous quarter, according to first estimates released by Eurostat, the statistical office of the European Union. In the second quarter of 2010, growth rates were +1.0% in both zones. ",
+    "sha256": "f944874b50799a1efea8e3149c9f8382cacd6cf031f59a0add99b16accc1d314",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02122010-bp",
+        "matched": true,
+        "body": "Publication Details Euro area GDP up by 0.4% and EU27 GDP up by 0.5% GDP increased by 0.4% in the euro area (EA16) and by 0.5% in the EU27 during the third quarter of 2010, compared with the previous quarter, according to first estimates released by Eurostat, the statistical office of the European Union. In the second quarter of 2010, growth rates were +1.0% in both zones. "
+      }
+    ]
+  },
+  {
+    "quarter": "2010Q4",
+    "candidate_date": "2011-03-03",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03032011-bp",
+    "evidence": "gdp_verified_2010Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP up by 0.3% and EU27 GDP up by 0.2% GDP increased by 0.3% in the euro area (EA16) and by 0.2% in the EU27 during the fourth quarter of 2010, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the third quarter of 2010, growth rates were +0.3% in the euro area and +0.5% in the EU27. ",
+    "sha256": "4884a22e1c185cc5ab38d37f6a5b22f227df81cfa0d8fc5b52b23fa4850cfc0c",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03032011-bp",
+        "matched": true,
+        "body": "Publication Details Euro area GDP up by 0.3% and EU27 GDP up by 0.2% GDP increased by 0.3% in the euro area (EA16) and by 0.2% in the EU27 during the fourth quarter of 2010, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the third quarter of 2010, growth rates were +0.3% in the euro area and +0.5% in the EU27. "
+      }
+    ]
+  },
+  {
+    "quarter": "2011Q1",
+    "candidate_date": "2011-06-08",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08062011-ap",
+    "evidence": "gdp_verified_2011Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP and EU27 GDP up by 0.8% GDP increased by 0.8% in both the euro area (EA17) and the EU27 during the first quarter of 2011, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the fourth quarter of 2010, growth rates were +0.3% in the euro area and +0.2% in the EU27. ",
+    "sha256": "3fb1a1254518079ac462f0dcfb4372d8a35542062f8a400843af8cb95f60b500"
+  },
+  {
+    "quarter": "2011Q2",
+    "candidate_date": "2011-09-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092011-ap",
+    "evidence": "gdp_verified_2011Q2.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP and EU27 GDP up by 0.2% GDP increased by 0.2% in both the euro area (EA17) and the EU27 during the second quarter of 2011, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the first quarter of 2011, growth rates were +0.8% in the euro area and +0.7% in the EU27. ",
+    "sha256": "9deead64688ff26a33a21b5fe2b97ac080a57f59ae6f861a2299bf17fad008cf"
+  },
+  {
+    "quarter": "2011Q3",
+    "candidate_date": "2011-12-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122011-ap",
+    "evidence": "gdp_verified_2011Q3.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.2% in euro area and by 0.3% in EU27 GDP increased by 0.2% in the euro area (EA17) and by 0.3% in the EU27 during the third quarter of 2011, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the second quarter of 2011, growth rates were +0.2% in both zones. ",
+    "sha256": "a44152c2495f962ba3f7b851edd4acd83aca306c7389c4daeed547afbf57447a"
+  },
+  {
+    "quarter": "2011Q4",
+    "candidate_date": "2012-03-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032012-ap",
+    "evidence": "gdp_verified_2011Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area and EU27 GDP down by 0.3% GDP decreased by 0.3% in both the euro area (EA17) and the EU27 during the fourth quarter of 2011, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the third quarter of 2011, growth rates were +0.1% in the euro area and +0.3% in the EU27. ",
+    "sha256": "2aef0560e730317104d376c7646d8c7e606a72b3e0ffa2ba0aab7d766b0df9ad"
+  },
+  {
+    "quarter": "2012Q1",
+    "candidate_date": "2012-06-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062012-ap",
+    "evidence": "gdp_verified_2012Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area and EU27 GDP stable GDP remained stable in both the euro area (EA17) and the EU27 during the first quarter of 2012, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the fourth quarter of 2011, growth rates were -0.3% in both zones. ",
+    "sha256": "db5f4fda21dc97e6d44d76a4bb3513ed372949bdeb67df5b3ba3329f0d3e9eb0"
+  },
+  {
+    "quarter": "2012Q2",
+    "candidate_date": "2012-09-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092012-ap",
+    "evidence": "gdp_verified_2012Q2.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP down by 0.2% and EU27 GDP down by 0.1% GDP decreased by 0.2% in the euro area (EA17) and by 0.1% in the EU27 during the second quarter of 2012, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the first quarter of 2012, growth rates were 0.0% in both zones. ",
+    "sha256": "2c5d62337cd0177b8996b4f634298b521811abc0e3a4e175504c850dcbe64064"
+  },
+  {
+    "quarter": "2012Q3",
+    "candidate_date": "2012-12-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122012-ap",
+    "evidence": "gdp_verified_2012Q3.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP down by 0.1% in the euro area and up by 0.1% in the EU27 GDP fell by 0.1% in the euro area (EA17) and increased by 0.1% in the EU27 during the third quarter of 2012, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the second quarter of 2012, growth rates were -0.2% in both zones. ",
+    "sha256": "937bbb4222951613f72978494f0cb5488822a6ba9a92dea713e804aa3e621495"
+  },
+  {
+    "quarter": "2012Q4",
+    "candidate_date": "2013-03-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032013-ap",
+    "evidence": "gdp_verified_2012Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP down by 0.6% and EU27 down by 0.5% GDP fell by 0.6% in the euro area (EA17) and by 0.5% in the EU27 during the fourth quarter of 2012, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the third quarter of 2012, growth rates were -0.1% and +0.1% respectively. ",
+    "sha256": "7858831b927ed3728179fe10e55b1ec7116355f9a5d69b4ab7385a1748fef751"
+  },
+  {
+    "quarter": "2013Q1",
+    "candidate_date": "2013-06-05",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05062013-bp",
+    "evidence": "gdp_verified_2013Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP down by 0.2% and EU27 down by 0.1% GDP fell by 0.2% in the euro area (EA17) and by 0.1% in the EU27 during the first quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2012, growth rates were -0.6% and -0.5% respectively. ",
+    "sha256": "73e8cabd2c6d973f1c4c4124a9cc1f18efa72bad154a5a425a2801730713c74b",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05062013-bp",
+        "matched": true,
+        "body": "Publication Details Euro area GDP down by 0.2% and EU27 down by 0.1% GDP fell by 0.2% in the euro area (EA17) and by 0.1% in the EU27 during the first quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2012, growth rates were -0.6% and -0.5% respectively. "
+      }
+    ]
+  },
+  {
+    "quarter": "2013Q2",
+    "candidate_date": "2013-09-04",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04092013-bp",
+    "evidence": "gdp_verified_2013Q2.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP up by 0.3% and EU27 up by 0.4% GDP rose by 0.3% in the euro area (EA17) and by 0.4% in the EU27 during the second quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the first quarter of 2013, growth rates were -0.2% and -0.1% respectively. ",
+    "sha256": "57dc3c85f664a73616b642a66dee899e070055893457b0a2385a5723c034f01e",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04092013-bp",
+        "matched": true,
+        "body": "Publication Details Euro area GDP up by 0.3% and EU27 up by 0.4% GDP rose by 0.3% in the euro area (EA17) and by 0.4% in the EU27 during the second quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the first quarter of 2013, growth rates were -0.2% and -0.1% respectively. "
+      }
+    ]
+  },
+  {
+    "quarter": "2013Q3",
+    "candidate_date": "2013-12-04",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04122013-bp",
+    "evidence": "gdp_verified_2013Q3.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP up by 0.1% and EU28 up by 0.2% GDP rose by 0.1% in the euro area (EA17) and by 0.2% in the EU28 during the third quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the second quarter of 2013, growth rates were +0.3% and +0.4% respectively. ",
+    "sha256": "f40ed931ffb73973139222cfeb6e70ee625d5ed645c78c7467dd5da302226cf9",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04122013-bp",
+        "matched": true,
+        "body": "Publication Details Euro area GDP up by 0.1% and EU28 up by 0.2% GDP rose by 0.1% in the euro area (EA17) and by 0.2% in the EU28 during the third quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the second quarter of 2013, growth rates were +0.3% and +0.4% respectively. "
+      }
+    ]
+  },
+  {
+    "quarter": "2013Q4",
+    "candidate_date": "2014-03-05",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05032014-bp",
+    "evidence": "gdp_verified_2013Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP up by 0.3%, EU28 up by 0.4% GDP rose by 0.3% in the euro area (EA17) and by 0.4% in the EU28 during the fourth quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the third quarter of 2013, GDP grew by 0.1% in the euro area and by 0.3% in the EU28. ",
+    "sha256": "8d884064eaf9d35249d22624778820aa53d2a365d31fd5bf85df439a7449476a",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05032014-bp",
+        "matched": true,
+        "body": "Publication Details Euro area GDP up by 0.3%, EU28 up by 0.4% GDP rose by 0.3% in the euro area (EA17) and by 0.4% in the EU28 during the fourth quarter of 2013, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the third quarter of 2013, GDP grew by 0.1% in the euro area and by 0.3% in the EU28. "
+      }
+    ]
+  },
+  {
+    "quarter": "2014Q1",
+    "candidate_date": "2014-06-04",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062014-ap",
+    "evidence": "gdp_verified_2014Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details Euro area GDP up by 0.2%, EU28 up by 0.3% Seasonally adjusted GDP rose by 0.2% in the euro area (EA18) and by 0.3% in the EU28 during the first quarter of 2014, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2013, GDP grew by 0.3% in the euro area and by 0.4% in the EU28. ",
+    "sha256": "cd51a27d15a68c8702cbb8fc7018c887ff49f399d963dbfead317ec5fd540d98",
+    "alternate_attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062014-bp",
+        "matched": false,
+        "body": ""
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062014-ap",
+        "matched": true,
+        "body": "Publication Details Euro area GDP up by 0.2%, EU28 up by 0.3% Seasonally adjusted GDP rose by 0.2% in the euro area (EA18) and by 0.3% in the EU28 during the first quarter of 2014, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2013, GDP grew by 0.3% in the euro area and by 0.4% in the EU28. "
+      }
+    ]
+  },
+  {
+    "quarter": "2014Q2",
+    "candidate_date": "2014-09-05",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05092014-ap",
+    "evidence": "gdp_verified_2014Q2.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP stable in the euro area and up by 0.2% in the EU28 Seasonally adjusted GDP remained stable in the euro area (EA18) and rose by 0.2% in the EU28 during the second quarter of 2014, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the first quarter of 2014, GDP grew by 0.2% in the euro area and by 0.3% in the EU28. ",
+    "sha256": "37ca81e3312c22a36d26780673d6047c5998227ec85786ff19f1b9852b5cd304"
+  },
+  {
+    "quarter": "2014Q3",
+    "candidate_date": "2014-12-05",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05122014-ap",
+    "evidence": "gdp_verified_2014Q3.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.2% in the euro area and up by 0.3% in the EU28 Seasonally adjusted GDP rose by 0.2% in the euro area (EA18) and by 0.3% in the EU28 during the third quarter of 2014, compared with the previous quarter, according to a second estimate published by Eurostat, the statistical office of the European Union. In the second quarter of 2014, GDP grew by 0.1% in the euro area and by 0.2% in the EU28. ",
+    "sha256": "0494d682fc1a5358fb2791fb1fd8f3d8fb4ee0c0e7792f21074c103f58d59775"
+  },
+  {
+    "quarter": "2014Q4",
+    "candidate_date": "2015-03-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032015-ap",
+    "evidence": "gdp_verified_2014Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.3% in the euro area and by 0.4% in the EU28 Seasonally adjusted GDP rose by 0.3% in the euro area (EA18) and by 0.4% in the EU28 during the fourth quarter of 2014, compared with the previous quarter, according to a second estimate published by Eurostat, the statistical office of the European Union. In the third quarter of 2014, GDP grew by 0.2% in the euro area and by 0.3% in the EU28. ",
+    "sha256": "6b455b8ae2ab920166a44f19aa46886149da0b5deb22a4c4b5ef45104a97130c"
+  },
+  {
+    "quarter": "2015Q1",
+    "candidate_date": "2015-06-09",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09062015-ap",
+    "evidence": "gdp_verified_2015Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.4% in both the euro area and the EU28 Seasonally adjusted GDP rose by 0.4% in both the euro area (EA19) and the EU28 during the first quarter of 2015, compared with the previous quarter, according to a second estimate published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2014, GDP also grew by 0.4% in both areas. ",
+    "sha256": "c25be666498c2bafa49c71cd2060262d48b18544cf09d76f4219598c352194db"
+  },
+  {
+    "quarter": "2015Q2",
+    "candidate_date": "2015-09-08",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08092015-ap",
+    "evidence": "gdp_verified_2015Q2.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.4% in both euro area and EU28 Seasonally adjusted GDP rose by 0.4% in both the euro area (EA19) and the EU28 during the second quarter of 2015, compared with the previous quarter, according to a second estimate published by Eurostat, the statistical office of the European Union. In the first quarter of 2015, GDP grew by 0.5% in both areas. ",
+    "sha256": "212f4e59b48e0dd6740e5936c87b6cdca3f9981ae9fab6839d878422b4637cf4"
+  },
+  {
+    "quarter": "2015Q3",
+    "candidate_date": "2015-12-08",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08122015-ap",
+    "evidence": "gdp_verified_2015Q3.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.3% in euro area and by 0.4% in EU28 Seasonally adjusted GDP rose by 0.3% in the euro area (EA19) and by 0.4% in the EU28 during the third quarter of 2015, compared with the previous quarter, according to a second estimate published by Eurostat, the statistical office of the European Union. In the second quarter of 2015, GDP grew by 0.4% and 0.5% respectively. ",
+    "sha256": "eb76b0471d6921467a2fe0d11326ded07fc46fa8f641c55b617d5f808f12a56c"
+  },
+  {
+    "quarter": "2015Q4",
+    "candidate_date": "2016-03-08",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08032016-ap",
+    "evidence": "gdp_verified_2015Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.3% in the euro area and by 0.4% in the EU28 Seasonally adjusted GDP rose by 0.3% in the euro area (EA19) and by 0.4% in the EU28 during the fourth quarter of 2015, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the third quarter of 2015, GDP also grew by 0.3% and 0.4% respectively. ",
+    "sha256": "7bf3d3847c8b93694f587e09be8bda33517843d4f69adfea22c520f99443230f"
+  },
+  {
+    "quarter": "2016Q1",
+    "candidate_date": "2016-06-07",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07062016-ap",
+    "evidence": "gdp_verified_2016Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.6% in the euro area and by 0.5% in the EU28 Seasonally adjusted GDP rose by 0.6% in the euro area (EA19) and by 0.5% in the EU28 during the first quarter of 2016, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2015, GDP grew by 0.4% and 0.5% respectively. ",
+    "sha256": "77edaff3a0bcc502ff776cd9e3bdd1a127987f42cb1d97c06b362d9f92b19d5a"
+  },
+  {
+    "quarter": "2016Q2",
+    "candidate_date": "2016-09-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092016-ap",
+    "evidence": "gdp_verified_2016Q2.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.3% in the euro area and by 0.4% in the EU28 Seasonally adjusted GDP rose by 0.3% in the euro area (EA19) and by 0.4% in the EU28 during the second quarter of 2016, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the first quarter of 2016, GDP grew by 0.5% in both zones. ",
+    "sha256": "f16aab967f702f002221a62c1a68dca0f825dcf53c62706a8b45b71061ec8a68"
+  },
+  {
+    "quarter": "2016Q3",
+    "candidate_date": "2016-12-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122016-ap",
+    "evidence": "gdp_verified_2016Q3.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.3% in the euro area and by 0.4% in the EU28 Seasonally adjusted GDP rose by 0.3% in the euro area (EA19) and by 0.4% in the EU28 during the third quarter of 2016, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the second quarter of 2016, GDP also grew by 0.3% and 0.4% respectively. ",
+    "sha256": "098c1820d6a6849626337b8004fce66a7defe842a0b1250f9eddb3ad884af7f9"
+  },
+  {
+    "quarter": "2016Q4",
+    "candidate_date": "2017-03-07",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032017-ap",
+    "evidence": "gdp_verified_2016Q4.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.4% in the euro area and by 0.5% in the EU28 Seasonally adjusted GDP rose by 0.4% in the euro area (EA19) and by 0.5% in the EU28 during the fourth quarter of 2016, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the third quarter of 2016, GDP grew by 0.4% in both zones. ",
+    "sha256": "691db3ff0c26bbc044fc1e1ecea6de3fbdd5fc0e42a9d029dcf4a51f6eb95b3b"
+  },
+  {
+    "quarter": "2017Q1",
+    "candidate_date": "2017-06-08",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08062017-ap",
+    "evidence": "gdp_verified_2017Q1.html",
+    "status": "official_GDP_release_body_verified",
+    "body": "Publication Details GDP up by 0.6% in both the euro area and the EU28 Seasonally adjusted GDP rose by 0.6% in both the euro area (EA19) and the EU28 during the first quarter of 2017, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2016, GDP grew by 0.5% and 0.6% respectively. ",
+    "sha256": "8d7e9e6ce68e74d233e55c0493634a7114774ddb91c0f5caf40b5717c6381b00"
+  }
+]

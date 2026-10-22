@@ -1,0 +1,23 @@
+{
+  "gdp": {
+    "rows": 13954,
+    "observation_periods": 124,
+    "event_timestamps": 210,
+    "first_event": "2001-01-03 14:30:00+00:00",
+    "last_event": "2026-09-09 13:30:00+00:00",
+    "delete_events": 208
+  },
+  "esi": {
+    "rows": 14050,
+    "observation_periods": 372,
+    "event_timestamps": 238,
+    "first_event": "2002-02-06 14:30:00+00:00",
+    "last_event": "2026-09-09 13:30:00+00:00",
+    "delete_events": 344
+  },
+  "origins": 59,
+  "gdp_lag_inputs_present": 58,
+  "esi_first_two_months_present": 55,
+  "public_release_timestamps_certified": false,
+  "scope": "Source and coverage audit only; VALID_FROM is a frozen RTD snapshot/event time and is not automatically the public publication time. No new forecast model has been fitted."
+}

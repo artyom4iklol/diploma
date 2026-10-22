@@ -1,0 +1,474 @@
+[
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2011-06-30.csv",
+    "sha256": "a082d6b0f05b87311dc68c9419d820d6274216132141d0bda289ef7b3c7f0ef7"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2011-06-30.csv",
+    "sha256": "078be1de587f53254f9f50d999315fe5cbb4f786b26e496896870e1fce6e9406"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2011-09-30.csv",
+    "sha256": "6152dcc7e8bbf24abb0b5a0dfb329258f5a24cd3605963146fcb9630783d9875"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2011-09-30.csv",
+    "sha256": "7437848456cc65d7bce81b42e9cdca3ca16f5c6d4a37b437655ac587d57c6877"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2011-12-31.csv",
+    "sha256": "303cf1aacbdd19f646a686066b53209a9924000ee33942507c9baf09023057e6"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2011-12-31.csv",
+    "sha256": "82c834bc1ea3b8eacc21cdbbb55db75b1f6b5933005ec04f6ec5324512e9782f"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2012-03-31.csv",
+    "sha256": "783014beea5e130876a8579bce30275193251b6e3f72e5980f1a97efe2850f60"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2012-03-31.csv",
+    "sha256": "a6bc3b6be30b22fd2046f374edc742527e81aa5e3f216e108564be1831e99963"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2012-06-30.csv",
+    "sha256": "5ce7e95cbe9fc74efeb7b63dca1a243c3a419455948b017a50d197c56d4ee9cf"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2012-06-30.csv",
+    "sha256": "4e96bd71bf51329188cc7814a16a1680b87e54eb6f02fb55fb1c9a42071cf6dd"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2012-09-30.csv",
+    "sha256": "4bc63321948916ff3fe1d7f27bae4add31869a6f394f29f2c8bb5f1d78b791a2"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2012-09-30.csv",
+    "sha256": "183de90a888f9a0bcee7adca4063721452ca49a930612e8e861ba3b952c6ff04"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2012-12-31.csv",
+    "sha256": "56ae05e0c9dab78241e27043c05a51489bdab5cc3fb227ac7d6748b63c35f8b7"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2012-12-31.csv",
+    "sha256": "224462500e08c129197f1ddea5ee0c9f7caec29a731d10a13fdb3b6060f57d05"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2013-03-31.csv",
+    "sha256": "bee28fd7f50a3e0e508de04faf570bd65dc967aa1b75d09b3ab46da8b4bb88b7"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2013-03-31.csv",
+    "sha256": "7e3861bcecbb37c9cfa1d0cd2839a745f7aab7c2ef53437537752795db802ffe"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2013-06-30.csv",
+    "sha256": "b93d3c83ed68292c2f7ba9e39848d18a5887490c4ff1ca40b77974c86fc12aa6"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2013-06-30.csv",
+    "sha256": "a0a96cf08c67929795978c9831e921dfebb82da3e56b55a1d4bd436a12960a29"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2013-09-30.csv",
+    "sha256": "53f574e24bc593323c621b8843fc9a5f96b84c442bca3ae31bce0fb304c7f034"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2013-09-30.csv",
+    "sha256": "9f20b9e224bf10e5d69af8435bb154238bea186e110eec6a90dd7a4d8390b558"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2013-12-31.csv",
+    "sha256": "34f87a362ecda33f190311140cf5a2f0f6369d3d4114b0f6bea1394fed414744"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2013-12-31.csv",
+    "sha256": "a7cbb747a1c4251e9097b1712156af0786b3ef3239aff38958eb011057b71ff5"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2014-03-31.csv",
+    "sha256": "801514810d951b34333d67358607a6144bd6e0f4b2daa5185c6b3aac4b2560e3"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2014-03-31.csv",
+    "sha256": "9f6956a433f3252f8864438bc5c08a77d63f40dc76b75b12c2960b04a5aa633e"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2014-06-30.csv",
+    "sha256": "841643310ff5b2669f6fdd1d2a381d5cf82d4004bda52e6e1ccbd8a0af830aa4"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2014-06-30.csv",
+    "sha256": "5228708423ad06b5a8cc5e5028bd1c9aa912e383156cee129c6cd76505e072cf"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2014-09-30.csv",
+    "sha256": "cc2f9520e86dd91df2d608a083a004087e37286b18993480f9b487dce09dd726"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2014-09-30.csv",
+    "sha256": "0d81bdd6c65923bd3f90a11f51e87ebcae7d7c51fbcbc30ba05f5150688e68b6"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2014-12-31.csv",
+    "sha256": "a8855a36161e6dd99760cb3da10e1fd67187318cc33083146d916310d93ae8c5"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2014-12-31.csv",
+    "sha256": "47d8ebedc3bd4d71b6f49e09b034acc9303647fbba580988028cfd4fe0e39c4d"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2015-03-31.csv",
+    "sha256": "0965d17a5ce50cc4b54deb430dd530c88e96b7174486c7977eaebcd8e30c14ec"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2015-03-31.csv",
+    "sha256": "f8818c63972c392ee25b84d94e182165fd4b8de508a588526cf4b4f47c5fe3bf"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2015-06-30.csv",
+    "sha256": "bb745f78733bb6c5b9663398ab4a03af2a0b622c9d43b5722c513ab2deba8424"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2015-06-30.csv",
+    "sha256": "d95d33beb206822d57dcf464c7c3d753f960560d70971e346555868f6dfe32a8"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2015-09-30.csv",
+    "sha256": "6e6865a67d7fd48029ef7a0565b1f934bd9681dda595da0a7d2514cd0897facd"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2015-09-30.csv",
+    "sha256": "909789dbf9677d99030e23c8cf5a04f989245f6f2de80514ccd4d6f320912578"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2015-12-31.csv",
+    "sha256": "da2437f4881a125e8a93fb6f8718d7939b280b429a658662d58dd6b7d412c4c5"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2015-12-31.csv",
+    "sha256": "13f6d805e5d4156d900fcf4ac87c9240c08f3d427d74db94b2406fbe974c4e0c"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2016-03-31.csv",
+    "sha256": "fddfabca99f82116a93a4b12cc9249a1cf08301fa889266ead97688dd9ed5466"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2016-03-31.csv",
+    "sha256": "68b9c031f09a0f243d108341ccd8e13d80f595d5054286a14070ad80e55142ee"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2016-06-30.csv",
+    "sha256": "cd2139101cfda7c14d21b1871901737fba86b9a872a3a204a74ccd8556fd4681"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2016-06-30.csv",
+    "sha256": "a1d534a4849384ac0439f61028fdf9cb391b62b02eb7f4a0ef486115162721fb"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2016-09-30.csv",
+    "sha256": "10ad895b2bab31c65ead510c9a3c5b2127fdc2b7eedbdc32acfebff9cbaab7da"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2016-09-30.csv",
+    "sha256": "91864a1b58f47e01ded74744ca204ef9ff6bf13252a03eaa5db90f1e21fdb1d5"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2016-12-31.csv",
+    "sha256": "288ce6128e8ac7e0826eda4281001ca2073117d79ab5b4fae81be50366bcd94f"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2016-12-31.csv",
+    "sha256": "6d710e6ac10895c2cb881b1f3e4298c87334c873ce218d8d04d2098d1ad4acee"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2017-03-31.csv",
+    "sha256": "d1ea855ac0497bf3e60e80927da822d32f88167363152ec6df3d6f6dae91ecaa"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2017-03-31.csv",
+    "sha256": "b231e7049b5b1703722e495cb9b28d7ae4dff8afab88a4c15cfdfe47e8274150"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2017-06-30.csv",
+    "sha256": "0f2a5dcbf4a48dec7ec0cc9b98d692a533cf788a923db835d6e885fc5a52b837"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2017-06-30.csv",
+    "sha256": "a3decf6d386b7161dc0cf3743c9877591623c2cf1a03c95b988dc1be662229c5"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2017-09-30.csv",
+    "sha256": "00baa1734daf898b5e58e6c2ae0c88becc9bf953d84b85543eda8321a520aaa6"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2017-09-30.csv",
+    "sha256": "37e4004809873f83daafbc0c64e8e192b5e44e8d5afae6117ee733835e0ebd9c"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2017-12-31.csv",
+    "sha256": "915918a8c8c4cf68417c4a18e848f8010d30052d5898794ac486f87e21f74bb7"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2017-12-31.csv",
+    "sha256": "80242d5153d559e9998b89f650221e19b1c47a7fde4a153dd58ede82fa545ade"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2018-03-31.csv",
+    "sha256": "a9af0810efd843cb35dfaee3e0b7eceffb6f20eb530d412f3dd66756b5d17002"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2018-03-31.csv",
+    "sha256": "35fa512b3411195ee49e12d6d8f32289bd475ede23fcff559492fdd8833a40c3"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2018-06-30.csv",
+    "sha256": "bd1ff1a7b97bcb17bf7ece0654fd47bd241f50c86ad4d3c9cfecea62f949ea31"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2018-06-30.csv",
+    "sha256": "a0e475e1679e78a77e278ae265c8d42061ed817dc9fce19801e9daa3aa852cee"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2018-09-30.csv",
+    "sha256": "0f99f7b31bb1182c944462c1a527024ae47789fd5a58cfe6244439f0df55deff"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2018-09-30.csv",
+    "sha256": "d0a71031d66e3964a34cea12ab57d3817b7ec7fe2515fdd3010528b9d184c2f5"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2018-12-31.csv",
+    "sha256": "88ab4eb88c58cfa78ed723c75ccca1ffc625a815f24044b884f05f8f0a00ac01"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2018-12-31.csv",
+    "sha256": "20436da89ac3b83c92089d6cf560fa14ba69dbc786a9f40fc44cf26ffcde71ee"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2019-03-31.csv",
+    "sha256": "b63c22cdad2cb083f93b1da60a7c7170cf01be2124741181a99a1a29d375c659"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2019-03-31.csv",
+    "sha256": "711acf79ae1813ee37c5f795609bd252f8faca6ff3e04e0b84d9e59e312a73a2"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2019-06-30.csv",
+    "sha256": "0a5211864a5a7332de45e9211c7cf64071fab53493e573faceaf886001395543"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2019-06-30.csv",
+    "sha256": "31990fda24619fe5816e8c2bb085c202e960ce2264ef6ad6b22446f493a6d6f5"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2019-09-30.csv",
+    "sha256": "51972fc7b1fa8e6e2e30c8f4302b0d613f99524a3341b9e8c1cd0b1a252c778e"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2019-09-30.csv",
+    "sha256": "6c469d62f386b96d460371946204cdb288408bf05c72429946d9b3606def7b71"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2019-12-31.csv",
+    "sha256": "bf1a18372b439f21c126fd24dc7e6273fa6042bc17f12c131bfde9dc05293771"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2019-12-31.csv",
+    "sha256": "31dc6dd66c8ab8bc4d1f2867730c6162e827d8a889683df50086797db1917be5"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2020-03-31.csv",
+    "sha256": "6fd4161a65103650372fbc410ec12fadd32f285e28341de92fb948f1a6025686"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2020-03-31.csv",
+    "sha256": "db11e1d1f179af1005e919cdb7696370f9ddcd8460bda20a09380c1fab9a2f39"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2020-06-30.csv",
+    "sha256": "d6163e2d7312ed06b79e428d7e1e53792216b60b209210b7a862ba184622366b"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2020-06-30.csv",
+    "sha256": "ec9c3f7e861a04c61429b10231c0440e55110eb93c01dd5edf4333588fc17fae"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2020-09-30.csv",
+    "sha256": "cc986aa58381ec59f411682750c29147bc70544066910c3dcceec9218f455a44"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2020-09-30.csv",
+    "sha256": "1ff09391e08623a4ea1b9695460556cb91c7e0449a5009be1df95ba04c4d63e9"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2020-12-31.csv",
+    "sha256": "d510c48ffcc26a73e5df5a25dae58eeb53ca0aa3f1984e6d19f415919ad63552"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2020-12-31.csv",
+    "sha256": "d2eb4e0178e4c6565d78577dc1ce13c797dc5339802b34129fa1b0f8218173b5"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2021-03-31.csv",
+    "sha256": "2cdb82bb62352c1fc0b0b283046259591bc5d9ccee0a09ce0afdca3020e24fbf"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2021-03-31.csv",
+    "sha256": "dbc0baaf5ffc113c4c0c40489f99863f136e9d04463946cffe533771c52b922f"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2021-06-30.csv",
+    "sha256": "d57f140191fdce16688c268b72bb82221d871c0e4ff19a70166bd8dbb33b9fc6"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2021-06-30.csv",
+    "sha256": "7d97c66ccc2eac7b4fd035eb600d4776238a39f2c74c66498fdebd4a4bc52740"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2021-09-30.csv",
+    "sha256": "0cae88bae209bf35811df7ede1f698a1b59c97a6ec6f66c8398688d3856cc108"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2021-09-30.csv",
+    "sha256": "4d1b19152b11aefc2b0567e571a4c344b1e9f40e164ee258b4630def72f4205f"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2021-12-31.csv",
+    "sha256": "eac642bb270ab71ef543d5dd37c9debc18c025f23faff1de6f83d9755c4af463"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2021-12-31.csv",
+    "sha256": "86956b31c06a3e6707e2adcdedc0c0028bbbe95d8df4cccc2bf3bb86df38b822"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2022-03-31.csv",
+    "sha256": "cbcf5207f6cc528a0af21199c081b6beb80ad93f1ac7f8e3fc8fbfda23d5a4c6"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2022-03-31.csv",
+    "sha256": "adc7ad840e3d861c633840a4eeb80c0230b4f37c21573adb7b94d0310fcb999e"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2022-06-30.csv",
+    "sha256": "8f31bd8aa71784a7432aa1af456c89e25c5e7c546ec603f3fca9a0030b453d09"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2022-06-30.csv",
+    "sha256": "ababe1a32e8a2249ccfbe5cda628dfe4f465e6f5b933d559baecab58c7877f69"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2022-09-30.csv",
+    "sha256": "30dbe5a5c1d33d6aa9a6b5660c5e2772442a96d8ad3687d625cbdd839d312074"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2022-09-30.csv",
+    "sha256": "8a21fdc215def582a2c36db173e27df780833a6b06f2a640eed0941eafebf26a"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2022-12-31.csv",
+    "sha256": "395975debdb91422ccf02635ed43560a96a64e4113ec8f677516cdc98eceeaf0"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2022-12-31.csv",
+    "sha256": "b560fa458984236126a62f3381e3410c053fdf1d60ef46432addd2e966f7b9f4"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2023-03-31.csv",
+    "sha256": "0d6759dfb96991b95fe1bdd4534935dcc8dd8855a61588a5c6ca150b993b1214"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2023-03-31.csv",
+    "sha256": "cbc0cc3ef321c5e2ac6531fcf2250dcdf833279ff24fb4d3af6fdce70b3e7b03"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2023-06-30.csv",
+    "sha256": "55edc36902ffa6fd6048e6a058774c66cfed1edb54a8005575f343e6030de9dc"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2023-06-30.csv",
+    "sha256": "50461d5e788bc6418b52a5c070b02d1806a1655e765ef58b160611448ead1f2f"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2023-09-30.csv",
+    "sha256": "19e99d023a99f081d439fe88f85c9f8018204bcaf8a73347b03cfef9e0acadd7"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2023-09-30.csv",
+    "sha256": "74e4532b569cb4b03f31ebb12548d872aa2f323254324fe527bfb8d29d6f5c97"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2023-12-31.csv",
+    "sha256": "674ea6f96659e0dd81ba529fc50540a1c64b211aaa15fb0741f82cb06bb01550"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2023-12-31.csv",
+    "sha256": "741f76384a9464778407869787db03c9eb08d3fbfce34876cbe535351d7b836d"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2024-03-31.csv",
+    "sha256": "179d3da17b8e23547e080de5cd09b1cf062607144e38c3224a3dc9364ffc7e11"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2024-03-31.csv",
+    "sha256": "e3ec420c989fe512f598d39d53a16cfcf89dceb032d534018a00e064a6621a7c"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2024-06-30.csv",
+    "sha256": "4b0a4dbde7a89da871fbbc41137d8f401a635f6b590eb688bb29f539a1eb6f2c"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2024-06-30.csv",
+    "sha256": "5ebcb9e51678b38c4fa0a488b97b8315bb345a9547e807d523ce1358413c0d7d"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2024-09-30.csv",
+    "sha256": "ff06655d7efa5e99ba90bcac356ad2076fafc41a1e5b68688946a1c61c533f11"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2024-09-30.csv",
+    "sha256": "e1871cdbfe6ab66222191b32dd2df3518c248fdad2331f0500ce4f516771ee5b"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2024-12-31.csv",
+    "sha256": "91d155c9886c72007599ff72d2af3992afd003f78b2e1511d41004d214abc452"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2024-12-31.csv",
+    "sha256": "12591ad6bcf1f269636a923201bea5a4b0ef1ab659177da8b1b859eae511dbde"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2025-03-31.csv",
+    "sha256": "dd090ba859fc6210a5a8be942e24c581e6fd1f9086928312f9c49813ae8afa2b"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2025-03-31.csv",
+    "sha256": "9ddeab412e22800dd12d28a73a630cdf83f7c8aa6956a1babba39818b55d5369"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2025-06-30.csv",
+    "sha256": "55afda61b377d1f8b9bb7ef22f5f00c791fbb2bafe20c573756cacbe15818b3e"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2025-06-30.csv",
+    "sha256": "38980a78c271a247c28eac17f0ac4c9b80fe039a77c487b5517b539557cbc5fa"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2025-09-30.csv",
+    "sha256": "4a2918389ab99110fee3fa2a752ac601cae567e371472bb7d9f93ffb415314f2"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2025-09-30.csv",
+    "sha256": "8b284837db017302961044408b6ff18d3ecb9a132e6cc91639a3e3ee4050adf7"
+  },
+  {
+    "path": "revision16/sources/nfci_vintages/nfci_2025-12-31.csv",
+    "sha256": "0762659b49718b1f51492f80ff83abdf2361377463fbd2ce6c58638e49555b5f"
+  },
+  {
+    "path": "revision19/sources/anfci_vintages/anfci_2025-12-31.csv",
+    "sha256": "7792b4a61e1e5029107c389c2bfb7b6e4955f1ef662af32373286cd1017701f3"
+  }
+]

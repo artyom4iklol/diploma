@@ -1,0 +1,23 @@
+[
+  {
+    "file": "esi_rtd.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/M.S0.S.Y_ESIND.F?format=csvdata",
+    "bytes": 227320,
+    "content_type": "text/csv",
+    "snippet": "KEY,FREQ,REF_AREA,ADJUSTMENT,RT_ECON_CONCEPT,RT_DENOM,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,COLLECTION,COMPILING_ORG,DISS_ORG,DOM_SER_IDS,PUBL_MU,PUBL_PUBLIC,UNIT_INDEX_BASE,UNIT_PRICE_BASE,AGG_EQUN,COMPILATION,COVERAGE,DECIMALS,SOURCE_AGENCY,SOURCE_DETAIL,TITLE,TITLE_COMPL,UNIT,UNIT_MULT\r\nRTD.M.S0.S.Y_ESIND.F,M,S0,S,Y_ESIND,F,1980-01,101.221,A,F,,,P1M,B,,,ECS.M.I10.S.4D1.ESI000.TT,,,Long-term average = 100,,,\"See <a class=\"\"external\"\" href=\"\"http://sdw.ecb."
+  },
+  {
+    "file": "rtd_metadata.html",
+    "url": "https://data.ecb.europa.eu/data/datasets/RTD/data-information",
+    "bytes": 71424,
+    "content_type": "text/html; charset=UTF-8",
+    "snippet": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \">\n<head>\n  <meta charset=\"utf-8\" />\n<style>/* @see https://github.com/aFarkas/lazysize"
+  },
+  {
+    "file": "rtd_structure.xml",
+    "url": "https://data-api.ecb.europa.eu/service/dataflow/ECB/RTD/1.0?references=all",
+    "bytes": 580113,
+    "content_type": "application/vnd.sdmx.structure+xml;version=2.1",
+    "snippet": "<?xml version='1.0' encoding='UTF-8'?><mes:Structure xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" xmlns:mes=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:str=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\"><mes:Header><mes:ID>IREF191979</mes:ID><mes:Test>false</mes:Test><mes:Prepared>2026-10-16T02:53:11Z</mes:Prepared><mes:Sender id=\"Unk"
+  }
+]

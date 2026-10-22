@@ -1,0 +1,1056 @@
+[
+  {
+    "id": "S01",
+    "doi": "10.1257/aer.20161923",
+    "title": [
+      "Vulnerable Growth"
+    ],
+    "author": [
+      {
+        "given": "Tobias",
+        "family": "Adrian"
+      },
+      {
+        "given": "Nina",
+        "family": "Boyarchenko"
+      },
+      {
+        "given": "Domenico",
+        "family": "Giannone"
+      }
+    ],
+    "journal": [
+      "American Economic Review"
+    ],
+    "volume": "109",
+    "issue": "4",
+    "page": "1263-1289",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          4,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S03",
+    "doi": "10.1080/07350015.2024.2310020",
+    "title": [
+      "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model"
+    ],
+    "author": [
+      {
+        "given": "Todd E.",
+        "family": "Clark"
+      },
+      {
+        "given": "Florian",
+        "family": "Huber"
+      },
+      {
+        "given": "Gary",
+        "family": "Koop"
+      },
+      {
+        "given": "Massimiliano",
+        "family": "Marcellino"
+      },
+      {
+        "given": "Michael",
+        "family": "Pfarrhofer"
+      }
+    ],
+    "journal": [
+      "Journal of Business &amp; Economic Statistics"
+    ],
+    "volume": "42",
+    "issue": "4",
+    "page": "1302-1317",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          7
+        ]
+      ]
+    },
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S04",
+    "doi": "10.1353/eca.2020.0002",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S05",
+    "doi": "10.1016/j.jmoneco.2020.11.003",
+    "title": [
+      "Backtesting global Growth-at-Risk"
+    ],
+    "author": [
+      {
+        "given": "Christian",
+        "family": "Brownlees"
+      },
+      {
+        "given": "André B.M.",
+        "family": "Souza"
+      }
+    ],
+    "journal": [
+      "Journal of Monetary Economics"
+    ],
+    "volume": "118",
+    "issue": null,
+    "page": "312-330",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S06",
+    "doi": "10.1257/mac.20180428",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S07",
+    "doi": "10.5089/9781484397015.001",
+    "title": [
+      "Growth at Risk: Concept and Application in IMF Country Surveillance"
+    ],
+    "author": [
+      {
+        "given": "Ananthakrishnan",
+        "family": "Prasad"
+      },
+      {
+        "given": "Selim",
+        "family": "Elekdag"
+      },
+      {
+        "given": "Phakawa",
+        "family": "Jeasakul"
+      },
+      {
+        "given": "Romain",
+        "family": "Lafarguette"
+      },
+      {
+        "given": "Adrian",
+        "family": "Alter"
+      },
+      {
+        "given": "Alan",
+        "family": "Xiaochen Feng"
+      },
+      {
+        "given": "Changchun",
+        "family": "Wang"
+      }
+    ],
+    "journal": [
+      "IMF Working Papers"
+    ],
+    "volume": "2019",
+    "issue": "036",
+    "page": "1",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          2
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          2
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S08",
+    "doi": "10.1016/j.econlet.2020.109126",
+    "title": [
+      "Vulnerable growth in the euro area: Measuring the financial conditions"
+    ],
+    "author": [
+      {
+        "given": "Juan Manuel",
+        "family": "Figueres"
+      },
+      {
+        "given": "Marek",
+        "family": "Jarociński"
+      }
+    ],
+    "journal": [
+      "Economics Letters"
+    ],
+    "volume": "191",
+    "issue": null,
+    "page": "109126",
+    "article-number": "109126",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S09",
+    "doi": "10.1002/jae.3005",
+    "title": [
+      "Reassessing growth vulnerability"
+    ],
+    "author": [
+      {
+        "given": "Dooyeon",
+        "family": "Cho"
+      },
+      {
+        "given": "Seunghwa",
+        "family": "Rho"
+      }
+    ],
+    "journal": [
+      "Journal of Applied Econometrics"
+    ],
+    "volume": "39",
+    "issue": "1",
+    "page": "225-234",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          25
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          25
+        ]
+      ]
+    },
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S10",
+    "doi": "10.1002/jae.3136",
+    "title": [
+      "Correlated Errors Challenge Vulnerable Growth"
+    ],
+    "author": [
+      {
+        "given": "Wei",
+        "family": "Long"
+      },
+      {
+        "given": "Liang",
+        "family": "Peng"
+      },
+      {
+        "given": "Bingduo",
+        "family": "Yang"
+      }
+    ],
+    "journal": [
+      "Journal of Applied Econometrics"
+    ],
+    "volume": "40",
+    "issue": "6",
+    "page": "715-721",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          9
+        ]
+      ]
+    },
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S11",
+    "doi": "10.1016/j.jeconom.2023.105490",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S13",
+    "doi": "10.1016/j.ijforecast.2021.06.010",
+    "title": [
+      "High-frequency monitoring of growth at risk"
+    ],
+    "author": [
+      {
+        "given": "Laurent",
+        "family": "Ferrara"
+      },
+      {
+        "given": "Matteo",
+        "family": "Mogliani"
+      },
+      {
+        "given": "Jean-Guillaume",
+        "family": "Sahuc"
+      }
+    ],
+    "journal": [
+      "International Journal of Forecasting"
+    ],
+    "volume": "38",
+    "issue": "2",
+    "page": "582-595",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S15",
+    "doi": "10.1162/rest_a_01213",
+    "title": [
+      "Addressing COVID-19 Outliers in BVARs with Stochastic Volatility"
+    ],
+    "author": [
+      {
+        "given": "Andrea",
+        "family": "Carriero"
+      },
+      {
+        "given": "Todd E.",
+        "family": "Clark"
+      },
+      {
+        "given": "Massimiliano",
+        "family": "Marcellino"
+      },
+      {
+        "given": "Elmar",
+        "family": "Mertens"
+      }
+    ],
+    "journal": [
+      "Review of Economics and Statistics"
+    ],
+    "volume": "106",
+    "issue": "5",
+    "page": "1403-1417",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          6
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          6
+        ]
+      ]
+    },
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S16",
+    "doi": "10.1016/j.jeconom.2026.106235",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S17",
+    "doi": "10.1002/jae.3049",
+    "title": [
+      "Constructing density forecasts from quantile regressions: Multimodality in macrofinancial dynamics"
+    ],
+    "author": [
+      {
+        "given": "James",
+        "family": "Mitchell"
+      },
+      {
+        "given": "Aubrey",
+        "family": "Poon"
+      },
+      {
+        "given": "Dan",
+        "family": "Zhu"
+      }
+    ],
+    "journal": [
+      "Journal of Applied Econometrics"
+    ],
+    "volume": "39",
+    "issue": "5",
+    "page": "790-812",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          18
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          18
+        ]
+      ]
+    },
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S18",
+    "doi": "10.1016/j.jfs.2014.02.006",
+    "title": [
+      "International transmission and business-cycle effects of financial stress"
+    ],
+    "author": [
+      {
+        "given": "Jonas",
+        "family": "Dovern"
+      },
+      {
+        "given": "Björn",
+        "family": "van Roye"
+      }
+    ],
+    "journal": [
+      "Journal of Financial Stability"
+    ],
+    "volume": "13",
+    "issue": null,
+    "page": "1-17",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          8
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          8
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S19",
+    "doi": "10.1016/j.jfs.2024.101259",
+    "title": [
+      "International financial stress spillovers during times of unconventional monetary policy interventions"
+    ],
+    "author": [
+      {
+        "given": "George N.",
+        "family": "Apostolakis"
+      },
+      {
+        "given": "Nikolaos",
+        "family": "Giannellis"
+      }
+    ],
+    "journal": [
+      "Journal of Financial Stability"
+    ],
+    "volume": "72",
+    "issue": null,
+    "page": "101259",
+    "article-number": "101259",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S20",
+    "doi": "10.2307/1913643",
+    "title": [
+      "Regression Quantiles"
+    ],
+    "author": [
+      {
+        "given": "Roger",
+        "family": "Koenker"
+      },
+      {
+        "given": "Gilbert",
+        "family": "Bassett"
+      }
+    ],
+    "journal": [
+      "Econometrica"
+    ],
+    "volume": "46",
+    "issue": "1",
+    "page": "33",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          1978,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1978,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S21",
+    "doi": "10.1198/016214506000001437",
+    "title": [
+      "Strictly Proper Scoring Rules, Prediction, and Estimation"
+    ],
+    "author": [
+      {
+        "given": "Tilmann",
+        "family": "Gneiting"
+      },
+      {
+        "given": "Adrian E",
+        "family": "Raftery"
+      }
+    ],
+    "journal": [
+      "Journal of the American Statistical Association"
+    ],
+    "volume": "102",
+    "issue": "477",
+    "page": "359-378",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2007,
+          3
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S22",
+    "doi": "10.1198/jbes.2010.08110",
+    "title": [
+      "Comparing Density Forecasts Using Threshold- and Quantile-Weighted Scoring Rules"
+    ],
+    "author": [
+      {
+        "given": "Tilmann",
+        "family": "Gneiting"
+      },
+      {
+        "given": "Roopesh",
+        "family": "Ranjan"
+      }
+    ],
+    "journal": [
+      "Journal of Business &amp; Economic Statistics"
+    ],
+    "volume": "29",
+    "issue": "3",
+    "page": "411-422",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          7
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S25",
+    "doi": "10.1016/j.econlet.2023.110990",
+    "title": [
+      "Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution"
+    ],
+    "author": [
+      {
+        "given": "Tibor",
+        "family": "Szendrei"
+      },
+      {
+        "given": "Katalin",
+        "family": "Varga"
+      }
+    ],
+    "journal": [
+      "Economics Letters"
+    ],
+    "volume": "223",
+    "issue": null,
+    "page": "110990",
+    "article-number": "110990",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          2
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S27",
+    "doi": "10.1002/jae.2943",
+    "title": [
+      "On the real‐time predictive content of financial condition indices for growth"
+    ],
+    "author": [
+      {
+        "given": "Aaron J.",
+        "family": "Amburgey"
+      },
+      {
+        "given": "Michael W.",
+        "family": "McCracken"
+      }
+    ],
+    "journal": [
+      "Journal of Applied Econometrics"
+    ],
+    "volume": "38",
+    "issue": "2",
+    "page": "137-163",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          13
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          13
+        ]
+      ]
+    },
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S28",
+    "doi": "10.1057/s41308-022-00170-y",
+    "title": [
+      "Measuring Financial Conditions using Equal Weights Combination"
+    ],
+    "author": [
+      {
+        "given": "Simone",
+        "family": "Arrigoni"
+      },
+      {
+        "given": "Alina",
+        "family": "Bobasu"
+      },
+      {
+        "given": "Fabrizio",
+        "family": "Venditti"
+      }
+    ],
+    "journal": [
+      "IMF Economic Review"
+    ],
+    "volume": "70",
+    "issue": "4",
+    "page": "668-697",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          12
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          9
+        ]
+      ]
+    },
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S29",
+    "doi": "10.1016/j.ijforecast.2021.01.003",
+    "title": [
+      "Forecasting macroeconomic risks"
+    ],
+    "author": [
+      {
+        "given": "Patrick A.",
+        "family": "Adams"
+      },
+      {
+        "given": "Tobias",
+        "family": "Adrian"
+      },
+      {
+        "given": "Nina",
+        "family": "Boyarchenko"
+      },
+      {
+        "given": "Domenico",
+        "family": "Giannone"
+      }
+    ],
+    "journal": [
+      "International Journal of Forecasting"
+    ],
+    "volume": "37",
+    "issue": "3",
+    "page": "1173-1191",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          7
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S31",
+    "doi": "10.15240/tul/001/2020-4-010",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S32",
+    "doi": "10.1016/j.jfs.2022.101004",
+    "title": [
+      "Financial stress transmission between the U.S. and the Euro Area"
+    ],
+    "author": [
+      {
+        "given": "Buket Kırcı",
+        "family": "Altınkeski"
+      },
+      {
+        "given": "Emrah Ismail",
+        "family": "Cevik"
+      },
+      {
+        "given": "Sel",
+        "family": "Dibooglu"
+      },
+      {
+        "given": "Ali M.",
+        "family": "Kutan"
+      }
+    ],
+    "journal": [
+      "Journal of Financial Stability"
+    ],
+    "volume": "60",
+    "issue": null,
+    "page": "101004",
+    "article-number": "101004",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          6
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  },
+  {
+    "id": "S35",
+    "doi": "10.1093/restud/rdaa019",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S39",
+    "doi": "10.1111/j.1468-0262.2006.00718.x",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S40",
+    "doi": "10.5089/9781455253326.001",
+    "title": [
+      "Financial Conditions Indexes for the United States and Euro Area"
+    ],
+    "author": [
+      {
+        "given": "Troy",
+        "family": "Matheson"
+      }
+    ],
+    "journal": [
+      "IMF Working Papers"
+    ],
+    "volume": "2011",
+    "issue": "093",
+    "page": "1",
+    "article-number": null,
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          4
+        ]
+      ]
+    },
+    "published-online": null,
+    "source": "Crossref DOI registration"
+  }
+]

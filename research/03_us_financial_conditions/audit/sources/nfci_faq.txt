@@ -1,0 +1,237 @@
+    National Financial Conditions Index: Frequently Asked Questions
+
+What are the NFCI and adjusted NFCI?
+
+The Chicago Fed’s National Financial Conditions Index (NFCI) provides a comprehensive weekly
+update on U.S. financial conditions in money markets, debt and equity markets, and the
+traditional and “shadow” banking systems. Because U.S. economic and financial conditions tend
+to be highly correlated, we also present an alternative index, the adjusted NFCI (ANFCI). This
+index isolates a component of financial conditions uncorrelated with economic conditions to
+provide an update on how financial conditions compare with current economic conditions.
+
+What can I learn from the indexes?
+
+The NFCI and ANFCI are coincident indexes of financial activity, meaning that they describe
+contemporary financial conditions. Brave and Butters (2011, 2012b) document that the
+historical evolution of the NFCI and ANFCI capture well-known periods of financial stress, and
+develop threshold rules for characterizing the current state of financial conditions consistent
+with their levels during past financial crises. Furthermore, Brave and Butters (2011)
+demonstrate that the indexes are useful in forecasting growth in gross domestic product (GDP)
+and business investment two to four quarters ahead.
+
+How do I interpret the indexes?
+
+The NFCI is a weighted average of 105 indicators of risk, credit, and leverage in the financial
+system — each expressed relative to its sample average and scaled by its sample standard
+deviation. As such, a zero value for the NFCI can be thought of as the U.S. financial system
+operating at historical average levels of risk, credit, and leverage. The ANFCI removes the
+variation in these indicators attributable to economic activity (as measured by the three-month
+moving average of the Chicago Fed National Activity Index (CFNAI) and the difference between
+the unemployment rate and the Congressional Budget Office estimate of the natural rate of
+unemployment) and inflation (as measured by the 3-month changes in the Personal
+Consumption Expenditures (PCE) Price Index and the KR-CRB Spot Commodity Price Index). As
+such, a zero value for the ANFCI corresponds with a financial system operating at historical
+average levels of risk, credit, and leverage consistent with economic activity and inflation.
+
+Positive values of the NFCI indicate financial conditions that are tighter than on average, while
+negative values indicate financial conditions that are looser than on average. Similarly, positive
+values of the ANFCI indicate financial conditions that are tighter on average than would be
+typically suggested by current economic conditions, while negative values indicate the
+opposite. The magnitude of how “tight” or how “loose” financial markets are operating is
+expressed in standard deviations from zero over a sample period extending back to 1971.
+What do you mean by indicators of risk, credit, and leverage? How do they differ?
+
+By risk, we mean both the premium placed on risky assets embedded in their returns as well as
+the volatility of asset prices. By credit, we refer to the willingness to both borrow and lend at
+prevailing prices. Our measures of leverage provide a reference point for debt relative to
+equity. Risk measures tend to receive positive weights, while credit and leverage measures tend
+to receive negative weights, providing the interpretation that “tight” financial conditions are
+associated with above-average risk and below-average credit and leverage. Brave and Butters
+(2012b) document that risk measures are coincident indicators of financial stress, while credit
+measures tend to be lagging indicators of financial stress and leverage measures tend to be
+leading indicators of financial stress.
+
+What are the risk, credit, and leverage subindexes?
+
+The risk, credit, and leverage subindexes are constructed from subsets of the NFCI indicators
+listed at www.chicagofed.org/digital_assets/others/research/data/nfci/nfci_indicators_list.pdf.
+Each subindex is constructed to have an average value of zero and a standard deviation of one
+over a sample period extending back to 1971. The risk subindex captures volatility and funding
+risk in the financial sector; the credit subindex is composed of measures of credit conditions;
+and the leverage subindex consists of debt and equity measures. A positive value for an
+individual subindex indicates that the corresponding aspect of financial conditions is tighter
+than on average, while negative values indicate the opposite. Brave and Butters (2012b)
+document that periods of severe financial stress have historically been associated with above-
+average values of all three of the NFCI subindexes.
+
+What is the nonfinancial leverage subindex and what can I learn from it?
+
+Brave and Butters (2012a, b) demonstrate that the nonfinancial leverage subindex best
+exemplifies how leverage can serve as an early warning signal for financial stress and its
+potential impact on economic growth. The positive weight assigned to both the household and
+nonfinancial business leverage measures in this subindex reflects the fact that rising values of
+each are typically associated with increasingly tighter financial conditions. This feature makes
+the nonfinancial leverage subindex characteristic of the feedback process often referred to as
+the “financial accelerator” as discussed in Bernanke, Gertler, and Gilchrist (1999). Increasingly
+tighter financial conditions are associated with rising risk premiums and declining asset values.
+The net worth of households and nonfinancial firms is, thus, reduced at the same time that
+credit tightens. This leads to a period of deleveraging (i.e., debt reduction) across the financial
+and nonfinancial sectors of the economy and ultimately to lower economic activity.
+How often are the indexes produced and are they available to the public?
+
+The NFCI and its subindexes, along with the ANFCI, are updated at www.chicagofed.org/nfci on
+a weekly basis at 8:30 a.m. ET on Wednesday, and cover the time period through the previous
+Friday. When a federal holiday falls on a Wednesday or earlier in the week, the indexes and
+subindexes will be updated on Thursday.
+
+Are the indexes revised?
+
+The history of the indexes can change from week to week depending on incoming data and
+data revisions. Because they include a number of monthly and quarterly data series that are
+regularly revised, revisions will tend to be more pronounced near the beginning of each month.
+The ANFCI is additionally influenced by revisions to the adjustment series; and as a result, it will
+tend to show larger revisions. For more information, please see the section titled “Revisions to
+the NFCI and ANFCI” at https://chicagofed.org/research/data/nfci/current-data.
+
+How do the indexes differ from other financial conditions indexes?
+
+The indexes represent a further contribution to the literature on financial conditions indexes
+stretching back to a 2006 study by Bank of Canada economists (Illing and Liu, 2006) and
+including similar publicly available indexes constructed by the Federal Reserve Banks of Kansas
+City (Hakkio and Keeton, 2009) and St. Louis. The NFCI and ANFCI, however, have a unique set
+of features owing to their different method of index construction:
+
+   •   Weekly index frequency;
+   •   Quarterly, monthly, and weekly indicators with varied start and end dates;
+   •   Historical coverage of more than 45 years;
+   •   Broad coverage of financial markets (traditional and more recently developed); and
+   •   Indicator weights that reflect systemic and dynamic importance to the financial system.
+
+How many weekly, monthly, and quarterly financial indicators are used in each index?
+
+Both indexes contain 46 weekly, 33 monthly, and 26 quarterly indicators.
+
+What financial markets and firms are covered by the indexes?
+
+The NFCI and ANFCI include data on interbank loan and securitized debt, commercial paper and
+repo, corporate and government bond, over-the-counter and exchange-traded derivatives,
+consumer and business credit, and equity and other asset markets; and they cover the
+condition of the traditional banking system as well as the network of financial firms (investment
+banks, hedge funds, etc.) outside this system, often referred to as the shadow banking system.
+                                                                  Number of
+                    Market/firm                                   indicators
+                    Business credit                                    8
+                    Shadow banking system                              9
+                    Interbank loan and securitized debt markets       10
+                    Corporate and government bond markets             10
+                    Equity and other asset markets                    10
+                    Banking system                                    14
+                    Commercial paper and repo markets                 14
+                    Consumer credit                                   15
+                    Derivatives markets                               15
+
+What time period is covered by the indexes?
+
+The indexes cover the period from the first week of 1971 through the Friday of the week prior
+to each weekly update. The figure below shows the pattern of data availability for the period
+1971–2017. It is not until 1987 that more than a half of the indicators are available, primarily
+because of the shorter time series of many of the weekly indicators. The indexes maintain a
+smooth time series because of the way they are constructed. It is still the case, however, that
+coverage of the financial system is greater in the latter half of the sample.
+How are the indicators weights estimated?
+
+The methodology used to estimate the weight given to each indicator is described in detail in
+the appendix to Brave and Butters (2012b) with an update as detailed in Brave and Kelley
+(2017). It combines elements of the work on dynamic factor models by Stock and Watson
+(2002); Hatzius et al. (2010); Doz, Giannone, and Reichlin (2012); and Aruoba, Diebold, and
+Scotti (2009). The NFCI and ANFCI each represent a common element, or factor, taken from
+price, quantity, and survey evidence on broad financial conditions. This factor gives added
+weight to indicators that are highly contemporaneously correlated with each other
+(“systemically important”) and are best able to explain its evolutionary patterns (“dynamically
+important”).
+
+How can I tell which indicators are important?
+
+The absolute value of an indicator’s weight is a reflection of its ability to explain historical
+fluctuations in the broader financial system. The weights for each of the 105 indicators are
+listed at www.chicagofed.org/digital_assets/others/research/data/nfci/nfci_indicators_list.pdf.
+The following are the top ten indicators by absolute value of their weights in both indexes.
+
+     NFCI                                                                       NFCI weight
+     BofAML 3-5 yr AAA CMBS OAS spread                                             3.47
+     ICE BofAML ABS/5-yr Treasury yield spread                                     3.39
+     BofAML High Yield/Moody's Baa corporate bond yield spread                     3.22
+     30-yr Jumbo/Conforming fixed rate mortgage spread                             3.17
+     FRB Senior Loan Officer Survey: Tightening Standards on Small C&I Loans       3.16
+     CBOE Market Volatility Index VIX                                               3.1
+     FRB Senior Loan Officer Survey: Tightening Standards on RRE Loans             3.08
+     FRB Senior Loan Officer Survey: Tightening Standards on Large C&I Loans       2.94
+     FRB Senior Loan Officer Survey: Tightening Standards on CRE Loans             2.92
+     BofAML Home Equity ABS/MBS yield spread                                       2.91
+
+     ANFCI                                                                     ANFCI weight
+     3-mo. Overnight Indexed Swap (OIS)/Treasury yield spread                     4.29
+     2-yr Interest Rate Swap/Treasury yield spread                                 3.6
+     1-mo. Asset-backed/Financial commercial paper spread                          3.6
+     ICE BofAML ABS/5-yr Treasury yield spread                                    3.42
+     Markit High Yield (HY) 5-yr Senior CDS Index7                                3.24
+     ICE BofAML Financial/Corporate Credit bond spread                            3.11
+     30-yr Jumbo/Conforming fixed rate mortgage spread                            2.85
+     3-mo./1-wk AA Financial commercial paper spread                              2.78
+     3-mo. TED spread (LIBOR-Treasury)                                            2.76
+     CBOE Market Volatility Index VIX                                             2.61
+Another way to examine this question is to calculate the percentage of the absolute
+contributions to the indexes that the data series explain by each of the three types of
+indicators. Risk indicators account for slightly more than half of the contributions to the NFCI
+and ANFCI. Credit indicators account for roughly a quarter of the variation in the NFCI, but only
+about half of that in the ANFCI. The leverage indicators contribute slightly less than the credit
+indicators for both the NFCI and ANFCI. In the ANFCI, the adjustments for economic activity and
+inflation account for roughly a fifth of the contributions to the index.
+
+
+
+                Percentage of Absolute Contributions
+References
+
+Aruoba, S. B., F. X. Diebold, and C. Scotti, 2009, “Real-time measurement of business
+     conditions,” Journal of Business and Economic Statistics, Vol. 27, No. 4, pp. 417–427.
+
+B. S. Bernanke, M. Gertler, and S. Gilchrist, 1999, “The financial accelerator in a quantitative
+       business cycle framework,” in Handbook of Macroeconomics, J. B. Taylor and M.
+       Woodford (eds.), Vol. 1C, Amsterdam: Elsevier / North-Holland, chapter 21.
+
+Brave, S. and R.A. Butters, 2012a, “Detecting early signs of financial instability,” Chicago Fed
+       Letter, Federal Reserve Bank of Chicago, No. 305, December.
+
+__________, 2012b, “Diagnosing the financial system: Financial conditions and financial
+      stress,” International Journal of Central Banking, Vol. 8, No. 2, June, pp. 191–239.
+
+__________, 2011, “Monitoring financial stability: A financial conditions index approach,”
+      Economic Perspectives, Federal Reserve Bank of Chicago, Vol. 35, First Quarter,
+      pp. 22–43.
+
+Brave, S. and D. Kelley, 2017, “Introducing the Chicago Fed’s new adjusted National Financial
+       Conditions Index,” Chicago Fed Letter, Federal Reserve Bank of Chicago, No. 386,
+       September.
+
+Doz, C., D. Giannone, and L. Reichlin, 2012, “A quasi maximum likelihood approach for
+      large, approximate dynamic factor models,” Review of Economics and Statistics,
+      Vol. 94, No. 4, November, pp. 1014–1024.
+
+Hakkio, C. S., and W. R. Keeton, 2009, “Financial stress: What is it, how can it be measured,
+      and why does it matter?,” Economic Review, Federal Reserve Bank of Kansas City,
+      Second Quarter, pp. 5–50.
+
+Hatzius, J., P. Hooper, F. Mishkin, K. L. Schoenholtz, and M. W. Watston, 2010, “Financial
+      condition indexes: A fresh look after the financial crisis,” University of Chicago Booth
+      School of Business, Initiative on Global Markets, report, April 13, available at
+      http://research.chicagobooth.edu/igm/events/docs/2010usmpfreport.pdf.
+
+Illing, M., and Y. Liu, 2006, “Measuring financial stress in a developed country: An
+        application to Canada,” Journal of Financial Stability, Vol. 2, No. 3, October,
+        pp. 243–265.
+
+Stock, J. H., and M. W. Watson, 2002, “Forecasting using principal components from a large
+       number of predictors,” Journal of the American Statistical Association, Vol. 97, No. 460,
+       December, pp. 1167–1179.
+

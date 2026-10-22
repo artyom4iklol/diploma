@@ -1,0 +1,45 @@
+{
+  "offline_reproduction_passed": true,
+  "files": [
+    {
+      "file": "pilot_forecasts.csv",
+      "rows": 1695,
+      "match": true
+    },
+    {
+      "file": "pilot_coefficients.csv",
+      "rows": 1695,
+      "match": true
+    },
+    {
+      "file": "pilot_scores.csv",
+      "rows": 30,
+      "match": true
+    },
+    {
+      "file": "pilot_comparisons.csv",
+      "rows": 18,
+      "match": true
+    },
+    {
+      "file": "pilot_single_date_influence.csv",
+      "rows": 1017,
+      "match": true
+    },
+    {
+      "file": "pilot_GW_rolling52.csv",
+      "rows": 12,
+      "match": true
+    },
+    {
+      "file": "evaluation_targets.csv",
+      "rows": 113,
+      "match": true
+    },
+    {
+      "file": "vintaged_model_frames.csv",
+      "rows": 7316,
+      "match": true
+    }
+  ]
+}

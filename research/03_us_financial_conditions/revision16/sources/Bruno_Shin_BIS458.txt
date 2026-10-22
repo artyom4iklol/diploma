@@ -1,0 +1,1726 @@
+ 
+ 
+  
+BIS Working Papers
+No 458 
+ 
+ Cross-border banking 
+and global liquidity 
+by Valentina Bruno and Hyun Song Shin 
+ 
+ 
+Monetary and Economic Department 
+August 2014 
+   
+  JEL classification: F32, F33, F34 
+Keywords: Cross-border banking flows, Bank leverage, 
+Global banks 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS Working Papers are written by members of the Monetary and Economic 
+Department of the Bank for International Settlements, and from time to time by 
+other economists, and are published by th e Bank. The papers are on subjects of 
+topical interest and are technical in char acter. The views expressed in them are 
+those of their authors and not necessarily the views of the BIS. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This publication is available on the BIS website (www.bis.org). 
+ 
+ 
+© Bank for International Settlements 2014. A ll rights reserved. Brief excerpts may be 
+reproduced or translated provided the source is stated. 
+ 
+ 
+ 
+ 
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+Cross-Border Banking and Global Liquidity 
+V alentina Bruno
+American University
+Hyun Song Shin
+Bank for International Settlements
+August 28, 2014
+Abstract
+We investigate global factors associated with bank capital  ows. We formulate a
+model of the international banking system where global banks interact with local banks.
+The solution highlights the bank leverage cycle as the determinant of the transmission of
+ nancial conditions across borders through banking sector capital  ows. A distinctive
+prediction of the model is that local currency appreciation is associated with higher
+leverage of the banking sector, thereby providing a conceptual bridge between exchange
+rates and  nancial stability. In a panel study of 46 countries, we  nd support for the
+key predictions of our model.
+JEL codes: F32, F33, F34
+Keywords: Cross-border banking  ows, Bank leverage, Global banks
+Forthcoming in the Review of Economic Studies . The views expressed in this paper are those of the
+authors and not necessarily those of the Bank for International Settlements. An earlier version of this paper
+was circulated under the longer title Capital Flows, Cross-Border Banking and Global Liquidity . We
+thank Dimitri Vayanos and three referees for their comments and guidance. We are grateful to Maurice
+Obstfeld for his comments as discussant at the 2012 NBER Summer Institute, as well as to Tobias Adrian,
+Franklin Allen, Tam Bayoumi, Claudio Borio, Rodrigo Cifuentes, Stijn Claessens, Marcel Fratzscher, Linda
+Goldberg, Pierre-Olivier Gourinchas, Refet Gurkaynak, Karen Lewis, Bob McCauley, Loretta Mester, Gian
+Maria Milesi-Ferretti, Tara Rice, Ricardo Correa, Greg Nini, Amir Yaron and participants at numerous
+workshops for their comments. We thank Jonathan Wallen, Daniel Lewis and Linda Zhao for research
+assistance.
+1
+1 Introduction
+It is a cliché that the world has become more connected, but the  nancial crisis and the boom
+that preceded it have renewed attention on the global factors that drive  nancial conditions
+worldwide. Calvo, Leiderman and Reinhart (1993, 1996) famously distinguished the global
+pushfactors for capital  ows from the country-speci c pullfactors, and emphasised the
+importance of external push factors in explaining capital  ows to emerging economies in
+the 1990s. Policy discussion has revolved around the notion of global liquidity whereby
+permissive credit conditions in  nancial centres are transmitted across borders to other parts
+of the world (BIS (2011)). More recently, Miranda-Agrippino and Rey (2013) and Rey
+(2013) have highlighted the highly synchronised nature of  nancial conditions across borders
+and the co-movement in debt  ows and credit growth that accompanies it.
+In tandem with the discussion of global factors, the dramatic increase in gross capital  ows
+has posed a challenge to the traditional approach to international  nance based onnet capital
+ ows where  nancial  ows are seen only as the counterpart to the current account. In his
+Ely lecture, Obstfeld (2012b p.3) concludes that large gross  nancial  ows entail potential
+stability risks that may be only distantly related, if related at all, to the global con guration
+of saving-investment discrepancies. One reason for the caution is that the growth in gross
+capital  ows was associated with increased leverage and the size of the banking sector as a
+whole, as emphasised by Borio and Disyatat (2011), Gourinchas and Obstfeld (2012) and
+Schularick and T aylor (2012). In this way, gross capital  ows (especially through the banking
+sector) have received a great deal of recent attention from researchers. 1
+The objective of our paper is to shed light on the role of the international banking system
+in the propagation of global liquidity. W e make two contributions.
+Our  rst contribution is to construct a model of global liquidity built around the operation
+of international banks. W e build on recent advances in understanding the leverage cycle of
+banks in which leverage builds up in booms and falls in busts. The leverage cycle mirrors the
+ uctuations in collateral requirements (increased haircuts ) during downturns. Geanakoplos
+1See Forbes and Warnock (2012), Lane and Pels (2011), Obstfeld (2012a, 2012b), Rey (2013) and Shin
+(2012).
+2
+(2010) and F ostel and Geanakoplos (2008, 2012) have examined how the risk bearing capacity
+of the  nancial system can be severely diminished when leverage falls through an increase
+in collateral requirements. Similarly, Gorton (2009, 2010) and Gorton and Metrick (2012)
+have explored the analogy between classical bank runs and the modern run in capital markets
+driven by increased collateral requirements and reduced borrowing capacity.
+Our model of global banking combines these earlier insights with the institutional features
+underpinning the international banking system, such as the centralised funding and credit
+allocation decisions documented by Cetorelli and Goldberg (2012a, 2012b). In particular,
+we construct a double-deckermodel of banking where regional banks borrow in US dollars
+from global banks in order to lend to local corporate borrowers. In turn, the global banks
+ nance cross-border lending to regional banks by tapping US dollar money market funds in
+ nancial centres.
+A distinctive feature of our model is the link between local currency appreciation and
+loosening of  nancial conditions through the build-up of leverage in the banking sector.
+The channel is through shifts in the e¤ ective credit risk faced by banks who lend to local
+borrowers that may have a currency mismatch. When the local currency appreciates, local
+borrowersbalance sheets become stronger, resulting in lower credit risk and hence expanded
+bank lending capacity. In this way, currency appreciation leads to greater risk-taking by
+banks. This risk-taking channelof currency appreciation entails a link between exchange
+rates and  nancial stability.
+In addition, given the pre-eminent role of the US dollar as the currency used to denominate
+debt contracts, our results shed light on why dollar appreciation constitutes a tightening of
+global  nancial conditions, and why  nancial crises are associated with dollar shortages.
+The combination of the rapid growth of the banking sector fuelled by capital in ows
+and an appreciating local currency has been a classic early warning indicator of emerging
+economy crises. Gourinchas and Obstfeld (2012) conduct an empirical study using data
+from 1973 to 2010 and  nd that two factors emerge consistently as the most robust and
+signi cant predictors of  nancial crises, namely a rapid increase in leverage and a sharp
+real appreciation of the currency. Their  nding holds both for emerging and advanced
+3
+economies, and holds throughout the sample period. Schularick and T aylor (2012) similarly
+highlight the role of leverage in  nancial vulnerability, especially that associated with the
+banking sector. Our framework addresses the theoretical mechanism behind the link between
+currency appreciation and the build-up of leverage and is in contrast to conventional macro
+models of exchange rates where the focus is on the current account. 2
+Another related feature of our model that sets it apart from conventional macro models
+of exchange rates is that it addresses directly the monetary policy spillovers, especially the
+impact of lower US dollar borrowing rates on global  nancial conditions. By addressing the
+link between funding costs and bank leverage, we can  ll in some of the theoretical boxes
+associated empirical studies of monetary policy spillovers. Eichenbaum and Evans (1995)
+found that a loosening of US monetary policy led to a subsequent depreciation of the US
+dollar. Bruno and Shin (2013) and Rey (2013) update the evidence and  nd that banking
+sector capital  ows are closely associated with US monetary policy. Our model provides a
+possible mechanism to explain the link.
+More broadly, our model is well suited in addressing the capacity of the global bank-
+ing system to bear and distribute the fundamental credit risk. Since risk must be borne
+somewhere in the system - either directly by lenders to ultimate borrowers, or indirectly by
+lenders to banks - the aggregate credit risk has to be absorbed by the global banking system
+as a whole. Our model shows how the risk absorption role of the global banking system
+imposes a joint restriction on the leverage of the regional and global banks taken together.
+The logic of the argument also implies that the growth of the global banking system is
+constrained only by the contemporaneous fundamental risks. Thus, when fundamental risks
+decline - say, due to an expected depreciaton of the US dollar - the banking system expands
+to use up any slack in the system. Borio and Disyatat (2011) and Borio (2014) have coined
+the term excess elasticity to denote the expansion of the  nancial system in the face of
+subdued fundamental risks.
+The second contribution of our paper is empirical. W e investigate how closely the
+2On the other hand, our model focuses just on the banking sector and hence is a partial equilibrium in
+nature. General equilibrium models will enable researchers to integrate macro e¤ects and  nancial channels
+in exchange rate determination. Gabaix and Maggiori (2013) is a promising recent example.
+4
+Categories of Cross­border Liabilities by Counterparty (All countries)
+0.0
+5.0
+10.0
+15.0
+20.0
+25.0
+30.0
+35.0
+40.0
+45.0
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+Trillion US dollars
+Non­bank to Non­bank
+Non­bank to Bank
+Bank to Non­bank
+Bank to Bank
+Cross­border Liabilities by Counterparty (Developed Countries)
+0.0
+5.0
+10.0
+15.0
+20.0
+25.0
+30.0
+35.0
+40.0
+45.0
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+Trillion US dollars
+Non­bank to Non­bank
+Non­bank to Bank
+Bank to Non­bank
+Bank to Bank
+Figure 1. Cross-border liabilities by type of counterparty . Left panel shows cross-border debt liabilities
+by pairwise classi cation of borrower and lender. Bank to bank" refers to cross-border claims of banks on
+other banks (BIS banking statistics table 7A minus 7B). Bank to non-bank" refers to cross-border claims of
+banks on non-banks (BIS table 7B). Claims of non-banks are from BIS international debt security statistics,
+tables 11A and 11B). The right panel shows cross-border debt liabilities of developed countries according to
+BIS classi cation.
+theoretical predictions are borne out empirically. Thanks to the closed-form solution given
+by our model, we can draw on a number of clear-cut hypotheses on the determinants of
+cross-border banking  ows.
+One prediction of our model is that episodes of appreciation of the US dollar are associated
+with deleveraging of global banks and an overall tighening of global  nancial conditions.
+Dollar shortages during crises have received a great deal of attention in the aftermath of
+the 2008 crisis (see, for instance, the BIS study by McGuire and von Peter (2009)). In our
+panel study of 46 countries we  nd that an appreciation of the local currency vis-à-vis the
+US dollar is associated with an acceleration of bank capital  ows in the subsequent quarter.
+Additionally, an implication of our closed-form solution is that both the level of bank
+leverage (which determines the rate at which one dollar s increase in bank capital is turned
+into lending) and the change in the leverage (which determines the lending based on existing,
+or infra-marginal bank capital) should enter as supply pushdeterminants of banking  ows.
+W e  nd strong support for these predictions in our panel study, thereby verifying that the
+factors driving bank  ows can be found in the determinants of bank leverage. Given the
+close relationship between bank leverage and the VIX index of implied volatility of S&P
+5
+Bank to Bank Liabilities as Percentage of GDP
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+Percent of GDP
+All
+Developed
+Developing
+Bank to Bank Liabilities as Percentage of Private Credit
+0%
+5%
+10%
+15%
+20%
+25%
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+Percent of Private Credit
+All
+Developed
+Developing
+Figure 2. Cross-border bank-to-bank liabilities. Left panel shows cross-border bank-to-bank debt
+liabilities as percentage of GDP of the recipient economy. The right panel shows cross-border bank-to-bank
+debt liabilities as percentage of total private credit in recipient economy. Cross-border bank-to-bank liabilities
+are from the BIS banking statistics (table 7A minus 7B). GDP and private credit data are from the World
+Bank.
+500 equity index options, we shed light both on F orbes and W arnock s (2012)  nding of the
+explanatory power of the VIX index for gross capital  ows in surge episodes, as well as the
+importance of leverage as a pre-condition for crises as identi ed by Gourinchas and Obstfeld
+(2012). Our framework therefore serves as the common thread that ties together these two
+strands of the literature.
+Quantitatively, capital  ows through the international banking system have been a sub-
+stantial proportion of total cross-border debt  ows. The quantitative signi cance lends
+weight to the potential economic impact of the framework presented in our paper. Figure
+1 shows the classi cation of cross-border debt liabilities by type of counterparty. W e see
+that cross-border liabilities where both the creditor and debtor are banks is the largest of
+the four possible categories, and saw rapid increases in the run-up to the 2008 crisis. Figure
+1 complements the evidence in Rey (2013) who documents the rapid increase in credit  ows
+relative to FDI and portfolio equity  ows. Figure 2 shows that bank-to-bank  ows have
+also played a major role in the expansion of domestic lending. The left hand panel shows
+cross-border bank-to-bank liabilities as a proportion of GDP , while the right hand panel
+shows cross-border bank-to-bank liabilities as a proportion of private credit. At the peak in
+2007, bank-to-bank cross-border liabilities accounted for 20% of total private credit and for
+6
+Regional
+Bank Global Bank
+A A LL
+Wholesale
+Funding
+Market
+Local
+corporate
+Stage 1Stage 2Stage 3
+A L
+USD USDUSD USDLocal
+currency USD
+Figure 3. Cross-border bank lending in US Dollars
+over 30% of GDP .
+In the next section, we formulate our model of cross-border banking by  rst laying out
+the institutional backdrop for the global banking system. Our model then builds on this
+discussion. W e follow up with our empirical investigation.
+2 Model of Bank Capital Flows
+2.1 Background
+A schematic of the global banking system is sketched in Figure 3. The direction of  nancial
+ ows goes from right to left to uphold the convention of having assets on the left hand side
+of the balance sheet and liabilities on the right. In Figure 3, global banks raise wholesale US
+dollar funding and then lend to local banks in other jurisdictions. The local banks draw on
+cross-border funding (stage 2) in order to lend to their local borrowers (stage 3). Although
+the banks are hedged in their currency exposure, the ultimate local borrower has a currency
+mismatch,  nancing local currency assets with US dollar borrowing. The motive for the
+currency mismatch could be to hedge US dollar receivables when costs are in local currency,
+or the mismatch may be due to speculative motives. In practice, distinguishing hedging
+from speculation will be challenging.
+Our model addresses the pre-eminent role that the US dollar plays in global banking.
+Figure 4 plots the foreign currency assets and liabilities of banks globally, as measured by
+7
+2008Q1
+­20.0
+­15.0
+­10.0
+­5.0
+0.0
+5.0
+10.0
+15.0
+20.0
+1977­Q4
+1979­Q2
+1980­Q4
+1982­Q2
+1983­Q4
+1985­Q2
+1986­Q4
+1988­Q2
+1989­Q4
+1991­Q2
+1992­Q4
+1994­Q2
+1995­Q4
+1997­Q2
+1998­Q4
+2000­Q2
+2001­Q4
+2003­Q2
+2004­Q4
+2006­Q2
+2007­Q4
+2009­Q2
+2010­Q4
+2012­Q2
+Trillion
+dollars
+Assets
+Liabilities
+Other
+Swiss Franc
+Yen
+Sterling
+Euro
+US dollar
+Figure 4. Foreign currency assets and liabilities of BIS reporting banks, classi ed according to currency
+(Source: BIS Locational Banking Statistics Table 5A)
+the BIS locational banking statistics which are organised according to the residence principle.
+The US dollar series in Figure 4 shows the US dollar-denominated assets and liabilities of
+banks outside the United States. The euro series shows the corresponding euro-denominated
+assets and liabilities of banks that are outside the euro area, and so on. The US dollar asset
+series exceeded 10 trillion dollars in 2008Q1, brie y exceeding the total assets of the US
+chartered commercial bank sector, as shown in Shin (2012). Our model addresses the link
+between the strength of the dollar and global  nancial conditions, especially the empirical
+association between episodes of dollar shortages where a sharp appreciation of the US dollar
+coincides with bank deleveraging.
+The most important modelling innovation in our paper is to depart from the conventional
+practice of imposing the triple coincidence where the national income boundary de nes
+also the decision making unit and the currency area. Global banks straddle the traditional
+border, often with roundtrip  ows, as shown in Shin (2012) for European global banks vis-
+à-vis the United States. Instead, our approach is to identify the consolidated balance sheet
+best able to capture the decision making unit for balance sheet management. The role of
+8
+the leverage cycle and the US dollar then become clearer. 3
+Maggiori (2010, 2011) provides a risk-sharing perspective on periodic dollar shortages
+which builds on the net external portfolio of the United States, whereby the United States
+holds risky assets of other countries but its liabilities are in the form of debt. In contrast to
+Maggiori s approach (which maintains the triple coincidence), our paper is partial equilibrium
+in nature and addresses just the banking system in isolation. W e address the fact that within
+the global banking system, banks based in the United States (many of them with European
+headquarters) are net creditors to banks elsewhere (Shin (2012)).
+Our analysis applies irrespective of whether the local bank is separately owned from the
+global bank, or whether the local and global banks belong to the same banking organisation.
+Cetorelli and Goldberg (2012a, 2012b) provide extensive evidence using bank level data
+that internal capital markets serve to reallocate funding within global banking organisations.
+F urther details are discussed in a BIS (2010) study that describes how the branches and
+subsidiaries of foreign banks in the United States borrow from money market funds and
+then channel the funds to their headquarters for on-lending to other parts of the world.
+Schnabl (2012) presents empirical evidence on the international transmission of liquidity
+shocks through the banking sector.
+2.2 Model
+T o depart from the triple coincidence of national income boundary, decision making unit
+and the currency area, our model is explicitly built around the balance sheets of international
+banks that may straddle traditional national income boundaries. The model components
+follow the structure of the global banking system in Figure 3. W e begin  rst with the
+regional demand for credit.
+3Shin (2014) provides a more detailed description of the breakdown of the triple coincidence in in-
+ternational  nance. Borio, James and Shin (2014) show that the breakdown of the triple coincidence is a
+repeated historical theme in international  nance.
+9
+t
+10
+r+1
+1
+default probability
+Project
+value
+0
+Density of 11Vθ
+Asset cost
+(= loan amount)
+Figure 5. The borrower defaults when 1V1 falls short of the notional debt 1 + r. The e¤ect of a currency
+appreciation is to shift the outcome density upward, lowering the default probability.
+2.2.1 Loan demand
+Each region has a continuum of potential borrowers. Borrowers are penniless risk-neutral
+entrepreneurs with access to a project that needs 1 dollar of  xed investment and one unit of
+labour input. Entrepreneurs must borrow from banks to  nance the initial 1 dollar invest-
+ment. The disutility of e¤ ort is distributed in the population according to the cumulative
+distribution function H (:) with support on [0; 1). Loans are granted at date 0, and the
+project realisation and repayment is due at date 1.
+The entrepreneurs bear currency risk. The dollar value of the project depends on the
+exchange rate vis-à-vis the US dollar. Figure 5 depicts the outcome density of the borrower s
+project. Denote by t the value of the local currency with respect to the US dollar,t 2 f0; 1g,
+where an increase in t denotes the appreciation of local currency. Let 1 be the date 0
+expected value of 1. The dollar value of borrower j s project at date 1 follows the Merton
+(1974) model of credit risk, and is the random variable:
+1V1 = exp
+
+
+ 1
+
+  s2
+2 +sWj
+
+(1)
+where Wj is a standard normal,  () is an increasing function and s is a constant. Since
+10
+borrowers are risk-neutral and have limited liability, borrowerj with e¤ ort costej undertakes
+the project if
+E (max f0; 1V1   (1 +r)g)  ej  0 (2)
+Denote by e (r) the threshold e¤ ort cost level where (2) holds with equality when the loan
+rate is r. Loan demand is the mass of entrepreneurs with e¤ ort cost below e (r). Denoting
+byCd (r) the loan demand at interest rate r, we have
+Cd (r) = H (e (r)) (3)
+SinceH () has full support on [0; 1),Cd (r)> 0 for all r >0 and is strictly decreasing in r.
+2.2.2 Credit risk
+The bank lends to many borrowers and can diversify away idiosyncratic risk. Credit risk
+follows the V asicek (2002) model, a many borrower generalisation of Merton (1974). The
+standard normalWj in (1) is given by the linear combination:
+Wj = pY +
+p
+1  Xj (4)
+whereY and fXjg are mutually independent standard normals. Y is the common risk factor
+whileXj is the idiosyncratic risk facing borrower j. The parameter  2 (0; 1) is the weight
+given to the common factor Y .
+The borrower defaults when 1V1 < 1 +r, which can be written as
+pY +
+p
+1  Xj <  dj (5)
+wheredj is distance to default:
+dj =   ln (1 +r) +
+ 1
+
+  s2
+2
+s (6)
+Thus, borrowerj repays the loan when Zj  0, where Zj is the random variable:
+Zj = dj + pY +
+p
+1  Xj
+=   1 (") + pY +
+p
+1  Xj (7)
+11
+0 0.2 0.4 0.6 0.8 1
+0
+2
+4
+6
+8
+10
+12
+z
+density over realized assets
+0 0.2 0.4 0.6 0.8 1
+0
+3
+6
+9
+12
+15
+z
+density over realized assets
+ε = 0.2
+ε = 0.3
+ρ = 0.3 ε = 0.2
+ε = 0.1
+ρ =  0.01
+ρ = 0.1
+ρ = 0.3
+Figure 6. The two charts plot the densities over realised values of a loan portfolio with face value of 1 dollar.
+The left hand charts plots densities when  = 0:1 and " is varied from 0.1 to 0.3. The right hand chart plots
+densities when " = 0:2 and  varies from 0.01 to 0.3.
+where " is the probability of default of borrower j, de ned as " =  (  dj) and  is the
+standard normal c.d.f.
+Conditional onY , defaults are independent. In the limit where the number of borrowers
+becomes large the realised value of the loan portfolio with face value of 1 dollar can be written
+as a deterministic function of Y , by the law of large numbers. Defaulted loans have zero
+recovery value. The realised value of one dollar face value of loans is the random variable
+w (Y ) de ned as:
+w (Y ) = Pr
+pY +
+p
+1  Xj   1 (") jY
+
+= 
+
+Y p  1(")p1 
+
+(8)
+The c.d.f. of w is then given by
+Pr (w z) = Pr
+ 
+Y w 1 (z)
+
+= 
+ 
+w 1 (z)
+
+= 
+
+ 1(")+p1  1(z)p
+
+(9)
+12
+Figure 6 plots the density over realised values of 1 dollar face value of loans, and shows how
+the density shifts to changes in the default probability " (left hand panel) or to changes in
+ (right hand panel). F rom (9), the c.d.f. of w is increasing in ", so that higher values of
+" imply a  rst degree stochastic dominance shift left for the asset realisation density. Since
+" increases with expected dollar appreciation, exchange rates have a direct impact on the
+credit environment in our model.
+2.2.3 Bank leverage
+Banks are risk-neutral price takers with a  xed, exogenous endowment of own funds. Each
+bank chooses total lending to maximise the market value of equity, subject to two constraints.
+The  rst is the balance sheet identity at date 0, that lending is the sum of own funds and
+borrowed funds. The second constraint is a leverage constraint.
+W e solve the bank s problem in two steps. In the  rst step, we solve for leverage from
+a contracting problem. Then, risk-neutrality and price taking means that loan supply is
+the maximum lending consistent with the leverage constraint and the balance sheet identity.
+Finally, the loan rate r is solved from market clearing.
+As noted by Merton (1974), the market value of debt is the di¤ erence between the notional
+value of debt and the implicit option value of default. The market value of equity is then
+given by
+Market value of equity = Asset value   Debt value
+= Asset value   Notional debt + Option value of default
+The contract between the bank and its creditors addresses the moral hazard problem as in
+Adrian and Shin (2014) where the bank can opt for a portfolio of riskier loans that has lower
+expected value but a higher option value of default. W e limit consideration to debt contracts
+only. The contract limits the bank s leverage and thereby caps the option value of default.
+F ormally, suppose that each regional bank has the binary choice between a portfolio of
+good loans and a portfolio of bad loans. Good loans have a probability of default " and
+parameter > 0. W e denote the c.d.f. of one dollar s face value of good loans as FG ().
+Thus,FG is given by (9).
+13
+Bad loans have a higher probability of default " +k, where k > 0 is a constant. The
+c.d.f. of the realised value of one dollar face value of bad loans is denoted by FB (). W e
+assume that FG cuts FB precisely once from below. In other words, the bad loans have a
+lower expected payo¤ , but they have greater dispersion of outcomes.
+A bank is both a lender and a borrower. Denote by ' the bank s notional debt per one
+dollar face value of its loan portfolio. The bank defaults if the realised value of one dollar s
+face value of loans falls below '. Therefore, ' is the strike price of the embedded put option
+arising from limited liability. The bank faces a leverage cap through an upper limit on '.
+Denote by G (') the option value of default given notional debt ' under the good
+portfolio, and denote by B (') the option value under the bad portfolio. The incentive
+compatibility constraint for the bank to choose the good portfolio is
+E (wG)   ['  G (')] E (wB)   ['  B (')] (10)
+whereE (wG) is the expected realised value of one dollar s face value of good loans andE (wB)
+is the analogous expected realised value for bad loans. W riting  (') = B (')  G ('),
+(10) can be written more simply as
+ (') k (11)
+The left hand side is the additional option value to default from the bad portfolio and the right
+hand side is the di¤ erencek in expected realised values between the good and bad portfolios.
+Incentive compatibility entails keeping leverage low enough that the higher option value to
+default does not exceed the greater expected payo¤ of the good portfolio. Our solution rests
+on being able to solve for a unique leverage level given by the following lemma.
+Lemma 1 There is a unique ' that solves  (') = k.
+W e prove Lemma 1. F rom risk neutrality,G (') is the expected payo¤ of the put option
+on one dollar face value of loans with strike price '
+G (') =
+Z '
+0
+('  s)fG (s)ds
+= 'FG (')  
+Z '
+0
+sfG (s)ds (12)
+=
+Z '
+0
+FG (s)ds (13)
+14
+C
+RE
+M
+GE
+i+1f+1r+1
+L L
+Regional Bank Global Bank
+Figure 7. Regional and global bank balance sheets
+wherefG () is the density of the good portfolio and (13) follows from integration by parts.
+Hence,  (') =
+R'
+0 [FB (s)  FG (s)]ds. Since FG (z) cutsFB (z) once from below,  (')
+is single-peaked. F rom (12), lim'!1  (') = k, so that  (') approachesk from above
+as ' ! 1. Since ' < 1 for any bank with positive equity, we have a unique solution to
+ (') = k. This proves the lemma.
+Lemma 1 ties down the leverage of regional banks as a function of the payo¤ fundamentals
+and the expected appreciation of the local currency.
+2.2.4 Loan supply
+W e now solve for loan supply by regional banks. The notation follows Figure 7. All banks
+are risk-neutral price takers and takei,f andr as given when making their lending decisions.
+Regional bank i has own funds ER;i > 0, which is exogenous. Bank i s loan supply isCis.
+Banki s optimisation problem is to chooseCis to maximise its market value of equity:
+Cis  (E (w)   ('   ('))) (14)
+subject to the incentive compatibility constraint  (')  k, its exogenous own funds ER;i
+and the balance sheet identity Cis =ER;i +Li, where Li is the dollar funding obtained from
+global banks. F rom the balance sheet identity, Li is determined when Cis is chosen, and so
+we may limit attention to Cis as the sole decision variable.
+Since the bank is risk-neutral, the IC constraint binds and ' is the solution identi ed in
+15
+Lemma 1. By de nition,
+' = (1 + f )Li= (1 +r)Cis (15)
+F rom the balance sheet identityCi =ER;i +Li, loan supply of bank i is given by
+Cis = ER;i
+1   1+r
+1+f' (16)
+Aggregating across all regional banks, the aggregate loan supply by the regional banks is
+Cs = ER
+1   1+r
+1+f' (17)
+where ER is the aggregate own funds of all regional banks. Equation (17) is not yet a
+complete solution, as f is endogenous and determined by market clearing of the wholesale
+lending market.
+Under the incentive compatibility constraint, the asset realisations follow the distribution
+FG (:), so that the probability of default by the bank is given byFG ('), where' is the solution
+given by Lemma 1. Denoting by  the bank s probability of default, we have =FG (') so
+that
+ = 
+  1 (") + p1   1 (')p
+
+(18)
+Since' is uniquely solved by Lemma 1, and  is a parameter of the contracting problem,
+ is also uniquely de ned once we solve for the probability of default " of the corporate
+borrowers, which depends on the exchange rate.
+2.2.5 Global banking system
+W e now introduce global banks in a double-deckerversion of the V asicek model. There are
+many regions and each global bank has a diversi ed portfolio of loans across many regions.
+However, the global banks bear global risk that cannot be diversi ed away.
+The unit square in Figure 8 represents the population of borrowers across all regions.
+Regional bank k holds a portfolio that is diversi ed against idiosyncratic shocks, but not to
+regional shocks. Global banks hold a portfolio of loans to regional banks, and is diversi ed
+against regional shocks, but it faces undiversi able global risk.
+16
+Diversified loan portfolio from region k
+Regions
+Borrowers
+Regional
+bank in k
+k
+j
+Borrower j
+in region k
+Diversified loan portfolio
+across regional banks
+Global
+bank
+Figure 8. Global and regional banks
+In (7), we introduced the random variable Zj that determined whether a particular bor-
+rowerj defaults or not. W e now introduce a subscript k to indicate the region that the
+borrower belongs to. Thus, let
+Zkj    1 (") + pYk +
+p
+1  Xkj (19)
+where
+Yk =
+p
+G +
+p
+1  Rk (20)
+In (20), the risk factor Yk is decomposed into a regional risk factor Rk that a¤ ects all
+borrowers in region k and a global risk factor G. The random variables G; fRkg and fXkjg
+are mutually independent standard normals.
+The credit risk borne by a global bank arises from the possibility (which happens with
+probability) that a regional bank defaults on the cross-border loan granted by the global
+bank. Although each regional bank has a diversi ed portfolio against the idiosyncratic risk
+of its regional borrowers, it bears the risk Yk.
+A global bank has a fully-diversi ed portfolio across regions, and it can diversify away
+17
+the regional risks Rk. A regional bank k defaults when wG (Yk)<' , or
+Yk <w  1
+G (') =  1(")+p1  1(')p
+=   1 () (21)
+Equivalently, regional bankk defaults when k < 0, where k is the random variable:
+k     1 () +Yk
+=   1 () +
+p
+G +
+p
+1  Rk (22)
+Note the formal symmetry between (22) and the expression forZj for the regional bank in
+(7). The global bank faces borrowers who default with probability , whereas the regional
+bank faces borrowers who default with probability ". The global bank faces uncertainty
+with both a diversi able element Rk and undiversi able elementG, whereas the regional
+bank faces diversi able risk Xj and undiversi able risk Y . The parameter  plays the
+analogous role for the global bank as parameter  does for the regional bank.
+2.2.6 Global bank leverage
+The solution for global bank leverage is similar to that for regional banks. The global
+bank has a binary choice between a good portfolio and a bad portfolio. The good portfolio
+consists of loans with default probability  but where  = 0, so that correlation in defaults
+are eliminated. The bad portfolio consists of loans with a higher probability of default  +h,
+for constant h >0, and non-zero correlation of default 0 > 0. The greater correlation in
+defaults generates dispersion in the asset realisation and hence higher option value of default.
+If the bank chooses the bad portfolio, the realised value of one dollar face value of loans is
+the random variable wB (G) where
+wB (G) = Pr
+p
+0G +
+p
+1  0Rj   1 ( +h) jG
+
+= 
+
+G
+p
+0  1(+h)p
+1 0
+
+(23)
+18
+The c.d.f. of wB is denoted FB (z), and given by
+Pr (wB z) = Pr
+ 
+G w 1
+B (z)
+
+= 
+ 
+w 1
+B (z)
+
+= 
+
+ 1(+h)+
+p
+1 0 1(z)p
+0
+
+(24)
+If the bank chooses the good portfolio, the default probability is  and correlation in
+defaults is zero. The c.d.f. of the good portfolio realisation is obtained from (24) by setting
+h = 0 and taking 0 ! 0. In this limit, the numerator of the expression inside the brackets
+in (24) is positive when z >1   and negative when z <1  . Thus, the realisation of
+the good portfolio has c.d.f. given by
+FG (z) =
+ 0 ifz <1  
+1 ifz  1   (25)
+The good portfolio allows full diversi cation by the bank.
+Denote by  the notional debt ratio of the global bank; that is,  is the default point of
+the global bank for one dollar face value of loans, and hence the strike price of the implicit
+option from limited liability. The incentive compatibility constraint for the global bank to
+choose the good portfolio is
+E (wG)   [  G ( )] E (wB)   [  B ( )] (26)
+whereE (wG) is the expected payo¤ of the good portfolio and G ( ) is the put option value
+with strike  under the good portfolio. E (wB) andB ( ) are de ned analogously for the
+bad portfolio. W riting  ( ) = B ( )  G ( ), (26) can be written as
+ ( ) h (27)
+Incentive compatibility entails keeping leverage low enough that the higher option value to
+default does not exceed the greater expected payo¤ of the good portfolio.
+Lemma 2 There is a unique  that solves  ( ) = h, where  < 1  .
+19
+Lemma 2 is the global bank analogue of Lemma 1, and the proof is in the Appendix.
+The one di¤ erence is that  < 1  , so that the liabilities of the global bank are risk-free
+and earn the risk-free rate i. The global bank has enough own funds to absorb the credit
+loss , so that its liabilities are risk-free even though its assets are risky. The fact that
+global banks can borrow at the risk-free rate is reminiscent of Geanakoplos (2010) and F ostel
+and Geanakoplos (2012), who also have the feature that borrowersprobability of default is
+zero, but for reasons that are di¤ erent from our model. However, the common thread is
+that actual default by the bank does not happen precisely because the contract addresses
+the possibility of default by the bank by limiting leverage.
+2.2.7 Closed-form solution
+W e can now solve the model fully. F or the global bank, the good portfolio has payo¤ 1  
+with certainty since defaults are independent. Since the bank has zero probability of default
+whenever < 1  , Lemma 2 implies that the global bank s probability of default is zero,
+so that i is the (exogenous) dollar risk-free rate. Since  = (1 + i)M= (1 +f )L and from
+the balance sheet identity EG +M =L, the global bank s supply of wholesale lending is
+LS = EG
+1   1+f
+1+i (28)
+The market clearing condition for L is
+ER
+1+f
+1+r  1
+'   1 = EG
+1   1+f
+1+i (29)
+The funding rate f can be solved as
+1 +f = 1
+ 1
+(1+r)' + (1  )  
+1+i
+(30)
+where =EG= (EG +ER). Substituting into (17) and (28), we can solve for aggregate loan
+supply to entrepreneurs as a function of the regional lending rate r:
+Cs (r) = EG +ER
+1   1+r
+1+i' (31)
+The dollar lending rate r is solved by equating loan supply (31) with loan demand Cd (r)
+20
+( )10 ,θθC−
+0θ
+1θ
+Others’  dollar demand
+on date 0 spot market
+0θ
+0Q
+Corporate borrowers’
+dollar demand on
+date0 spot market
+( )10 ,θθD
+0Q− 0
+Net dollar
+demand
+in local
+spot market
+Figure 9. Determination of date 0 exchange rate 0 given expected date 1 exchange rate 1
+given in (3).
+Finally, we close the model by solving for the spot exchange rate at date 0, denoted by
+0, by positing exogenous imperfect substitutability of currencies in the spirt of the portfolio
+balance model (see Branson and Henderson (1985)). 4 Figure 9 depicts the determination of
+0.
+Corporate borrowers have currency mismatch as depicted in Figure 3. T otal dollar credit
+isC, so that corporate borrowersdemand for dollars at the date 0 spot market is a function
+of the spot rate and expected appreciation. Denote by  C
+ 
+0; 1
+
+the spot demand for
+dollars by corporates. W e posit an exogenous demand for dollars on the spot market due to
+other sectors at date 0 denoted byD
+ 
+0; 1
+
+, so that the spot exchange rate 0 is determined
+by the market clearing condition
+ C
+ 
+0; 1
+
++D
+ 
+0; 1
+
+= 0 (32)
+W e summarise the solution of the model. The exogenous elements of the model are the
+aggregate own funds of the regional and global banks, ER and EG, the risk-free US dollar
+interest ratei, the parameters , 0, k andh.
+4The portfolio balance approach to exchange rates has traditionally left the imperfect substitutability
+between currencies unmodeled. Gabaix and Maggiori (2013) provide a recent microfoundation in terms of
+dealer inventories.
+21
+Given these exogenous elements, we can solve the model uniquely. First, ' and  are
+uniquely determined by the underlying parameters of the contracting problem, as stated in
+Lemma 1 and Lemma 2. The probability of default " of the borrowersproject is determined
+given the expected exchange rate appreciation. Finally, the lending rate r is determined
+by market-clearing. Due to the full support assumption for H (), the demand for loans
+is positive and strictly decreasing for all r > 0. Thus, market-clearing occurs for positive
+lending and the lending rate r is uniquely determined. All other quantities can then be
+derived fromr and other exogenous parameters.
+Proposition 3 Total regional lending is
+C = EG +ER
+1   1+r
+1+i' (33)
+and total cross-border bank-to-bank lending is
+L =
+EG +ER  1+r
+1+i' 
+1   1+r
+1+i' (34)
+wherer is the unique solution to the market clearing condition H (e (r)) = Cs (r) and i is
+the exogenous risk-free US dollar interest rate.
+2.3 Risk capacity of global banking system
+In our model, the aggregate credit risk generated by the borrowersprojects has to be ab-
+sorbed by the global banking system, either directly by the regional banks or indirectly by
+the global banks who lend to regional banks. When the fundamental risk increases, the
+leverage constraints of the banks become tighter. Given the very general nature of the
+contracting problem for the regional banks in our model, we cannot prove in general that
+an increase in default risk " leads to universal deleveraging by all banks. However, we can
+show that any change in the fundamental risk imposes a joint restriction on the leverage of
+the regional and global banks taken together.
+In particular, we can de ne iso-riskcurves that puts bounds on bank leverage. When
+" increases, either due to an increase in fundamental risk or due to an expected appreciation
+22
+A
+0 1ϕ
+ψ
+0
+1
+h
+( ) 0,, =′ ψϕεB
+( ) 0,, =ψϕεB
+Figure 10. Risk capacity of global banking system. This  gure shows the impact of increased default
+risk from " to "0 on the leverage of global and regional banks.
+of the US dollar, the global banking system moves on to a lower iso-risk curve, so that either
+global banks deleverage, or local banks deleverage or both. The following result states the
+property formally. Figure 10 illustrates the result.
+Proposition 4 There is a function B (";'; ) which is increasing in all three arguments
+such that B (";'; ) = 0 for any solution (";'; ).
+The functionB (";'; ) establishes bounds on' and for any given level of fundamental
+risk", and hence we could dub the indi¤ erence curves generated by the B function as iso-
+risk curves . Since B is increasing in all three arguments, the boundary B (";'; ) = 0 is
+negatively sloped in ('; )-space as shown in Figure 10.
+The B function is de ned as follows. Equation (18) gives the default probability  of
+the regional banks as an increasing function of " and ', which we can denote as A (";' ).
+This function is increasing in both components. Meanwhile, Lemma 2 guarantees a unique
+solution to the global bank s incentive compatibility constraint  ( ) = h, which can be
+written as Z  
+0
+
+
+ 1(+h)+p1  1(s)p
+
+ds =h (35)
+23
+The left hand side of (35) is an increasing function of  and, which we write as ^B ( ; ).
+Then, the function B (";'; ) in Proposition 4 is de ned by substituting  = A (";' ) into
+^B ( ; ). Thus,
+B (";'; )  ^B ( ;A (";' ))  h (36)
+Any solution (";'; ) then satis esB (";'; ) = 0 , which proves Proposition 4.
+When " increases, either due to an expected appreciation of the US dollar, or to an
+increase in fundamental risks in the world economy, then either global banks deleverage, or
+regional banks deleverage, or both.
+The logic of our argument also applies in reverse. In our model, the size of the global
+banking system is constrained only by the contemporaneous fundamental risks encapsulated
+by ". Thus, when " declines - say, due to an expected depreciaton of the US dollar - the
+global banking system expands to use up the newly found slack in the banking system. This
+feature of our model is closely related to the discussion in Borio and Disyatat (2011) and
+Borio (2014) who have coined the term excess elasticity to denote the expansion of the
+ nancial system in the face of subdued fundamental risks.
+2.4 Comparative Statics
+In preparation for our empirical investigation, we explore some implications of our model.
+The expressions for total cross-border lending (34) can be expressed in long hand as
+T otal cross-
+border lending = Global and weighted regional bank capital
+1   spread  regional
+leverage  global
+leverage
+(37)
+Here,' and are interpreted as normalised leverage measures (regional and global) that lie
+in the unit interval (0; 1).
+An implication of our model is that both the level of bank leverage (which determines the
+rate at which one dollar s increase in bank capital is turned into lending) and the change in
+the leverage (which determines the lending based on existing, or infra-marginal bank capital)
+should enter as supply pushdeterminants of banking  ows. W e will examine the evidence
+shortly.
+24
+A distinctive prediction of our model which sets it apart from existing macro models of
+capital  ows is the comparative statics of exchange rate changes. When the local currency
+is expected to appreciate, " declines. In e¤ ect, expected currency appreciation has the same
+impact as a decline in the credit risk associated with borrowers projects. Since ' is a
+decreasing function of ", exchange rate changes feed directly into the risk-taking of banks
+and their leverage decisions.
+3 Empirical Analysis
+3.1 Sample and V ariable De nitions
+Our sample for the panel investigation draws on data from 46 countries, encompassing both
+developed economies and emerging/developing economies, but excluding o¤ shore  nancial
+centres. Since we wish to analyze the global banking channel, the criterion for inclusion is
+whether foreign banks play an economically signi cant role in the country s  nancial system.
+In addition to developed economies, we select countries with the largest foreign bank pene-
+tration, as measured by the number of foreign banks and by the share of domestic banking
+assets held by foreign-owned local institutions from the Claessens, van Horen, Gurcanlar and
+Mercado (2008) dataset.
+The countries included in our sample are Argentina, Australia, Austria, Belgium, Brazil,
+Bulgaria, Canada, Chile, Cyprus, Czech Republic, Denmark, Egypt, Estonia, Finland, F rance,
+Germany, Greece, Hungary, Iceland, Indonesia, Ireland, Israel, Italy, Japan, Latvia, Lithua-
+nia, Malaysia, Malta, Mexico, Netherlands, Norway, Poland, Portugal, Romania, Russia,
+Slovakia, Slovenia, South Korea, Spain, Sweden, Switzerland, Thailand, T urkey, Ukraine,
+United Kingdom and Uruguay.
+Our de nition of banking  owsL is the growth (log di¤ erence) in cross-border loans of
+BIS-reporting banks on banking sector counterparties in a particular country, as measured
+by the di¤ erence between T able 7A (all borrowers) and T able 7B (non-bank borrowers) in the
+BIS Locational Statistics. Global banks account for most of these international exposures. 5
+Since European banks have a pivotal role in the transmission of global liquidity (Shin, 2012)
+5See, for instance, the E.16 statistics release (http://www.¢ ec.gov/e16.htm)
+25
+Dec 2008
+Mar 2003 =100
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+500
+Mar. 1999
+D ec . 1999
+S ep. 2000
+J un. 2001
+Mar. 2002
+D ec . 2002
+S ep. 2003
+J un. 2004
+Mar. 2005
+D ec . 2005
+S ep. 2006
+J un. 2007
+Mar. 2008
+D ec . 2008
+S ep. 2009
+J un. 2010
+Mar. 2011
+D ec . 2011
+Ireland
+Spain
+Turkey
+Australia
+South Korea
+Chile
+Brazil
+South Africa
+2.4
+2.6
+2.8
+3.0
+3.2
+3.4
+3.6
+3.8
+1999Q1
+1999Q4
+2000Q3
+2001Q2
+2002Q1
+2002Q4
+2003Q3
+2004Q2
+2005Q1
+2005Q4
+2006Q3
+2007Q2
+2008Q1
+2008Q4
+2009Q3
+Ln (VIX) (­1)
+­31
+­28
+­25
+­22
+­19
+­16
+­13
+­10
+Minus BD Leverage
+Ln (VIX) (­1) Minus BD Leverage
+Figure 11. Cross-border bank claims, leverage and VIX. The left panel plots cross-border claims of
+BIS reporting country banks on borrowers in countries as listed (from BIS banking statistics table 7A). The
+series are normalized to 100 in March 2003. The right panel plots log of VIX lagged by one quarter, and
+leverage of the US broker dealer sector (inverted) from the US Flow of Funds. Leverage is de ned as (equity
++ total liabilities)/equity.
+and the US dollar is the currency underpinning the global banking system, our variable is a
+good empirical counterpart to our model setting built around banking claims of global banks
+that use US dollar wholesale funding. The key organisational criteria of the BIS locational
+statistics data are the country of residence of the reporting banks and their counterparties
+as well as the recording of all positions on a gross basis, including those vis-à-vis own a¢ li-
+ates. This makes the locational statistics appropriate for measuring the role of banks in the
+intermediation of international capital  ows and lending  ows.
+The left panel of Figure 11 plots the cross-border claims of BIS-reporting banks from the
+BIS Locational Statistics T able 7A on counterparties listed on the right. The series have
+been normalised to equal 100 in March 2003. Although the borrowers have wide geographical
+spread, we see a synchronised boom in cross-border lending before the recent  nancial crisis.
+The right panel of Figure 11 plots the leverage of the US broker dealer sector from
+1990. Leverage increases gradually up to 2007, and then falls abruptly with the onset
+of the  nancial crisis. The right panel also shows how US broker dealer leverage is closely
+(negatively) associated with the risk measure given by the VIX index of the implied volatility
+in S&P 500 stock index option prices from Chicago Board Options Exchange (CBOE). This
+26
+evidence corroborates the  ndings in Adrian and Shin (2010, 2012) who pointed to the close
+association between the leverage of the W all Street investment banks and the VIX index.
+3.1.1 Global F actors
+Our solution highlights the leverage and (book) equity of global banks that facilitate cross-
+border bank lending. As for the leverage of the global banks, our empirical counterpart
+should ideally be measured as the leverage of the broker dealer subsidiaries of the European
+global banks that facilitate cross-border lending. However, the reported balance sheet data
+for European banks are consolidated numbers at the holding company level that includes
+the much larger commercial banking unit, rather than the wholesale investment banking
+subsidiary alone. F or the reasons discussed in Adrian and Shin (2010), broker dealers and
+commercial banks di¤ er in important ways in their balance sheet management. The broker
+dealer sector much more closely mirrors the wholesale funding operations of the global banks.
+F or this reason, we use instead the leverage of the US broker dealer sector from the Flow of
+F unds series published by the F ederal Reserve as our empirical proxy for global bank leverage
+(Global Leverage) and global bank leverage growth ( Global Leverage growth). T o the extent
+that US broker dealers are in uenced by the same forces as the broker dealer subsidiaries of
+the European global banks, we may expect to capture the main forces at work.
+The other global variable predicted by the theory is the growth in the equity of global
+banks. Non-US global banks, especially European global banks, were active in US dollar
+intermediation, as mentioned above. T o capture the role of global banksequity, we use the
+change in the total book value of equity of the largest (top 10) non-US commercial banks
+by assets from Bankscope as a proxy for the growth in equity of international banks ( Global
+Equity growth). Ideally, we would like to capture the equity of the broker dealer subsidiary
+of the bank, rather than the equity of the bank as a whole. However, provided that the book
+equity devoted to the wholesale banking business remains a steady proportion of the bank s
+overall equity, the use of our proxy would be justi ed. Bankscope has historical banking data
+from 1997, hence the variable Global Equity growth is available since 1998.
+27
+3.1.2 Local F actors
+Our solution also allows a role for the leverage and equity of local banks. As a proxy for
+local leverage we use the ratio of bank assets to capital in levels ( Local Leverage) and growth
+(Local Leverage growth) from the W orld Bank WDI database. As a proxy for local equity
+growth, we use the commercial banks net income to yearly averaged total assets (ROA)
+(Local Equity growth) from the W orld Bank Financial Development and Structure Dataset.
+By using this proxy, we implicitly assume that a constant fraction of the earnings is retained
+as equity.
+A distinctive feature of our model is the impact of exchange rate changes on capital  ows.
+W e include the log di¤ erence of the real exchange rate ( RER), where RER is computed
+as the log of nominal exchange rate*(US CPI/local CPI). The nominal exchange rate is in
+units of national currency per U.S. Dollar (from the IMF s IFS database). Bruno and Shin
+(2013)  nd in vector autoregression (V AR) exercises that a decline in the US F ed F unds rate
+is followed by an increase in US broker dealer leverage, an acceleration of capital  ows and
+a depreciation of the US dollar.
+In addition to the variables explicitly modeled in our theoretical framework, we also
+include a number of other control variables. The annual growth rate in money supply
+(M2 ) is measured as the di¤ erence in end-of-year totals relative to the level of M2 (from
+the W orld Bank WDI). Our rationale for including the growth in M2 arises from the domestic
+monetary implications of capital  ows. The regional banks in Figure 7 do not have a currency
+mismatch: they raise US dollar funding and lending in dollars. However, the local borrowers
+- typically non- nancial corporates - may have a currency mismatch either to hedge export
+receivables or to engage in outright speculation on local currency appreciation. One way
+for them to do so is to borrow in US dollars and then deposit the local currency proceeds
+into the domestic banking system. Such deposits would be captured as corporate deposits, a
+component of M2. Thus, we would predict that banking in ows are associated with increases
+in M2.
+GDP and In ationare the country percentage changes in GDP and In ation, respec-
+tively (data from the WEO). F aster growing economies could have greater demand for credit
+28
+whereas higher in ation could limit the supply of credit. Debt/GDP is the change in gov-
+ernment gross debt to GDP (from WEO) and is another factor that potentially a¤ ects credit
+conditions.
+Finally, our model also predicts that cross-border lending is increasing in the interest rate
+spread between the funding rate f and the risk-free interest rate of the wholesale funding
+currencyi. W e construct the variable Interest Spread as the di¤ erence between the local
+lending rate and the US F ed F und rate (from the IMF IFS) and then take the di¤ erences
+between quarterst andt   1.
+The variables L, Debt/GDP, In ation, and Local Equity growth are winsorised at
+the 2.5% percentile to limit the e¤ ect of the outliers. The sample period spans from the
+ rst quarter of 1996 (the  rst date covered in T able 7 of the BIS locational data) to the last
+quarter of 2011, but the coverage of years and countries varies depending on data availability.
+3.2 Panel Regressions for Bank Capital Flows
+The speci cation follows our closed-form solution for banking sector capital  ows given by
+(37). Our panel regressions are with country  xed e¤ ects and clustered standard errors at
+the country level:
+Lc;q;y = 0 +i  Global F actor(i)(q 1 or y 1) +j  Local F actor(c;j )(q 1 or y 1)
++k  Interest Spreadc;q 1 +ec;q (38)
+where
+ Lc;q;y is the growth in cross-border loans vis-à-vis the bank sector in country c and
+in quarter q of year y, as given by the quarterly log di¤ erence in the external loans of
+BIS reporting country banks in country c between quartersq   1 andq;
+ Global F actorsi encompass the leverage of the US broker dealer sector in level ( Global
+Leverage) (at quarter q   1) and its log di¤ erence between quarters q   2 and q   1
+(Global Leverage growth), and the log di¤ erence in equity of global banks between years
+y   2 andy   1 (Global Equity growth).
+29
+ Local F actorsj in countryc encompass the bank assets to capital ratio (at year y   1)
+and its growth (between year y   2 and y   1) ( Local Leverage and Local Leverage
+growth), bank return on assets ( Local Equity growth). Other local variables are RER,
+M2, GDP, In ation,and Debt/GDP, as described in the data section. In addi-
+tion we use country- xed e¤ ects to control for any additional country-level e¤ ect not
+captured by our control variables, such as unobserved changes in credit demand at the
+country level.
+ Interest Spread is the  rst di¤ erence in the spread between the local lending rate and
+the US F ed F und rate.
+T o reduce endogeneity concerns and maximise the period coverage, all independent vari-
+ables are lagged by one quarter (if at quarterly frequency) or by four quarters (if at yearly
+frequency). W e start running regressions separately for the level" and growth" variables
+and then show results where all variables are included in the same speci cation. The results
+are presented in T able 1.
+Column (1) is the speci cation that includes the variables Global Leverage and Local
+Leverage. Only Global Leverage is positive and signi cant. Column (2) is the speci cation
+that includes the variables Global Equity Growth and Local Equity Growth , where both vari-
+ables are positive and signi cant. Column (3) is the speci cation that includes the variables
+Global Leverage Growth and Local Leverage Growth , where only Global Leverage Growth is
+positive and signi cant. Column (4) is the speci cation that includes all variables. This
+speci cation shows that Global Leverage (both in levels and growth) continues remaining
+highly signi cant, together withLocal Equity Growth.
+The additional local variables in T able 1 enter with the predicted signs, but they do
+not diminish the role of Global Leverage. Particularly notable is the variable RER which
+gives the price of dollars in local currency in real terms, so that a fall in RER represents
+an appreciation of the local currency. W e see that the coe¢ cient on RER is the only
+variable that is negative and highly signi cant in every speci cation, indicating that a real
+appreciation between quarterq  1 to quarterq is associated with acceleration in bank capital
+ ows between quarterq to quarter q + 1. Thus, an appreciation of the local currency leads
+30
+Table 1. Determinants of banking sector capital  ows. This table reports panel regressions for
+banking sector capital  ows with country  xed e¤ects. The dependent variable is the quarterly log di¤erence
+of external loans of BIS reporting banks as given by the di¤erence in the values between Table 7A - Table 7B
+of the BIS Locational Statistics. Global Leverage is the leverage of the US broker dealer sector and Global
+Leverage growth is its quarterly growth. Global Equity growth is the change in the dollar value of equity of
+the top 10 non-US banks. Local Leverage and Local Leverage growth are the bank assets to capital ratio in
+levels and its growth, respectively. Local Equity growth is the commercial banksnet income to total assets
+ratio. Interest Spread is the  rst di¤erence in the spread between the local lending rate and the US Fed
+Fund rate. Other local variables are the log di¤erence of the real exchange rate, GDP growth, Debt to GDP
+ratio growth, growth of M2 money stock, and In ation. p-values are reported in parantheses. Standard
+errors are clustered at the country level.
+1 2 3 4 5 6
+Global Leverage 0.0043*** 0.0038*** 0.0033***
+[0.000] [0.000] [0.006]
+Local Leverage -0.2191 -0.083 -0.1488
+[0.160] [0.545] [0.372]
+Global Equity Growth 0.0346*** -0.0224 -0.0234
+[0.002] [0.136] [0.173]
+Local Equity Growth 1.5900*** 1.9706*** 2.2129***
+[0.000] [0.000] [0.001]
+Global Leverage Growth 0.1746*** 0.1203*** 0.1518***
+[0.000] [0.002] [0.002]
+Local Leverage Growth 0.016 0.0265 0.034
+[0.526] [0.294] [0.293]
+RER -0.2204*** -0.1841*** -0.2100*** -0.1858*** -0.1320**
+[0.000] [0.002] [0.000] [0.000] [0.022]
+M2 0.0837** 0.1014*** 0.1005** 0.0783** 0.0879**
+[0.015] [0.001] [0.015] [0.014] [0.015]
+GDP 0.1464* 0.1457* 0.3690*** 0.0347 -0.0042
+[0.067] [0.060] [0.000] [0.687] [0.965]
+Debt/GDP -0.0988*** -0.0695*** -0.1089*** -0.0471 -0.0829*
+[0.005] [0.007] [0.005] [0.215] [0.056]
+In ation -0.4083*** -0.3117** -0.4648*** -0.1458 -0.2115
+[0.002] [0.016] [0.005] [0.378] [0.243]
+Interest Spread 0.0038*** 0.0233
+[0.001] [0.919]
+Constant 0.0212 0.0368*** 0.0712*** -0.024 0.0296*** 0.0188
+[0.527] [0.006] [0.001] [0.530] [0.000] [0.665]
+Observations 1,872 2,192 1,676 1,672 2,459 1,266
+R-squared 0.086 0.072 0.076 0.102 0.001 0.090
+# Countries 46 46 46 46 45 41
+31
+to an acceleration of capital in ows, thereby con rming the main distinctive prediction of
+our model.
+The expansion of the domestic money stock is also associated with capital  ows, as
+consistently found in earlier studies of capital  ows to emerging economies (for instance,
+Berg and Patillo (1999)). In addition, higher GDP growth, proxing for high domestic demand
+conditions, is positively associated with banking  ows, whereas the deterioration of lending
+(higher in ation) and public debt conditions act as push factors against cross-border lending.
+However, these variables are not statistically signi cant in every speci cation.
+Finally, we observe that the coe¢ cient of the Interest Spread is positive and signi cant
+as predicted by our theory in speci cation (5) when other variables are not included. However,
+it loses signi cance when used in conjunction with all other variables (column 6). Overall,
+T able 1 reveals the signi cant role of global bank leverage and exchange rate changes.
+3.3 Robustness tests and additional results
+W e complement our panel regressions by examining dynamic panel Generalised Method of
+Moments (GMM) methods due to Arellano and Bover (1995). The panel GMM estimator can
+be used to control for the dynamic nature of the banking  ows-banking leverage relationships,
+while accounting for other sources of endogeneity, such as credit demand from local banks,
+funding and lending costs (monetary policy) and other local country characteristics. The
+results are given in the Appendix in Section A.2. They show that Global Leverage and
+RER continue remaining highly signi cant.
+In Section A.3, we present panel regressions using alternative speci cations. In one set of
+regressions, we include bank leverage terms computed in terms of market capitalisation. W e
+follow Adrian, Moech and Shin (2013) and we de ne enterprise value leverage ( Mk Global
+Leverage) as the enterprise value divided by the market capitalisation of US broker dealers.
+W e show that book leverage remains signi cant, whereas enterprise value leverage does not.
+One way to understand our results is to note that enterprise value addresses the question
+how much is the bank worth? , whereas capital  ows address the question how much does
+the bank lend? . Section A.3 also reports results where VIX is used instead of broker dealer
+32
+leverage, and show that VIX is a good proxy for leverage. These results provide a point of
+contact with F orbes and W arnock (2012) who have highlighted the explanatory power of the
+VIX index for gross capital  ows, and are strongly suggested by Figure 11, where  uctuations
+in the VIX Index are (inversely) associated with shifts in bank leverage.
+Section A.4 addresses the extent to which global supply pushvariables are responsible
+for driving cross-border banking sector  ows, in comparison to the local demand pull
+factors. By comparing the R2 statistics obtained with the full set of time  xed e¤ ects, we
+can ascertain how much of the variation in the data are accounted for by local factors and by
+global factors. W e  nd that local factors account for only a modest amount of the variation,
+while global factors account for an overwhelming part of the variation.
+4 Concluding Remarks
+Our framework has examined global liquidity in terms of the aggregate cross-border lending
+through the banking sector. The evidence in our paper suggests that the global supply
+push factors in the form of the leverage cycle of the global banks have been the key de-
+terminants of global liquidity before 2008. Our  ndings reinforce the argument in Borio
+and Disyatat (2011), Obstfeld (2012a, 2012b) and Gourinchas and Obstfeld (2012) on the
+importance of gross capital  ows between countries in determining  nancial conditions, and
+complement the net external asset approach of Lane and Milesi-F erretti (2007) and Gour-
+inchas and Rey (2007), 6 and other studies based on portfolio  ows (such as Hau and Rey
+(2009). Our approach is in keeping with the renewed focus on the banking sector in the
+European context (see Allen, Beck, Carletti, Lane, Schoenmaker and W agner (2011), Lane
+(2013) and Lane and Pels (2011)).
+Our  ndings open up a number of avenues for future research, both theoretical and
+empirical. W e have highlighted the role of  nancial intermediaries in their use of wholesale
+bank funding. Cross-border banks intermediate such funding, and the composition of their
+liabilities can be expected to re ect the state of the  nancial cycle and risk premiums ruling
+6The post-crisis evidence is updated in Gourinchas, Govillot and Rey (2010) and Gourinchas, Rey and
+Truempler (2012)
+33
+in the  nancial system. Thus, future work on early warning indicators may usefully draw
+on the behavior of the banking sector over the cycle. 7
+7See Rose and Spiegel (2009), Shin and Shin (2010) and Hahm, Shin and Shin (2013) for empirical
+analyses of this issue.
+34
+A Appendix
+A.1 Proof of Lemma 2
+F rom (13), ( ) =
+R 
+0 [FB (s)  FG (s)]ds, so that
+ ( ) =
+8
+>>>>><
+>>>>>:
+ R
+0
+FB (s)ds if < 1  
+1 R
+0
+FB (s)ds  
+ R
+1 
+[1  FB (s)]ds if  1  
+(39)
+Thus  ( ) is single-peaked, reaching its maximum at  = 1  . F rom (12),
+lim
+ !1
+ ( ) = h
+so that  ( ) approachesh from above as  ! 1. Since  < 1 for a bank with positive
+equity, there is a unique solution to  ( ) = h where the solution is in the range where
+ ( ) is increasing. Therefore  < 1  . This proves the lemma.
+Robustness tests and additional results
+A.2 Endogeneity
+W e examine a dynamic system GMM that uses a stacked system consisting of both  rst-
+di¤ erenced and level equations. In the system GMM regression we treat all the regressors as
+endogenous and include one lag of the dependent variable L. In order to avoid over tting
+and instrument proliferation, we use one lag (the  rst quarter lag or the  rst annual lag
+depending on whether the variable has a quarter or annual frequency) and combine instru-
+ments into smaller sets. By adopting this speci cation, we end up using 17 or 27 instruments
+depending on the speci cation implemented. T able 2 shows two speci cations: one that
+includes Global Leverage and Local Leverage only (column 1) and one where all global and
+local variables are included (column 2). 8 The results show that Global Leverage and RER
+continue remaining highly signi cant.
+8The AR(1) test yields a p-value of 0.000 in both cases. The AR(2) test yields a p-value of 0.697
+in the  rst speci cation and a p-value of 0.871 in the second speci cation, which means that we cannot
+35
+Table 2. Robustness T ests. Columns 1 and 2 present results from a test for endogeneity by using the
+dynamic panel GMM methods of Arellano and Bover (1995). Column 3 reports results with the the market
+value of leverage added to the speci cation. In column 4, VIX is used in lieu of the broker dealer leverage.
+Column 5 includes the variable Intero¢ ce Growth in the benchmark speci cation. Column 6 excludes the
+post-2008 period. Column 7 adds to the benchmark speci cation the dummy variable Domestic Crisis, which
+is equal to 1 in each year a country experiences a banking sector crisis. Additional controls include the log
+di¤erence of the real exchange rate, GDP growth, Debt to GDP ratio growth, growth of M2 money stock,
+and In ation. p-values are reported in parantheses. Standard errors are clustered at the country level.
+1 2 3 4 5 6 7
+Global Leverage 0.0099*** 0.0052** 0.0040*** 0.0039*** 0.0073*** 0.0031***
+[0.000] [0.048] [0.000] [0.000] [0.000] [0.001]
+Global Leverage growth 0.0314
+[0.558]
+Global Equity growth 0.0769**
+[0.048]
+Local Leverage -0.1806 -0.7089 -0.2169 -0.1419 -0.2335 -0.1995 -0.1823
+[0.719] [0.249] [0.147] [0.381] [0.126] [0.275] [0.131]
+Local Leverage growth 0.1581**
+[0.024]
+Local Equity growth 1.8395
+[0.265]
+RER -0.2041*** -0.2360*** -0.2180*** -0.1960*** -0.2193*** -0.2515*** -0.1977***
+[0.001] [0.005] [0.000] [0.000] [0.000] [0.000] [0.000]
+Interest Spread 0.4618
+[0.683]
+Loans growth q   1 -0.1273*** -0.0903
+[0.002] [0.119]
+Mk Global Leverage 0.0021
+[0.186]
+VIX -0.0514***
+[0.000]
+Intero¢ ce Growth 0.0139***
+[0.009]
+Domestic Crisis -0.0527***
+[0.000]
+Additional controls Y Y Y Y Y Y Y
+Observations 1,872 1,266 1,872 1,872 1,872 1,356 1,872
+R-squared 0.088 0.085 0.09 0.057 0.102
+# Countries 46 41 46 46 46 45 46
+36
+A.3 Additional Speci cations
+W e examine alternative speci cations to gauge robustness of our panel regression  ndings. In
+one set of regressions, we use leverage de ned in terms of banking sector market capitalisation
+instead of book equity, and also examine VIX as a proxy for the leverage of the global banks.
+W e  nd that book equity performs best, not the leverage based on market cap. This result
+is consistent with Adrian, Moench and Shin (2013). W e also  nd that VIX is a good proxy
+for leverage.
+W e examine intero¢ ce  ows between the headquarters and US-based o¢ ces of global
+banks, published by the F ederal Reserve in its H8 data on foreign-related institutions. In-
+tero¢ ce Growth is the percentage growth in net intero¢ ce assets of foreign banks in the US,
+winsorised at the 2.5%. Column 5 shows that Intero¢ ce Growth is positive and signi cant,
+leaving other results unchanged, highlighting the role of intero¢ ce  ows.
+W e examine sub-periods of  nancial and banking crises. Even if we exclude the period
+post-2008, our main conclusions remain unchanged (column 6).9 W e then include individual
+local country bank crisis dummies that has value 1 (0 otherwise) for each year of a country
+banking sector crisis as classi ed by Laeven and V alencia (2010). Column 7 shows that a
+local banking crisis has a negative e¤ ect on banking  ows but this does not alter the role of
+our variable Global Leverage.
+In untabulated regressions not reported for space reasons, we show that our results: a)
+are robust to the inclusion of di¤ erent country-level regulations (Barth, Caprio, Levine, 2001,
+and subsequently updated) that may a¤ ect the leverage decisions of banks in each country;
+b) are robust to the inclusion of additional control variables, like the Chinn-Ito Index that
+measures a country s degree of capital account openness or the level of legal enforcement
+reject the null hypothesis of no second-order serial correlation. The results also reveal a Hansen J-statistic
+test of overidenti cation with a p-value of 0.437 and 0.459, respectively, and as such, we cannot reject the
+hypothesis that our instruments are valid. The system GMM estimator makes the following additional
+exogeneity assumption that any correlation between our endogenous variables and the unobserved ( xed)
+e¤ect is constant over time. We test this assumption directly using a di¤erence-in-Hansen test of exogeneity.
+This test yields a p-value of 0.265 and 0.583, respectively, for the J-statistic produced by the di¤erence-in-
+Hansen test and as such we cannot reject the hypothesis that the additional subset of instruments used in
+the system GMM estimates is exogenous.
+9In untabulated results we verify that our results remain unchanged if we exclude the period 2007-2008
+of the US  nancial crisis.
+37
+in a country; c) do not vary systematically between developed and developing countries,
+suggesting that bank leverage decisions have global impact that is not di¤ erentially larger
+for emerging economies.
+A.4 Accounting for Global F actors
+T o gauge the relative weight of local and global factors in explaining the variation of cap-
+ital  ows, we run four OLS regressions as modi ed speci cations of our benchmark panel
+regression 38. The respective regressions include the following variables: 1) all the local vari-
+ables (Local Leverage (in levels and growth), Local Equity Growth, RER, M2, GDP ,
+Debt/GDP , In ation); 2) all the local variables plus country dummies; 3) all the global vari-
+ables (Global Leverage (in levels and growth) and Global Equity growth); 4) time dummies
+(quarterly) only. W e then compare the adjusted R-squared from each regressions.
+TheR2 statistic from the speci cations with time dummies represent an upper bound on
+the goodness of  t, and we ask how close we get to this upper bound by using the variables
+selected from our model. 10
+T able 3 reports the adjustedR2 statistics from the four OLS speci cations de ned above.
+In Panel A, we report the results for the full sample. W e see that local variables alone explain
+8.4% of the variation (column 1), while the global variables alone explain 10.2% (column 3).
+When comparing column 3 with the hypothetical upper bound for a model that has all
+global factors (column 4), we see that our global variables account for 0:102=0:175 = 58%
+of the total global variation. Comparing model (4) to model (2), we see that the adjusted
+R-squared of the time dummy regression is about twice that of the regression with country-
+speci c variables and country-dummies. Consequently, the global characteristics dominate
+local characteristics in explaining the variation in banking  ows.
+10 Our approach is in the spirit similar to the analysis performed by Doidge, Karolyi Stulz (2007) in an un-
+related context of cross-country comparisons of corporate governance. Doidge, Karolyi Stulz (2007) attempt
+to measure the relative importance of  rm-level factors and country-level factors in corporate governance.
+Their method proceeds by running regressions with di¤erent speci cations with country-level variables and
+ rm-level variables (See, Doidge, Karolyi Stulz (2007, Table 2)). They compare their results with that from a
+regression with country dummies, which gives a statistical upper bound on the importance of country-speci c
+characteristics. By comparing the R2 obtained from their favored speci cation with the R2 from the country
+dummy regressions that give the upper bound, they are able to gauge the proportion of the total variation
+that can be captured by the country level variables.
+38
+Table 3. Accounting for global factors. This table compares the adjusted R-squared statistics obtained
+from 4 di¤erent OLS regression speci cations of our main speci cation, with time dummies, country dummies,
+global variables and local variables. Panel A is for the full sample of countries. Panels B to E are for the sample
+of countries with large or low size of cross-border  ows (Panel B), with high or low  nancial openness (Panel
+C), developed versus developing countries (Panel D) and with high or low institutional legal foundations
+(Panel E). See text for de nitions and further methodological details.
+Model 1 2 3 4
+Country Variables Y Y
+Country Dummies Y
+Global Variables Y
+Time Dummies Y
+Panel A - All Sample
+# Obs. 1,672 1,672 1,672 1,672
+Adj. R-2 0.084 0.089 0.102 0.175
+Panel B - Size of cross-border  ows
+High # Obs. 504 504 504 504
+Adj. R-2 0.070 0.059 0.214 0.368
+Low # Obs. 464 464 464 464
+Adj. R-2 0.112 0.101 0.135 0.241
+Panel C - Openness
+High # Obs. 540 540 540 540
+Adj. R-2 0.062 0.058 0.185 0.337
+Low # Obs. 452 452 452 452
+Adj. R-2 0.080 0.091 0.11 0.206
+Panel D - Developed vs. Developing
+Developed # Obs. 812 812 812 812
+Adj. R-2 0.092 0.082 0.137 0.23
+Developing # Obs. 664 664 664 664
+Adj. R-2 0.089 0.084 0.106 0.186
+Panel E - Law and Order
+High # Obs. 476 476 476 476
+Adj. R-2 0.104 0.099 0.144 0.251
+Low # Obs. 504 504 504 504
+Adj. R-2 0.095 0.095 0.102 0.146
+39
+W e then extend our analysis by exploring the extent to which speci c country character-
+istics in uence our results. In other words, we are interested in exploring whether country
+heterogeneity may explain cross border  ows. W e split the countries between the upper
+(High) and lower (Low) tercile distribution of the size of cross-border  ows (BIS T able 7A-
+7B, Panel B), country openness (Chinn-Ito Index, Panel C), developed versus developing
+countries (Panel D) and legal enforcement (Law and Order, Panel E).
+Panels B and C show that global factors have a signi cantly larger impact than local
+factors in countries more  nancially open and where banking  ows are bigger. F or instance,
+for countries subject to a large size of bank in ows (Panel B, High), model 3 givesR2 = 0:214,
+which is 3.6 times higher than model 2 sR2 = 0:059, meaning that our global variables explain
+signi cantly more of the variation in banking  ows than local characteristics. The greater
+importance of global characteristics is most obvious when we use time dummy variables
+(0:368=0:059 = 6 :3 times larger). In countries with lower banking in ows (Panel B, Low)
+global factors still explain more than local factors but with a di¤ erence that is lower in
+magnitude.
+Panel D shows results for the sample of developed and developing countries. Global
+factors remain more important than local factors (model 4 versus model 2) in explaining
+the banking  ows in both developed and developing countries. A similar picture emerge
+from Panel E where global factors seem to explain more of the variation in banking  ows in
+countries with strong legal foundations.
+T aken together, this analysis con rms that global factors explain much more of the vari-
+ation in cross-border  ows. At the same time, the  ndings point out the heterogenous e¤ ects
+of global factors depending on the magnitude of the in ows, level of  nancial openness and
+legal development.
+40
+References
+Adrian, T obias and Hyun Song Shin (2010) Liquidity and Leverage, Journal of Financial
+Intermediation, 19, 418-437
+Adrian, T obias, Emanuel Moench and Hyun Song Shin (2013) Leverage Asset Pricing
+F ederal Reserve Bank of New Y ork Sta¤ Report 625,
+http://www.newyorkfed.org/research/sta¤ _reports/sr625.html
+Adrian, T obias and Hyun Song Shin (2014) Procyclical Leverage and V alue-at-RiskReview
+of Financial Studies , 27, 373-403
+Allen, F ranklin, Thorsten Beck, Elena Carletti, Philip Lane, Dirk Schoenmaker and W olf
+W agner (2011) Cross-Border Banking in Europe: Implications for Financial Stability and
+Macroeconomic PoliciesCEPR report,
+http://www.cepr.org/pubs/books/CEPR/cross-border_banking.pdf
+Arellano, Manuel and Olympia Bover (1995) Another look at the instrumental variable
+estimation of error-component models, Journal of Econometrics 68, 29-51.
+Bank for International Settlements (2010) F unding patterns and liquidity management of
+internationally active banks CGFS Papers 39, Committee on the Global Financial System,
+http://www.bis.org/publ/cgfs39.pdf
+Bank for International Settlements (2011) Global liquidity  concept, measurement and
+policy implicationsCGFS Papers 45, Committee on the Global Financial System
+http://www.bis.org/publ/cgfs45.pdf
+Barth, James R. Gerard Caprio, Jr. and Ross Levine (2001) The regulation and supervision
+of banks around the world - a new database , W orld Bank Policy Research W orking Paper
+Number 2588.
+Basel Committee on Banking Supervision (2005) International Convergence of Capital Mea-
+surement and Capital Standards: A Revised F ramework , Bank for International Settle-
+ments, November 2005 http://www.bis.org/publ/bcbs118.pdf
+Berg, Andrew, and Catherine Pattillo (1999) Are Currency Crises Predictable? A T est,
+IMF Sta¤ Papers, 46(2), 107-38.
+Borio, Claudio (2014) The International Monetary and Financial System: Its Achilles Heel
+and What T o Do About ItBIS W orking Paper 456 http://www.bis.org/publ/work456.pdf
+Borio, Claudio and Piti Disyatat (2011) Global imbalances and the  nancial crisis: Link or
+no link?BIS W orking Paper 346 http://www.bis.org/publ/work346.pdf
+41
+Borio, Claudio, Harold James and Hyun Song Shin (2014) The International Monetary
+and Financial System: A Capital Account Historical Perspective BIS W orking Paper 457
+http://www.bis.org/publ/work457.pdf
+Branson, William H. and Dale W. Henderson (1985) The Speci cation and In uence of
+Asset Markets in Handbook of International Economics II , edited by Ronald Jones and
+Peter Kenen, Amsterdam, Elsevier.
+Bruno, V alentina and Hyun Song Shin (2013) Capital Flows and the Risk-T aking Channel
+of Monetary PolicyNBER working paper 18942
+Calvo, Guillermo A., Leonardo Leiderman, and Carmen Reinhart (1993) Capital In ows
+and Real Exchange Rate Appreciation in Latin America: The Role of External F actors,
+IMF Sta¤ Papers, 40 (1), 108-151.
+Calvo, Guillermo A., Leonardo Leiderman, and Carmen Reinhart (1996) Capital Flows to
+Developing Countries in the 1990s: Causes and E¤ ects, Journal of Economic Perspectives,
+10, Spring 1996, 123-139.
+Cetorelli, Nicola and Linda S. Goldberg (2012a) Liquidity management of U.S. Global
+Banks: Internal Capital Markets in the Great Recession , Journal of International Eco-
+nomics 88, 299-311.
+Cetorelli, Nicola and Linda S. Goldberg (2012b) Banking Globalization and Monetary
+T ransmissionJournal of Finance 67(5), 1811 1843
+Claessens Stijn, Neeltje V an Horen, T ugba Gurcanlar and Joaquin Mercado Sapiain (2008)
+F oreign Bank Presence in Developing Countries 1995-2006: Data and T rends working
+paper, http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1107295
+Doidge, Craig, G. Andrew Karolyi and Rene M. Stulz (2007) Why do countries matter so
+much for corporate governance?Journal of Financial Economics 86 1 39
+Eichenbaum, Martin and Charles L. Evans (1995) Some Empirical Evidence on the E¤ ects
+of Shocks to Monetary Policy on Exchange Rates Quarterly Journal of Economics 110(4),
+975-1009
+F ostel, Ana and John Geanakoplos (2008) Leverage Cycles and The Anxious Economy
+American Economic Review 2008, 98:4, 1211-1244.
+F ostel, Ana and John Geanakoplos (2012) Endogenous Leverage in a Binomial Economy:
+The Irrelevance of Actual Defaultworking paper, http://home.gwu.edu/~afostel/forms/wpfostel2.pdf
+F orbes, Kristin J. and F rancis E. W arnock (2012) Capital Flow W aves: Surges, Stops, Flight
+and RetrenchmentJournal of International Economics, 88(2): 235-251
+42
+Gabaix, Xavier and Matteo Maggiori (2013) International Liquidity and Exchange Rate
+Dynamicsworking paper, Harvard University
+Geanakoplos, John (1997) Promises, Promises In W.B. Arthur, S. Durlauf and D. Lane
+(eds.), The Economy as an Evolving Complex System, II. Reading MA: Addison-W esley,
+1997, pp. 285-320.
+Geanakoplos, John (2010) The Leverage Cycle NBER Macroeconomics Annual 2009, In
+D. Acemoglu, K. Rogo¤ and M. W oodford, eds., NBER Macroeconomic Annual 2009, 24,
+1-65, University of Chicago Press, 2010.
+Gorton, Gary (2009) "The Panic of 2007," in Maintaining Stability in a Changing Financial
+System, Proceedings of the 2008 Jackson Hole Conference, F ederal Reserve Bank of Kansas
+City
+Gorton, Gary (2010) Slapped by the Invisible Hand: The Panic of 2007 , Oxford University
+Press
+Gorton, Gary and Andrew Metrick (2012) Securitized Banking and the Run on Repo
+Journal of Financial Economics, 104(3), 425-451
+Gourinchas, Pierre-Olivier, Nicolas Govillot and Helene Rey (2010) Exorbitant Privilege
+and Exorbitant Dutyworking paper
+Gourinchas, Pierre-Olivier and Maurice Obstfeld (2012) "Stories of the Twentieth Century
+for the Twenty-First," American Economic Journal: Macroeconomics, 4(1), 226-65.
+Gourinchas, Pierre-Olivier and Helene Rey (2007) International Financial Adjustment
+Journal of Political Economy, 115(4), 665-703
+Gourinchas, Pierre-Olivier, Helene Rey, and Kai T ruempler (2012) "The  nancial crisis and
+the geography of wealth transfers." Journal of International Economics, 88(2), 266 283.
+Hahm, Joon-Ho, Hyun Song Shin and Kwanho Shin (2013) Non-Core Bank Liabilities and
+Financial V ulnerabilityJournal of Money, Credit and Banking, 45(S1), 3-36
+Hau, Harald and Helene Rey (2009) Global Portfolio Rebalancing under the Microscope ,
+NBER working paper 14165
+Laeven, Luc and F abian V alencia (2010) Resolution of Banking Crises: The Good, the Bad,
+and the Ugly , IMF working paper 10/146.
+Lane, Philip (2013) Capital Flows in the Euro AreaEuropean Commission Economic Pa-
+pers
+http://ec.europa.eu/economy_ nance/publications/economic_paper/2013/pdf/ecp497_en.pdf
+43
+Lane, Philip and Gian Maria Milesi-F erretti (2007). "The External W ealth of Nations Mark
+II: Revised and Extended Estimates of F oreign Assets and Liabilities, 1970 2004" Journal
+of International Economics, 73, 223-250.
+Lane, Philip and Barbara Pels (2011) "Current Account Balances in Europe." working paper,
+T rinity College Dublin
+Maggiori, Matteo (2010) The U.S. Dollar Safety Premiumworking paper, NYU
+Maggiori, Matteo (2011) Financial Intermediation, International Risk Sharing, and Reserve
+Currenciesworking paper, NYU
+McGuire, Patrick and Goetz von Peter (2009) The US Dollar Shortage in Global Banking
+and the International Policy Response  BIS working paper 291, Bank for International
+Settlements, http://www.bis.org/publ/work291.pdf
+Merton, Robert C. (1974) On the Pricing of Corporate Debt: the Risk Structure of Interest
+RatesJournal of Finance, 29, 449 470.
+Miranda-Agrippino, S., Rey, H (2013) W orld Asset Markets and Global Liquidity , working
+paper, London Business School
+Obstfeld, Maurice (2012a) Financial Flows, Financial Crises, and Global Imbalances ,Jour-
+nal of International Money and Finance, 31, 469 480
+Obstfeld, Maurice (2012b) Does the Current Account Still Matter? , American Economic
+Review, 102(3), 1-23.
+Rey, Hélène (2013) Dilemma not T rilemma: The global  nancial cycle and monetary policy
+independenceproceedings of the F ederal Reserve Bank of Kansas City Economic Symposium
+at Jackson Hole.
+Rose, Andrew and Mark Spiegel (2009). Cross-Country Causes and Consequences of the
+2008 Crisis: International Linkages and American Exposure.NBER W orking Paper #15358.
+Schnabl, Philipp (2012) International T ransmission of Bank Liquidity Shocks: Evidence
+from an Emerging Market Journal of Finance 67, 897-932.
+Schularick, Moritz and Alan M. T aylor (2012) Credit Booms Gone Bust: Monetary Policy,
+Leverage Cycles, and Financial Crises, 1870-2008.American Economic Review102, 1029 61
+Shin, Hyun Song (2012) Global Banking Glut and Loan Risk Premium Mundell-Fleming
+Lecture, IMF Economic Review 60 (2), 155-192.
+44
+Shin, Hyun Song (2014) Breaking the T riple Concidence in International Financekeynote
+address at 2014 Irving Fisher Committee on Central Bank Statistics, Bank for International
+Settlements
+Shin, Hyun Song and Kwanho Shin (2010) Procyclicality and Monetary Aggregates , NBER
+working paper w16836, http://www.nber.org/papers/w16836.
+V asiceck, Oldrich (2002) The Distribution of Loan Portfolio V alueRisk, December 2002,
+http://www.moodyskmv.com/conf04/pdf/papers/dist_loan_port_val.pdf
+45

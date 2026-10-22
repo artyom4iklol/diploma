@@ -1,0 +1,51 @@
+{
+  "unreleased_december_mutation_checks": [
+    {
+      "variant": "esi_buffer7",
+      "origin": "2010Q4",
+      "forecast_change_if_unreleased_december_mutated": 37.4406038330457
+    },
+    {
+      "variant": "esi_buffer7",
+      "origin": "2020Q4",
+      "forecast_change_if_unreleased_december_mutated": 22.1609697472027
+    },
+    {
+      "variant": "esi_buffer7",
+      "origin": "2024Q4",
+      "forecast_change_if_unreleased_december_mutated": 29.21675734521508
+    },
+    {
+      "variant": "esi_first2",
+      "origin": "2010Q4",
+      "forecast_change_if_unreleased_december_mutated": 0.0
+    },
+    {
+      "variant": "esi_first2",
+      "origin": "2020Q4",
+      "forecast_change_if_unreleased_december_mutated": 0.0
+    },
+    {
+      "variant": "esi_first2",
+      "origin": "2024Q4",
+      "forecast_change_if_unreleased_december_mutated": 0.0
+    },
+    {
+      "variant": "esi_drop_dec",
+      "origin": "2010Q4",
+      "forecast_change_if_unreleased_december_mutated": 0.0
+    },
+    {
+      "variant": "esi_drop_dec",
+      "origin": "2020Q4",
+      "forecast_change_if_unreleased_december_mutated": 0.0
+    },
+    {
+      "variant": "esi_drop_dec",
+      "origin": "2024Q4",
+      "forecast_change_if_unreleased_december_mutated": 0.0
+    }
+  ],
+  "future_ESI_mutation_passed": true,
+  "limits": "Does not validate historical revisions or full historical release calendars."
+}

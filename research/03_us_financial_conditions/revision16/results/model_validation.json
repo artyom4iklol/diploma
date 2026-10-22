@@ -1,0 +1,8 @@
+{
+  "historical_forecasts_unchanged": true,
+  "all_variants_reported": true,
+  "new_refit_forecasts": 615,
+  "same_origins_new_diagnostic": true,
+  "new_diagnostic_post_result": true,
+  "bootstrap_fixed_losses_no_refit": true
+}

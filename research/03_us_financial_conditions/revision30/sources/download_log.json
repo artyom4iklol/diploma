@@ -1,0 +1,30 @@
+[
+  {
+    "file": "equity_history_all.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/M.S0.N.C_DJE50.X?includeHistory=true&startPeriod=1994-01&endPeriod=2025-12&format=csvdata",
+    "bytes": 709555,
+    "sha256": "5f994b059c94fc46fe7121df2ff2b9341c4550331ffb386886a193cd6d6430ab",
+    "retrieved": "2026-10-22T07:32:47.444919+00:00"
+  },
+  {
+    "file": "eb202004.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/ecbu/eb202004.en.pdf",
+    "bytes": 2124612,
+    "sha256": "ecc0490e88114a1cdc510184da5bb5c7478c0655ee6cadb09f56d32f32ac6df5",
+    "retrieved": "2026-10-22T07:32:44.128331+00:00"
+  },
+  {
+    "file": "eb202102.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/ecbu/eb202102.en.pdf",
+    "bytes": 1845088,
+    "sha256": "7007c610a3976b606d9e00a7477127ff068540ffe3df1220a7a1174e659fed9e",
+    "retrieved": "2026-10-22T07:32:50.183367+00:00"
+  },
+  {
+    "file": "Cho_Rho_Appendix.pdf",
+    "url": "https://seunghwarho.github.io/docs/Appendix.pdf",
+    "bytes": 999395,
+    "sha256": "ca675600283e141fcf95a01f59d91f634e76eec067a1f5a1db73362c58e2ce8c",
+    "retrieved": "2026-10-22T07:32:51.171626+00:00"
+  }
+]

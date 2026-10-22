@@ -1,0 +1,13 @@
+{
+  "selected_origins": [
+    "2020Q4",
+    "2024Q4"
+  ],
+  "forecast_rows": 40,
+  "raw_and_diagnostic": true,
+  "independent_validation": false,
+  "new_model_fits": 0,
+  "selection": "known diagnostic date plus last common date",
+  "last_common_origin_verified": "2024Q4",
+  "loss_and_hit_checks_passed": true
+}

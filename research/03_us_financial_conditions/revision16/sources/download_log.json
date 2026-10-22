@@ -1,0 +1,194 @@
+[
+  {
+    "file": "esi_calendar_2010.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202010.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2011.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202011.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2012.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202012.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2013.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202013.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2014.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202014.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2015.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202015.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2016.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202016.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2017.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202017.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2018.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202018.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2019.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202019.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2020.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202020.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2021.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202021.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 68311,
+    "sha256": "ca3237bdb71adc7f8d577f77a0e37e4014b4486606aa2090d45e68a879edaa18"
+  },
+  {
+    "file": "esi_calendar_2022.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202022.pdf",
+    "status": 200,
+    "ok": true,
+    "bytes": 24500,
+    "sha256": "59d2d323e31552f597928f313fc1d20e9dd0135631b682c4041ebe8a89612baa"
+  },
+  {
+    "file": "esi_calendar_2023.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202023.pdf",
+    "status": 200,
+    "ok": true,
+    "bytes": 28133,
+    "sha256": "781eb3e89adfff65a2b072596787424c059aa48a2dcb05b07970d3df1b2b2535"
+  },
+  {
+    "file": "esi_calendar_2024.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202024.pdf",
+    "status": 200,
+    "ok": true,
+    "bytes": 30530,
+    "sha256": "3f413067b8dde064f8a475853916c889d5e91dad869066f27ceccb1a572788a8"
+  },
+  {
+    "file": "esi_calendar_2025.pdf",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/calendar/Publication%20dates%202025.pdf",
+    "status": 200,
+    "ok": true,
+    "bytes": 32431,
+    "sha256": "6c9854e7b4dc42210ccc6d8e51ed088b9143d9584762cad1b1c35d453f8d33ba"
+  },
+  {
+    "file": "Miranda_Rey_NBER21722.pdf",
+    "url": "https://www.nber.org/system/files/working_papers/w21722/w21722.pdf",
+    "status": 200,
+    "ok": true,
+    "bytes": 970376,
+    "sha256": "a9411fb989b535c04a8aabcc1c06c5daceea9fca0fa52c24d2495013bdabbb15"
+  },
+  {
+    "file": "Kaufmann_ECB2489.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2489~26b7eca600.en.pdf",
+    "status": 200,
+    "ok": true,
+    "bytes": 2499213,
+    "sha256": "5080226b3d50d97b60b5136e4affbfd8eeb5cd150b4565349c73dd151d2f11c4"
+  },
+  {
+    "file": "Bruno_Shin_BIS458.pdf",
+    "url": "https://www.bis.org/publ/work458.pdf",
+    "status": 200,
+    "ok": false,
+    "bytes": 125223,
+    "sha256": "4f03c62e0e90878e987cef889e5f6152a579f3bc2034d7e73e1087f1643a888c"
+  },
+  {
+    "file": "Brandt_ECB2560.pdf",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2560~f98f3c7d78.en.pdf",
+    "status": 200,
+    "ok": true,
+    "bytes": 6451295,
+    "sha256": "23dc3cbf1e9c3dd29bf7bd6574aa4341d6670fb9ffcaf904c6cf6bb3da28d70a"
+  },
+  {
+    "file": "Habib_Venditti_2018.html",
+    "url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2018/html/ecb.ebart201806_01.en.html",
+    "status": 200,
+    "ok": true,
+    "bytes": 172376,
+    "sha256": "52849722ba4adf40fd78eff40a5a5b01469fa3a270f9471dd59cb40b26ed3b0d"
+  },
+  {
+    "file": "eurostat_gdp_metadata.html",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/en/namq_10_esms.htm",
+    "status": 200,
+    "ok": true,
+    "bytes": 265690,
+    "sha256": "2780aebfc89a2e611ca04f0598f44fa96b7ad1623013a4c6a962e7b5f9839fc8"
+  },
+  {
+    "file": "nfci_current.html",
+    "url": "https://www.chicagofed.org/research/data/nfci/current-data",
+    "status": 200,
+    "ok": true,
+    "bytes": 80093,
+    "sha256": "783118c3aec24eb5dcae0ce22b38836ab8415d994a7e5bbf9af281e30019e5ef"
+  },
+  {
+    "file": "ciss_metadata.html",
+    "url": "https://data.ecb.europa.eu/data/datasets/CISS",
+    "status": 200,
+    "ok": true,
+    "bytes": 248222,
+    "sha256": "dd1a8087b132cb172c650886cdc9d0c686cd28f5213978a47656d99e8e94cb35"
+  }
+]

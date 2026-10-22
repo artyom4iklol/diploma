@@ -1,0 +1,15 @@
+[
+  {
+    "file": "Giacomini_White_2003.pdf",
+    "url": "https://econwpa.ub.uni-muenchen.de/econ-wp/em/papers/0308/0308001.pdf",
+    "bytes": 657408,
+    "sha256": "712ea4b631759231a36a7c6680131a4ce65d1500da5ebb7135e56989d85be2df",
+    "status": "downloaded"
+  },
+  {
+    "file": "Matheson_IMF_2011.pdf",
+    "url": "https://www.imf.org/-/media/Websites/IMF/imported-full-text-pdf/external/pubs/ft/wp/2011/_wp1193.ashx",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

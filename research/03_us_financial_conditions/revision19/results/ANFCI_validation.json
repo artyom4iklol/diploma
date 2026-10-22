@@ -1,0 +1,90 @@
+{
+  "forecasts": 2373,
+  "historical_forecasts": 1695,
+  "paired_revised_counterfactual_forecasts": 678,
+  "historical_versions": 59,
+  "common_rows_and_origins": true,
+  "baseline_reproduction_rows": 1356,
+  "baseline_maximum_differences": {
+    "forecast": 3.552713678800501e-15,
+    "loss": 7.105427357601002e-15,
+    "actual": 4.440892098500626e-16,
+    "n_train": 0.0
+  },
+  "solver_checks": [
+    {
+      "h": 1,
+      "origin": "2011Q2",
+      "objective_difference": -3.552713678800501e-15,
+      "forecast_difference": -4.440892098500626e-16
+    },
+    {
+      "h": 1,
+      "origin": "2017Q3",
+      "objective_difference": 1.4210854715202004e-14,
+      "forecast_difference": -1.7541523789077473e-14
+    },
+    {
+      "h": 1,
+      "origin": "2020Q4",
+      "objective_difference": 0.0,
+      "forecast_difference": -3.552713678800501e-14
+    },
+    {
+      "h": 1,
+      "origin": "2023Q1",
+      "objective_difference": -1.4210854715202004e-14,
+      "forecast_difference": -9.43689570931383e-15
+    },
+    {
+      "h": 1,
+      "origin": "2025Q3",
+      "objective_difference": -2.842170943040401e-14,
+      "forecast_difference": 2.220446049250313e-16
+    },
+    {
+      "h": 4,
+      "origin": "2011Q2",
+      "objective_difference": 3.552713678800501e-15,
+      "forecast_difference": -2.6645352591003757e-15
+    },
+    {
+      "h": 4,
+      "origin": "2017Q3",
+      "objective_difference": 7.105427357601002e-15,
+      "forecast_difference": -1.5210055437364645e-14
+    },
+    {
+      "h": 4,
+      "origin": "2020Q4",
+      "objective_difference": -7.105427357601002e-15,
+      "forecast_difference": -5.950795411990839e-14
+    },
+    {
+      "h": 4,
+      "origin": "2023Q1",
+      "objective_difference": 0.0,
+      "forecast_difference": -2.220446049250313e-16
+    }
+  ],
+  "future_label_mutation": [
+    {
+      "h": 1,
+      "prediction_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prediction_difference": 0.0
+    }
+  ],
+  "maximum_condition": 4.104617861211316,
+  "all_forecasts_finite": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "formal_causal_identification": false,
+  "complete_reconstruction_of_market_information": false
+}

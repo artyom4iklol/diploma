@@ -1,0 +1,72 @@
+{
+  "revision": 29,
+  "date": "2026-10-21",
+  "source_archive_sha256": "352cc5547f93ce65a7575fd5a6d213853da1ca4efa0e56d9bf571572172f67b4",
+  "original_files": 847,
+  "all_original_files_retained": true,
+  "byte_identical_original_files_before_manifest_update": 835,
+  "allowed_modified_files_excluding_manifest": [
+    {
+      "path": "CHANGELOG.md",
+      "old_sha256": "fdc8cfaeabe26650ecfab6a5b057747b9b49e5a584c96e64ec0623b28f1173d5",
+      "new_sha256": "87e47a4f8aed861e52bcb112f4ed16b5916f365faf12bae9a01c20a8c4af0692"
+    },
+    {
+      "path": "README.md",
+      "old_sha256": "0db931f02db4515826e43437e98b1e259c5fb83ce908eb7208134bdccb0ce25a",
+      "new_sha256": "eaf94aaede36c2a86ba7b65b0247bba4406cfb29ba0f7f3f6ef2b1c65b2a7c66"
+    },
+    {
+      "path": "manuscript/ASSEMBLY.json",
+      "old_sha256": "6b15902ca5ebbd620a9e43e81335094bc9990fb12c7aa568e9938e01ee1d3410",
+      "new_sha256": "896f1428a803f85405b774581acf97c05f25d174136ac8cea34bde67c5b74292"
+    },
+    {
+      "path": "manuscript/ASSEMBLY_NOTES.md",
+      "old_sha256": "e1baab9e9a5d3a67d1ed8763ae6c8f69855be770c656a001b912929b9a43cc47",
+      "new_sha256": "97edf88452f5229c5e0ec7e32d95a4fada124490f9e5774b57ff1c9e149f1744"
+    },
+    {
+      "path": "manuscript/Appendices.md",
+      "old_sha256": "ed8274270305616288d208ecbbba6c2b72f70f6315ef3682ff6c7fa3abe03d80",
+      "new_sha256": "13b925dfb41886d06ed61eeb0ea0eeb8bac06be1c9d80709a53be55f5df5342f"
+    },
+    {
+      "path": "manuscript/Bibliography.md",
+      "old_sha256": "4d183a45330599d77f24a013ab40a9a304adc2e7c4b30b456d0733168b8fb73a",
+      "new_sha256": "bdf262ae4975a28422cae2ba5a2b4cb2256c4182c7b8a063df3be1bd85c41943"
+    },
+    {
+      "path": "manuscript/Conclusion.md",
+      "old_sha256": "b9fdebcd0bf695b02bdfa9c658e36c429eb44b7e5f8c0df60d2f3c8580313231",
+      "new_sha256": "aabb570fc1c0e89f5fc8c3cfa5684a218e6c069bdbd7127244690b2fb8e23429"
+    },
+    {
+      "path": "manuscript/Diploma_US_Financial_Conditions_Euro_Area.md",
+      "old_sha256": "d31f7222c13cb29607c1373e549cccf54ec1caf669a7cafb36375e5af86c83eb",
+      "new_sha256": "118b7e9fdbc9266135cd8c88320a38488418d38cc0f6cc18701f5908184cb56b"
+    },
+    {
+      "path": "manuscript/Introduction.md",
+      "old_sha256": "a3151d863171793bad8d7c83caed702720f29b5fe31b4858404ea2f648607ace",
+      "new_sha256": "22f99b61c99d61e9015141dc21833a19b3ee61900eea5db7dee60b5abc78b014"
+    },
+    {
+      "path": "manuscript/VERIFICATION.json",
+      "old_sha256": "57a9a542907ee02a4a2aaabf45b0881d836912dcd2ef4edb33299c283e2dba44",
+      "new_sha256": "082ad72bf1c1500a04418fc64e68d50b2f047a8570da0235b716a4352e349274"
+    },
+    {
+      "path": "manuscript/assemble.py",
+      "old_sha256": "9bcaee6495fe4daaa0dd55f0ce698a7b57681fe23b036b105783a5d64232ced8",
+      "new_sha256": "039224b22b37b118e253749573c1e1695ed7f0de803bc64dd637540496f93b59"
+    },
+    {
+      "path": "manuscript/verify_manuscript.py",
+      "old_sha256": "a0b5a356b9c12fa31e3b569a07ad860cdc7b80c7a8d02c070a2c55bb5e478010",
+      "new_sha256": "098e392c54f58c084ea47893f9a74d356677f1836dfe21888a239f0385af996e"
+    }
+  ],
+  "research_data_articles_and_previous_results_unchanged": true,
+  "previous_manuscript_preserved": "d31f7222c13cb29607c1373e549cccf54ec1caf669a7cafb36375e5af86c83eb"
+}

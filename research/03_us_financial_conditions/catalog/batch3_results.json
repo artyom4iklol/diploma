@@ -1,0 +1,67 @@
+[
+  {
+    "id": "S13",
+    "source_url": "https://crawford.anu.edu.au/sites/default/files/2025-05/97_2020_Ferrara_Mogliani_Sahuc.pdf",
+    "version": "CAMA Working Paper 97/2020",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://crawford.anu.edu.au/sites/default/files/2025-05/97_2020_Ferrara_Mogliani_Sahuc.pdf",
+    "status": "downloaded",
+    "file": "papers/S13.pdf",
+    "pages": 24,
+    "sha256": "be9f9ff77c5c1604c2b21f90337d3591b49821dea3521535c4e3dba19f2e2bac",
+    "first_page": " \n|  T H E  A U S T R A L I A N N A T I O N A L U N I V E R S I T Y \n \n \nCrawford School of Public Policy \nCAMA \nCentre for Applied Macroeconomic Analysis \n \n \nHigh-frequency monitoring of growth-at-risk \n \n \nCAMA Working Paper 97/2020 \nNovember 2020 \n \n \nLaurent Ferrara \nSKEMA Business School, University Cote d’Azur, France \nCentre for Applied Macroeconomic Analysis, ANU \n \nMatteo Mogliani \nBanque de France \n \nJean-Guillaume Sahuc \nBanque de France \n \n \nAbstract \nMonitoring changes in financial conditions provides valuable information on the contribution \nof financial risks to future economic growth. For that purpose, central banks need real-time \nindicators to adjust promptly the stance of their policy. We extend the quarterly Growth -at-\nRisk (GaR) approach of Adrian et al. (2019) by accounting for the high -frequency nature of \nfinancial conditions indicators. Specifically, we use Bayesian mixed data sampling (MIDAS) \nquantile regressions to exploit the information content of both a financial stress index and a \nfinancial conditions index leading to real -time high-frequency GaR measures for the euro \narea. We show that our daily GaR indicator (i) provides an early signal of GDP  downturns \nand (ii) allows day-to-day assessment of the effects of monetary policies. During the first six \nmonths of the Covid -19 pandemic period, it has p rovided a timely measure of tail risks on \neuro area GDP. "
+  },
+  {
+    "id": "S15",
+    "source_url": "https://qmro.qmul.ac.uk/xmlui/bitstream/123456789/78498/2/Carriero%20Addressing%20COVID-19%20Outliers%20in%20BVARs%20with%20Stochastic%20Volatility%202022%20Accepted.pdf",
+    "version": "Accepted author manuscript, 2022",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://qmro.qmul.ac.uk/xmlui/bitstream/123456789/78498/2/Carriero%20Addressing%20COVID-19%20Outliers%20in%20BVARs%20with%20Stochastic%20Volatility%202022%20Accepted.pdf",
+    "status": "unavailable",
+    "error": "Response is not a PDF"
+  },
+  {
+    "id": "S17",
+    "source_url": "https://forecasters.org/wp-content/uploads/Constructing-Density-Forecasts_Mitchell.pdf",
+    "version": "Author manuscript, earlier title Multimodality in Macroeconomic Dynamics",
+    "retrieved_at": "2026-10-01",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S28",
+    "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2451~cbf3f02232.en.pdf",
+    "version": "ECB Working Paper 2451; earlier title The simpler the better",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2451~cbf3f02232.en.pdf",
+    "status": "downloaded",
+    "file": "papers/S28.pdf",
+    "pages": 42,
+    "sha256": "6725ccc4e9e280c8dfc169cad5b720ea7ca55f47d5b418dca3aa1aafbddbc0e8",
+    "first_page": " \nWorking Paper Series \nThe simpler the better:  \nmeasuring financial conditions for \nmonetary policy and financial stability \n \n \nSimone Arrigoni, Alina Bobasu,  \nFabrizio Venditti \nDisclaimer: This paper should not be reported as representing the views of the European Central Bank \n(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB. \nNo 2451 / August 2020 "
+  },
+  {
+    "id": "S29",
+    "source_url": "https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr914.pdf?sc_lang=en",
+    "version": "NY Fed Staff Report 914, 2020",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://resources.newyorkfed.org/medialibrary/media/research/staff_reports/sr914.pdf?sc_lang=en",
+    "status": "downloaded",
+    "file": "papers/S29.pdf",
+    "pages": 33,
+    "sha256": "44207e1d157435e013379b5b084e65c94bbb9a63a19f78f1d807c912ecae46f7",
+    "first_page": " \n \n \nThis paper presents preliminary findings and is being distributed to economists \nand other interested readers solely to stimulate discussion and elicit comments. \nThe views expressed in this paper are those of the authors and do not necessarily \nreflect the position of the Federal Reserve Bank of New York or the Federal \nReserve System. Any errors or omissions are the responsibility of the authors. \nFederal Reserve Bank of New York \nStaff Reports \n \n \nForecasting Macroeconomic Risks \n \nPatrick A. Adams \nTobias Adrian \nNina Boyarchenko \nDomenico Giannone \n \n \n \n  \n \n \n \n \nStaff Report No. 914 \nFebruary 2020 "
+  },
+  {
+    "id": "S30",
+    "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2560~f98f3c7d78.en.pdf",
+    "version": "ECB Working Paper 2560, 2021",
+    "retrieved_at": "2026-10-01",
+    "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2560~f98f3c7d78.en.pdf",
+    "status": "downloaded",
+    "file": "papers/S30.pdf",
+    "pages": 63,
+    "sha256": "23dc3cbf1e9c3dd29bf7bd6574aa4341d6670fb9ffcaf904c6cf6bb3da28d70a",
+    "first_page": " \nWorking Paper Series \nWhat drives euro area financial \nmarkets? The role of US spillovers \nand global risk \nRevised March 2026 \n \nLennart Brandt, Arthur Saint Guilhem, \nMaximilian Schröder, Ine Van Robays \nDisclaimer: This paper should not be reported as representing the views of the European Central Bank \n(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB.  \nNo 2560 / May 2021 "
+  }
+]

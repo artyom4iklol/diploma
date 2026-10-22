@@ -1,0 +1,56 @@
+[
+  {
+    "id": "esi_releases",
+    "url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/press-releases_en",
+    "retrieved": "2026-10-02",
+    "final_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/press-releases_en",
+    "status": 200,
+    "bytes": 620395,
+    "file": "esi_releases.html"
+  },
+  {
+    "id": "esi_archive",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/archive_publications/index_en.htm",
+    "retrieved": "2026-10-02",
+    "final_url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/archive_publications/index_en.htm",
+    "status": 200,
+    "bytes": 376092,
+    "file": "esi_archive.html"
+  },
+  {
+    "id": "nfci_about",
+    "url": "https://www.chicagofed.org/research/data/nfci/about",
+    "retrieved": "2026-10-02",
+    "final_url": "https://www.chicagofed.org/research/data/nfci/about",
+    "status": 200,
+    "bytes": 127839,
+    "file": "nfci_about.html"
+  },
+  {
+    "id": "nfci_faq",
+    "url": "https://www.chicagofed.org/-/media/publications/nfci/nfci-faqs-pdf.pdf",
+    "retrieved": "2026-10-02",
+    "final_url": "https://www.chicagofed.org/-/media/publications/nfci/nfci-faqs-pdf.pdf",
+    "status": 200,
+    "bytes": 170914,
+    "file": "nfci_faq.pdf"
+  },
+  {
+    "id": "gdp_revisions",
+    "url": "https://ec.europa.eu/eurostat/web/national-accounts/database/data-revisions",
+    "retrieved": "2026-10-02",
+    "final_url": "https://ec.europa.eu/eurostat/web/national-accounts/database/data-revisions",
+    "status": 200,
+    "bytes": 188833,
+    "file": "gdp_revisions.html"
+  },
+  {
+    "id": "ciss_meta",
+    "url": "https://data.ecb.europa.eu/data/datasets/CISS/data-information",
+    "retrieved": "2026-10-02",
+    "final_url": "https://data.ecb.europa.eu/data/datasets/CISS/data-information",
+    "status": 200,
+    "bytes": 63822,
+    "file": "ciss_meta.html"
+  }
+]

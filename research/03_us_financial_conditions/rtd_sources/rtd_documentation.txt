@@ -1,0 +1,3750 @@
+Overview of annual indicators
+
+Government finance: deficit/surplus and government consumption
+     Deficit (-)/surplus (+)
+B            Total
+C            Central government
+D            State government
+E            Local government
+F            Social security funds
+G    Primary deficit (-)/ surplus (+)
+     Government consumption
+H            Total
+I                   Compensation of employees
+J                   Intermediate consumption
+K                   Transfers in kind via market producers
+L                   Consumption of fixed capital
+M                   Sales (minus)
+N            Collective consumption
+O            Individual consumption
+
+
+     EURO AREA CONCEPT
+     Since June 2015: Euro 19
+     May 2014 to April 2015: Euro 18
+     May 2011 to April 2014: Euro 17
+     May 2009 to April 2011: Euro 16
+     May 2008 to April 2009: Euro 15
+     May 2007 to April 2008: Euro 13
+     January 2001 – March 2007: Euro 12
+
+     SEASONAL ADJUSTMENT
+     No adjustment
+
+     METHODOLOGICAL NOTES
+     •   Data expressed as percentage of GDP
+     •   Methodological notes on the ECB’s website:
+         http://www.ecb.int/stats/acc/gov/html/index.en.html
+     •   As of November 2014, real-time data refer to the new standard on the
+         European System of Accounts ESA 2010:
+         http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+
+     SOURCE: ECB
+B
+Name   Deficit/surplus without UMTS proceeds - All sectors/ unspecified/
+       not applicable (ESA95)-NCBs - General government (ESA95)-
+       NCBs - Non-financial flows current prices
+
+C
+Name    Deficit/surplus without UMTS proceeds - All sectors/ unspecified/
+       not applicable (ESA95)-NCBs - Central government (ESA95)-NCBs
+       - Non-financial flows current prices
+
+D
+Name   Deficit or surplus - All sectors/ unspecified/ not applicable (ESA95)-
+       NCBs - State government (ESA95)-NCBs - Non-financial flows
+       current prices
+
+E
+Name    Deficit or surplus - All sectors/ unspecified/ not applicable
+       (ESA95)-NCBs - Local government (ESA95)-NCBs - Non-financial
+       flows current prices
+
+F
+Name   Deficit or surplus - All sectors/ unspecified/ not applicable (ESA95)-
+       NCBs - Social security funds (ESA95)-NCBs - Non-financial flows
+       current prices
+
+G
+Name   Primary deficit/surplus without UMTS proceeds - All sectors/
+       unspecified/ not applicable (ESA95)-NCBs - General government
+       (ESA95)-NCBs - Non-financial flows current prices
+
+H
+Name   Final consumption expenditure (P3, ESA 95) - All sectors/
+       unspecified/ not applicable (ESA95)-NCBs - General government
+       (ESA95)-NCBs - Non-financial flows current prices
+
+I
+Name   Compensation of employees - All sectors without GG
+       (consolidation) (ESA95)-NCBs - General government (ESA95)-
+       NCBs - Non-financial flows current prices
+
+J
+Name    Intermediate consumption - All sectors/ unspecified/ not applicable
+       (ESA95)-NCBs - General government (ESA95)-NCBs - Non-
+       financial flows current prices
+
+K
+Name   Social transfers in kind via non-government producers -
+       Households (ESA95)-NCBs - General government (ESA95)-NCBs -
+       Non-financial flows current prices
+
+
+
+                                                                           2
+L
+Name         Consumption of fixed capital - All sectors/ unspecified/ not
+             applicable (ESA95)-NCBs - General government (ESA95)-NCBs -
+             Non-financial flows current prices
+
+M
+Name         Sales - General government (ESA95)-NCBs - All sectors without
+             EU institutions (ESA95)-NCBs - Non-financial flows current prices
+
+N
+Name         Collective consumption expenditure (P32, ESA 95) - All sectors/
+             unspecified/ not applicable (ESA95)-NCBs - General government
+             (ESA95)-NCBs - Non-financial flows current prices
+
+O
+Name         Individual consumption expenditure (P31, ESA 95) - All sectors/
+             unspecified/ not applicable (ESA95)-NCBs - General government
+             (ESA95)-NCBs - Non-financial flows current prices
+
+
+US and Japan: main economic and financial indicators
+       SEASONAL ADJUSTMENT
+       Neither seasonally nor working day adjusted
+
+       METHODOLOGICAL NOTES
+       •   Data expressed as a percentage of GDP
+
+       SOURCE: Bank of Japan
+
+
+P
+Name         Japan - Deficit or surplus - All sectors/ unspecified/ not applicable
+             (ESA95)-NCBs - General government (ESA95)-NCBs - Non-
+             financial flows current prices
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+Q
+Name         Japan - Maastricht assets/liabilities - General government (ESA95)-
+             NCBs - All sectors without GG (consolidation) (ESA95)-NCBs -
+             Financial stocks - ESA 79 / Maastricht valuation
+Availability Since October 2002
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+
+
+                                                                                     3
+R
+Name   Japan, Gross capital formation, Transaction as a percentage of
+       GDP - World not allocated (geographically) Not applicable
+       (debtor); Japan Non-financial corporations (creditor), ESA95
+       valuation
+
+S
+Name   Japan, Gross saving, Transaction as a percentage of GDP - Japan
+       Non-financial corporations (debtor); World not allocated
+       (geographically) Not applicable (creditor), ESA95 valuation
+
+T
+Name    Japan, Gross capital formation, Transaction as a percentage of
+       GDP - World not allocated (geographically) Not applicable
+       (debtor); Japan Household, Non-profit institutions serving
+       households (creditor), ESA95 valuation
+
+U
+Name   Japan, Gross saving, Transaction as a percentage of GDP - Japan
+       Household, Non-profit institutions serving households (debtor);
+       World not allocated (geographically) Not applicable (creditor),
+       ESA95 valuation
+
+
+
+
+                                                                         4
+Overview of quarterly indicators
+
+ Columns in                               Block name
+  the files
+B-K            Employment: by employment status, by economic activity
+L-R            GDP deflators: by expenditure components
+S-Y            Unit labour cost: by economic activity
+Z-AF           Hourly labour cost: by components and by economic activity
+AG             Exchange rates: effective exchange rates
+AH-BD          US and Japan: main economic and financial indicators
+BE             Industry and commodity prices: by type of goods and by industry
+BF-BL          GDP: by expenditure components at current prices
+BM-BS          GDP: by expenditure components at constant prices
+BT-CB          Value added: by economic activity at current prices
+CC-CK          Value added: by economic activity at constant prices
+CL             Confidence indicators: economic, manufacturing, consumer,
+               construction, retail trade, services
+CM - CR        Value added: by economic activity at current prices (NACE Rev2)
+CS - CX        Value added: by economic activity at constant prices (NACE Rev2)
+CY – DD        Employment: by economic activity (NACE Rev2)
+DE - DJ        Unit labour cost: by economic activity (NACE Rev2)
+
+Employment: by employment status, by economic activity
+        Whole economy
+B             Total (millions (s.a.))
+C             Total (annual percentage changes)
+        By employment status
+D             Employees
+E             Self-employed
+        By economic activity
+F             Agriculture, hunting, forestry and fishing
+G             Mining, manufacturing and energy
+H             Construction
+I             Trade, repairs, hotels and restaurants, transport and
+              communication
+J             Financial, real estate, renting and business services
+K             Public administration, education, health and other services
+
+
+        SOURCE: Eurostat
+
+
+B
+Name          Total employment
+Units         Since August 2002 data in Thousands of Persons
+
+
+                                                                                  5
+             March 2001 to July 2002 data available as index (2000=100)
+Euro area    Since March 2015: Euro 19
+concept      February 2014 to January 2015: Euro 18
+             April 2011 to January 2014: Euro 17
+             February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             August 2002 to May 2007: Euro 12
+             March 2001 to July 2002: Euro area changing composition
+Adjustment Seasonally adjusted by mixed methods
+Availability Since March 2001
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+C
+Name         Total employment
+Units        Since August 2002 data in Thousands of Persons
+             March 2001 to July 2002 data available as index (2000=100)
+Euro area    Since March 2015: Euro 19
+concept      February 2014 to January 2015: Euro 18
+             April 2011 to January 2014: Euro 17
+             February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             August 2002 to May 2007: Euro 12
+             March 2001 to July 2002: Euro area changing composition
+Adjustment Since January 2004: no adjustment,
+             March 2001 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2001
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+D
+Name         Employees
+Units        Since August 2002 data in Thousands of Persons
+             March 2001 to July 2002 data available as index (2000=100)
+Euro area    Since March 2015: Euro 19
+concept      February 2014 to January 2015: Euro 18
+             April 2011 to January 2014: Euro 17
+             February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             August 2002 to May 2007: Euro 12
+             March 2001 to July 2002: Euro 11
+Adjustment Since January 2004: no adjustment
+             March 2001 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2001
+
+
+
+                                                                                    6
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+E
+Name         Self-employed
+Units        Since August 2002 data in Thousands of Persons
+             March 2001 to July 2002 data available as index (2000=100)
+Euro area    Since March 2015: Euro 19
+concept      February 2014 to January 2015: Euro 18
+             April 2011 to January 2014: Euro 17
+             February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             August 2002 to May 2007: Euro 12
+             March 2001 to July 2002: Euro area changing composition
+Adjustment Since January 2004: no adjustment
+             March 2001 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2001
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+F
+Name         Total employment - agricultural hunting forestry and fishing
+             products
+Units        Thousands of Persons
+Euro area    Since March 2015: Euro 19
+concept      February 2014 to January 2015: Euro 18
+             April 2011 to January 2014: Euro 17
+             February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             March 2003 to May 2007: Euro 12
+Adjustment Since January 2004: no adjustment
+             March 2003 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                 key follows NACE Rev2 methodology. It refers now to:
+                 Agriculture, forestry and fishing (NACE Rev2).
+             2) As of November 2014, real-time data refer to the new standard on
+                 the European System of Accounts ESA 2010:
+                 http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+G
+Name         Total employment - total industry
+Units        Thousands of Persons
+Euro area    Since March 2015: Euro 19
+concept      February 2014 to January 2015: Euro 18
+
+
+
+                                                                                    7
+             April 2011 to January 2014: Euro 17
+             February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             March 2003 to May 2007: Euro 12
+Adjustment Since January 2004: no adjustment
+             March 2003 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                 key follows NACE Rev2 methodology. It refers now to:
+                 Mining and quarrying; manufacturing; electricity, gas, steam and air
+                 conditioning supply; water supply; sewerage, waste management
+                 and remediation activities (NACE Rev2).
+             2) As of November 2014, real-time data refer to the new standard on
+                 the European System of Accounts ESA 2010:
+                 http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+H
+Name         Total employment - construction
+Units        Thousands of Persons
+Euro area    Since March 2015: Euro 19
+concept      February 2014 to January 2015: Euro 18
+             April 2011 to January 2014: Euro 17
+             February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             March 2003 to May 2007: Euro 12
+Adjustment Since January 2004: no adjustment
+             March 2003 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                 key follows NACE Rev2 methodology. It refers now to:
+                 Construction (NACE Rev2).
+             2) As of November 2014, real-time data refer to the new standard on
+                 the European System of Accounts ESA 2010:
+                 http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+I
+Name          Total employment - trade, repairs, hotels, restaurants, transport
+              and communication
+Units         Thousands of Persons
+Euro area     Since March 2015: Euro 19
+concept       February 2014 to January 2015: Euro 18
+              April 2011 to January 2014: Euro 17
+              February 2009 to March 2011: Euro 16
+              July 2008 to January 2009: Euro 15
+              June 2007 to June 2008: Euro 13
+              March 2003 to May 2007: Euro 12
+Adjustment    Since January 2004: no adjustment
+
+
+
+                                                                                    8
+             March 2003 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                key follows NACE Rev2 methodology. It refers now to:
+                Wholesale and retail trade; repair of motor vehicles and
+                motorcycles; transportation and storage; accommodation and food
+                service activities (NACE Rev2).
+             2) As of November 2014, real-time data refer to the new standard on
+                the European System of Accounts ESA 2010:
+                http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+J
+Name         Total employment - financial intermediation, real estate
+Units        Thousands of Persons
+Euro area    April 2011 to January 2012: Euro 17
+concept      February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             March 2003 to May 2007: Euro 12
+Adjustment Since January 2004: no adjustment
+             March 2003 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2003
+Comment      This series key was discontinued as of January 2012 publication of the
+             Monthly Bulletin due to the change to NACE Rev2 methodology. The
+             new series keys that are published as of January 2012 in the Monthly
+             Bulletin can be found under CY and CZ of the quarterly indicators.
+
+K
+Name         Total employment - other services
+Units        Thousands of Persons
+Euro area    April 2011 to January 2012: Euro 17
+concept      February 2009 to March 2011: Euro 16
+             July 2008 to January 2009: Euro 15
+             June 2007 to June 2008: Euro 13
+             March 2003 to May 2007: Euro 12
+Adjustment Since January 2004: no adjustment
+             March 2003 to December 2003: seasonally adjusted by mixed methods
+Availability Since March 2003
+Comment      This series key was discontinued as of January 2012 publication of the
+             Monthly Bulletin due to the change to NACE Rev2 methodology. The
+             new series keys that are published as of January 2012 in the Monthly
+             Bulletin can be found under DA - DD of the quarterly indicators.
+
+
+GDP deflators: by expenditure components
+
+L      Total (index)
+       Domestic demand
+M              Total
+
+
+                                                                                      9
+N            Private consumption
+O            Government consumption
+P            Gross fixed capital formation
+Q      Exports
+R      Imports
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       April 2011 to January 2014: Euro 17
+       February 2009 to March 2011: Euro 16
+       June 2008 to January 2009: Euro 15
+       June 2007 to June May 2008: Euro 13
+       January 2001 to May 2007: Euro 12
+
+       SEASONAL ADJUSTMENT
+       As of April 2011 all data seasonally and working day adjusted
+       All data seasonally adjusted by mixed methods
+
+       ADDITIONAL NOTES
+       •   All data available as indexes
+       •   Change of a base year from 1995 to 2000 only for the vintage January
+           2004
+
+       SOURCE: ECB calculations based on Eurostat data
+
+
+L
+Name         Gross domestic product at market price - Deflator (ECB
+             compilation) - Euro (estimated)
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+M
+Name          Domestic demand including stocks – Deflator (ECB compilation) –
+             Euro (estimated)
+Comment      Discontinued in November and December 2014, as there was no ESA
+             2010 data available for real-time data at that time.
+             As of January 2015, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+N
+Name         Final consumption of households and NPISH's (private
+             consumption) - Deflator (ECB compilation) - Euro (estimated)
+Comment      Discontinued in November and December 2014, as there was no ESA
+             2010 data available for real-time data at that time.
+             As of January 2015, real-time data refer to the new standard on the
+
+
+                                                                                    10
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+O
+Name          Final consumption of general government - Deflator (ECB
+             compilation) - Euro (estimated)
+Comment      Discontinued in November and December 2014, as there was no ESA
+             2010 data available for real-time data at that time.
+             As of January 2015, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+P
+Name         Gross fixed capital formation - Deflator (ECB compilation) - Euro
+             (estimated)
+Comment      Discontinued in November and December 2014, as there was no ESA
+             2010 data available for real-time data at that time.
+             As of January 2015, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+Q
+Name         Exports of goods and services - Deflator (ECB compilation) - Euro
+             (estimated)
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+R
+Name          Import of goods and services - Deflator (ECB compilation) - Euro
+             (estimated)
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+
+
+
+Unit labour cost: by economic activity
+S      Total (index)
+       By economic activity
+T              Agriculture, hunting, forestry and fishing
+U              Mining, manufacturing and energy
+V              Construction
+W              Trade, repairs, hotels and restaurants, transport and
+               communication
+X              Financial, real estate, renting and business services
+Y              Public administration, education, health and other services
+
+
+
+                                                                                   11
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       April 2011 to January 2014: Euro 17
+       February 2009 to March 2011: Euro 16
+       July 2008 to January 2009: Euro 15
+       June 2007 to June 2008: Euro 13
+       January 2001 to May 2007: Euro 12
+
+       SEASONAL ADJUSTMENT
+       As of April 2011 all data seasonally and working day adjusted
+       All data seasonally adjusted
+
+
+       ADDITIONAL NOTES
+       •   All data available as indices
+       •   Change of a base year from 1995 to 2000 in August 2003
+       •   For the vintages since March 2003 onwards: data before 2001 corrected
+           for exchange rate effects, GDP data used in the calculation of the series are
+           re-scaled to 1995
+
+       SOURCE: ECB calculations based on Eurostat data
+
+
+S
+Name          Unit Labour Costs - Total
+Comments      1) Change of a base period from 1985=100 to 1980=100 in July 2001
+              2) As of November 2014, real-time data refer to the new standard on
+                 the European System of Accounts ESA 2010:
+                 http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+T
+Name         Unit Labour Costs - Agriculture, hunting, forestry, and fishing
+Availability Published since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                key follows NACE Rev2 methodology. It refers now to:
+                Agriculture, forestry and fishing (NACE Rev2).
+             2) As of November 2014, real-time data refer to the new standard on
+                the European System of Accounts ESA 2010:
+                http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+U
+Name         Unit Labour Costs - Industry, including energy
+Availability Published since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                key follows NACE Rev2 methodology. It refers now to:
+                Mining and quarrying; manufacturing; electricity, gas, steam and air
+                conditioning supply; water supply; sewerage, waste management
+                and remediation activities (NACE Rev2).
+
+
+                                                                                     12
+             2) As of November 2014, real-time data refer to the new standard on
+                the European System of Accounts ESA 2010:
+                http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+V
+Name         Unit Labour Costs - Construction
+Availability Published since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                 key follows NACE Rev2 methodology. It refers now to:
+                 Construction (NACE Rev2).
+             2) As of November 2014, real-time data refer to the new standard on
+                 the European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+W
+Name         Unit Labour Costs - Trade, repairs, hotels, restaurants, transport
+             and communications
+Availability Published since March 2003
+Comments 1) As of January 2012 publication of the Monthly Bulletin, this series
+                key follows NACE Rev2 methodology. It refers now to:
+                Wholesale and retail trade; repair of motor vehicles and
+                motorcycles; transportation and storage; accommodation and food
+                service activities (NACE Rev2).
+             2) As of November 2014, real-time data refer to the new standard on
+                the European System of Accounts ESA 2010:
+                http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+X
+Name         Unit Labour Costs - Financial, real estate, renting and business
+             activities
+Availability Published since March 2003
+Comment      This series key was discontinued as of January 2012 publication of the
+             Monthly Bulletin due to the change to NACE Rev2 methodology. The
+             new series keys that are published as of January 2012 in the Monthly
+             Bulletin can be found under DE and DF of the quarterly indicators.
+
+Y
+Name          Unit Labour Costs - Other service activities
+Availability Published since March 2003
+Comment      This series key was discontinued as of January 2012 publication of the
+             Monthly Bulletin due to the change to NACE Rev2 methodology. The
+             new series keys that are published as of January 2012 in the Monthly
+             Bulletin can be found under DG - DJ of the quarterly indicators.
+
+
+
+
+                                                                                   13
+Hourly labour cost: by components and by economic activity
+Z             Total (index)
+              By component
+AA                    Wages and salaries
+AB                   Employers’ social contributions
+              By selected economic activity
+AC                    Mining, manufacturing and energy
+AD                    Construction
+AE                    Services
+AF            Memo item: indicator of negotiated wages
+
+
+       EURO AREA CONCEPT
+       Since April 2015: Euro 19
+       February 2014 to March 2015: Euro 18
+       April 2011 to January 2014: Euro 17
+       March 2009 to March 2011: Euro 16
+       January 2001 to February 2009: Euro area changing composition
+
+
+       ADDITIONAL NOTES
+       •   Change of a base year from 1995 to 2000 in August 2003
+
+       SOURCES: Eurostat and ECB calculations based on Eurostat data
+
+
+Z
+Name         Hourly Labour cost index - total, Whole economy excluding
+             agriculture, fishing and government sectors
+Adjustment   Seasonally and working day adjusted
+
+AA
+Name         Hourly Labour cost index – total, Whole economy excluding
+             agriculture, fishing and government sectors
+Adjustment   Working day adjusted, not seasonally adjusted
+Comments     Change of a base period from 2000=100 to 2008=100 in July 2009
+
+AB
+Name         Hourly Labour cost index - wages and salaries, Whole economy
+             excluding agriculture, fishing and government sectors
+Adjustment   Since September 2005 working day adjusted
+             February 2002 to August 2005: not adjusted
+             January 2001 to January 2002: seasonally adjusted, not working day
+             adjusted
+Comments     Change of a base period from 2000=100 to 2008=100 in July 2009
+
+
+
+
+                                                                                  14
+AC
+Name         Hourly Labour cost index - costs other than wages and salaries,
+             Whole economy excluding agriculture, fishing and government
+             sectors
+Adjustment   Since September 2005 working day adjusted
+             February 2002 to August 2005: not adjusted
+             January 2001 to January 2002: seasonally adjusted, not working day
+             adjusted
+Comments     Change of a base period from 2000=100 to 2008=100 in July 2009
+
+AD
+Name         Hourly Labour cost index - total, Total Industry (excluding
+             construction)
+Adjustment   Since September 2005 working day adjusted
+             February 2002 to August 2005: not adjusted
+             January 2001 to January 2002: seasonally adjusted, not working day
+             adjusted
+Comments     Change of a base period from 2000=100 to 2008=100 in July 2009
+
+AE
+Name         Hourly Labour cost index - total, Construction
+Adjustment   Since September 2005 working day adjusted
+             February 2002 to August 2005: not adjusted
+             January 2001 to January 2002: seasonally adjusted, not working day
+             adjusted
+Comment      As of April 2011 publication of the Monthly Bulletin, this series key
+             follows NACE Rev2 methodology. It refers now to:
+             CONSTRUCTION - NACE Rev2.
+
+AF
+Name         Hourly Labour cost index - total, Services (NACE rev 1. Sectors G
+             to K)
+Adjustment   Since September 2005 working day adjusted
+             February 2002 to August 2005: not adjusted
+             January 2001 to January 2002: Seasonally adjusted, not working day
+             adjusted
+Unit         Since April 2001 data available as an index
+             January 2001 to March 2001 data available as annual percentage
+             change
+Comment      As of April 2011 publication of the Monthly Bulletin, this series key
+             follows NACE Rev2 methodology. It refers now to:
+             Market services - NACE rev2 sections G to N.
+
+
+
+
+                                                                                     15
+ECB Real effective exch. rate ULC total economy deflated, EER-12
+group of currencies against Euro
+
+         ADDITIONAL NOTES
+         •   Data available as index (99Q1=100)
+         •   March 2015: definition of a new narrow group
+         •   February 2014: definition of a new narrow group
+         •   August 2013: definition of a new narrow group
+         •   April 2011: new definition of a narrow group
+         •   February 2009: new definition of a narrow group
+         •   February 2008: new definition of a narrow group
+         •   February 2007: new definition of a narrow group
+         •   September 2004: new definition of a narrow group
+         •   Methodological notes on the ECB’s website:
+             http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html
+         •   See also the documentation of monthly variables
+
+         SOURCE: ECB
+
+
+AG
+Name         ECB Real effective exch. rate ULC total economy deflated, EER-12
+             group of currencies against Euro
+Availability Published since August 2003
+
+
+
+US and Japan: main economic and financial indicators
+
+AH
+Name           US- UNIT LABOR COSTS IN MANUFACTURING - INDEX SA
+Units          Index, 1992 = 100
+Source         BIS
+
+AI
+Name           US- GDP, AT MARKET PRICES - CHAINED 2000 USD SAAR
+Units          Billions of Chained 2000 US Dollar
+Source         BIS
+
+AJ
+Name         United States - Deficit or surplus - All sectors/ unspecified/ not
+             applicable (ESA95)-NCBs - General government (ESA95)-NCBs -
+             Non-financial flows current prices - Percentage points,
+             series(t)/GDP(t) - Neither seasonally nor working day adjusted
+Availability Since February 2001
+Source       BIS
+Comment      As of November 2014, real-time data refer to the new standard on the
+
+
+                                                                                16
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+AK
+Name         United States - Maastricht assets/liabilities - General government
+             (ESA95)-NCBs - All sectors without GG (consolidation) (ESA95)-
+             NCBs - Financial stocks - ESA 79 / Maastricht valuation -
+             Percentage points, series(t)/GDP(t) - Neither seasonally nor
+             working day adjusted
+Availability Since February 2001
+Source       BIS
+Comment      As of November 2014, real-time data refer to the new standard on the
+             European System of Accounts ESA 2010:
+             http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+AL
+Name         JP- GDP, AT MARKET PRICES (SNA 93) - 1995 PR. NSA
+Units        Since January 2010: Billions of Chained 2005 Japanese Yen
+             March 2005 to December 2009: Volume index 2000=100, hundredths
+             January 2001 to February 2005: Billions of Chained 2000 Japanese Yen
+Source       BIS/OECD
+
+AM
+Name         United States, Gross saving, Transaction as a percentage of GDP -
+             United States Total economy (debtor); World not allocated
+             (geographically) Not applicable (creditor), ESA95 valuation,
+             Neither seasonally nor working day adjusted
+Source       Federal Reserve Board
+
+AN
+Name         United States, Gross capital formation, Transaction as a percentage
+             of GDP - World not allocated (geographically) Not applicable
+             (debtor); United States Total economy (creditor), ESA95 valuation,
+             Neither seasonally nor working day adjusted
+Source       Federal Reserve Board
+
+AO
+Name         United States, Balancing items, capital accounts, Transaction as a
+             percentage of GDP - United States Total economy (debtor); World
+             (all entities) Total economy (creditor), ESA95 valuation, Neither
+             seasonally nor working day adjusted
+Source       Federal Reserve Board
+
+AP
+Name         United States, Gross capital formation, Transaction as a percentage
+             of GDP - World not allocated (geographically) Not applicable
+             (debtor); United States Corporate business (creditor), ESA95
+             valuation, Neither seasonally nor working day adjusted
+Source       Federal Reserve Board
+
+
+                                                                                    17
+AQ
+Name     United States, Total, financial instruments, Transaction as a
+         percentage of GDP - World (all entities) Total economy (debtor);
+         United States Corporate business (creditor), ESA95 valuation,
+         Neither seasonally nor working day adjusted
+Source   Federal Reserve Board
+
+AR
+Name     United States, Gross saving, Transaction as a percentage of GDP -
+         United States Corporate business (debtor); World not allocated
+         (geographically) Not applicable (creditor), ESA95 valuation,
+         Neither seasonally nor working day adjusted
+Source   Federal Reserve Board
+
+AS
+Name     United States, Total, financial instruments, Transaction as a
+         percentage of GDP - United States Corporate business (debtor);
+         World (all entities) Total economy (creditor), ESA95 valuation,
+         Neither seasonally nor working day adjusted
+Source   Federal Reserve Board
+
+AT
+Name     United States, Capital expenditures, Transaction as a percentage of
+         GDP - World not allocated (geographically) Not applicable
+         (debtor); United States Household, Non-profit institutions serving
+         households (creditor), ESA95 valuation, Neither seasonally nor
+         working day adjusted
+Source   Federal Reserve Board
+
+AU
+Name     United States, Total, financial instruments, Transaction as a
+         percentage of GDP - World (all entities) Total economy (debtor);
+         United States Household, Non-profit institutions serving
+         households (creditor), ESA95 valuation, Neither seasonally nor
+         working day adjusted
+Source   Federal Reserve Board
+
+AV
+Name     United States, Gross saving and expenditures in consumer
+         durables, Transaction as a percentage of GDP - United States
+         Household, Non-profit institutions serving households (debtor);
+         World not allocated (geographically) Not applicable (creditor),
+         ESA95 valuation, Neither seasonally nor working day adjusted
+Source   Federal Reserve Board
+
+AW
+Name     United States, Total, financial instruments, Transaction as a
+         percentage of GDP - United States Household, Non-profit
+
+
+                                                                            18
+             institutions serving households (debtor); World (all entities) Total
+             economy (creditor), ESA95 valuation, Neither seasonally nor
+             working day adjusted
+Source       Federal Reserve Board
+
+AX
+Name         Japan, Gross saving, Transaction as a percentage of GDP - Japan
+             Total economy (debtor); World not allocated (geographically) Not
+             applicable (creditor), ESA95 valuation, Neither seasonally nor
+             working day adjusted
+Availability Published since July 2002
+Source       Bank of Japan
+
+AY
+Name         Japan, Gross capital formation, Transaction as a percentage of
+             GDP - World not allocated (geographically) Not applicable
+             (debtor); Japan Total economy (creditor), ESA95 valuation,
+             Neither seasonally nor working day adjusted
+Availability Since January 2001, no data in October 2001.
+Source       Bank of Japan
+
+AZ
+Name         Japan, Balancing items, capital accounts, Transaction as a
+             percentage of GDP - Japan Total economy (debtor); World (all
+             entities) Total economy (creditor), ESA95 valuation, Neither
+             seasonally nor working day adjusted
+Availability Published since July 2002
+Source       Bank of Japan
+
+BA
+Name         Japan, Total, financial instruments, Transaction as a percentage of
+             GDP - World (all entities) Total economy (debtor); Japan Non-
+             financial corporations (creditor), ESA95 valuation, Neither
+             seasonally nor working day adjusted
+Problem      Since January 2001, no data in October 2001.
+Source       Bank of Japan
+
+BB
+Name         Japan, Total, financial instruments, Transaction as a percentage of
+             GDP - Japan Non-financial corporations (debtor); World (all
+             entities) Total economy (creditor), ESA95 valuation, Neither
+             seasonally nor working day adjusted
+Availability Since January 2001, no data in Oct 01.
+Source       Bank of Japan
+
+BC
+Name         Japan, Total, financial instruments, Transaction as a percentage of
+             GDP - World (all entities) Total economy (debtor); Japan
+
+
+                                                                                19
+             Household, Non-profit institutions serving households (creditor),
+             ESA95 valuation, Neither seasonally nor working day adjusted
+Availability Since January 2001, no data in Oct 01.
+Source       Bank of Japan
+
+BD
+Name         Japan, Total, financial instruments, Transaction as a percentage of
+             GDP - Japan Household, Non-profit institutions serving households
+             (debtor); World (all entities) Total economy (creditor), ESA95
+             valuation, Neither seasonally nor working day adjusted
+Availability Since January 2001, no data in Oct 01.
+Source       Bank of Japan
+
+
+
+Industry and commodity prices: by type of goods and by industry
+        ADDITIONAL NOTES
+        •   Change of a base year from 1995 to 2000 in June 2003
+        •   Methodological notes on the ECB’s website:
+            http://www.ecb.int/stats/prices/hicp/html/index.en.html
+
+        SOURCE: Eurostat
+
+
+BE
+Name          Construction output prices, All residential buildings
+Units         Since January 2004: data available as index
+              May 2001 to February 2003: data available as annual percentage
+              changes
+              January 2001 to April 2001: data available as index
+Euro area     Since March 2015: Euro 19
+concept       February 2014 to January 2015: Euro 18
+              April 2011 to January 2014: Euro 17
+              February 2009 to March 2011: Euro 16
+              March 2008 to January 2009: Euro 15
+              March 2007 to February 2008: Euro 13
+              January 2004 to February 2007: Euro 12
+              May 2001 to February 2003: Euro area changing composition
+              January 2001 to April 2001: Euro 12
+Adjustment    Not adjusted
+Comments      Change of definition in April 2011 - data refer to All Residential
+              Buildings excluding residences for communities.
+              Change of definition in February 2009 - data refer to input prices for
+              residential buildings
+
+
+
+
+                                                                                       20
+GDP: by expenditure components at current prices
+
+BF            Total
+              Domestic demand
+BG                  Private consumption
+BH                  Government consumption
+BI                  Gross fixed capital consumption
+BJ                  Changes in inventories
+              External balances
+BK                  Exports
+BL                  Imports
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       February 2011 to January 2014: Euro 17
+       February 2009 to January 2011: Euro 16
+       June 2008 to January 2009: Euro 15
+       June 2007 to May 2008: Euro 13
+       January 2001 to May 2007: Euro 12
+
+       SEASONAL ADJUSTMENT
+       As of February 2011 all data seasonally and working day adjusted
+       All data seasonally adjusted
+
+       ADDITIONAL NOTES
+       •   Data in millions of ECU/EUR
+       •   During 2005 GDP and national accounts data have been subject to
+           revisions due to the implementation of (i) the introduction of chain-linking
+           of annual and quarterly volume series, (ii) the new partial allocation to
+           final demand of indirectly measured financial intermediation services, and
+           (iii) the benchmark revisions that must be implemented once every five to
+           ten years.
+       •   Methodological notes on the ECB’s website:
+           http://www.ecb.int/stats/prices/accounts/html/index.en.html
+       •   As of November 2014, real-time data refer to the new standard on the
+           European System of Accounts ESA 2010:
+           http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+       SOURCE: Eurostat
+
+
+BF
+Name          Gross domestic product at market price
+
+
+
+
+                                                                                     21
+BG
+Name         Final consumption of households and NPISH's (private
+             consumption)
+
+BH
+Name         Final consumption of general government
+
+BI
+Name         Gross fixed capital formation
+
+BJ
+Name         Changes in inventories and acquisitions less disposals of valuables
+
+BK
+Name         Exports of goods and services
+
+BL
+Name         Imports of goods and services
+
+
+
+GDP: by expenditure components at constant prices
+
+BM     Total
+       Domestic demand
+BN           Private consumption
+BO           Government consumption
+BP           Gross fixed capital consumption
+BQ           Changes in inventories
+       External balances
+BR           Exports
+BS           Imports
+
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       February 2011 to January 2014: Euro 17
+       February 2009 to January 2011: Euro 16
+       June 2008 to January 2009: Euro 15
+       June 2007 to May 2008: Euro 13
+       January 2001 to May 2007: Euro 12
+
+       SEASONAL ADJUSTMENT
+       As of February 2011 all data seasonally and working day adjusted
+       All data seasonally adjusted
+
+
+
+
+                                                                               22
+       ADDITIONAL NOTES
+       • Data in millions of ECU/EUR at 1995 prices
+       • Change to chain linking and base year from 1995 to 2000 in December
+         2005
+       • During 2005 GDP and national accounts data have been subject to
+         revisions due to the implementation of (i) the introduction of chain-linking
+         of annual and quarterly volume series, (ii) the new partial allocation to
+         final demand of indirectly measured financial intermediation services, and
+         (iii) the benchmark revisions that must be implemented once every five to
+         ten years.
+       • Methodological notes on the ECB’s website:
+         http://www.ecb.int/stats/prices/accounts/html/index.en.html
+       • As of November 2014, real-time data refer to the new standard on the
+         European System of Accounts ESA 2010:
+         http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+       SOURCE: Eurostat
+
+
+BM
+Name         Gross domestic product at constant price
+
+BN
+Name         Final consumption of households and NPISH's (private
+             consumption)
+
+BO
+Name         Final consumption of general government
+
+BP
+Name         Gross fixed capital formation
+
+BQ
+Name         Changes in inventories and acquisitions less disposals of valuables
+Comments     Discontinued as of June 2007
+
+BR
+Name         Exports of goods and services
+
+BS
+Name         Imports of goods and services
+
+
+
+Value added: by economic activity at current prices
+
+       Gross value added (basic prices)
+BT            Total
+BU            Agriculture, hunting, forestry and fishing activities
+
+
+                                                                                   23
+BV            Mining, manufacturing and energy
+BW            Construction
+BX            Trade, repairs, hotels and restaurants, transport and
+              communication
+BY            Financial, real estate, renting and business activities
+BZ            Public administration, education, health and other services
+CA     Intermediate consumption of FISIM
+CB     Taxes less subsidies on product
+
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       February 2011 to January 2014: Euro 17
+       February 2009 to January 2011: Euro 16
+       June 2008 to January 2009: Euro 15
+       June 2007 to May 2008: Euro 13
+       January 2001 to May 2007: Euro 12
+
+       SEASONAL ADJUSTMENT
+       As of February 2011 all data seasonally and working day adjusted
+       All data seasonally adjusted
+
+       ADDITIONAL NOTES
+       •   Data in millions of ECU/EUR
+       •   During 2005 GDP and national accounts data have been subject to
+           revisions due to the implementation of (i) the introduction of chain-linking
+           of annual and quarterly volume series, (ii) the new partial allocation to
+           final demand of indirectly measured financial intermediation services and
+           (iii) the benchmark revisions that must be implemented once every five to
+           ten years.
+       •   Methodological notes on the ECB’s website:
+           http://www.ecb.int/stats/prices/accounts/html/index.en.html
+       •   As of November 2014, real-time data refer to the new standard on the
+           European System of Accounts ESA 2010:
+           http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+       SOURCE: Eurostat
+
+
+BT
+Name          Gross value added at basic prices - Total
+
+BU
+Name          Gross value added at basic prices - agricultural, hunting, forestry
+              and fishing products
+Comment       As of January 2012 publication of the Monthly Bulletin, this series key
+              follows NACE Rev2 methodology. It refers now to:
+              Agriculture, forestry and fishing (NACE Rev2).
+
+
+                                                                                     24
+BV
+Name          Gross value added at basic prices - total industry
+Comments      As of January 2012 publication of the Monthly Bulletin, this series key
+              follows NACE Rev2 methodology. It refers now to:
+              Mining and quarrying; manufacturing; electricity, gas, steam and air
+              conditioning supply; water supply; sewerage, waste management and
+              remediation activities (NACE Rev2).
+
+BW
+Name          Gross value added at basic prices - construction
+Comment       As of January 2012 publication of the Monthly Bulletin, this series key
+              follows NACE Rev2 methodology. It refers now to:
+              Construction (NACE Rev2).
+
+BX
+Name         Gross value added at basic prices - trade, repairs, hotels,
+             restaurants, transport and communication
+Availability Since April 2001
+Comment      As of January 2012 publication of the Monthly Bulletin, this series key
+             follows NACE Rev2 methodology. It refers now to:
+             Wholesale and retail trade; repair of motor vehicles and motorcycles;
+             transportation and storage; accommodation and food service activities
+             (NACE Rev2).
+
+BY
+Name         Gross value added at basic prices - financial intermediation, real
+             estate
+Availability Since April 2001
+Comment      This series key was discontinued as of January 2012 publication of the
+             Monthly Bulletin due to the change to NACE Rev2 methodology. The
+             new series keys that are published as of January 2012 in the Monthly
+             Bulletin can be found under CM and CN of the quarterly indicators.
+
+BZ
+Name         Gross value added at basic prices - other services
+Availability Since April 2001
+Comment      This series key was discontinued as of January 2012 publication of the
+             Monthly Bulletin due to the change to NACE Rev2 methodology. The
+             new series keys that are published as of January 2012 in the Monthly
+             Bulletin can be found under CO - CR of the quarterly indicators.
+
+CA
+Name         Financial intermediation services indirectly measured
+Availability Since April 2001
+Comments In November 2005 Eurostat introduced a new treatment of FISIM,
+             allocating financial intermediation services to the different
+             branches/sectors rather than recording FISIM as the output of a fictious
+             sector. Hence, from November 2005 FISIM series were set to zero.
+
+
+                                                                                   25
+             The series was discontinued in the database as of June 2007
+
+CB
+Name         Taxes less subsidies on products
+Availability Since April 2001
+
+
+Value added: by economic activity at constant prices
+
+      Gross value added (basic prices)
+CC           Total
+CD           Agriculture, hunting, forestry and fishing activities
+CE           Mining, manufacturing and energy
+CF           Construction
+CG           Trade, repairs, hotels and restaurants, transport and
+             communication
+CH           Financial, real estate, renting and business activities
+CI           Public administration, education, health and other services
+CJ    Intermediate consumption of FISIM
+CK    Taxes less subsidies on product
+
+
+      EURO AREA CONCEPT
+      Since March 2015: Euro 19
+      February 2014 to January 2015: Euro 18
+      February 2011 to January 2014: Euro 17
+      February 2009 to January 2011: Euro 16
+      June 2008 to January 2009: Euro 15
+      June 2007 to May 2008: Euro 13
+      January 2001 to May 2007: Euro 12
+
+
+
+      SEASONAL ADJUSTMENT
+      As of February 2011 data seasonally and working day adjusted
+      All data seasonally adjusted
+
+      ADDITIONAL NOTES
+      • Data in millions of ECU at 1995 prices
+      • Chain-linking introduced in June 2007
+      • During 2005 GDP and national accounts data have been subject to
+        revisions due to the implementation of (i) the introduction of chain-linking
+        of annual and quarterly volume series, (ii) the new partial allocation to
+        final demand of indirectly measured financial intermediation and (iii) the
+        benchmark revisions that must be implemented once every five to ten
+        years.
+      • Methodological notes on the ECB’s website:
+        http://www.ecb.int/stats/prices/accounts/html/index.en.html
+
+
+
+                                                                                  26
+       •   As of November 2014, real-time data refer to the new standard on the
+           European System of Accounts ESA 2010:
+           http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+       SOURCE: Eurostat
+
+
+CC
+Name         Gross value added at basic prices - Total
+
+CD
+Name         Gross value added at basic prices - agricultural, hunting, forestry
+             and fishing products
+Comment      As of January 2012 publication of the Monthly Bulletin, this series key
+             follows NACE Rev2 methodology. It refers now to:
+             Agriculture, forestry and fishing (NACE Rev2).
+
+CE
+Name         Gross value added at basic prices - total industry
+Comments     As of January 2012 publication of the Monthly Bulletin, this series key
+             follows NACE Rev2 methodology. It refers now to:
+             Mining and quarrying; manufacturing; electricity, gas, steam and air
+             conditioning supply; water supply; sewerage, waste management and
+             remediation activities (NACE Rev2).
+
+CF
+Name         Gross value added at basic prices - construction
+Comment      As of January 2012 publication of the Monthly Bulletin, this series key
+             follows NACE Rev2 methodology. It refers now to:
+             Construction (NACE Rev2).
+
+CG
+Name         Gross value added at basic prices - trade, repairs, hotels,
+             restaurants, transport and communication
+Comment      As of January 2012 publication of the Monthly Bulletin, this series key
+             follows NACE Rev2 methodology. It refers now to:
+             Wholesale and retail trade; repair of motor vehicles and motorcycles;
+             transportation and storage; accommodation and food service activities
+             (NACE Rev2).
+
+CH
+Name         Gross value added at basic prices - financial intermediation, real
+             estate
+Comment      This series key was discontinued as of January 2012 publication of the
+             Monthly Bulletin due to the change to NACE Rev2 methodology. The
+             new series keys that are published as of January 2012 in the Monthly
+             Bulletin can be found under CS and CT of the quarterly indicators.
+
+
+
+
+                                                                                  27
+CI
+Name           Gross value added at basic prices - other services
+Comment        This series key was discontinued as of January 2012 publication of the
+               Monthly Bulletin due to the change to NACE Rev2 methodology. The
+               new series keys that are published as of January 2012 in the Monthly
+               Bulletin can be found under CU - CX of the quarterly indicators.
+
+CJ
+Name           Financial intermediation services indirectly measured
+Comments       In November 2005 Eurostat introduced a new treatment of FISIM,
+               allocating financial intermediation services to the different
+               branches/sectors rather than recording FISIM as the output of a fictious
+               sector. Hence, from November 2005 FISIM series were set to zero.
+               The series discontinued in the database as of June 2007.
+
+CK
+Name           Taxes less subsidies on products
+
+
+
+Confidence indicators: economic, manufacturing, consumer,
+construction, retail trade, services
+         ADDITIONAL NOTES
+         • See the documentation of monthly variables
+
+         SOURCE: European Commission: DG ECFIN
+
+
+CL
+Name           Industry Survey: Current level of capacity utilization
+Units          Percentage balances
+Euro area      Since March 2015: Euro 19
+concept        February 2014 to January 2015 : Euro 18
+               April 2011 to January 2014: Euro 17
+               February 2009 to March 2011: Euro 16
+               February 2008 to January 2009: Euro 15
+               February 2007 to January 2008: Euro 13
+               January 2001 to January 2007: Euro 12
+Comments       Owing to the changes in the questionnaire used for the French survey,
+               euro area results from January 2004 onwards are not fully comparable
+               with previous results.
+Source         European Commission: DG ECFIN
+
+
+
+
+                                                                                     28
+Value added: by economic activity at current prices (NACE Rev2)
+
+       Gross value added (basic prices)
+CM            Information and communication (NACE Rev2)
+CN            Financial and insurance activities (NACE Rev2)
+CO            Real estate activities (NACE Rev2)
+CP            Professional, scientific and technical activities; administrative and
+              support service activities (NACE Rev2)
+CQ            Public administration and defence; compulsory social security;
+              education; human health and social work activities (NACE Rev2)
+CR            Arts, entertainment and recreation, repair of household goods and
+              other services (NACE Rev2)
+
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       January 2012 to January 2014: Euro 17
+
+       SEASONAL ADJUSTMENT
+       All data seasonally and working day adjusted
+
+       ADDITIONAL NOTES
+       •   Data in millions of ECU/EUR
+       •   Methodological notes on the ECB’s website:
+           http://www.ecb.int/stats/prices/accounts/html/index.en.html
+       •   As of November 2014, real-time data refer to the new standard on the
+           European System of Accounts ESA 2010:
+           http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+       SOURCES: Statistical Office of the European Commission (Eurostat)
+
+
+CM
+Name         Gross value added at basic prices - Information and
+             communication (NACE Rev2)
+Availability Published since January 2012
+
+CN
+Name         Gross value added at basic prices - Financial and insurance
+             activities (NACE Rev2)
+Availability Published since January 2012
+
+CO
+Name         Gross value added at basic prices - Real estate activities (NACE
+             Rev2)
+Availability Published since January 2012
+
+
+                                                                                  29
+CP
+Name         Gross value added at basic prices - Professional, scientific and
+             technical activities; administrative and support service activities
+             (NACE Rev2)
+Availability Published since January 2012
+
+CQ
+Name         Gross value added at basic prices - Public administration and
+             defence; compulsory social security; education; human health and
+             social work activities (NACE Rev2)
+Availability Published since January 2012
+
+CR
+Name         Gross value added at basic prices - Arts, entertainment and
+             recreation, repair of household goods and other services (NACE
+             Rev2)
+Availability Published since January 2012
+
+
+
+
+Value added: by economic activity at constant prices (NACE Rev2)
+
+       Gross value added (basic prices)
+CS            Information and communication (NACE Rev2)
+CT            Financial and insurance activities (NACE Rev2)
+CU            Real estate activities (NACE Rev2)
+CV            Professional, scientific and technical activities; administrative and
+              support service activities (NACE Rev2)
+CW            Public administration and defence; compulsory social security;
+              education; human health and social work activities (NACE Rev2)
+CX            Arts, entertainment and recreation, repair of household goods and
+              other services (NACE Rev2)
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       January 2012 to January 2014: Euro 17
+
+       SEASONAL ADJUSTMENT
+       All data seasonally and working day adjusted
+
+       ADDITIONAL NOTE
+       • As of November 2014, real-time data refer to the new standard on the
+         European System of Accounts ESA 2010:
+         http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+
+
+
+                                                                                   30
+       SOURCE: Statistical Office of the European Commission (Eurostat)
+
+
+CS
+Name         Gross value added at basic prices - Information and
+             communication (NACE Rev2)
+Availability Published since January 2012
+
+CT
+Name         Gross value added at basic prices - Financial and insurance
+             activities (NACE Rev2)
+Availability Published since January 2012
+
+CU
+Name         Gross value added at basic prices - Real estate activities (NACE
+             Rev2)
+Availability Published since January 2012
+
+CV
+Name         Gross value added at basic prices: Professional, scientific and
+             technical activities; administrative and support service activities
+             (NACE Rev2)
+Availability Published since January 2012
+
+CW
+Name         Gross value added at basic prices - Public administration and
+             defence; compulsory social security; education; human health and
+             social work activities (NACE Rev2)
+Availability Published since January 2012
+
+CX
+Name         Gross value added at basic prices - Arts, entertainment and
+             recreation, repair of household goods and other services (NACE
+             Rev2)
+Availability Published since January 2012
+
+
+
+
+Employment: by economic activity (NACE Rev2)
+       Total employment
+CY            Information and communication
+CZ            Financial and insurance activities
+DA            Real estate activities
+DB            Professional, scientific and technical activities; administrative
+              and support service activities
+DC            Public administration and defence; compulsory social security;
+              education; human health and social work activities
+
+
+                                                                                   31
+DD            Arts, entertainment and recreation, repair of household goods
+              and other services,
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       January 2012 to January 2014: Euro 17
+
+       SEASONAL ADJUSTMENT
+       All data working neither seasonally nor working day adjusted
+
+       ADDITIONAL NOTE
+       As of November 2014, real-time data refer to the new standard on the
+       European System of Accounts ESA 2010:
+       http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+       SOURCE: Statistical Office of the European Commission (Eurostat)
+
+
+CY
+Name         Total employment - Information and communication (NACE Rev2)
+Units        Thousands of Persons
+Availability Published since January 2012
+
+CZ
+Name         Total employment - Financial and insurance activities (NACE
+             Rev2)
+Units        Thousands of Persons
+Availability Published since January 2012
+
+DA
+Name         Total employment - Real estate activities (NACE Rev2)
+Units        Thousands of Persons
+Availability Published since January 2012
+
+DB
+Name         Total employment - Professional, scientific and technical activities;
+             administrative and support service activities (NACE Rev2)
+Units        Thousands of Persons
+Availability Published since January 2012
+
+DC
+Name         Total employment - Public administration and defence; compulsory
+             social security; education; human health and social work activities
+             (NACE Rev2)
+Units        Thousands of Persons
+Availability Published since January 2012
+
+
+
+
+                                                                                32
+DD
+Name         Total employment - Arts, entertainment and recreation, repair of
+             household goods and other services (NACE Rev2)
+Units        Thousands of Persons
+Availability Published since January 2012
+
+
+
+
+Unit labour cost: by economic activity (NACE REV2)
+       Unit labour cost
+DE            Information and communication
+DF            Financial and insurance activities
+DG            Real estate activities
+DH            Professional, scientific and technical activities; administrative and
+              support service activities
+DI            Public administration and defence; compulsory social security;
+              education; human health and social work activities
+DJ            Arts, entertainment and recreation, repair of household goods and
+              other services
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       January 2012 to January 2014: Euro 17
+
+       SEASONAL ADJUSTMENT
+       All data seasonally and working day adjusted
+
+       ADDITIONAL NOTE
+       •   As of November 2014, real-time data refer to the new standard on the
+           European System of Accounts ESA 2010:
+           http://www.ecb.europa.eu/stats/acc/ESA2010/html/index.en.html
+
+
+       SOURCE: Statistical Office of the European Commission (Eurostat)
+
+
+DE
+Name         Unit Labour Cost - Information and communication (NACE Rev2)
+Availability Published since January 2012
+
+DF
+Name         Unit Labour Cost - Financial and insurance activities (NACE Rev2)
+Availability Published since January 2012
+
+DG
+Name         Unit Labour Cost - Real estate activities (NACE Rev2)
+Availability Published since January 2012
+
+
+                                                                                  33
+DH
+Name         Unit Labour Cost - Professional, scientific and technical activities;
+             administrative and support service activities (NACE Rev2)
+Availability Published since January 2012
+
+DI
+Name         Unit Labour Cost - Public administration and defence; compulsory
+             social security; education; human health and social work activities
+             (NACE Rev2)
+Availability Published since January 2012
+
+DJ
+Name         Unit Labour Cost - Arts, entertainment and recreation, repair of
+             household goods and other services (NACE Rev2)
+Availability Published since January 2012
+
+
+
+
+                                                                                 34
+Overview of monthly indicators
+
+
+Columns in                                  Block name
+  the files
+B-M            Industrial production: by industry
+N-W            Retail sales: by type of goods
+X-AG           Unemployment and unemployment rate: by gender and by age
+AH-AV          HICP
+AW-BI          External transactions and position: current and capital account, by
+               credit and debt
+BJ-BN          Exchange rates: effective exchange rates
+BO-DA          Trade in goods: value, volume and unit value by product group
+DB-DH          Interest rate, money market overnight, 1 to 12 months, US and Japan
+               3 months
+DI-DO          Government bond yield 2, 3, 5, 7, 10 years, US and Japan, 10 years
+DP-EC          Dow Jones EURO STOXX indices by economics sectors, S&P and
+               Nikkei
+ED-EL          US and Japan: main economic and financial indicators
+EM-EY          Industry and commodity prices: by type of goods and by industry
+EZ-FF          Money supply M1 M2 M3, Base money, Total loans, Total credit
+               (seasonally adjusted
+FG-FM          Money supply M1 M2 M3, Base money, Total loans, Total credit (not
+               seasonally adjusted)
+FN-GH          Confidence indicators: economic, manufacturing, consumer,
+               construction, retail trade, services
+
+Industrial production: by industry
+B       Total (annual percentage changes)
+
+        Industry excluding constructions-
+C             Total (index)
+D             Total (annual percentage changes)
+        Industry excluding constructions and energy-
+E             Total (annual percentage changes)
+F             Intermediate goods
+G             Capital goods
+              Consumer goods
+H                     Total (annual percentage changes)
+I                     Durable
+J                     Non-Durable
+K       Energy
+L       Construction
+M       Manufacturing
+
+
+
+
+                                                                               35
+        EURO AREA CONCEPT
+        Since March 2015: Euro 19
+        February 2014 to January 2015: Euro 18
+        April 2011 to January 2014: Euro 17
+        February 2009 to March 2011: Euro 16
+        April 2008 to January 2009: Euro 15
+        April 2007 to March 2008: Euro 13
+        January 2004 to March 2007: Euro 12
+        January 2001 to December 2003: Euro area changing composition
+
+        SEASONAL ADJUSTMENT
+        Data working day adjusted, non-seasonally adjusted (unless otherwise
+        indicated)
+
+        ADDITIONAL NOTES
+        •   Data on industry excluding constructions includes energy until August
+            2001 and excludes energy afterwards.
+        •   Change of a base year from 1995 to 2000 in July 2003
+        •   Implementation of NACE Rev. 2 in April 2009
+        •   Methodological notes on the ECB’s website:
+            http://www.ecb.int/stats/prices/accounts/html/index.en.html
+
+        SOURCE: Eurostat
+
+
+B
+Name          Industrial Production Index, Total Industry
+Units         Since January 2004 data available as index,
+              June 2001 to December 2003 data available as annual percentage
+              changes,
+              January 2001 to May 2001 data available as index.
+
+C
+Name          Industrial Production Index, Total Industry (excluding
+              construction)
+Units         Data available as index
+Adjustment    Working day and seasonally adjusted
+
+D
+Name           Industrial Production Index, Total Industry (excluding
+              construction)
+Units         Since January 2004 data available as index,
+              June 2001 to December 2003 data available as annual percentage
+              changes,
+              January 2001 to May 2001 data available as index.
+
+E
+Name          Industrial Production Index, Total Industry excluding construction
+              and MIG Energy
+
+
+
+                                                                                    36
+Units        Since January 2004 data available as index,
+             August 2001 to December 2003 data available as annual percentage
+             changes
+Availability Published since August 2001
+
+F
+Name         Industrial Production Index, MIG Intermediate Goods Industry
+Units        Since January 2004 data available as index;
+             June 2001 to December 2003 data available as annual percentage
+             changes,
+             January 2001 to May 2001 data available as index.
+Comments     Including energy prior to August 2001 (part of manufacturing),
+             excluding energy afterwards.
+
+G
+Name         Industrial Production Index, MIG Capital Goods Industry
+Units        Since January 2004 data available as index;
+             June 2001 to December 2003 data available as annual percentage
+             changes,
+             January 2001 to May 2001 data available as index.
+Comments     Including energy prior to August 2001 (part of manufacturing),
+             excluding energy afterwards.
+
+H
+Name         Industrial Production Index, Consumer goods industry
+Units        Since January 2004 data available as index;
+             June 2001 to December 2003 data available as annual percentage
+             changes,
+             March 2001 to May 2001 data available as index
+Comments Prior to March 2001 the series calculated as
+             (0.843*STS.M.U2.W.PROD.NS0060.4.000)+
+             (0.157*STS.M.U2.W.PROD.NS0070.4.000); values of these two series
+             can be found in columns I & J;
+             Including energy prior to August 2001 (part of manufacturing),
+             excluding energy afterwards
+Availability Since March 2001
+
+I
+Name         Industrial Production Index, MIG Durable Consumer Goods
+             Industry
+Units        Since January 2004 data available as index,
+             June 2001 to December 2003 data available as annual percentage
+             changes,
+             January 2001 to May 2001 data available as index.
+Comments     Including energy prior to August 2001 (part of manufacturing),
+             excluding energy afterwards.
+
+J
+Name         Industrial Production Index, MIG Non-durable Consumer Goods
+
+
+                                                                                37
+              Industry
+Units         Since January 2004 data available as index,
+              June 2001 to December 2003 data available as annual percentage
+              changes,
+              January 2001 to May 2001 data available as index.
+Comments      Including energy prior to August 2001 (part of manufacturing),
+              excluding energy afterwards.
+
+K
+Name         Industrial Production Index, MIG Energy
+Units        Since January 2004 data available as index,
+             August 2001 to December 2003 data available as annual percentage
+             changes
+Availability Published since August 2001
+
+L
+Name          Industrial Production Index, Construction
+Units         Since January 2004 data available as index,
+              June 2001 to December 2003 data available as annual percentage
+              changes,
+              January 2001 to May 2001 data available as index.
+
+M
+Name          Industrial Production Index, Manufacturing
+Units         Since January 2004 data available as index,
+              June 2001 to December 2003 data available as annual percentage
+              changes,
+              January 2001 to May 2001 data available as index.
+
+
+
+
+Retail sales: by type of goods
+        Current prices
+N             Total (index)
+O             Total (annual percentage changes)
+        Constant prices:
+P             Total (index)
+Q             Total (annual percentage changes)
+R             Food, beverages, tobacco
+S             Non-food
+T                           Textiles, clothing, footwear
+U                           Household equipment
+        New passenger car registrations
+V                           Total (absolute value)
+W                           Total (annual percentage changes)
+
+
+
+
+                                                                                38
+        EURO AREA CONCEPT
+        Since March 2015: Euro 19
+        February 2014 to January 2015: Euro 18
+        April 2011 to January 2014: Euro 17
+        February 2009 to March 2011: Euro 16
+        March 2008 to January 2009: Euro 15
+        April 2007 to February 2008: Euro 13
+        January 2004 to March 2007: Euro 12
+        January 2001 to December 2003: Euro area changing composition
+
+        SEASONAL ADJUSTMENT
+        Data seasonally and working day adjusted; unless otherwise indicated
+
+        ADDITIONAL NOTES
+        •   Implementation of NACE Rev. 2 in April 2009
+        •   Change of a base year from 2000 to 2005 in April 2009
+        •   Change of a base year from 1995 to 2000 in July 2003
+        •   Methodological notes on the ECB’s website:
+            http://www.ecb.int/stats/prices/accounts/html/index.en.html
+
+        SOURCE: Eurostat except columns V and W (ECB calculations based on data
+        from the ACEA, European Automobile Manufacturers’ Association)
+
+
+N
+Name          Total Turnover Index, Retail trade, except of motor vehicles and
+              motorcycles
+Comment       As of December 2011 publication of the Monthly Bulletin, this series
+              key follows NACE Rev2 methodology. It refers now to:
+              Retail trade including fuel, except of motor vehicles and motorcycles -
+              NACE Rev2.
+
+O
+Name          Current prices - Total (annual percentage changes)
+Units         Since January 2004 data available as index
+              June 2001 to December 2003 data available as annual percentage
+              changes
+              January 2001 to May 2001 data available as index
+
+P
+Name          Total Turnover Index, deflated, Retail trade, except of motor
+              vehicles and motorcycles
+Comment       As of December 2011 publication of the Monthly Bulletin, this series
+              key follows NACE Rev2 methodology. It refers now to:
+              Retail trade including fuel, except of motor vehicles and motorcycles -
+              NACE Rev2.
+
+Q
+Name          Constant prices - Total (annual percentage changes)
+
+
+                                                                                    39
+Units       Since January 2004 data available as index
+            June 2001 to December 2003 data available as annual percentage
+            changes
+            January 2001 to May 2001 data available as index
+
+R
+Name        Total Turnover Index, deflated, Retail sale of food, beverages and
+            tobacco
+Units       Since January 2004 data available as index
+            June 2001 to December 2003 data available as annual percentage
+            changes
+            January 2001 to May 2001 data available as index
+
+S
+Name        Total Turnover Index, deflated, Retail sale of non food products
+Units       Since January 2004 data available as index
+            June 2001 to December 2003 data available as annual percentage
+            changes
+            January 2001 to May 2001 data available as index
+
+T
+Name        Total Turnover Index, deflated, Retail sale of textiles, clothing,
+            footwear & leather goods
+Units       Since January 2004 data available as index
+            June 2001 to December 2003 data available as annual percentage
+            changes
+            January 2001 to May 2001 data available as index
+
+U
+Name        Total Turnover Index, deflated, Retail sale of household equipment
+Units       Since January 2004 data available as index
+            June 2001 to December 2003 data available as annual percentage
+            changes
+            January 2001 to May 2001 data available as index
+
+V
+Name        Car registration, New passenger car
+Units       Absolute value
+Euro area   Since February 2009: Euro 16
+concept     April 2007 to January 2009: Euro 13
+            January 2004 to March 2007: Euro 12
+            December 2001 to December 2003: Euro area changing composition
+            January 2001 to November 2001: Euro 12
+
+W
+Name        Car registration, New passenger car
+Units       Since March 2003 data available as absolute value
+            Since December 2001 to February 2003 data available as annual
+            percentage changes
+
+
+                                                                                 40
+               January 2001 to November 2001 data available as absolute value
+Euro area      Since February 2009: Euro 16
+concept        April 2007 to January 2009: Euro 13
+               January 2004 to March 2007: Euro 12
+               December 2001 to December 2003: Euro area changing composition
+               January 2001 to November 2001: Euro 12
+Adjustment     Working day, non-seasonally adjusted
+
+
+
+
+Unemployment and unemployment rate: by gender and by age
+       Total
+X               Thousands of Persons
+Y               % of labour force
+       By age
+                Adult
+Z                       Thousands of Persons
+AA                      % of labour force
+                Youth
+AB                      Thousands of Persons
+AC                      % of labour force
+       By gender
+             Male
+AD                    Thousands of Persons
+AE                    % of labour force
+                Female
+AF                    Thousands of Persons
+AG                    % of labour force
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       April 2011 to January 2014: Euro 17
+       February 2009 to March 2011: Euro 16
+       April 2008 to January 2009: Euro 15
+       March 2007 to March 2008: Euro 13
+       January 2001 to February 2007: Euro 12
+
+       SEASONAL ADJUSTMENT
+       All data seasonally adjusted, not working day adjusted
+
+       ADDITIONAL NOTES
+       •    Gradual changes in the unemployment definition in December 2000,
+            March 2002 and June 2002 - see the Monthly Bulletin box "Changes in
+            the definition of unemployment in EU Member States March 2001" for
+            more details.
+       •    Methodological notes on the ECB’s website:
+            http://www.ecb.int/stats/prices/labour/html/index.en.html
+
+
+                                                                                  41
+        SOURCE: Eurostat
+
+
+X
+Name          Standardised unemployment, Level, Total (all ages)
+Units         Thousands of Persons
+
+Y
+Name          Standardised unemployment, Rate, Total (all ages)
+Units         Percent
+
+Z
+Name          Standardised unemployment, Level, 25 and over, Total (male &
+              female)
+Units         Thousands of Persons
+
+AA
+Name          Standardised unemployment, Rate, 25 and over, Total (male &
+              female)
+Units         Percent
+
+AB
+Name          Standardised unemployment, Level, Under 25, Total (male &
+              female)
+Units         Thousands of Persons
+
+AC
+Name          Standardised unemployment, Rate, Under 25, Total (male &
+              female)
+Units         Percent
+
+AD
+Name          Standardised unemployment, Level, Total (all ages), Male
+Units         Thousands of Persons
+
+AE
+Name          Standardised unemployment, Rate, Total (all ages), Male
+Units         Percent
+
+AF
+Name          Standardised unemployment, Level, Total (all ages), Female
+Units         Thousands of Persons
+
+AG
+Name          Standardised unemployment, Rate, Total (all ages), Female
+Units         Percent
+
+
+
+
+                                                                             42
+Harmonised Index of Consumer Prices
+       Total
+AH             Total (index)
+AI             Total (annual rate of change, flash estimate)
+AJ             All-items excluding energy and unprocessed food
+AK             Goods
+AL             Services
+       Goods
+              Food (incl. alcoholic beverages and tobacco)
+AM                           Total
+AN                           Processed food
+AO                           Unprocessed food
+              Industrial goods
+AP                           Non-energy industrial goods
+AQ                           Energy
+       Services
+AR            Housing
+AS            Transport
+AT            Communication
+AU            Recreation and personal
+AV            Miscellaneous
+
+
+       EURO AREA CONCEPT
+       Since January 2001: Euro area changing composition
+
+       SEASONAL ADJUSTMENT
+       All data neither seasonally nor working day adjusted
+
+       ADDITIONAL NOTES
+       •   Change of the base from 1996 to 2005 in March 2006
+       •   Data from January 2002 onwards- implementation of additional
+           harmonisation rules - treatment of price reductions, coverage of services
+           prices
+       •   Expenditure weights are updated annually, however in January 2003,
+           Germany, The Netherlands and Portugal moved their weight reference
+           period from 1995 to 2000 - this caused revisions notably to the German
+           data.
+       •   Methodological notes on the ECB’s website:
+           http://www.ecb.int/stats/prices/hicp/html/index.en.html
+
+       SOURCES: Eurostat and ECB calculations
+
+
+AH
+Name           HICP - Overall index, Monthly Index
+
+
+
+
+                                                                                       43
+AI
+Name       HICP - Overall index, Annual rate of change
+Comments   Flash estimate
+
+AJ
+Name       HICP - All-items excluding energy and unprocessed food, Monthly
+           Index,
+
+AK
+Name       HICP - Goods, Monthly Index
+
+AL
+Name       HICP - Services, Monthly Index
+
+AM
+Name       HICP - Food incl. alcohol and tobacco, Monthly Index
+
+AN
+Name       HICP - Processed food incl. alcohol and tobacco, Monthly Index
+
+AO
+Name       HICP - Unprocessed food, Monthly Index
+
+AP
+Name       HICP - Industrial goods excluding energy, Monthly Index
+
+AQ
+Name       HICP - Energy, Monthly Index,
+
+AR
+Name       HICP - Housing services, Monthly Index
+
+AS
+Name       HICP - Transport services, Monthly Index
+
+AT
+Name        HICP - Communication, Monthly Index
+Comments   Until March 2001 covers only communication services - i.e. excludes
+           telephone/fax equipment sub-index. After the date also includes
+           telephone & telefax equipment sub-index
+
+AU
+Name       HICP - Recreation and personal services, Monthly Index
+
+AV
+Name       HICP - Miscellaneous services, Monthly Index
+
+
+
+                                                                                 44
+External transactions and position: current and capital account, by
+credit and debt
+      Current account
+            Total
+AW                 Credit
+AX                 Debit
+AY                 Net
+            Goods
+AZ                 Credit
+BA                 Debit
+            Services
+BB                 Credit
+BC                 Debit
+            Income
+BD                 Credit
+BE                 Debit
+            Current transfers
+BF                 Credit
+BG                 Debit
+      Capital account
+BH          Credit
+BI          Debit
+
+
+      EURO AREA CONCEPT
+      April 2015: Euro 19
+      April 2014 to March 2015: Euro 18
+      April 2011 – March 2014: Euro 17
+      April 2009 – March 2011: Euro 16
+      April 2008 to March 2009: Euro 15
+      April 2007 to March 2008: Euro 13
+      January 2004 to March 2007: Euro 12
+      January 2001 to December 2003: Euro area changing composition
+
+      SEASONAL ADJUSTMENT
+      Neither seasonally nor working day adjusted
+
+      ADDITIONAL NOTES
+      •   All data refer to transactions in millions of Euro
+      •   Methodological notes on the ECB’s website:
+          http://www.ecb.int/stats/external/balance/html/index.en.html
+      •   Change of the euro area compilation method in November 2009 (see Data
+          Revisions on
+          http://www.ecb.europa.eu/press/pr/stats/bop/2009/html/ba091102.en.html)
+
+
+
+
+                                                                               45
+       •   As of November 2014, real-time data refer to the new standard Balance of
+           Payments and International Investment Position Manual (BPM6):
+           http://www.ecb.europa.eu/stats/external/bpm6/html/index.en.html
+
+       SOURCE: ECB
+
+
+AW
+Name         Current account - Euro area vis-a-vis World (all entities) - Credit
+             flows
+
+AX
+Name         Current account - Euro area vis-a-vis World (all entities) - Debit
+             flows
+
+AY
+Name         Current account - Euro area vis-a-vis World (all entities) - Net
+             flows
+
+AZ
+Name         Current account, Goods - Euro area vis-a-vis World (all entities) -
+             Credit flows
+
+BA
+Name         Current account, Goods - Euro area vis-a-vis World (all entities) -
+             Debit flows - Neither seasonally nor working day adjusted
+
+BB
+Name         Current account, Services - Euro area vis-a-vis World (all entities) -
+             Credit flows
+
+BC
+Name         Current account, Services - Euro area vis-a-vis World (all entities) -
+             Debit flows
+
+BD
+Name         Current account, Income - Euro area vis-a-vis World (all entities) -
+             Credit flows
+
+BE
+Name         Current account, Income - Euro area vis-a-vis World (all entities) -
+             Debit flows
+
+BF
+Name          Current account, Current transfers - Euro area vis-a-vis World
+             (all entities) - Credit flows
+
+BG
+Name         Current account, Current transfers - Euro area vis-a-vis World (all
+
+
+                                                                                   46
+               entities) - Debit flows
+
+BH
+Name           Capital account - Euro area vis-a-vis World (all entities) - Credit
+               flows
+
+BI
+Name           Capital account - Euro area vis-a-vis World (all entities) - Debit
+               flows
+
+
+
+Exchange rates: effective exchange rates
+         Narrow group (EER-12/EER-23)
+BJ             Nominal
+BK             Real CPI
+BL             Real PPI
+         Broad group (EER-38/EER-42)
+BM             Nominal
+BN             Real CPI
+
+
+     ADDITIONAL NOTES
+
+     •   March 2015 – new definition for narrow and broad group (BJ, BK and BL,
+         BM and BN)
+     •   March 2014 – new definition for narrow and broad group (BK and BN)
+     •   February 2014 – new definition for narrow and broad group (BJ, BL and BM)
+     •   August 2013 – new definition for narrow and broad group
+     •   February 2011– new definition for narrow and broad groups
+     •   February 2009– new definition for narrow and broad groups
+     •   February 2008– new definition for narrow and broad groups
+     •   February 2007 – new definition for narrow and broad groups
+     •   September 2004 – new definition for narrow and broad groups
+     •   Methodological notes on the ECB’s website:
+         http://www.ecb.int/stats/exchange/effective/html/index.en.html
+
+     SOURCE: ECB
+
+
+BJ
+Name           ECB Nominal effective exch. rate, ECB EER core group of
+               currencies against Euro
+
+BK
+Name           ECB Real effective exch. rate CPI deflated, ECB EER core group
+               of currencies against Euro
+
+
+
+
+                                                                                     47
+BL
+Name         ECB Real effective exch. rate producer prices deflated, ECB EER
+             core group of currencies against Euro
+
+BM
+Name         ECB Nominal effective exch. rate, ECB EER broad group of
+             currencies against Euro
+
+BN
+Name         ECB Real effective exch. rate CPI deflated, ECB EER broad group
+             of currencies against Euro
+
+
+
+
+Trade in goods: value, volume and unit value by product group
+
+Value; volume; unit value
+                            Total
+BO;    CB;    CO                  Exports
+BP;    CC;    CP                  Imports
+                            Exports (f.o.b.)
+BQ;    CD;    CQ                  Total
+BR;    CE;    CR                  Intermediate
+BS;    CF;    CS                  Capital
+BT;    CG;    CT                  Consumption
+BU;    CH;    CU                  Memo: Manufactures
+                            Imports (c.i.f.)
+BV;    CI;    CV                  Total
+BW;    CJ;    CW                  Intermediate
+BX;    CK;    CX                  Capital
+BY;    CL;    CY                  Consumption
+                                  Memo:
+BZ;    CM;    CZ                            Manufactures
+CA;    CN;    DA                            Oil
+
+
+       EURO AREA CONCEPT
+       Since April 2015: Euro 19
+       April 2014 – March 2015: Euro 18
+       April 2011 – March 2014: Euro 17
+       April 2009 to March 2011: Euro 16
+       April 2008 to March 2009: Euro 15
+       May 2007 to March 2008: Euro 13
+       January 2004 to April 2007: Euro 12 (unless otherwise indicated)
+       January 2001 to December 2003: Euro area changing composition (unless
+       otherwise indicated)
+
+       SEASONAL ADJUSTMENT
+       Since January 2004: no adjustment (unless otherwise indicated)
+
+
+                                                                               48
+        January 2001 to December 2003: seasonally adjusted, not working day
+        adjusted (unless otherwise indicated)
+
+        ADDITIONAL NOTES
+        •   Change of a base year from 1995 to 2000 in August 2002
+        •   Volume and unit value indexes were not reported in the Monthly Bulletin
+            between September 2002 and December 2002.
+        •   Unit value indexes are not reported in the Monthly Bulletin since
+            December 2008.
+        •   Methodological notes on the ECB’s website:
+            http://www.ecb.int/stats/external/trade/html/index.en.html
+
+        SOURCES: Eurostat and ECB calculations based on Eurostat data (volume
+        indices and seasonal adjustment of unit value indices)
+
+
+
+BO
+Name           Total trade - Extra Euro area trade, Export Value index
+               (Community concept)
+Adjustment     Since January 2004: no adjustment
+               September 2001 to December 2003: seasonally adjusted, not working
+               day adjusted
+               January 2001 to August 2001: no adjustment
+Units          Levels since April 2008,
+               Index (1995=100) until August 2002 and (2000=100) thereafter; levels
+               in May and June 2007
+
+BP
+Name           Total trade - Extra Euro area trade, Import Value index
+               (Community concept)
+Adjustment     Since January 2004: no adjustment
+               Since September 2001 to December 2003: seasonally adjusted, not
+               working day adjusted
+               January 2001 to August 2001: no adjustment
+Units          Levels since April 2008,
+               Index (1995=100) until August 2002 and (2000=100) thereafter; levels
+               in Many and June 2007
+
+BQ
+Name           Total trade - Extra Euro area trade, Export Value (Community
+               concept)
+Adjustment     Since November 2007: seasonally and working day adjusted
+               January 2004 to October 2007: seasonally adjusted, not working day
+               adjusted
+               January 2001 to December 2003: no adjustment
+Units          Thousands of ECU/EUR
+
+
+
+
+                                                                                    49
+BR
+Name         Intermediate goods (BEC) - Extra Euro area trade, Export Value
+             (Community concept)
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+BS
+Name         Capital goods (BEC) - Extra Euro area trade, Export Value
+             (Community concept),
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+BT
+Name         Consumption goods (consumer goods & cars & petrol) (BEC) -
+             Extra Euro area trade, Export Value (Community concept)
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+BU
+Name         Manufactured products (SITC 5 to 8) - Extra Euro area trade,
+             Export Value (Community concept)
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+BV
+Name         Total trade - Extra Euro area trade, Import Value (Community
+             concept)
+Adjustment   Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             January 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+
+
+
+                                                                                  50
+BW
+Name         Intermediate goods (BEC) - Extra Euro area trade, Import Value
+             (Community concept)
+Adjustment Since January 2004: seasonally adjusted, not working day adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+BX
+Name         Capital goods (BEC) - Extra Euro area trade, Import Value
+             (Community concept)
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+BY
+Name         Consumption goods (consumer goods & cars & petrol) (BEC) -
+             Extra Euro area trade, Import Value (Community concept),
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+BZ
+Name         Manufactured products (SITC 5 to 8) - Extra Euro area trade,
+             Import Value (Community concept),
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+CA
+Name         Petroleum, petroleum products and related materials (SITC 33) -
+             Extra Euro area trade, Import Value (Community concept)
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Thousands of ECU/EUR
+Availability Since September 2001
+
+
+
+
+                                                                                  51
+CB
+Name         Total trade - Extra Euro area trade, Export Volume index
+             (Community concept),
+Adjustment   Since January 2004: no adjustment
+             September 2001 to December 2003: seasonally adjusted, not working
+             day adjusted
+             January 2001 to August 2001: no adjustment
+Units        Index (1995=100) until August 2002 and (2000=100) thereafter
+
+CC
+Name         Total trade - Extra Euro area trade, Import Volume index
+             (Community concept)
+Adjustment   Since January 2004: no adjustment
+             September 2001 to December 2003: seasonally adjusted, not working
+             day adjusted
+             January 2001 to August 2001: no adjustment
+
+CD
+Name         Total trade - Extra Euro area trade, Year-to-year percentage
+             change of Volume index (Community concept)
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CE
+Name         Intermediate goods (BEC) - Extra Euro area trade, Year-to-year
+             percentage change of Volume index (Community concept), Export,
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CF
+Name         Capital goods (BEC) - Extra Euro area trade, Year-to-year
+             percentage change of Volume index (Community concept), Export
+Adjustment   Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+
+
+                                                                                 52
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CG
+Name         Consumption goods (consumer goods & cars & petrol) (BEC) -
+             Extra Euro area trade, Year-to-year percentage change of Volume
+             index (Community concept), Export
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CH
+Name         Manufactured products (SITC 5 to 8) - Extra Euro area trade,
+             Year-to-year percentage change of Volume index (Community
+             concept), Export
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CI
+Name         Total trade - Extra Euro area trade, Year-to-year percentage
+             change of Volume index (Community concept), Import
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CJ
+Name         Intermediate goods (BEC) - Extra Euro area trade, Year-to-year
+             percentage change of Volume index (Community concept), Import
+Adjustment   Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+
+
+
+                                                                              53
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CK
+Name         Capital goods (BEC) - Extra Euro area trade, Year-to-year
+             percentage change of Volume index (Community concept), Import
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CL
+Name         Consumption goods (consumer goods & cars & petrol) (BEC) -
+             Extra Euro area trade, Year-to-year percentage change of Volume
+             index (Community concept), Import
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CM
+Name         Manufactured products (SITC 5 to 8) - Extra Euro area trade,
+             Year-to-year percentage change of Volume index (Community
+             concept), Import
+Adjustment Since November 2007: seasonally and working day adjusted
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CN
+Name         Petroleum, petroleum products and related materials (SITC 33) -
+             Extra Euro area trade, Year-to-year percentage change of Volume
+             index (Community concept), Import
+Adjustment   Since November 2007: seasonally and working day adjusted
+
+
+                                                                              54
+             January 2004 to October 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Units        Since January 2004 data available as index,
+             September 2001 to December 2003 data available as annual percentage
+             changes
+Availability Since September 2001
+
+CO
+Name         Total trade - Extra Euro 12 trade, Export Unit value index
+             (Community concept)
+Adjustment   Since January 2004: no adjustment
+             September 2001 to December 2003: seasonally adjusted, not working
+             day adjusted
+             January 2001 to August 2001: no adjustment
+
+CP
+Name         Total trade - Extra Euro area trade, Import Unit value index
+             (Community concept)
+Adjustment   Since January 2004: no adjustment
+             September 2001 to December 2003: seasonally adjusted, not working
+             day adjusted
+             January 2001 to August 2001: no adjustment
+
+CQ
+Name         Total trade - Extra Euro 12 trade, Export Unit value index
+             (Community concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2015: Euro 19
+             April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2008 to March 2011: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+CR
+Name         Intermediate goods (BEC) - Extra Euro 12 trade, Export Unit value
+             index (Community concept)
+Euro area    Since April 2015: Euro 19
+
+
+                                                                                 55
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+CS
+Name         Capital goods (BEC) - Extra Euro 12 trade, Export Unit value
+             index (Community concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+CT
+Name         Consumption goods (consumer goods & cars & petrol) (BEC) -
+             Extra Euro 12 trade, Export Unit value index (Community
+             concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment   Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+
+
+
+                                                                                56
+Availability Since September 2001, no data between September and December 2002
+
+CU
+Name         Manufactured products (SITC 5 to 8) - Extra Euro 12 trade,
+             Export Unit value index (Community concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+CV
+Name         Total trade - Extra Euro 12 trade, Import Unit value index
+             (Community concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001 no data between September and December 2002
+
+CW
+Name        Intermediate goods (BEC) - Extra Euro 12 trade, Import Unit
+            value index (Community concept)
+Euro area   Since April 2015: Euro 19
+concept     April 2014 to March 2015: Euro 18
+            April 2011 to March 2014: Euro 17
+            April 2009 to March 2011: Euro 16
+            April 2008 to March 2009: Euro 15
+            May 2007 to March 2008: Euro 13
+            August 2002 to April 2007: Euro 12
+            September 2001 to July 2002: Euro 11
+
+
+
+                                                                           57
+Adjustment   Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+CX
+Name         Capital goods (BEC) - Extra Euro 12 trade, Import Unit value
+             index (Community concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+CY
+Name         Consumption goods (consumer goods & cars & petrol) (BEC) -
+             Extra Euro 12 trade, Import Unit value index (Community
+             concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+CZ
+Name         Manufactured products (SITC 5 to 8) - Extra Euro 12 trade,
+             Import Unit value index (Community concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+
+
+                                                                           58
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to July 2002: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001, no data between September and December 2002
+
+DA
+Name         Petroleum, petroleum products and related materials (SITC 33) -
+             Extra Euro 12 trade, Import Unit value index (Community
+             concept)
+Euro area    Since April 2015: Euro 19
+concept      April 2014 to March 2015: Euro 18
+             April 2011 to March 2014: Euro 17
+             April 2009 to March 2011: Euro 16
+             April 2008 to March 2009: Euro 15
+             May 2007 to March 2008: Euro 13
+             August 2002 to April 2007: Euro 12
+             September 2001 to February 2003: Euro 11
+Adjustment Since April 2008: no adjustment
+             May 2007 to March 2008: seasonally and working day adjusted
+             January 2004 to April 2007: seasonally adjusted, not working day
+             adjusted.
+             September 2001 to December 2003: no adjustment
+Availability Since September 2001
+
+
+
+
+Interest rate, money market overnight, 1 to 12 months, US and Japan
+3 months
+
+       Euro area
+DB           Overnight deposits (EONIA)
+DC           1-month deposits (EURIBOR)
+DD           3-month deposits (EURIBOR)
+DE           6-month deposits (EURIBOR)
+DF           12-month deposits (EURIBOR)
+       United States
+DG           3-month deposits (LIBOR)
+       Japan
+DH           3-month deposits (LIBOR)
+
+
+
+
+                                                                                59
+       ADDITIONAL NOTES
+          •   All data expressed as percent per annum
+          •   Methodological notes on the ECB’s website:
+              http://www.ecb.int/stats/money/indices/html/index.en.html
+          •   As of January 2015 all data refer to the historical close, average of
+              observations through period.
+
+       SOURCE: ECB
+
+
+DB
+Name          Euro area – Money Market – Eonia rate- Last trade price or value
+              – Euro
+
+DC
+Name          Euro area - Money Market - 1-month Euribor- Last trade price or
+              value - Euro
+Comment       Data provided by Reuters as of January 2015
+
+DD
+Name          Euro area - Money Market - 3-month Euribor - Last trade price or
+              value - Euro
+Comment       Data provided by Reuters as of January 2015
+
+DE
+Name          Euro area - Money Market - 6-month Euribor- Last trade price or
+              value - Euro
+Comment       Data provided by Reuters as of January 2015
+
+DF
+Name          Euro area - Money Market - 1-year Euribor- Last trade price or
+              value - Euro
+Comment       Data provided by Reuters as of January 2015
+
+DG
+Name          United States - Money Market - 3-month Libor interbank USD
+              deposit rate - Last trade price or value - US dollar
+Comment       Data provided by Reuters as of January 2015
+
+DH
+Name          Japan - Money Market - 3-month Libor interbank Japanese Yen
+              deposit rate - Last trade price or value - Japanese yen
+Comment       Data provided by Reuters as of January 2015
+
+
+
+
+                                                                                      60
+Government bond yield 2, 3, 5,7,10 years, US and Japan, 10 years
+
+     Euro area
+DI         2 years
+DJ         3 years
+DK         5 years
+DL         7 years
+DM         10 years
+     United States
+DN         10 years
+     Japan
+DO         10 years
+
+
+     ADDITIONAL NOTES
+          •   All data expressed as percent per annum
+          •   Methodological notes on the ECB’s website:
+              http://www.ecb.int/stats/money/indices/html/index.en.html.
+
+     SOURCE: ECB
+
+
+DI
+Name          2-year Euro area Government Benchmark bond yield - Euro
+Comment       Published until January 2008
+
+DJ
+Name          3-year Euro area Government Benchmark bond yield- Euro
+Comment       Published until January 2008
+
+DK
+Name          5-year Euro area Government Benchmark bond yield- Euro
+Comment       Published until January 2008
+
+DL
+Name          7-year Euro area Government Benchmark bond yield- Euro
+Comment       Published until January 2008
+
+DM
+Name          10-year Euro area Government Benchmark bond yield- Euro
+Comment       Published until January 2008
+
+DN
+Name          USA 10-year Government Benchmark bond yield - US dollar
+Comment       Published until January 2008
+
+
+
+
+                                                                           61
+DO
+Name          Japan 10-year Government Benchmark bond yield- Japanese yen,
+Comment       Published until January 2008
+
+
+
+
+Dow Jones EURO STOXX indices by economics sectors, S&P and
+Nikkei
+       Dow Jones EURO STOXX indices
+             Benchmark
+DP                   Broad
+DQ                   50
+             Main economic sector indices
+DR                   Basic materials
+DS                   Consumer cyclical
+DT                   Consumer non-cyclical
+DU                   Energy
+DV                   Financial
+DW                   Industrial
+DX                   Technology
+DY                   Utilities
+DZ                   Telecom
+EA                   Healthcare
+       United States
+EB           Standard & Poor’s 500
+       Japan
+EC           Nikkei 225
+
+
+
+       ADDITIONAL NOTE
+       •   As of January 2015 data refer to the historical close, average of
+           observations through period.
+
+       SOURCE: ECB
+
+
+DP
+Name          Euro area - Equity/index - Dow Jones Euro Stoxx Broad stock
+              exchange index - Historical close - Euro
+Comment       Data provided by the financial market provider DataStream as of
+              January 2015
+
+DQ
+Name          Euro area - Equity/index - Dow Jones Eurostoxx 50 index -
+              Historical close - Euro
+Comment       Data provided by the financial market provider DataStream as of
+              January 2015
+
+
+                                                                                62
+DR
+Name       Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic sector
+           index Basic Materials - Historical close - Euro
+Comment    Data provided by the financial market provider DataStream as of
+           January 2015
+
+DS
+Name       Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic
+           sector index Cyclical Goods - Historical close - Euro
+Comment    Data provided by the financial market provider DataStream as of
+           January 2015
+
+DT
+Name       Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic
+           sector index Non Cyclical Goods - Historical close - Euro
+Comment    Data provided by the financial market provider DataStream as of
+           January 2015
+
+DU
+Name       Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic sector
+           index Energy - Historical close - Euro
+Comment    Data provided by the financial market provider DataStream as of
+           January 2015
+
+DV
+Name       Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic sector
+           index Financial - Historical close - Euro
+Comment    Data provided by the financial market provider DataStream as of
+           January 2015
+
+DW
+Name       Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic sector
+           index Financial - Historical close - Euro
+Comment    Data provided by the financial market provider DataStream as of
+           January 2015
+
+DX
+Name       Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic sector
+           index Technology - Historical close - Euro
+Comment    Data provided by the financial market provider DataStream as of
+           January 2015
+
+DY
+Name        Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic
+           sector index Utilities - Historical close - Euro
+Comments   In the vintages of February and March 2001 some observations are
+           missing (not published in the Monthly Bulletin at that time).
+           Data provided by the financial market provider DataStream as of
+
+
+                                                                              63
+             January 2015.
+
+DZ
+Name         Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic
+             sector index Telecommunications - Historical close - Euro
+Comments     In the vintages of February and March 2001 some observations are
+             missing (not published in the Monthly Bulletin at that time).
+             Data provided by the financial market provider DataStream as of
+             January 2015.
+
+EA
+Name         Euro area - Equity/index - Dow Jones, Euro Stoxx, Economic
+             sector index Healthcare - Historical close - Euro
+Comments     In the vintages of February and March 2001 some observations are
+             missing (not published in the Monthly Bulletin at that time).
+             Data provided by the financial market provider DataStream as of
+             January 2015.
+
+EB
+Name        United States - Equity/index - Standard & Poor 500 Equity Index -
+            Historical close - US dollar
+Comment     Data provided by the financial market provider DataStream as of
+            January 2015
+
+EC
+Name        Japan - Equity/index - Nikkei 225 equity index - Last trade price or
+            value - Japanese yen
+Comment     Data provided by the financial market provider DataStream as of
+            January 2015
+
+
+US and Japan: main economic and financial indicators
+       United States
+ED           Consumer price index
+EE           Industrial production index (manufacturing)
+EF           Unemployment rate
+EG           Broad money
+       Japan
+EH           Consumer price index
+EI           Unit labour costs (manufacturing)
+EJ           Industrial production index (manufacturing)
+EK           Unemployment rate
+EL           Broad money
+
+
+       SOURCE: BIS
+
+
+
+
+                                                                                64
+ED
+Name          US-Consumer price index
+Units         Since January 2001 Index, 1982/1984 = 100
+
+EE
+Name          US-Industrial production index (manufacturing)
+Units         Since December 2005: Index 2002 = 100
+              January 2003 to November 2005: Index, 1997 = 100
+              January 2001 to December 2002: Index, 1989 = 100,
+
+EF
+Name          US-Unemployment rate
+Units         Percent
+
+EG
+Name          US-Broad money
+Units         Billions of US Dollar
+Comments      Prior to October 2001 and as of January 2007 data refer to M2
+              aggregate
+
+EH
+Name          JP-Consumer price index
+Units         Index, 2000 = 100
+
+EI
+Name          JP-Unit labour costs (manufacturing)
+Units         Index, 2000=100
+Comment       Discontinued in July 2008
+
+EJ
+Name          JP-Industrial production index (manufacturing)
+Name           Index, 2000 = 100
+
+EK
+Name          JP-Unemployment rate
+Units          Percent
+
+EL
+Name          JP-Broad money
+Units         Billions of Japanese Yen
+
+
+Industry and commodity prices: by type of goods and by industry
+        Industrial producer index
+              Industry excluding construction
+EM                    Total (index)
+EN                    Total (annual percentage changes)
+                      Industry excluding construction and energy
+
+
+                                                                              65
+EO                          Total (annual percentage changes)
+EP                          Intermediate goods
+EQ                          Capital goods
+                            Consumer goods
+ER                                 Total (annual percentage changes)
+ES                                 Durable
+ET                                 Non-durable
+EU                   Energy
+EV            Manufacturing
+       World market prices of raw materials
+EW            Total
+EX            Total excluding energy
+EY     Oil prices
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       April 2011 to January 2014: Euro 17
+       February 2009 to March 2011: Euro 16
+       March 2008 to January 2009: Euro 15
+       March 2007 to February 2008: Euro 13
+       January 2004 to February 2007: Euro 12
+       January 2001 to December 2003: Euro area changing composition (unless
+       otherwise indicated)
+
+       SEASONAL ADJUSTMENT
+       Since January 2001: No adjustment
+
+       ADDITIONAL NOTES
+       •    Change of a base year from 1995 to 2000 in June 2003
+       •    Change of a base year from 2000 to 2005 in April 2009
+       •    Category “industry excluding construction and energy” (columns EO to
+            ET) was introduced in August 2001 in combination with the new
+            harmonised definition for the Main Industrial Groupings (MIGS)
+       •    Methodological notes on the ECB’s website:
+            http://www.ecb.int/stats/prices/hicp/html/index.en.html
+
+       SOURCES: Eurostat, HWWA and ECB calculations
+
+
+EM
+Name           Producer Price Index, domestic sales, Total Industry (excluding
+               construction)
+Euro area      January 2001 to February 2007: Euro 12
+concept
+
+EN
+Name          Producer Price Index, domestic sales, Total Industry (excluding
+              construction; annual percentage changes)
+
+
+                                                                                   66
+Units        Since January 2004: data available as index,
+             Since May 2001 to December 2003: data available as annual percentage
+             changes,
+             January 2001 to April 2001: data available as index
+
+EO
+Name         Producer Price Index, domestic sales, Total Industry excluding
+             construction and MIG Energy
+Units        Since January 2004: data available as index,
+             August 2001 to December 2003: data available as annual percentage
+             changes
+Availability Published since August 2001 (see additional note for the block)
+
+EP
+Name         Producer Price Index, domestic sales, MIG Intermediate Goods
+             Industry
+Units        Since January 2004: data available as index,
+             May 2001 to December 2003: data available as annual percentage
+             changes,
+             January 2001 to April 2001: data available as index
+Comments     Prior to August 2001 refer to Manufacturing (see additional note for the
+             block)
+
+EQ
+Name         Producer Price Index, domestic sales, MIG Capital Goods Industry
+Units        Since January 2004: data available as index,
+             May 2001 to December 2003: data available as annual percentage
+             changes
+             January 2001 to April 2001: data available as index
+Comments     Prior to August 2001 refer to Manufacturing (see additional note for the
+             block)
+
+ER
+Name         Producer Price Index, domestic sales, Consumer goods industry
+Units        Since January 2004: data available as index,
+             May 2001 to December 2003: data available as annual percentage
+             changes,
+             March 2001 to April 2001: data available as index
+Availability Since March 2001
+Comments Prior to August 2001 refer to Manufacturing (see additional note for the
+             block)
+
+ES
+Name         Producer Price Index, domestic sales, MIG Durable Consumer
+             Goods Industry
+Units        Since January 2004: data available as index,
+             May 2001 to December 2003: data available as annual percentage
+             changes,
+             January 2001 to April 2001: data available as index
+
+
+                                                                                  67
+Comments     Prior to August 2001 refer to Manufacturing (see additional note for the
+             block)
+             This series key was discontinued as of January 2015.
+
+ET
+Name         Producer Price Index, domestic sales, MIG Non-durable Consumer
+             Goods Industry
+Units        Since January 2004: data available as index,
+             May 2001 to December 2003: data available as annual percentage
+             changes,
+             January 2001 to April 2001: data available as index
+Comments     Prior to August 2001 refer to Manufacturing (see additional note for the
+             block)
+             This series key was discontinued as of January 2015.
+
+EU
+Name         Producer Price Index, domestic sales, MIG Energy
+Units        Since January 2004: data available as index,
+             August 2001 to December 2003: data available as annual percentage
+             changes
+Availability Published since August 2001 (see additional notes for the block)
+
+EV
+Name         Producer Price Index, domestic sales, Manufacturing
+Units        Since January 2004: data available as index,
+             May 2001 to December 2003: data available as annual percentage
+             changes,
+             January 2001 to April 2001: data available as index
+
+EW
+Name         World market prices of raw materials, Index total , Euro
+Euro area    January 2001 to December 2001: Extra Euro 12
+concept
+Comment      Discontinued in February 2009
+
+EX
+Name         World market prices of raw materials, Index Total excluding
+             energy, Euro
+Euro area    January 2001 to December 2001: Extra Euro 12
+concept
+Comment      Discontinued in February 2009
+
+EY
+Name         Brent Crude-1 Month Fwd,fob US$/BBL converted in euro
+Units        EUR per barrel
+
+
+
+
+                                                                                  68
+Money supply M1 M2 M3, Base money, Total loans, Total credit
+(seasonally adjusted)
+
+EZ     M3 (annual growth rate)
+FA     M1
+FB     M2
+FC     M3
+FD     Base money
+FE     Loans to other euro area residents
+FF     Credit to other euro area residents
+
+
+       EURO AREA CONCEPT
+       Since January 2001: Euro area changing composition
+
+       SEASONAL ADJUSTMENT
+       All data seasonally and working day adjusted
+
+       ADDITIONAL NOTES:
+       • All data expressed in millions of Euro
+       • Methodological notes on the ECB’s website:
+         http://www.ecb.int/stats/money/aggregates/aggr/html/index.en.html
+
+       SOURCE: ECB
+
+
+
+
+EZ
+Name         Monetary aggregate M3, annual growth rate
+Availability Since August 2001
+
+FA
+Name         Monetary aggregate M1
+
+FB
+Name         Monetary aggregate M2
+
+FC
+Name         Monetary aggregate M3
+
+FD
+Name         Base money
+Availability Since April 2001
+Comments The data refers to the month when maintenance period ended - no
+
+
+
+                                                                             69
+             maintenance period ended in February 2004, due to change in the
+             operational framework.
+
+FE
+Name         Loans to other euro area residents,
+Availability Published since September 2003
+
+FF
+Name         Credit to other euro area residents
+Availability Published since September 2003
+
+
+
+
+Money supply M1 M2 M3, Base money, Total loans, Total credit
+(non-seasonally adjusted)
+
+FG     M3 (annual growth rate)
+FH     M1
+FI     M2
+FJ     M3
+FK     Base money
+FL     Loans to other euro area residents
+FM     Credit to other euro area residents
+
+
+       EURO AREA CONCEPT
+       Since January 2001: Euro area changing composition
+
+       SEASONAL ADJUSTMENT
+       All data non-seasonally adjusted
+
+       ADDITIONAL NOTES
+       • All data expressed in millions of Euro
+       •   Methodological notes on the ECB’s website:
+           http://www.ecb.int/stats/money/aggregates/aggr/html/index.en.html
+
+       SOURCE: ECB
+
+
+FG
+Name         Monetary aggregate M3, annual growth rate
+
+FH
+Name         Monetary aggregate M1
+
+FI
+Name         Monetary aggregate M2
+
+FJ
+
+
+                                                                               70
+Name         Monetary aggregate M3
+
+FK
+Name         Base money
+Availability Since April 2001
+Comments The data refers to the month when maintenance period ended - no
+             maintenance period ended in February 2004, due to change in the
+             operational framework.
+
+
+FL
+Name         Loans, Total maturity
+Availability Published since September 2003
+
+FM
+Name         Credit to other euro area residents
+Availability Published since September 2003
+
+
+
+
+Confidence indicators: economic, manufacturing, consumer,
+construction, retail trade, services
+FN            Economic sentiment indicator
+              Manufacturing industry
+                      Industrial confidence indicator
+FO                          Total
+FP                          Order books
+FQ                          Stocks of finished products
+FR                          Production expectations
+              Consumer confidence indicator
+FS                    Total
+FT                    Financial situation over next 12 months
+FU                    Economic situation over next 12 months
+FV                    Unemployment situation over next 12 months
+FW                    Savings over next 12 months
+              Construction confidence indicator
+FX                    Total
+FY                    Order books
+FZ                    Employment expectations
+              Retail trade confidence indicator
+GA                    Total
+GB                    Present business situation
+GC                    Volume of stocks
+GD                    Expected business situation
+              Services confidence indicator
+GE                    Total
+GF                    Business climate
+GG                    Demand in recent months
+
+
+                                                                               71
+GH                     Demand in the months ahead
+
+
+
+       EURO AREA CONCEPT
+       Since March 2015: Euro 19
+       February 2014 to January 2015: Euro 18
+       February 2011 to January 2014: Euro 17
+       February 2009 to January 2011: Euro 16
+       February 2008 to January 2009: Euro 15
+       February 2007 to January 2008: Euro 13
+       January 2001 to January 2007: Euro 12, unless otherwise indicated
+
+       SEASONAL ADJUSTMENT
+       All data seasonally adjusted
+
+       ADDITIONAL NOTES
+       • All data expressed as percentage balances
+
+       SOURCE: European Commission: DG ECFIN
+
+
+
+
+FN
+Name           Economic Sentiment Indicator
+Units          Index
+Availability   Since February 2002
+Comments       Economic sentiment indicator (ESI) is a composite indicator calculated
+               as the weighted average of the components of the confidence indicators
+               for industry (weight: 40%), services (weight 30%), consumers (weight:
+               20%), construction (weight 5%) and retail trade (weight: 5%). A mean
+               index level has been imposed by setting the long-term average of the
+               ESI to 100; a reading of the ESI of above (below) 100 indicates an
+               above (below) average economic sentiment.
+               DG ECFIN changed the components/weighting of this composite
+               indicator from reporting period May 2004 and September 2001
+               onwards; data have been recalculated accordingly by DG ECFIN.
+               In October 2003 an index base year changed from 1995 = 100 to
+               2000=100. Since the reporting period May 2004, the indicator is no
+               more an index with base year 2000=100, but with long-term average =
+               100
+
+FO
+Name           Industry Survey: Industrial Confidence Indicator
+Availability   Since January 2001
+Euro area      Since March 2001: Euro 12
+concept        January 2001- February 2001: Euro area changing composition
+Comments       Confidence indicator calculated as arithmetic average of the answers to
+               the questions on order books, stocks of finished goods (inverted sign)
+               and production expectations.
+
+
+                                                                                    72
+FP
+Name           Industry Survey: Assessment of order-book levels
+Availability   Since January 2001
+Euro area      Since March 2001: Euro 12
+concept        January 2001- February 2001: Euro area changing composition
+
+FQ
+Name         Industry Survey: Assessment of stocks of finished products
+Availability Since February 2002
+
+FR
+Name         Industry Survey: Production expectations for the months ahead
+Availability Since January 2001
+
+FS
+Name         Consumer Survey: Consumer Confidence Indicator
+Availability Since January 2001
+Comments Consumer Confidence indicator calculated as the arithmetic average of
+             the answers to the questions on (1) the financial situation of the
+             household over the next 12 months; (2) the general economic situation
+             over the next 12 months; (3) the unemployment expectations over the
+             next 12 months; and, (4) savings over the next 12 months.
+             DG ECFIN changed the components of this composite indicator from
+             reporting period September 2001 onwards; data have been recalculated
+             accordingly by DG ECFIN
+
+FT
+Name         Consumer Survey: Financial situation over next 12 months
+Availability Since February 2002
+
+FU
+Name         Consumer Survey: General economic situation over next 12 months
+Availability Since February 2002
+
+FV
+Name         Consumer Survey: Unemployment expectations over next 12
+             months
+Availability Since February 2002
+
+FW
+Name         Consumer Survey: Savings over next 12 months
+Availability Since February 2002
+Comments Percentage balances
+
+FX
+Name         Construction Survey: Construction Confidence Indicator
+Availability Since January 2001
+
+
+                                                                                73
+Euro area      Since March 2001: Euro 12
+concept        January 2001- February 2001: Euro area changing composition
+Comments       Confidence indicator calculated as arithmetic average of the answers to
+               the questions on order books and employment expectations. -
+               Percentage balances
+
+FY
+Name         Construction Survey: Assessment of order books
+Availability Published since February 2002
+
+FZ
+Name         Construction Survey: Employment expectations for the months
+             ahead
+Availability Published since February 2002
+
+GA
+Name           Retail Trade Survey: Retail Confidence Indicator
+Availability   Since January 2001
+Euro area      Since March 2001: Euro 12
+concept        January 2001- February 2001: Euro area changing composition
+Comments       Confidence indicator calculated as arithmetic average of the answers to
+               the questions on present and expected business situation and on
+               assessment of stocks (inverted sign).
+
+GB
+Name         Retail Trade Survey: Present business situation
+Availability Since January 2001
+
+GC
+Name         Retail Trade Survey: Assessment of stocks
+Availability Since January 2001
+
+GD
+Name         Retail Trade Survey: Expected business situation
+Availability Since February 2002
+
+GE
+Name         Service Survey: Service Confidence Indicator
+Availability Since February 2002
+Comments Confidence indicator calculated as arithmetic average of the answers to
+             the question on assessment of business climate, evolution of demand in
+             recent months and in the months ahead.
+
+GF
+Name         Service Survey: Assessment of the business climate
+Availability Since February 2002
+
+GG
+Name           Service Survey: Evolution of demand in recent months
+
+
+                                                                                    74
+Availability Since February 2002
+
+GH
+Name         Service Survey: Evolution of demand expected in the months ahead
+Availability Since February 2001
+
+
+
+
+                                                                           75
+

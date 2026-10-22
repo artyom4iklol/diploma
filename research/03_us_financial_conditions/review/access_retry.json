@@ -1,0 +1,50 @@
+[
+  {
+    "id": "S05",
+    "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3721956_code2684528.pdf?abstractid=3461214",
+    "date": "2026-10-02",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S09",
+    "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jae.3005",
+    "date": "2026-10-02",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S10",
+    "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jae.3136",
+    "date": "2026-10-02",
+    "result": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S19",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1572308924000445/pdf",
+    "date": "2026-10-02",
+    "http": 200,
+    "bytes": 195,
+    "resolved_url": "https://www.sciencedirect.com/science/article/pii/S1572308924000445/pdf",
+    "result": "Response is not PDF"
+  },
+  {
+    "id": "S22",
+    "url": "https://www.stat.washington.edu/research/reports/2008/tr533.pdf",
+    "date": "2026-10-02",
+    "result": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "S32",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1572308922000328/pdf",
+    "date": "2026-10-02",
+    "http": 200,
+    "bytes": 195,
+    "resolved_url": "https://www.sciencedirect.com/science/article/pii/S1572308922000328/pdf",
+    "result": "Response is not PDF"
+  },
+  {
+    "id": "S22",
+    "url": "https://citeseerx.ist.psu.edu/document?doi=07b14f69099d1fdab8f09ff4e4155f379a5fcd8d&repid=rep1&type=pdf",
+    "date": "2026-10-02",
+    "result": "HTTP Error 404: NOT FOUND"
+  }
+]

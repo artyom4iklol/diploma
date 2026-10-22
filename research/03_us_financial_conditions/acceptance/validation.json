@@ -1,0 +1,9 @@
+{
+  "all_lp_solved": true,
+  "expanding_predictions_reproduced": true,
+  "common_origins": true,
+  "fixed_train_52": true,
+  "label_cutoff": true,
+  "hac_matrix_match": true,
+  "rolling_forecasts": 615
+}

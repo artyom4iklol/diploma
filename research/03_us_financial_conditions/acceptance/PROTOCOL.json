@@ -1,0 +1,22 @@
+{
+  "question": "Do US indicators improve 0.10 quantile forecasts of EA20 growth conditional on European indicators, robustly across benchmarks and extrapolation diagnostics?",
+  "main": "Stage12 expanding lag1 unchanged",
+  "rolling_window": 52,
+  "choice": "13 years, below initial available training size for both horizons; fixed before results, no window optimization; supplement after prior expanding results known",
+  "horizons": [
+    1,
+    4
+  ],
+  "tau": 0.1,
+  "comparisons": [
+    "US_NFCI/BASE",
+    "US_CISS/BASE",
+    "US_NFCI/HIST",
+    "US_NFCI/US_CISS"
+  ],
+  "inference": "Unconditional predictive ability for finite-memory methods, asymptotic normal HAC Bartlett L4 primary L8 sensitivity; Holm4 only h1; not conditional coverage; not real-time",
+  "limits": "mixing, moments, nondegenerate variance and appropriate null needed; small samples and extreme changes restrict approximation; no claim of proven superiority",
+  "diagnostic": "growth bounded at training min/max with coefficients unchanged; centered term decomposition; all evaluation dates retained",
+  "date": "2026-10-04",
+  "restoration": "Oct3 attempt interrupted after forecasts before validation; local files lost; design reconstructed from conversation and rerun without changes to window or tests"
+}

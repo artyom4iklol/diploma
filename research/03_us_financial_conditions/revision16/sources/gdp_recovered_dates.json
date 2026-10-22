@@ -1,0 +1,1098 @@
+[
+  {
+    "quarter": "2009Q4",
+    "date": "2010-03-04",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04032010-ap",
+    "evidence": "gdp_release_2009Q4.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "layout-fragment .portlet-header { display: none; } Publication Details Euro area and EU27 GDP up by 0.1% GDP increased by 0.1% in both the euro area (EA16) and the EU27 during the fourth quarter of 2009, compared with the previous quarter, according to first estimates released by Eurostat, the statistical office of the European Union. In the third quarter of 2009, growth rates were +0.4% in the euro area and +0.3% in the EU27. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 4 March 2010 Additional information Product code: 2-04032010-AP Theme: Economy and financ",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05032010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04032010-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2010Q1",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03062010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02062010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01062010-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07062010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31052010-ap",
+        "matched": false
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08062010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09062010-ap",
+        "matched": false
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10062010-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2010Q2",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03092010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01092010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31082010-ap",
+        "matched": false
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092010-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30082010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07092010-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08092010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09092010-ap",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  {
+    "quarter": "2010Q3",
+    "date": "2010-12-10",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10122010-ap",
+    "evidence": "gdp_release_2010Q3.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "t .portlet-header { display: none; } Publication Details EU27 current account deficit 25.5 bn euro The EU27 external current account recorded a deficit of 25.5 billion euro in the third quarter of 2010, compared with a deficit of 19.3 bn in the third quarter of 2009 and a deficit of 37.1 bn in the second quarter of 2010. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 10 December 2010 Additional information Product code: 2-10122010-AP Theme: Economy and finance Collection: Euro indicators Share this page: { \"service\" : \"share\", \"popup\" : false, \"link\": \"https://",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03122010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02122010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01122010-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07122010-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30112010-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08122010-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09122010-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10122010-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2010Q4",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04032011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08032011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03032011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09032011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02032011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10032011-ap",
+        "matched": false
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-11032011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01032011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28022011-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2011Q1",
+    "date": "2011-06-08",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08062011-ap",
+    "evidence": "gdp_release_2011Q1.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "ut-fragment .portlet-header { display: none; } Publication Details Euro area GDP and EU27 GDP up by 0.8% GDP increased by 0.8% in both the euro area (EA17) and the EU27 during the first quarter of 2011, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the fourth quarter of 2010, growth rates were +0.3% in the euro area and +0.2% in the EU27. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 8 June 2011 Additional information Product code: 2-08062011-AP Theme: Economy and financ",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03062011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02062011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01062011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07062011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31052011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08062011-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2011Q2",
+    "date": "2011-09-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092011-ap",
+    "evidence": "gdp_release_2011Q2.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "ut-fragment .portlet-header { display: none; } Publication Details Euro area GDP and EU27 GDP up by 0.2% GDP increased by 0.2% in both the euro area (EA17) and the EU27 during the second quarter of 2011, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the first quarter of 2011, growth rates were +0.8% in the euro area and +0.7% in the EU27. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 6 September 2011 Additional information Product code: 2-06092011-AP Theme: Economy and f",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01092011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05092011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31082011-ap",
+        "matched": false
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092011-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2011Q3",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05122011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02122011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01122011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07122011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30112011-ap",
+        "matched": false
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08122011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09122011-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29112011-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28112011-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2011Q4",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05032012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02032012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08032012-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01032012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09032012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29022012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28022012-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2012Q1",
+    "date": "2012-06-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062012-ap",
+    "evidence": "gdp_release_2012Q1.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "aster-layout-fragment .portlet-header { display: none; } Publication Details Euro area and EU27 GDP stable GDP remained stable in both the euro area (EA17) and the EU27 during the first quarter of 2012, compared with the previous quarter, according to second estimates released by Eurostat, the statistical office of the European Union. In the fourth quarter of 2011, growth rates were -0.3% in both zones. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 6 June 2012 Additional information Product code: 2-06062012-AP Theme: Economy and finance Collection: Euro indica",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062012-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05062012-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062012-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2012Q2",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03092012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04092012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05092012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31082012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092012-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30082012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07092012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29082012-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28082012-ap",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  {
+    "quarter": "2012Q3",
+    "date": "2012-12-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122012-ap",
+    "evidence": "gdp_release_2012Q3.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "lay: none; } Publication Details GDP down by 0.1% in the euro area and up by 0.1% in the EU27 GDP fell by 0.1% in the euro area (EA17) and increased by 0.1% in the EU27 during the third quarter of 2012, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the second quarter of 2012, growth rates were -0.2% in both zones. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 6 December 2012 Additional information Product code: 2-06122012-AP Theme: Economy and finance Collection: Euro i",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04122012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03122012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05122012-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122012-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2012Q4",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05032013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04032013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08032013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-11032013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-12032013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01032013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28022013-ap",
+        "matched": false
+      }
+    ]
+  },
+  {
+    "quarter": "2013Q1",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03062013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05062013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07062013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31052013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10062013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30052013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29052013-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2013Q2",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03092013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04092013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05092013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30082013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09092013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29082013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28082013-ap",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  {
+    "quarter": "2013Q3",
+    "date": "2013-12-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122013-ap",
+    "evidence": "gdp_release_2013Q3.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "der { display: none; } Publication Details EU28 current account surplus 35.6 bn euro The EU28 external current account recorded a surplus of 35.6 billion euro (1.1% of GDP) in the third quarter of 2013, compared with a surplus of 30.3 bn (0.9% of GDP) in the third quarter of 2012, according to first estimates from Eurostat, the statistical office of the European Union. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 6 December 2013 Additional information Product code: 2-06122013-AP Theme: Economy and finance Collection: Euro indicators Share this page: { \"servic",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04122013-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03122013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05122013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02122013-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122013-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2013Q4",
+    "date": "2014-03-07",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032014-ap",
+    "evidence": "gdp_release_2013Q4.html",
+    "status": "official_quarter_matched_release",
+    "snippet": " } Publication Details EU28 current account surplus 47.9 bn euro The EU28 seasonally adjusted external current account recorded a surplus of 47.9 billion euro (1.5% of GDP) in the fourth quarter of 2013, compared with a surplus of 31.8 bn (1.0% of GDP) in the third quarter of 2013 and with a surplus of 22.9 bn (0.7% of GDP) in the fourth quarter of 2012, according to first estimates from Eurostat, the statistical office of the European Union. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 7 March 2014 Additional information Product code: 2-07032014-AP Theme: Ec",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05032014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032014-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2014Q1",
+    "date": "2014-06-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062014-ap",
+    "evidence": "gdp_release_2014Q1.html",
+    "status": "official_quarter_matched_release",
+    "snippet": " } Publication Details EU28 current account surplus 32.2 bn euro The EU28 seasonally adjusted external current account recorded a surplus of 32.2 billion euro (1.0% of GDP) in the first quarter of 2014, compared with a surplus of 36.3 bn (1.1% of GDP) in the fourth quarter of 2013 and with a surplus of 34.9 bn (1.1% of GDP) in the first quarter of 2013, according to first estimates from Eurostat, the statistical office of the European Union. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 6 June 2014 Additional information Product code: 2-06062014-AP Theme: Econ",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03062014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05062014-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02062014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062014-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2014Q2",
+    "date": "2014-09-05",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05092014-ap",
+    "evidence": "gdp_release_2014Q2.html",
+    "status": "official_quarter_matched_release",
+    "snippet": " Publication Details GDP stable in the euro area and up by 0.2% in the EU28 Seasonally adjusted GDP remained stable in the euro area (EA18) and rose by 0.2% in the EU28 during the second quarter of 2014, compared with the previous quarter, according to second estimates published by Eurostat, the statistical office of the European Union. In the first quarter of 2014, GDP grew by 0.2% in the euro area and by 0.3% in the EU28. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 5 September 2014 Additional information Product code: 2-05092014-AP Theme: Economy and finan",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03092014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092014-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04092014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01092014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05092014-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2014Q3",
+    "date": "2014-12-05",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05122014-ap",
+    "evidence": "gdp_release_2014Q3.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "e; } Publication Details GDP up by 0.2% in the euro area and up by 0.3% in the EU28 Seasonally adjusted GDP rose by 0.2% in the euro area (EA18) and by 0.3% in the EU28 during the third quarter of 2014, compared with the previous quarter, according to a second estimate published by Eurostat, the statistical office of the European Union. In the second quarter of 2014, GDP grew by 0.1% in the euro area and by 0.2% in the EU28. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 5 December 2014 Additional information Product code: 2-05122014-AP Theme: Economy and finan",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04122014-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03122014-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05122014-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2014Q4",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05032015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04032015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03032015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09032015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02032015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10032015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-11032015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-12032015-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2015Q1",
+    "date": "2015-06-09",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09062015-ap",
+    "evidence": "gdp_release_2015Q1.html",
+    "status": "official_quarter_matched_release",
+    "snippet": " { display: none; } Publication Details GDP up by 0.4% in both the euro area and the EU28 Seasonally adjusted GDP rose by 0.4% in both the euro area (EA19) and the EU28 during the first quarter of 2015, compared with the previous quarter, according to a second estimate published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2014, GDP also grew by 0.4% in both areas. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 9 June 2015 Additional information Product code: 2-09062015-AP Theme: Economy and finance Collection: Euro indica",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04062015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03062015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05062015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02062015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01062015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08062015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09062015-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2015Q2",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03092015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04092015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01092015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31082015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07092015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08092015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09092015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28082015-ap",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  {
+    "quarter": "2015Q3",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04122015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03122015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02122015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01122015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07122015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30112015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08122015-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09122015-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10122015-ap",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  {
+    "quarter": "2015Q4",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-04032016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03032016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02032016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08032016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01032016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09032016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10032016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-11032016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29022016-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2016Q1",
+    "date": "2016-06-07",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07062016-ap",
+    "evidence": "gdp_release_2016Q1.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "none; } Publication Details GDP up by 0.6% in the euro area and by 0.5% in the EU28 Seasonally adjusted GDP rose by 0.6% in the euro area (EA19) and by 0.5% in the EU28 during the first quarter of 2016, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the fourth quarter of 2015, GDP grew by 0.4% and 0.5% respectively. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 7 June 2016 Additional information Product code: 2-07062016-AP Theme: Economy and finance Collection: Euro indicator",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03062016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02062016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01062016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07062016-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2016Q2",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02092016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01092016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05092016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31082016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06092016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30082016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07092016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08092016-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09092016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29082016-ap",
+        "error": "HTTP Error 429: "
+      }
+    ]
+  },
+  {
+    "quarter": "2016Q3",
+    "date": "2016-12-06",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122016-ap",
+    "evidence": "gdp_release_2016Q3.html",
+    "status": "official_quarter_matched_release",
+    "snippet": "none; } Publication Details GDP up by 0.3% in the euro area and by 0.4% in the EU28 Seasonally adjusted GDP rose by 0.3% in the euro area (EA19) and by 0.4% in the EU28 during the third quarter of 2016, compared with the previous quarter, according to an estimate published by Eurostat, the statistical office of the European Union. In the second quarter of 2016, GDP also grew by 0.3% and 0.4% respectively. Electronic format Download publication (EN) Download publication (FR) Download publication (DE) Release date: 6 December 2016 Additional information Product code: 2-06122016-AP Theme: Economy and finance Collection: Euro ",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05122016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02122016-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06122016-ap",
+        "matched": true
+      }
+    ]
+  },
+  {
+    "quarter": "2016Q4",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06032017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07032017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08032017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-03032017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09032017-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02032017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-10032017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01032017-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-28022017-ap",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  {
+    "quarter": "2017Q1",
+    "status": "not_found",
+    "attempts": [
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-05062017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-02062017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-06062017-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-01062017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-07062017-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-31052017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-08062017-ap",
+        "error": "HTTP Error 429: "
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-09062017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-30052017-ap",
+        "error": "<urlopen error timed out>"
+      },
+      {
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/-/2-29052017-ap",
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  }
+]

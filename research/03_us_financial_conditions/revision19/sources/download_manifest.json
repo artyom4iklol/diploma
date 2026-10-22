@@ -1,0 +1,1034 @@
+{
+  "files": [
+    {
+      "path": "ANFCI_about.html",
+      "url": "https://www.chicagofed.org/research/data/nfci/about",
+      "bytes": 127838,
+      "sha256": "52e81a401194abcad1d53856d1cf8acb209f5dc68b8c1ad7aba3b69608a105bb",
+      "retrieved_at": "2026-10-16T04:21:30.839605+00:00"
+    },
+    {
+      "path": "ANFCI_alfred_metadata.html",
+      "url": "https://alfred.stlouisfed.org/series?seid=ANFCI",
+      "bytes": 66134,
+      "sha256": "e695f8b5338735b3023df083adf57f723dc4b19f82f9c47600044658010b531e",
+      "retrieved_at": "2026-10-16T04:21:30.841374+00:00"
+    },
+    {
+      "path": "ANFCI_fred_metadata.html",
+      "url": "https://fred.stlouisfed.org/series/ANFCI",
+      "bytes": 75163,
+      "sha256": "cd71e6ea132295ea330842d1ea1ca7a333b795a19194cc7ad3356ea4ba3492f6",
+      "retrieved_at": "2026-10-16T04:21:35.151968+00:00"
+    },
+    {
+      "path": "ANFCI_method2017.html",
+      "url": "https://www.chicagofed.org/publications/chicago-fed-letter/2017/386",
+      "bytes": 105984,
+      "sha256": "d8a56ab393354d95fd1ede6618aa71f5494acfac55584fda83d57fcc2b7d3f9b",
+      "retrieved_at": "2026-10-16T04:21:30.839785+00:00"
+    },
+    {
+      "path": "ANFCI_method2017.pdf",
+      "url": "https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2017/cfl386-pdf.pdf?sc_lang=en",
+      "bytes": 1187278,
+      "sha256": "6f5987b52fab615277481e8b05327da571a193a608e815157026d2bf92a77731",
+      "retrieved_at": "2026-10-16T04:21:30.840975+00:00"
+    },
+    {
+      "path": "Chicago_legal.html",
+      "url": "https://www.chicagofed.org/utilities/legal-notices",
+      "bytes": 95712,
+      "sha256": "1f0dcc8b4556a347586dd447edbec698753892c564ea84a523cec77220b3d377",
+      "retrieved_at": "2026-10-16T04:21:39.440889+00:00"
+    },
+    {
+      "path": "ECB_legal.html",
+      "url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+      "bytes": 107794,
+      "sha256": "568f513f47f8e1f1f0e83d9596686a730b51eea1e20a773bcbb2e87075c9cfa5",
+      "retrieved_at": "2026-10-16T04:21:39.441336+00:00"
+    },
+    {
+      "path": "EC_legal.html",
+      "url": "https://commission.europa.eu/legal-notice_en",
+      "bytes": 154021,
+      "sha256": "8256220703caafaca46274df548ebead3250684bff160d638e9f9bb7ff0f960d",
+      "retrieved_at": "2026-10-16T04:21:44.214660+00:00"
+    },
+    {
+      "path": "FRED_legal.html",
+      "url": "https://fred.stlouisfed.org/legal/",
+      "bytes": 131694,
+      "sha256": "0590a89f37c94f0fb35ebb857234b89ca0579f75b4f922d6694a6d8d0da3db1b",
+      "retrieved_at": "2026-10-16T04:21:39.441113+00:00"
+    },
+    {
+      "path": "NFCI_fred_metadata.html",
+      "url": "https://fred.stlouisfed.org/series/NFCI",
+      "bytes": 75472,
+      "sha256": "42300e8f5de9c305de511e4ed79d57a5a860ee344148fcf681e06b9fcc6250af",
+      "retrieved_at": "2026-10-16T04:21:39.440322+00:00"
+    },
+    {
+      "path": "NFCI_launch2011.html",
+      "url": "https://www.chicagofed.org/utilities/newsroom/news-releases/2011/04-05-nfci-release",
+      "bytes": 69808,
+      "sha256": "9603a2156c10777e1c5d187c0292446ed33708c1072d2056bb73eda71ec03829",
+      "retrieved_at": "2026-10-16T04:21:30.841142+00:00"
+    },
+    {
+      "path": "anfci_vintages/anfci_2011-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2011-06-30&vintage_date=2011-06-30",
+      "bytes": 14334,
+      "sha256": "078be1de587f53254f9f50d999315fe5cbb4f786b26e496896870e1fce6e9406",
+      "retrieved_at": "2026-10-16T04:21:30.682306+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20110630"
+      ],
+      "n": 860,
+      "first_observation": "1995-01-06",
+      "last_observation": "2011-06-24"
+    },
+    {
+      "path": "anfci_vintages/anfci_2011-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2011-09-30&vintage_date=2011-09-30",
+      "bytes": 14554,
+      "sha256": "7437848456cc65d7bce81b42e9cdca3ca16f5c6d4a37b437655ac587d57c6877",
+      "retrieved_at": "2026-10-16T04:21:30.682564+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20110930"
+      ],
+      "n": 873,
+      "first_observation": "1995-01-06",
+      "last_observation": "2011-09-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2011-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2011-12-31&vintage_date=2011-12-31",
+      "bytes": 14774,
+      "sha256": "82c834bc1ea3b8eacc21cdbbb55db75b1f6b5933005ec04f6ec5324512e9782f",
+      "retrieved_at": "2026-10-16T04:21:30.691260+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20111231"
+      ],
+      "n": 886,
+      "first_observation": "1995-01-06",
+      "last_observation": "2011-12-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2012-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2012-03-31&vintage_date=2012-03-31",
+      "bytes": 14980,
+      "sha256": "a6bc3b6be30b22fd2046f374edc742527e81aa5e3f216e108564be1831e99963",
+      "retrieved_at": "2026-10-16T04:21:30.691139+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20120331"
+      ],
+      "n": 899,
+      "first_observation": "1995-01-06",
+      "last_observation": "2012-03-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2012-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2012-06-30&vintage_date=2012-06-30",
+      "bytes": 15200,
+      "sha256": "4e96bd71bf51329188cc7814a16a1680b87e54eb6f02fb55fb1c9a42071cf6dd",
+      "retrieved_at": "2026-10-16T04:21:30.696156+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20120630"
+      ],
+      "n": 912,
+      "first_observation": "1995-01-06",
+      "last_observation": "2012-06-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2012-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2012-09-30&vintage_date=2012-09-30",
+      "bytes": 15425,
+      "sha256": "183de90a888f9a0bcee7adca4063721452ca49a930612e8e861ba3b952c6ff04",
+      "retrieved_at": "2026-10-16T04:21:30.696426+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20120930"
+      ],
+      "n": 925,
+      "first_observation": "1995-01-06",
+      "last_observation": "2012-09-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2012-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2012-12-31&vintage_date=2012-12-31",
+      "bytes": 15646,
+      "sha256": "224462500e08c129197f1ddea5ee0c9f7caec29a731d10a13fdb3b6060f57d05",
+      "retrieved_at": "2026-10-16T04:21:30.700677+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20121231"
+      ],
+      "n": 938,
+      "first_observation": "1995-01-06",
+      "last_observation": "2012-12-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2013-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2013-03-31&vintage_date=2013-03-31",
+      "bytes": 15862,
+      "sha256": "7e3861bcecbb37c9cfa1d0cd2839a745f7aab7c2ef53437537752795db802ffe",
+      "retrieved_at": "2026-10-16T04:21:30.700824+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20130331"
+      ],
+      "n": 951,
+      "first_observation": "1995-01-06",
+      "last_observation": "2013-03-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2013-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2013-06-30&vintage_date=2013-06-30",
+      "bytes": 16082,
+      "sha256": "a0a96cf08c67929795978c9831e921dfebb82da3e56b55a1d4bd436a12960a29",
+      "retrieved_at": "2026-10-16T04:21:30.704716+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20130630"
+      ],
+      "n": 964,
+      "first_observation": "1995-01-06",
+      "last_observation": "2013-06-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2013-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2013-09-30&vintage_date=2013-09-30",
+      "bytes": 16290,
+      "sha256": "9f20b9e224bf10e5d69af8435bb154238bea186e110eec6a90dd7a4d8390b558",
+      "retrieved_at": "2026-10-16T04:21:30.704867+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20130930"
+      ],
+      "n": 977,
+      "first_observation": "1995-01-06",
+      "last_observation": "2013-09-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2013-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2013-12-31&vintage_date=2013-12-31",
+      "bytes": 16513,
+      "sha256": "a7cbb747a1c4251e9097b1712156af0786b3ef3239aff38958eb011057b71ff5",
+      "retrieved_at": "2026-10-16T04:21:30.708591+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20131231"
+      ],
+      "n": 990,
+      "first_observation": "1995-01-06",
+      "last_observation": "2013-12-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2014-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2014-03-31&vintage_date=2014-03-31",
+      "bytes": 16732,
+      "sha256": "9f6956a433f3252f8864438bc5c08a77d63f40dc76b75b12c2960b04a5aa633e",
+      "retrieved_at": "2026-10-16T04:21:30.708853+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20140331"
+      ],
+      "n": 1003,
+      "first_observation": "1995-01-06",
+      "last_observation": "2014-03-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2014-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2014-06-30&vintage_date=2014-06-30",
+      "bytes": 16955,
+      "sha256": "5228708423ad06b5a8cc5e5028bd1c9aa912e383156cee129c6cd76505e072cf",
+      "retrieved_at": "2026-10-16T04:21:30.715285+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20140630"
+      ],
+      "n": 1016,
+      "first_observation": "1995-01-06",
+      "last_observation": "2014-06-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2014-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2014-09-30&vintage_date=2014-09-30",
+      "bytes": 17179,
+      "sha256": "0d81bdd6c65923bd3f90a11f51e87ebcae7d7c51fbcbc30ba05f5150688e68b6",
+      "retrieved_at": "2026-10-16T04:21:30.715557+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20140930"
+      ],
+      "n": 1029,
+      "first_observation": "1995-01-06",
+      "last_observation": "2014-09-19"
+    },
+    {
+      "path": "anfci_vintages/anfci_2014-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2014-12-31&vintage_date=2014-12-31",
+      "bytes": 17414,
+      "sha256": "47d8ebedc3bd4d71b6f49e09b034acc9303647fbba580988028cfd4fe0e39c4d",
+      "retrieved_at": "2026-10-16T04:21:30.719967+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20141231"
+      ],
+      "n": 1043,
+      "first_observation": "1995-01-06",
+      "last_observation": "2014-12-26"
+    },
+    {
+      "path": "anfci_vintages/anfci_2015-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2015-03-31&vintage_date=2015-03-31",
+      "bytes": 17607,
+      "sha256": "f8818c63972c392ee25b84d94e182165fd4b8de508a588526cf4b4f47c5fe3bf",
+      "retrieved_at": "2026-10-16T04:21:30.720169+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20150331"
+      ],
+      "n": 1055,
+      "first_observation": "1995-01-06",
+      "last_observation": "2015-03-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2015-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2015-06-30&vintage_date=2015-06-30",
+      "bytes": 17818,
+      "sha256": "d95d33beb206822d57dcf464c7c3d753f960560d70971e346555868f6dfe32a8",
+      "retrieved_at": "2026-10-16T04:21:30.724768+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20150630"
+      ],
+      "n": 1068,
+      "first_observation": "1995-01-06",
+      "last_observation": "2015-06-19"
+    },
+    {
+      "path": "anfci_vintages/anfci_2015-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2015-09-30&vintage_date=2015-09-30",
+      "bytes": 18043,
+      "sha256": "909789dbf9677d99030e23c8cf5a04f989245f6f2de80514ccd4d6f320912578",
+      "retrieved_at": "2026-10-16T04:21:30.724930+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20150930"
+      ],
+      "n": 1082,
+      "first_observation": "1995-01-06",
+      "last_observation": "2015-09-25"
+    },
+    {
+      "path": "anfci_vintages/anfci_2015-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2015-12-31&vintage_date=2015-12-31",
+      "bytes": 18263,
+      "sha256": "13f6d805e5d4156d900fcf4ac87c9240c08f3d427d74db94b2406fbe974c4e0c",
+      "retrieved_at": "2026-10-16T04:21:30.729336+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20151231"
+      ],
+      "n": 1095,
+      "first_observation": "1995-01-06",
+      "last_observation": "2015-12-25"
+    },
+    {
+      "path": "anfci_vintages/anfci_2016-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2016-03-31&vintage_date=2016-03-31",
+      "bytes": 18479,
+      "sha256": "68b9c031f09a0f243d108341ccd8e13d80f595d5054286a14070ad80e55142ee",
+      "retrieved_at": "2026-10-16T04:21:30.729469+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20160331"
+      ],
+      "n": 1108,
+      "first_observation": "1995-01-06",
+      "last_observation": "2016-03-25"
+    },
+    {
+      "path": "anfci_vintages/anfci_2016-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2016-06-30&vintage_date=2016-06-30",
+      "bytes": 18689,
+      "sha256": "a1d534a4849384ac0439f61028fdf9cb391b62b02eb7f4a0ef486115162721fb",
+      "retrieved_at": "2026-10-16T04:21:30.734040+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20160630"
+      ],
+      "n": 1121,
+      "first_observation": "1995-01-06",
+      "last_observation": "2016-06-24"
+    },
+    {
+      "path": "anfci_vintages/anfci_2016-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2016-09-30&vintage_date=2016-09-30",
+      "bytes": 18892,
+      "sha256": "91864a1b58f47e01ded74744ca204ef9ff6bf13252a03eaa5db90f1e21fdb1d5",
+      "retrieved_at": "2026-10-16T04:21:30.733910+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20160930"
+      ],
+      "n": 1134,
+      "first_observation": "1995-01-06",
+      "last_observation": "2016-09-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2016-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2016-12-31&vintage_date=2016-12-31",
+      "bytes": 19107,
+      "sha256": "6d710e6ac10895c2cb881b1f3e4298c87334c873ce218d8d04d2098d1ad4acee",
+      "retrieved_at": "2026-10-16T04:21:30.738554+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20161231"
+      ],
+      "n": 1147,
+      "first_observation": "1995-01-06",
+      "last_observation": "2016-12-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2017-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2017-03-31&vintage_date=2017-03-31",
+      "bytes": 19321,
+      "sha256": "b231e7049b5b1703722e495cb9b28d7ae4dff8afab88a4c15cfdfe47e8274150",
+      "retrieved_at": "2026-10-16T04:21:30.738426+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170331"
+      ],
+      "n": 1160,
+      "first_observation": "1995-01-06",
+      "last_observation": "2017-03-24"
+    },
+    {
+      "path": "anfci_vintages/anfci_2017-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2017-06-30&vintage_date=2017-06-30",
+      "bytes": 19544,
+      "sha256": "a3decf6d386b7161dc0cf3743c9877591623c2cf1a03c95b988dc1be662229c5",
+      "retrieved_at": "2026-10-16T04:21:30.743118+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170630"
+      ],
+      "n": 1173,
+      "first_observation": "1995-01-06",
+      "last_observation": "2017-06-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2017-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2017-09-30&vintage_date=2017-09-30",
+      "bytes": 20023,
+      "sha256": "37e4004809873f83daafbc0c64e8e192b5e44e8d5afae6117ee733835e0ebd9c",
+      "retrieved_at": "2026-10-16T04:21:30.743300+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170930"
+      ],
+      "n": 1186,
+      "first_observation": "1995-01-06",
+      "last_observation": "2017-09-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2017-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2017-12-31&vintage_date=2017-12-31",
+      "bytes": 20239,
+      "sha256": "80242d5153d559e9998b89f650221e19b1c47a7fde4a153dd58ede82fa545ade",
+      "retrieved_at": "2026-10-16T04:21:30.747597+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20171231"
+      ],
+      "n": 1199,
+      "first_observation": "1995-01-06",
+      "last_observation": "2017-12-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2018-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2018-03-31&vintage_date=2018-03-31",
+      "bytes": 20457,
+      "sha256": "35fa512b3411195ee49e12d6d8f32289bd475ede23fcff559492fdd8833a40c3",
+      "retrieved_at": "2026-10-16T04:21:30.747729+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20180331"
+      ],
+      "n": 1212,
+      "first_observation": "1995-01-06",
+      "last_observation": "2018-03-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2018-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2018-06-30&vintage_date=2018-06-30",
+      "bytes": 20671,
+      "sha256": "a0e475e1679e78a77e278ae265c8d42061ed817dc9fce19801e9daa3aa852cee",
+      "retrieved_at": "2026-10-16T04:21:30.752158+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20180630"
+      ],
+      "n": 1225,
+      "first_observation": "1995-01-06",
+      "last_observation": "2018-06-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2018-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2018-09-30&vintage_date=2018-09-30",
+      "bytes": 20887,
+      "sha256": "d0a71031d66e3964a34cea12ab57d3817b7ec7fe2515fdd3010528b9d184c2f5",
+      "retrieved_at": "2026-10-16T04:21:30.752410+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20180930"
+      ],
+      "n": 1238,
+      "first_observation": "1995-01-06",
+      "last_observation": "2018-09-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2018-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2018-12-31&vintage_date=2018-12-31",
+      "bytes": 21103,
+      "sha256": "20436da89ac3b83c92089d6cf560fa14ba69dbc786a9f40fc44cf26ffcde71ee",
+      "retrieved_at": "2026-10-16T04:21:30.756904+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20181231"
+      ],
+      "n": 1251,
+      "first_observation": "1995-01-06",
+      "last_observation": "2018-12-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2019-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2019-03-31&vintage_date=2019-03-31",
+      "bytes": 21323,
+      "sha256": "711acf79ae1813ee37c5f795609bd252f8faca6ff3e04e0b84d9e59e312a73a2",
+      "retrieved_at": "2026-10-16T04:21:30.757035+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20190331"
+      ],
+      "n": 1264,
+      "first_observation": "1995-01-06",
+      "last_observation": "2019-03-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2019-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2019-06-30&vintage_date=2019-06-30",
+      "bytes": 21541,
+      "sha256": "31990fda24619fe5816e8c2bb085c202e960ce2264ef6ad6b22446f493a6d6f5",
+      "retrieved_at": "2026-10-16T04:21:30.761751+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20190630"
+      ],
+      "n": 1277,
+      "first_observation": "1995-01-06",
+      "last_observation": "2019-06-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2019-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2019-09-30&vintage_date=2019-09-30",
+      "bytes": 21758,
+      "sha256": "6c469d62f386b96d460371946204cdb288408bf05c72429946d9b3606def7b71",
+      "retrieved_at": "2026-10-16T04:21:30.761642+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20190930"
+      ],
+      "n": 1290,
+      "first_observation": "1995-01-06",
+      "last_observation": "2019-09-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2019-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2019-12-31&vintage_date=2019-12-31",
+      "bytes": 21978,
+      "sha256": "31dc6dd66c8ab8bc4d1f2867730c6162e827d8a889683df50086797db1917be5",
+      "retrieved_at": "2026-10-16T04:21:30.765778+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20191231"
+      ],
+      "n": 1303,
+      "first_observation": "1995-01-06",
+      "last_observation": "2019-12-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2020-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2020-03-31&vintage_date=2020-03-31",
+      "bytes": 22197,
+      "sha256": "db11e1d1f179af1005e919cdb7696370f9ddcd8460bda20a09380c1fab9a2f39",
+      "retrieved_at": "2026-10-16T04:21:30.766713+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20200331"
+      ],
+      "n": 1316,
+      "first_observation": "1995-01-06",
+      "last_observation": "2020-03-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2020-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2020-06-30&vintage_date=2020-06-30",
+      "bytes": 22376,
+      "sha256": "ec9c3f7e861a04c61429b10231c0440e55110eb93c01dd5edf4333588fc17fae",
+      "retrieved_at": "2026-10-16T04:21:30.770630+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20200630"
+      ],
+      "n": 1329,
+      "first_observation": "1995-01-06",
+      "last_observation": "2020-06-19"
+    },
+    {
+      "path": "anfci_vintages/anfci_2020-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2020-09-30&vintage_date=2020-09-30",
+      "bytes": 26680,
+      "sha256": "1ff09391e08623a4ea1b9695460556cb91c7e0449a5009be1df95ba04c4d63e9",
+      "retrieved_at": "2026-10-16T04:21:30.770806+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20200930"
+      ],
+      "n": 1343,
+      "first_observation": "1995-01-06",
+      "last_observation": "2020-09-25"
+    },
+    {
+      "path": "anfci_vintages/anfci_2020-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2020-12-31&vintage_date=2020-12-31",
+      "bytes": 26954,
+      "sha256": "d2eb4e0178e4c6565d78577dc1ce13c797dc5339802b34129fa1b0f8218173b5",
+      "retrieved_at": "2026-10-16T04:21:30.774865+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20201231"
+      ],
+      "n": 1356,
+      "first_observation": "1995-01-06",
+      "last_observation": "2020-12-25"
+    },
+    {
+      "path": "anfci_vintages/anfci_2021-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2021-03-31&vintage_date=2021-03-31",
+      "bytes": 27211,
+      "sha256": "dbc0baaf5ffc113c4c0c40489f99863f136e9d04463946cffe533771c52b922f",
+      "retrieved_at": "2026-10-16T04:21:30.775000+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20210331"
+      ],
+      "n": 1369,
+      "first_observation": "1995-01-06",
+      "last_observation": "2021-03-26"
+    },
+    {
+      "path": "anfci_vintages/anfci_2021-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2021-06-30&vintage_date=2021-06-30",
+      "bytes": 27469,
+      "sha256": "7d97c66ccc2eac7b4fd035eb600d4776238a39f2c74c66498fdebd4a4bc52740",
+      "retrieved_at": "2026-10-16T04:21:30.779327+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20210630"
+      ],
+      "n": 1382,
+      "first_observation": "1995-01-06",
+      "last_observation": "2021-06-25"
+    },
+    {
+      "path": "anfci_vintages/anfci_2021-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2021-09-30&vintage_date=2021-09-30",
+      "bytes": 27731,
+      "sha256": "4d1b19152b11aefc2b0567e571a4c344b1e9f40e164ee258b4630def72f4205f",
+      "retrieved_at": "2026-10-16T04:21:30.781802+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20210930"
+      ],
+      "n": 1395,
+      "first_observation": "1995-01-06",
+      "last_observation": "2021-09-24"
+    },
+    {
+      "path": "anfci_vintages/anfci_2021-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2021-12-31&vintage_date=2021-12-31",
+      "bytes": 27990,
+      "sha256": "86956b31c06a3e6707e2adcdedc0c0028bbbe95d8df4cccc2bf3bb86df38b822",
+      "retrieved_at": "2026-10-16T04:21:30.782073+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20211231"
+      ],
+      "n": 1408,
+      "first_observation": "1995-01-06",
+      "last_observation": "2021-12-24"
+    },
+    {
+      "path": "anfci_vintages/anfci_2022-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2022-03-31&vintage_date=2022-03-31",
+      "bytes": 28245,
+      "sha256": "adc7ad840e3d861c633840a4eeb80c0230b4f37c21573adb7b94d0310fcb999e",
+      "retrieved_at": "2026-10-16T04:21:30.786234+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20220331"
+      ],
+      "n": 1421,
+      "first_observation": "1995-01-06",
+      "last_observation": "2022-03-25"
+    },
+    {
+      "path": "anfci_vintages/anfci_2022-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2022-06-30&vintage_date=2022-06-30",
+      "bytes": 28495,
+      "sha256": "ababe1a32e8a2249ccfbe5cda628dfe4f465e6f5b933d559baecab58c7877f69",
+      "retrieved_at": "2026-10-16T04:21:30.786348+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20220630"
+      ],
+      "n": 1434,
+      "first_observation": "1995-01-06",
+      "last_observation": "2022-06-24"
+    },
+    {
+      "path": "anfci_vintages/anfci_2022-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2022-09-30&vintage_date=2022-09-30",
+      "bytes": 28750,
+      "sha256": "8a21fdc215def582a2c36db173e27df780833a6b06f2a640eed0941eafebf26a",
+      "retrieved_at": "2026-10-16T04:21:30.790381+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20220930"
+      ],
+      "n": 1447,
+      "first_observation": "1995-01-06",
+      "last_observation": "2022-09-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2022-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2022-12-31&vintage_date=2022-12-31",
+      "bytes": 28963,
+      "sha256": "b560fa458984236126a62f3381e3410c053fdf1d60ef46432addd2e966f7b9f4",
+      "retrieved_at": "2026-10-16T04:21:30.790582+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20221231"
+      ],
+      "n": 1458,
+      "first_observation": "1995-01-06",
+      "last_observation": "2022-12-09"
+    },
+    {
+      "path": "anfci_vintages/anfci_2023-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2023-03-31&vintage_date=2023-03-31",
+      "bytes": 29268,
+      "sha256": "cbc0cc3ef321c5e2ac6531fcf2250dcdf833279ff24fb4d3af6fdce70b3e7b03",
+      "retrieved_at": "2026-10-16T04:21:30.794552+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20230331"
+      ],
+      "n": 1473,
+      "first_observation": "1995-01-06",
+      "last_observation": "2023-03-24"
+    },
+    {
+      "path": "anfci_vintages/anfci_2023-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2023-06-30&vintage_date=2023-06-30",
+      "bytes": 29534,
+      "sha256": "50461d5e788bc6418b52a5c070b02d1806a1655e765ef58b160611448ead1f2f",
+      "retrieved_at": "2026-10-16T04:21:30.794695+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20230630"
+      ],
+      "n": 1486,
+      "first_observation": "1995-01-06",
+      "last_observation": "2023-06-23"
+    },
+    {
+      "path": "anfci_vintages/anfci_2023-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2023-09-30&vintage_date=2023-09-30",
+      "bytes": 29787,
+      "sha256": "74e4532b569cb4b03f31ebb12548d872aa2f323254324fe527bfb8d29d6f5c97",
+      "retrieved_at": "2026-10-16T04:21:30.798819+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20230930"
+      ],
+      "n": 1499,
+      "first_observation": "1995-01-06",
+      "last_observation": "2023-09-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2023-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2023-12-31&vintage_date=2023-12-31",
+      "bytes": 30048,
+      "sha256": "741f76384a9464778407869787db03c9eb08d3fbfce34876cbe535351d7b836d",
+      "retrieved_at": "2026-10-16T04:21:30.798986+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20231231"
+      ],
+      "n": 1512,
+      "first_observation": "1995-01-06",
+      "last_observation": "2023-12-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2024-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2024-03-31&vintage_date=2024-03-31",
+      "bytes": 30300,
+      "sha256": "e3ec420c989fe512f598d39d53a16cfcf89dceb032d534018a00e064a6621a7c",
+      "retrieved_at": "2026-10-16T04:21:30.802812+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20240331"
+      ],
+      "n": 1525,
+      "first_observation": "1995-01-06",
+      "last_observation": "2024-03-22"
+    },
+    {
+      "path": "anfci_vintages/anfci_2024-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2024-06-30&vintage_date=2024-06-30",
+      "bytes": 30565,
+      "sha256": "5ebcb9e51678b38c4fa0a488b97b8315bb345a9547e807d523ce1358413c0d7d",
+      "retrieved_at": "2026-10-16T04:21:30.803020+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20240630"
+      ],
+      "n": 1538,
+      "first_observation": "1995-01-06",
+      "last_observation": "2024-06-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2024-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2024-09-30&vintage_date=2024-09-30",
+      "bytes": 30822,
+      "sha256": "e1871cdbfe6ab66222191b32dd2df3518c248fdad2331f0500ce4f516771ee5b",
+      "retrieved_at": "2026-10-16T04:21:30.806556+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20240930"
+      ],
+      "n": 1551,
+      "first_observation": "1995-01-06",
+      "last_observation": "2024-09-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2024-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2024-12-31&vintage_date=2024-12-31",
+      "bytes": 31080,
+      "sha256": "12591ad6bcf1f269636a923201bea5a4b0ef1ab659177da8b1b859eae511dbde",
+      "retrieved_at": "2026-10-16T04:21:30.808956+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20241231"
+      ],
+      "n": 1564,
+      "first_observation": "1995-01-06",
+      "last_observation": "2024-12-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2025-03-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2025-03-31&vintage_date=2025-03-31",
+      "bytes": 31339,
+      "sha256": "9ddeab412e22800dd12d28a73a630cdf83f7c8aa6956a1babba39818b55d5369",
+      "retrieved_at": "2026-10-16T04:21:30.811142+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20250331"
+      ],
+      "n": 1577,
+      "first_observation": "1995-01-06",
+      "last_observation": "2025-03-21"
+    },
+    {
+      "path": "anfci_vintages/anfci_2025-06-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2025-06-30&vintage_date=2025-06-30",
+      "bytes": 31628,
+      "sha256": "38980a78c271a247c28eac17f0ac4c9b80fe039a77c487b5517b539557cbc5fa",
+      "retrieved_at": "2026-10-16T04:21:30.813496+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20250630"
+      ],
+      "n": 1590,
+      "first_observation": "1995-01-06",
+      "last_observation": "2025-06-20"
+    },
+    {
+      "path": "anfci_vintages/anfci_2025-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2025-09-30&vintage_date=2025-09-30",
+      "bytes": 31886,
+      "sha256": "8b284837db017302961044408b6ff18d3ecb9a132e6cc91639a3e3ee4050adf7",
+      "retrieved_at": "2026-10-16T04:21:30.813748+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20250930"
+      ],
+      "n": 1603,
+      "first_observation": "1995-01-06",
+      "last_observation": "2025-09-19"
+    },
+    {
+      "path": "anfci_vintages/anfci_2025-12-31.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2025-12-31&vintage_date=2025-12-31",
+      "bytes": 32165,
+      "sha256": "7792b4a61e1e5029107c389c2bfb7b6e4955f1ef662af32373286cd1017701f3",
+      "retrieved_at": "2026-10-16T04:21:30.818026+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20251231"
+      ],
+      "n": 1617,
+      "first_observation": "1995-01-06",
+      "last_observation": "2025-12-26"
+    },
+    {
+      "path": "current/anfci_2026-10-16.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1995-01-01&coed=2025-12-31&vintage_date=2026-10-16",
+      "bytes": 28893,
+      "sha256": "41656db0018902838b466f5f0795622ec48dc1e51c3f16994ae16dc03da6e778",
+      "retrieved_at": "2026-10-16T04:21:30.822212+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20261015"
+      ],
+      "n": 1617,
+      "first_observation": "1995-01-06",
+      "last_observation": "2025-12-26"
+    },
+    {
+      "path": "current/nfci_2026-10-16.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=NFCI&cosd=1995-01-01&coed=2025-12-31&vintage_date=2026-10-16",
+      "bytes": 29004,
+      "sha256": "e9063a9e2c96f9ac6b819d9e2b2deace50d69d68c9cf57d17e4a22feb5fa8c71",
+      "retrieved_at": "2026-10-16T04:21:30.817919+00:00",
+      "columns": [
+        "observation_date",
+        "NFCI_20261015"
+      ],
+      "n": 1617,
+      "first_observation": "1995-01-06",
+      "last_observation": "2025-12-26"
+    },
+    {
+      "path": "method2017/anfci_2017-08-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1971-01-01&coed=2017-08-30&vintage_date=2017-08-30",
+      "bytes": 38694,
+      "sha256": "fd673565ce8ed096c0a522ba7af57abb2aacb85f1921fe2da3b63313ef7bbb99",
+      "retrieved_at": "2026-10-16T04:21:30.822360+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170830"
+      ],
+      "n": 2330,
+      "first_observation": "1973-01-05",
+      "last_observation": "2017-08-25"
+    },
+    {
+      "path": "method2017/anfci_2017-09-06.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1971-01-01&coed=2017-09-06&vintage_date=2017-09-06",
+      "bytes": 38694,
+      "sha256": "4c0d72671af23c1b8c043c8822dd48082978b45ef1bf01dadda280844322331c",
+      "retrieved_at": "2026-10-16T04:21:58.077329+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170906"
+      ],
+      "n": 2330,
+      "first_observation": "1973-01-05",
+      "last_observation": "2017-08-25"
+    },
+    {
+      "path": "method2017/anfci_2017-09-07.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1971-01-01&coed=2017-09-07&vintage_date=2017-09-07",
+      "bytes": 40624,
+      "sha256": "f56c6f7dc7f0098525f9b2869962179e1f3a1ce7e6b70d75868d7b7de52912c5",
+      "retrieved_at": "2026-10-16T04:21:30.827233+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170907"
+      ],
+      "n": 2435,
+      "first_observation": "1971-01-08",
+      "last_observation": "2017-09-01"
+    },
+    {
+      "path": "method2017/anfci_2017-09-13.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1971-01-01&coed=2017-09-13&vintage_date=2017-09-13",
+      "bytes": 40643,
+      "sha256": "1097f81f78a2cc8def47926156c591a37bdd4554e02f2b72b06bc06f34a03325",
+      "retrieved_at": "2026-10-16T04:21:30.830028+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170913"
+      ],
+      "n": 2436,
+      "first_observation": "1971-01-08",
+      "last_observation": "2017-09-08"
+    },
+    {
+      "path": "method2017/anfci_2017-09-20.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1971-01-01&coed=2017-09-20&vintage_date=2017-09-20",
+      "bytes": 40657,
+      "sha256": "b80e8f155e701e33233d4a97a5f870a1abe847e77c09a37d6fb3c36988eba8d5",
+      "retrieved_at": "2026-10-16T04:21:30.833290+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170920"
+      ],
+      "n": 2437,
+      "first_observation": "1971-01-08",
+      "last_observation": "2017-09-15"
+    },
+    {
+      "path": "method2017/anfci_2017-09-27.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1971-01-01&coed=2017-09-27&vintage_date=2017-09-27",
+      "bytes": 40677,
+      "sha256": "4e4097687d9e10c9650cc10590d77dedcf736a78644d24903de6bb915786e6fe",
+      "retrieved_at": "2026-10-16T04:21:30.835439+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20170927"
+      ],
+      "n": 2438,
+      "first_observation": "1971-01-08",
+      "last_observation": "2017-09-22"
+    },
+    {
+      "path": "method2017/anfci_2017-10-04.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=ANFCI&cosd=1971-01-01&coed=2017-10-04&vintage_date=2017-10-04",
+      "bytes": 40689,
+      "sha256": "c785060284970042f7efc652b1844c57213073fbf91bbd62c84d4d550820ca89",
+      "retrieved_at": "2026-10-16T04:21:30.837504+00:00",
+      "columns": [
+        "observation_date",
+        "ANFCI_20171004"
+      ],
+      "n": 2439,
+      "first_observation": "1971-01-08",
+      "last_observation": "2017-09-29"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-02",
+  "question": "CISS US versus NFCI incremental forecast information conditional on EA CISS, lagged GDP growth and ESI EA20",
+  "tau": 0.1,
+  "horizons": [
+    1,
+    4
+  ],
+  "sample": [
+    "1995Q1",
+    "2025Q4"
+  ],
+  "first_origin": "2010Q1",
+  "variants": [
+    "esi_buffer7",
+    "esi_first2",
+    "esi_drop_dec"
+  ],
+  "main": "esi_first2",
+  "main_delay_calendar_days": 7,
+  "shortbuffer": "CISS +1 business day; NFCI +6 calendar days (conservative Thursday assumption)",
+  "esi": "main first two months every quarter; diagnostic drop December only; old esi_buffer7 infeasible calendar retained for comparison; current vintages; no complete historical calendar reconstructed",
+  "train": "label end <= origin-1",
+  "periods": "target intervals: pre2020, COVID overlap2020Q1..2021Q4, wholly2022Q1..2025Q4",
+  "bootstrap": {
+    "replications": 5000,
+    "block_lengths": [
+      4,
+      8
+    ],
+    "seed": 30092026,
+    "type": "circular block resampling fixed paired forecast losses, no refit; descriptive percentile intervals; no multiplicity adjustment"
+  },
+  "status": "stage11 calendar correction specified before corrected runs; old outcomes known; not preregistered; first2 conservative assumption, not certified real time",
+  "not_real_time": true
+}

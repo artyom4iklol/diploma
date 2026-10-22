@@ -1,0 +1,60 @@
+origin,forecast_date,equity_freeze,equity_public,source,evidence,eq,available,missing_months,retained_current_months,required_months
+2011Q2,2011-07-15,2011-06-30,2011-06-30,monthly_201106.csv,Official monthly vintage; month-end upper bound,-1.4196708043577284,True,,,2011-01;2011-02;2011-04;2011-05
+2011Q3,2011-10-15,2011-09-30,2011-09-30,monthly_201109.csv,Official monthly vintage; month-end upper bound,-14.598648644350318,True,,,2011-04;2011-05;2011-07;2011-08
+2011Q4,2012-01-15,2011-12-31,2011-12-31,monthly_201112.csv,Official monthly vintage; month-end upper bound,-10.200021114198115,True,,,2011-07;2011-08;2011-10;2011-11
+2012Q1,2012-04-15,2012-03-31,2012-03-31,monthly_201203.csv,Official monthly vintage; month-end upper bound,7.170892156084366,True,,,2011-10;2011-11;2012-01;2012-02
+2012Q2,2012-07-15,2012-06-30,2012-06-30,monthly_201206.csv,Official monthly vintage; month-end upper bound,-7.448085660336208,True,,,2012-01;2012-02;2012-04;2012-05
+2012Q3,2012-10-15,2012-09-30,2012-09-30,monthly_201209.csv,Official monthly vintage; month-end upper bound,3.114473964260841,True,,,2012-04;2012-05;2012-07;2012-08
+2012Q4,2013-01-15,2012-12-31,2012-12-31,monthly_201212.csv,Official monthly vintage; month-end upper bound,6.901424690225008,True,,,2012-07;2012-08;2012-10;2012-11
+2013Q1,2013-04-15,2013-03-31,2013-03-31,monthly_201303.csv,Official monthly vintage; month-end upper bound,6.336067902436117,True,,,2012-10;2012-11;2013-01;2013-02
+2013Q2,2013-07-15,2013-06-30,2013-06-30,monthly_201306.csv,Official monthly vintage; month-end upper bound,1.4190713572506464,True,,,2013-01;2013-02;2013-04;2013-05
+2013Q3,2013-10-15,2013-09-30,2013-09-30,monthly_201309.csv,Official monthly vintage; month-end upper bound,1.249970455198545,True,,,2013-04;2013-05;2013-07;2013-08
+2013Q4,2014-01-15,2013-12-31,2013-12-31,monthly_201312.csv,Official monthly vintage; month-end upper bound,9.623202595265768,True,,,2013-07;2013-08;2013-10;2013-11
+2014Q1,2014-04-15,2014-03-31,2014-03-31,monthly_201403.csv,Official monthly vintage; month-end upper bound,2.1828195560526438,True,,,2013-10;2013-11;2014-01;2014-02
+2014Q2,2014-07-15,2014-06-30,2014-06-30,monthly_201406.csv,Official monthly vintage; month-end upper bound,3.038363416230348,True,,,2014-01;2014-02;2014-04;2014-05
+2014Q3,2014-10-15,2014-09-30,2014-09-30,monthly_201409.csv,Official monthly vintage; month-end upper bound,-1.38338530214518,True,,,2014-04;2014-05;2014-07;2014-08
+2014Q4,2015-01-15,2014-12-31,2014-12-31,monthly_201412.csv,Official monthly vintage; month-end upper bound,-2.021438715535865,True,,,2014-07;2014-08;2014-10;2014-11
+2015Q1,2015-04-15,2015-03-04,2015-03-19,RTD_API_2015-03-04,https://www.ecb.europa.eu/pub/pdf/ecbu/eb201502.en.pdf,7.88945481523181,True,,,2014-10;2014-11;2015-01;2015-02
+2015Q2,2015-07-15,2015-06-02,2015-06-18,RTD_API_2015-06-02,https://www.ecb.europa.eu/pub/pdf/ecbu/eb201504.en.pdf,9.865066218846252,True,,,2015-01;2015-02;2015-04;2015-05
+2015Q3,2015-10-15,2015-09-02,2015-09-17,RTD_API_2015-09-02,https://www.ecb.europa.eu/pub/pdf/ecbu/eb201506.en.pdf,-5.051738205122909,True,,,2015-04;2015-05;2015-07;2015-08
+2015Q4,2016-01-15,2015-12-02,2015-12-17,RTD_API_2015-12-02,https://www.ecb.europa.eu/pub/pdf/ecbu/eb201508.en.pdf,-4.0058242168745775,True,,,2015-07;2015-08;2015-10;2015-11
+2016Q1,2016-04-15,2016-03-09,2016-03-24,RTD_API_2016-03-09,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201602.en.html,-13.05703742652302,True,,,2015-10;2015-11;2016-01;2016-02
+2016Q2,2016-07-15,2016-06-01,2016-06-16,RTD_API_2016-06-01,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201604.en.html,2.045669391491463,True,,,2016-01;2016-02;2016-04;2016-05
+2016Q3,2016-10-15,2016-09-07,2016-09-22,RTD_API_2016-09-07,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201606.en.html,-1.7262497527850422,True,,,2016-04;2016-05;2016-07;2016-08
+2016Q4,2017-01-15,2016-12-07,2016-12-22,RTD_API_2016-12-07,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201608.en.html,2.6173973851077252,True,,,2016-07;2016-08;2016-10;2016-11
+2017Q1,2017-04-15,2017-03-08,2017-03-23,RTD_API_2017-03-08,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201702.en.html,8.268750193591472,True,,,2016-10;2016-11;2017-01;2017-02
+2017Q2,2017-07-15,2017-06-07,2017-06-22,RTD_API_2017-06-07,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201704.en.html,7.33713581208616,True,,,2017-01;2017-02;2017-04;2017-05
+2017Q3,2017-10-15,2017-09-06,2017-09-21,RTD_API_2017-09-06,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201706.en.html,-2.2592881546723964,True,,,2017-04;2017-05;2017-07;2017-08
+2017Q4,2018-01-15,2017-12-13,2017-12-28,RTD_API_2017-12-13,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201708.en.html,3.971023343224883,True,,,2017-07;2017-08;2017-10;2017-11
+2018Q1,2018-04-15,2018-03-07,2018-03-22,RTD_API_2018-03-07,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201802.en.html,-2.4877048167457327,True,,,2017-10;2017-11;2018-01;2018-02
+2018Q2,2018-07-15,2018-06-13,2018-06-28,RTD_API_2018-06-13,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201804.en.html,-0.6294822730352252,True,,,2018-01;2018-02;2018-04;2018-05
+2018Q3,2018-10-15,2018-09-12,2018-09-27,RTD_API_2018-09-12,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201806.en.html,-1.3963251769306562,True,,,2018-04;2018-05;2018-07;2018-08
+2018Q4,2019-01-15,2018-12-12,2018-12-27,RTD_API_2018-12-12,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201808.en.html,-7.006731844985711,True,,,2018-07;2018-08;2018-10;2018-11
+2019Q1,2019-04-15,2019-03-06,2019-03-21,RTD_API_2019-03-06,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201902~a070c3a338.en.html,-1.871379023599468,True,,,2018-10;2018-11;2019-01;2019-02
+2019Q2,2019-07-15,2019-06-05,2019-06-20,RTD_API_2019-06-05,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201904.en.html,8.098915363390965,True,,,2019-01;2019-02;2019-04;2019-05
+2019Q3,2019-10-15,2019-09-11,2019-09-26,RTD_API_2019-09-11,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201906.en.html,0.2764921920883628,True,,,2019-04;2019-05;2019-07;2019-08
+2019Q4,2020-01-15,2019-12-11,2019-12-27,RTD_API_2019-12-11,https://www.ecb.europa.eu/press/economic-bulletin/html/eb201908.en.html,5.406062221543072,True,,,2019-07;2019-08;2019-10;2019-11
+2020Q1,2020-04-15,2020-03-11,2020-03-26,RTD_API_2020-03-11,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202002.en.html,3.3767583249117155,True,,,2019-10;2019-11;2020-01;2020-02
+2020Q2,2020-07-15,2020-06-03,2020-06-18,RTD_API_2020-06-03 + published equity repair,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202004.en.html,-26.497854741787506,True,,2020-02;2020-04,2020-01;2020-02;2020-04;2020-05
+2020Q3,2020-10-15,2020-09-09,2020-09-24,RTD_API_2020-09-09,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202006.en.html,14.01738267546171,True,,,2020-04;2020-05;2020-07;2020-08
+2020Q4,2021-01-15,2020-12-09,2021-01-07,RTD_API_2020-12-09,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202008.en.html,-0.6336259186891472,True,,,2020-07;2020-08;2020-10;2020-11
+2021Q1,2021-04-15,2021-03-10,2021-03-25,RTD_API_2021-03-10 + published equity repair,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202102.en.html,9.944316123655097,True,,2021-01,2020-10;2020-11;2021-01;2021-02
+2021Q2,2021-07-15,2021-06-09,2021-06-24,RTD_API_2021-06-09,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202104.en.html,9.600643895469027,True,,,2021-01;2021-02;2021-04;2021-05
+2021Q3,2021-10-15,2021-09-08,2021-09-23,RTD_API_2021-09-08,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202106.en.html,3.065518380589787,True,,,2021-04;2021-05;2021-07;2021-08
+2021Q4,2022-01-15,2021-12-15,2022-01-13,RTD_API_2021-12-15,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202108.en.html,2.3858809533715752,True,,,2021-07;2021-08;2021-10;2021-11
+2022Q1,2022-04-15,2022-03-09,2022-03-24,RTD_API_2022-03-09,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202202.en.html,-1.2180314607997298,True,,,2021-10;2021-11;2022-01;2022-02
+2022Q2,2022-07-15,2022-06-08,2022-06-23,RTD_API_2022-06-08 + published equity repair,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202204.en.html,-10.185872072722365,True,,2022-04;2022-05,2022-01;2022-02;2022-04;2022-05
+2022Q3,2022-10-15,2022-09-07,2022-09-22,RTD_API_2022-09-07,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202206.en.html,-4.132104516279993,True,,,2022-04;2022-05;2022-07;2022-08
+2022Q4,2023-01-15,2022-12-14,2023-01-12,RTD_API_2022-12-14,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202208.en.html,1.1038257992925304,True,,,2022-07;2022-08;2022-10;2022-11
+2023Q1,2023-04-15,2023-03-15,2023-03-30,RTD_API_2023-03-15,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202302.en.html,13.146546619546386,True,,,2022-10;2022-11;2023-01;2023-02
+2023Q2,2023-07-15,2023-06-14,2023-06-29,RTD_API_2023-06-14,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202304.en.html,4.078306322963422,True,,,2023-01;2023-02;2023-04;2023-05
+2023Q3,2023-10-15,2023-09-13,2023-09-28,RTD_API_2023-09-13,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202306.en.html,-0.1872868438400616,True,,,2023-04;2023-05;2023-07;2023-08
+2023Q4,2024-01-15,2023-12-13,2024-01-11,RTD_API_2023-12-13,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202308.en.html,-3.314282499818539,True,,,2023-07;2023-08;2023-10;2023-11
+2024Q1,2024-04-15,2024-03-06,2024-03-21,RTD_API_2024-03-06,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202402.en.html,10.047960545920105,True,,,2023-10;2023-11;2024-01;2024-02
+2024Q2,2024-07-15,2024-06-05,2024-06-20,RTD_API_2024-06-05,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202404.en.html,7.677433092666236,True,,,2024-01;2024-02;2024-04;2024-05
+2024Q3,2024-10-15,2024-09-11,2024-09-26,RTD_API_2024-09-11,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202406.en.html,-3.060852895406072,True,,,2024-04;2024-05;2024-07;2024-08
+2024Q4,2025-01-15,2024-12-11,2025-01-09,RTD_API_2024-12-11,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202408.en.html,0.42318912796367075,True,,,2024-07;2024-08;2024-10;2024-11
+2025Q1,2025-04-15,2025-03-05,2025-03-20,RTD_API_2025-03-05,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202502.en.html,7.649827423555614,True,,,2024-10;2024-11;2025-01;2025-02
+2025Q2,2025-07-15,2025-06-04,2025-06-20,RTD_API_2025-06-04,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202504.en.html,-1.5879553274063225,True,,,2025-01;2025-02;2025-04;2025-05
+2025Q3,2025-10-15,2025-09-10,2025-09-25,RTD_API_2025-09-10,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202506.en.html,3.539738751930318,True,,,2025-04;2025-05;2025-07;2025-08
+2025Q4,2026-01-15,2025-12-17,2026-01-15,RTD_API_2025-12-17,https://www.ecb.europa.eu/press/economic-bulletin/html/eb202508.en.html,4.998406566529647,True,,,2025-07;2025-08;2025-10;2025-11

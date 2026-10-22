@@ -1,0 +1,38 @@
+[
+  {
+    "file": "GW2006.pdf",
+    "url": "https://economia.uc3m.es/jgonzalo/teaching/PhdTimeSeries/GiacominiWhite.pdf",
+    "status": 200,
+    "bytes": 344647,
+    "saved": true,
+    "content_type": "application/pdf"
+  },
+  {
+    "file": "nfci_vintage_2020.csv",
+    "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=NFCI&cosd=2019-01-01&coed=2020-12-31&vintage_date=2020-12-31",
+    "status": 200,
+    "bytes": 2104,
+    "saved": true,
+    "content_type": "application/csv"
+  },
+  {
+    "file": "ciss_geo.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/CISS/D..Z0Z.4F.EC.SS_CIN.IDX?startPeriod=2025-12-01&endPeriod=2025-12-02&format=csvdata",
+    "error": "The read operation timed out",
+    "saved": false
+  },
+  {
+    "file": "gdp_vintage_metadata.html",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/en/euroind_vtg_esms.htm",
+    "status": 200,
+    "bytes": 210008,
+    "saved": true,
+    "content_type": "text/html"
+  },
+  {
+    "file": "eabcn_status.html",
+    "url": "https://eabcn.org/data/eabcn-real-time-database",
+    "error": "HTTP Error 403: Forbidden",
+    "saved": false
+  }
+]

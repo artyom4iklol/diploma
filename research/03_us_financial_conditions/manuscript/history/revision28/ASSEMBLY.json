@@ -1,0 +1,42 @@
+{
+  "revision": 28,
+  "date": "2026-10-20",
+  "sources": 59,
+  "academic_works": 45,
+  "official_sources": 14,
+  "calculation_notes": 17,
+  "words": {
+    "introduction": 1402,
+    "chapter-1": 5683,
+    "chapter-2": 9712,
+    "chapter-3": 4960,
+    "conclusion": 1433,
+    "references": 1662,
+    "appendices": 8844
+  },
+  "source_sha256": {
+    "chapter1/Chapter_1_US_Financial_Conditions_Euro_Area.md": "7f2dfe8ea8e5b2dcc12495ce86677b48f738bab32895e8883489658d2171c4d8",
+    "chapter2/Chapter_2_Empirical_Analysis.md": "e17e23c6209f691cc36b5e454dc9ebb0b5e59b018074dda6eefad9d15f203aef",
+    "chapter3/Chapter_3_Recommendations.md": "46ae57e9a0028b5ca3dda236bf60b5f87a9d84459286e344856047101698f034",
+    "chapter2/Appendix_Chapter_2_Additional_Experiments.md": "be6e7aa88defa6c3144a6ba0b19cb19e74ed7f2e40050c7c85f6154a4fa22cbf"
+  },
+  "chapter2_textual_changes": [
+    [
+      "Объектом исследования выступает совокупная экономическая динамика еврозоны.",
+      "Объектом исследования является совокупная экономическая динамика еврозоны в условиях международных финансовых взаимосвязей."
+    ],
+    [
+      "с поправкой Holm;",
+      "с поправкой Holm [45];"
+    ],
+    [
+      "Статистическая часть теперь охватывает",
+      "Статистическая часть охватывает"
+    ],
+    [
+      "Международно-экономическая интерпретация теперь опирается",
+      "Международно-экономическая интерпретация опирается"
+    ]
+  ],
+  "output_sha256": "d31f7222c13cb29607c1373e549cccf54ec1caf669a7cafb36375e5af86c83eb"
+}

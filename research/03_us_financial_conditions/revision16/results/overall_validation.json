@@ -1,0 +1,242 @@
+{
+  "checks_passed": true,
+  "checks": {
+    "calendar_validation.json": {
+      "origins": 64,
+      "evaluated_h1": 63,
+      "evaluated_h4": 60,
+      "esi_months_checked": 128,
+      "esi_release_archive": 128,
+      "esi_calendar_only": 0,
+      "esi_all_first_two_months_before_deadline": true,
+      "gdp_origins_with_actual_regular_release": 64,
+      "gdp_origins_without_exact_release": 0,
+      "gdp_release_dates_from_verified_older_publications": 30,
+      "gdp_release_dates_from_triangle": 34,
+      "nfci_prelaunch_origins": [
+        "2010Q1",
+        "2010Q2",
+        "2010Q3",
+        "2010Q4",
+        "2011Q1"
+      ],
+      "nfci_last_observation_release_catalogue_matches": 58,
+      "nfci_vintage_dates_in_separate_diagnostic": 59,
+      "fully_real_time_verified_origins": 0,
+      "training_pairs": 10431,
+      "training_cutoffs_passed": true,
+      "verdict": "Publication dates verified; NOT full real-time reconstruction. Exact historical values of GDP EA20, ESI and CISS are not all recovered. NFCI vintages are a separate partial diagnostic."
+    },
+    "model_validation.json": {
+      "historical_forecasts_unchanged": true,
+      "all_variants_reported": true,
+      "new_refit_forecasts": 615,
+      "same_origins_new_diagnostic": true,
+      "new_diagnostic_post_result": true,
+      "bootstrap_fixed_losses_no_refit": true
+    },
+    "nfci_partial_vintage_validation.json": {
+      "vintage_dates_requested": 59,
+      "vintage_dates_verified": 59,
+      "failed_origins": [],
+      "forecasts": 113,
+      "latest_snapshot_forecasts_unchanged": true,
+      "other_variables": "revised project snapshots GDP EA20, ESI, daily NewCISS",
+      "training_NFCI": "entire historical NFCI as available at forecast-origin vintage; seven-day observation buffer",
+      "all_observations_at_or_before_vintage": true,
+      "mean_abs_feature_revision": 0.06156310471877216,
+      "max_abs_feature_revision": 0.6805833333333333,
+      "fully_real_time": false,
+      "interpretation": "partial NFCI vintage sensitivity only; does not establish real-time model superiority"
+    },
+    "unreleased_gdp_mutation.json": {
+      "checks": [
+        {
+          "origin": "2010Q1",
+          "h": 1,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2010Q1",
+          "h": 1,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2010Q1",
+          "h": 1,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2010Q1",
+          "h": 4,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2010Q1",
+          "h": 4,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2010Q1",
+          "h": 4,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2018Q4",
+          "h": 1,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2018Q4",
+          "h": 1,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2018Q4",
+          "h": 1,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2018Q4",
+          "h": 4,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2018Q4",
+          "h": 4,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2018Q4",
+          "h": 4,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2020Q4",
+          "h": 1,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2020Q4",
+          "h": 1,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2020Q4",
+          "h": 1,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2020Q4",
+          "h": 4,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2020Q4",
+          "h": 4,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2020Q4",
+          "h": 4,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2024Q4",
+          "h": 1,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2024Q4",
+          "h": 1,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2024Q4",
+          "h": 1,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2024Q4",
+          "h": 4,
+          "model": "BASE",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2024Q4",
+          "h": 4,
+          "model": "US_CISS",
+          "difference": 0.0,
+          "passed": true
+        },
+        {
+          "origin": "2024Q4",
+          "h": 4,
+          "model": "US_NFCI",
+          "difference": 0.0,
+          "passed": true
+        }
+      ],
+      "n_checks": 24,
+      "all_passed": true,
+      "scope": "Tests computation only; does not certify historical data vintages."
+    },
+    "frozen_forecasts_unchanged.json": {
+      "source_archive": "thesis_us_financial_conditions_15_restored.zip",
+      "member": "thesis_us_financial_conditions/final_check/results/forecasts.csv",
+      "sha256": "d9542af1e9e5aa34d829574a445d9fe0807417962ff9c9825a4e9b1476ed6ddd",
+      "unchanged": true
+    },
+    "document_qa.json": {
+      "docx": "revision16/Note_for_supervisor.docx",
+      "pages": 9,
+      "all_pages_visually_inspected": true,
+      "layout": "plain Times New Roman, black, ordinary tables, A4 preserved from previous note",
+      "sha256": "f7358b458ec1db81553cf3928eba0b36947fb6d0a3dc716b2322d93d1689c14e"
+    }
+  },
+  "strict_real_time": false
+}

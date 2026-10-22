@@ -1,0 +1,45 @@
+{
+  "solver_checks": [
+    {
+      "h": 1,
+      "origin": "2010Q1",
+      "objective_difference": 3.552713678800501e-15,
+      "prediction_difference": -3.552713678800501e-15
+    },
+    {
+      "h": 1,
+      "origin": "2020Q4",
+      "objective_difference": 0.0,
+      "prediction_difference": 3.552713678800501e-15
+    },
+    {
+      "h": 1,
+      "origin": "2025Q1",
+      "objective_difference": 1.4210854715202004e-14,
+      "prediction_difference": -1.1102230246251565e-16
+    },
+    {
+      "h": 4,
+      "origin": "2010Q1",
+      "objective_difference": 1.7763568394002505e-15,
+      "prediction_difference": -2.220446049250313e-15
+    },
+    {
+      "h": 4,
+      "origin": "2020Q4",
+      "objective_difference": 7.105427357601002e-15,
+      "prediction_difference": 5.684341886080802e-14
+    }
+  ],
+  "all_lp_solved": true,
+  "training_labels_cutoff_passed": true,
+  "common_dates_passed": true,
+  "rows": 1845,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "protocol_sha256": "ecf9430391bb9955200dc578348192d9cbd5e93e3b2e6d288eb7e536e5643e6a"
+}

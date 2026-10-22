@@ -1,0 +1,14 @@
+{
+  "vintage_dates_requested": 59,
+  "vintage_dates_verified": 59,
+  "failed_origins": [],
+  "forecasts": 113,
+  "latest_snapshot_forecasts_unchanged": true,
+  "other_variables": "revised project snapshots GDP EA20, ESI, daily NewCISS",
+  "training_NFCI": "entire historical NFCI as available at forecast-origin vintage; seven-day observation buffer",
+  "all_observations_at_or_before_vintage": true,
+  "mean_abs_feature_revision": 0.06156310471877216,
+  "max_abs_feature_revision": 0.6805833333333333,
+  "fully_real_time": false,
+  "interpretation": "partial NFCI vintage sensitivity only; does not establish real-time model superiority"
+}

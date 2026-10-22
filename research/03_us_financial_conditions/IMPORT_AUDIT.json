@@ -1,0 +1,80 @@
+{
+  "import_date": "2026-10-22",
+  "archive": {
+    "name": "thesis_us_financial_conditions_30_reviewed_full.zip",
+    "bytes": 225075825,
+    "sha256": "85deb85f3d2dda749c826f61cc9016cd5e3078a617567b6df88198b84a385c4e",
+    "files": 968
+  },
+  "manifest": "MANIFEST_REVISION30.json",
+  "manifest_entries_verified": 967,
+  "manifest_mismatches": [],
+  "attached_markdown": {
+    "path": "submitted_files/Diploma_US_Financial_Conditions_Euro_Area-2.md",
+    "sha256": "c809c12402774f0de5fd0c06e5f08ee7e1cebefd197444b22694c96077abab5f",
+    "differences_from_manuscript": "Only five relative figure paths; text is identical."
+  },
+  "method": "Lossless extraction: 963 archive members stored directly, 5 large members stored in checked parts with offline restore_large_files.py. No model scripts executed during import.",
+  "large_files": [
+    {
+      "paths": [
+        "history/growth_at_risk_08_esi_models.zip"
+      ],
+      "bytes": 20575578,
+      "sha256": "13931f0e5cfaa7a52fa1ccfb608a3a10af06f9e71f5c34f785db446e3964a7b9",
+      "parts": [
+        "large_file_parts/6351c68b6b177affe2cd9b2451bc1401517bbe73/part_000.bin",
+        "large_file_parts/6351c68b6b177affe2cd9b2451bc1401517bbe73/part_001.bin",
+        "large_file_parts/6351c68b6b177affe2cd9b2451bc1401517bbe73/part_002.bin"
+      ]
+    },
+    {
+      "paths": [
+        "rtd_sources/.rtd_monthly_pre2015.zip.YT2ibs"
+      ],
+      "bytes": 13107200,
+      "sha256": "7711e788b319fc397506fe83e4dfe18c2844589a8e6385f6f4bd74888917b6c6",
+      "parts": [
+        "large_file_parts/a88384512f357a4348a4fea943c7d6f1656a5a73/part_000.bin",
+        "large_file_parts/a88384512f357a4348a4fea943c7d6f1656a5a73/part_001.bin"
+      ]
+    },
+    {
+      "paths": [
+        "rtd_sources/.rtd_monthly_pre2015.zip.H6wjzD"
+      ],
+      "bytes": 21757952,
+      "sha256": "521e368e7f18ea41b1ad9e8e8b1b4c28b16dac6c07a21d368e31c370b3b84051",
+      "parts": [
+        "large_file_parts/878e4ac3d4ae0fd94168d93d47e8df08b5dad2db/part_000.bin",
+        "large_file_parts/878e4ac3d4ae0fd94168d93d47e8df08b5dad2db/part_001.bin",
+        "large_file_parts/878e4ac3d4ae0fd94168d93d47e8df08b5dad2db/part_002.bin"
+      ]
+    },
+    {
+      "paths": [
+        "rtd_sources/rtd_monthly_pre2015.zip"
+      ],
+      "bytes": 26976335,
+      "sha256": "a4c7f0a5e7ad2c5a55a4eb961e4b8a439db0154d26e5ff6cfb849e8654110370",
+      "parts": [
+        "large_file_parts/d5e1fe974e7803659b66d0e4060fb0141f36a800/part_000.bin",
+        "large_file_parts/d5e1fe974e7803659b66d0e4060fb0141f36a800/part_001.bin",
+        "large_file_parts/d5e1fe974e7803659b66d0e4060fb0141f36a800/part_002.bin",
+        "large_file_parts/d5e1fe974e7803659b66d0e4060fb0141f36a800/part_003.bin"
+      ]
+    },
+    {
+      "paths": [
+        "rtd_sources/.rtd_monthly_pre2015.zip.MTgGhu"
+      ],
+      "bytes": 18087936,
+      "sha256": "47e4f620bbddfab3e342ed6f13815036dfe3c78c2babbf950570b631f50cfc2c",
+      "parts": [
+        "large_file_parts/abd38d93ff57342e8ed5ebc5fa272ee6f35199cc/part_000.bin",
+        "large_file_parts/abd38d93ff57342e8ed5ebc5fa272ee6f35199cc/part_001.bin",
+        "large_file_parts/abd38d93ff57342e8ed5ebc5fa272ee6f35199cc/part_002.bin"
+      ]
+    }
+  ]
+}

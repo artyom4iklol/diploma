@@ -1,0 +1,30 @@
+[
+  {
+    "file": "rtd_monthly_pre2015.zip",
+    "url": "https://data.ecb.europa.eu/sites/default/files/2024-08/monthly.zip",
+    "bytes": 26976335,
+    "content_type": "application/zip",
+    "signature": "504b0304140000000800db58"
+  },
+  {
+    "file": "rtd_quarterly_pre2015.zip",
+    "url": "https://data.ecb.europa.eu/sites/default/files/2024-08/quarterly.zip",
+    "bytes": 5006060,
+    "content_type": "application/zip",
+    "signature": "504b0304140000000800e558"
+  },
+  {
+    "file": "rtd_documentation.pdf",
+    "url": "https://data.ecb.europa.eu/sites/default/files/2023-04/rtdb_docu.pdf",
+    "bytes": 473603,
+    "content_type": "application/pdf",
+    "signature": "255044462d312e350d25e2e3"
+  },
+  {
+    "file": "gdp_keys.xml",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/Q.S0.S.G_GDPM_TO_C.?detail=serieskeysonly",
+    "bytes": 1648,
+    "content_type": "application/vnd.sdmx.genericdata+xml;version=2.1",
+    "signature": "3c3f786d6c2076657273696f"
+  }
+]

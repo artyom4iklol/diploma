@@ -1,0 +1,54 @@
+[
+  {
+    "id": "S40",
+    "url": "https://www.imf.org/-/media/files/publications/wp/2011/wp1193.pdf",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "S42",
+    "url": "https://www.nber.org/system/files/working_papers/w16150/w16150.pdf",
+    "resolved_url": "https://www.nber.org/system/files/working_papers/w16150/w16150.pdf",
+    "status": "downloaded",
+    "file": "papers/S42.pdf",
+    "bytes": 729416,
+    "pages": 58,
+    "sha256": "205fdf53c9a46031454d7d59f9ed0787fafba283a0ccaeadab3acd1a7f752d1d"
+  },
+  {
+    "id": "S43",
+    "url": "https://www.nber.org/system/files/working_papers/w6455/w6455.pdf",
+    "resolved_url": "https://www.nber.org/system/files/working_papers/w6455/w6455.pdf",
+    "status": "downloaded",
+    "file": "papers/S43.pdf",
+    "bytes": 3125195,
+    "pages": 75,
+    "sha256": "e48913777b4c0a18b15d6a1d2f5f98a96317ba5c87c785dd8ddc5dedbfdbefdf"
+  },
+  {
+    "id": "S44",
+    "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3193~9db57822d4.en.pdf",
+    "resolved_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3193~9db57822d4.en.pdf",
+    "status": "downloaded",
+    "file": "papers/S44.pdf",
+    "bytes": 2907906,
+    "pages": 46,
+    "sha256": "71740ec1836e92f04f8d0d6b78d40fd57bc3fda53d4268c25721b4a78b7f2b99"
+  },
+  {
+    "id": "S40",
+    "url": "https://www.imf.org/external/pubs/ft/wp/2011/wp1193.pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S40",
+    "url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2011/_wp1193.pdf",
+    "resolved_url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2011/_wp1193.pdf",
+    "status": "downloaded",
+    "file": "papers/S40.pdf",
+    "pages": 11,
+    "bytes": 835189,
+    "sha256": "558ed1090022286b909d390e2883b231e55ee0c77bea4288d3579e7fb0410ffb"
+  }
+]

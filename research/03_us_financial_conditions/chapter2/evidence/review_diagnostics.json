@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-18",
+  "model_refit": false,
+  "paired_comparisons_verified": 10,
+  "new_table_2_3_verified": true,
+  "rounding_scenarios": 144,
+  "rounding_check_origin": "2022Q2",
+  "rounding_includes_ANFCI": false,
+  "rounding_refits_future_dates": false,
+  "maximum_local_rounding_mean_loss_change": 5.0595961661237254e-05,
+  "forecast_2021_01_15_h4_addends": {
+    "base_growth_addend": 47.43266779133113,
+    "ANFCI_model_growth_addend": 4.097746035921607,
+    "ANFCI_direct_addend": 1.9439905767923233
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "esi_rtd_history.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/RTD/M.S0.S.Y_ESIND.F?includeHistory=true&format=csvdata",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "ciss_daily_ea_history.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/CISS/D.U2.Z0Z.4F.EC.SS_CIN.IDX?includeHistory=true&startPeriod=2010-01-01&format=csvdata",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "ciss_weekly_ea_history.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/CISS/W.U2.Z0Z.4F.EC.SS_CI.IDX?includeHistory=true&startPeriod=2010-01-01&format=csvdata",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

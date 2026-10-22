@@ -1,0 +1,68 @@
+[
+  {
+    "id": "S01",
+    "source_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr794.pdf",
+    "version": "NY Fed Staff Report 794",
+    "retrieved_at": "2026-10-01",
+    "status": "downloaded",
+    "file": "papers/S01.pdf",
+    "pages": 56,
+    "sha256": "e8592a9647c6580f80033cec0e50b1a12ebd1b2589088bc0465931c191ee6bd2",
+    "first_page": " \n \n \nThis paper presents preliminary findings and is being distributed to economists \nand other interested readers solely to stimulate discussion and elicit comments. \nThe views expressed in this paper are those of the authors and do not necessarily \nreflect the position of the Federal Reserve Bank of New York or the Federal \nReserve System. Any errors or omissions are the responsibility of the authors. \nFederal Reserve Bank of New York \nStaff Reports \n \n \nVulnerable Growth \n \nTobias Adrian \nNina Boyarchenko \nDomenico Giannone \n \n \n \n  \n \nStaff Report No. 794 \nSeptember 2016 \nRevised November 2017 "
+  },
+  {
+    "id": "S03",
+    "source_url": "inherited: stage06 provenance",
+    "version": "Author preprint",
+    "retrieved_at": "2026-10-01",
+    "status": "downloaded",
+    "file": "papers/S03.pdf",
+    "pages": 27,
+    "sha256": "03c6ea4fce61767d771ad98672f303aa0a8ce4012d0a9f389b00f53ef33dbad2",
+    "first_page": "Investigating Growth at Risk Using a Multi-country\nNon-parametric Quantile Factor Model ∗\nTodd E. Clarka, Florian Huberb, Gary Koopc, Massimiliano Marcellinod, and\nMichael Pfarrhoferb\naFederal Reserve Bank of Cleveland\nbUniversity of Salzburg\ncUniversity of Strathclyde\ndBocconi University, IGIER and CEPR\nOctober 8, 2021\nWe develop a Bayesian non-parametric quantile panel regression model. Within\neach quantile, the response function is a convex combination of a linear model and\na non-linear function, which we approximate using Bayesian Additive Regression\nTrees (BART). Cross-sectional information at the pth quantile is captured through\na conditionally heteroscedastic latent factor. The non-parametric feature of our\nmodel enhances ﬂexibility, while the panel feature, by exploiting cross-country\ninformation, increases the number of observations in the tails. We develop Bayesian\nMarkov chain Monte Carlo (MCMC) methods for estimation and forecasting with\nour quantile factor BART model (QF-BART), and apply them to study growth at\nrisk dynamics in a panel of 11 advanced economies.\nJEL: C11, C32, C53\nKEYWORDS: non-parametric regression, regression trees, forecasting\n∗The views expressed herein are solely those of the authors and do not necessarily reﬂect the views of the\nFederal Reserve Bank of Cleveland or the Federal Reserve System. Marcellino thanks MIUR – PRIN Bando 2017\n– prot. 2017TA7TYC for ﬁnancial support; Huber and Pfarrhofer gratefully acknowledge ﬁnancial support from\nthe Austrian Science Fund (FWF, grant no. ZK 35).\narXiv:2110.03411v1  [econ.EM]  7 Oct 2021"
+  },
+  {
+    "id": "S02",
+    "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2842~9a4cb3f225.en.pdf",
+    "version": "ECB Working Paper 2842, 2023",
+    "retrieved_at": "2026-10-01",
+    "status": "downloaded",
+    "file": "papers/S02.pdf",
+    "pages": 49,
+    "sha256": "8fea4b4ddb88ba88daf1647363aec2a58b86826d03167ba49f0a9237597891d9",
+    "first_page": " \nWorking Paper Series \nMeasuring systemic financial stress \nand its risks for growth \n \nSulkhan Chavleishvili, Manfred Kremer \nDisclaimer: This paper should not be reported as representing the views of the European Central Bank \n(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB.  \nNo 2842 \n"
+  },
+  {
+    "id": "S04",
+    "source_url": "https://www.mikkelpm.com/files/gar.pdf",
+    "version": "Author manuscript, July 2020",
+    "retrieved_at": "2026-10-01",
+    "status": "downloaded",
+    "file": "papers/S04.pdf",
+    "pages": 45,
+    "sha256": "c91a0504cbeda3de65a121408e1a1b3ddbd86dd7f043d729386a2e44571f18f5",
+    "first_page": "When is Growth at Risk? ∗\nMikkel Plagborg-Møller1, Lucrezia Reichlin2,\nGiovanni Ricco3, and Thomas Hasenzagl4\n1Princeton University\n2London Business School, Now-Casting Economics, and CEPR\n3University of Warwick, OFCE-SciencesPo, and CEPR\n4University of Minnesota\nJuly 2, 2020\nAbstract: This paper empirically evaluates the potentially non-linear\nnexus between ﬁnancial indicators and the distribution of future GDP\ngrowth, using a rich set of macroeconomic and ﬁnancial variables cov-\nering 13 advanced economies. We evaluate the out-of-sample forecast\nperformance of ﬁnancial variables for GDP growth, including a fully real-\ntime exercise based on a ﬂexible non-parametric model. We also use a\nparametric model to estimate the moments of the time-varying distribu-\ntion of GDP and evaluate their in-sample estimation uncertainty. Our\noverall conclusion is pessimistic: Moments other than the conditional\nmean are poorly estimated, and no predictors we consider provide robust\nand precise advance warnings of tail risks or indeed about any features\nof the GDP growth distribution other than the mean. In particular, ﬁ-\nnancial variables contribute little to such distributional forecasts, beyond\nthe information contained in real indicators.\n∗We are grateful for very insightful comments from Mark Gertler, Domenico Giannone, Nellie\nLiang, Jim Stock and seminar participants at NYU. Plagborg-Møller acknowledges that this ma-\nterial is based upon work supported by the NSF under Grant #1851665. Any opinions, ﬁndings,\nand conclusions or recommendations expressed in this material are those of the authors and do not\nnecessarily reﬂect the views of the NSF."
+  },
+  {
+    "id": "S08",
+    "source_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp2458~849f0d9847.en.pdf",
+    "version": "ECB Working Paper 2458, 2020",
+    "retrieved_at": "2026-10-01",
+    "status": "downloaded",
+    "file": "papers/S08.pdf",
+    "pages": 27,
+    "sha256": "0ad90256ca41ac62a8d4544e73da0dfa7aa083fb893372c1362a13cdbccde926",
+    "first_page": " \nWorking Paper Series \nVulnerable growth in the Euro Area: \nMeasuring the financial conditions \n \n \nJuan Manuel Figueres, Marek Jarociński \nDisclaimer: This paper should not be reported as representing the views of the European Central Bank \n(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB.  \nNo 2458 / August 2020 \n"
+  },
+  {
+    "id": "S24",
+    "source_url": "https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op396.en.pdf",
+    "version": "ECB Occasional Paper 396, 2026",
+    "retrieved_at": "2026-10-01",
+    "status": "downloaded",
+    "file": "papers/S24.pdf",
+    "pages": 55,
+    "sha256": "a2da610ee35590cf99be14a01fc6ac9cdcd738a72ec9a3dcdab7a7a2e5aeabf1",
+    "first_page": " \nOccasional Paper Series \nMacro-at-Risk in the euro area \nExpert Group on Macro-at-Risk \nTime-Series Workstream \nMoham\nmed Chahad, Matteo Mogliani (editors), \nChryso Aristidou, Marta Bańbura, Dmitry Kulikov, \nCarlos Montes-Galdón, Bettina Landau, \nBaptiste Meunier, Florens Odendahl, \nClaudia Pacella, Joan Paredes, Antoine Sigwalt, \nPaulo Rodrigues, Markus Roth, \nAnastasia Theofilakou \nNo 396 \nDisclaimer: This publication should not be reported as representing the views of the European Central Bank \n(ECB). The views expressed are those of the authors and do not necessarily reflect those of the ECB. "
+  }
+]

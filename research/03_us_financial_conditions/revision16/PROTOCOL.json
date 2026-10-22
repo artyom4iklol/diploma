@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-15",
+  "status": "post-result supervisor revision, not preregistered",
+  "primary_protocol": "final_check/PROTOCOL.json",
+  "primary_forecasts_unchanged": true,
+  "main_result": "NFCI h1 improves BASE but loses to HIST; no robust real-time superiority",
+  "new_checks": {
+    "exclude_training_targets_overlapping": [
+      "2020Q1",
+      "2021Q4"
+    ],
+    "evaluation_origins_preserved": true,
+    "new_training_diagnostic_forecasts": 615,
+    "nfci_vintage_dates": 59,
+    "nfci_partial_vintage_forecasts": 113,
+    "other_variables_stay_revised": true,
+    "recent_bootstrap": {
+      "type": "circular fixed-loss descriptive, no model refit",
+      "B": 5000,
+      "block_lengths": [
+        4,
+        8
+      ],
+      "seed": 15102026
+    }
+  },
+  "calendar": {
+    "origins": 64,
+    "GDP_actual_releases_verified": 64,
+    "ESI_first_two_month_releases_verified": 128,
+    "NFCI_public_from": "2011-04-13",
+    "prelaunch_origins": 5
+  },
+  "unresolved": [
+    "full GDP EA20 and ESI vintages",
+    "full daily NewCISS vintages and first publication dates",
+    "geography EA20 vs historical euro area vs CISS U2",
+    "no causal identification",
+    "no full conditional quantile coverage test"
+  ],
+  "writing_started": false
+}

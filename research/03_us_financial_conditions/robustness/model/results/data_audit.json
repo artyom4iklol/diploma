@@ -1,0 +1,13 @@
+{
+  "esi_source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ei_bssi_m_r2?lang=en&geo=EA20&indic=BS-ESI-I&freq=M&s_adj=SA",
+  "esi_updated": "2026-09-29T11:00:00+0200",
+  "esi_selected_months": 372,
+  "esi_missing": 0,
+  "quarters": 124,
+  "ESI_geo": {
+    "EA20": "Euro area \u2013 20 countries (2023-2025)"
+  },
+  "vintages": "ESI September29 downloadSeptember30; GDP/CISS/NFCI prior stage06 snapshots retained",
+  "CISS_geo": "U2 changing composition; mismatch with fixed EA20 remains",
+  "not_actual_release_dates": true
+}

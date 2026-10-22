@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-18",
+  "model_refit": false,
+  "frozen_forecasts_verified": 2373,
+  "all_numeric_tables_checked": true,
+  "original_2_1_body_preserved": true,
+  "reconstructed_forecasts": 10,
+  "HIST_single_omission_comparisons": [
+    {
+      "h": 1,
+      "model": "AR_ESI_NFCI",
+      "n": 58,
+      "HIST_better_count": 58,
+      "minimum_ratio": 1.0426319275253777
+    },
+    {
+      "h": 1,
+      "model": "AR_ESI_ANFCI",
+      "n": 58,
+      "HIST_better_count": 58,
+      "minimum_ratio": 1.048185052290353
+    },
+    {
+      "h": 4,
+      "model": "AR_ESI_NFCI",
+      "n": 55,
+      "HIST_better_count": 55,
+      "minimum_ratio": 1.4891321921732645
+    },
+    {
+      "h": 4,
+      "model": "AR_ESI_ANFCI",
+      "n": 55,
+      "HIST_better_count": 55,
+      "minimum_ratio": 1.1149635081259555
+    }
+  ],
+  "body_words": 7340,
+  "formulas": 9,
+  "tables": 4,
+  "footnotes": 22,
+  "chapter_sha256": "5211cca4ab950889d21e428314b4ec6b06592880d6aa2fdf30eec5cd852a1802"
+}

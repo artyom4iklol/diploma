@@ -1,0 +1,11 @@
+{
+  "revision": 23,
+  "date": "2026-10-18",
+  "prior_files_unchanged": 715,
+  "prior_files_changed": [
+    "CHANGELOG.md",
+    "README.md",
+    "chapter1/Chapter_1_US_Financial_Conditions_Euro_Area.md"
+  ],
+  "empirical_sources_scripts_and_results_unchanged": true
+}

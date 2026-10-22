@@ -1,0 +1,550 @@
+[
+  {
+    "name": "thesis_us_financial_conditions/CHANGELOG.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/MANIFEST_SHA256.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/README.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/ACCEPTANCE_REPORT.docx",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/ACCEPTANCE_REPORT.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/CHECKPOINT.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/PROTOCOL.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/build_report.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/centered_decomposition.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/check_revisions.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/compute.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/diagnostic_summary.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/download_log.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/download_sources.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/extrapolation.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/gdp_download_log.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/nfci_revision_comparison.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/nfci_revision_summary.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/official_retrieval.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/requirements.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/rolling_forecasts.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/rolling_scores.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/rolling_tests.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/sources/Euro_area_GDP_revision_triangles.xlsx",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/sources/GW2006.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/sources/gdp_vintage_metadata.html",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/sources/nfci_vintage_2020.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/acceptance/validation.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/approval_check/TOPIC_APPROVAL_AUDIT.docx",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/approval_check/TOPIC_APPROVAL_AUDIT.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/approval_check/build_report.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/approval_check/official_retrieval.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/approval_check/power_check.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/approval_check/power_check.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/approval_check/recovered_query_record.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/MODEL_DATA_AUDIT.docx",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/MODEL_DATA_AUDIT.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/build_audit_doc.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/build_report_source.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/fetch_sources.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/CHANGELOG.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/PROTOCOL.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/compute.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/raw/ecb_ciss_ea.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/raw/ecb_ciss_us.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/raw/esi.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/raw/esi_monthly.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/raw/fred_nfci.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/raw/quarterly.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/availability.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/calendar_validation.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/coefficients.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/comparisons.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/data_audit.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/episode_scores.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/esi_by_variant.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/forecasts.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/influence.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/model_data.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/scores.csv",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/results/validation.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/model/verify_calendar.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/ciss_meta.html",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/ciss_meta.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/esi_archive.html",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/esi_archive.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/esi_releases.html",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/esi_releases.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/gdp_revisions.html",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/gdp_revisions.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/log.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/nfci_about.html",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/nfci_about.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/nfci_faq.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/audit/sources/nfci_faq.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/MISSING_FULL_TEXTS.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/READING_CATALOG.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/S27_reading_extract.txt",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch1_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch2_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch3_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch4_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch5_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch6_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch7_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/batch8_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/download_attempts.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/inherited_results.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/pdf_integrity.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/references.bib",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/catalog/registry.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/TOPIC_AND_PLAN_stage09.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/growth_at_risk_08_esi_models.zip",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/LITERATURE_UPDATE.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/README.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/TOPIC_AND_PLAN.md",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch1.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch2.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch3.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch4.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch5.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch6.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch7.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/batch8.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/build_catalog.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/consensus/initial_search_fetch.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/consensus/nfci_methodology.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/consensus/second_fetch.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/consensus/spillovers.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/download.py",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/history/stage09/manifest.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/manifest_stage10.json",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S01.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S02.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S03.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S04.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S06.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S07.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S08.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S11.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S12.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S13.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S14.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S15.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S16.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S17.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S18.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S20.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S21.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S23.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S24.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S25.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S26.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S27.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S28.pdf",
+    "ok": true
+  },
+  {
+    "name": "thesis_us_financial_conditions/papers/S29.pdf",
+    "ok": true
+  },
+  {
+    "offset": 70731021,
+    "error": "Error -5 while decompressing data: incomplete or truncated stream"
+  }
+]

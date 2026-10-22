@@ -1,0 +1,17 @@
+dataset,pattern,files,expected_files,all_present,bytes
+История GDP RTD,rtd_sources/history_chunks/gdp_*.csv,31,31,True,6908630
+История ESI RTD,rtd_sources/history_chunks/esi_*.csv,31,31,True,6153847
+Самостоятельные старые версии GDP,rtd_sources/extracted/gdp_legacy_vintages.csv,1,1,True,624221
+Самостоятельные старые версии ESI,rtd_sources/extracted/esi_legacy_vintages.csv,1,1,True,2029793
+Архив NFCI,revision16/sources/nfci_vintages/nfci_*.csv,59,59,True,1333493
+Архив ANFCI,revision19/sources/anfci_vintages/anfci_*.csv,59,59,True,1325166
+GDP и ESI на каждую прогнозную дату,revision18/results/vintaged_model_frames.csv,1,1,True,685919
+Цели и оценочные версии GDP,revision18/results/evaluation_targets.csv,1,1,True,20701
+Календарь основной модели,revision18/results/forecast_calendar_59.csv,1,1,True,29968
+Даты выпусков ESI,revision18/results/ESI_monthly_actual_dates_118.csv,1,1,True,22393
+Календарь ANFCI,revision19/results/ANFCI_calendar_59.csv,1,1,True,5526
+Прогнозы основной модели,revision18/results/pilot_forecasts.csv,1,1,True,374087
+Прогнозы ANFCI дополнения,revision19/results/ANFCI_forecasts.csv,1,1,True,533457
+Поздняя парная версия индексов,revision19/sources/current/*_2026-10-16.csv,2,2,True,57897
+Пересмотренный CISS еврозоны,robustness/model/raw/ecb_ciss_ea.csv,1,1,True,3319512
+Пересмотренный CISS США,robustness/model/raw/ecb_ciss_us.csv,1,1,True,3149555

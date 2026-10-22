@@ -1,0 +1,1705 @@
+                          Tests of conditional predictive ability
+
+                                  Raﬀaella Giacomini and Halbert White∗
+
+                                    University of California, San Diego
+
+
+
+                                           This version: April 2003
+
+
+                                                     Abstract
+            We argue that the current framework for predictive ability testing (e.g.,West, 1996) is not
+        necessarily useful for real-time forecast selection, i.e., for assessing which of two competing
+        forecasting methods will perform better in the future. We propose an alternative framework
+        for out-of-sample comparison of predictive ability which delivers more practically relevant con-
+        clusions. Our approach is based on inference about conditional expectations of forecasts and
+        forecast errors rather than the unconditional expectations that are the focus of the existing
+        literature. We capture important determinants of forecast performance that are neglected in
+        the existing literature by evaluating what we call the forecasting method (the model and the
+        parameter estimation procedure), rather than just the forecasting model. Compared to previ-
+        ous approaches, our tests are valid under more general data assumptions (heterogeneity rather
+        than stationarity) and estimation methods, and they can handle comparison of both nested and
+        non-nested models, which is not currently possible. To illustrate the usefulness of the proposed
+        tests, we compare the forecast performance of three leading parameter-reduction methods for
+        macroeconomic forecasting using a large number of predictors: a sequential model selection ap-
+        proach, the “diﬀusion indexes” approach of Stock and Watson (2002), and the use of Bayesian
+        shrinkage estimators.
+
+
+  ∗
+      Discussions with Clive Granger, Graham Elliott and Andrew Patton were essential to the paper. We also wish to
+thank Lutz Kilian for insightful suggestions and Farshid Vahid and seminar participants at UCSD, Nuﬃeld College,
+LSE, University of Exeter, University of Warwick, University of Manchester, Cass Business School, North Carolina
+State University, Boston College, Texas A&M, University of Chicago GSB, the International Finance Division of the
+Federal Reserve Board and the 2002 EC2 conference in Bologna, Italy for helpful comments. The computations in
+the paper were carried out in the UCSD Experimental and Computational Laboratory, for which we thank Vince
+Crawford. Corresponding author: Raﬀaella Giacomini, Department of Economics, University of California, San
+Diego, 9500 Gilman Dr., La Jolla, CA 92093-0508, U.S.A. Web page: http://www.econ.ucsd.edu/~rgiacomi. E-mail:
+rgiacomini@ucsd.edu.
+
+
+                                                         1
+1    Introduction
+Forecasting is central to economic decision-making. Government institutions and regulatory au-
+thorities often base policy decisions on forecasts of major economic variables, and firms rely on
+forecasting for inventory management and production planning decisions. A problem that eco-
+nomic forecasters often face is how to select the best forecasting method from a set of two (or
+more) alternatives. The econometric answer to this problem is to develop tests for comparing the
+predictive ability of two alternative forecast methods, given the forecaster’s loss function. The
+literature on forecast comparison has witnessed a renaissance in recent years, and a number of au-
+thors have proposed econometric techniques for forecast comparison under general loss functions,
+known as out-of-sample predictive ability testing. This literature was initiated by Diebold and
+Mariano (1995) and further formalized by West (1996), West and McCracken (1998), McCracken
+(2000), Clark and McCracken (2001), Corradi, Swanson and Olivetti (2001), Chao, Corradi and
+Swanson (2001), among others, and it represents a generalization of several existing evaluation tech-
+niques which typically restricted attention to a particular loss function (e.g., Granger and Newbold
+1977, McCulloch and Rossi 1990, Leitch and Tanner 1991, West, Edison and Cho 1993, Harvey,
+Leybourne and Newbold 1997).
+    In this paper, we argue that the current framework for out-of-sample predictive ability testing
+(which in the remainder of the paper we consider to be represented by West, 1996) is not necessarily
+appropriate for real-time forecast selection, i.e., for assessing which of two competing forecasting
+methods will give better forecasts in the future. We propose an alternative approach to out-
+of-sample predictive ability testing that delivers inferences that are more relevant to economic
+forecasters. Our tests can be applied to multi-step point, interval, probability or density forecasting,
+and they can be viewed as a generalization of the tests of West (1996) since they are applicable in
+all cases in which his tests are applicable and in many more besides.
+    From a methodological point of view, the main idea of the paper is to view the problem of
+forecast evaluation as a problem in inference about conditional expectations of forecasts and forecast
+errors rather than the unconditional expectations that are the focus of the approach of West (1996).
+    An important distinction between our approach and the existing literature is that we consider
+the object of the evaluation to be what we call the “forecasting method”, which includes not only
+the forecast model but also a number of choices that must be made by the forecaster at the time of
+the prediction, such as which estimation procedure to choose and which data to use for estimation.
+The current approach to forecast evaluation focuses instead solely on the forecast model. The reason
+for evaluating the forecasting method and not just the model is that all elements of the method
+can aﬀect future forecast performance: a good model can produce bad forecasts if its parameters
+are not precisely estimated or if they change over time. The fact that we consider the forecasting
+
+
+
+                                                   2
+method rather than the model implies that our tests can lead to a diﬀerent conclusion than West’s
+(1996) tests. Suppose for example that one of the two models is correctly specified but has a large
+number of parameters, while the competitor is a simpler, misspecified model. West’s (1996) test
+will tend to choose the large model, while our tests may choose the forecasting method that uses
+the small model, especially if we are in the presence of high estimation uncertainty.
+   Our approach is applicable in many situations where the tests of West (1996) are not valid.
+One such case is when the data are heterogeneous, in the form of time-varying underlying processes
+for the series of interest. As emphasized by Clements and Hendry (1998, 1999), this is a more
+realistic assumption for economic forecasting contexts than the assumption of stationarity that
+is typically made in the literature. The assumption of heterogeneity also aﬀects the approach
+to estimation. In this context, instead of considering a recursive forecasting scheme, where the
+estimation window expands over time, it makes sense to consider a rolling window forecast procedure
+where the forecasts are based on a moving window of the data which discards old observations. The
+size of the estimation window can itself be time-varying, as in the procedure suggested by Pesaran
+and Timmermann (2002). A fundamental diﬀerence with the existing literature is that here we
+consider the estimation window to be a component of the forecasting method under evaluation.
+In the existing literature, instead, the sample split between estimation and evaluation samples is
+arbitrary and typically there is little guidance on how to choose it in practice.
+   Another situation where the tests of West (1996) are not applicable is in comparing forecasts
+based on nested models. This is an important comparison because many models considered for
+forecasting are naturally derived as generalizations of existing models and it is often of interest to
+test if a larger, more sophisticated model can outperform a simple, nested benchmark model. Our
+framework permits a unified treatment of nested and non-nested models.
+   Finally, the current framework for predictive ability testing is not valid when the forecasts
+are obtained by using estimation methods such as Bayesian estimation, semi-parametric, or non-
+parametric estimation. Our framework, instead, can accommodate such estimation procedures and
+can thus be used to compare the impact on forecast performance of using diﬀerent estimation
+techniques, a question that cannot be answered within the current framework.
+   A final, practical advantage of our tests is that they are easily computed using standard re-
+gression packages, whereas the existing tests can be quite diﬃcult to compute or have limiting
+distributions that are context-specific (e.g., Clark and McCracken, 2001).
+   To illustrate the usefulness of the conditional predictive ability tests, we consider the problem
+of macroeconomic forecasting using a large number of predictors and compare forecasts of eight
+macroeconomic variables obtained by employing leading methods for parameter reduction: a se-
+quential procedure which is a simplified version of the general-to-specific model selection approach
+implemented by Hoover and Perez (1999), the “diﬀusion indexes” approach of Stock and Watson
+
+
+                                                  3
+(2002) and the use of Bayesian shrinkage estimators (Litterman, 1986). We use the data set of Stock
+and Watson (2002), including monthly U.S. data on 146 macroeconomic variables and evaluate 1-,
+6- and 12-month ahead forecasts of four measures of real activity and four price indexes obtained
+using the diﬀerent forecasting methods. The general conclusion is that for the price indexes the
+forecast performance of the three methods is indistinguishable from that of a univariate autore-
+gression. For the real variables, instead, Bayesian shrinkage appears to be the preferred method.
+Finally, the sequential model selection approach performs poorly for most variables and forecast
+horizons, and it is often outperformed by the naive autoregressive and random walk benchmarks.
+
+
+2        Unconditional and conditional approaches to predictive ability
+         testing
+To illustrate the diﬀerences between conditional and unconditional out-of-sample predictive ability
+testing, suppose we are interested in comparing the accuracy of two competing forecasting models
+ft (β 1 ) and gt (β 2 ) for the conditional mean of the variable of interest Yt+1 , given a squared error loss
+function. The dependence of the forecasts on parameters β 1 and β 2 indicates that in this example
+the forecasting models are parametric. The approach of West (1996) consists of testing the null
+hypothesis of equal accuracy of the two forecasts formulated as
+
+                                  H0 : E[(Yt+1 − ft (β ∗1 ))2 − (Yt+1 − gt (β ∗2 ))2 ] = 0,                               (1)
+
+where β ∗1 and β ∗2 are population values of the parameters (i.e., probability limits of the parameter
+estimates). The null hypothesis (1) can be interpreted as saying that the two forecast models are
+equally accurate on average. If the null hypothesis is rejected, one would choose the model yielding
+the lower loss. Notice that a test of the null hypothesis (1) will tend to choose a forecast based on
+a correctly specified model (i.e., the test will choose the correctly specified model asymptotically
+with probability 1 − α, where α is the level of the test).1 A focus on the null hypothesis (1) is thus
+justifiable if one is interested in establishing which of two models better approximates the data-
+generating process. However, even a model that well approximates the data-generating process
+may forecast poorly, for example in the case that its parameters are imprecisely estimated. If the
+question is which model will give better forecasts in the future, therefore, it is not clear that (1) is
+in fact the appropriate null hypothesis.
+        The central idea of this paper is to test a null hypothesis diﬀerent than (1), where the expectation
+is conditional on the information set Ft available at time t and the losses depend on the parameter
+    1
+        To see why, suppose forecast 1 is based on a correctly specified model, which implies that ft (β ∗1 ) is the true
+conditional mean of Yt+1 . Also assume for simplicity that the two forecasts are based on the same information set.
+Since the conditional mean is the optimal forecast for a squared error loss function, ft (β ∗1 ) minimizes the expected
+loss: E[(Yt+1 − ft (β ∗1 ))2 ] < E[(Yt+1 − ft0 )2 ] for any other forecast ft0 , and thus in particular for gt (β ∗2 ).
+
+
+                                                                  4
+estimates at time t, β̂ 1t and β̂ 2t , rather than on their probability limits:
+
+               H0 : E[(Yt+1 − ft (β̂ 1t ))2 − (Yt+1 − gt (β̂ 2t ))2 |Ft ] = 0 almost surely, t = 1, 2, ...        (2)
+
+We call a test of the hypothesis (2) a test of equal conditional predictive ability. The motivation for
+conducting inference about a conditional, rather than an unconditional, expectation is that it more
+closely represents the real-time problem of a forecaster. In particular, we can view this hypothesis
+as saying that the forecaster cannot predict which of the two forecasts will be more accurate, given
+what is known today.
+       Further motivation for expressing the null hypothesis in terms of time-t parameter estimates
+rather than probability limits is that they are more relevant for the forecaster: since the population
+parameters are not known and must be estimated, it is the actual future loss that is of interest to
+the forecaster, rather than that based on some population value that is only attained in the limit.
+As a result, whereas the unconditional tests restrict attention to the forecast model, the conditional
+approach allows evaluation of the forecasting method, which includes the model, the estimation
+procedure and the possible choice of estimation window. Viewed this way, it appears obvious that
+considering the forecasting method as a whole is appropriate, as each of its components can have
+a potential impact on future forecast performance.
+       In the following subsections, we outline in detail the directions along which the conditional
+testing framework represents a more realistic environment for forecast evaluation and discuss how
+it directly accounts for diﬀerent determinants of forecast performance that are neglected by the
+unconditional framework.
+
+
+2.1       Heterogeneity of economic data
+
+One of the conclusions of Clements and Hendry (1998, 1999) is that the main explanation for sys-
+tematic forecast failure in economics is a non-constant underlying process generating the series to
+be forecast. It is thus of fundamental importance to develop evaluation techniques that take into
+account the possibly heterogeneous nature of economic variables. In this paper, we therefore work
+with the assumption that the data generating process is heterogeneous rather than stationary.2 In
+our view, this is a realistic and practical assumption for economic forecasting contexts and more
+plausible than the perhaps idealistic assumption of stationarity typically made in the unconditional
+predictive ability literature. Specific sources for heterogeneity in the series that economists forecast
+are several. First, even if the underlying economic processes were stationary, heterogeneity in the
+observed time series can arise from changes in the measurement process. This source of hetero-
+geneity is one that macroeconomic variables are particularly sensitive to; among other things: the
+   2
+       The type of non-stationarity we consider here is that induced by a distribution that changes over time. We also
+assume short memory, thus ruling out non-stationarity due to the presence of unit roots.
+
+
+                                                           5
+definition of the measured variables may change from time to time; which entities are measured
+in constructing the variables measured changes; budgets for the economic, demographic, and sta-
+tistical agencies measuring the processes of interest change, leading to the possibility of greater
+or lesser care in producing the oﬃcial numbers on strict time schedules; and directors and other
+key personnel of these agencies regularly join and leave, leading to intentional or unintentional
+variations in the processes and procedures that produce the oﬃcial time series. Heterogeneity in
+even one of these sources would produce heterogeneity in the observed series. These sources of
+heterogeneity are plausibly less a concern for non-aggregated time series, such as the prices of well-
+defined commodities, as in financial economics. Nevertheless, the underlying economic processes
+themselves are comprised of a variety of forces that operate as further sources of heterogeneity,
+aﬀecting either the nature of the commodity itself, or the way the commodity is traded. With
+regard to the latter, the laws and regulations governing trade change, and the technologies used by
+buyers and sellers of the commodities change. (The onward march of both computing and software
+technology is an obvious example.) With regard to the former, the laws and regulations governing
+for example the behavior of firms represented by equity assets change, as do market conditions
+and technologies used by such firms. Taken together, these factors make it plausible in our view
+that the relations between variables of interest this month and next relevant for forecasting are
+somewhat diﬀerent now than they were last year, let alone five, ten, or twenty years ago, and are
+not plausibly identical, as stationarity would require.
+   If heterogeneity is accepted as an accurate description of economic time series, appropriate
+methods for model-based forecasting and forecast evaluation need to be applied. In general, it
+seems appropriate in a time-varying environment to consider estimators with finite memory, rather
+than basing forecasts on an expanding window of data. An example is the practice of specifying
+and estimating forecast models over a rolling window of the data, as a way to accommodate a data
+generating process that varies slowly over time (e.g., Fama and McBeth, 1973, Gonedes, 1973).
+The size of the estimation window may itself be time-varying, as was recently suggested by Pesaran
+and Timmermann (2002), who propose a recursive procedure which detects breaks in real time and
+then uses an appropriate subset of the data for estimation. Further, the estimators can usefully
+incorporate time weights which may assign decreasing importance to observations from the more
+distant past. The use of these methods in the production of forecasts has important implications
+for the evaluation procedure. The approach to out-of-sample testing in the unconditional predictive
+ability framework is to arbitrarily split the data into an estimation and an evaluation sample, and
+to obtain the asymptotic distribution of the test statistic under the assumption that both the in-
+sample and the out-of-sample sizes diverge to infinity. The choice of sample split is thus a finite
+sample artifice. In contrast, in our conditional framework the size of the estimation window and
+the possible time weighting are treated as choice variables of the forecast method, and as such
+
+
+                                                  6
+they can be evaluated along with the forecast model and the estimation procedure as parts of the
+forecasting method under analysis.
+
+
+2.2   Estimation uncertainty
+
+As emphasized by Clements and Hendry (1998, 1999) and Ericsson (2002), parameter estimation
+uncertainty is an important determinant of forecast performance. Our conditional tests directly
+account for the eﬀects of estimation uncertainty on forecast performance by expressing the null
+hypothesis in terms of parameter estimates and by considering finite window estimation, which leads
+to asymptotically non-vanishing estimation uncertainty. In contrast, the unconditional framework
+does not take into account diﬀering model complexities, unless explicitly incorporated into the
+accuracy measure (e.g., AIC or BIC); further, the presence of probability limits in the unconditional
+null hypothesis (1) means that diﬀerent estimators that converge to the same limit will lead to the
+same conclusion. As a result, the unconditional tests are not able to detect superior forecasting
+performance which is due to reduced estimation uncertainty. For example, consider the case of
+comparing the accuracy of nested models in the unconditional framework. If the smaller model
+is correctly specified, the forecast errors from the two models calculated at the probability limits
+of the parameters are identical, and the null hypothesis (1) is automatically satisfied (this would
+hold for any loss function). In other words, one would conclude that the two models yield equally
+accurate forecasts, regardless of the number of excess parameters contained in the larger model. A
+test of this sort may thus lead to misleading conclusions if the goal is real-time forecast selection.
+
+
+2.3   Out-of-sample versus in-sample testing
+
+The literature on forecast evaluation has long argued that out-of-sample, rather than in-sample,
+testing is the “true” test of a forecast model. As Granger (1999, p. 65) observes, the potentially
+large number of parameters compared with the relative scarcity of macroeconomic data “leads to
+worries that a model presented for consideration is the result of considerable specification searching
+..., data mining, or data snooping (in which data are used several times). Such a model might well
+appear to fit the data, in sample, rather well but will often not perform satisfactorily out-of-sample”.
+This is related to the problem of overfitting: a good fit may result from explaining not only the
+stable relationships that are useful for forecasting but also possible accidental relationships that are
+specific to the sample. Out-of-sample evaluation of forecast performance, on the contrary, simulates
+a real-time forecast scenario where the quality of a forecasting method is directly measured against
+the actual data. The unreliability of in-sample testing is particularly evident if the data in the
+sample are generated by a time-varying process, whereas out-of-sample testing can incorporate
+this heterogeneity through recursive specification and estimation of the model. Our conditional
+testing framework is fully congruent with this motivation for out-of-sample testing: it is valid
+
+                                                   7
+under heterogeneity of the data-generating process, and it is based on the forecasts and forecast
+errors actually observed, rather than viewing them as estimates of some population quantities. In
+the unconditional predictive ability framework, on the other hand, it is less clear why one should
+use out-of-sample rather than in-sample testing if the goal is to test hypotheses about population
+parameters under the assumption of stationarity. This point is well made by Inoue and Kilian
+(2002), who argue that if the goal of the testing procedure is to assess population predictability
+(corresponding to testing a null hypothesis of equal unconditional predictive ability of two nested
+models, e.g., as in (1)), the use of out-of-sample testing involves an unnecessary loss of information,
+whereas the in-sample test of the same hypothesis utilizes all the information available and thus
+leads to power gains in finite samples.
+
+
+2.4   Practical advantages of the conditional tests
+
+In addition to the methodological considerations just articulated, there are also significant practical
+advantages to the approach advocated here. The main benefit of our approach is that it allows a
+unified treatment of nested and non-nested models, while the existing testing framework of West
+(1996) is only valid under non-nestedness. Unconditional tests of predictive ability for nested models
+have been proposed by Clark and McCracken (2001), among others, but they lack the general
+applicability of West (1996)’s results, as the test statistics have complicated limiting distributions
+that are context-specific. As discussed in section 3.2, the diﬀerent treatment of nested and non-
+nested models in the unconditional framework is due to the fact that the asymptotic distribution
+of the test statistic relies on convergence of the parameter estimates to their probability limits, and
+this limiting behavior diﬀers in the two cases. The fact that we don’t rely on such convergence
+in the conditional approach instead makes it possible to consider nested and non-nested models
+in the same framework. A second advantage of the conditional tests is that they do not impose
+restrictions on the estimation procedure utilized to produce the forecasts, while the approach of
+West (1996) rules out, e.g., Bayesian, semi-parametric, and non-parametric estimation. Finally,
+our tests are simple to compute due to the imposition of a particular time dependence structure
+under the null hypothesis (e.g., martingale diﬀerence sequences for the one-step-ahead forecasts),
+which leads to a computationally simple expression for the asymptotic variance estimator.
+
+
+3     Theory
+3.1   Description of the environment
+
+Consider a stochastic process W ≡ {Wt : Ω −→ Rs+1 , s ∈ N, t = 1, . . . , T } defined on a complete
+probability space (Ω, F, P ). We partition the observed vector Wt as Wt ≡ (Yt , Xt0 )0 , where Yt : Ω →
+R is the variable of interest and Xt : Ω → Rs is a vector of predictor variables, and we define
+
+                                                  8
+Ft = σ(W10 , ..., Wt0 , Xt+1
+                         0 )0 (as in, e.g., White, 1994, pg. 96). We adopt the standard convention of
+
+denoting random variables by upper case letters and realizations by lower case letters.
+    We focus for simplicity on univariate forecasts. Consider a situation where two alternative
+models are used to forecast the variable of interest τ steps ahead, Yt+τ . The forecasts are for-
+mulated at time t and are based on the information set Ft . Denote the two forecasts by fˆm,t ≡
+f (wt , wt−1 , ..., wt−m+1 ; β̂ m,t ) and ĝm,t ≡ g(wt , wt−1 , ..., wt−m+1 ; β̂ m,t ), where f and g are measurable
+functions. The subscripts indicate that the forecast formulated at time t is a measurable function
+of a sample of at most size m, consisting of the m most recent observations. Recall that we do not
+restrict attention to point forecasting. Our framework accommodates evaluation of point, interval,
+probability, and density forecasts. If the forecasts are based on parametric models, the parameter
+estimates from the two models are collected in the k × 1 vector β̂ m,t . Otherwise, β̂ m,t represents
+whatever semi-parametric or non-parametric estimators are used in constructing forecasts. The
+estimator β̂ m,t can be further selected to minimize a weighted loss function over the estimation
+period, where smaller weights are typically assigned to observations from the more distant past.
+For example, for a linear model Yt = Xt β + ut and a quadratic loss function, we can consider the
+                                                         P
+family of weighted least squares estimators β̂ m,t = minβ ts=t−m+1 (ys −xs β)2 wm,s , where {wm,s } is
+a sequence of weights assigned to the observations in the estimation sample that can be selected by
+the user (for example one may assign exponentially decreasing weights to the observations further
+away from t).
+    We emphasize that the estimators may be parametric, semi-parametric or non-parametric. The
+only requirement here is that m (the maximum estimation window size) must be finite. All of the
+elements listed above - the model, the estimation procedure, the size of the estimation window and
+the estimation weight function - are treated as dimensions of choice by the user and are part of
+what we call the “forecasting method” under evaluation.
+    The evaluation is performed in a simulated out-of-sample fashion. Let T be the size of the sam-
+ple available. Since the data indexed 1, ..., m are used for estimation of the first set of parameters,
+the first τ −step ahead forecasts are formulated at time m and compared to the realization ym+τ .
+The second set of forecasts is produced by moving the estimation window forward one step and
+estimating the parameters on data indexed 2, ..., m + 1. These forecasts are compared to the real-
+ization ym+1+τ . The procedure is thus iterated and the last forecasts are generated at time T − τ ,
+by estimating the parameters on data indexed T − τ − m + 1, ..., T − τ , and they are compared to
+yT . This rolling window procedure yields a sequence of n ≡ T − τ − m + 1 forecasts and relative
+forecast errors.
+   The sequence of out-of-sample forecasts thus produced is evaluated by selecting a loss function
+Lt+τ (Yt+τ , fˆm,t ), which depends on the forecasts and on the realizations of the variable. This loss
+function is either an economically meaningful criterion such as utility or profits (e.g., Leitch and
+
+
+                                                         9
+Tanner 1991, West, Edison, and Cho 1993) or a statistical measure of accuracy. The following
+are some examples of statistical loss functions that have been considered in the forecast evaluation
+literature. Examples of appropriate loss functions for the evaluation of quantile, probability, and
+density forecasts are also discussed in Diebold and Lopez (1996), Lopez (2001), Giacomini and
+Komunjer (2002) and Giacomini (2002). For simplicity, let ft ≡ fˆm,t and consider τ = 1.
+
+  1. Squared error loss function: Lt+1 (Yt+1 , ft ) = (Yt+1 − ft )2 .
+
+  2. Absolute error loss function: Lt+1 (Yt+1 , ft ) = |Yt+1 − ft |.
+
+  3. Asymmetric linear cost function of order α (also known as the lin-lin or “tick function”):
+
+        Lt+1 (Yt+1 , ft ) = (α − 1(Yt+1 − ft < 0))(Yt+1 − ft ), for α ∈ (0, 1).
+
+  4. Linex loss function: Lt+1 (Yt+1 , ft ) = exp(a(Yt+1 − ft )) − a(Yt+1 − ft ) − 1, a ∈ R.
+
+  5. Direction-of-change loss function: Lt+1 (Yt+1 , ft ) = 1{sign(Yt+1 − Yt ) 6= sign(ft − Yt )}.
+
+  6. Predictive log-likelihood: Lt+1 (Yt+1 , ft ) = log ft (Yt+1 ), where ft is in this case the density
+        forecast of Yt+1
+
+
+3.2     One-step conditional predictive ability test
+
+For a given loss function, we write the null hypothesis of equal conditional predictive ability of
+forecasts f and g as
+
+                           H0   :   E[Lt+τ (Yt+τ , fˆm,t ) − Lt+τ (Yt+τ , ĝm,t )|Ft ]               (3)
+                                ≡ E[∆Lm,t+τ |Ft ] = 0 almost surely t = 1, 2, ... .
+
+Due to certain computational issues, we consider separately the cases of one-step and multi-step
+forecast horizons.
+
+3.2.1     Null hypothesis
+
+When τ = 1, the null hypothesis claims that the out-of-sample sequence {∆Lm,t+1 , Ft } is a mar-
+tingale diﬀerence sequence (mds). In this case, the conditional moment restriction (3) is equivalent
+to stating that E[ht ∆Lm,t+1 ] = 0, for all Ft − measurable functions ht . Let us restrict attention
+to a given subset of such functions, which we collectively denote by the q × 1 Ft − measurable
+vector ht and follow Stinchcombe and White (1998) by referring to this as the “test function”.
+For a given choice of test function ht , we construct a test exploiting the consequence of the mds
+property that H0,h : E[ht ∆Lm,t+1 ] = 0. The standard unconditional approach to predictive ability
+
+
+
+                                                        10
+testing corresponds to testing the hypothesis H0,h with ht = 1 and with the parameter estimate
+β̂ m,t replaced with its probability limit β ∗ .
+   For fixed m, standard asymptotic normality arguments suggest using a Wald-type test statistic
+of the form
+                              T
+                              X −1                           T
+                                                             X −1
+               h
+              Tn,m = n(n−1           ht ∆Lm,t+1 ) Ω̂−1
+                                                0
+                                                    n (n
+                                                        −1                            0
+                                                                    ht ∆Lm,t+1 ) = nZ̄m,n Ω̂−1
+                                                                                            n Z̄m,n            (4)
+                              t=m                            t=m
+                    PT −1                                                        PT −1
+where Z̄m,n ≡ n−1      t=m Zm,t+1 , Zm,t+1 ≡ ht ∆Lm,t+1 and Ω̂n ≡ n
+                                                                   −1
+                                                                                   t=m Zm,t+1 Zm,t+1
+                                                                                                       0 is a q × q
+
+matrix consistently estimating the variance of Zm,t+1 .
+   A level α test can be conducted by rejecting the null hypothesis of equal conditional predictive
+                  h
+ability whenever Tn,m > χ2q,1−α , where χ2q,1−α is the (1 − α)−quantile of a χ2q distribution. The
+asymptotic justification for the test is provided in the following theorem, which characterizes the
+behavior of the test statistic (4) under the null hypothesis.
+
+Theorem 1 (Conditional predictive accuracy test) For forecast horizon τ = 1, maximum
+estimation window size m < ∞ and q × 1 test function sequence {ht } suppose:
+   (i) {Wt }, {ht } are mixing sequences with φ of size −r/(2r − 1), r ≥ 1 or α of size −r/(r − 1),
+r > 1;
+   (ii) E|Zm,t+1,i |2(r+δ) < ∆ < ∞ for some δ > 0, i = 1, ..., q and for all t;
+                    P −1
+   (iii) Ωn ≡ n−1 Tt=m               0
+                           E[Zm,t+1 Zm,t+1 ] is uniformly positive definite.
+                           h           d
+   Then, under H0 in (3), Tn,m → χ2q as n → ∞.
+
+   Comments: 1. Assumption (i) is mild, allowing the data to be characterized by considerable
+heterogeneity as well as dependence. This is in contrast with the existing literature, which typically
+assumes stationarity of the loss diﬀerences.
+   2. The asymptotic distribution is obtained for the number of out-of-sample observations going
+to infinity, whereas the estimation sample size m remains finite. This leads to asymptotically
+non-vanishing estimation uncertainty. In contrast, in the unconditional framework of West (1996),
+both the in-sample and the out-of-sample sizes grow, causing estimation uncertainty to vanish
+asymptotically. A result of letting both m and n grow is that the choice of how to split the
+available sample into in-sample and out-of-sample portions is arbitrary, while in our framework the
+choice of estimation window (up to some maximum m) is part of the forecasting method under
+evaluation. Also notice that the requirement of finite estimation window rules out the use of a
+recursive forecasting scheme, which utilizes an expanding estimation window.
+   3. Assumption (iii), imposing positive definiteness of the asymptotic variance of the test statis-
+tic, is related to a similar requirement made in the existing literature about predictive ability testing
+(e.g., West, 1996, McCracken, 2000), but it diﬀers in a fundamental way. In that literature, the size
+
+
+                                                      11
+of the estimation window is assumed to grow at the same rate or faster than the out-of-sample size,
+which means that the asymptotic variance of the test statistic is computed at the probability limits
+of the parameters. Because of the focus on this limiting behavior, the asymptotic variance matrix
+may be singular when the forecasts are based on nested models. In contrast, in the conditional
+framework the size of the estimation window remains finite as the prediction sample size n grows to
+infinity, which prevents the parameter estimates from reaching their probability limits. This makes
+our tests applicable to both nested and non-nested models.
+   4. The test statistic for conditional predictive ability test is straightforward to compute. A
+further simplifying feature is the fact that the null hypothesis imposes a particular time dependence
+structure (in this case that of a martingale diﬀerence sequence), which implies that the asymptotic
+variance can be consistently estimated by the sample variance.
+   The following results provide computationally convenient ways to obtain the test statistic for
+the conditional predictive ability test using standard regression packages.
+
+                                                                    h
+Corollary 2 Under the assumptions of Theorem 1, the test statistic Tn,m can be alternatively
+computed as nR2 , where R2 is the uncentered squared multiple correlation coeﬃcient for the artificial
+regression of the constant unity on the 1 × q vector (ht ∆Lm,t+1 )0 for t = m, ..., T − 1.
+
+Corollary 3 Let assumptions (i), (iii) and (iv) of Theorem 1 hold and further assume
+   (ii)0 E|∆Lm,t+1 |2(r+δ1 ) < ∆1 < ∞ and E|hti |2(r+δ2 ) < ∆2 < ∞ for some δ 1 , δ 2 > 0, i = 1, ..., q
+and for all t;
+   (v) E[(∆Lm,t+1 )2 |Ft ] = σ 2 for all t and some σ 2 > 0.
+   Then the conditional predictive ability test can be alternatively based on the test statistic nR2 ,
+where R2 is the uncentered squared multiple correlation coeﬃcient for the artificial regression of
+∆Lm,t+1 on the 1 × q vector h0t , for t = m, ..., T − 1. A level α test can be conducted by rejecting
+the null hypothesis H0 of equal conditional predictive ability whenever nR2 > χ2q,1−α , where χ2q,1−α
+is the (1 − α)−quantile of a χ2q distribution.
+
+   If the conditional homoskedasticity assumption (v) can be reasonably expected to hold in a
+given application, the true distribution of the regression-based test statistic in Corollary 3 may be
+better approximated by its asymptotic distribution than the statistic of Corollary 2, and it might
+thus deliver better inference.
+
+3.2.2   Alternative hypothesis
+                                                   h
+We now analyze the behavior of the test statistic Tn,m under a form of global alternative to the
+null hypothesis H0 . Because we do not impose the requirement of identical distribution, we must
+
+
+
+                                                  12
+exercise care in specifying the global alternative in this context. In fact, we will be able to obtain
+tests consistent against
+
+                                0
+                     HA,h : E[Z̄m,n ]E[Z̄m,n ] ≥ δ > 0 for all n suﬃciently large.                  (5)
+
+                                                         h
+    The following theorem characterizes the behavior of Tn,m under the global alternative HA,h .
+
+Theorem 4 Given Assumptions (i), (ii) and (iii) of Theorem 1, under HA,h in (5) for any constant
+           h > c] → 1 as n → ∞.
+c ∈ R, P [Tn,m
+
+   Notice that H0 and HA,h are not necessarily exhaustive. For a given test function sequence
+                                      0
+{ht }, it may in fact happen that E[Z̄m,n                                      0
+                                         0 ]E[Z̄m,n0 ] = 0 for some sequence {n }, without {∆Lm,t+1 }
+
+being an mds. The resulting test may thus have no power against alternatives for which ∆Lm,t+1 is
+                                                         0
+uncorrelated with the chosen test function (and thus E[Z̄m,n0 ]E[Z̄m,n0 ] = 0) but it is correlated with
+
+some element of the information set Ft that is not contained in ht . In other words, the properties of
+the test will depend on the chosen test function. The flexibility in the choice of test function is both
+a shortcoming and an advantage of our testing framework. On the one hand, for any given selection
+of ht the test may have no power against possibly important alternatives. On the other hand, one
+is left free to choose which test function is more relevant in any situation and thus focus power in
+that specific direction. Further, using methods developed recently in the statistics literature, one
+may be able to identify with some confidence which elements of ht are responsible for rejection
+of the null hypothesis using the notion of False Discovery Rate for multiple comparison testing
+procedures (Benjamini and Hochberg, 1995).
+   In practice, the test function is chosen by the researcher to embed elements of the information
+set Ft that are believed to have potential explanatory power for the future diﬀerence in predictive
+ability. Examples are, e.g., indicators of past relative performance or other variables that may help
+distinguish between the forecast performance of the two methods, such as business cycle indicators
+that may capture possible asymmetries in relative performance during booms and recessions. When
+choosing the number of elements for the test function ht , it is important to keep in mind that the
+properties of the test will be altered if one either includes too few or too many elements. If ht
+leaves out elements of the information set Ft that are correlated with ∆Lm,t+1 , the test may have
+little or no power against the alternative for which ∆Lm,t+1 is not mds. As a consequence, the
+test would incorrectly “accept” a false null hypothesis. On the other hand, the inclusion of a
+number of elements that are either uncorrelated or weakly correlated with ∆Lm,t+1 will in some
+sense dilute the significance of the truly important elements and thus erode the power of the test.
+A possible way to confront this diﬃculty is to apply the approaches advocated by Bierens (1990)
+or Stinchcombe and White (1998), which deliver consistent tests.
+
+
+
+                                                  13
+3.3      Multi-step conditional predictive ability test
+
+For a forecast horizon τ > 1, the null hypothesis (3) of equal conditional predictive ability of
+forecasts f and g implies in particular that for all Ft −measurable test functions ht the sequence
+{ht ∆Lm,t+τ } is “finitely correlated”, so that cov(ht ∆Lm,t+τ , ht−j ∆Lt+τ −j (β̂ m,t−j )) = 0 for all
+j ≥ τ . Similarly to the previous section, we are able to exploit this simplifying feature in the
+derivation of the test statistic. Using reasoning that mirrors the development of the test for the
+one-step horizon, we construct a test of
+
+                                          H0,τ : E[∆Lm,t+τ |Ft ] = 0                                           (6)
+
+against the global alternative
+                              0
+                 HA,h,τ : E[Z̄m,n ]E[Z̄m,n ] ≥ δ > 0 for all n suﬃciently large,                (7)
+                                                                          P −τ
+where ht is a q × 1 Ft − measurable test function and Z̄m,n ≡ n−1 Tt=m           Zm,t+τ , Zm,t+τ ≡
+ht ∆Lm,t+τ . For a fixed maximum estimation window length m, the test is based on the statis-
+tic
+                               T
+                               X −τ                            T
+                                                               X −τ
+               h
+              Tn,m,τ = n(n−1          ht ∆Lm,t+τ )0 Ω̃−1
+                                                      n (n
+                                                          −1                            0
+                                                                      ht ∆Lm,t+τ ) = nZ̄m,n Ω̃−1
+                                                                                              n Z̄m,n          (8)
+                               t=m                             t=m
+                   PT −τ                             Pτ −1        PT −τ
+where Ω̃n ≡ n−1                   0
+                      t=m Zm,t+τ Zm,t+τ + n
+                                           −1
+                                                       j=1 wn,j
+                                                                                     0                     0
+                                                                      t=m+j [Zm,t+τ Zm,t+τ −j + Zm,t+τ −j Zm,t+τ ],
+with wn,j a weight function such that wn,j → 1 as n → ∞ for each j = 1, ..., τ − 1 (see, e.g., Newey
+and West, 1987 and Andrews, 1991).
+                                                                                                   h
+      A level α test rejects the null hypothesis of equal conditional predictive ability whenever Tn,m,τ >
+χ2q,1−α , where χ2q,1−α is the (1 − α)−quantile of a χ2q distribution. The following result is the
+equivalent of Theorems 1 and 4 for the multi-step forecast horizon case.
+
+Theorem 5 (Multi-step conditional predictive accuracy test) For given forecast horizon τ >
+1, maximum estimation window size m < ∞ and a q × 1 test function sequence {ht } suppose:
+      (i) {Wt }, {ht } are mixing sequences with φ of size −r/(2r − 2), r ≥ 2 or α of size −r/(r − 2),
+r > 2;
+      (ii) E|Zm,t+1,i |r+δ < ∆ < ∞ for some δ > 0, i = 1, ..., q and for all t;
+                      P −τ                        P −1 PT −τ
+      (iii) Ωn ≡ n−1 Tt=m              0
+                             E[Zm,t+τ Zm,t+τ ]+n−1 τj=1                         0                   0
+                                                           t=m+j (E[Zm,t+τ Zm,t+τ −j ]+E[Zm,t+τ −j Zm,t+τ ])
+is uniformly positive definite.
+                                    h            d
+      Then, (a) under H0,τ in (6), Tn,m,τ → χ2q as n → ∞ and (b) under HA,h,τ in (7), for any
+                    h
+constant c ∈ R, P [Tn,m,τ > c] → 1 as n → ∞.
+
+3.4      A decision rule for forecast selection
+
+If the null hypothesis of equal conditional predictive ability of forecast methods f and g is rejected,
+this raises the possibility that one might be able to select at time T a best forecasting method for
+
+                                                         14
+time T + τ . Rejection of the null hypothesis is caused by the fact that the test functions {ht } have
+predictive power for the loss diﬀerences {∆Lm,t+τ } over the out-of-sample period. This suggests
+that the test function at time T, hT , can be used to predict which forecast method will yield lower
+loss at time T + τ , resulting, for example, in the following decision rule:
+
+    • Let α̂n denote the coeﬃcient obtained by regressing ∆Lm,t+τ = Lt+τ (Yt+τ , fˆm,t )−Lt+τ (Yt+τ , ĝm,t )
+      on ht over the out-of-sample period t = m, ..., T − τ . Then choose g if h0T α̂n > c and choose
+      f if h0T α̂n < c, where c is a user-specified threshold.
+
+    In general, the plot of the predicted loss diﬀerences over the out-of-sample period {h0t α̂n }Tt=m
+                                                                                                    −τ
+
+contains useful information for assessing the relative performance of f and g. For example, one
+                                        P −τ
+could consider the indicator In,c = n−1 Tt=m   1{h0t α̂n > c}, where 1{A} is the indicator variable
+taking the value 1 if A is true and 0 otherwise. In,c represents the proportion of times that the
+above decision rule would have chosen forecast method g over the out-of-sample period. In the
+empirical application in section 5, we utilize the indicator In,c with c = 0 to summarize the relative
+performance of the forecast methods under analysis.
+
+
+4     Monte Carlo evidence
+In this section, we investigate the size and power properties of our conditional predictive ability
+test in finite samples of the sizes typically available in macroeconomic forecasting applications.
+For simplicity, we restrict attention to a squared error loss function and to the one-step forecast
+horizon.
+
+
+4.1    Size properties
+
+In order to construct a series of data and forecasts that satisfy the null hypothesis, we exploit the
+following result.
+
+Proposition 6 E[(Yt+1 − fˆm,t )2 − (Yt+1 − ĝm,t )2 |Ft ] = 0 if and only if either fˆm,t = ĝm,t a.s. or
+E[Yt+1 |Ft ] = (fˆm,t + ĝm,t )/2.
+
+    We can thus generate data under the null hypothesis
+
+                    H0 : E[(Yt+1 − fˆm,t )2 − (Yt+1 − ĝm,t )2 |Ft ] = E[∆Lm,t+1 |Ft ] = 0            (9)
+
+by first constructing forecasts {fˆm,t , ĝm,t } and then letting Yt+1 = (fˆm,t + ĝm,t )/2 + εt+1 , where
+εt+1 ~ i.i.d. N (0, σ 2 ). One of the important features of our testing framework is its ability to han-
+dle heterogeneous data. To create data that exhibits interesting behavior we consider an actual
+
+
+                                                     15
+macroeconomic time series {Wt }, which corresponds to one of the measures of inflation that we
+consider in the empirical application. Specifically, we let Wt be the second (log) diﬀerence of the
+monthly U.S. Consumer Price Index measured over the period 1959:1-1998:12, for a total sample
+size T = 468. We construct the forecasts fˆm,t and ĝm,t by a rolling window procedure; the first
+forecast is simply the unconditional mean of the estimation sample, while the second is the forecast
+implied by an AR(1) model for Wt :
+
+                                          fˆm,t = (Wt + ... + Wt−m+1 )/m                                             (10)
+                                          ĝm,t = α̂m,t + β̂ m,t Wt .
+
+We consider a range of values for the size of the estimation sample m and for the variance of the
+disturbances σ 2 : m = (36, 60, 120, 240, 360) and σ 2 = (.1, 1, 3). For each pair (m, σ 2 ) we generate
+10, 000 Monte Carlo replications of the time series {Yt+1 , fˆm,t , ĝm,t } and compute the proportion of
+rejections of the null hypothesis (9) at the 10% nominal level. The test function is ht = (1, ∆Lm,t )0 .
+The results are collected in Table 1.
+
+                                                   [TABLE 1 HERE]
+
+       From the analysis of Table 1, the test appears to be reasonably well-sized, with a mild tendency
+to under-reject. The size properties of the test are seemingly unaﬀected by varying the length of
+the estimation window and the error variances.
+
+
+4.2       Power properties
+
+We investigate the power of the CPA test against serially correlated alternatives. In particular, we
+consider the following alternative hypothesis
+
+                                          Ha,ρ : E[∆Lm,t+1 |Ft ] = ρ∆Lm,t ,                                          (11)
+
+which occurs when E[Yt+1 |Ft ] = (fˆm,t + ĝm,t )/2 − ρ∆Lm,t /(2(fˆm,t − ĝm,t )). We consider a number
+of diﬀerent values for the AR coeﬃcient ρ, ranging from ρ = 0.05 to ρ = 0.5, at increments of
+0.05. For a given ρ, we generate data under the alternative hypothesis (11) by first constructing
+the forecasts {fˆm,t , ĝm,t } as in (10) and then letting Yt+1 = (fˆm,t + ĝm,t )/2 − ρ∆Lm,t /(2(fˆm,t −
+ĝm,t )) + εt+1 , where εt+1 ~ i.i.d. N (0, 1) and the initial value ∆Lm,m is drawn from a standard
+normal distribution. For each parameterization, we generate 10, 000 Monte Carlo replications of
+the time series {Yt+1 , fˆm,t , ĝm,t } and compute the proportion of rejections of the null hypothesis
+(9) at the 10% nominal level.3 Figure 1 plots the power curves for m = (60, 120, 240).
+   3
+       We drop the first 100 observations of the generated time series {Yt+1 , fˆm,t , ĝm,t } to reduce the dependence on
+the initial observation, which leaves us with a total sample size T = 368.
+
+
+
+                                                             16
+                                                [FIGURE 1 HERE]
+
+        The test displays good power properties. For example, more than 50% of the time the test is
+able to detect the presence of moderately low serial correlation (i.e., an AR coeﬃcient between 0.15
+and 0.2). As expected, the power of the test increases as the size of the out-of-sample evaluation
+data set increases.
+
+
+5        Application: comparing parameter-reduction methods in macro-
+         economic forecasting
+A problem that often arises in macroeconomic forecasting is the selection of a manageable subset of
+predictors from a large number of potentially useful variables. In this situation, one key determinant
+of the resulting forecast performance is the trade-oﬀ between the information content of each
+series and the estimation uncertainty introduced. The goal of our application is to analyze and
+compare the forecast performance of several parameter-reduction schemes that have been considered
+in the literature to overcome this so-called “curse of dimensionality”. We will consider three
+leading methods; a sequential model-selection approach based on a simplified general-to-specific
+modelling strategy (see the overview of Mizon, 1995), the “diﬀusion indexes” approach of Stock
+and Watson (2002) and the use of Bayesian shrinkage estimation (Litterman, 1986, Sims and
+Zha, 1998). We also compare each method to benchmark forecasts. The existing framework for
+comparison of predictive ability is not appropriate for addressing these issues, since it does not
+easily accommodate, for example, Bayesian estimation or the presence of estimated regressors.
+Further, some of the comparisons are between nested models, in which case the existing techniques
+are not readily applicable. In contrast, our conditional predictive ability approach is naturally well
+suited for comparison of nested models and for detecting diﬀerences in predictive ability arising
+from use of diﬀerent modelling and estimation techniques.
+        We consider the “balanced panel” subset of the data set of Stock and Watson (2002) (henceforth
+SW), including 146 monthly economic time series measured over the period 1959:1-1998:12. We
+use the diﬀerent parameter reduction methods to construct 1-, 6- and 12- month-ahead forecasts
+for eight U.S. macroeconomic variables: four measures of aggregate real activity and four price
+indexes. The first group includes the components of the Index of Coincident Economic Indicators
+maintained by the Conference Board: total industrial production; real personal income less trans-
+fers; real manufacturing and trade sales and number of employees on nonagricultural payrolls. The
+price indexes are: consumer price index; consumer price index less food; personal consumption
+expenditure implicit price deflator and producer price index.4 We refer the reader to SW for a
+complete description of the data.
+    4
+        These variables coincide with the variables forecasted by SW, with the exception of the consumer price index
+
+
+                                                          17
+5.1     Parameter-reduction methods
+
+Following SW, our approach to multistep-ahead forecasting is to consider forecast models that
+                                     τ
+project the τ −step ahead variable Yt+τ onto predictor variables measured at time t. Both the
+dependent variable and the predictors are transformations of the original data that render these
+variables I(0). In particular, the real variables are modeled as being I(1) in logarithms and the
+                                                                                                  τ
+price indexes as I(2) in logarithms. If RAWt is the original datum at time t, this implies that Yt+τ
+is generated as
+
+                           τ
+        Real variables : Yt+τ = (1200/τ ) log(RAWt+τ /RAWt )                                                  (12)
+                          τ
+        Price indexes : Yt+τ = (1200/τ ) log(RAWt+τ /RAWt ) − 1200 log(RAWt /RAWt−1 ).
+
+                                                              1 as Y
+For ease of notation, we denote the one-step ahead variable Yt+1    t+1 .We consider the following
+forecasting methods.
+
+5.1.1    Sequential model selection
+
+This method considers the entire set of 145 predictors, together with lags of the dependent variable
+and performs a sequential selection search on each estimation sample that retains only variables
+that are statistically significant. The subset of significant variables is then used for forecasting.
+The initial model specification is
+
+                                       τ
+                                     Yt+τ = α + β 0 Xt + γ(L)Yt + εt+τ .                                      (13)
+
+where Xt indicates the vector containing the 145 predictors and γ(L) is an autoregressive polynomial
+of order 6. We overcome the problem of multicollinearity in the original Xt matrix by removing
+the groups of variables whose correlation is greater than .98 and replacing them with an average
+of all the highly correlated variables. After this procedure, the new matrix Xt∗ contains a total of
+130 regressors. Our sequential modeling approach begins by estimating the full model and then
+applies a series of sequential tests until a more parsimonious restriction is found that conveys most
+of the information contained in the initial model.5 We apply a simplified version of the search
+algorithm described by Hoover and Perez (1999, p.175), which consists of reducing the number of
+regressors in the model by performing a sequence of stability tests, residual autocorrelation tests
+and t− and F − tests of significance of the regressor’s coeﬃcients. The simplification adopted here
+considers only one reduction path rather than multiple paths and performs only a subset of the
+less food which replaces the consumer price index less food and energy series considered by SW (not included in the
+data set available to the authors).
+   5
+     See Hoover and Perez, (1999) and the ensuing discussion for relevant references, a thorough description of the
+methodology, and an account of the heated debate about the merits and shortcomings of the so-called LSE approach
+to econometric modeling.
+
+
+                                                        18
+sequential tests in Hoover and Perez (1999). As suggested by these authors, we use a significance
+level α = 0.01 for all the tests, which should encourage parsimony of the final model. A complete
+description of the particular algorithm that we utilize is contained in Appendix B.
+
+5.1.2       Diﬀusion indexes
+
+This is a new method proposed by SW. The forecasts are constructed using a two-step procedure.
+First, the method of principal components is used to estimate the factors Ft from the predictors
+Xt . Second, the forecasting model is constructed as
+
+                                           τ
+                                         Yt+τ = α + β 0 F̂t + γ(L)Yt + εt+τ ,                                   (14)
+
+where both the number of factors k retained in F̂t and the order p of γ(L) are selected by BIC,
+with 1 ≤ k ≤ 12 and 0 ≤ p ≤ 6.
+
+5.1.3       Bayesian shrinkage estimation
+
+We consider the full model (13) and apply Bayesian estimation of its coeﬃcients using the Litterman
+(1986) prior. The Litterman prior, when applied to variables expressed in diﬀerences, shrinks all
+coeﬃcients in (13) towards zero, except that for the intercept term a diﬀuse prior is used. Formally,
+the variance-covariance matrix V for the prior distribution of θ ≡ (α, β 0 , γ 0 )0 is diagonal, with
+α ∼ N (0, 108 ), β i ∼ N (0, (w · λ · σ̂ y /σ̂ xi )2 ), i = 1, ..., k and γ j ∼ N (0, (λ/j))2 ), j = 1, ..., p. There
+are two hyperparameters that must be selected a priori : λ and w. The parameter λ is the prior
+standard deviation of the first autoregressive coeﬃcient (that is, the coeﬃcient of Yt ). The prior
+standard deviation of the subsequent lags of Yt is further divided by the lag length to reflect an
+increasing confidence in the prior mean for longer lags. The parameter w is a number between zero
+and one that reflects the belief that the predictors collected in Xt are less useful for forecasting than
+lagged values of the dependent variable. Further, the prior standard deviation of β i is multiplied
+by the ratio of the sample standard deviations of the dependent variable and of the ith regressor
+σ̂ y /σ̂ xi , to eliminate the eﬀects of diﬀerences in scale. The Bayesian estimate of θ is then given by
+
+                                         θB = (X 0 X + σ̂ 2 V −1 )−1 (X 0 Y τ ),                                (15)
+
+where X is the m×151 matrix (m is the size of the estimation sample) with rows (Xt0 , Yt , Yt−1 , ..., Yt−5 ),
+Y τ is the m × 1 vector with rows Yt+τ
+                                    τ  and σ̂ is the estimated standard error of the residuals in a
+                                τ . As suggested by Litterman (1986), we set w = 0.2 and λ = 0.2.6
+univariate autoregression for Yt+τ
+   6
+       The results were generally robust to a number of diﬀerent choices for w and λ.
+
+
+
+
+                                                           19
+5.1.4        Benchmarks
+
+In addition to the three methods above, we consider two benchmarks. The first is a forecasting
+method based on an autoregressive (AR) model
+                                          τ
+                                        Yt+τ = α + γ(L)Yt + εt+τ ,                              (16)
+
+where the lag order p of the lag polynomial γ(L) is selected by BIC with 0 ≤ p ≤ 6. The second
+benchmark is based on a random walk hypothesis for the levels of the variable; this amounts to
+specifying the following forecast equation for the variable in diﬀerences:
+                                               τ
+                                             Yt+τ = α + εt+τ .                                  (17)
+
+5.2     Real-time forecasting experiment
+
+The five methods described above are used to simulate real-time forecasting. The available sample
+has size T = 468, and we choose a maximum estimation window m = 150 + τ , which is the minimal
+length that allows us to estimate and test the full model in the sequential model selection approach.
+For comparability, we apply the same transformations to the original series as those documented in
+Appendix B of SW. The first estimation sample we consider ranges from 1960:1 through 1972:6 + τ
+(the first 12 data were used as initial observations). The data in this sample are first screened for
+outliers, which we replace with the unconditional mean of the corresponding variable. We then
+standardize the regressors, estimate the diﬀusion indexes and select the autoregressive lag lengths
+and number of diﬀusion indexes by BIC. Finally, we run the regressions (13), (14), (16), (17) and
+apply the Bayesian shrinkage method for t =1960:1,...,1972:6. We use the values of the regressors
+                                                           τ
+at time t =1972:6 + τ to generate a set of forecasts for Y1972:6+2τ . We then move the estimation
+window forward one period and repeat all of the above steps (outlier detection, standardization,
+specification, estimation and so forth) on data from 1960:2 through 1972:7 + τ . This generates the
+                       τ
+set of forecasts for Y1972:7+2τ . The final forecasts are produced at t =1998:12 − τ for the variable
+  τ
+Y1998:12 .
+
+5.3     Results of the conditional predictive ability tests
+
+We apply the conditional predictive ability test of Theorem 1 to evaluate the accuracy of the
+diﬀerent forecast methods. We take the series of 1-, 6- and 12-month-ahead forecast errors e
+calculated above for each of the five models and conduct a number of pairwise tests using absolute
+error and squared error loss functions: L1 (e) = |e| and L2 (e) = e2 . For τ = 1, 6 and 12, the null
+hypotheses of equal conditional predictive ability for the two loss functions are given by
+
+                  H01 : E[|Yt+τ − fˆm,t | − |Yt+τ − ĝm,t | |Ft ] ≡ E[∆L1t+τ |Ft ] = 0 and      (18)
+                  H02 : E[(Yt+τ − fˆm,t )2 − (Yt+τ − ĝm,t )2 |Ft ] ≡ E[∆L2t+τ |Ft ] = 0.
+
+                                                     20
+The hypothesis test H0i makes use of test function: ht = (1, ∆Lit )0 , i = 1, 2. As discussed in section
+3.4, in case of rejection of the null hypothesis of equal conditional predictive ability, we consider
+the sequence of predicted loss diﬀerences over the out-of-sample period {h0t α̂n }Tt=m
+                                                                                    −τ
+                                                                                       , to establish
+which method would have been selected at each point in time by the decision rule described in
+that section. To illustrate, Figure 2 plots the sequence of predicted absolute error loss diﬀerences
+for 1-month ahead forecasts of industrial production, for the two comparisons sequential model
+selection versus AR and Bayesian shrinkage versus AR.
+
+                                         [FIGURE 2 HERE]
+
+   The predicted loss for the sequential method is greater than the predicted loss for the AR
+for the vast majority of the sample dates, while the predicted loss for the Bayesian shrinkage is
+always smaller than that of the AR. Further, notice that the predicted loss diﬀerences for the
+pair sequential-AR are several orders of magnitude higher and more volatile than those for the
+pair Bayesian shrinkage-AR. Provided the test rejects the null hypothesis of equal conditional
+predictive ability, these considerations lead to the conclusion that Bayesian shrinkage would have
+been invariably a better method than the AR for forecasting one-month ahead industrial production
+over the years 1972-1998.
+   The results of the test for all pairwise comparisons, loss functions, and forecast horizons are
+contained in Tables 2-5. Tables 2 and 3 present the results for the real variables forecasts, whereas
+Tables 4 and 5 consider the price indexes forecasts. The entries in each table are the p-values of the
+tests of equal conditional predictive ability of the two methods. The number within parentheses
+below each entry is the indicator In,c discussed in section 3.4 (for c = 0) which represents the
+proportion of times the method in the column would have been preferred to the method in the
+row over the out-of-sample period using the decision rule described in that section. To facilitate
+interpretation of the tables, we use a plus sign to indicate rejection of the null hypothesis of equal
+conditional predictive ability of the two methods at the 10% level and to signal that the method
+in the column would have been chosen more often than the method in the row (as suggested by
+an entry In,c > .5). Similarly, a minus sign denotes rejection of the null hypothesis at the 10%
+level and it indicates that the method in the column would have been chosen more often than the
+method in the row (i.e., In,c < .5).
+
+                                       [TABLES 2 - 5 HERE]
+
+   A sharp result that emerges from Tables 2-5 is that the sequential model selection method is
+characterized by the worst performance across all forecast horizons, especially for the real variables.
+In the majority of cases, it is outperformed by every other method, including the naive random walk
+forecast. The likely explanation for this is the tendency of the method to select over-parameterized
+
+                                                  21
+models (cases with 40 or more predictors in the final model were not uncommon), in spite of the
+use of a small confidence level for the sequential tests. Further, performing a new sequential search
+on each of the rolling estimation windows means that we typically select a diﬀerent model at each
+iteration, in spite of the fact that consecutive windows only diﬀer by two observations. This suggests
+that improvements on the performance of the sequential method may be obtained by updating the
+model less frequently than every month.
+    A second general observation is that the information contained in the predictors seems to be
+less useful for forecasting price indexes than real variables. For the price indexes, there are only
+a few cases where the AR benchmark is outperformed (by the diﬀusion index method). In the
+majority of cases, the parameter-reduction methods, while outperforming the naive random walk
+forecasts, are indistinguishable from the AR benchmark. Further, the Bayesian shrinkage method
+is outperformed by the diﬀusion indexes and by the AR method mainly at the 6- and 12-month
+forecast horizons.
+    The Bayesian shrinkage and the diﬀusion indexes methods appear to fare better for forecasting
+real variables. Bayesian shrinkage, in particular, outperforms the AR in 11 of the 12 comparisons,
+while the diﬀusion indexes method outperforms the AR in 7 of the 12 comparisons. It is interesting
+to note that for the majority of variables and forecast horizons the AR forecasts are not distin-
+guishable from the random walk forecasts. This suggests that the predictors do contain useful
+information for forecasting real variables beyond what can be captured by the variable’s own lags.
+Bayesian shrinkage emerges in this case as the best method for reducing the estimation uncertainty
+of the system, while still conveying its information content.
+
+
+6    Conclusion
+We propose a general framework for out-of-sample predictive ability testing which, as we argue,
+represents a more realistic setting for economic forecasting than the existing framework, exemplified
+by West (1996). We start from the premise that the forecaster not only cares about whether two
+competing forecasts do equally well on average, but also whether she can predict which forecast will
+do better tomorrow. We implement this diﬀerent focus by conducting inference about conditional,
+rather than unconditional moments of forecasts and forecast errors. Recognizing that even a good
+model may produce bad forecasts due to estimation uncertainty or model instability, we make the
+object of evaluation the entire forecasting method (including the model, the estimation procedure
+and the size of the estimation window), whereas the existing literature concentrates solely on the
+model. In so doing, we are also able to handle more general data assumptions (heterogeneity rather
+than stationarity) and estimation methods, as well as providing a unified framework for comparing
+forecasts based on nested or non-nested models, which was not previously available.
+
+
+                                                 22
+   One useful application of the conditional predictive ability tests is in evaluating diﬀerent meth-
+ods for model selection and parameter estimation. We considered in particular the case of macro-
+economic forecasting with a large number of predictors and compared the forecast performance
+of diﬀerent parameter-reduction methods: a sequential model selection approach, the “diﬀusion
+indexes” approach of Stock and Watson (2002) and the use of Bayesian shrinkage estimation. Us-
+ing the data set of Stock and Watson (2002), including monthly U.S. data on a large number of
+macroeconomic variables, we generated 1-, 6- and 12-month ahead forecasts of four measures of
+real activity and four price indexes using the diﬀerent forecast methods. The conditional predictive
+ability tests led to the conclusion that the sequential model selection was the worst performing
+method, probably due to its tendency to select large models. A second general result was that the
+information contained in the predictors appeared to be less useful for forecasting price indexes than
+real variables. For the price indexes, the performance of the various methods was mostly indistin-
+guishable from the one of a simple autoregression. For the real variables, instead, we found that
+the predictors did contain useful information beyond what is contained in the variable’s own lags.
+For these variables Bayesian shrinkage seemed to be the best method for reducing the estimation
+uncertainty of the system. We emphasize that the results of the empirical application are specific
+to the situation where the number of parameters is very large relative to the sample size and thus
+one should be careful in generalizing our conclusions to other situations. The fact that shrinkage
+estimation methods work best in such an environment should come as no surprise. Likewise, it
+could be argued that the sequential model selection approach was originally conceived for the case
+where there are enough observations per parameter to make the results of the sequential tests
+credible. Viewed in this light, our experiments may be unduly hard on the sequential methodology.
+   Much work remains to be done. A refinement that we are currently exploring is to consider
+a richer set of decision rules for selecting the best forecasting method or for optimally combining
+the information embedded in each method once the null hypothesis of equal conditional predictive
+ability is rejected. A further natural generalization of the tests proposed in the paper is to consider
+multiple comparisons, for example by adapting the approach of White (2000) to our conditional
+framework. Finally, it may be possible to obtain asymptotic refinements of the tests presented
+here by using bootstrap resampling techniques, for example by establishing whether the results of
+Andrews (2002) can be extended to the case of heterogeneous data.
+
+
+
+
+                                                  23
+7      Appendix A. Proofs
+Proof of Theorem 1. Under the null hypothesis H0 in (3), {Zm,t+1 , Ft } is an mds, and we can
+apply an mds central limit theorem (CLT) to show that
+                                                           √       d
+                                                    Ω̂−1/2
+                                                      n     nZ̄m,n → N (0, I)                                             (19)
+                                          h                          d
+as n → ∞, from which it follows that Tn,m      → χ2q as n → ∞. The mds CLT we use requires
+                                                                                   √
+conditions such that the sample variance Ω̂n is a consistent estimator of Ωn = var( nZ̄m,n ), i.e.,
+                           p          0
+such that Ω̂n − Ωn → 0. Write Zm,t+1 Zm,t+1 = f (ht , Wt+1 , ..., Wt−m ), where f (·) is a measurable
+function. Since {Wt } and {ht } are mixing from (i), and f is a function of only a finite num-
+ber of leads and lags of Wt and ht , it follows from Lemma 2.1 of White and Domowitz (1984)
+              0
+that {Zm,t+1 Zm,t+1 } is also mixing of the same size as Wt . To apply a law of large numbers
+                 0
+(LLN) to Zm,t+1 Zm,t+1 , we further need to ensure that each of its elements has absolute r + δ mo-
+ment bounded uniformly in t. By the Cauchy-Schwarz inequality and (ii), E|Zm,t+1,i Zm,t+1,j |r+δ ≤
+    2                                                                                                                       p
+[E|Zm,t+1,i |r+δ ]1/2 [E|Zm,t+1,j
+                          2       |r+δ ]1/2 < ∆1/2 ∆1/2 < ∞, i, j = 1, ..., q and for all t. That Ω̂n −Ωn → 0
+then follows from McLeish (1975)’s LLN as in Corollary 3.48 of White (2001). Ωn is finite by (ii)
+and it is uniformly positive definite by (iii).
+                                                                                                             −1/2 √             d
+   We apply the Cramér-Wold device and show that for all λ ∈ Rq , λ0 λ = 1, λ0 Ωn                                  nZ̄m,n →
+                              −1/2 √       d
+N (0, 1), which implies that Ωn     nZ̄m,n → N (0, I). Consider
+                                                                               T
+                                                                               X −1
+                                              √
+                                      λ Ω−1/2
+                                       0
+                                         n     nZ̄m,n = n−1/2                         λ0 Ω−1/2
+                                                                                          n    Zm,t+1
+                                                                               t=m
+
+                   −1/2               Pq
+and write λ0 Ωn           Zm,t+1 =         i=1 λ̃i Zm,t+1,i . The variable λ̃i Zm,t+1,i is measurable with respect to
+Ft , and the linearity of conditional expectations implies that
+                                                                         q
+                                                                         X
+                                  E[λ0 Ω−1/2
+                                        n    Zm,t+1 |Ft ] =                    λ̃i E[Zm,t+1,i |Ft ] = 0,
+                                                                         i=1
+
+                               −1/2                                                                                −1/2 √
+given (3). Hence {λ0 Ωn Zm,t+1 , Ft } is an mds. The asymptotic variance is σ̄ 2n = var(λ0 Ωn                             nZ̄m,n ) =
+    −1/2    √          −1/2
+λ0 Ωn var( nZ̄m,n )Ωn λ = 1 for all n suﬃciently large. We have that
+      T
+      X −1
+ −1                                                                                                                             p
+n            λ0 Ω−1/2
+                 n
+                              0
+                      Zm,t+1 Zm,t+1 Ω−1/2
+                                     n    λ−1 = λ0 Ω−1/2
+                                                    n    Ω̂n Ω−1/2
+                                                              n    λ−λ0 Ω−1/2
+                                                                         n    Ωn Ω−1/2
+                                                                                  n    λ = g(Ω̂n )−g(Ωn ) → 0,
+      t=m
+                    p
+since Ω̂n − Ωn → 0 and by Proposition 2.30 of White (2001). Further, by Minkowski’s inequality,
+                                             q
+                                             X                               Xq
+        E|λ Ω−1/2
+             n
+               0
+                  Zm,t+1 |2+δ = E|                               2+δ
+                                                    λ̃i Zm,t+1,i |         ≤[   λ̃i (E|Zm,t+1,i |2+δ )1/(2+δ) ]2+δ < ∞,
+                                              i=1                                i=1
+
+                                                                                             −1/2
+the last inequality following from (ii). Hence, the sequence {λ0 Ωn
+                                                               Zm,t+1 , Ft } satisfies the condi-
+                                                                                −1/2 √         d
+tions of Corollary 5.26 of White (2001) (CLT for mds), which implies that λ0 Ωn        nZ̄m,n →
+
+                                                                     24
+                                                                                                      −1/2 √          d
+N (0, 1). By the Cramér-Wold device (e.g., Proposition 5.1 of White, 2001), Ωn                               nZ̄m,n →
+N (0, I), from which (19) follows by consistency of Ω̂n for Ωn .
+   Proof of Corollary 2. The (constant unadjusted) R2 for the regression of the constant unity
+                  0
+on the variables Zm,t+1 ≡ (ht ∆Lm,t+1 )0 can be written as R2 = ι0 Zm [Zm
+                                                                        0 Z ]−1 Z 0 ι/ι0 ι, where ι is
+                                                                           m     m
+                                                              0
+an n × 1 vector of ones and Zm is the n × q matrix with rows Zm,t+1                0 Z /n, it thus
+                                                                    . Since Ω̂n = Zm  m
+follows that nR2 = n(ι0 Zm /n)Ω̂−1  0         h
+                                n (Zm ι/n) = Tm,n .
+   Proof of Corollary 3.              The (constant unadjusted) R2 for the regression of ∆Lm,t+1 on h0t
+can be written as R2 = ∆L0 h[h0 h]−1 h0 ∆L/∆L0 ∆L, where ∆L is the n × 1 vector with elements
+∆Lm,t+1 and h is the n × q matrix with rows h0t . We thus have nR2 = nZ̄m,n
+                                                                        0   (σ̂ n Vn )−1 Z̄m,n , where
+                                                                                  p
+σ̂ n = ∆L0 ∆L/n and Vn = h0 h/n. We will show that σ̂ n Vn − Ωn → 0, which implies that the two
+            h
+statistics Tm,n and nR2 are asymptotically equivalent and thus the conditional predictive ability
+test can be alternatively based on the statistic nR2 . By the law of iterated expectations
+                     T
+                     X −1                                 T
+                                                          X −1
+                −1                           2   0   −1
+       Ωn = n               E[ht (∆Lm,t+1 ) ht ] = n             E[ht E[(∆Lm,t+1 )2 |Ft ]]ht 0 ] = σ 2 E[h0 h/n],
+                     t=m                                  t=m
+
+where the last equality follows from assumption (v). Given assumptions (i) and (ii)0 , the sequences
+                                                                                                  p
+{ht h0t } and {(∆Lm,t+1 )2 } satisfy a LLN and it thus follows that Vn − E[h0 h/n] → 0 and σ̂ n − σ 2 =
+            p                                                                                                         p
+σ̂ n −E[σ̂ n ] → 0, where the last equality is implied by (v). Hence, σ̂ n Vn −Ωn = σ̂ n Vn −σ 2 E[h0 h/n] →
+0, and the proof is complete.
+   Proof of Theorem 4.                 Given Assumption (i), it follows from Lemma 2.1 of White and
+Domowitz (1984) that {Zm,t+1 } is mixing of the same size as Wt , since it is a function of only a finite
+number of leads and lags of Wt and ht . Further, each element of Zm,t+1 is bounded uniformly in t by
+                                                                                                                      p
+(ii). McLeish (1975)’s LLN (as in Corollary 3.48 of White, 2001) then implies that Z̄m,n −E[Z̄m,n ] →
+                                                              0
+0. By definition, under HA,h there exists ε > 0 such that E[Z̄m,n ]E[Z̄m,n ] > 2ε for all n suﬃciently
+large. We then have that
+     0                     0              0                            0              0
+P [Z̄m,n Z̄m,n > ε] ≥ P [Z̄m,n Z̄m,n −E[Z̄m,n ]E[Z̄m,n ] > −ε] ≥ P [|Z̄m,n Z̄m,n −E[Z̄m,n ]E[Z̄m,n ]| < ε] → 1.
+                                                                                                                    (20)
+                                                                         0
+By arguments identical to those used in the proof of Theorem 1, {Zm,t+1 Zm,t+1 } is mixing of the
+same size as Wt by (i) and each of its elements is bounded uniformly in t by (ii). McLeish (1975)’s
+                                         p
+LLN then implies that Ω̂n − Ωn → 0, with Ωn uniformly positive definite by (iii). The conditions
+of Theorem 8.13 of White (1994) are then satisfied, and the theorem implies that for any constant
+           h
+c ∈ R, P [Tn,m > c] → 1 as n → ∞.
+   Proof of Theorem 5. (a) Under the null hypothesis H0 in (3), we show that
+                                     √       d
+                              Ω̃−1/2
+                                n     nZ̄m,n → N (0, I)                                                             (21)
+
+as n → ∞, from which (a) follows. First, we apply the Cramér-Wold device and show that for
+                           −1/2 √       d                          √
+all λ ∈ Rq , λ0 λ = 1, λ0 Ωn     nZ̄m,n → N (0, 1), where Ωn = var( nZ̄m,n ), using the fact that
+
+                                                           25
+E[Zm,t+τ |Ft ] = 0. The asymptotic variance Ωn is finite by (ii) and it is uniformly positive definite
+                     −1/2 √               P −τ 0 −1/2
+by (iii), Write λ0 Ωn      nZ̄m,n = n−1/2 Tt=m  λ Ωn Zm,t+τ and consider the scalar sequence
+       −1/2
+{λ0 Ωn        Zm,t+τ }. We verify that the sequence satisfies the conditions of the Wooldridge and White
+                                                                 −1/2
+(1988) CLT for mixing processes. For each t, λ0 Ωn                      Zm,t+τ = f (ht , Wt+τ , ..., Wt−m ), where f (·) is
+a measurable function. Since { Wt } and {ht } are mixing from (i), and f is a function of only a finite
+number of leads and lags of Wt and ht , it follows from Lemma 2.1 of White and Domowitz (1984)
+          −1/2                                                                        −1/2 √
+that {λ0 Ωn Zm,t+τ } is also mixing of the same size as Wt . Further, σ̄ 2n = var(λ0 Ωn     nZ̄m,n ) =
+ 0 −1/2     √         −1/2
+λ Ωn var( nZ̄m,n )Ωn λ = 1 > 0 for all n suﬃciently large. Finally, by Minkowski’s inequality,
+                                        q
+                                        X                                  q
+                                                                           X
+         E|λ Ω−1/2
+              n
+               0
+                   Zm,t+τ |2+δ = E|            λ̃i Zm,t+τ i |   2+δ
+                                                                      ≤[         λ̃i (E|Zm,t+τ i |2+δ )1/(2+δ) ]2+δ < ∞,
+                                        i=1                                i=1
+
+                                                                                          −1/2
+the last inequality following from (ii). Hence, the sequence {λ0 Ωn
+                                                                  Zm,t+τ } satisfies the condi-
+                                                                              −1/2 √         d
+tions of Corollary 3.1 of Wooldridge and White (1988), which implies that λ0 Ωn       nZ̄m,n →
+N (0, 1). By the Cramér-Wold device (e.g., Proposition 5.1 of White, 2001), we then conclude that
+ −1/2 √         d                                            p
+Ωn       nZ̄m,n → N (0, I). It remains to show that Ω̃n − Ωn → 0, from which (21) follows. We have
+that
+                                      T
+                                      X −τ
+                                 −1                   0                 0
+                   Ω̃n − Ωn = n              [Zm,t+τ Zm,t+τ − E(Zm,t+τ Zm,t+τ )]
+                                      t=m
+                                        τ −1
+                                        X             T
+                                                      X −τ
+                                     −1                                0                    0
+                                +n             wn,j           [Zm,t+τ Zm,t+τ −j − E(Zm,t+τ Zm,t+τ −j )
+                                        j=1           t=m+j
+                                            0                    0
+                                +Zm,t+τ −j Zm,t+τ − E(Zm,t+τ −j Zm,t+τ )].
+
+                                0
+For j = 0, ..., τ − 1, {Zm,t+τ Zm,t+τ −j } is mixing of the same size as Wt and each of its elements is
+bounded uniformly in t by (ii). Applying McLeish (1975)’s LLN (e.g., Corollary 3.48 of White, 2001)
+                                                                       P −τ
+and using the fact that wn,j → 1 for n → ∞, it follows that n−1 wn,j Tt=m+j              0
+                                                                                [Zm,t+τ Zm,t+τ −j −
+          0               p
+E(Zm,t+τ Zm,t+τ −j )] → 0 for each j = 0, ..., τ − 1 (with wn,0 ≡ 1), which in turn implies that
+              p
+Ω̃n − Ωn → 0 and the proof is complete.
+   (b) Given Assumption (i), it follows from Lemma 2.1 of White and Domowitz (1984) that
+{Zm,t+τ } is mixing of the same size as Wt , since it is a function of only a finite number of leads
+and lags of Wt and ht . Further, each element of Zm,t+τ is bounded uniformly in t by (ii). McLeish
+                                                                                                                     p
+(1975)’s LLN (as in Corollary 3.48 of White, 2001) then implies that Z̄m,n − E[Z̄m,n ] → 0. By
+                                                          0
+definition, under HA,h,τ there exists ε > 0 such that E[Z̄m,n ]E[Z̄m,n ] > 2ε for all n suﬃciently
+large. We then have that
+
+     0                     0              0                            0              0
+P [Z̄m,n Z̄m,n > ε] ≥ P [Z̄m,n Z̄m,n −E[Z̄m,n ]E[Z̄m,n ] > −ε] ≥ P [|Z̄m,n Z̄m,n −E[Z̄m,n ]E[Z̄m,n ]| < ε] → 1.
+                                                                                                                           (22)
+
+
+                                                                26
+By arguments identical to those used in part (a) - which for this particular result did not necessitate
+                                                                                                          p
+the time dependence structure imposed under the null hypothesis - it follows that Ω̃n − Ωn → 0,
+with Ωn uniformly positive definite by (iii). Theorem 8.13 of White (1994) then implies that for
+                        h
+any constant c ∈ R, P [Tn,m,τ > c] → 1 as n → ∞.
+     Proof of Proposition 6. We have E[(Yt+1 − fˆm,t )2 − (Yt+1 − ĝm,t )2 |Ft ] = E[−2Yt+1 (fˆm,t −
+ĝm,t ) + fˆm,t
+            2 − ĝ 2 |F ] = −2(fˆ
+                   m,t t
+                                                                ˆ2       2      ˆ
+                                    m,t − ĝm,t )E[Yt+1 |Ft ] + fm,t − ĝm,t = (fm,t − ĝm,t )(−2E[Yt+1 |Ft ] +
+fˆm,t + ĝm,t ) which is zero (a.s.) if and only if either one of the two factors is zero (a.s.).
+
+
+8     Appendix B. Sequential model selection algorithm
+The following is our modification of the search algorithm described by Hoover and Perez (1999,
+pp.175-176). All the tests are conducted for a significance level α = 0.01 and use heteroskedasticity
+and autocorrelation consistent standard errors and covariance matrices (e.g., Newey and West,
+1987, Andrews, 1991).
+
+    1. Estimate the full model on the available sample and run the following tests:
+
+      a. Autocorrelation of residuals up to sixth order (LM test; see Breusch and Pagan, 1980).
+
+      b. Stability test (Chow predictive test leaving out the last 10 observations in the sample; see
+      Fisher, 1970).
+
+      If the full model fails any one of the tests (i.e., autocorrelation and/or structural breaks are
+      detected), do not use this test in the following steps.
+
+    2. Eliminate the variable of the general specification that has the lowest t−statistic and re-
+      estimate the model, which becomes the current model.
+
+    3. On each current model, perform the two tests in step 1 together with
+
+      c. F -test of the hypothesis that the coeﬃcients of the variables in the full model that are not
+      included in the current model are jointly insignificant. If the hypothesis cannot be rejected,
+      the current model can be considered a valid restriction of the full model (in this case we say
+      that the model passes the test).
+
+    4. If the current model passes all three tests, eliminate the variable with the next lowest
+      t−statistic and perform the tests on the new current model. If this model fails any one
+      of the tests, restore the last variable eliminated and remove the variable with the next lowest
+      t−statistic. Continue in this fashion until the current model passes all the tests and either
+      all the variables are significant or the elimination of any residual insignificant variable would
+      lead to failing one of the tests.
+
+
+                                                      27
+5. Estimate the final model from step 4.
+
+  5.1. If all remaining variables are significant terminate the algorithm.
+
+  5.2. If there are remaining insignificant variables, remove all of them and perform the three
+  tests on the restricted model.
+
+       a. If the restricted model passes all the tests and all the variables are significant, termi-
+  nate the algorithm.
+
+       b. If the restricted model fails any of the tests, restore the block of eliminated insignificant
+  variables and terminate the algorithm.
+
+       c. If the restricted model passes all the tests but there are some remaining insignificant
+  variables, go back to step 5.2.
+
+
+
+
+                                                28
+References
+ [1] Andrews, D. W. K. (2002): ‘Higher-Order Improvements of a Computationally Attractive
+    k -Step Bootstrap for Extremum Estimators’, Econometrica, 70, 119-162.
+
+ [2] Andrews, D. W. K. (1991): “Heteroskedasticity and Autocorrelation Consistent Covariance
+    Matrix Estimation”, Econometrica, 59, 817-858.
+
+ [3] Benjamini, Y., Hochberg, Y. (1995): “Controlling the False Discovery Rate: A Practical and
+    Powerful Approach to Multiple Testing”, Journal of the Royal Statistical Society Series B, 57,
+    289-300.
+
+ [4] Bierens, H. B. (1990): “A Consistent Conditional Moment Test of Functional Form”, Econo-
+    metrica, 58, 1443-1458.
+
+ [5] Breusch, T., Pagan, A. (1980): “The LM Test and its Applications to Model Specification in
+    Econometrics”, Review of Economic Studies, 47, 239-254.
+
+ [6] Chao, J. C., Corradi, V., Swanson, N. R. (2001), “An Out-of-Sample Test for Granger Causal-
+    ity”, Macroeconomic Dynamics, 5, 598-620.
+
+ [7] Clark, T. E., McCracken, M. W. (2001): “Tests of Equal Forecast Accuracy and Encompassing
+    for Nested Models”, Journal of Econometrics, 105, 85-110.
+
+ [8] Clements, M. P., Hendry, D. F. (1998): Forecasting Economic Time Series, Cambridge Uni-
+    versity Press, Cambridge.
+
+ [9] Clements, M. P., Hendry, D. F. (1999): Forecasting Non-stationary Economic Time Series,
+    MIT Press, Cambridge, Massachusetts.
+
+[10] Corradi, V., Swanson, N. R., Olivetti, C. (2001): “Predictive Ability with Cointegrated Vari-
+    ables”, Journal of Econometrics, 104, 315-358.
+
+[11] Diebold, F. X., Mariano, R. S. (1995): “Comparing Predictive Accuracy”, Journal of Business
+    and Economic Statistics, 13, 253-263.
+
+[12] Diebold, F. X., Lopez, J. A. (1996): “Forecast Evaluation and Combination”, in G. S. Maddala
+    and C. R. Rao (eds) Handbook of Statistics, vol. 14: Statistical Methods in Finance, North-
+    Holland, Amsterdam, 241-268.
+
+[13] Ericsson, N. R. (2002): “Predictable Uncertainty in Economic Forecasting”, in Clements, M. P.
+    and Hendry, D. F. (eds) A Companion to Economic Forecasting, Blackwell Publishers, Oxford.
+
+
+
+                                               29
+[14] Fama, E. F., MacBeth, J. D. (1973): “Risk, Return, and Equilibrium: Empirical Tests”,
+    Journal of Political Economy, 81, 607-636.
+
+[15] Fisher, F. (1970): “Tests of Equality between Sets of Coeﬃcients in Two Linear Regressions:
+    an Expository Note”, Econometrica, 28, 361-366.
+
+[16] Giacomini, R., Komunjer, I. (2002): “Evaluation and Combination of Conditional Quantile
+    Forecasts”, UCSD discussion paper 2002-11.
+
+[17] Giacomini, R. (2002): “Comparing Density Forecasts via Weighted Likelihood Ratio Tests:
+    Asymptotic and Bootstrap Methods”, UCSD discussion paper 2002-12.
+
+[18] Gonedes, N. (1973):      “Evidence on the Information Content of Accounting Massages:
+    Accounting-Based and Market-Based Estimate of Systematic Risk,” Journal of Financial and
+    Quantitative Analysis, 8, 407-444.
+
+[19] Granger, C. W. J., Newbold, P. (1977): Forecasting Economic Time Series, Academic Press
+    Inc., London.
+
+[20] Granger, C. W. J. (1999): Empirical Modeling in Economics: Specification and Evaluation,
+    Cambridge University Press, New York.
+
+[21] Harvey, D. I., Leybourne, S. J., Newbold, P. (1997): “Testing the Equality of Prediction Mean
+    Squared Errors”, International Journal of Forecasting, 13, 281-291.
+
+[22] Hoover, K. D., Perez, S. J. (1999): “Data Mining Reconsidered: Encompassing and the
+    General-to-Specific Approach to Specification Search”, Econometrics Journal, 2, 167-191.
+
+[23] Inoue, A., Kilian, L. (2002): “In-Sample or Out-of-Sample Tests of Predictability: Which One
+    Should We Use?”, manuscript.
+
+[24] Leitch, G., Tanner, J. E. (1991): “Economic Forecast Evaluation: Profits Versus the Conven-
+    tional Error Measures”, American Economic Review, 81, 580-590.
+
+[25] Litterman, R. B. (1986): “Forecasting with Bayesian Vector Autoregressions - Five Years of
+    Experience”, Journal of Business and Economic Statistics, 4, 25-38.
+
+[26] Lopez, J. A. (2001): “Evaluation of Predictive Accuracy of Volatility Models”, Journal of
+    Forecasting, 20, 87-109
+
+[27] McCracken, M. W. (2000): “Robust Out-of-Sample Inference”, Journal of Econometrics, 99,
+    195-223.
+
+
+
+                                                 30
+[28] McCulloch, R., Rossi, P. E. (1990): “Posterior, Predictive and Utility-Based Approaches to
+    Testing the Arbitrage Pricing Theory”, Journal of Financial Economics, 28, 7-38.
+
+[29] McLeish, D. L. (1975): “A Maximal Inequality and Dependent Strong Laws”, Annals of Prob-
+    ability, 3, 826-836.
+
+[30] Mizon, G. E. (1995): “Progressive Modelling of Macroeconomic Time Series: The LSE Method-
+    ology”, in K. D. Hoover (eds.), Macroeconometrics: Developments, Tensions and Prospects,
+    107-170. Kluwer, Boston.
+
+[31] Newey, W. K., West, K. D. (1987): “A Simple, Positive Semidefinite, Heteroskedasticity and
+    Autocorrelation Consistent Covariance Matrix”, Econometrica, 55, 703-708.
+
+[32] Pesaran, M. H., Timmermann, A. (2002): “Model Instability and Choice of Observation Win-
+    dow”, manuscript.
+
+[33] Sims, C., Zha, T.: “Bayesian Methods for Dynamic Multivariate Models”, International Eco-
+    nomic Review, 39, 949-968.
+
+[34] Stinchcombe, M. B., White, H. (1998): “Consistent Specification Testing with Nuisance Pa-
+    rameters Present Only Under the Alternative”, Econometric Theory, 14, 295-325.
+
+[35] Stock, J. H. (1999): “Forecasting Economic Time Series”, forthcoming in B. Baltagi (eds.), A
+    Companion to Theoretical Econometrics, Blackwell Publishers, Oxford.
+
+[36] Stock, J. H., Watson, M. W. (2002): “Macroeconomic Forecasting Using Diﬀusion Indexes”,
+    Journal of Business and Economic Statistics, 20, 147-162.
+
+[37] West, K. D., Edison, H. J., Cho, D. (1993): “A Utility-Based Comparison of Some Models of
+    Exchange Rate Volatility”, Journal of International Economics, 35, 23-45.
+
+[38] West, K. D., McCracken, M. W. (1998): “Regression-Based Tests of Predictive Ability”, In-
+    ternational Economic Review, 39, 817-840.
+
+[39] West, K. D. (1996): “Asymptotic Inference about Predictive Ability”, Econometrica, 64, 1067-
+    1084.
+
+[40] White, H., Domowitz, I. (1984), “Nonlinear Regression with Dependent Observations”, Econo-
+    metrica, 52, 143-162.
+
+[41] White, H. (1994): Estimation, Inference and Specification Analysis, Cambridge University
+    Press, New York.
+
+
+
+                                                31
+[42] White, H. (2000): ‘A Reality Check for Data Snooping’, Econometrica, 68, 1097-1126.
+
+[43] White, H. (2001): Asymptotic Theory for Econometricians, Academic Press, San Diego.
+
+[44] Wooldridge, J. M., White, H. (1988): “Some Invariance Principles and Central Limit Theorems
+    for Dependent Heterogeneous Processes”, Econometric Theory, 4, 210-230.
+
+
+
+
+                                              32
+                     Table 1. Empirical size of nominal .1 tests
+                                                          m
+                     σ2          36           60          120        240         360
+                     .1         .098        .097         .097       .088        .093
+                     1          .089        .093         .094       .093        .095
+                     3          .098        .099         .096       .089        .096
+
+
+   Notes: The table reports the empirical size of the test of equal conditional predictive ability for
+a nominal size .1 for the Monte Carlo experiment described in Section 4.1. Entries represent the
+rejection frequencies over 10,000 Monte Carlo replications of the null hypothesis H0 : E[(Yt+1 −
+fˆm,t )2 − (Yt+1 − ĝm,t )2 |Ft ] = 0, where the forecasts fˆm,t , ĝm,t and the DGP are defined in Section
+4.1. Each cell corresponds to a pair of estimation window length m and variance of the DGP
+disturbances σ 2 .
+
+
+
+
+Figure 1: Power curves of the one-step CPA test in the Monte Carlo experiment discussed in Section
+4.2. Each curve represents the rejection frequencies over 10,000 Monte Carlo replications of the
+null hypothesis H0 : E[∆Lm,t+1 |Ft ] ≡ E[(Yt+1 − fˆm,t )2 − (Yt+1 − ĝm,t )2 |Ft ] = 0, where the forecasts
+fˆm,t , ĝm,t and the DGP are defined in Section 4.2. The DGP is such that E[∆Lm,t+1 |Ft ] = ρ∆Lm,t .
+The horizontal axis represents the AR coeﬃcient ρ. The total sample size is T = 368.
+
+
+
+
+                                                    33
+                                          Sequential vs. AR                                                   Bayesian shrinkage vs. AR
+                                   20                                                                  20
+
+
+
+                                   16                                                                  16
+      Predicted loss differences
+
+
+
+
+                                                                          Predicted loss differences
+                                   12                                                                  12
+
+
+
+                                    8                                                                   8
+
+
+
+                                    4                                                                   4
+
+
+
+                                    0                                                                   0
+
+
+
+                                   1972   1980      1988      1996                                     1972       1980      1988      1996
+
+
+
+
+Figure 2: The figure shows the sequences of predicted loss diﬀerences over the out-of-sample period
+{h0t α̂n }1998:11
+          t=1972:8 for 1-month ahead forecasts of industrial production, as described in section 5.3.
+The left panel shows the predicted loss diﬀerences for the sequential model selection versus the
+AR method and the right panel represents the loss diﬀerences for Bayesian shrinkage versus AR.
+The decision rule of section 3.4 specifies selecting the benchmark model when the loss diﬀerence is
+positive and the competitor model otherwise.
+
+
+
+
+                                                                     34
+     Table 2. Relative performance for absolute error loss function. Real variables
+                          Industrial production                               Personal income                                 Mfg & trade sales                         Nonag. employment
+     Bench      Seq.        Diff Ind   Bayes       AR            Seq.        Diff Ind    Bayes      AR             Seq.       Diff Ind   Bayes     AR        Seq.       Diff Ind    Bayes      AR
+                                                                                             A. Horizon = 1 month
+     Diff Ind   0.001                                            0.001                                             0.013                                     0.001
+                (0.00)−                                          (0.00)−                                           (0.00)−                                   (0.00)−
+     Bayes      0.000       0.109                                0.001       0.633                                 0.007      0.129                          0.000      0.090−
+                (0.00)−     (0.01)                               (0.00)−     (0.59)                                (0.00)−    (0.00)                         (0.00)−    (0.00)
+     AR         0.006       0.051      0.001                     0.035       0.011       0.173                     0.020      0.244      0.002               0.004      0.969       0.081
+                (0.01)−     (1.00)+    (1.00)+                   (0.06)−     (0.97)+     (1.00)                    (0.00)−    (0.89)     (0.99)+             (0.00)−    (0.39)      (0.75)+
+     RW         0.021       0.013      0.001       0.020         0.136       0.020       0.016      0.029          0.021      0.260      0.001     0.945     0.036      0.000       0.000      0.000
+                (0.02)−     (0.80)+    (0.83)+     (0.69)+       (0.15)      (0.82)+     (0.79)+    (0.68)+        (0.00)−    (0.97)     (0.97)+   (0.87)    (0.40)−    (0.76)+     (0.80)+    (0.92)+
+                                                                                            B. Horizon = 6 months
+     Diff Ind   0.016                                            0.000                                             0.000                                     0.000
+                (0.10)−                                          (0.00)−                                           (0.00)−                                   (0.01)−
+     Bayes      0.000       0.024                                0.000       0.082                                 0.000      0.381                          0.000      0.073
+                (0.03)−     (0.00)−                              (0.00)−     (0.00)−                               (0.00)−    (0.51)                         (0.00)−    (0.08)−
+     AR         0.695       0.346      0.013                     0.003       0.181       0.049                     0.007      0.007      0.004               0.020      0.194       0.083
+                (0.00)      (0.94)     (0.98)+                   (0.01)−     (0.82)      (0.99)+                   (0.00)−    (1.00)+    (1.00)+             (0.00)−    (0.84)      (0.92)+
+     RW         0.939       0.266      0.016       0.173         0.006       0.460       0.110      0.932          0.004      0.018      0.011     0.414     0.875      0.019       0.001      0.000
+
+
+
+
+35
+                (0.12)      (1.00)     (1.00)+     (0.99)        (0.01)−     (1.00)      (1.00)     (0.73)         (0.00)−    (1.00)+    (1.00)+   (0.00)    (0.58)     (0.99)+     (0.99)+    (1.00)+
+                                                                                           C. Horizon = 12 months
+     Diff Ind   0.000                                            0.003                                             0.000                                     0.000
+                (0.00)−                                          (0.00)−                                           (0.00)−                                   (0.00)−
+     Bayes      0.000       0.748                                0.001       0.085                                 0.000      0.236                          0.000      0.217
+                (0.00)−     (0.00)                               (0.00)−     (0.00)−                               (0.00)−    (0.18)                         (0.00)−    (0.04)
+     AR         0.062       0.112      0.042                     0.056       0.384       0.195                     0.006      0.042      0.003               0.117      0.384       0.138
+                (0.04)−     (1.00)     (1.00)+                   (0.00)−     (0.87)      (1.00)                    (0.07)−    (0.98)+    (1.00)+             (0.01)     (0.95)      (1.00)
+     RW         0.062       0.069      0.022       0.699         0.084       0.462       0.292      0.483          0.006      0.042      0.003     1.000     0.706      0.056       0.006      0.002
+                (0.07)−     (1.00)+    (1.00)+     (0.87)        (0.00)−     (0.90)      (1.00)     (0.52)         (0.07)−    (0.98)+    (1.00)+   (0.00)    (0.22)     (1.00)+     (1.00)+    (1.00)+
+
+
+     This table contains the results of pairwise tests of equal conditional predictive accuracy of the forecast methods described in section 5.1 for the real variables and for an absolute error
+     loss function. The entries in the table are the p-values of the tests of equal conditional predictive ability for the methods in the corresponding row and column.
+     The numbers within parentheses are the proportion of times the forecast method in the column outperformed the method in the row over the out-of-sample period, for forecast horizons
+     of 1, 6 and 12 months, according to the decision rule described in Section 3.4. The test function is ht = (1, |ef t | − |egt |).
+     An entry greater than .5 indicates that the method in the column outperformed the method in the row most of the time, and a plus sign represents significance at the 10% level.
+     An entry less than .5 means that the method in the column was outperformed by the method in the row and a minus sign indicates significance at the 10% level.
+     For example, for industrial production at the 1-month ahead horizon, the Bayesian shrinkage forecasts outperformed the AR forecasts 100% of the time and a p-value of
+     0.001 indicates that this superior performance was significant at typical levels of confidence.
+     Table 3. Relative performance for squared error loss function. Real variables
+                          Industrial production                             Personal income                                Mfg & trade sales                          Nonag. employment
+     Bench      Seq.        Diff Ind   Bayes       AR           Seq.       Diff Ind    Bayes      AR             Seq.       Diff Ind   Bayes     AR         Seq.       Diff Ind   Bayes      AR
+                                                                                           A. Horizon = 1 month
+     Diff Ind   0.026                                           0.004                                            0.100                                      0.171
+                (0.00)−                                         (0.02)−                                          (0.00)−                                    (0.00)
+     Bayes      0.020       0.080                               0.006      0.731                                 0.097      0.209                           0.153      0.552
+                (0.00)−     (0.02)−                             (0.02)−    (0.90)                                (0.00)−    (0.09)                          (0.00)     (0.16)
+     AR         0.034       0.040      0.001                    0.027      0.018       0.199                     0.090      0.094      0.001                0.220      0.241      0.066
+                (0.00)−     (0.91)+    (0.93)+                  (0.03)−    (0.97)+     (0.93)                    (0.00)−    (0.95)+    (0.97)+              (0.00)     (0.96)     (0.99)+
+     RW         0.043       0.049      0.004       0.163        0.108      0.002       0.003      0.023          0.090      0.101      0.001     0.984      0.133      0.000      0.000      0.000
+                (0.00)−     (0.81)+    (0.84)+     (0.78)       (0.07)     (0.86)+     (0.83)+    (0.80)+        (0.00)−    (0.95)     (0.96)+   (0.88)     (0.00)     (0.87)+    (0.92)+    (0.90)+
+                                                                                           B. Horizon = 6 months
+     Diff Ind   0.010                                           0.018                                            0.001                                      0.001
+                (0.05)−                                         (0.00)−                                          (0.00)−                                    (0.00)−
+     Bayes      0.003       0.432                               0.014      0.037                                 0.001      0.421                           0.000      0.257
+                (0.01)−     (0.00)                              (0.00)−    (0.00)−                               (0.00)−    (0.18)                          (0.00)−    (0.10)
+     AR         0.885       0.167      0.057                    0.031      0.098       0.020                     0.013      0.003      0.001                0.172      0.291      0.086
+                (0.01)      (0.98)     (0.98)+                  (0.00)−    (0.93)+     (1.00)+                   (0.00)−    (0.97)+    (1.00)+              (0.00)     (1.00)     (0.99)+
+     RW         0.654       0.154      0.038       0.193        0.035      0.124       0.024      0.591          0.012      0.006      0.003     0.476      0.951      0.017      0.004      0.001
+
+
+
+
+36
+                (0.30)      (0.98)     (0.99)+     (0.97)       (0.00)−    (1.00)      (0.99)+    (0.90)         (0.00)−    (0.98)+    (1.00)+   (0.00)     (0.02)     (0.98)+    (1.00)+    (0.98)+
+                                                                                          C. Horizon = 12 months
+     Diff Ind   0.003                                           0.006                                            0.000                                      0.000
+                (0.00)−                                         (0.00)−                                          (0.00)−                                    (0.00)−
+     Bayes      0.001       0.201                               0.003      0.044                                 0.000      0.189                           0.000      0.082
+                (0.00)−     (0.00)                              (0.00)−    (0.01)−                               (0.00)−    (0.05)                          (0.00)−    (0.01)−
+     AR         0.029       0.202      0.088                    0.028      0.314       0.095                     0.010      0.042      0.013                0.228      0.074      0.048
+                (0.02)−     (0.96)     (0.99)+                  (0.00)−    (0.94)      (1.00)+                   (0.03)−    (0.93)+    (0.97)+              (0.02)     (0.88)+    (0.97)+
+     RW         0.031       0.174      0.073       0.873        0.041      0.227       0.113      0.096          0.010      0.042      0.013     1.000      0.508      0.014      0.005      0.005
+                (0.05)−     (1.00)     (1.00)+     (0.01)       (0.00)−    (0.92)      (0.99)     (0.85)+        (0.03)−    (0.93)+    (0.97)+   (0.00)     (0.07)     (0.96)+    (0.99)+    (0.93)+
+
+
+     This table contains the results of pairwise tests of equal conditional predictive accuracy of the forecast methods described in section 5.1 for the real variables and for a squared error
+     loss function. The entries in the table are the p-values of the tests of equal conditional predictive ability for the methods in the corresponding row and column.
+     The numbers within parentheses are the proportion of times the forecast method in the column outperformed the method in the row over the out-of-sample period, for forecast horizons
+     of 1, 6 and 12 months, according to the decision rule described in Section 3.4. The test function is ht = (1, e2f t − e2gt ).
+     An entry greater than .5 indicates that the method in the column outperformed the method in the row most of the time, and a plus sign represents significance at the 10% level.
+     An entry less than .5 means that the method in the column was outperformed by the method in the row and a minus sign indicates significance at the 10% level.
+     For example, for industrial production at the 1-month ahead horizon, the Bayesian shrinkage forecasts outperformed the AR forecasts 93% of the time and a p-value of
+     0.001 indicates that this superior performance was significant at typical levels of confidence.
+     Table 4. Relative performance for absolute error loss function. Price indexes
+                                     CPI                                       CPI exc. food                                 Consumption deflator                         Producer price index
+     Bench      Seq.        Diff Ind   Bayes       AR            Seq.        Diff Ind    Bayes      AR             Seq.       Diff Ind   Bayes      AR         Seq.        Diff Ind   Bayes        AR
+                                                                                             A. Horizon = 1 month
+     Diff Ind   0.007                                            0.042                                             0.007                                       0.000
+                (0.00)−                                          (0.00)−                                           (0.01)−                                     (0.00)−
+     Bayes      0.024       0.292                                0.079       0.092                                 0.018      0.437                            0.004       0.097
+                (0.01)−     (0.86)                               (0.00)−     (0.97)                                (0.00)−    (0.92)                           (0.03)−     (0.99)
+     AR         0.011       0.493      0.698                     0.046       0.801       0.163                     0.004      0.979      0.407                 0.000       0.038      0.021
+                (0.00)−     (0.74)     (0.03)                    (0.00)−     (0.92)      (0.03)                    (0.00)−    (0.22)     (0.00)                (0.01)−     (0.32)     (0.00)
+     RW         0.047       0.344      0.671       0.384         0.144       0.123       0.752      0.148          0.094      0.080      0.218      0.057      0.001       0.168      0.432        0.066
+                (0.00)−     (0.95)     (0.82)      (0.79)        (0.00)      (1.00)      (1.00)     (1.00)         (0.06)−    (1.00)     (0.96)     (1.00)     (0.01)−     (0.78)     (0.26)       (0.85)
+                                                                                             B. Horizon = 6 months
+     Diff Ind   0.000                                            0.000                                             0.000                                       0.000
+                (0.00)−                                          (0.00)−                                           (0.01)−                                     (0.00)−
+     Bayes      0.406       0.000                                0.015       0.009                                 0.039      0.004                            0.353       0.000
+                (0.05)      (1.00)+                              (0.00)−     (1.00)+                               (0.05)−    (1.00)+                          (0.64)      (1.00)+
+     AR         0.006       0.135      0.000                     0.000       0.275       0.016                     0.000      0.396      0.003                 0.000       0.718      0.000
+                (0.00)−     (0.64)     (0.06)−                   (0.00)−     (0.78)      (0.08)−                   (0.00)−    (0.34)     (0.08)−               (0.00)−     (0.18)     (0.00)−
+     RW         0.800       0.000      0.008       0.000         0.205       0.000       0.002      0.000          0.895      0.000      0.000      0.000      0.809       0.000      0.648        0.000
+
+
+
+
+37
+                (0.91)      (1.00)+    (0.96)+     (0.97)+       (0.00)      (1.00)+     (1.00)+    (1.00)+        (0.82)     (1.00)+    (1.00)+    (1.00)+    (1.00)      (1.00)+    (0.99)       (1.00)+
+                                                                                            C. Horizon = 12 months
+     Diff Ind   0.000                                            0.000                                             0.000                                       0.000
+                (0.00)−                                          (0.01)−                                           (0.00)−                                     (0.00)−
+     Bayes      0.055       0.000                                0.007       0.000                                 0.001      0.000                            0.237       0.000
+                (0.00)−     (0.98)+                              (0.00)−     (0.98)+                               (0.00)−    (1.00)+                          (0.00)      (1.00)+
+     AR         0.004       0.292      0.552                     0.000       0.826       0.004                     0.000      0.330      0.041                 0.000       0.200      0.000
+                (0.00)−     (0.99)     (0.00)                    (0.00)−     (0.94)      (0.13)−                   (0.00)−    (0.93)     (0.00)−               (0.00)−     (0.55)     (0.00)−
+     RW         0.142       0.000      0.070       0.000         0.033       0.000       0.036      0.000          0.035      0.000      0.002      0.000      0.235       0.000      0.253        0.000
+                (0.00)      (0.98)+    (1.00)+     (1.00)+       (0.00)−     (1.00)+     (0.98)+    (0.98)+        (0.00)−    (1.00)+    (1.00)+    (1.00)+    (0.11)      (1.00)+    (0.92)       (1.00)+
+
+
+     This table contains the results of pairwise tests of equal conditional predictive accuracy of the forecast methods described in section 5.1 for the price indexes and for an absolute error
+     loss function. The entries in the table are the p-values of the tests of equal conditional predictive ability for the methods in the corresponding row and column.
+     The numbers within parentheses are the proportion of times the forecast method in the column outperformed the method in the row over the out-of-sample period, for forecast horizons
+     of 1, 6 and 12 months, according to the decision rule described in Section 3.4. The test function is ht = (1, |ef t | − |egt |).
+     An entry greater than .5 indicates that the method in the column outperformed the method in the row most of the time, and a plus sign represents significance at the 10% level.
+     An entry less than .5 means that the method in the column was outperformed by the method in the row and a minus sign indicates significance at the 10% level.
+     For example, for the Consumer price index at the 1-month ahead horizon, the sequential forecasts outperformed the AR forecasts 0% of the time and a p-value of 0.011
+     indicates that this superior performance was significant at typical levels of confidence.
+     Table 5. Relative performance for squared error loss function. Price indexes
+                                     CPI                                       CPI exc. food                                Consumption deflator                          Producer price index
+     Bench      Seq.        Diff Ind   Bayes       AR            Seq.        Diff Ind   Bayes       AR            Seq.        Diff Ind   Bayes     AR         Seq.         Diff Ind   Bayes      AR
+                                                                                             A. Horizon = 1 month
+     Diff Ind   0.175                                            0.175                                            0.071                                       0.000
+                (0.00)                                           (0.00)                                           (0.00)−                                     (0.02)−
+     Bayes      0.146       0.644                                0.139       0.570                                0.181       0.417                           0.046        0.067
+                (0.01)      (0.99)                               (0.00)      (0.99)                               (0.00)      (0.91)                          (0.01)−      (0.99)+
+     AR         0.192       0.124      0.721                     0.184       0.367      0.702                     0.072       0.479      0.489                0.000        0.161      0.047
+                (0.00)      (0.74)     (0.18)                    (0.00)      (0.94)     (0.06)                    (0.00)−     (0.55)     (0.03)               (0.02)−      (0.22)     (0.01)−
+     RW         0.193       0.385      0.389       0.452         0.183       0.275      0.360       0.387         0.150       0.057      0.118     0.053      0.240        0.109      0.578      0.098
+                (0.00)      (0.84)     (0.78)      (0.80)        (0.00)      (0.97)     (1.00)      (1.00)        (0.00)      (0.94)+    (0.88)    (0.91)+    (0.01)       (1.00)     (0.76)     (0.98)+
+                                                                                             B. Horizon = 6 months
+     Diff Ind   0.091                                            0.046                                            0.000                                       0.000
+                (0.00)−                                          (0.00)−                                          (0.00)−                                     (0.00)−
+     Bayes      0.261       0.002                                0.098       0.008                                0.008       0.010                           0.493        0.000
+                (0.00)      (0.99)+                              (0.00)−     (0.97)+                              (0.03)−     (1.00)+                         (0.51)       (0.99)+
+     AR         0.146       0.082      0.055                     0.064       0.090      0.061                     0.000       0.149      0.048                0.000        0.809      0.000
+                (0.00)      (0.82)+    (0.02)−                   (0.00)−     (0.91)+    (0.01)−                   (0.00)−     (0.37)     (0.09)−              (0.00)−      (0.82)     (0.01)−
+     RW         0.935       0.000      0.004       0.000         0.122       0.002      0.023       0.002         0.796       0.000      0.000     0.000      0.554        0.003      0.404      0.003
+
+
+
+
+38
+                (0.00)      (1.00)+    (0.96)+     (1.00)+       (0.00)      (0.98)+    (0.99)+     (0.98)+       (0.48)      (1.00)+    (0.99)+   (1.00)+    (0.95)       (1.00)+    (0.97)     (1.00)+
+                                                                                            C. Horizon = 12 months
+     Diff Ind   0.050                                            0.025                                            0.028                                       0.000
+                (0.00)−                                          (0.01)−                                          (0.00)−                                     (0.00)−
+     Bayes      0.271       0.000                                0.083       0.003                                0.042       0.000                           0.367        0.000
+                (0.00)      (0.98)+                              (0.01)−     (0.98)+                              (0.00)−     (1.00)+                         (0.00)       (1.00)+
+     AR         0.224       0.059      0.634                     0.040       0.421      0.074                     0.032       0.372      0.049                0.001        0.152      0.000
+                (0.00)      (0.98)+    (0.06)                    (0.01)−     (1.00)     (0.08)−                   (0.00)−     (0.98)     (0.02)−              (0.00)−      (0.83)     (0.01)−
+     RW         0.557       0.000      0.005       0.000         0.087       0.002      0.055       0.000         0.097       0.000      0.000     0.000      0.484        0.001      0.187      0.000
+                (0.03)      (1.00)+    (0.99)+     (0.99)+       (0.01)−     (1.00)+    (0.98)+     (1.00)+       (0.00)−     (1.00)+    (0.99)+   (1.00)+    (0.08)       (1.00)+    (0.96)     (1.00)+
+
+
+     This table contains the results of pairwise tests of equal conditional predictive accuracy of the forecast methods described in section 5.1 for the price indexes and for a squared error
+     loss function. The entries in the table are the p-values of the tests of equal conditional predictive ability for the methods in the corresponding row and column.
+     The numbers within parentheses are the proportion of times the forecast method in the column outperformed the method in the row over the out-of-sample period, for forecast horizons
+     of 1, 6 and 12 months, according to the decision rule described in Section 3.4. The test function is ht = (1, e2f t − e2gt ).
+     An entry greater than .5 indicates that the method in the column outperformed the method in the row most of the time, and a plus sign represents significance at the 10% level.
+     An entry less than .5 means that the method in the column was outperformed by the method in the row and a minus sign indicates significance at the 10% level.
+     For example, for the Producer price index at the 1-month ahead horizon, the sequential forecasts outperformed the diffusion index forecasts 2% of the time and a p-value of
+     0.000 indicates that this superior performance was significant at typical levels of confidence.
+

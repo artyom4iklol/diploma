@@ -1,0 +1,26 @@
+{
+  "origins": 64,
+  "evaluated_h1": 63,
+  "evaluated_h4": 60,
+  "esi_months_checked": 128,
+  "esi_release_archive": 128,
+  "esi_calendar_only": 0,
+  "esi_all_first_two_months_before_deadline": true,
+  "gdp_origins_with_actual_regular_release": 64,
+  "gdp_origins_without_exact_release": 0,
+  "gdp_release_dates_from_verified_older_publications": 30,
+  "gdp_release_dates_from_triangle": 34,
+  "nfci_prelaunch_origins": [
+    "2010Q1",
+    "2010Q2",
+    "2010Q3",
+    "2010Q4",
+    "2011Q1"
+  ],
+  "nfci_last_observation_release_catalogue_matches": 58,
+  "nfci_vintage_dates_in_separate_diagnostic": 59,
+  "fully_real_time_verified_origins": 0,
+  "training_pairs": 10431,
+  "training_cutoffs_passed": true,
+  "verdict": "Publication dates verified; NOT full real-time reconstruction. Exact historical values of GDP EA20, ESI and CISS are not all recovered. NFCI vintages are a separate partial diagnostic."
+}
