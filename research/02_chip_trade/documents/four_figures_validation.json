@@ -1,0 +1,46 @@
+{
+  "source_numeric_cells": 954,
+  "numeric_values_changed": false,
+  "matrices": [
+    {
+      "file": "10_product_destination.png",
+      "sha256": "8cfc42050fc241f286bc04281deea0aa2fcb11fc6679ee68f75ee254e6fb25c2",
+      "numeric_cells": 72,
+      "values_sha256": "931f4bb8cd9beda6faf73de3f7d7c326398efb2ea8f04a17fa1aabf6910c02a4"
+    },
+    {
+      "file": "21_cell_expansion.png",
+      "sha256": "e9aec77686d75eff707743f216a7684f359821f246ef35c4068c2f2c4a359fa7",
+      "numeric_cells": 48,
+      "values_sha256": "8676f84842ddea610791973881a8c677c1dcb9d4edfc9f935f28b01fe7a2cde2"
+    },
+    {
+      "file": "24_destination_correlations_part1.png",
+      "sha256": "b7e80ebe85bccfc0389a5833f50b027692717290b8ae3b5118fa484e215e24b4",
+      "numeric_cells": 81,
+      "values_sha256": "9079f4c256834f1587b85ddecdfd59a34f8c16f59de8e180f4b1c8b287143eec"
+    },
+    {
+      "file": "24_destination_correlations_part2.png",
+      "sha256": "1af1d32f6a696099021e7140e81df912d581a7cff94c42def7e392bb035ca320",
+      "numeric_cells": 81,
+      "values_sha256": "19fa745ad333afc4e862314442b36677c77d33f89789c9722c6261a63e211edb"
+    },
+    {
+      "file": "23_monthly_product_growth.png",
+      "sha256": "cf5ddaadf55e714381e973244202637dbab3f8675887755934288f40e29b3359",
+      "numeric_cells": 672,
+      "values_sha256": "e242319bae2e8417cd8d5c4571ab89bcf0910b71c0e7385f38bd3c0dc1a2466a"
+    }
+  ],
+  "body_font_pt_min": 8.5,
+  "global_titles": false,
+  "correlation_split_by_country": true,
+  "cell_outline_threshold_percent": 100,
+  "source_csv_sha256": {
+    "10_product_destination.csv": "ffe48d0132a11396199146b60dbd269aeb294aa3dce7a9d776ec1b29eb9bd7fa",
+    "21_cell_expansion.csv": "ac28c14f5516f3537b5d5f7a50094a60ec236ead1cd5535b4f8b190b71ecf3a3",
+    "23_monthly_product_growth.csv": "d6c2ff313107c2e7dbc921b26d6e4de15e62a240be8181fb5d976f7e4abde209",
+    "24_destination_correlations.csv": "d85f527e8275fd1a888029f1052ed646e4290fd8fd18c22335b8eb48ec6fbe9f"
+  }
+}

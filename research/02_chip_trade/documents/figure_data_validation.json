@@ -299,8 +299,8 @@
   "archive_sha256": "ae15a84337e08462e1fe2f297838b9cce397decff0b822c77e7fec5e95e6de76",
   "visual_review": "All 30 originals and all rendered thesis pages inspected; final layout reviewed separately.",
   "final_document": {
-    "sha256": "80298dbb3ffeb761503833be6bf8c72428669ed8e0b29e7633a1f20cf0511b56",
-    "pages": 108,
+    "sha256": "20e8828da8823155d481537e47aa065de520b4d1837a113942457202d580d816",
+    "pages": 110,
     "figures": [
       {
         "caption": "Рисунок 1.1 — Международная цепочка создания интегральных схем",
@@ -340,98 +340,145 @@
       },
       {
         "caption": "Рисунок 2.7 — Географическая структура экспорта внутри товарных групп в 2024 году, %",
-        "page": 42
+        "page": 43
       },
       {
         "caption": "Рисунок 2.8 — Динамика экспорта в двух сопоставляемых эпизодах",
-        "page": 44
+        "page": 45
       },
       {
         "caption": "Рисунок 2.9 — Стандартное отклонение четырех условных структур экспорта",
-        "page": 46
+        "page": 47
       },
       {
         "caption": "Рисунок 2.10 — Товарный и географический вклады в изменение условной дисперсии",
-        "page": 48
+        "page": 49
       },
       {
         "caption": "Рисунок 2.11 — Доля памяти и состав продукции вне памяти в товарном вкладе",
-        "page": 50
-      },
-      {
-        "caption": "Рисунок 2.12 — Собственные дисперсии и ковариации в географическом вкладе",
         "page": 51
       },
       {
+        "caption": "Рисунок 2.12 — Собственные дисперсии и ковариации в географическом вкладе",
+        "page": 52
+      },
+      {
         "caption": "Рисунок 2.13 — Детализация географического вклада по направлениям",
-        "page": 53
+        "page": 54
       },
       {
         "caption": "Рисунок 2.14 — Чувствительность изменения стандартного отклонения к исключению одного года",
-        "page": 57
+        "page": 58
       },
       {
         "caption": "Рисунок 3.1 — Сдвиг доли памяти и изменение условного стандартного отклонения",
-        "page": 62
-      },
-      {
-        "caption": "Рисунок 3.2 — Необходимое расширение экспорта продукции вне памяти",
         "page": 63
       },
       {
+        "caption": "Рисунок 3.2 — Необходимое расширение экспорта продукции вне памяти",
+        "page": 64
+      },
+      {
         "caption": "Рисунок 3.3 — Сопоставление географических сценариев с пропорциональным расширением",
-        "page": 73
+        "page": 74
       },
       {
         "caption": "Рисунок 3.4 — Требуемое расширение ячеек «товар — рынок», %; цветовая шкала log(1 + рост)",
-        "page": 75
+        "page": 76
       },
       {
         "caption": "Рисунок 3.5 — Этапы отбора, проверки и реализации экспортного проекта",
-        "page": 80
+        "page": 81
       },
       {
         "caption": "Рисунок Б.1 — Корреляции годовых темпов роста направлений экспорта: коэффициент Пирсона, 2018–2024 гг.",
-        "page": 92
-      },
-      {
-        "caption": "Рисунок Б.2 — Поставки от товарных групп к направлениям экспорта в 2024 году, млрд долл. США",
         "page": 93
       },
       {
-        "caption": "Рисунок В.1 — Основные оценки и 95%-е интервалы при бутстреп-блоках 6 и 12 месяцев",
+        "caption": "Рисунок Б.2 — Поставки от товарных групп к направлениям экспорта в 2024 году, млрд долл. США",
         "page": 95
       },
       {
+        "caption": "Рисунок В.1 — Основные оценки и 95%-е интервалы при бутстреп-блоках 6 и 12 месяцев",
+        "page": 97
+      },
+      {
         "caption": "Рисунок В.2 — Основная оценка и вклады на двух исторических окнах",
-        "page": 96
+        "page": 98
       },
       {
         "caption": "Рисунок Д.1 — Месячные годовые темпы роста экспорта по товарным группам",
-        "page": 100
+        "page": 102
       },
       {
         "caption": "Рисунок Д.2 — Временные ряды условных индексов при структурах 2017 и 2024 годов",
-        "page": 101
+        "page": 103
       },
       {
         "caption": "Рисунок Е.1 — Сверка сумм месячных и годовых данных",
-        "page": 104
+        "page": 106
       },
       {
         "caption": "Рисунок Ж.1 — Чувствительность сценариев доли памяти к историческому окну",
-        "page": 107
+        "page": 109
       }
     ],
     "logical_figures": 30,
-    "image_panels": 32,
-    "visual_review": "All 108 pages and 32 image panels reviewed; final TOC separately rendered and verified."
+    "image_panels": 33,
+    "visual_review": "All 110 pages reviewed, enlarged figure pages checked individually; final TOC rendered separately and verified."
   },
-  "title_removal_validation": {
+  "four_figures_print_redesign": {
+    "source_numeric_cells": 954,
+    "numeric_values_changed": false,
+    "matrices": [
+      {
+        "file": "10_product_destination.png",
+        "sha256": "8cfc42050fc241f286bc04281deea0aa2fcb11fc6679ee68f75ee254e6fb25c2",
+        "numeric_cells": 72,
+        "values_sha256": "931f4bb8cd9beda6faf73de3f7d7c326398efb2ea8f04a17fa1aabf6910c02a4"
+      },
+      {
+        "file": "21_cell_expansion.png",
+        "sha256": "e9aec77686d75eff707743f216a7684f359821f246ef35c4068c2f2c4a359fa7",
+        "numeric_cells": 48,
+        "values_sha256": "8676f84842ddea610791973881a8c677c1dcb9d4edfc9f935f28b01fe7a2cde2"
+      },
+      {
+        "file": "24_destination_correlations_part1.png",
+        "sha256": "b7e80ebe85bccfc0389a5833f50b027692717290b8ae3b5118fa484e215e24b4",
+        "numeric_cells": 81,
+        "values_sha256": "9079f4c256834f1587b85ddecdfd59a34f8c16f59de8e180f4b1c8b287143eec"
+      },
+      {
+        "file": "24_destination_correlations_part2.png",
+        "sha256": "1af1d32f6a696099021e7140e81df912d581a7cff94c42def7e392bb035ca320",
+        "numeric_cells": 81,
+        "values_sha256": "19fa745ad333afc4e862314442b36677c77d33f89789c9722c6261a63e211edb"
+      },
+      {
+        "file": "23_monthly_product_growth.png",
+        "sha256": "cf5ddaadf55e714381e973244202637dbab3f8675887755934288f40e29b3359",
+        "numeric_cells": 672,
+        "values_sha256": "e242319bae2e8417cd8d5c4571ab89bcf0910b71c0e7385f38bd3c0dc1a2466a"
+      }
+    ],
+    "body_font_pt_min": 8.5,
+    "global_titles": false,
+    "correlation_split_by_country": true,
+    "cell_outline_threshold_percent": 100,
+    "source_csv_sha256": {
+      "10_product_destination.csv": "ffe48d0132a11396199146b60dbd269aeb294aa3dce7a9d776ec1b29eb9bd7fa",
+      "21_cell_expansion.csv": "ac28c14f5516f3537b5d5f7a50094a60ec236ead1cd5535b4f8b190b71ecf3a3",
+      "23_monthly_product_growth.csv": "d6c2ff313107c2e7dbc921b26d6e4de15e62a240be8181fb5d976f7e4abde209",
+      "24_destination_correlations.csv": "d85f527e8275fd1a888029f1052ed646e4290fd8fd18c22335b8eb48ec6fbe9f"
+    }
+  },
+  "title_removal_stage_validation": {
     "deleted_title_strips": 25,
     "already_without_global_titles": 5,
     "remaining_pixels_identical": true,
     "numeric_values_unchanged": true,
-    "caption_metadata_preserved": true
+    "caption_metadata_preserved": true,
+    "scope": "Historical title-removal stage before four figures were regenerated for print readability."
   }
 }
