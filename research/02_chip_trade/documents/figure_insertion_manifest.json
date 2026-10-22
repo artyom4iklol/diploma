@@ -1,6 +1,6 @@
 {
   "base_sha256": "470b33adfedce0f5d8119dad2f8939ee7216c00e0a86465a7ca287bc710359e0",
-  "output_sha256": "7fd23ae2686dab086abc8a0871f85dff06fd5fc60806b2ecea1594072bd62eea",
+  "output_sha256": "80298dbb3ffeb761503833be6bf8c72428669ed8e0b29e7633a1f20cf0511b56",
   "figures": [
     {
       "archive_number": 1,
@@ -10,8 +10,10 @@
       "images": [
         {
           "file": "01_value_chain.png",
-          "sha256": "59abb9c2335137042c150f09bccab3d43918e2e7b2dd0af122d4392c8fd8b3f4",
-          "width_cm": 16.5
+          "sha256": "97d2a3b00196009f0818372fb7616ac745704a7434f3004848258518fe4a6ab2",
+          "width_cm": 16.5,
+          "previous_sha256": "59abb9c2335137042c150f09bccab3d43918e2e7b2dd0af122d4392c8fd8b3f4",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -23,21 +25,25 @@
       "images": [
         {
           "file": "02_structure_mechanism.png",
-          "sha256": "c928e4ae66043f4829d434163000fe47660d2029ba5998828adaa77ad90e2171",
-          "width_cm": 16.5
+          "sha256": "7f259c91f2d220b31bab72811e1e4005132e2b46d78f009626fd91d9c6dd1b89",
+          "width_cm": 16.5,
+          "previous_sha256": "c928e4ae66043f4829d434163000fe47660d2029ba5998828adaa77ad90e2171",
+          "removed_top_pixels": 220
         }
       ]
     },
     {
       "archive_number": 3,
       "number": "1.3",
-      "caption": "Число рынков и корреляция экспортных потоков",
+      "caption": "Число рынков и корреляция экспортных потоков при равных весах и индивидуальном стандартном отклонении 10 п.п.",
       "source_anchor": 93,
       "images": [
         {
           "file": "03_diversification_example.png",
-          "sha256": "593f6c1fc25a83a772d6a7c15f83284c44c066c7ba826109ad3cc8aeb6637673",
-          "width_cm": 16.5
+          "sha256": "0342f96039060f23b719d8ee7542d16949d8cea87c911572c1e60cba21b4fa22",
+          "width_cm": 16.5,
+          "previous_sha256": "593f6c1fc25a83a772d6a7c15f83284c44c066c7ba826109ad3cc8aeb6637673",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -49,8 +55,10 @@
       "images": [
         {
           "file": "04_export_value_growth.png",
-          "sha256": "76fa3d84db67e96f25177db918d8c3c13b2c4f7ac103c6e707e57cd6ac3f704d",
-          "width_cm": 16.5
+          "sha256": "221a0dc5d70c4c70133ba04621d2bdf5b1ec913d807f9c1dfef278893c4d158d",
+          "width_cm": 16.5,
+          "previous_sha256": "76fa3d84db67e96f25177db918d8c3c13b2c4f7ac103c6e707e57cd6ac3f704d",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -62,8 +70,10 @@
       "images": [
         {
           "file": "05_product_export_indices.png",
-          "sha256": "fc34005c7207ef4a1d283bf728bbae74717c85366e5d81cb3693142beae4a42f",
-          "width_cm": 16.5
+          "sha256": "cba2328d6f2a47b5b3eed45ffb802e8a46b6c7dbedc87b7acc76198a7c0d8e3f",
+          "width_cm": 16.5,
+          "previous_sha256": "fc34005c7207ef4a1d283bf728bbae74717c85366e5d81cb3693142beae4a42f",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -75,8 +85,10 @@
       "images": [
         {
           "file": "06_product_shares.png",
-          "sha256": "eaf1e7f573fabac6c69537c6431f92f45e7e91b7f0a2bf1698ab85016fa6b26b",
-          "width_cm": 16.5
+          "sha256": "909177cbbceb6159c5b12f53a160d7e8a7bd345292c4e692ce750cedbcf0b637",
+          "width_cm": 16.5,
+          "previous_sha256": "eaf1e7f573fabac6c69537c6431f92f45e7e91b7f0a2bf1698ab85016fa6b26b",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -88,8 +100,10 @@
       "images": [
         {
           "file": "07_export_waterfall.png",
-          "sha256": "425b147b134bdfd69e3fef7e4ea6aeb52ee8daaa9fcb8153fd757fee50eab649",
-          "width_cm": 16.5
+          "sha256": "c139a1da7e8eda76d089b935b6efdc6d2b70f75a016e9a3d93c7a911d1c29a40",
+          "width_cm": 16.5,
+          "previous_sha256": "425b147b134bdfd69e3fef7e4ea6aeb52ee8daaa9fcb8153fd757fee50eab649",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -101,8 +115,10 @@
       "images": [
         {
           "file": "08_concentration.png",
-          "sha256": "cc337cbc0be25223acb702132c7448a8f92b45111202a56b484bf15a1c305bdb",
-          "width_cm": 16.5
+          "sha256": "5852c080d3061cf2006b798c13256bafb96311e653a5831e377ce1a35f10d86a",
+          "width_cm": 16.5,
+          "previous_sha256": "cc337cbc0be25223acb702132c7448a8f92b45111202a56b484bf15a1c305bdb",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -114,21 +130,25 @@
       "images": [
         {
           "file": "09_destination_shares.png",
-          "sha256": "de03baa01b30065dbbe762ef04733b822717828cbab677b4a89a6bf793f56e98",
-          "width_cm": 16.5
+          "sha256": "92ed2d349f8e24b871744e9b07e18dc8d4eb294aa636c62378eb56097a3c5761",
+          "width_cm": 16.5,
+          "previous_sha256": "de03baa01b30065dbbe762ef04733b822717828cbab677b4a89a6bf793f56e98",
+          "removed_top_pixels": 220
         }
       ]
     },
     {
       "archive_number": 10,
       "number": "2.7",
-      "caption": "Географическая структура экспорта внутри товарных групп",
+      "caption": "Географическая структура экспорта внутри товарных групп в 2024 году, %",
       "source_anchor": 200,
       "images": [
         {
           "file": "10_product_destination.png",
-          "sha256": "ffcba8bdfabfb27137cfd38e76358cbecd1de76c36e8089e0cd48eb8357561fa",
-          "width_cm": 16.5
+          "sha256": "c8e48b35edf4c47261edd94de73a522203f9f8ec4a94d81cc4475597244fde82",
+          "width_cm": 16.5,
+          "previous_sha256": "ffcba8bdfabfb27137cfd38e76358cbecd1de76c36e8089e0cd48eb8357561fa",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -140,8 +160,10 @@
       "images": [
         {
           "file": "11_export_episodes.png",
-          "sha256": "962cd2a758fad3d1aa40f45281f8a0f256914e6be282548af970e99bf9ebe845",
-          "width_cm": 16.5
+          "sha256": "40282e7ff31bfaf901723251901c7c8e5f68d23ff4b1340bfea3d4244714406c",
+          "width_cm": 16.5,
+          "previous_sha256": "962cd2a758fad3d1aa40f45281f8a0f256914e6be282548af970e99bf9ebe845",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -153,8 +175,10 @@
       "images": [
         {
           "file": "12_four_structures.png",
-          "sha256": "498f260e7a3d5f4f95eb92874b447d8535152a0ad7d72b28a11f7d25d988f7f1",
-          "width_cm": 16.5
+          "sha256": "6aab3b5464273698afd732ed20cd15a547cfeb3eac7891ad230088044515b3af",
+          "width_cm": 16.5,
+          "previous_sha256": "498f260e7a3d5f4f95eb92874b447d8535152a0ad7d72b28a11f7d25d988f7f1",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -166,8 +190,10 @@
       "images": [
         {
           "file": "13_shapley_waterfall.png",
-          "sha256": "175be773128aa7a988213329ab60dbc305e21aec6a22c1de6ff0691f0ea25169",
-          "width_cm": 16.5
+          "sha256": "d09133b4608dfd5b0d8c3d98f7f566eeb6b93b7e8a5fc82a8226f8d7f39cf797",
+          "width_cm": 16.5,
+          "previous_sha256": "175be773128aa7a988213329ab60dbc305e21aec6a22c1de6ff0691f0ea25169",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -179,8 +205,10 @@
       "images": [
         {
           "file": "14_memory_composition.png",
-          "sha256": "40f2adf21e490fb07fc1bbfaf3e34ab707868869c31c837e0024e79543c28400",
-          "width_cm": 16.5
+          "sha256": "fa33f5e540c725b04cf2decad0e5c252161b5ebc43bd644783809a339582ed8b",
+          "width_cm": 16.5,
+          "previous_sha256": "40f2adf21e490fb07fc1bbfaf3e34ab707868869c31c837e0024e79543c28400",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -192,8 +220,10 @@
       "images": [
         {
           "file": "15_geographic_components.png",
-          "sha256": "121c9f5c3691677b057fcf8bace00ef6d13d5a17330305d22e429867196cca26",
-          "width_cm": 16.5
+          "sha256": "6ddd1a8612e2fcd39d0b34d84c56aaa621d9189bc795bfb16b72440d3f873d8f",
+          "width_cm": 16.5,
+          "previous_sha256": "121c9f5c3691677b057fcf8bace00ef6d13d5a17330305d22e429867196cca26",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -205,8 +235,10 @@
       "images": [
         {
           "file": "16_destination_contributions.png",
-          "sha256": "df330bd97cab0d44b995aeb7387566ddee6eea74b46e90ad1db62526f8c2571d",
-          "width_cm": 16.5
+          "sha256": "f920faf083a08653eb2b072e2dbe88125ec77215202891553d772c247a5da395",
+          "width_cm": 16.5,
+          "previous_sha256": "df330bd97cab0d44b995aeb7387566ddee6eea74b46e90ad1db62526f8c2571d",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -218,8 +250,10 @@
       "images": [
         {
           "file": "17_leave_one_year_out.png",
-          "sha256": "9bfec6672100f17e44675334247632f8ca9c9f43ccaa59305796b4f8148203f5",
-          "width_cm": 16.5
+          "sha256": "e883927f93e46d25d19894a91e2cf16365cbac69744f1bc4ff01cd158bd2030a",
+          "width_cm": 16.5,
+          "previous_sha256": "9bfec6672100f17e44675334247632f8ca9c9f43ccaa59305796b4f8148203f5",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -232,7 +266,9 @@
         {
           "file": "18_memory_scenarios.png",
           "sha256": "b636c698b4ddb9b87af54a6c9b91dbc45cfa69f22657563dc8d4efd8720bffe7",
-          "width_cm": 16.5
+          "width_cm": 16.5,
+          "previous_sha256": "b636c698b4ddb9b87af54a6c9b91dbc45cfa69f22657563dc8d4efd8720bffe7",
+          "removed_top_pixels": 0
         }
       ]
     },
@@ -244,8 +280,10 @@
       "images": [
         {
           "file": "19_nonmemory_expansion.png",
-          "sha256": "15ef011b03d78aeb1ac2dde83384a31a8db31185dc4d9c68ce434f3e738ce14b",
-          "width_cm": 16.5
+          "sha256": "ddd93109ca8642e1b4547d54837d1501b39ce184eb92178182499d2a84567c6f",
+          "width_cm": 16.5,
+          "previous_sha256": "15ef011b03d78aeb1ac2dde83384a31a8db31185dc4d9c68ce434f3e738ce14b",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -258,20 +296,24 @@
         {
           "file": "20_geographic_scenarios.png",
           "sha256": "ab69f9a02c9d82ebdbd26d4f3767e300e437a362a133222b042bcdf0821da7a3",
-          "width_cm": 16.5
+          "width_cm": 16.5,
+          "previous_sha256": "ab69f9a02c9d82ebdbd26d4f3767e300e437a362a133222b042bcdf0821da7a3",
+          "removed_top_pixels": 0
         }
       ]
     },
     {
       "archive_number": 21,
       "number": "3.4",
-      "caption": "Требуемое расширение ячеек «товар — рынок»",
+      "caption": "Требуемое расширение ячеек «товар — рынок», %; цветовая шкала log(1 + рост)",
       "source_anchor": 343,
       "images": [
         {
           "file": "21_cell_expansion.png",
-          "sha256": "b053e5f1514f288ec9727046cb93f4988267fe4bd360cf3214f46d05d80769cd",
-          "width_cm": 16.5
+          "sha256": "915fc929a902f1eeaa3322b6738e85a96d800278aebba30cdc197a69f1ae8a48",
+          "width_cm": 16.5,
+          "previous_sha256": "b053e5f1514f288ec9727046cb93f4988267fe4bd360cf3214f46d05d80769cd",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -283,47 +325,55 @@
       "images": [
         {
           "file": "22_project_stages.png",
-          "sha256": "f143a428914dfd48f5386d3af9d2606c122d07bf375f05fea7f11c4e884e06eb",
-          "width_cm": 16.5
+          "sha256": "a51d0ce9036d666ace6bfe1c46e738f7beb3c0edc897a7a679ad8c9530aff1a4",
+          "width_cm": 16.5,
+          "previous_sha256": "f143a428914dfd48f5386d3af9d2606c122d07bf375f05fea7f11c4e884e06eb",
+          "removed_top_pixels": 220
         }
       ]
     },
     {
       "archive_number": 24,
       "number": "Б.1",
-      "caption": "Корреляции годовых темпов роста направлений экспорта",
+      "caption": "Корреляции годовых темпов роста направлений экспорта: коэффициент Пирсона, 2018–2024 гг.",
       "source_anchor": 461,
       "images": [
         {
           "file": "24_destination_correlations.png",
-          "sha256": "4027b1d9682aeaf817b1fd275a1981fbe83eac44f40fb2a7222faa7aae6aa57f",
-          "width_cm": 16.5
+          "sha256": "129e67587778b60c4d72988f80288ec0d09904ae44909777fe12997d0090242a",
+          "width_cm": 16.5,
+          "previous_sha256": "4027b1d9682aeaf817b1fd275a1981fbe83eac44f40fb2a7222faa7aae6aa57f",
+          "removed_top_pixels": 220
         }
       ]
     },
     {
       "archive_number": 26,
       "number": "Б.2",
-      "caption": "Поставки от товарных групп к направлениям экспорта в 2024 году",
+      "caption": "Поставки от товарных групп к направлениям экспорта в 2024 году, млрд долл. США",
       "source_anchor": 461,
       "images": [
         {
           "file": "26_trade_flows.png",
-          "sha256": "64a87768f365b9203600a727d01fd2438de2bf7aeb8eea89d3c5cfde39cb2dc0",
-          "width_cm": 16.5
+          "sha256": "da739e0017766cb91715f4545d3b7c4ccd43ded3d4b273be9ea056ccd8188d64",
+          "width_cm": 16.5,
+          "previous_sha256": "64a87768f365b9203600a727d01fd2438de2bf7aeb8eea89d3c5cfde39cb2dc0",
+          "removed_top_pixels": 220
         }
       ]
     },
     {
       "archive_number": 27,
       "number": "В.1",
-      "caption": "Основные оценки и интервалы при бутстреп-блоках 6 и 12 месяцев",
+      "caption": "Основные оценки и 95%-е интервалы при бутстреп-блоках 6 и 12 месяцев",
       "source_anchor": 468,
       "images": [
         {
           "file": "27_bootstrap_blocks.png",
-          "sha256": "64f424d9dd3f750ff551cf8977518e5cdeec12590e4790a4f42130d050517fb3",
-          "width_cm": 16.5
+          "sha256": "8328ff82533982e8ca3d2fc64ad7c3b6a1fb035adf8b5fe25609136fb21f308f",
+          "width_cm": 16.5,
+          "previous_sha256": "64f424d9dd3f750ff551cf8977518e5cdeec12590e4790a4f42130d050517fb3",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -336,12 +386,16 @@
         {
           "file": "28_covariance_windows_part1.png",
           "sha256": "392e4ba1518af8111aba2ac28d45732d37df1a76abd1e77117c01cf25673863c",
-          "width_cm": 16.356862745098038
+          "width_cm": 16.356862745098038,
+          "previous_sha256": "392e4ba1518af8111aba2ac28d45732d37df1a76abd1e77117c01cf25673863c",
+          "removed_top_pixels": 0
         },
         {
           "file": "28_covariance_windows_part2.png",
           "sha256": "8209707bd6e3eff7810fcdee0420976433daa9b4e1c4b8b8bbf94b6017d2d907",
-          "width_cm": 16.356862745098038
+          "width_cm": 16.356862745098038,
+          "previous_sha256": "8209707bd6e3eff7810fcdee0420976433daa9b4e1c4b8b8bbf94b6017d2d907",
+          "removed_top_pixels": 0
         }
       ]
     },
@@ -353,8 +407,10 @@
       "images": [
         {
           "file": "23_monthly_product_growth.png",
-          "sha256": "1baabd30ebe4d65a223c5cff796f2d36411346477431f4057d232bee99427d45",
-          "width_cm": 16.5
+          "sha256": "b66fdab7c9e029a39db6351ddb4cb04b1792c53ccdda39e86d64d3a60ab6d403",
+          "width_cm": 16.5,
+          "previous_sha256": "1baabd30ebe4d65a223c5cff796f2d36411346477431f4057d232bee99427d45",
+          "removed_top_pixels": 220
         }
       ]
     },
@@ -367,7 +423,9 @@
         {
           "file": "25_conditional_series.png",
           "sha256": "afe635eefdfd6dee9fbe6452efaefab36aee416e4f81c0dfddee19e94953b9f1",
-          "width_cm": 16.5
+          "width_cm": 16.5,
+          "previous_sha256": "afe635eefdfd6dee9fbe6452efaefab36aee416e4f81c0dfddee19e94953b9f1",
+          "removed_top_pixels": 0
         }
       ]
     },
@@ -380,12 +438,16 @@
         {
           "file": "30_annual_monthly_check_part1.png",
           "sha256": "e922b5065267cc52290a91ff53201965b90bc4435dba4b0e7d42a8ec71f1b0c6",
-          "width_cm": 15.739622641509435
+          "width_cm": 15.739622641509435,
+          "previous_sha256": "e922b5065267cc52290a91ff53201965b90bc4435dba4b0e7d42a8ec71f1b0c6",
+          "removed_top_pixels": 0
         },
         {
           "file": "30_annual_monthly_check_part2.png",
           "sha256": "10cefc5324745f61c610327d704821a78bebb977c79e786cb3c92c689b8b3b51",
-          "width_cm": 15.739622641509435
+          "width_cm": 15.739622641509435,
+          "previous_sha256": "10cefc5324745f61c610327d704821a78bebb977c79e786cb3c92c689b8b3b51",
+          "removed_top_pixels": 0
         }
       ]
     },
@@ -397,8 +459,10 @@
       "images": [
         {
           "file": "29_memory_windows.png",
-          "sha256": "c7f010b2d927ee9f0481fb8f7864b99ddaa486dc49f1a363d38293017bf34973",
-          "width_cm": 16.5
+          "sha256": "f0a9a2da6a0b69e56ffccf5f73e864246542dc2426fa006d2c9998b00ab1541e",
+          "width_cm": 16.5,
+          "previous_sha256": "c7f010b2d927ee9f0481fb8f7864b99ddaa486dc49f1a363d38293017bf34973",
+          "removed_top_pixels": 220
         }
       ]
     }
@@ -414,7 +478,53 @@
     "25: common vertical range expanded to include -67.567265 pp"
   ],
   "layout_adaptation": "28 and 30 split into column panels, same logical figure number",
-  "rendered_pages": 109,
+  "title_removal": {
+    "changed_figures": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "2.1",
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "2.6",
+      "2.7",
+      "2.8",
+      "2.9",
+      "2.10",
+      "2.11",
+      "2.12",
+      "2.13",
+      "2.14",
+      "3.2",
+      "3.4",
+      "3.5",
+      "Б.1",
+      "Б.2",
+      "В.1",
+      "Д.1",
+      "Ж.1"
+    ],
+    "already_without_global_titles": [
+      "3.1",
+      "3.3",
+      "Д.2",
+      "В.2",
+      "Е.1"
+    ],
+    "method": "Delete title/subtitle strip only; all remaining pixels are unchanged.",
+    "preserved": "Country labels, panel descriptions, axes, units, legends, all chart data; text, tables, equations and footnotes.",
+    "metadata_in_captions": [
+      "1.3",
+      "2.7",
+      "3.4",
+      "Б.1",
+      "Б.2",
+      "В.1"
+    ]
+  },
+  "rendered_pages": 108,
   "toc_pages": {
     "Введение": 2,
     "Глава 1 Теоретические основы диверсификации и волатильности экспорта интегральных схем": 6,
@@ -424,23 +534,23 @@
     "Глава 2 Эмпирический анализ структуры и волатильности экспорта интегральных схем Японии и Республики Корея": 26,
     "2.1 Информационная база и методика анализа структуры и волатильности экспорта": 26,
     "2.2 Динамика и структурные изменения экспорта интегральных схем Японии и Республики Корея": 33,
-    "2.3 Товарные и географические вклады в изменение условной волатильности экспорта": 45,
+    "2.3 Товарные и географические вклады в изменение условной волатильности экспорта": 44,
     "2.4 Устойчивость результатов и их экономическая интерпретация": 54,
-    "Глава 3 Направления диверсификации экспорта интегральных схем Японии и Республики Корея": 62,
-    "3.1 Приоритеты диверсификации экспорта по результатам исследования": 62,
-    "3.2 Направления товарной диверсификации экспорта интегральных схем": 66,
-    "3.3 Совершенствование географической структуры экспортных поставок": 71,
-    "3.4 Условия реализации рекомендаций и оценка их результатов": 77,
-    "Заключение": 84,
-    "Список использованных источников": 88,
-    "Приложения": 91,
-    "Приложение А Годовые характеристики экспорта": 91,
-    "Приложение Б Структуры и направления поставок": 92,
-    "Приложение В Полные результаты проверок устойчивости": 95,
-    "Приложение Г Детализация географического вклада": 99,
-    "Приложение Д Изменчивость индексов памяти и остальных схем": 100,
-    "Приложение Е Воспроизводимость расчетов": 103,
-    "Приложение Ж Чувствительность товарных сценариев": 107,
-    "Приложение З Дополнительные результаты географических сценариев": 109
+    "Глава 3 Направления диверсификации экспорта интегральных схем Японии и Республики Корея": 61,
+    "3.1 Приоритеты диверсификации экспорта по результатам исследования": 61,
+    "3.2 Направления товарной диверсификации экспорта интегральных схем": 65,
+    "3.3 Совершенствование географической структуры экспортных поставок": 70,
+    "3.4 Условия реализации рекомендаций и оценка их результатов": 76,
+    "Заключение": 83,
+    "Список использованных источников": 87,
+    "Приложения": 90,
+    "Приложение А Годовые характеристики экспорта": 90,
+    "Приложение Б Структуры и направления поставок": 91,
+    "Приложение В Полные результаты проверок устойчивости": 94,
+    "Приложение Г Детализация географического вклада": 98,
+    "Приложение Д Изменчивость индексов памяти и остальных схем": 99,
+    "Приложение Е Воспроизводимость расчетов": 102,
+    "Приложение Ж Чувствительность товарных сценариев": 106,
+    "Приложение З Дополнительные результаты географических сценариев": 108
   }
 }
