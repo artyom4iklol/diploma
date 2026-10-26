@@ -1,0 +1,47 @@
+{
+  "research/04_auto_trade/README.md": {
+    "bytes": 29258,
+    "sha256": "bf9added318d7a8b8952a57cf4500f2a26c306f7207bedd5d0358c6a4b9a8599",
+    "git_blob_sha1": "87e5a3165d814adf97d12d166953ec58a3a8cd9c"
+  },
+  "research/04_auto_trade/WORK_PLAN_3_CHAPTERS.md": {
+    "bytes": 34923,
+    "sha256": "286b39c80e16ccb8b309d44fcded5049b36c64a6f6c41ceabd22dfb0697bb422",
+    "git_blob_sha1": "a1a3d70789b245243a3a5c6570063070ddcde5c6"
+  },
+  "research/04_auto_trade/TOPIC_FOCUS_V3.md": {
+    "bytes": 10929,
+    "sha256": "b470c18ce3a3c5ce538b0b86523f8f1b5c5996959d5c83498cca63cba9ec2d04",
+    "git_blob_sha1": "0ff11f4047fe7ae4d2e5ab173b7eff816f013324"
+  },
+  "research/04_auto_trade/analyze_geography_focus.py": {
+    "bytes": 6099,
+    "sha256": "9b1cd1ecc42fd9ad9c450fb08db7576c9c6c2363dd3aaa6f071ab9a906a132b4",
+    "git_blob_sha1": "ccd651a60c2873ccb3ca8e73a962595d65b7ad70"
+  },
+  "research/04_auto_trade/results/geography_focus/decompositions.json": {
+    "bytes": 13712,
+    "sha256": "2960ff3bcb9f06babcbf3e2d7c26621888d5da40870b15ae8688bf8c6efc8ed1",
+    "git_blob_sha1": "177b0a27b35d73e4c039fc94363b522d555007c3"
+  },
+  "research/04_auto_trade/results/geography_focus/validation.json": {
+    "bytes": 808,
+    "sha256": "dc0c7701d3e5495afca0cae2c96ea5309e3598762f7f19fcf77631917cc2a391",
+    "git_blob_sha1": "d0b437cbae0adca9aa1c53f1204281dad69800fa"
+  },
+  "research/04_auto_trade/results/geography_focus/category_HHI_group_shapley.csv": {
+    "bytes": 3565,
+    "sha256": "e995f3e880739b9026d7e762ea84776fe611d14031b95e02a3cd7ab03dc7a30e",
+    "git_blob_sha1": "d3d1410a38fe24a1bd5dc1696115b000a6a306fd"
+  },
+  "research/04_auto_trade/results/geography_focus/entry_margin_summary.csv": {
+    "bytes": 602,
+    "sha256": "1dda86a925213640162878314bba9f5d030d61791d3b18027fe2cb23bfcba503",
+    "git_blob_sha1": "8be6c46812dea81a6b9ed62e2dacd1fe5e0695e1"
+  },
+  "research/04_auto_trade/results/geography_focus/pooled_HHI_product_geography.csv": {
+    "bytes": 1639,
+    "sha256": "2a5ccce9c54b419092c18a923464d31b81a690011f224d9467f0244807277443",
+    "git_blob_sha1": "5f1600559d105541062074b9329f6819cc3978eb"
+  }
+}

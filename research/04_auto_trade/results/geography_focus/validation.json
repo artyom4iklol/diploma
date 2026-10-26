@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "pooled_decompositions": 4,
+  "category_decompositions": 12,
+  "all_pooled_identity_errors_below_1e_minus12": true,
+  "all_group_identity_errors_below_1e_minus12": true,
+  "all_group_denominators_observed_positive": true,
+  "scale": "HHI on0\u20131 scale; changes are HHI index points, not percentage points of an import share.",
+  "scope": "China-origin customs imports in three selected new-vehicle codes;27 member clearance jurisdictions.",
+  "interpretation": "Deterministic accounting, not causal attribution, final demand, firm entry or physical port-route resilience. No sampling confidence intervals invented.",
+  "status": "Descriptive refinement after baseline and augmented results; all fixed categories/outcomes/baselines reported.",
+  "crosscheck_prior_HHI_passed": true
+}
