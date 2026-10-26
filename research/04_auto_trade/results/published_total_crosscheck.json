@@ -1,0 +1,14 @@
+{
+  "official_news_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261013-1",
+  "scope": "new and used BEVs, CN87038010+87038090, 2025, import value",
+  "extra_eu_value_eur": 14957304286.0,
+  "china_value_eur": 6350614952.0,
+  "china_share_pct": 42.45828546755019,
+  "rounded_eur_billion": 15.0,
+  "rounded_china_share_pct": 42,
+  "published_benchmarks": {
+    "eur_billion": 15.0,
+    "china_share_pct": 42
+  },
+  "matches_published_rounding": true
+}

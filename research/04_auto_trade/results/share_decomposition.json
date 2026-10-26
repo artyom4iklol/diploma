@@ -1,0 +1,118 @@
+[
+  {
+    "start_year": 2023,
+    "end_year": 2025,
+    "indicator": "SUPPLEMENTARY_QUANTITY",
+    "china_share_start_pct": 31.2295012863933,
+    "china_share_end_pct": 38.83276496481347,
+    "change_pp": 7.603263678420169,
+    "within_category_share_pp": 10.891977341382736,
+    "extra_eu_import_mix_pp": -3.2887136629625653,
+    "components": [
+      {
+        "category": "BEV_new",
+        "within_category_share_pp": 0.2159491970677527,
+        "extra_eu_import_mix_pp": -5.938724811715014
+      },
+      {
+        "category": "PHEV_petrol_new",
+        "within_category_share_pp": 4.395757753210453,
+        "extra_eu_import_mix_pp": 2.426902939821641
+      },
+      {
+        "category": "HEV_petrol_new",
+        "within_category_share_pp": 6.280270391104531,
+        "extra_eu_import_mix_pp": 0.2231082089308075
+      }
+    ],
+    "identity_error_pp": 1.7763568394002505e-15,
+    "scope": "Three CN8 groups only: new BEVs and new petrol PHEVs/HEVs; not all passenger cars or retail registrations."
+  },
+  {
+    "start_year": 2023,
+    "end_year": 2025,
+    "indicator": "VALUE_IN_EUROS",
+    "china_share_start_pct": 27.59576460645513,
+    "china_share_end_pct": 27.781489190916425,
+    "change_pp": 0.18572458446129425,
+    "within_category_share_pp": 4.896795990603216,
+    "extra_eu_import_mix_pp": -4.711071406141922,
+    "components": [
+      {
+        "category": "BEV_new",
+        "within_category_share_pp": -2.570789396573138,
+        "extra_eu_import_mix_pp": -7.192136549184455
+      },
+      {
+        "category": "PHEV_petrol_new",
+        "within_category_share_pp": 3.977358724189432,
+        "extra_eu_import_mix_pp": 2.100207270270461
+      },
+      {
+        "category": "HEV_petrol_new",
+        "within_category_share_pp": 3.490226662986922,
+        "extra_eu_import_mix_pp": 0.38085787277207184
+      }
+    ],
+    "identity_error_pp": 2.220446049250313e-16,
+    "scope": "Three CN8 groups only: new BEVs and new petrol PHEVs/HEVs; not all passenger cars or retail registrations."
+  },
+  {
+    "start_year": 2024,
+    "end_year": 2025,
+    "indicator": "SUPPLEMENTARY_QUANTITY",
+    "china_share_start_pct": 33.278218775530114,
+    "china_share_end_pct": 38.83276496481347,
+    "change_pp": 5.554546189283361,
+    "within_category_share_pp": 4.595291324070667,
+    "extra_eu_import_mix_pp": 0.9592548652126959,
+    "components": [
+      {
+        "category": "BEV_new",
+        "within_category_share_pp": -3.10910617000719,
+        "extra_eu_import_mix_pp": -0.846567209902964
+      },
+      {
+        "category": "PHEV_petrol_new",
+        "within_category_share_pp": 3.877252995217441,
+        "extra_eu_import_mix_pp": 2.612516638322273
+      },
+      {
+        "category": "HEV_petrol_new",
+        "within_category_share_pp": 3.8271444988604153,
+        "extra_eu_import_mix_pp": -0.8066945632066133
+      }
+    ],
+    "identity_error_pp": 1.7763568394002505e-15,
+    "scope": "Three CN8 groups only: new BEVs and new petrol PHEVs/HEVs; not all passenger cars or retail registrations."
+  },
+  {
+    "start_year": 2024,
+    "end_year": 2025,
+    "indicator": "VALUE_IN_EUROS",
+    "china_share_start_pct": 27.57195905292937,
+    "china_share_end_pct": 27.781489190916425,
+    "change_pp": 0.20953013798705733,
+    "within_category_share_pp": 0.7627867545583717,
+    "extra_eu_import_mix_pp": -0.5532566165713164,
+    "components": [
+      {
+        "category": "BEV_new",
+        "within_category_share_pp": -4.9817818187317355,
+        "extra_eu_import_mix_pp": -2.041356043927366
+      },
+      {
+        "category": "PHEV_petrol_new",
+        "within_category_share_pp": 3.833030757181112,
+        "extra_eu_import_mix_pp": 1.9435685837924983
+      },
+      {
+        "category": "HEV_petrol_new",
+        "within_category_share_pp": 1.9115378161089953,
+        "extra_eu_import_mix_pp": -0.45546915643644864
+      }
+    ],
+    "identity_error_pp": -1.9984014443252818e-15,
+    "scope": "Three CN8 groups only: new BEVs and new petrol PHEVs/HEVs; not all passenger cars or retail registrations."
+  }
+]

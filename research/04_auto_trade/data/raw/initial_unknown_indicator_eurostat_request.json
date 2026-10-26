@@ -1,0 +1,10 @@
+{
+  "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&reporter=EU27_2020&flow=1&sinceTimePeriod=2021-01&untilTimePeriod=2025-12&product=87038010&product=87038090&product=87036010&product=87036090&product=87037000&product=87034010&product=87034090&product=87035000&partner=CN&partner=JP&partner=KR&partner=US&partner=EXT_EU27_2020&indicators=VALUE_IN_EUROS&indicators=SUP_QUANTITY",
+  "retrieved_at_utc": "2026-10-26T11:25:31.976066+00:00",
+  "http_status": 200,
+  "response_sha256": "b0e157cfb47fed868c19b542a8dd1ee2210e7c20f554ec370337f8de065bcde1",
+  "response_headers": {
+    "date": "Mon, 26 Oct 2026 11:25:37 GMT",
+    "content-type": "application/json"
+  }
+}

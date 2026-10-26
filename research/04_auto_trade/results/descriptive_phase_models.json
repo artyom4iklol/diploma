@@ -1,0 +1,230 @@
+[
+  {
+    "category": "PHEV_petrol_new",
+    "term": "announcement_June_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 6,
+    "coefficient_log_relative_ratio": 0.47195195723382966,
+    "se_HAC_small_sample_adjusted": 0.396671341645016,
+    "asymptotic_95_interval_log_ratio": [
+      -0.3055238723904017,
+      1.249427786858061
+    ],
+    "relative_ratio_multiplier": 1.6031203635396891,
+    "asymptotic_95_interval_multiplier": [
+      0.7367373169387138,
+      3.4883463086605295
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "PHEV_petrol_new",
+    "term": "provisional_July_October_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 6,
+    "coefficient_log_relative_ratio": 0.38597348642900103,
+    "se_HAC_small_sample_adjusted": 0.4353984344840699,
+    "asymptotic_95_interval_log_ratio": [
+      -0.467407445159776,
+      1.239354418017778
+    ],
+    "relative_ratio_multiplier": 1.4710456676239372,
+    "asymptotic_95_interval_multiplier": [
+      0.6266247231813825,
+      3.453383302925907
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "PHEV_petrol_new",
+    "term": "definitive_November_2024_December_2025",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 6,
+    "coefficient_log_relative_ratio": 2.0278150377158073,
+    "se_HAC_small_sample_adjusted": 0.5527227942559966,
+    "asymptotic_95_interval_log_ratio": [
+      0.9444783609740541,
+      3.1111517144575602
+    ],
+    "relative_ratio_multiplier": 7.597468029080672,
+    "asymptotic_95_interval_multiplier": [
+      2.5714716487033384,
+      22.446881917601132
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "PHEV_petrol_new",
+    "term": "announcement_June_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 12,
+    "coefficient_log_relative_ratio": 0.47195195723382966,
+    "se_HAC_small_sample_adjusted": 0.3492599199371938,
+    "asymptotic_95_interval_log_ratio": [
+      -0.21259748584307014,
+      1.1565014003107295
+    ],
+    "relative_ratio_multiplier": 1.6031203635396891,
+    "asymptotic_95_interval_multiplier": [
+      0.8084814969792903,
+      3.178792476510389
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "PHEV_petrol_new",
+    "term": "provisional_July_October_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 12,
+    "coefficient_log_relative_ratio": 0.38597348642900103,
+    "se_HAC_small_sample_adjusted": 0.4522203514615808,
+    "asymptotic_95_interval_log_ratio": [
+      -0.5003784024356972,
+      1.2723253752936994
+    ],
+    "relative_ratio_multiplier": 1.4710456676239372,
+    "asymptotic_95_interval_multiplier": [
+      0.6063011904522748,
+      3.5691425158194434
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "PHEV_petrol_new",
+    "term": "definitive_November_2024_December_2025",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 12,
+    "coefficient_log_relative_ratio": 2.0278150377158073,
+    "se_HAC_small_sample_adjusted": 0.5511074177785945,
+    "asymptotic_95_interval_log_ratio": [
+      0.9476444988697621,
+      3.1079855765618527
+    ],
+    "relative_ratio_multiplier": 7.597468029080672,
+    "asymptotic_95_interval_multiplier": [
+      2.5796261849190576,
+      22.375924384065023
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "HEV_petrol_new",
+    "term": "announcement_June_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 6,
+    "coefficient_log_relative_ratio": 1.9301515671913214,
+    "se_HAC_small_sample_adjusted": 1.3274143745749012,
+    "asymptotic_95_interval_log_ratio": [
+      -0.671580606975485,
+      4.531883741358127
+    ],
+    "relative_ratio_multiplier": 6.890554544437216,
+    "asymptotic_95_interval_multiplier": [
+      0.5109004065079135,
+      92.93345889934993
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "HEV_petrol_new",
+    "term": "provisional_July_October_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 6,
+    "coefficient_log_relative_ratio": 2.0591310601111994,
+    "se_HAC_small_sample_adjusted": 1.3838139050540856,
+    "asymptotic_95_interval_log_ratio": [
+      -0.6531441937948084,
+      4.771406314017208
+    ],
+    "relative_ratio_multiplier": 7.83915509540154,
+    "asymptotic_95_interval_multiplier": [
+      0.5204069414271826,
+      118.08519010378845
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "HEV_petrol_new",
+    "term": "definitive_November_2024_December_2025",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 6,
+    "coefficient_log_relative_ratio": 2.5760131529661128,
+    "se_HAC_small_sample_adjusted": 1.820863118164991,
+    "asymptotic_95_interval_log_ratio": [
+      -0.9928785586372695,
+      6.1449048645694955
+    ],
+    "relative_ratio_multiplier": 13.144627933204946,
+    "asymptotic_95_interval_multiplier": [
+      0.37050862371339366,
+      466.33528194487167
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "HEV_petrol_new",
+    "term": "announcement_June_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 12,
+    "coefficient_log_relative_ratio": 1.9301515671913214,
+    "se_HAC_small_sample_adjusted": 1.5351799388078813,
+    "asymptotic_95_interval_log_ratio": [
+      -1.0788011128721258,
+      4.939104247254768
+    ],
+    "relative_ratio_multiplier": 6.890554544437216,
+    "asymptotic_95_interval_multiplier": [
+      0.34000290650235654,
+      139.64510603245466
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "HEV_petrol_new",
+    "term": "provisional_July_October_2024",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 12,
+    "coefficient_log_relative_ratio": 2.0591310601111994,
+    "se_HAC_small_sample_adjusted": 1.5362429072398713,
+    "asymptotic_95_interval_log_ratio": [
+      -0.9519050380789484,
+      5.070167158301347
+    ],
+    "relative_ratio_multiplier": 7.83915509540154,
+    "asymptotic_95_interval_multiplier": [
+      0.3860049684071813,
+      159.2009368774141
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  },
+  {
+    "category": "HEV_petrol_new",
+    "term": "definitive_November_2024_December_2025",
+    "months": 60,
+    "parameters": 16,
+    "HAC_lags": 12,
+    "coefficient_log_relative_ratio": 2.5760131529661128,
+    "se_HAC_small_sample_adjusted": 2.0110252793454366,
+    "asymptotic_95_interval_log_ratio": [
+      -1.365596394550943,
+      6.517622700483169
+    ],
+    "relative_ratio_multiplier": 13.144627933204946,
+    "asymptotic_95_interval_multiplier": [
+      0.255228413753199,
+      676.9671172640986
+    ],
+    "interpretation": "Descriptive shift in China hybrid/BEV ratio relative to rest-of-extra-EU hybrid/BEV ratio, conditional on trend and seasonality. Not a causal tariff coefficient; intervals are asymptotic and the post-period is short."
+  }
+]
