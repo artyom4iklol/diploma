@@ -1,0 +1,21 @@
+{
+  "rows": 9720,
+  "reporters": 27,
+  "origins": [
+    "CN",
+    "REST"
+  ],
+  "months": 60,
+  "quantity_negative": 0,
+  "value_negative": 0,
+  "unknown_indicators": 0,
+  "rest_quantity_zero_value_positive": 0,
+  "rest_value_zero_quantity_positive": 0,
+  "exact_reconstruction_quantity": true,
+  "exact_reconstruction_value": true,
+  "CN_positive_rows": 2289,
+  "REST_positive_rows": 4242,
+  "strict_source_pair_rows": 4578,
+  "fingerprint": "3abdd990ed6eefcc820222a61044924c892c68472dcecfa17621a2ac13d989ef",
+  "benchmark_interpretation": "REST is a changing aggregate of all other origins. No claim that it is unaffected by EU policy; not a fifth observed country."
+}

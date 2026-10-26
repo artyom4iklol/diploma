@@ -1,0 +1,221 @@
+{
+  "fingerprint": "3abdd990ed6eefcc820222a61044924c892c68472dcecfa17621a2ac13d989ef",
+  "method": "199 random-offset exponential block-length12 likelihood multiplier draws; same month weights for quantity and value; all preferred PPML refitted. Percentile sensitivity intervals, not causal identification.",
+  "seed": 20261027,
+  "outcomes": {
+    "quantity": {
+      "successful": 199,
+      "failed": 0,
+      "coefficients": [
+        {
+          "term": "PHEV__investigation",
+          "point_multiplier": 0.22429590635118846,
+          "multiplier_ci95": [
+            0.13511898629426783,
+            0.3192104222042128
+          ],
+          "median": 0.2299587913520318
+        },
+        {
+          "term": "PHEV__announcement",
+          "point_multiplier": 0.7055834840137029,
+          "multiplier_ci95": [
+            0.4372104603205543,
+            1.0169523231782103
+          ],
+          "median": 0.7184137385407277
+        },
+        {
+          "term": "PHEV__provisional",
+          "point_multiplier": 0.4097930839603758,
+          "multiplier_ci95": [
+            0.21703976384621862,
+            0.7704549765326149
+          ],
+          "median": 0.4395210797668159
+        },
+        {
+          "term": "PHEV__definitive",
+          "point_multiplier": 1.5104413269625248,
+          "multiplier_ci95": [
+            0.7051620159338746,
+            4.392972793794879
+          ],
+          "median": 1.6093864348384395
+        },
+        {
+          "term": "HEV__investigation",
+          "point_multiplier": 6.260302021738003,
+          "multiplier_ci95": [
+            2.350253968275344,
+            23.486540457426084
+          ],
+          "median": 6.132054862863531
+        },
+        {
+          "term": "HEV__announcement",
+          "point_multiplier": 14.230488687283913,
+          "multiplier_ci95": [
+            2.9915721792390113,
+            53.65063668097461
+          ],
+          "median": 13.489538131702716
+        },
+        {
+          "term": "HEV__provisional",
+          "point_multiplier": 17.11127858409965,
+          "multiplier_ci95": [
+            5.79941065588828,
+            72.93438957462614
+          ],
+          "median": 16.292763525908736
+        },
+        {
+          "term": "HEV__definitive",
+          "point_multiplier": 29.788347164867094,
+          "multiplier_ci95": [
+            6.937584822980219,
+            249.77313877076392
+          ],
+          "median": 29.058199839076064
+        },
+        {
+          "term": "CN_PHEV__trend",
+          "point_multiplier": 1.1908529111752466,
+          "multiplier_ci95": [
+            0.9550476127082108,
+            1.4751957251583558
+          ],
+          "median": 1.1646603397957864
+        },
+        {
+          "term": "CN_HEV__trend",
+          "point_multiplier": 1.3189291741901885,
+          "multiplier_ci95": [
+            0.7905752143312825,
+            2.176934593732005
+          ],
+          "median": 1.3419011676722856
+        }
+      ]
+    },
+    "value_eur": {
+      "successful": 199,
+      "failed": 0,
+      "coefficients": [
+        {
+          "term": "PHEV__investigation",
+          "point_multiplier": 0.2808490156681087,
+          "multiplier_ci95": [
+            0.14900120679561382,
+            0.4191966673365636
+          ],
+          "median": 0.28736198020182907
+        },
+        {
+          "term": "PHEV__announcement",
+          "point_multiplier": 0.7546490550480023,
+          "multiplier_ci95": [
+            0.41338491533888044,
+            1.067360741426028
+          ],
+          "median": 0.7595394600780847
+        },
+        {
+          "term": "PHEV__provisional",
+          "point_multiplier": 0.4942953935184186,
+          "multiplier_ci95": [
+            0.21430391211085506,
+            1.0328302320467522
+          ],
+          "median": 0.5317470632472221
+        },
+        {
+          "term": "PHEV__definitive",
+          "point_multiplier": 2.3124443692974954,
+          "multiplier_ci95": [
+            0.8222150243399075,
+            6.976016917701246
+          ],
+          "median": 2.4669330460202503
+        },
+        {
+          "term": "HEV__investigation",
+          "point_multiplier": 6.687352073172241,
+          "multiplier_ci95": [
+            2.619022047166839,
+            25.498031240306428
+          ],
+          "median": 6.56594696103959
+        },
+        {
+          "term": "HEV__announcement",
+          "point_multiplier": 10.476429305716415,
+          "multiplier_ci95": [
+            2.0049942139229504,
+            46.29190945931447
+          ],
+          "median": 9.629199085026572
+        },
+        {
+          "term": "HEV__provisional",
+          "point_multiplier": 9.604041555840956,
+          "multiplier_ci95": [
+            2.007396174585435,
+            37.0439230336203
+          ],
+          "median": 8.96202980282327
+        },
+        {
+          "term": "HEV__definitive",
+          "point_multiplier": 17.04746315864306,
+          "multiplier_ci95": [
+            3.1217411939392443,
+            98.27289639561634
+          ],
+          "median": 16.68555417107337
+        },
+        {
+          "term": "CN_PHEV__trend",
+          "point_multiplier": 0.9917746953595936,
+          "multiplier_ci95": [
+            0.7769032393830879,
+            1.3340265633632544
+          ],
+          "median": 0.9654266045170078
+        },
+        {
+          "term": "CN_HEV__trend",
+          "point_multiplier": 1.5641191035492847,
+          "multiplier_ci95": [
+            0.9492382028848356,
+            2.854270857460219
+          ],
+          "median": 1.589160155058429
+        }
+      ]
+    }
+  },
+  "paired_ratio_of_mean_indices": {
+    "successful_pairs": 199,
+    "interpretation": "Ratio of value- and quantity-model relative mean multipliers. Does not estimate E[value/quantity], constant-quality prices, retail prices, or tariff pass-through.",
+    "coefficients": [
+      {
+        "term": "PHEV__definitive",
+        "point_ratio": 1.5309726554872454,
+        "paired_block_ci95": [
+          1.099072486573061,
+          1.8682206058996442
+        ]
+      },
+      {
+        "term": "HEV__definitive",
+        "point_ratio": 0.5722863059266726,
+        "paired_block_ci95": [
+          0.28949551922764927,
+          0.7452701544047012
+        ]
+      }
+    ]
+  }
+}

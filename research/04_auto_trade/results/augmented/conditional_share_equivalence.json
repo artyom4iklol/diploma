@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "method": "Independent dense Newton weighted-share quasi-logit; FE profiled analytically; nuisance collinearity removed by pivoted QR. This is identical to the preferred two-origin PPML, not a different hypothesis test.",
+  "outcomes": {
+    "quantity": {
+      "flow_pairs": 4118,
+      "paired_flow_rows": 8236,
+      "uninformative_singleton_rows_excluded": 264,
+      "nuisance_rank_after_profiling": 153,
+      "structural_parameters": 10,
+      "iterations": 13,
+      "max_beta_difference": 9.547918011776346e-13,
+      "max_fitted_share_difference": 1.0724654497806796e-10,
+      "max_HAC_covariance_difference": {
+        "6": 8.906486659299162e-12,
+        "12": 1.0564493724274371e-11
+      },
+      "passed": true,
+      "fingerprint": "3abdd990ed6eefcc820222a61044924c892c68472dcecfa17621a2ac13d989ef"
+    },
+    "value_eur": {
+      "flow_pairs": 4118,
+      "paired_flow_rows": 8236,
+      "uninformative_singleton_rows_excluded": 264,
+      "nuisance_rank_after_profiling": 153,
+      "structural_parameters": 10,
+      "iterations": 14,
+      "max_beta_difference": 2.424727085781342e-13,
+      "max_fitted_share_difference": 6.163902721567638e-11,
+      "max_HAC_covariance_difference": {
+        "6": 9.854561611177814e-12,
+        "12": 1.3453682612407647e-11
+      },
+      "passed": true,
+      "fingerprint": "3abdd990ed6eefcc820222a61044924c892c68472dcecfa17621a2ac13d989ef"
+    }
+  },
+  "references": [
+    "https://doi.org/10.2307/2348134",
+    "https://doi.org/10.1177/1536867X0400400304"
+  ],
+  "limits": "Equality is algebraic for the fitted objective and robust scores. It does not establish a binomial count distribution, remove time-dependence issues or create causal identification."
+}

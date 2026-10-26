@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "scope": "Targeted expanded literature search, not exhaustive systematic review.",
+  "discovery_sources": [
+    "Web search engines1and2",
+    "Consensus search and fetched candidate records"
+  ],
+  "queries": [
+    "EU-China electric vehicle countervailing tariffs hybrid trade flows",
+    "tariff avoidance product switching trade diversion unit values",
+    "EV manufacturing brand ownership customs origin Rotterdam effect",
+    "PPML high-dimensional FE seasonality HAC inference",
+    "multinomial Poisson transformation logit equivalence",
+    "Joule observed constrained expansion diminished affordability"
+  ],
+  "consensus_fetched_ids": [
+    "c38b29ba6a365747866dec828d23b610",
+    "abf198bf2fc35b4fa0af3ea7be8b0319",
+    "4100ac0eb3325c2d838d655b1aa16c78"
+  ],
+  "primary_verification": "Publisher/institutional pages and available primary PDFs. Catalog distinguishes full text, targeted reading, abstract and metadata.",
+  "access_limits": [
+    "One concurrent Consensus search rate-limited; no quota circumvention.",
+    "Joule primary full text not obtained; embargo in institutional record until2026-11-22.",
+    "Some direct PDF requests returned200HTML; never counted as retrieved PDFs."
+  ],
+  "bibliographic_corrections": [
+    "Jiang etal DOI contains2022 but journal issueJanuary2023; use2023.",
+    "Sheldon–Dua previously truncated record resolved to DOI10.1016/j.erss.2025.104327.",
+    "Shorrocks online2012, journal volume2013; use2013.",
+    "Critical-minerals Working Paper26 year remains unverified; not assign2026 from series number."
+  ],
+  "claim_limit": "No claim that all31 texts were fully read or that no matching work exists worldwide."
+}

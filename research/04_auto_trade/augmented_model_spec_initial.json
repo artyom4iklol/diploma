@@ -1,0 +1,58 @@
+{
+  "frozen_at_utc": "2026-10-26T12:38:58.422348+00:00",
+  "status": "Bounded post-baseline revision; design chosen before augmented estimates, after seeing baseline diagnostics. Not external preregistration.",
+  "source_checkpoint": "47a9a7720f003a2a71e9d350ed02f28e7e49ea77",
+  "main_period": [
+    "2021-01",
+    "2025-12"
+  ],
+  "preferred_comparison": "China versus rest of extra-EU27 origins, constructed EXT_EU27_2020 minus CN separately in each importer-product-month-indicator. No negative residuals or unknown source cells accepted. Rest is a changing supplier bundle, not untreated.",
+  "outcomes": [
+    "quantity",
+    "value_eur"
+  ],
+  "reference_product": "BEV",
+  "preferred_fixed_effects": [
+    "importer:origin:product",
+    "importer:product:month",
+    "origin:month",
+    "origin:product:calendar_month"
+  ],
+  "preferred_regressors": [
+    "CN x PHEV/HEV x investigation Sep2023-May2024",
+    "CN x PHEV/HEV x announcement Jun2024",
+    "CN x PHEV/HEV x provisional Jul-Oct2024",
+    "CN x PHEV/HEV x definitive Nov2024-Dec2025",
+    "origin-product linear trends relative to REST (or US in four-origin sensitivity), BEV reference"
+  ],
+  "rationale": "Broad denominator addresses sensitivity to choosing three comparison origins; calendar-month product-origin FE address seasonality of relative mixes; trends and investigation phase separate prior evolution from later phase shifts. Coefficients remain conditional composition associations. Select preferred specification by these omissions, not by signs/significance.",
+  "bounded_fits": [
+    "preferred REST quantity/value",
+    "REST without linear trends quantity/value",
+    "REST without origin-product seasonal FE quantity/value",
+    "four original origins, augmented model quantity/value",
+    "REST since2022 quantity/value",
+    "REST exclude BE/NL quantity/value",
+    "REST strictly published source pairs quantity/value",
+    "REST port-group heterogeneity quantity/value",
+    "REST half-year dynamics quantity/value, reference2023H1, no linear trend, eight pre-reference lead terms tested jointly"
+  ],
+  "heterogeneity": "BE/NL versus other25 importers; separate CN-hybrid phase coefficients and trends by group, origin-product-calendar-month FE also group specific; covariance-based contrast between definitive coefficients. Group identifies customs gateways, not final demand.",
+  "uncertainty": {
+    "HAC": [
+      6,
+      12
+    ],
+    "block_refits": "199 positive random-offset block-length12 synchronized weighted-likelihood refits for each preferred outcome; fixed seed20261027. Report all failures; percentile intervals are descriptive small-time sensitivities.",
+    "caveats": "No incidental-parameter bias correction; no independent-country policy experiment; dynamic lead tests have limited time support. No causal interpretation chosen based on p-values."
+  },
+  "additional_accounting": "For2023/2024 to2025, exact entry-country margin decomposition: change at continuing positive destinations, new positive destinations, negative exited destinations. This is country-of-customs-entry margin, not firm/model entry.",
+  "validation": [
+    "Same original three-FE phase design reproduces baseline coefficients",
+    "Independent explicit sparse dummy IRLS verifies new four-FE preferred model on BE/DE",
+    "Raw source hashes and residual nonnegativity",
+    "Every bootstrap fit and first-order score",
+    "Margins add up and all prior files preserved"
+  ],
+  "stop_rule": "Complete this finite revision, select preferred and sensitivity roles, write three-chapter outline and model memorandum. Do not add variables or shift period to force significance."
+}

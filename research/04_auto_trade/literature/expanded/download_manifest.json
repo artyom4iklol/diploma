@@ -1,0 +1,60 @@
+[
+  {
+    "name": "joule_2026_supplement.pdf",
+    "url": "https://www.cell.com/cms/10.1016/j.joule.2026.102486/attachment/6de57ddd-131f-40bb-8769-f15fd2a5eab7/mmc1.pdf",
+    "status": 200,
+    "not_pdf": true
+  },
+  {
+    "name": "joule_2026_commentary_candidate.pdf",
+    "url": "https://www.cell.com/cms/10.1016/j.joule.2026.102486/attachment/23d56a37-47fe-4c23-976d-81bb5cb65abc/mmc2.pdf",
+    "status": 200,
+    "not_pdf": true
+  },
+  {
+    "name": "shen_2023_preprint.pdf",
+    "url": "https://fass.nus.edu.sg/ecs/wp-content/uploads/sites/4/2023/08/How-did-Chinese-exporters-manage-the-trade-war-Professor-SHENG-Liugang.pdf",
+    "status": 200,
+    "not_pdf": true
+  },
+  {
+    "name": "rosenow_2024.pdf",
+    "url": "https://documents1.worldbank.org/curated/en/099121224200014958/pdf/P50267216f338606e19f5f1ca4dceead53d.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "flooded_2026.pdf",
+    "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/26/Files/dt2634e.pdf",
+    "status": 200,
+    "bytes": 3495636,
+    "sha256": "70a5a26df4ca9bffd2c876e918d033f18e10e9e1573600bd993566a7c09b0bfb"
+  },
+  {
+    "name": "log_gravity_2006.pdf",
+    "url": "https://personal.lse.ac.uk/TENREYRO/jensen08k.pdf",
+    "status": 200,
+    "bytes": 200128,
+    "sha256": "b69115aa3e9e778bc38c211e4fe958764bd4cc7682cde8c2b85989ccef6816f4"
+  },
+  {
+    "name": "reallocations_nber_2023.pdf",
+    "url": "https://www.nber.org/system/files/working_papers/w29562/w29562.pdf",
+    "status": 200,
+    "bytes": 929150,
+    "sha256": "e563e3631bddaf10e12ae6575e25010d910b0a66d8918aeb2ec707fb7f34c458"
+  },
+  {
+    "name": "quality_nber_2012.pdf",
+    "url": "https://www.nber.org/system/files/working_papers/w18314/w18314.pdf",
+    "status": 200,
+    "bytes": 530098,
+    "sha256": "d6862f1a2cc369f3b774bddcb069a281688925cafd0bd0f47441a5df16fc820b"
+  },
+  {
+    "name": "newey_west_1986.pdf",
+    "url": "https://www.nber.org/system/files/working_papers/t0055/t0055.pdf",
+    "status": 200,
+    "bytes": 331745,
+    "sha256": "c93e71c778d5a84065aedd40c94ead23e4a2e68ee0b05938bb361fc7e97a8017"
+  }
+]

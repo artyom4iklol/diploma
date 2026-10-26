@@ -1,0 +1,25 @@
+{
+  "fingerprint": "3abdd990ed6eefcc820222a61044924c892c68472dcecfa17621a2ac13d989ef",
+  "baseline_equivalence_max_beta_difference": 0.0,
+  "new_four_FE_independent_sparse_max_beta_difference": 9.164056180566149e-10,
+  "independent_n": 720,
+  "independent_zero_observations": 50,
+  "sparse_iterations": 10,
+  "max_eta_difference": 2.3371624635615262e-09,
+  "passed": true,
+  "separation": {
+    "input_n": 720,
+    "retained_n": 720,
+    "all_zero_fe_removed": 0,
+    "other_separated_zero_rows": 0,
+    "positive_outcome_removed": 0,
+    "lp": [
+      {
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "objective": 0.0,
+        "n": 720
+      }
+    ]
+  }
+}
