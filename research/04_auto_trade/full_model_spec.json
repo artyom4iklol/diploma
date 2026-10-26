@@ -1,0 +1,102 @@
+{
+  "frozen_at_utc": "2026-10-26T11:55:54.662862+00:00",
+  "status": "frozen before full member-country response and primary fits",
+  "period": [
+    "2021-01",
+    "2025-12"
+  ],
+  "reporters": [
+    "AT",
+    "BE",
+    "BG",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GR",
+    "HR",
+    "HU",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "origins": [
+    "CN",
+    "JP",
+    "KR",
+    "US"
+  ],
+  "products": {
+    "BEV": "87038010",
+    "PHEV": "87036010",
+    "HEV": "87034010"
+  },
+  "outcomes": [
+    "SUPPLEMENTARY_QUANTITY",
+    "VALUE_IN_EUROS"
+  ],
+  "reference_product": "BEV",
+  "fixed_effects": [
+    "reporter:origin:product",
+    "reporter:product:month",
+    "origin:month"
+  ],
+  "phase_variables": {
+    "announcement": [
+      "2024-06",
+      "2024-06"
+    ],
+    "provisional": [
+      "2024-07",
+      "2024-10"
+    ],
+    "definitive": [
+      "2024-11",
+      "2025-12"
+    ]
+  },
+  "treatment_interactions": "CN x hybrid category x phase; relative composition, not absolute tariff effect",
+  "missing_rule": "Never treat absent API observations as zeros by default. A missing national indicator may be reconstructed as zero ONLY when nonnegative observed values from exhaustive EU27 members exactly sum to same-response EU27 aggregate, no flagged cells, and aggregate is observed. Preserve provenance. Otherwise missing; main outcomes use paired available quantity/value. Strictly observed-only sensitivity mandatory.",
+  "separation_rule": "Recursively remove all-zero FE groups; inspect remaining numerical/separation diagnostics; no artificial small positive counts.",
+  "inference": {
+    "month_score_HAC_lags": [
+      6,
+      12
+    ],
+    "critical_value": "Student t with T-1 degrees of freedom; asymptotic sensitivity, not 27 independent policy shocks",
+    "bootstrap": "199 positive block-multiplier weighted PPML refits for main quantity, synchronous across all countries/origins/products, contiguous blocks length6 and12, random offset, exponential block weights normalized to mean1, percentile intervals; seed20261026. Report fit failures.",
+    "dynamic": "China x hybrid x quarter; 2023Q2 reference. Joint pre-event test using quarters2021Q1-2023Q1; report lead coefficients, weak identification and anticipation. Dynamic phases are conditional composition.",
+    "pretrend": "Separate linear CN x hybrid trends over2021-01 through2023-08, and joint dynamic pre-event test; no causal language if either materially rejects."
+  },
+  "robustness": [
+    "2022-2025 quantity/value",
+    "exclude BE and NL quantity/value",
+    "omit JP, KR, US one at a time, quantity",
+    "strictly observed-only quantity/value",
+    "balanced continuing observed reporter-origin-product cells, quantity if estimable",
+    "origin-product linear trends relative to US and BEV, quantity",
+    "separate Sep2023-May2024 investigation interactions, quantity"
+  ],
+  "numerical_validation": [
+    "convergence and efficient scores",
+    "FE score sums and projected regressor rank",
+    "independent sparse explicit-dummy IRLS on EU aggregate subproblem",
+    "outcome scaling invariance",
+    "accounting share decomposition identity"
+  ],
+  "decision_rule": "Assess finite empirical contribution, not significance shopping. A robust relative reallocation with measurable uncertainty supports an applied analytical paper; failure of pretrends prevents causal tariff interpretation. Negative/unstable findings retained. No article prose in this task."
+}

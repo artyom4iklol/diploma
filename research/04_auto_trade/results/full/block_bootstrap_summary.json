@@ -1,0 +1,129 @@
+{
+  "method": "Positive block-multiplier weighted-likelihood PPML refits; synchronized months; random-offset non-circular contiguous blocks; exponential weights with mean normalized to one; percentile intervals. Finite descriptive time-dependence sensitivity, not randomization inference.",
+  "seed": 20261026,
+  "fingerprint": "1609cb84efe6105b9630dba0a4bf8e4f43a0738ce29691e98ea4c5511756b138",
+  "blocks": {
+    "6": {
+      "requested": 199,
+      "successful": 199,
+      "failed": 0,
+      "coefficients": [
+        {
+          "term": "PHEV__announcement",
+          "point_multiplier": 1.9394176999579298,
+          "multiplier_percentile_ci95": [
+            1.4728543423910487,
+            2.6260847135858456
+          ],
+          "bootstrap_median": 2.0377453590526997
+        },
+        {
+          "term": "PHEV__provisional",
+          "point_multiplier": 1.1525770459504694,
+          "multiplier_percentile_ci95": [
+            0.7918338823117053,
+            1.6933810237492068
+          ],
+          "bootstrap_median": 1.2086600923740842
+        },
+        {
+          "term": "PHEV__definitive",
+          "point_multiplier": 6.170404474566572,
+          "multiplier_percentile_ci95": [
+            4.309383412524349,
+            10.019794722714707
+          ],
+          "bootstrap_median": 6.45271117584831
+        },
+        {
+          "term": "HEV__announcement",
+          "point_multiplier": 10.328406122000557,
+          "multiplier_percentile_ci95": [
+            4.299571694501941,
+            40.13057337749566
+          ],
+          "bootstrap_median": 10.377202426632033
+        },
+        {
+          "term": "HEV__provisional",
+          "point_multiplier": 7.492737320657188,
+          "multiplier_percentile_ci95": [
+            3.1693260570628268,
+            26.42468590156349
+          ],
+          "bootstrap_median": 7.526001589984901
+        },
+        {
+          "term": "HEV__definitive",
+          "point_multiplier": 25.76575080412422,
+          "multiplier_percentile_ci95": [
+            10.796624221673998,
+            101.30534706827214
+          ],
+          "bootstrap_median": 26.684109147002033
+        }
+      ]
+    },
+    "12": {
+      "requested": 199,
+      "successful": 199,
+      "failed": 0,
+      "coefficients": [
+        {
+          "term": "PHEV__announcement",
+          "point_multiplier": 1.9394176999579298,
+          "multiplier_percentile_ci95": [
+            1.532798962795143,
+            2.7975446920747373
+          ],
+          "bootstrap_median": 1.9866719474532302
+        },
+        {
+          "term": "PHEV__provisional",
+          "point_multiplier": 1.1525770459504694,
+          "multiplier_percentile_ci95": [
+            0.858565262810758,
+            1.8432358689013164
+          ],
+          "bootstrap_median": 1.1919714356568416
+        },
+        {
+          "term": "PHEV__definitive",
+          "point_multiplier": 6.170404474566572,
+          "multiplier_percentile_ci95": [
+            4.51770326541854,
+            12.524733808220047
+          ],
+          "bootstrap_median": 6.472296796576657
+        },
+        {
+          "term": "HEV__announcement",
+          "point_multiplier": 10.328406122000557,
+          "multiplier_percentile_ci95": [
+            4.186958587432411,
+            40.064972908842165
+          ],
+          "bootstrap_median": 11.042758119998643
+        },
+        {
+          "term": "HEV__provisional",
+          "point_multiplier": 7.492737320657188,
+          "multiplier_percentile_ci95": [
+            3.2443369257637054,
+            27.063258242207144
+          ],
+          "bootstrap_median": 8.477451607148842
+        },
+        {
+          "term": "HEV__definitive",
+          "point_multiplier": 25.76575080412422,
+          "multiplier_percentile_ci95": [
+            11.003635438641163,
+            99.36717602652537
+          ],
+          "bootstrap_median": 29.54676141932721
+        }
+      ]
+    }
+  }
+}

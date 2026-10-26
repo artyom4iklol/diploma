@@ -1,0 +1,6 @@
+{
+  "balanced_observed": {
+    "error": "Structural regressors unidentified/rank deficient",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/5d940287072e/diploma/research/04_auto_trade/run_full_model.py\", line 63, in main_fits\n    try:estimate(name,dd,outcome,kind)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/5d940287072e/diploma/research/04_auto_trade/run_full_model.py\", line 34, in estimate\n    result=fit(d,outcome,kind)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/5d940287072e/diploma/research/04_auto_trade/ppml_engine.py\", line 114, in fit\n    if np.linalg.matrix_rank(H,tol=np.linalg.norm(H,2)*1e-11)<k:raise RuntimeError('Structural regressors unidentified/rank deficient')\n                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Structural regressors unidentified/rank deficient\n"
+  }
+}

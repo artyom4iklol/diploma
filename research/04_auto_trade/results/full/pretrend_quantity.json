@@ -1,0 +1,253 @@
+{
+  "names": [
+    "PHEV__pretrend_per_year",
+    "HEV__pretrend_per_year"
+  ],
+  "scale": 334.3376056338028,
+  "n": 7100,
+  "iterations": 15,
+  "objective_normalized": 7125.739245426796,
+  "max_fe_score_over_total_y": 9.416457598016566e-13,
+  "max_x_score_over_total_y": 1.3955694116956955e-13,
+  "elapsed_seconds": 0.6177754860000277,
+  "converged": true,
+  "iteration_history": [
+    {
+      "iteration": 1,
+      "objective": 11.945910670783094,
+      "max_beta_change": 0.21813491025426054,
+      "max_eta_change": 6.566390237050565,
+      "step": 0.125,
+      "projection_cycles": 13
+    },
+    {
+      "iteration": 2,
+      "objective": 2087.176769090637,
+      "max_beta_change": 0.0848412654419017,
+      "max_eta_change": 3.5874056572766304,
+      "step": 1.0,
+      "projection_cycles": 38
+    },
+    {
+      "iteration": 3,
+      "objective": 6193.415087203814,
+      "max_beta_change": 0.17366194013289493,
+      "max_eta_change": 1.719820397354282,
+      "step": 1.0,
+      "projection_cycles": 63
+    },
+    {
+      "iteration": 4,
+      "objective": 6968.114132825234,
+      "max_beta_change": 0.1388484424490139,
+      "max_eta_change": 2.0393229761249696,
+      "step": 1.0,
+      "projection_cycles": 61
+    },
+    {
+      "iteration": 5,
+      "objective": 7088.2521147495645,
+      "max_beta_change": 0.12508472747215665,
+      "max_eta_change": 2.0925416087647664,
+      "step": 1.0,
+      "projection_cycles": 63
+    },
+    {
+      "iteration": 6,
+      "objective": 7115.935534592956,
+      "max_beta_change": 0.11602005495690461,
+      "max_eta_change": 1.92449648339322,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 7,
+      "objective": 7123.293605820182,
+      "max_beta_change": 0.05284361261542325,
+      "max_eta_change": 1.8603441592025298,
+      "step": 1.0,
+      "projection_cycles": 68
+    },
+    {
+      "iteration": 8,
+      "objective": 7125.172283477171,
+      "max_beta_change": 0.009913358643213854,
+      "max_eta_change": 1.722546194418829,
+      "step": 1.0,
+      "projection_cycles": 68
+    },
+    {
+      "iteration": 9,
+      "objective": 7125.62999966622,
+      "max_beta_change": 0.0007110848795226499,
+      "max_eta_change": 1.4190458100895622,
+      "step": 1.0,
+      "projection_cycles": 68
+    },
+    {
+      "iteration": 10,
+      "objective": 7125.725212406889,
+      "max_beta_change": 2.4066060231420217e-05,
+      "max_eta_change": 0.9742251246770302,
+      "step": 1.0,
+      "projection_cycles": 69
+    },
+    {
+      "iteration": 11,
+      "objective": 7125.738504885677,
+      "max_beta_change": 4.184253680761252e-07,
+      "max_eta_change": 0.5520211094142748,
+      "step": 1.0,
+      "projection_cycles": 69
+    },
+    {
+      "iteration": 12,
+      "objective": 7125.73924020704,
+      "max_beta_change": 1.5259880026263772e-09,
+      "max_eta_change": 0.2028711277253894,
+      "step": 1.0,
+      "projection_cycles": 69
+    },
+    {
+      "iteration": 13,
+      "objective": 7125.739245426391,
+      "max_beta_change": 1.2543299732215019e-12,
+      "max_eta_change": 0.023525367320219814,
+      "step": 1.0,
+      "projection_cycles": 69
+    },
+    {
+      "iteration": 14,
+      "objective": 7125.739245426796,
+      "max_beta_change": 2.6645352591003757e-15,
+      "max_eta_change": 0.0002810978853666768,
+      "step": 1.0,
+      "projection_cycles": 69
+    },
+    {
+      "iteration": 15,
+      "objective": 7125.739245426796,
+      "max_beta_change": 8.326672684688674e-16,
+      "max_eta_change": 3.951544158553588e-08,
+      "step": 1.0,
+      "projection_cycles": 69
+    }
+  ],
+  "min_fitted": 0.00017836889029364177,
+  "max_fitted": 36909.34614588669,
+  "zero_observations": 2480,
+  "n_months": 32,
+  "hessian_condition": 7.036004612422941,
+  "projection_cycles_final": 58,
+  "coefficients": [
+    {
+      "term": "PHEV__pretrend_per_year",
+      "beta": 0.29842111846411257,
+      "multiplier": 1.347729222052695,
+      "hac6": {
+        "se_log": 0.18335354732166886,
+        "beta_ci95": [
+          -0.07553090674291124,
+          0.6723731436711364
+        ],
+        "multiplier_ci95": [
+          0.927251071780637,
+          1.9588805138684902
+        ]
+      },
+      "hac12": {
+        "se_log": 0.15992175509926415,
+        "beta_ci95": [
+          -0.02774145143215001,
+          0.6245836883603751
+        ],
+        "multiplier_ci95": [
+          0.9726398089244771,
+          1.8674683467698772
+        ]
+      }
+    },
+    {
+      "term": "HEV__pretrend_per_year",
+      "beta": 0.2946070047930584,
+      "multiplier": 1.3425986201711417,
+      "hac6": {
+        "se_log": 0.6609237266171893,
+        "beta_ci95": [
+          -1.053355822685123,
+          1.6425698322712399
+        ],
+        "multiplier_ci95": [
+          0.3487653882920393,
+          5.168434470269361
+        ]
+      },
+      "hac12": {
+        "se_log": 0.6240673221229777,
+        "beta_ci95": [
+          -0.9781866901333531,
+          1.56740069971947
+        ],
+        "multiplier_ci95": [
+          0.37599227157196985,
+          4.794170495444395
+        ]
+      }
+    }
+  ],
+  "covariance": {
+    "6": [
+      [
+        0.033618523315439464,
+        -0.035079361844799505
+      ],
+      [
+        -0.035079361844799505,
+        0.4368201724055532
+      ]
+    ],
+    "12": [
+      [
+        0.025574967754029017,
+        -2.221697156514186e-05
+      ],
+      [
+        -2.2216971565141848e-05,
+        0.38946002254174433
+      ]
+    ]
+  },
+  "ci_method": "Synchronous month-score Bartlett HAC, T/(T-k structural parameters), t(T-1). Does not correct incidental-parameter bias or guarantee causal coverage.",
+  "separation": {
+    "input_n": 10368,
+    "retained_n": 7100,
+    "all_zero_fe_removed": 3268,
+    "other_separated_zero_rows": 0,
+    "positive_outcome_removed": 0,
+    "lp": [
+      {
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "objective": 0.0,
+        "n": 7100
+      }
+    ]
+  },
+  "fingerprint": "1609cb84efe6105b9630dba0a4bf8e4f43a0738ce29691e98ea4c5511756b138",
+  "outcome": "quantity",
+  "design": "pretrend",
+  "joint_pretrend": {
+    "6": {
+      "chi2": 3.5665707785185634,
+      "df_rank": 2,
+      "p_asymptotic": 0.16808501443671933,
+      "warning": "Many leads and only monthly time support; asymptotic diagnostic, not proof of parallel trends."
+    },
+    "12": {
+      "chi2": 3.705370069711718,
+      "df_rank": 2,
+      "p_asymptotic": 0.1568155453282631,
+      "warning": "Many leads and only monthly time support; asymptotic diagnostic, not proof of parallel trends."
+    }
+  }
+}

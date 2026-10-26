@@ -1,0 +1,32 @@
+[
+  {
+    "authors": "Eurostat",
+    "title": "International trade in goods — detailed data, reference metadata",
+    "url": "https://ec.europa.eu/eurostat/cache/metadata/en/ext_go_detail_sims.htm",
+    "accessed": "2026-10-26",
+    "used_for": "Imports definition; supplementary units; EU aggregates based on harmonised member-country figures; customs entry need not imply final consumption; confidentiality/revisions."
+  },
+  {
+    "authors": "Correia, Guimarães, Zylkin",
+    "year": 2019,
+    "title": "PPMLHDFE: Fast Poisson Estimation with High-Dimensional Fixed Effects",
+    "url": "https://arxiv.org/abs/1903.01690",
+    "accessed": "2026-10-26",
+    "used_for": "IRLS with FE absorption; explicit need to detect separation. Our code is an independent implementation, not a run of the Stata command."
+  },
+  {
+    "authors": "Correia et al.",
+    "title": "ppmlhdfe author documentation",
+    "url": "https://scorreia.com/help/ppmlhdfe.html",
+    "accessed": "2026-10-26",
+    "used_for": "Separation and multi-way fixed-effects estimation guidance."
+  },
+  {
+    "authors": "Weidner, Zylkin",
+    "year": 2021,
+    "title": "Bias and Consistency in Three-way Gravity Models",
+    "url": "https://arxiv.org/abs/1909.01327",
+    "accessed": "2026-10-26",
+    "used_for": "Finite-FE bias and inference limitations; no analytic incidental-parameter correction is claimed in this calculation. Their exact asymptotic setting is not assumed to match this small-origin product panel."
+  }
+]

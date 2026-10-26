@@ -1,0 +1,41 @@
+{
+  "retrieval": {
+    "source_url": "https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/DS-045409?lang=EN&freq=M&flow=1&sinceTimePeriod=2021-01&untilTimePeriod=2025-12&reporter=AT&reporter=BE&reporter=BG&reporter=CY&reporter=CZ&reporter=DE&reporter=DK&reporter=EE&reporter=ES&reporter=FI&reporter=FR&reporter=GR&reporter=HR&reporter=HU&reporter=IE&reporter=IT&reporter=LT&reporter=LU&reporter=LV&reporter=MT&reporter=NL&reporter=PL&reporter=PT&reporter=RO&reporter=SE&reporter=SI&reporter=SK&reporter=EU27_2020&partner=CN&partner=JP&partner=KR&partner=US&partner=EXT_EU27_2020&product=87038010&product=87036010&product=87034010&indicators=SUPPLEMENTARY_QUANTITY&indicators=VALUE_IN_EUROS",
+    "retrieved_at_utc": "2026-10-26T11:56:16.188755+00:00",
+    "http_status": 200,
+    "response_sha256": "908c5cd39456c3f6e51d6117e1ddf510b7bcb4707658dffe37f5aae02497cec0",
+    "response_headers": {
+      "date": "Mon, 26 Oct 2026 11:56:03 GMT",
+      "content-type": "application/json"
+    }
+  },
+  "source_updated": "2026-10-16T11:00:00+0200",
+  "dimensions": {
+    "freq": 1,
+    "reporter": 28,
+    "partner": 5,
+    "product": 3,
+    "flow": 1,
+    "indicators": 2,
+    "time": 60
+  },
+  "raw_indicator_cells": 50400,
+  "raw_observed": 29544,
+  "raw_zero": 0,
+  "status_counts": {
+    "None": 50400
+  },
+  "national_model_grid_rows": 19440,
+  "national_paired_available": 19440,
+  "national_strictly_observed": 9490,
+  "identified_zero_indicators": 20856,
+  "unknown_indicators": 0,
+  "complete_adding_up_groups": 6,
+  "complete_groups_with_discrepancy": 0,
+  "groups_negative_residual": 0,
+  "max_absolute_residual": 0,
+  "missing_not_automatically_zero": true,
+  "zero_reconstruction_assumption": "Same-response EU27 aggregate equals exhaustive member sum; nonnegative indicators, exact equality, all flags empty.",
+  "quantity_integer_check": true,
+  "duplicate_keys": 0
+}

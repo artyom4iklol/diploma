@@ -1,0 +1,21 @@
+{
+  "zero_quantity_positive_value": 0,
+  "positive_quantity_zero_value": 0,
+  "national_positive_quantity_rows": 9490,
+  "national_zero_quantity_rows": 9950,
+  "observed_only_positive_trade_mass_quantity_fraction": 1.0,
+  "observed_only_positive_trade_mass_value_fraction": 1.0,
+  "balanced_observed_units": 52,
+  "balanced_units_by_origin_category": {
+    "CN|BEV": 10,
+    "CN|PHEV": 1,
+    "JP|BEV": 2,
+    "JP|HEV": 10,
+    "JP|PHEV": 2,
+    "KR|BEV": 12,
+    "KR|HEV": 10,
+    "KR|PHEV": 4,
+    "US|PHEV": 1
+  },
+  "balanced_sensitivity_limitation": "Full six-term design cannot identify category contrasts when a China hybrid has no continuously positive 60-month unit. Retain as non-estimable, not as support for main result."
+}

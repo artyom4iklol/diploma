@@ -96,5 +96,20 @@
     "review_depth": "Targeted review of question, data, method and limitations; not a claim of line-by-line review.",
     "local_filename": "critical_minerals_2026.pdf",
     "storage_note": "Publisher/institutional URLs and checksums are committed; original PDFs remain local reading copies."
+  },
+  {
+    "authors": "Panle Jia Barwick, Jack Collison, Pinelopi K. Goldberg, Shanjun Li, Yucheng Wang",
+    "year": "2026",
+    "title": "From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies",
+    "venue": "NBER Working Paper35334, June2026",
+    "primary_full_text_url": "https://www.nber.org/system/files/working_papers/w35334/w35334.pdf",
+    "doi": null,
+    "full_text_obtained": true,
+    "retrieved_on": "2026-10-26",
+    "sha256": "6a6862ba834323fde8bd327d3ef88b9f0d46433789a9b1a464c3c2c72c603e23",
+    "review_depth": "Targeted full-text review: abstract, model/data scope, Section6.2, AppendixD.1 and FigureE.5. Not line-by-line whole-paper review.",
+    "local_filename": "nber_35334.pdf",
+    "storage_note": "Original PDF remains local; source link and checksum committed.",
+    "comparison": "Demand/welfare model plus EU6 synthetic control for combined incumbent-brand BEV/PHEV registrations. Our outcome is customs flows with new entrants, three CN8 groups, value/quantity and entry geography; this is a narrower complementary measurement, not first tariff-EV study."
   }
 ]

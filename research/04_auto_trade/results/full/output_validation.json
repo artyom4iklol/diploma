@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "raw_response_sha256": true,
+    "national_grid_complete": true,
+    "zero_reconstruction_exact": true,
+    "no_duplicate_keys": true,
+    "value_quantity_consistent": true,
+    "all_17_models_numerically_valid": true,
+    "balanced_observed_nonidentification_disclosed": true,
+    "all_398_block_fits_converged": true,
+    "bootstrap_unique_draws": true,
+    "bootstrap_first_order_scores": true,
+    "share_decomposition_identities": true,
+    "member_category_contributions_add_up": true,
+    "value_change_identity": true,
+    "numerical_validation.json": true,
+    "numerical_validation_national.json": true,
+    "diagnostic_figures_exist": true
+  },
+  "estimated_specifications": 17,
+  "nonestimable_checks": 1,
+  "successful_block_refits": 398,
+  "max_relative_model_score_error": 2.1927095814969807e-12,
+  "smallest_HAC_eigenvalue": 0.0,
+  "model_errors": [],
+  "fingerprint": "1609cb84efe6105b9630dba0a4bf8e4f43a0738ce29691e98ea4c5511756b138",
+  "does_not_assert": "Causal identification, constant-quality prices, universal originality, or validity of asymptotic intervals in a one-policy small-origin setting."
+}

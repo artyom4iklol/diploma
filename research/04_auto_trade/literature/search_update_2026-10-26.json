@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-26",
+  "queries": [
+    "China hybrid tariffs European Union difference research paper 2025 2026",
+    "Chinese plug-in hybrid tariffs empirical study Europe 2026",
+    "electric vehicles product switching EU tariffs paper China"
+  ],
+  "scope": "Targeted supplementary web search, not exhaustive systematic review; full-text core comparison is in source_manifest.json and README.",
+  "additional_primary_candidates": [
+    {
+      "title": "From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies",
+      "url": "https://www.nber.org/papers/w35334",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w35334/w35334.pdf",
+      "year": 2026,
+      "read_status": "Public primary PDF obtained by direct ordinary download after web-renderer403. Targeted full-text review completed; see source_manifest.json.",
+      "comparison": "Demand/welfare model plus EU6 synthetic control for combined incumbent-brand BEV/PHEV registrations. Our outcome is customs flows with new entrants, three CN8 groups, value/quantity and entry geography; this is a narrower complementary measurement, not first tariff-EV study."
+    },
+    {
+      "title": "A perspective on the evolving plug-in electric vehicle ... (search-result title truncated)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214629625004086",
+      "year": 2025,
+      "read_status": "Search result identified; publisher retrieval403. Not used to substantiate methodological or priority claims."
+    }
+  ],
+  "conclusion": "The quantitative contribution must be presented as a case-specific joint decomposition and conditional panel analysis, not first discovery of switching to hybrids. Literature search does not prove universal priority."
+}

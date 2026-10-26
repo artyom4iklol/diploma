@@ -1,0 +1,293 @@
+{
+  "names": [
+    "PHEV__pretrend_per_year",
+    "HEV__pretrend_per_year"
+  ],
+  "scale": 8227793.572112676,
+  "n": 7100,
+  "iterations": 20,
+  "objective_normalized": 7698.359013612692,
+  "max_fe_score_over_total_y": 8.571215099175813e-13,
+  "max_x_score_over_total_y": 1.2066586262068559e-13,
+  "elapsed_seconds": 0.8133110580001812,
+  "converged": true,
+  "iteration_history": [
+    {
+      "iteration": 1,
+      "objective": -670.3832656860857,
+      "max_beta_change": 0.22582741532242245,
+      "max_eta_change": 7.056003798729725,
+      "step": 0.125,
+      "projection_cycles": 13
+    },
+    {
+      "iteration": 2,
+      "objective": 3144.06716336331,
+      "max_beta_change": 0.08141503006566654,
+      "max_eta_change": 3.3507163750910696,
+      "step": 1.0,
+      "projection_cycles": 39
+    },
+    {
+      "iteration": 3,
+      "objective": 6871.782665651946,
+      "max_beta_change": 0.1957608489486346,
+      "max_eta_change": 1.839627567364682,
+      "step": 1.0,
+      "projection_cycles": 54
+    },
+    {
+      "iteration": 4,
+      "objective": 7544.452349335941,
+      "max_beta_change": 0.15824773949835852,
+      "max_eta_change": 2.1354757915826914,
+      "step": 1.0,
+      "projection_cycles": 53
+    },
+    {
+      "iteration": 5,
+      "objective": 7659.0043791107855,
+      "max_beta_change": 0.25916176494937126,
+      "max_eta_change": 2.4539670059928103,
+      "step": 1.0,
+      "projection_cycles": 56
+    },
+    {
+      "iteration": 6,
+      "objective": 7687.844796420297,
+      "max_beta_change": 0.33393381497214414,
+      "max_eta_change": 2.174515781665863,
+      "step": 1.0,
+      "projection_cycles": 62
+    },
+    {
+      "iteration": 7,
+      "objective": 7695.687662026582,
+      "max_beta_change": 0.2193958759107807,
+      "max_eta_change": 1.868340928886301,
+      "step": 1.0,
+      "projection_cycles": 65
+    },
+    {
+      "iteration": 8,
+      "objective": 7697.710301121197,
+      "max_beta_change": 0.06336427468364181,
+      "max_eta_change": 1.8649520907051844,
+      "step": 1.0,
+      "projection_cycles": 65
+    },
+    {
+      "iteration": 9,
+      "objective": 7698.216329489446,
+      "max_beta_change": 0.006018891312845387,
+      "max_eta_change": 1.8286345411942744,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 10,
+      "objective": 7698.3308921055195,
+      "max_beta_change": 0.00014588671028403777,
+      "max_eta_change": 1.630437534392696,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 11,
+      "objective": 7698.353736369308,
+      "max_beta_change": 9.54372521788649e-07,
+      "max_eta_change": 1.182087532992158,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 12,
+      "objective": 7698.35801879859,
+      "max_beta_change": 4.424894117782685e-09,
+      "max_eta_change": 0.9821233652345853,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 13,
+      "objective": 7698.35881137203,
+      "max_beta_change": 5.473310693560052e-11,
+      "max_eta_change": 0.9522671166500789,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 14,
+      "objective": 7698.35897688618,
+      "max_beta_change": 1.8551826741486366e-13,
+      "max_eta_change": 0.8762964853243549,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 15,
+      "objective": 7698.359009397303,
+      "max_beta_change": 7.216449660063518e-15,
+      "max_eta_change": 0.7028657141890093,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 16,
+      "objective": 7698.3590134461665,
+      "max_beta_change": 9.992007221626409e-16,
+      "max_eta_change": 0.39992785384243135,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 17,
+      "objective": 7698.359013612234,
+      "max_beta_change": 2.4424906541753444e-15,
+      "max_eta_change": 0.10486213508303699,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 18,
+      "objective": 7698.359013612691,
+      "max_beta_change": 2.6645352591003757e-15,
+      "max_eta_change": 0.005897936951797078,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 19,
+      "objective": 7698.359013612693,
+      "max_beta_change": 2.886579864025407e-15,
+      "max_eta_change": 1.7461369521853953e-05,
+      "step": 1.0,
+      "projection_cycles": 66
+    },
+    {
+      "iteration": 20,
+      "objective": 7698.359013612692,
+      "max_beta_change": 9.992007221626409e-16,
+      "max_eta_change": 1.524611548120447e-10,
+      "step": 1.0,
+      "projection_cycles": 66
+    }
+  ],
+  "min_fitted": 0.4669303410239202,
+  "max_fitted": 984957105.0453533,
+  "zero_observations": 2480,
+  "n_months": 32,
+  "hessian_condition": 12.563178650611396,
+  "projection_cycles_final": 56,
+  "coefficients": [
+    {
+      "term": "PHEV__pretrend_per_year",
+      "beta": 0.34615063622455877,
+      "multiplier": 1.4136155414882623,
+      "hac6": {
+        "se_log": 0.21594951051683567,
+        "beta_ci95": [
+          -0.09428129421725012,
+          0.7865825666663677
+        ],
+        "multiplier_ci95": [
+          0.9100267409740252,
+          2.195879317786103
+        ]
+      },
+      "hac12": {
+        "se_log": 0.20064312980390875,
+        "beta_ci95": [
+          -0.06306372493757306,
+          0.7553649973866906
+        ],
+        "multiplier_ci95": [
+          0.9388836414813099,
+          2.1283882377419534
+        ]
+      }
+    },
+    {
+      "term": "HEV__pretrend_per_year",
+      "beta": 0.9130286035389596,
+      "multiplier": 2.491857966561278,
+      "hac6": {
+        "se_log": 0.8265825020488086,
+        "beta_ci95": [
+          -0.772797523945572,
+          2.5988547310234913
+        ],
+        "multiplier_ci95": [
+          0.4617195882797748,
+          13.4483272599481
+        ]
+      },
+      "hac12": {
+        "se_log": 0.7709539602733537,
+        "beta_ci95": [
+          -0.6593423649911077,
+          2.485399572069027
+        ],
+        "multiplier_ci95": [
+          0.5171913458130738,
+          12.005916525446132
+        ]
+      }
+    }
+  ],
+  "covariance": {
+    "6": [
+      [
+        0.04663419109246092,
+        -0.026002501897198396
+      ],
+      [
+        -0.026002501897198407,
+        0.6832386326932686
+      ]
+    ],
+    "12": [
+      [
+        0.040257665537508175,
+        0.023754201081801707
+      ],
+      [
+        0.0237542010818017,
+        0.5943700088611679
+      ]
+    ]
+  },
+  "ci_method": "Synchronous month-score Bartlett HAC, T/(T-k structural parameters), t(T-1). Does not correct incidental-parameter bias or guarantee causal coverage.",
+  "separation": {
+    "input_n": 10368,
+    "retained_n": 7100,
+    "all_zero_fe_removed": 3268,
+    "other_separated_zero_rows": 0,
+    "positive_outcome_removed": 0,
+    "lp": [
+      {
+        "success": true,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "objective": 0.0,
+        "n": 7100
+      }
+    ]
+  },
+  "fingerprint": "1609cb84efe6105b9630dba0a4bf8e4f43a0738ce29691e98ea4c5511756b138",
+  "outcome": "value_eur",
+  "design": "pretrend",
+  "joint_pretrend": {
+    "6": {
+      "chi2": 4.398652111507934,
+      "df_rank": 2,
+      "p_asymptotic": 0.1108778586824525,
+      "warning": "Many leads and only monthly time support; asymptotic diagnostic, not proof of parallel trends."
+    },
+    "12": {
+      "chi2": 3.8419621932199832,
+      "df_rank": 2,
+      "p_asymptotic": 0.1464631970720403,
+      "warning": "Many leads and only monthly time support; asymptotic diagnostic, not proof of parallel trends."
+    }
+  }
+}
