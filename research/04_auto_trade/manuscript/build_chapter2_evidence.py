@@ -43,6 +43,7 @@ def main():
         "results/geography_focus/category_HHI_group_shapley.csv",
         "results/augmented/conditional_share_equivalence.json",
         "results/augmented/output_validation.json", "results/augmented/coefficients.csv",
+        "results/chapter2_revision/valuation_diagnostic.json",
     ]
     for path in extra:
         files[path] = hashlib.sha256((ROOT / path).read_bytes()).hexdigest()

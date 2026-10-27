@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-27",
+  "raw_response_sha256": "908c5cd39456c3f6e51d6117e1ddf510b7bcb4707658dffe37f5aae02497cec0",
+  "independent_raw_lookup_checks": 24,
+  "all_match_saved_panel": true,
+  "NL_BEV_2025_months": [
+    {
+      "month": "2025-01",
+      "quantity": 75,
+      "quantity_raw_flat_index": 38148,
+      "value_eur": 420481,
+      "value_eur_raw_flat_index": 38088,
+      "customs_eur_per_vehicle": 5606.413333333333
+    },
+    {
+      "month": "2025-02",
+      "quantity": 2320,
+      "quantity_raw_flat_index": 38149,
+      "value_eur": 7957351,
+      "value_eur_raw_flat_index": 38089,
+      "customs_eur_per_vehicle": 3429.892672413793
+    },
+    {
+      "month": "2025-03",
+      "quantity": 2187,
+      "quantity_raw_flat_index": 38150,
+      "value_eur": 19893854,
+      "value_eur_raw_flat_index": 38090,
+      "customs_eur_per_vehicle": 9096.412437128487
+    },
+    {
+      "month": "2025-04",
+      "quantity": 1979,
+      "quantity_raw_flat_index": 38151,
+      "value_eur": 3444726,
+      "value_eur_raw_flat_index": 38091,
+      "customs_eur_per_vehicle": 1740.6397170288024
+    },
+    {
+      "month": "2025-05",
+      "quantity": 1852,
+      "quantity_raw_flat_index": 38152,
+      "value_eur": 3771419,
+      "value_eur_raw_flat_index": 38092,
+      "customs_eur_per_vehicle": 2036.4033477321814
+    },
+    {
+      "month": "2025-06",
+      "quantity": 3014,
+      "quantity_raw_flat_index": 38153,
+      "value_eur": 5844386,
+      "value_eur_raw_flat_index": 38093,
+      "customs_eur_per_vehicle": 1939.0796284007963
+    },
+    {
+      "month": "2025-07",
+      "quantity": 4780,
+      "quantity_raw_flat_index": 38154,
+      "value_eur": 11145892,
+      "value_eur_raw_flat_index": 38094,
+      "customs_eur_per_vehicle": 2331.776569037657
+    },
+    {
+      "month": "2025-08",
+      "quantity": 5916,
+      "quantity_raw_flat_index": 38155,
+      "value_eur": 10077412,
+      "value_eur_raw_flat_index": 38095,
+      "customs_eur_per_vehicle": 1703.4164976335362
+    },
+    {
+      "month": "2025-09",
+      "quantity": 3198,
+      "quantity_raw_flat_index": 38156,
+      "value_eur": 4784948,
+      "value_eur_raw_flat_index": 38096,
+      "customs_eur_per_vehicle": 1496.2313946216386
+    },
+    {
+      "month": "2025-10",
+      "quantity": 1689,
+      "quantity_raw_flat_index": 38157,
+      "value_eur": 2287314,
+      "value_eur_raw_flat_index": 38097,
+      "customs_eur_per_vehicle": 1354.2415630550622
+    },
+    {
+      "month": "2025-11",
+      "quantity": 11742,
+      "quantity_raw_flat_index": 38158,
+      "value_eur": 10362411,
+      "value_eur_raw_flat_index": 38098,
+      "customs_eur_per_vehicle": 882.508175779254
+    },
+    {
+      "month": "2025-12",
+      "quantity": 3056,
+      "quantity_raw_flat_index": 38159,
+      "value_eur": 2852745,
+      "value_eur_raw_flat_index": 38099,
+      "customs_eur_per_vehicle": 933.4898560209424
+    }
+  ],
+  "variants": {
+    "full_EU27": {
+      "excluded_reporters": [],
+      "denominator": "extraEU for exactly the same retained reporters and three CN8 codes",
+      "years": {
+        "2023": {
+          "quantity": 537124,
+          "value_eur": 12276978242,
+          "quantity_share_pct": 31.2295012863933,
+          "value_share_pct": 27.59576460645513
+        },
+        "2025": {
+          "quantity": 732311,
+          "value_eur": 11731438455,
+          "quantity_share_pct": 38.83276496481347,
+          "value_share_pct": 27.781489190916425
+        }
+      },
+      "quantity_share_change_pp": 7.60326367842017,
+      "value_share_change_pp": 0.18572458446129403,
+      "quantity_growth_pct": 36.33928105986699,
+      "value_growth_pct": -4.443599852068547,
+      "value_change_eur": -545539787,
+      "quantity_component_eur": 4548955409.162208,
+      "unit_value_component_eur": -5094495196.162207,
+      "HHI_renormalized_within_retained_reporters": {
+        "2023": {
+          "quantity": 0.2404879855958408,
+          "value_eur": 0.2967085900696996
+        },
+        "2025": {
+          "quantity": 0.18731952021640702,
+          "value_eur": 0.2562123036393232
+        }
+      }
+    },
+    "exclude_NL": {
+      "excluded_reporters": [
+        "NL"
+      ],
+      "denominator": "extraEU for exactly the same retained reporters and three CN8 codes",
+      "years": {
+        "2023": {
+          "quantity": 485445,
+          "value_eur": 11209591554,
+          "quantity_share_pct": 30.714297464502145,
+          "value_share_pct": 27.202839130465016
+        },
+        "2025": {
+          "quantity": 682087,
+          "value_eur": 11532608164,
+          "quantity_share_pct": 38.37462017066089,
+          "value_share_pct": 28.496270363698834
+        }
+      },
+      "quantity_share_change_pp": 7.660322706158745,
+      "value_share_change_pp": 1.293431233233818,
+      "quantity_growth_pct": 40.50757552348876,
+      "value_growth_pct": 2.8816090973871056,
+      "value_change_eur": 323016610,
+      "quantity_component_eur": 4522526881.324906,
+      "unit_value_component_eur": -4199510271.3249063,
+      "HHI_renormalized_within_retained_reporters": {
+        "2023": {
+          "quantity": 0.2830836123036106,
+          "value_eur": 0.3468375218637804
+        },
+        "2025": {
+          "quantity": 0.21049906857582665,
+          "value_eur": 0.26482578007467333
+        }
+      }
+    },
+    "exclude_BE_NL": {
+      "excluded_reporters": [
+        "BE",
+        "NL"
+      ],
+      "denominator": "extraEU for exactly the same retained reporters and three CN8 codes",
+      "years": {
+        "2023": {
+          "quantity": 254909,
+          "value_eur": 5234177655,
+          "quantity_share_pct": 24.616687574178208,
+          "value_share_pct": 19.7583196132822
+        },
+        "2025": {
+          "quantity": 419673,
+          "value_eur": 6302340951,
+          "quantity_share_pct": 34.57593353611716,
+          "value_share_pct": 23.159831769789086
+        }
+      },
+      "quantity_share_change_pp": 9.959245961938954,
+      "value_share_change_pp": 3.401512156506886,
+      "quantity_growth_pct": 64.63639965634795,
+      "value_growth_pct": 20.407471171323866,
+      "value_change_eur": 1068163296,
+      "quantity_component_eur": 4068548034.4574876,
+      "unit_value_component_eur": -3000384738.4574876,
+      "HHI_renormalized_within_retained_reporters": {
+        "2023": {
+          "quantity": 0.20874172213354886,
+          "value_eur": 0.28749089990702353
+        },
+        "2025": {
+          "quantity": 0.16506442584647119,
+          "value_eur": 0.19804911164065064
+        }
+      }
+    }
+  },
+  "models_refitted": false,
+  "interpretation": "Robustness of descriptive quantities to disclosed geographic exclusions; no value correction, no claim of source error, no price/causal inference.",
+  "fresh_source_check": "An additional one-cell Eurostat API request via the research browser was not accessible; no fresh response was substituted for the frozen snapshot.",
+  "economic_cause_of_low_NL_unit_value": "unresolved"
+}

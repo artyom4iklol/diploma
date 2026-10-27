@@ -4,6 +4,8 @@ import hashlib
 import json
 import re
 import build_chapter2_evidence as evidence
+import check_chapter2_valuation as valuation
+import build_chapter2_appendix as appendix
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -11,6 +13,7 @@ TITLE = "Глава 2 Анализ товарной и географическ�
 
 
 def main():
+    valuation.main()
     evidence.main()
     tables = json.loads((HERE / "chapter2_generated_tables.json").read_text())
     sections = [HERE / f"chapter2_{i}.md" for i in range(1, 7)]
@@ -25,6 +28,33 @@ def main():
             text, count = re.subn(rf"<!-- BEGIN AUTO {token} -->.*?<!-- END AUTO {token} -->", lambda _: marked, text, flags=re.S)
             assert count == 1, (filename, token)
         path.write_text(text, encoding="utf-8")
+
+    placement = [
+        ("chapter2_3.md", "В начале периода преобладание BEV", "G04_mix", 1, "Товарный состав китайских поставок по количеству, 2021–2025 годы", ""),
+        ("chapter2_3.md", "Траектории технологий существенно различались.", "G02_monthly", 2, "Месячные количества китайских BEV, PHEV и HEV", "Вертикальные линии: сентябрь 2023, июль и ноябрь 2024 года; масштабы панелей различаются."),
+        ("chapter2_3.md", "Изменение китайской корзины необходимо сопоставить", "G03_shares", 3, "Физическая и стоимостная доли Китая во внешнем импорте трёх кодов", ""),
+        ("chapter2_4.md", "В 2025 году крупнейшим направлением", "G07_geography", 4, "Доли стран оформления внутри технологий, 2023 и 2025 годы", "Показатель — количество. Каждая колонка нормирована на свой итог; значения менее 0,1% выделены отдельно."),
+        ("chapter2_4.md", "В целом по трём технологиям физический HHI", "G08_hhi", 5, "Общая и технологическая концентрация, 2021–2025 годы", "Годы на горизонтальной оси сокращены до двух последних цифр."),
+        ("chapter2_4.md", "За 2023–2025 годы общий физический HHI", "G09_hhi_components", 6, "Товарный и географический компоненты изменения общего HHI", "Ромб обозначает итог; шкала — единицы HHI, а не процентные пункты доли."),
+        ("chapter2_4.md", "Для BEV набор положительных годовых направлений", "G10_entry", 7, "Источники изменения количества по направлениям, 2023–2025 годы", "Исчезнувшее направление HEV даёт −6 машин; подписи показывают чистое изменение с его учётом."),
+        ("chapter2_5.md", "Для PHEV количественный множитель", "G11_intervals", 8, "Окончательные фазовые множители с двумя видами интервалов", "Вертикальная линия — единица; ось множителей логарифмическая."),
+    ]
+    for filename, anchor, figure, n, title, note_text in placement:
+        path = HERE / filename
+        text = path.read_text()
+        text = re.sub(rf"\n*<!-- BEGIN FIG {figure} -->.*?<!-- END FIG {figure} -->\n*", "\n\n", text, flags=re.S)
+        start = text.index(anchor)
+        end = text.find("\n\n", start)
+        assert end > start
+        assert (HERE / f"chapter2_figures/{figure}.svg").exists()
+        caption = f"Рисунок 2.{n} — {title}"
+        block = f"\n\n<!-- BEGIN FIG {figure} -->\n![{title}](chapter2_figures/{figure}.svg)\n\n{caption}\n\nИсточник: Eurostat Comext; расчёты автора."
+        if note_text:
+            block += " " + note_text
+        block += f"\n<!-- END FIG {figure} -->"
+        path.write_text(text[:end] + block + text[end:], encoding="utf8")
+    appendix.main()
+    appendix_text = (HERE / "chapter2_appendix.md").read_text()
 
     prior = json.loads((HERE / "chapter1_sources.json").read_text())["citations"]
     notes = {}
@@ -60,7 +90,7 @@ def main():
         "C2MODEL": ("Расчёты автора: предпочтительная PPML CN/REST, спецификация от 26.10.2026; два исхода и синхронные взвешенные повторные оценки.", ["augmented_model_spec.json", "results/augmented/rest_preferred_quantity.json", "results/augmented/rest_preferred_value.json", "results/augmented/paired_block_summary.json"]),
         "C2ACCOUNT": ("Расчёты автора: симметричное разложение доли Китая во внешнем импорте выбранных кодов, базы 2023/2024 и конечный 2025 год.", ["results/full/accounting_decompositions.json"]),
         "C2VALUE": ("Расчёты автора: разложение изменения стоимости на количество и среднюю таможенную стоимость внутри CN8.", ["results/full/china_value_change_accounting.json"]),
-        "C2UNITFLAG": ("Eurostat Comext; авторская проверка опубликованных месячных количества и стоимости BEV из Китая, Нидерланды, 2025 год. Причина низкой удельной стоимости по агрегированной панели не установлена.", ["results/full/panel.csv", "results/full/annual_member_flows.csv", "manuscript/chapter2_evidence.json"]),
+        "C2UNITFLAG": ("Eurostat Comext; независимая проверка 24 исходных месячных значений BEV из Китая, Нидерланды, 2025 год, и описательная чувствительность без NL и без BE/NL. Причина низкой удельной стоимости по агрегированной панели не установлена.", ["results/full/panel.csv", "results/full/annual_member_flows.csv", "manuscript/chapter2_evidence.json", "results/chapter2_revision/valuation_diagnostic.json"]),
         "C2GEODATA": ("Eurostat Comext; расчёты автора по годовым потокам стран оформления, 2023–2025 годы.", ["results/full/annual_member_flows.csv"]),
         "C2CONCENTRATION": ("Расчёты автора: технологические и совокупные HHI по количеству и стоимости; шкала 0–1.", ["results/full/entry_concentration.csv", "results/geography_focus/pooled_HHI_product_geography.csv"]),
         "C2GROUP": ("Расчёты автора: трёхфакторное групповое разложение технологических HHI с усреднением шести порядков замены.", ["results/geography_focus/category_HHI_group_shapley.csv"]),
@@ -77,29 +107,42 @@ def main():
         item["source_sha256"] = {path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in item["source_files"]}
 
     content = "# " + TITLE + "\n\n" + "\n\n".join(p.read_text().strip() for p in sections) + "\n"
-    keys = re.findall(r"\[\^([^\]]+)\]", content)
+    keys = re.findall(r"\[\^([^\]]+)\]", content + appendix_text)
     unique = list(dict.fromkeys(keys))
     assert set(unique) == set(notes), (set(unique) - set(notes), set(notes) - set(unique))
     assert "{{" not in content
-    assert not re.search(r"!\[|Рисунок\s+2\.", content)
+    assert len(re.findall(r"^Рисунок 2\.[1-8] —", content, re.M)) == 8
+    assert len(re.findall(r"^Рисунок А\.[1-4] —", appendix_text, re.M)) == 4
+    for target in re.findall(r"!\[[^\]]*\]\(([^)]+)\)", content + appendix_text):
+        assert (HERE / target).exists(), target
+    figure_manifest = json.loads((HERE / "chapter2_figures/figure_manifest.json").read_text())
+    assert len(figure_manifest["figures"]) == 12
+    for figure in figure_manifest["figures"]:
+        for source, expected in figure["source_sha256"].items():
+            assert hashlib.sha256((ROOT / source).read_bytes()).hexdigest() == expected
+        assert hashlib.sha256((HERE / "chapter2_figures" / (figure["id"] + ".svg")).read_bytes()).hexdigest() == figure["svg_sha256"]
     assert len(re.findall(r"^Таблица 2\.[1-6] —", content, re.M)) == 6
     assert len(re.findall(r"^## 2\.[1-6] ", content, re.M)) == 6
     definitions = "\n".join(f"[^{key}]: {notes[key]['text']}" for key in unique)
-    combined = content + "\n" + definitions + "\n"
+    combined = content + "\n" + appendix_text + "\n" + definitions + "\n"
+    appendix_keys = list(dict.fromkeys(re.findall(r"\[\^([^\]]+)\]", appendix_text)))
+    (HERE / "chapter2_appendix.md").write_text(appendix_text + "\n" + "\n".join(f"[^{key}]: {notes[key]['text']}" for key in appendix_keys) + "\n", encoding="utf8")
     (HERE / "chapter2_content.md").write_text(combined, encoding="utf-8")
     (HERE / "chapter2_sources.json").write_text(json.dumps({"date": "2026-10-27", "citations": notes, "footnote_occurrences": len(keys), "first_use_order": unique}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     external = [notes[key]["text"] for key in unique if notes[key]["kind"] != "own_calculation"]
     (HERE / "chapter2_bibliography.md").write_text("# Источники второй главы\n\n" + "\n\n".join(f"{i}. {text}" for i, text in enumerate(external, 1)) + "\n\nСобственные расчёты и их исходные файлы перечислены в chapter2_sources.json; они не представлены отдельными внешними публикациями.\n", encoding="utf-8")
     checks = {
         "date": "2026-10-27", "format": "Markdown", "chapter_complete": True,
-        "sections": 6, "conclusions": True, "tables": 6, "figures_created_this_stage": 0,
+        "sections": 6, "conclusions": True, "tables": 6, "appendix_tables": 4, "figures_created_this_stage": 12,
+        "main_figures": 8, "appendix_figures": 4,
+        "all_figure_source_and_svg_hashes_verified": True,
         "footnote_occurrences": len(keys), "distinct_footnote_definitions": len(unique),
         "all_citations_resolved": True, "unresolved_table_placeholders": False,
         "words_including_tables_and_formula_tokens": len(re.findall(r"[A-Za-zА-Яа-яЁё0-9]+(?:[-–][A-Za-zА-Яа-яЁё0-9]+)*", content)),
         "cyrillic_words_in_body_and_tables": len(re.findall(r"[А-Яа-яЁё]+(?:[-–][А-Яа-яЁё]+)*", content)),
         "source_evidence": "chapter2_evidence.json", "regressions_refitted": False,
         "sha256": {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [*sections, HERE / "chapter2_content.md"]},
-        "limits": ["Word layout and graphics await a later authorized assembly stage.", "The low observed NL BEV customs unit value is disclosed and not economically resolved.", "Numerical checks do not establish causal tariff effects."],
+        "limits": ["Word layout awaits a later assembly stage.", "The low observed NL BEV customs unit value is disclosed, sensitivity-checked and not economically resolved.", "Numerical checks do not establish causal tariff effects."],
     }
     (HERE / "chapter2_checks.json").write_text(json.dumps(checks, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in checks.items() if k != "sha256"}, ensure_ascii=False))

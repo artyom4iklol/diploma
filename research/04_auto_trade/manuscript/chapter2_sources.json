@@ -247,19 +247,21 @@
         "O01",
         "AUTHOR_CALCULATIONS"
       ],
-      "text": "Eurostat Comext; авторская проверка опубликованных месячных количества и стоимости BEV из Китая, Нидерланды, 2025 год. Причина низкой удельной стоимости по агрегированной панели не установлена.",
+      "text": "Eurostat Comext; независимая проверка 24 исходных месячных значений BEV из Китая, Нидерланды, 2025 год, и описательная чувствительность без NL и без BE/NL. Причина низкой удельной стоимости по агрегированной панели не установлена.",
       "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
       "kind": "own_calculation",
       "source_files": [
         "results/full/panel.csv",
         "results/full/annual_member_flows.csv",
-        "manuscript/chapter2_evidence.json"
+        "manuscript/chapter2_evidence.json",
+        "results/chapter2_revision/valuation_diagnostic.json"
       ],
       "urls": [],
       "source_sha256": {
         "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175",
         "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3",
-        "manuscript/chapter2_evidence.json": "2f24d2705b849a98c6296dd0f089be0ea56cc15bdb81320689b2afb4fcf6f253"
+        "manuscript/chapter2_evidence.json": "3cb403cdf50eb7ad2aaa409e70cdf26ba58d0ebac18585d5aa945f6153ac6420",
+        "results/chapter2_revision/valuation_diagnostic.json": "e05abf7f01a986deac4421acaf6a870e5fdec5ca9cf5d3fe03509790879afc8d"
       }
     },
     "C2GEODATA": {
@@ -381,7 +383,7 @@
       }
     }
   },
-  "footnote_occurrences": 32,
+  "footnote_occurrences": 42,
   "first_use_order": [
     "C2LAUNCH",
     "C2PROVISIONAL",

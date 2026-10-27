@@ -1,0 +1,2288 @@
+{
+  "date": "2026-10-27",
+  "style": "monochrome, no internal titles; serif; captions outside plots",
+  "figures": [
+    {
+      "id": "G02_monthly",
+      "source_files": [
+        "results/full/panel.csv"
+      ],
+      "plotted_data": [
+        {
+          "month": "2021-01",
+          "BEV": 6419,
+          "HEV": 44,
+          "PHEV": 997
+        },
+        {
+          "month": "2021-02",
+          "BEV": 5619,
+          "HEV": 108,
+          "PHEV": 1055
+        },
+        {
+          "month": "2021-03",
+          "BEV": 8831,
+          "HEV": 1,
+          "PHEV": 1266
+        },
+        {
+          "month": "2021-04",
+          "BEV": 8426,
+          "HEV": 72,
+          "PHEV": 391
+        },
+        {
+          "month": "2021-05",
+          "BEV": 14072,
+          "HEV": 124,
+          "PHEV": 1643
+        },
+        {
+          "month": "2021-06",
+          "BEV": 18907,
+          "HEV": 288,
+          "PHEV": 1405
+        },
+        {
+          "month": "2021-07",
+          "BEV": 8214,
+          "HEV": 717,
+          "PHEV": 2115
+        },
+        {
+          "month": "2021-08",
+          "BEV": 25252,
+          "HEV": 161,
+          "PHEV": 2058
+        },
+        {
+          "month": "2021-09",
+          "BEV": 38178,
+          "HEV": 84,
+          "PHEV": 2421
+        },
+        {
+          "month": "2021-10",
+          "BEV": 15255,
+          "HEV": 177,
+          "PHEV": 1957
+        },
+        {
+          "month": "2021-11",
+          "BEV": 23834,
+          "HEV": 463,
+          "PHEV": 5454
+        },
+        {
+          "month": "2021-12",
+          "BEV": 35887,
+          "HEV": 281,
+          "PHEV": 2593
+        },
+        {
+          "month": "2022-01",
+          "BEV": 8453,
+          "HEV": 163,
+          "PHEV": 2332
+        },
+        {
+          "month": "2022-02",
+          "BEV": 39584,
+          "HEV": 81,
+          "PHEV": 823
+        },
+        {
+          "month": "2022-03",
+          "BEV": 51054,
+          "HEV": 2,
+          "PHEV": 3918
+        },
+        {
+          "month": "2022-04",
+          "BEV": 11568,
+          "HEV": 4,
+          "PHEV": 8772
+        },
+        {
+          "month": "2022-05",
+          "BEV": 10491,
+          "HEV": 19,
+          "PHEV": 3796
+        },
+        {
+          "month": "2022-06",
+          "BEV": 23182,
+          "HEV": 14,
+          "PHEV": 2835
+        },
+        {
+          "month": "2022-07",
+          "BEV": 11283,
+          "HEV": 2,
+          "PHEV": 1011
+        },
+        {
+          "month": "2022-08",
+          "BEV": 28633,
+          "HEV": 28,
+          "PHEV": 6315
+        },
+        {
+          "month": "2022-09",
+          "BEV": 41394,
+          "HEV": 5,
+          "PHEV": 6207
+        },
+        {
+          "month": "2022-10",
+          "BEV": 28623,
+          "HEV": 32,
+          "PHEV": 5961
+        },
+        {
+          "month": "2022-11",
+          "BEV": 36694,
+          "HEV": 32,
+          "PHEV": 9694
+        },
+        {
+          "month": "2022-12",
+          "BEV": 52896,
+          "HEV": 43,
+          "PHEV": 5041
+        },
+        {
+          "month": "2023-01",
+          "BEV": 35285,
+          "HEV": 27,
+          "PHEV": 6301
+        },
+        {
+          "month": "2023-02",
+          "BEV": 35282,
+          "HEV": 6,
+          "PHEV": 5327
+        },
+        {
+          "month": "2023-03",
+          "BEV": 56698,
+          "HEV": 15,
+          "PHEV": 4676
+        },
+        {
+          "month": "2023-04",
+          "BEV": 32890,
+          "HEV": 18,
+          "PHEV": 6445
+        },
+        {
+          "month": "2023-05",
+          "BEV": 52875,
+          "HEV": 39,
+          "PHEV": 2953
+        },
+        {
+          "month": "2023-06",
+          "BEV": 45799,
+          "HEV": 885,
+          "PHEV": 4693
+        },
+        {
+          "month": "2023-07",
+          "BEV": 42878,
+          "HEV": 545,
+          "PHEV": 2197
+        },
+        {
+          "month": "2023-08",
+          "BEV": 34981,
+          "HEV": 555,
+          "PHEV": 1698
+        },
+        {
+          "month": "2023-09",
+          "BEV": 22873,
+          "HEV": 565,
+          "PHEV": 891
+        },
+        {
+          "month": "2023-10",
+          "BEV": 46614,
+          "HEV": 938,
+          "PHEV": 1125
+        },
+        {
+          "month": "2023-11",
+          "BEV": 55864,
+          "HEV": 1638,
+          "PHEV": 1070
+        },
+        {
+          "month": "2023-12",
+          "BEV": 29126,
+          "HEV": 1797,
+          "PHEV": 1555
+        },
+        {
+          "month": "2024-01",
+          "BEV": 31875,
+          "HEV": 1135,
+          "PHEV": 2003
+        },
+        {
+          "month": "2024-02",
+          "BEV": 35860,
+          "HEV": 3963,
+          "PHEV": 855
+        },
+        {
+          "month": "2024-03",
+          "BEV": 43751,
+          "HEV": 2505,
+          "PHEV": 2816
+        },
+        {
+          "month": "2024-04",
+          "BEV": 36740,
+          "HEV": 1407,
+          "PHEV": 1063
+        },
+        {
+          "month": "2024-05",
+          "BEV": 50546,
+          "HEV": 5391,
+          "PHEV": 2426
+        },
+        {
+          "month": "2024-06",
+          "BEV": 30600,
+          "HEV": 5399,
+          "PHEV": 2819
+        },
+        {
+          "month": "2024-07",
+          "BEV": 32376,
+          "HEV": 10653,
+          "PHEV": 3884
+        },
+        {
+          "month": "2024-08",
+          "BEV": 30578,
+          "HEV": 3212,
+          "PHEV": 3378
+        },
+        {
+          "month": "2024-09",
+          "BEV": 28773,
+          "HEV": 8882,
+          "PHEV": 5222
+        },
+        {
+          "month": "2024-10",
+          "BEV": 71390,
+          "HEV": 6384,
+          "PHEV": 3768
+        },
+        {
+          "month": "2024-11",
+          "BEV": 23256,
+          "HEV": 6656,
+          "PHEV": 8004
+        },
+        {
+          "month": "2024-12",
+          "BEV": 23674,
+          "HEV": 8243,
+          "PHEV": 6349
+        },
+        {
+          "month": "2025-01",
+          "BEV": 25523,
+          "HEV": 6277,
+          "PHEV": 8692
+        },
+        {
+          "month": "2025-02",
+          "BEV": 33284,
+          "HEV": 7630,
+          "PHEV": 10635
+        },
+        {
+          "month": "2025-03",
+          "BEV": 29825,
+          "HEV": 7078,
+          "PHEV": 10622
+        },
+        {
+          "month": "2025-04",
+          "BEV": 24975,
+          "HEV": 10789,
+          "PHEV": 12401
+        },
+        {
+          "month": "2025-05",
+          "BEV": 37023,
+          "HEV": 5398,
+          "PHEV": 9405
+        },
+        {
+          "month": "2025-06",
+          "BEV": 40356,
+          "HEV": 10721,
+          "PHEV": 11455
+        },
+        {
+          "month": "2025-07",
+          "BEV": 41121,
+          "HEV": 8598,
+          "PHEV": 19140
+        },
+        {
+          "month": "2025-08",
+          "BEV": 41452,
+          "HEV": 12995,
+          "PHEV": 19907
+        },
+        {
+          "month": "2025-09",
+          "BEV": 39615,
+          "HEV": 12553,
+          "PHEV": 19806
+        },
+        {
+          "month": "2025-10",
+          "BEV": 31739,
+          "HEV": 13354,
+          "PHEV": 17098
+        },
+        {
+          "month": "2025-11",
+          "BEV": 54900,
+          "HEV": 11686,
+          "PHEV": 15788
+        },
+        {
+          "month": "2025-12",
+          "BEV": 30803,
+          "HEV": 23268,
+          "PHEV": 16399
+        }
+      ],
+      "source_sha256": {
+        "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175"
+      },
+      "svg_sha256": "3c43cf81a2d154464a8c850548d71b754fcf0f887f994272c4f8c80cdf762fe5"
+    },
+    {
+      "id": "G03_shares",
+      "source_files": [
+        "results/full/annual_eu_flows.csv"
+      ],
+      "plotted_data": [
+        {
+          "year": 2021,
+          "quantity": 22.8830393624653,
+          "value_eur": 18.303377156609553
+        },
+        {
+          "year": 2022,
+          "quantity": 30.44839790634755,
+          "value_eur": 29.659517929051148
+        },
+        {
+          "year": 2023,
+          "quantity": 31.2295012863933,
+          "value_eur": 27.59576460645513
+        },
+        {
+          "year": 2024,
+          "quantity": 33.278218775530114,
+          "value_eur": 27.57195905292937
+        },
+        {
+          "year": 2025,
+          "quantity": 38.83276496481347,
+          "value_eur": 27.781489190916425
+        }
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88"
+      },
+      "svg_sha256": "4139578f845435f3528a9738af3daa668ebca7f7629aefb1ed4761a7663642a2"
+    },
+    {
+      "id": "G04_mix",
+      "source_files": [
+        "results/full/annual_eu_flows.csv"
+      ],
+      "plotted_data": [
+        {
+          "year": 2021,
+          "BEV": 88.97852782948344,
+          "PHEV": 9.948076619996678,
+          "HEV": 1.0733955505198727
+        },
+        {
+          "year": 2022,
+          "BEV": 85.75258426125666,
+          "PHEV": 14.141426736660973,
+          "HEV": 0.10598900208237216
+        },
+        {
+          "year": 2023,
+          "BEV": 91.44350280382184,
+          "PHEV": 7.248047005905526,
+          "HEV": 1.3084501902726373
+        },
+        {
+          "year": 2024,
+          "BEV": 80.50385097355249,
+          "PHEV": 7.802160355857804,
+          "HEV": 11.693988670589702
+        },
+        {
+          "year": 2025,
+          "BEV": 58.8023394432147,
+          "PHEV": 23.398255659139355,
+          "HEV": 17.799404897645946
+        }
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88"
+      },
+      "svg_sha256": "ec92c5a2a91fdff7d1fc8a167af60ae2406b33bf7bdf605c7f1f4c264743f9fd"
+    },
+    {
+      "id": "G05_share_components",
+      "source_files": [
+        "results/full/accounting_decompositions.json"
+      ],
+      "plotted_data": [
+        {
+          "outcome": "quantity",
+          "start": 2023,
+          "end": 2025,
+          "china_share_start_pct": 31.2295012863933,
+          "china_share_end_pct": 38.83276496481347,
+          "change_pp": 7.603263678420169,
+          "two_factor": {
+            "within_category_pp": 10.891977341382736,
+            "category_mix_pp": -3.288713662962565,
+            "components": [
+              {
+                "category": "BEV",
+                "within_pp": 0.2159491970677527,
+                "mix_pp": -5.938724811715014
+              },
+              {
+                "category": "PHEV",
+                "within_pp": 4.395757753210453,
+                "mix_pp": 2.426902939821641
+              },
+              {
+                "category": "HEV",
+                "within_pp": 6.280270391104531,
+                "mix_pp": 0.2231082089308075
+              }
+            ],
+            "identity_error_pp": -2.0816681711721685e-15
+          },
+          "three_factor_shapley": {
+            "geographic_entry_mix_pp": -0.3462810787234696,
+            "within_entry_category_mix_pp": -1.6649386930752255,
+            "china_shares_within_entry_category_pp": 9.614483450218867,
+            "identity_error_pp": -2.7755575615628914e-15,
+            "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+            "component_bounds_pp": {
+              "geographic_entry_mix": [
+                -0.346409749864855,
+                -0.3462810787234696
+              ],
+              "within_entry_category_mix": [
+                -1.6650245991742685,
+                -1.6643191354892575
+              ],
+              "china_shares_within_entry_category": [
+                9.613948303718583,
+                9.614613616373614
+              ]
+            }
+          },
+          "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+          "zero_denominator_cells": 5
+        },
+        {
+          "outcome": "quantity",
+          "start": 2024,
+          "end": 2025,
+          "china_share_start_pct": 33.278218775530114,
+          "china_share_end_pct": 38.83276496481347,
+          "change_pp": 5.554546189283361,
+          "two_factor": {
+            "within_category_pp": 4.595291324070666,
+            "category_mix_pp": 0.9592548652126958,
+            "components": [
+              {
+                "category": "BEV",
+                "within_pp": -3.10910617000719,
+                "mix_pp": -0.846567209902964
+              },
+              {
+                "category": "PHEV",
+                "within_pp": 3.877252995217441,
+                "mix_pp": 2.612516638322273
+              },
+              {
+                "category": "HEV",
+                "within_pp": 3.8271444988604153,
+                "mix_pp": -0.8066945632066133
+              }
+            ],
+            "identity_error_pp": -1.5612511283791264e-15
+          },
+          "three_factor_shapley": {
+            "geographic_entry_mix_pp": -0.36126550466030183,
+            "within_entry_category_mix_pp": 1.7531518898389387,
+            "china_shares_within_entry_category_pp": 4.162659804104726,
+            "identity_error_pp": -6.938893903907228e-16,
+            "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+            "component_bounds_pp": {
+              "geographic_entry_mix": [
+                -0.36131240248254753,
+                -0.36126550466030183
+              ],
+              "within_entry_category_mix": [
+                1.7530627831898349,
+                1.7531518898389387
+              ],
+              "china_shares_within_entry_category": [
+                4.162659804104726,
+                4.162795808576075
+              ]
+            }
+          },
+          "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+          "zero_denominator_cells": 3
+        },
+        {
+          "outcome": "value_eur",
+          "start": 2023,
+          "end": 2025,
+          "china_share_start_pct": 27.59576460645513,
+          "china_share_end_pct": 27.781489190916425,
+          "change_pp": 0.18572458446129425,
+          "two_factor": {
+            "within_category_pp": 4.896795990603216,
+            "category_mix_pp": -4.711071406141923,
+            "components": [
+              {
+                "category": "BEV",
+                "within_pp": -2.570789396573138,
+                "mix_pp": -7.192136549184455
+              },
+              {
+                "category": "PHEV",
+                "within_pp": 3.977358724189432,
+                "mix_pp": 2.100207270270461
+              },
+              {
+                "category": "HEV",
+                "within_pp": 3.490226662986922,
+                "mix_pp": 0.38085787277207184
+              }
+            ],
+            "identity_error_pp": 6.938893903907228e-16
+          },
+          "three_factor_shapley": {
+            "geographic_entry_mix_pp": 0.01235362824732088,
+            "within_entry_category_mix_pp": -4.003493186583913,
+            "china_shares_within_entry_category_pp": 4.176864142797887,
+            "identity_error_pp": -6.938893903907228e-16,
+            "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+            "component_bounds_pp": {
+              "geographic_entry_mix": [
+                0.012247047508350881,
+                0.013872578161212701
+              ],
+              "within_entry_category_mix": [
+                -4.00378103782708,
+                -4.00065355354799
+              ],
+              "china_shares_within_entry_category": [
+                4.172562929792452,
+                4.177201204835645
+              ]
+            }
+          },
+          "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+          "zero_denominator_cells": 5
+        },
+        {
+          "outcome": "value_eur",
+          "start": 2024,
+          "end": 2025,
+          "china_share_start_pct": 27.57195905292937,
+          "china_share_end_pct": 27.781489190916425,
+          "change_pp": 0.20953013798705733,
+          "two_factor": {
+            "within_category_pp": 0.7627867545583717,
+            "category_mix_pp": -0.5532566165713162,
+            "components": [
+              {
+                "category": "BEV",
+                "within_pp": -4.9817818187317355,
+                "mix_pp": -2.041356043927366
+              },
+              {
+                "category": "PHEV",
+                "within_pp": 3.833030757181112,
+                "mix_pp": 1.9435685837924983
+              },
+              {
+                "category": "HEV",
+                "within_pp": 1.9115378161089953,
+                "mix_pp": -0.45546915643644864
+              }
+            ],
+            "identity_error_pp": 1.8214596497756474e-15
+          },
+          "three_factor_shapley": {
+            "geographic_entry_mix_pp": -0.7000975283704433,
+            "within_entry_category_mix_pp": -0.1536962641928704,
+            "china_shares_within_entry_category_pp": 1.0633239305503706,
+            "identity_error_pp": 1.0408340855860843e-15,
+            "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+            "component_bounds_pp": {
+              "geographic_entry_mix": [
+                -0.7018571574406799,
+                -0.700085833601428
+              ],
+              "within_entry_category_mix": [
+                -0.155702383123941,
+                -0.1536962641928704
+              ],
+              "china_shares_within_entry_category": [
+                1.0633239305503706,
+                1.0670779837826618
+              ]
+            }
+          },
+          "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+          "zero_denominator_cells": 3
+        }
+      ],
+      "source_sha256": {
+        "results/full/accounting_decompositions.json": "401b6b45fcc619999d01e7ff06019dac6e38976ce5b22d4578303be1152fabb9"
+      },
+      "svg_sha256": "936e66542838fb933873c840a2b05bd84b9fae461864538ac2b09564e7c8dbfc"
+    },
+    {
+      "id": "G06_value_components",
+      "source_files": [
+        "results/full/china_value_change_accounting.json"
+      ],
+      "plotted_data": [
+        {
+          "start": 2023,
+          "end": 2025,
+          "value_change_eur": -545539787.0,
+          "quantity_component_eur": 4548955409.162208,
+          "within_CN8_customs_unit_value_component_eur": -5094495196.162207,
+          "identity_error_eur": -9.5367431640625e-07,
+          "by_category": [
+            {
+              "category": "BEV",
+              "quantity_component_eur": -1125788181.2665038,
+              "unit_value_component_eur": -3557329981.733496
+            },
+            {
+              "category": "PHEV",
+              "quantity_component_eur": 3190897031.6232104,
+              "unit_value_component_eur": -678555363.6232101
+            },
+            {
+              "category": "HEV",
+              "quantity_component_eur": 2483846558.805501,
+              "unit_value_component_eur": -858609850.8055007
+            }
+          ],
+          "interpretation": "Symmetric two-factor accounting V=sum(q*u). Unit customs value includes model/quality mix, transfer valuation and valuation changes; not a constant-quality price or tariff pass-through effect."
+        },
+        {
+          "start": 2024,
+          "end": 2025,
+          "value_change_eur": 629014251.0,
+          "quantity_component_eur": 3884792722.6387863,
+          "within_CN8_customs_unit_value_component_eur": -3255778471.6387854,
+          "identity_error_eur": -9.5367431640625e-07,
+          "by_category": [
+            {
+              "category": "BEV",
+              "quantity_component_eur": -153779354.47491083,
+              "unit_value_component_eur": -2379678957.5250883
+            },
+            {
+              "category": "PHEV",
+              "quantity_component_eur": 2982390356.58451,
+              "unit_value_component_eur": -490298407.5845097
+            },
+            {
+              "category": "HEV",
+              "quantity_component_eur": 1056181720.5291871,
+              "unit_value_component_eur": -385801106.52918714
+            }
+          ],
+          "interpretation": "Symmetric two-factor accounting V=sum(q*u). Unit customs value includes model/quality mix, transfer valuation and valuation changes; not a constant-quality price or tariff pass-through effect."
+        }
+      ],
+      "source_sha256": {
+        "results/full/china_value_change_accounting.json": "dcf786ae9ea227e943802f1989f0fffa98119b53d404fe02347102274083fa87"
+      },
+      "svg_sha256": "8d77f7747127eb80e67a95f97dcc51be5437f29d15d0f66ea2b26a3b99bc0f5c"
+    },
+    {
+      "id": "G07_geography",
+      "source_files": [
+        "results/full/annual_member_flows.csv"
+      ],
+      "plotted_data": {
+        "countries": [
+          "AT",
+          "BE",
+          "BG",
+          "HU",
+          "DE",
+          "GR",
+          "DK",
+          "IE",
+          "ES",
+          "IT",
+          "CY",
+          "LV",
+          "LT",
+          "LU",
+          "MT",
+          "NL",
+          "PL",
+          "PT",
+          "RO",
+          "SK",
+          "SI",
+          "FI",
+          "FR",
+          "HR",
+          "CZ",
+          "SE",
+          "EE"
+        ],
+        "columns": [
+          "BEV_2023",
+          "BEV_2025",
+          "PHEV_2023",
+          "PHEV_2025",
+          "HEV_2023",
+          "HEV_2025"
+        ],
+        "shares_pct": [
+          [
+            0.021377744749727687,
+            0.0931224106860869,
+            0.0,
+            0.0,
+            0.0,
+            0.0046030978848765215
+          ],
+          [
+            38.55506805248745,
+            43.41594367139168,
+            88.43338213762812,
+            40.40607418820179,
+            95.88787706317586,
+            4.774179689597766
+          ],
+          [
+            0.16939317744546128,
+            0.5754546974566667,
+            0.03596105931006139,
+            0.1178887410416229,
+            1.1383039271485487,
+            0.11968054500678957
+          ],
+          [
+            0.262640864068083,
+            1.1836531852044512,
+            0.17466800236315533,
+            3.1789107547213855,
+            0.0,
+            0.8976040875509218
+          ],
+          [
+            8.764060957112173,
+            11.0434818957029,
+            2.550666563920783,
+            5.9586338912622265,
+            0.29880478087649404,
+            8.87937581992681
+          ],
+          [
+            0.4513758105728217,
+            0.3569305367194902,
+            0.24145282679612648,
+            0.7528538413054136,
+            0.14228799089356858,
+            3.0710334721934527
+          ],
+          [
+            0.8255881424775788,
+            0.6869229197243019,
+            0.0,
+            0.288885776314868,
+            0.0,
+            0.0
+          ],
+          [
+            0.04010872110187005,
+            0.031118212049714825,
+            0.0,
+            0.0647804468100007,
+            0.042686397268070574,
+            0.0007671829808127535
+          ],
+          [
+            18.747060560096912,
+            10.549538335779442,
+            5.869358608820734,
+            26.270513808156498,
+            0.014228799089356859,
+            25.577880580297208
+          ],
+          [
+            1.9103559903494753,
+            5.228788526204322,
+            1.7312681410700983,
+            12.544062375983378,
+            0.398406374501992,
+            25.145189379118815
+          ],
+          [
+            0.004479146518990563,
+            0.029028182882196666,
+            0.0,
+            0.0,
+            0.099601593625498,
+            0.022248306443569853
+          ],
+          [
+            0.09874482098683741,
+            0.05596633659687518,
+            0.0,
+            0.0,
+            0.0,
+            0.01304211067381681
+          ],
+          [
+            0.4843586167581159,
+            0.3894421015475505,
+            0.0,
+            0.0005836076289189253,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.001628780552360205,
+            0.03808497594144203,
+            0.0,
+            0.0017508228867567756,
+            0.0,
+            0.0007671829808127535
+          ],
+          [
+            10.521311575539787,
+            9.708882159511026,
+            0.005137294187151627,
+            0.5900273128370335,
+            0.0,
+            5.68098997291844
+          ],
+          [
+            0.41371026029949204,
+            0.8443717836773366,
+            0.0,
+            7.221560800242781,
+            0.014228799089356859,
+            9.117969726959577
+          ],
+          [
+            0.06291164883491292,
+            0.2127185241607372,
+            0.03596105931006139,
+            0.02567873567243271,
+            0.0,
+            0.028385770290071884
+          ],
+          [
+            1.614121527388963,
+            4.328682631393168,
+            0.0,
+            0.3571678688983822,
+            0.0,
+            0.46874880127659246
+          ],
+          [
+            0.002035975690450256,
+            0.021364742601296748,
+            0.0,
+            0.0,
+            0.08537279453614115,
+            0.0
+          ],
+          [
+            6.820722160577403,
+            5.219731733145076,
+            0.0025686470935758136,
+            0.34666293157784156,
+            0.28457598178713717,
+            3.8704381382003423
+          ],
+          [
+            0.16491403092647075,
+            0.1785813810912739,
+            0.0,
+            0.006419683918108178,
+            0.0,
+            0.0
+          ],
+          [
+            7.268229617338369,
+            2.122772957809278,
+            0.729495774575531,
+            0.866657328944604,
+            0.21343198634035287,
+            11.594436389023146
+          ],
+          [
+            0.018323781214052304,
+            0.047606219926802536,
+            0.017980529655030695,
+            0.0531082942316222,
+            0.18497438816163914,
+            0.03605760009819942
+          ],
+          [
+            1.0629829079840787,
+            3.013822059561187,
+            0.14641288433382138,
+            0.15815766743702875,
+            0.0,
+            0.610677652726952
+          ],
+          [
+            1.7049260431830442,
+            0.5629145224515577,
+            0.025686470935758134,
+            0.7896211219273058,
+            0.014228799089356859,
+            0.0007671829808127535
+          ],
+          [
+            0.009569085745116203,
+            0.06107529678414179,
+            0.0,
+            0.0,
+            1.1809903244166193,
+            0.08515731087021565
+          ]
+        ]
+      },
+      "source_sha256": {
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      },
+      "svg_sha256": "28a8c954b4ac97df71a12f3c0451cdb12f475720078faa39217d6200f7d22d7e"
+    },
+    {
+      "id": "G08_hhi",
+      "source_files": [
+        "results/full/entry_concentration.csv",
+        "results/full/annual_member_flows.csv"
+      ],
+      "plotted_data": {
+        "pooled": [
+          {
+            "year": 2021,
+            "outcome": "quantity",
+            "HHI": 0.15639813317805992
+          },
+          {
+            "year": 2021,
+            "outcome": "value_eur",
+            "HHI": 0.2419619177537188
+          },
+          {
+            "year": 2022,
+            "outcome": "quantity",
+            "HHI": 0.36858514332213427
+          },
+          {
+            "year": 2022,
+            "outcome": "value_eur",
+            "HHI": 0.4463985670727493
+          },
+          {
+            "year": 2023,
+            "outcome": "quantity",
+            "HHI": 0.2404879855958408
+          },
+          {
+            "year": 2023,
+            "outcome": "value_eur",
+            "HHI": 0.2967085900696996
+          },
+          {
+            "year": 2024,
+            "outcome": "quantity",
+            "HHI": 0.2624426124056206
+          },
+          {
+            "year": 2024,
+            "outcome": "value_eur",
+            "HHI": 0.3630564629861895
+          },
+          {
+            "year": 2025,
+            "outcome": "quantity",
+            "HHI": 0.18731952021640702
+          },
+          {
+            "year": 2025,
+            "outcome": "value_eur",
+            "HHI": 0.2562123036393232
+          }
+        ],
+        "categories": [
+          {
+            "year": 2021,
+            "category": "BEV",
+            "outcome": "quantity",
+            "china_total": 208894,
+            "BE_NL_total": 88675,
+            "BE_NL_share_pct": 42.44975920801938,
+            "entry_HHI": 0.1544529203214347,
+            "effective_entry_countries": 6.474464826685582
+          },
+          {
+            "year": 2021,
+            "category": "BEV",
+            "outcome": "value_eur",
+            "china_total": 3497615303,
+            "BE_NL_total": 1989317153,
+            "BE_NL_share_pct": 56.87638521291088,
+            "entry_HHI": 0.2466911523485736,
+            "effective_entry_countries": 4.05365166314114
+          },
+          {
+            "year": 2021,
+            "category": "PHEV",
+            "outcome": "quantity",
+            "china_total": 23355,
+            "BE_NL_total": 23033,
+            "BE_NL_share_pct": 98.62128023977736,
+            "entry_HHI": 0.9336490453102978,
+            "effective_entry_countries": 1.0710662695184896
+          },
+          {
+            "year": 2021,
+            "category": "PHEV",
+            "outcome": "value_eur",
+            "china_total": 596793341,
+            "BE_NL_total": 590954168,
+            "BE_NL_share_pct": 99.0215753764585,
+            "entry_HHI": 0.9531061730981988,
+            "effective_entry_countries": 1.049201052543146
+          },
+          {
+            "year": 2021,
+            "category": "HEV",
+            "outcome": "quantity",
+            "china_total": 2520,
+            "BE_NL_total": 1676,
+            "BE_NL_share_pct": 66.5079365079365,
+            "entry_HHI": 0.5327434492315445,
+            "effective_entry_countries": 1.8770761075381583
+          },
+          {
+            "year": 2021,
+            "category": "HEV",
+            "outcome": "value_eur",
+            "china_total": 36383575,
+            "BE_NL_total": 35237332,
+            "BE_NL_share_pct": 96.84955917608428,
+            "entry_HHI": 0.937762526614476,
+            "effective_entry_countries": 1.0663680533388495
+          },
+          {
+            "year": 2022,
+            "category": "BEV",
+            "outcome": "quantity",
+            "china_total": 343855,
+            "BE_NL_total": 183896,
+            "BE_NL_share_pct": 53.48068226432653,
+            "entry_HHI": 0.3081746263043249,
+            "effective_entry_countries": 3.244913482956549
+          },
+          {
+            "year": 2022,
+            "category": "BEV",
+            "outcome": "value_eur",
+            "china_total": 8134119023,
+            "BE_NL_total": 4835494078,
+            "BE_NL_share_pct": 59.447053384972335,
+            "entry_HHI": 0.3857533917392083,
+            "effective_entry_countries": 2.592329766671392
+          },
+          {
+            "year": 2022,
+            "category": "PHEV",
+            "outcome": "quantity",
+            "china_total": 56705,
+            "BE_NL_total": 55295,
+            "BE_NL_share_pct": 97.5134467859977,
+            "entry_HHI": 0.9512044748910924,
+            "effective_entry_countries": 1.051298670682236
+          },
+          {
+            "year": 2022,
+            "category": "PHEV",
+            "outcome": "value_eur",
+            "china_total": 1446199222,
+            "BE_NL_total": 1413343764,
+            "BE_NL_share_pct": 97.72815131551772,
+            "entry_HHI": 0.9553052305838168,
+            "effective_entry_countries": 1.0467858522965154
+          },
+          {
+            "year": 2022,
+            "category": "HEV",
+            "outcome": "quantity",
+            "china_total": 425,
+            "BE_NL_total": 0,
+            "BE_NL_share_pct": 0.0,
+            "entry_HHI": 0.3996401384083046,
+            "effective_entry_countries": 2.50225116021334
+          },
+          {
+            "year": 2022,
+            "category": "HEV",
+            "outcome": "value_eur",
+            "china_total": 5920986,
+            "BE_NL_total": 0,
+            "BE_NL_share_pct": 0.0,
+            "entry_HHI": 0.3967777215358046,
+            "effective_entry_countries": 2.520302793537166
+          },
+          {
+            "year": 2023,
+            "category": "BEV",
+            "outcome": "quantity",
+            "china_total": 491165,
+            "BE_NL_total": 241046,
+            "BE_NL_share_pct": 49.07637962802724,
+            "entry_HHI": 0.2136525474842087,
+            "effective_entry_countries": 4.680496496649126
+          },
+          {
+            "year": 2023,
+            "category": "BEV",
+            "outcome": "value_eur",
+            "china_total": 11027736012,
+            "BE_NL_total": 5918472472,
+            "BE_NL_share_pct": 53.66897126989368,
+            "entry_HHI": 0.2648846658721653,
+            "effective_entry_countries": 3.7752279721718778
+          },
+          {
+            "year": 2023,
+            "category": "PHEV",
+            "outcome": "quantity",
+            "china_total": 38931,
+            "BE_NL_total": 34430,
+            "BE_NL_share_pct": 88.43851943181527,
+            "entry_HHI": 0.7865061647751277,
+            "effective_entry_countries": 1.2714458510136573
+          },
+          {
+            "year": 2023,
+            "category": "PHEV",
+            "outcome": "value_eur",
+            "china_total": 1063760980,
+            "BE_NL_total": 947926469,
+            "BE_NL_share_pct": 89.11085166895293,
+            "entry_HHI": 0.7975286180964443,
+            "effective_entry_countries": 1.253873500347634
+          },
+          {
+            "year": 2023,
+            "category": "HEV",
+            "outcome": "quantity",
+            "china_total": 7028,
+            "BE_NL_total": 6739,
+            "BE_NL_share_pct": 95.88787706317586,
+            "entry_HHI": 0.9197624090190986,
+            "effective_entry_countries": 1.0872373019315635
+          },
+          {
+            "year": 2023,
+            "category": "HEV",
+            "outcome": "value_eur",
+            "china_total": 185481250,
+            "BE_NL_total": 176401646,
+            "BE_NL_share_pct": 95.10483997708664,
+            "entry_HHI": 0.9048810074009854,
+            "effective_entry_countries": 1.105117680469631
+          },
+          {
+            "year": 2024,
+            "category": "BEV",
+            "outcome": "quantity",
+            "china_total": 439419,
+            "BE_NL_total": 232618,
+            "BE_NL_share_pct": 52.93762900557327,
+            "entry_HHI": 0.2641273169345095,
+            "effective_entry_countries": 3.78605292177314
+          },
+          {
+            "year": 2024,
+            "category": "BEV",
+            "outcome": "value_eur",
+            "china_total": 8878076161,
+            "BE_NL_total": 5241065404,
+            "BE_NL_share_pct": 59.033796387365776,
+            "entry_HHI": 0.3650891438313146,
+            "effective_entry_countries": 2.739057068380097
+          },
+          {
+            "year": 2024,
+            "category": "PHEV",
+            "outcome": "quantity",
+            "china_total": 42587,
+            "BE_NL_total": 27794,
+            "BE_NL_share_pct": 65.26404771409116,
+            "entry_HHI": 0.4171062054167883,
+            "effective_entry_countries": 2.397470924703128
+          },
+          {
+            "year": 2024,
+            "category": "PHEV",
+            "outcome": "value_eur",
+            "china_total": 1084010699,
+            "BE_NL_total": 753779835,
+            "BE_NL_share_pct": 69.53619883045084,
+            "entry_HHI": 0.4726687197025335,
+            "effective_entry_countries": 2.1156466639665386
+          },
+          {
+            "year": 2024,
+            "category": "HEV",
+            "outcome": "quantity",
+            "china_total": 63830,
+            "BE_NL_total": 23561,
+            "BE_NL_share_pct": 36.912110292965686,
+            "entry_HHI": 0.2037985185513896,
+            "effective_entry_countries": 4.906807012671394
+          },
+          {
+            "year": 2024,
+            "category": "HEV",
+            "outcome": "value_eur",
+            "china_total": 1140337344,
+            "BE_NL_total": 573271982,
+            "BE_NL_share_pct": 50.27213964502069,
+            "entry_HHI": 0.2826536307905556,
+            "effective_entry_countries": 3.5378990080654336
+          },
+          {
+            "year": 2025,
+            "category": "BEV",
+            "outcome": "quantity",
+            "china_total": 430616,
+            "BE_NL_total": 228764,
+            "BE_NL_share_pct": 53.12482583090271,
+            "entry_HHI": 0.2302982025752783,
+            "effective_entry_countries": 4.342196286456585
+          },
+          {
+            "year": 2025,
+            "category": "BEV",
+            "outcome": "value_eur",
+            "china_total": 6344617849,
+            "BE_NL_total": 3741382423,
+            "BE_NL_share_pct": 58.96938967868165,
+            "entry_HHI": 0.3723167950625625,
+            "effective_entry_countries": 2.685884744554605
+          },
+          {
+            "year": 2025,
+            "category": "PHEV",
+            "outcome": "quantity",
+            "china_total": 171348,
+            "BE_NL_total": 70246,
+            "BE_NL_share_pct": 40.99610150103882,
+            "entry_HHI": 0.2580573309028509,
+            "effective_entry_countries": 3.8751078936659353
+          },
+          {
+            "year": 2025,
+            "category": "PHEV",
+            "outcome": "value_eur",
+            "china_total": 3576102648,
+            "BE_NL_total": 1474251716,
+            "BE_NL_share_pct": 41.22509505773001,
+            "entry_HHI": 0.2595586705977687,
+            "effective_entry_countries": 3.852693488131143
+          },
+          {
+            "year": 2025,
+            "category": "HEV",
+            "outcome": "quantity",
+            "china_total": 130347,
+            "BE_NL_total": 13628,
+            "BE_NL_share_pct": 10.455169662516203,
+            "entry_HHI": 0.166382085758715,
+            "effective_entry_countries": 6.010262435645781
+          },
+          {
+            "year": 2025,
+            "category": "HEV",
+            "outcome": "value_eur",
+            "china_total": 1810717958,
+            "BE_NL_total": 213463365,
+            "BE_NL_share_pct": 11.788879878110755,
+            "entry_HHI": 0.1587577511390972,
+            "effective_entry_countries": 6.298905047627185
+          }
+        ]
+      },
+      "source_sha256": {
+        "results/full/entry_concentration.csv": "876a65e224dcaaedd28d8120db0913c7ced09609db44db482bb1275b64d57158",
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      },
+      "svg_sha256": "cbbaaa44bff13fb80f3f336694c75a3080a3c6099004d57e7bd36b13d419dc8d"
+    },
+    {
+      "id": "G09_hhi_components",
+      "source_files": [
+        "results/geography_focus/pooled_HHI_product_geography.csv"
+      ],
+      "plotted_data": [
+        {
+          "outcome": "quantity",
+          "start": 2023,
+          "end": 2025,
+          "HHI_start": 0.2404879855958408,
+          "HHI_end": 0.187319520216407,
+          "HHI_change": -0.0531684653794338,
+          "product_mix_component": 0.0568373681402012,
+          "within_product_geography_component": -0.110005833519635,
+          "fixed_start_product_mix_end_geography_HHI": 0.2251355718436994,
+          "end_product_mix_fixed_start_geography_HHI": 0.3919787735035357,
+          "product_mix_change_at_start_geography": 0.1514907879076949,
+          "product_mix_change_at_end_geography": -0.0378160516272924,
+          "geography_change_at_start_mix": -0.0153524137521414,
+          "geography_change_at_end_mix": -0.2046592532871287,
+          "unallocated_interaction": -0.1893068395349873,
+          "effective_entry_countries_start": 4.158211885397798,
+          "effective_entry_countries_end": 5.338471926709599,
+          "identity_error": 0.0
+        },
+        {
+          "outcome": "quantity",
+          "start": 2024,
+          "end": 2025,
+          "HHI_start": 0.2624426124056206,
+          "HHI_end": 0.187319520216407,
+          "HHI_change": -0.0751230921892135,
+          "product_mix_component": 0.0017519647471234,
+          "within_product_geography_component": -0.076875056936337,
+          "fixed_start_product_mix_end_geography_HHI": 0.198402785563243,
+          "end_product_mix_fixed_start_geography_HHI": 0.2770298072467036,
+          "product_mix_change_at_start_geography": 0.014587194841083,
+          "product_mix_change_at_end_geography": -0.011083265346836,
+          "geography_change_at_start_mix": -0.0640398268423775,
+          "geography_change_at_end_mix": -0.0897102870302966,
+          "unallocated_interaction": -0.025670460187919,
+          "effective_entry_countries_start": 3.8103568274744974,
+          "effective_entry_countries_end": 5.338471926709599,
+          "identity_error": 0.0
+        },
+        {
+          "outcome": "value_eur",
+          "start": 2023,
+          "end": 2025,
+          "HHI_start": 0.2967085900696996,
+          "HHI_end": 0.2562123036393232,
+          "HHI_change": -0.0404962864303763,
+          "product_mix_component": 0.0339810613442218,
+          "within_product_geography_component": -0.0744773477745981,
+          "fixed_start_product_mix_end_geography_HHI": 0.3483374288994396,
+          "end_product_mix_fixed_start_geography_HHI": 0.4567958380182595,
+          "product_mix_change_at_start_geography": 0.16008724794856,
+          "product_mix_change_at_end_geography": -0.0921251252601164,
+          "geography_change_at_start_mix": 0.05162883882974,
+          "geography_change_at_end_mix": -0.2005835343789364,
+          "unallocated_interaction": -0.2522123732086764,
+          "effective_entry_countries_start": 3.370310241995659,
+          "effective_entry_countries_end": 3.9030131878745618,
+          "identity_error": 0.0
+        },
+        {
+          "outcome": "value_eur",
+          "start": 2024,
+          "end": 2025,
+          "HHI_start": 0.3630564629861895,
+          "HHI_end": 0.2562123036393232,
+          "HHI_change": -0.1068441593468663,
+          "product_mix_component": -0.0161962690049787,
+          "within_product_geography_component": -0.0906478903418875,
+          "fixed_start_product_mix_end_geography_HHI": 0.3033305697055429,
+          "end_product_mix_fixed_start_geography_HHI": 0.3777821910424517,
+          "product_mix_change_at_start_geography": 0.0147257280562622,
+          "product_mix_change_at_end_geography": -0.0471182660662197,
+          "geography_change_at_start_mix": -0.0597258932806465,
+          "geography_change_at_end_mix": -0.1215698874031285,
+          "unallocated_interaction": -0.0618439941224819,
+          "effective_entry_countries_start": 2.754392503509956,
+          "effective_entry_countries_end": 3.9030131878745618,
+          "identity_error": 0.0
+        }
+      ],
+      "source_sha256": {
+        "results/geography_focus/pooled_HHI_product_geography.csv": "2a5ccce9c54b419092c18a923464d31b81a690011f224d9467f0244807277443"
+      },
+      "svg_sha256": "d2c8375f9353ef3b1ff61ffb02ff1197899552ffaae9a6954eae17cc7b6a72c0"
+    },
+    {
+      "id": "G10_entry",
+      "source_files": [
+        "results/geography_focus/entry_margin_summary.csv"
+      ],
+      "plotted_data": [
+        {
+          "category": "BEV",
+          "start": 2023,
+          "end": 2025,
+          "outcome": "quantity",
+          "total_start": 491165.0,
+          "total_end": 430616.0,
+          "change": -60549.0,
+          "continuing_country_change": -60549.0,
+          "new_positive_country_component": 0.0,
+          "exited_country_component": -0.0,
+          "active_countries_start": 26,
+          "active_countries_end": 26,
+          "new_countries": NaN,
+          "exited_countries": NaN,
+          "identity_error": 0.0,
+          "new_country_fraction_of_net_change": -0.0
+        },
+        {
+          "category": "PHEV",
+          "start": 2023,
+          "end": 2025,
+          "outcome": "quantity",
+          "total_start": 38931.0,
+          "total_end": 171348.0,
+          "change": 132417.0,
+          "continuing_country_change": 118810.0,
+          "new_positive_country_component": 13607.0,
+          "exited_country_component": -0.0,
+          "active_countries_start": 14,
+          "active_countries_end": 21,
+          "new_countries": "DK,FI,IE,LT,MT,PL,RO",
+          "exited_countries": NaN,
+          "identity_error": 0.0,
+          "new_country_fraction_of_net_change": 0.1027587092291775
+        },
+        {
+          "category": "HEV",
+          "start": 2023,
+          "end": 2025,
+          "outcome": "quantity",
+          "total_start": 7028.0,
+          "total_end": 130347.0,
+          "change": 123319.0,
+          "continuing_country_change": 113282.0,
+          "new_positive_country_component": 10043.0,
+          "exited_country_component": -6.0,
+          "active_countries_start": 15,
+          "active_countries_end": 22,
+          "new_countries": "AT,CZ,HU,LV,MT,NL,PT,RO",
+          "exited_countries": "SK",
+          "identity_error": 0.0,
+          "new_country_fraction_of_net_change": 0.0814391942847412
+        }
+      ],
+      "source_sha256": {
+        "results/geography_focus/entry_margin_summary.csv": "1dda86a925213640162878314bba9f5d030d61791d3b18027fe2cb23bfcba503"
+      },
+      "svg_sha256": "860094afedb830897cba932c371d818387d4d3a7dc9e2a278e82e4da28a71117"
+    },
+    {
+      "id": "G11_intervals",
+      "source_files": [
+        "results/augmented/rest_preferred_quantity.json",
+        "results/augmented/rest_preferred_value.json",
+        "results/augmented/paired_block_summary.json"
+      ],
+      "plotted_data": [
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "point": 1.5104413269625248,
+          "hac12": [
+            0.7481034444791256,
+            3.049622373794554
+          ],
+          "block": [
+            0.7051620159338746,
+            4.392972793794879
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value_eur",
+          "point": 2.3124443692974954,
+          "hac12": [
+            0.9957279323059198,
+            5.3703414231959075
+          ],
+          "block": [
+            0.8222150243399075,
+            6.976016917701246
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "point": 29.788347164867094,
+          "hac12": [
+            6.728757706144951,
+            131.87361851420036
+          ],
+          "block": [
+            6.937584822980219,
+            249.77313877076392
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value_eur",
+          "point": 17.04746315864306,
+          "hac12": [
+            3.6817532771383936,
+            78.9341322651503
+          ],
+          "block": [
+            3.1217411939392443,
+            98.27289639561634
+          ]
+        }
+      ],
+      "source_sha256": {
+        "results/augmented/rest_preferred_quantity.json": "b2e752bb1bd1a5c36a3a39b04b6f57f6814bb8ab7a255771bda86e767bf43f0c",
+        "results/augmented/rest_preferred_value.json": "c63f76f1dafd20256dd0becd316250d4618976c3f7ee7110e67b06cc43fe358a",
+        "results/augmented/paired_block_summary.json": "081b975280abb795ee00a0fc9de778275e9af593d8a6e822b2c9c75a55f4a620"
+      },
+      "svg_sha256": "82caa834f07999948670f4340292d7b536216019199f58d47cd7140682d15a47"
+    },
+    {
+      "id": "G12_sensitivity",
+      "source_files": [
+        "results/augmented/coefficients.csv"
+      ],
+      "plotted_data": [
+        {
+          "model": "rest_preferred_quantity",
+          "outcome": "quantity",
+          "n": 8500,
+          "term": "PHEV__definitive",
+          "beta": 0.4124018776360253,
+          "multiplier": 1.5104413269625248,
+          "hac6_lo": 0.7083677689161642,
+          "hac6_hi": 3.220690017682499,
+          "hac12_lo": 0.7481034444791256,
+          "hac12_hi": 3.049622373794554
+        },
+        {
+          "model": "rest_no_trend_quantity",
+          "outcome": "quantity",
+          "n": 8500,
+          "term": "PHEV__definitive",
+          "beta": 0.9097939668280172,
+          "multiplier": 2.483810733258747,
+          "hac6_lo": 1.834844810115388,
+          "hac6_hi": 3.3623092943012365,
+          "hac12_lo": 1.8193696662748016,
+          "hac12_hi": 3.390908331061252
+        },
+        {
+          "model": "rest_no_season_quantity",
+          "outcome": "quantity",
+          "n": 8500,
+          "term": "PHEV__definitive",
+          "beta": 0.5705940966277611,
+          "multiplier": 1.7693178850434172,
+          "hac6_lo": 0.6824763992865339,
+          "hac6_hi": 4.586950965054828,
+          "hac12_lo": 0.7717103068719184,
+          "hac12_hi": 4.056555614792482
+        },
+        {
+          "model": "four_origin_augmented_quantity",
+          "outcome": "quantity",
+          "n": 14733,
+          "term": "PHEV__definitive",
+          "beta": 0.7183678168008588,
+          "multiplier": 2.051082734313117,
+          "hac6_lo": 1.0808144233714354,
+          "hac6_hi": 3.892379942409045,
+          "hac12_lo": 1.2143041255666218,
+          "hac12_hi": 3.4644866095915794
+        },
+        {
+          "model": "rest_since2022_quantity",
+          "outcome": "quantity",
+          "n": 6872,
+          "term": "PHEV__definitive",
+          "beta": 0.7162003271493868,
+          "multiplier": 2.046641848238097,
+          "hac6_lo": 0.8007960108161012,
+          "hac6_hi": 5.230723927671234,
+          "hac12_lo": 0.90111041919932,
+          "hac12_hi": 4.648423506945299
+        },
+        {
+          "model": "rest_exclude_BE_NL_quantity",
+          "outcome": "quantity",
+          "n": 7780,
+          "term": "PHEV__definitive",
+          "beta": -0.2022174183278504,
+          "multiplier": 0.8169172958402453,
+          "hac6_lo": 0.3550654432276287,
+          "hac6_hi": 1.879523566631928,
+          "hac12_lo": 0.3889060532083247,
+          "hac12_hi": 1.7159770662799598
+        },
+        {
+          "model": "rest_observed_only_quantity",
+          "outcome": "quantity",
+          "n": 4545,
+          "term": "PHEV__definitive",
+          "beta": 0.4544679906009122,
+          "multiplier": 1.5753350669954036,
+          "hac6_lo": 0.6943725183574743,
+          "hac6_hi": 3.573990196466565,
+          "hac12_lo": 0.7998659450650825,
+          "hac12_hi": 3.102620618638148
+        },
+        {
+          "model": "rest_preferred_value",
+          "outcome": "value_eur",
+          "n": 8500,
+          "term": "PHEV__definitive",
+          "beta": 0.8383051335950785,
+          "multiplier": 2.3124443692974954,
+          "hac6_lo": 0.9710297171720024,
+          "hac6_hi": 5.506936468092135,
+          "hac12_lo": 0.9957279323059198,
+          "hac12_hi": 5.370341423195908
+        },
+        {
+          "model": "rest_no_trend_value",
+          "outcome": "value_eur",
+          "n": 8500,
+          "term": "PHEV__definitive",
+          "beta": 0.8162786858056328,
+          "multiplier": 2.262066295920174,
+          "hac6_lo": 1.7147575530852646,
+          "hac6_hi": 2.98406262618957,
+          "hac12_lo": 1.7243846955803803,
+          "hac12_hi": 2.96740277285736
+        },
+        {
+          "model": "rest_no_season_value",
+          "outcome": "value_eur",
+          "n": 8500,
+          "term": "PHEV__definitive",
+          "beta": 0.971733908123428,
+          "multiplier": 2.642522380381671,
+          "hac6_lo": 1.01203904448514,
+          "hac6_hi": 6.899856847292361,
+          "hac12_lo": 1.072801616477559,
+          "hac12_hi": 6.50905481830441
+        },
+        {
+          "model": "four_origin_augmented_value",
+          "outcome": "value_eur",
+          "n": 14733,
+          "term": "PHEV__definitive",
+          "beta": 0.7247363501570506,
+          "multiplier": 2.0641868056909507,
+          "hac6_lo": 0.9163224226823288,
+          "hac6_hi": 4.649964972281128,
+          "hac12_lo": 1.014302001543926,
+          "hac12_hi": 4.2007874994852665
+        },
+        {
+          "model": "rest_since2022_value",
+          "outcome": "value_eur",
+          "n": 6872,
+          "term": "PHEV__definitive",
+          "beta": 1.0558705734138458,
+          "multiplier": 2.874476507763663,
+          "hac6_lo": 0.918260168455382,
+          "hac6_hi": 8.998120007300157,
+          "hac12_lo": 1.0253088034992852,
+          "hac12_hi": 8.058660147543485
+        },
+        {
+          "model": "rest_exclude_BE_NL_value",
+          "outcome": "value_eur",
+          "n": 7780,
+          "term": "PHEV__definitive",
+          "beta": -0.6798205494069574,
+          "multiplier": 0.5067079132429738,
+          "hac6_lo": 0.2493415621687391,
+          "hac6_hi": 1.0297236734616044,
+          "hac12_lo": 0.2678414541943203,
+          "hac12_hi": 0.9586003410688382
+        },
+        {
+          "model": "rest_observed_only_value",
+          "outcome": "value_eur",
+          "n": 4545,
+          "term": "PHEV__definitive",
+          "beta": 0.8948372841580808,
+          "multiplier": 2.4469376015554887,
+          "hac6_lo": 0.9945139191702668,
+          "hac6_hi": 6.020532755239427,
+          "hac12_lo": 1.1059816608315316,
+          "hac12_hi": 5.4137458494604935
+        },
+        {
+          "model": "rest_preferred_quantity",
+          "outcome": "quantity",
+          "n": 8500,
+          "term": "HEV__definitive",
+          "beta": 3.394117282301336,
+          "multiplier": 29.78834716486709,
+          "hac6_lo": 6.507797868949437,
+          "hac6_hi": 136.35113515870324,
+          "hac12_lo": 6.728757706144951,
+          "hac12_hi": 131.87361851420036
+        },
+        {
+          "model": "rest_no_trend_quantity",
+          "outcome": "quantity",
+          "n": 8500,
+          "term": "HEV__definitive",
+          "beta": 4.204830500738348,
+          "multiplier": 67.00923868718127,
+          "hac6_lo": 27.62863565613878,
+          "hac6_hi": 162.52116555158057,
+          "hac12_lo": 29.24721202260316,
+          "hac12_hi": 153.5270461323095
+        },
+        {
+          "model": "rest_no_season_quantity",
+          "outcome": "quantity",
+          "n": 8500,
+          "term": "HEV__definitive",
+          "beta": 3.695157149049903,
+          "multiplier": 40.25189763844145,
+          "hac6_lo": 8.68639656479867,
+          "hac6_hi": 186.5232897679846,
+          "hac12_lo": 9.32280808623418,
+          "hac12_hi": 173.7904769152051
+        },
+        {
+          "model": "four_origin_augmented_quantity",
+          "outcome": "quantity",
+          "n": 14733,
+          "term": "HEV__definitive",
+          "beta": 2.919352861796918,
+          "multiplier": 18.529292565892984,
+          "hac6_lo": 3.342560141209432,
+          "hac6_hi": 102.71608243022638,
+          "hac12_lo": 3.4937342865857555,
+          "hac12_hi": 98.27154981725305
+        },
+        {
+          "model": "rest_since2022_quantity",
+          "outcome": "quantity",
+          "n": 6872,
+          "term": "HEV__definitive",
+          "beta": 3.2691410477633425,
+          "multiplier": 26.28874886294827,
+          "hac6_lo": 3.913121897619582,
+          "hac6_hi": 176.6104749252946,
+          "hac12_lo": 4.457840739013505,
+          "hac12_hi": 155.02983557283844
+        },
+        {
+          "model": "rest_exclude_BE_NL_quantity",
+          "outcome": "quantity",
+          "n": 7780,
+          "term": "HEV__definitive",
+          "beta": 3.74527247947171,
+          "multiplier": 42.32053712553347,
+          "hac6_lo": 12.099816054576062,
+          "hac6_hi": 148.02108185076938,
+          "hac12_lo": 10.41527521056666,
+          "hac12_hi": 171.9616454087163
+        },
+        {
+          "model": "rest_observed_only_quantity",
+          "outcome": "quantity",
+          "n": 4545,
+          "term": "HEV__definitive",
+          "beta": 2.388049473451048,
+          "multiplier": 10.89222763036038,
+          "hac6_lo": 2.970192592034023,
+          "hac6_hi": 39.94374744243086,
+          "hac12_lo": 3.2131418412096022,
+          "hac12_hi": 36.92355601299049
+        },
+        {
+          "model": "rest_preferred_value",
+          "outcome": "value_eur",
+          "n": 8500,
+          "term": "HEV__definitive",
+          "beta": 2.8360014043100605,
+          "multiplier": 17.04746315864306,
+          "hac6_lo": 3.6154106280318703,
+          "hac6_hi": 80.38257062476346,
+          "hac12_lo": 3.6817532771383936,
+          "hac12_hi": 78.9341322651503
+        },
+        {
+          "model": "rest_no_trend_value",
+          "outcome": "value_eur",
+          "n": 8500,
+          "term": "HEV__definitive",
+          "beta": 4.123614191606317,
+          "multiplier": 61.78213170105519,
+          "hac6_lo": 22.861893005451883,
+          "hac6_hi": 166.96044359127558,
+          "hac12_lo": 24.894371429693237,
+          "hac12_hi": 153.32910928506874
+        },
+        {
+          "model": "rest_no_season_value",
+          "outcome": "value_eur",
+          "n": 8500,
+          "term": "HEV__definitive",
+          "beta": 3.175167614960854,
+          "multiplier": 23.93083069747882,
+          "hac6_lo": 4.451793152321812,
+          "hac6_hi": 128.64134479669465,
+          "hac12_lo": 5.104469628001674,
+          "hac12_hi": 112.19278389468886
+        },
+        {
+          "model": "four_origin_augmented_value",
+          "outcome": "value_eur",
+          "n": 14733,
+          "term": "HEV__definitive",
+          "beta": 2.17480325419131,
+          "multiplier": 8.800453499507842,
+          "hac6_lo": 1.914760699944068,
+          "hac6_hi": 40.44786473801252,
+          "hac12_lo": 2.1277232066796388,
+          "hac12_hi": 36.39946284077955
+        },
+        {
+          "model": "rest_since2022_value",
+          "outcome": "value_eur",
+          "n": 6872,
+          "term": "HEV__definitive",
+          "beta": 2.7037642043344667,
+          "multiplier": 14.935847625124854,
+          "hac6_lo": 2.2366696100112566,
+          "hac6_hi": 99.7373699192994,
+          "hac12_lo": 2.3277769269383426,
+          "hac12_hi": 95.83372946923988
+        },
+        {
+          "model": "rest_exclude_BE_NL_value",
+          "outcome": "value_eur",
+          "n": 7780,
+          "term": "HEV__definitive",
+          "beta": 3.3955574978759326,
+          "multiplier": 29.831279715038164,
+          "hac6_lo": 10.889172655929068,
+          "hac6_hi": 81.72386255188093,
+          "hac12_lo": 14.029471849351276,
+          "hac12_hi": 63.43112976686978
+        },
+        {
+          "model": "rest_observed_only_value",
+          "outcome": "value_eur",
+          "n": 4545,
+          "term": "HEV__definitive",
+          "beta": 1.9150794358883505,
+          "multiplier": 6.787477944925395,
+          "hac6_lo": 2.0398146818644376,
+          "hac6_hi": 22.585314863377565,
+          "hac12_lo": 2.0519738579885254,
+          "hac12_hi": 22.45148332348115
+        }
+      ],
+      "source_sha256": {
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      },
+      "svg_sha256": "5efa38d50c8e067e7a629576b971c9dc3fcb3cf431b47f0768bf31e6e2c8241d"
+    },
+    {
+      "id": "G13_halfyear",
+      "source_files": [
+        "results/augmented/rest_halfyear_quantity.json",
+        "results/augmented/rest_halfyear_value.json"
+      ],
+      "plotted_data": [
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2021H1",
+          "point": 0.6248216201535842,
+          "interval": [
+            0.39063225304505167,
+            0.9994107090955562
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2021H2",
+          "point": 0.6168209213020637,
+          "interval": [
+            0.4651670425964039,
+            0.8179170364957148
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2023H1",
+          "point": 0.8960492532167494,
+          "interval": [
+            0.6587105182766098,
+            1.2189030566734231
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2023H2",
+          "point": 0.2990508636875962,
+          "interval": [
+            0.22144334644415717,
+            0.40385688036397954
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2024H1",
+          "point": 0.305711564446277,
+          "interval": [
+            0.2119406020115334,
+            0.44097053490064303
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2024H2",
+          "point": 0.7863386288951124,
+          "interval": [
+            0.6066175592585925,
+            1.0193052110927447
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2025H1",
+          "point": 1.7225934917452441,
+          "interval": [
+            1.2297043887051213,
+            2.41304200022224
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "quantity",
+          "period": "2025H2",
+          "point": 2.5897613180422545,
+          "interval": [
+            1.5698912485559382,
+            4.272183624564601
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2021H1",
+          "point": 0.8591567226010269,
+          "interval": [
+            0.5424757273628755,
+            1.3607065473304962
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2021H2",
+          "point": 0.6970290914327554,
+          "interval": [
+            0.4542507051521163,
+            1.069562575892699
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2023H1",
+          "point": 0.7140835510477184,
+          "interval": [
+            0.5081488896207073,
+            1.0034762021373904
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2023H2",
+          "point": 0.2908741089224762,
+          "interval": [
+            0.22170588593023619,
+            0.3816215653745338
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2024H1",
+          "point": 0.2395967731369055,
+          "interval": [
+            0.16141338780504214,
+            0.3556496426861101
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2024H2",
+          "point": 0.72314432314522,
+          "interval": [
+            0.5505482327596294,
+            0.9498490431545427
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2025H1",
+          "point": 1.3210541919259136,
+          "interval": [
+            0.8981842130557312,
+            1.9430136408963383
+          ]
+        },
+        {
+          "category": "PHEV",
+          "outcome": "value",
+          "period": "2025H2",
+          "point": 2.5994271188713554,
+          "interval": [
+            1.7180725730698758,
+            3.9329079878449464
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2021H1",
+          "point": 5.520371511149011,
+          "interval": [
+            2.809141469378689,
+            10.848332828124104
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2021H2",
+          "point": 12.37765606101804,
+          "interval": [
+            6.954762929972484,
+            22.028985187200732
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2023H1",
+          "point": 4.187617480010953,
+          "interval": [
+            1.6235884739161712,
+            10.800852827314854
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2023H2",
+          "point": 44.70580940959797,
+          "interval": [
+            33.164055239585394,
+            60.264324749456804
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2024H1",
+          "point": 55.81563904788198,
+          "interval": [
+            26.24435606177988,
+            118.7068775850225
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2024H2",
+          "point": 268.4876622974732,
+          "interval": [
+            200.81497417164258,
+            358.9653864375088
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2025H1",
+          "point": 264.25716723134707,
+          "interval": [
+            124.52997054166852,
+            560.7634060249774
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "quantity",
+          "period": "2025H2",
+          "point": 536.1692507660109,
+          "interval": [
+            390.34402627220413,
+            736.4720505970157
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2021H1",
+          "point": 17.61600293799974,
+          "interval": [
+            6.940696441187543,
+            44.7107235046458
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2021H2",
+          "point": 6.918993574316423,
+          "interval": [
+            3.7943288074632626,
+            12.616848594478451
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2023H1",
+          "point": 22.812104507581832,
+          "interval": [
+            7.622031842989394,
+            68.2747229065282
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2023H2",
+          "point": 37.8054963184068,
+          "interval": [
+            27.73329986257321,
+            51.53571911613326
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2024H1",
+          "point": 281.43664337695793,
+          "interval": [
+            171.812462776749,
+            461.0060466813113
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2024H2",
+          "point": 136.434257641194,
+          "interval": [
+            102.46768384330724,
+            181.66026555814955
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2025H1",
+          "point": 915.127033938024,
+          "interval": [
+            569.7411709234821,
+            1469.891120711511
+          ]
+        },
+        {
+          "category": "HEV",
+          "outcome": "value",
+          "period": "2025H2",
+          "point": 338.876146011442,
+          "interval": [
+            260.94779149192163,
+            440.0766976375167
+          ]
+        }
+      ],
+      "source_sha256": {
+        "results/augmented/rest_halfyear_quantity.json": "211c515073567e00a1e887d959fa27284c0792aae488408ea26eadb9efc39b4e",
+        "results/augmented/rest_halfyear_value.json": "d0cda8a5d8e1e8eba360b6fafaaf1bc15843bd202dbb2686009774b5ec958dfa"
+      },
+      "svg_sha256": "12f6c946d9a72256a961e333b18c7ad68c4a6c79bf928f4b3ef001186c5aa218"
+    }
+  ]
+}

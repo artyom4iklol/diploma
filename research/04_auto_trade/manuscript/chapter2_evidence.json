@@ -28,7 +28,8 @@
     "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175",
     "results/geography_focus/pooled_HHI_product_geography.csv": "2a5ccce9c54b419092c18a923464d31b81a690011f224d9467f0244807277443",
     "results/geography_focus/category_HHI_group_shapley.csv": "e995f3e880739b9026d7e762ea84776fe611d14031b95e02a3cd7ab03dc7a30e",
-    "results/augmented/output_validation.json": "2c20794d07c208414798cc3f7a933eb552cf57d009c6620da362d18d2ed2d140"
+    "results/augmented/output_validation.json": "2c20794d07c208414798cc3f7a933eb552cf57d009c6620da362d18d2ed2d140",
+    "results/chapter2_revision/valuation_diagnostic.json": "e05abf7f01a986deac4421acaf6a870e5fdec5ca9cf5d3fe03509790879afc8d"
   },
   "annual_CN": [
     {
