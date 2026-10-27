@@ -1,0 +1,992 @@
+{
+  "date": "2026-10-27",
+  "models_refitted": false,
+  "original_register_files_verified": 20,
+  "file_sha256": {
+    "data/full_raw/request.json": "094ae5ea181b9fecd18eb69ba05ae43dff6ce110aeafd6804eab8ed556b4542e",
+    "results/full/data_audit.json": "0040c25b89e9b327a18bc6a4b2614297e26d4b40539f35e0a989bb1ed22c1baf",
+    "results/full/observability_details.json": "7e5e26e959537f673bfc3abd2d990cbe4f16a80a0a61ac2522526b987aad3f45",
+    "results/augmented/data_audit.json": "b78315b24c907cc5139cf17d77c7d5764cfde7fba2eecfcc8671da7c6f91218c",
+    "results/augmented/conditional_share_equivalence.json": "625268c8a62f53a99640c411ea0631326aaa5a35acc1ea041e63d3ef7547e664",
+    "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88",
+    "results/full/accounting_decompositions.json": "401b6b45fcc619999d01e7ff06019dac6e38976ce5b22d4578303be1152fabb9",
+    "results/full/china_value_change_accounting.json": "dcf786ae9ea227e943802f1989f0fffa98119b53d404fe02347102274083fa87",
+    "results/full/entry_concentration.csv": "876a65e224dcaaedd28d8120db0913c7ced09609db44db482bb1275b64d57158",
+    "results/geography_focus/decompositions.json": "2960ff3bcb9f06babcbf3e2d7c26621888d5da40870b15ae8688bf8c6efc8ed1",
+    "results/geography_focus/entry_margin_summary.csv": "1dda86a925213640162878314bba9f5d030d61791d3b18027fe2cb23bfcba503",
+    "results/augmented/rest_preferred_quantity.json": "b2e752bb1bd1a5c36a3a39b04b6f57f6814bb8ab7a255771bda86e767bf43f0c",
+    "results/augmented/rest_preferred_value.json": "c63f76f1dafd20256dd0becd316250d4618976c3f7ee7110e67b06cc43fe358a",
+    "results/augmented/paired_block_summary.json": "081b975280abb795ee00a0fc9de778275e9af593d8a6e822b2c9c75a55f4a620",
+    "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719",
+    "results/augmented/rest_halfyear_quantity.json": "211c515073567e00a1e887d959fa27284c0792aae488408ea26eadb9efc39b4e",
+    "results/augmented/rest_halfyear_value.json": "d0cda8a5d8e1e8eba360b6fafaaf1bc15843bd202dbb2686009774b5ec958dfa",
+    "results/augmented/rest_geographic_quantity.json": "cc907c2113c4e10448daf01514f59ffbffcd4e3a4f3c2e1fc6554e75f3ce973e",
+    "results/augmented/rest_geographic_value.json": "6263dc579b9642f16ececacc76aec157b627484f0fed0c1a4e0477aabc81c6a7",
+    "results/augmented/clearance_jurisdiction_exposure.csv": "2618d57266bc3c8cb8b9f77242f8e9d768ad6cc11c40603944c03207c9ee8f21",
+    "data/full_raw/eurostat_full.json": "908c5cd39456c3f6e51d6117e1ddf510b7bcb4707658dffe37f5aae02497cec0",
+    "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3",
+    "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175",
+    "results/geography_focus/pooled_HHI_product_geography.csv": "2a5ccce9c54b419092c18a923464d31b81a690011f224d9467f0244807277443",
+    "results/geography_focus/category_HHI_group_shapley.csv": "e995f3e880739b9026d7e762ea84776fe611d14031b95e02a3cd7ab03dc7a30e",
+    "results/augmented/output_validation.json": "2c20794d07c208414798cc3f7a933eb552cf57d009c6620da362d18d2ed2d140"
+  },
+  "annual_CN": [
+    {
+      "origin": "CN",
+      "category": "BEV",
+      "year": 2021,
+      "quantity": 208894,
+      "value_eur": 3497615303,
+      "customs_eur_per_vehicle": 16743.49336505596
+    },
+    {
+      "origin": "CN",
+      "category": "BEV",
+      "year": 2022,
+      "quantity": 343855,
+      "value_eur": 8134119023,
+      "customs_eur_per_vehicle": 23655.66597257565
+    },
+    {
+      "origin": "CN",
+      "category": "BEV",
+      "year": 2023,
+      "quantity": 491165,
+      "value_eur": 11027736012,
+      "customs_eur_per_vehicle": 22452.20244113485
+    },
+    {
+      "origin": "CN",
+      "category": "BEV",
+      "year": 2024,
+      "quantity": 439419,
+      "value_eur": 8878076161,
+      "customs_eur_per_vehicle": 20204.12444841939
+    },
+    {
+      "origin": "CN",
+      "category": "BEV",
+      "year": 2025,
+      "quantity": 430616,
+      "value_eur": 6344617849,
+      "customs_eur_per_vehicle": 14733.8181790737
+    },
+    {
+      "origin": "CN",
+      "category": "HEV",
+      "year": 2021,
+      "quantity": 2520,
+      "value_eur": 36383575,
+      "customs_eur_per_vehicle": 14437.926587301588
+    },
+    {
+      "origin": "CN",
+      "category": "HEV",
+      "year": 2022,
+      "quantity": 425,
+      "value_eur": 5920986,
+      "customs_eur_per_vehicle": 13931.731764705884
+    },
+    {
+      "origin": "CN",
+      "category": "HEV",
+      "year": 2023,
+      "quantity": 7028,
+      "value_eur": 185481250,
+      "customs_eur_per_vehicle": 26391.75441092772
+    },
+    {
+      "origin": "CN",
+      "category": "HEV",
+      "year": 2024,
+      "quantity": 63830,
+      "value_eur": 1140337344,
+      "customs_eur_per_vehicle": 17865.225505248316
+    },
+    {
+      "origin": "CN",
+      "category": "HEV",
+      "year": 2025,
+      "quantity": 130347,
+      "value_eur": 1810717958,
+      "customs_eur_per_vehicle": 13891.520004296224
+    },
+    {
+      "origin": "CN",
+      "category": "PHEV",
+      "year": 2021,
+      "quantity": 23355,
+      "value_eur": 596793341,
+      "customs_eur_per_vehicle": 25553.129565403557
+    },
+    {
+      "origin": "CN",
+      "category": "PHEV",
+      "year": 2022,
+      "quantity": 56705,
+      "value_eur": 1446199222,
+      "customs_eur_per_vehicle": 25503.910096111453
+    },
+    {
+      "origin": "CN",
+      "category": "PHEV",
+      "year": 2023,
+      "quantity": 38931,
+      "value_eur": 1063760980,
+      "customs_eur_per_vehicle": 27324.265495363597
+    },
+    {
+      "origin": "CN",
+      "category": "PHEV",
+      "year": 2024,
+      "quantity": 42587,
+      "value_eur": 1084010699,
+      "customs_eur_per_vehicle": 25454.028201094232
+    },
+    {
+      "origin": "CN",
+      "category": "PHEV",
+      "year": 2025,
+      "quantity": 171348,
+      "value_eur": 3576102648,
+      "customs_eur_per_vehicle": 20870.4078716997
+    }
+  ],
+  "annual_CN_totals": [
+    {
+      "year": 2021,
+      "quantity": 234769,
+      "value_eur": 4130792219
+    },
+    {
+      "year": 2022,
+      "quantity": 400985,
+      "value_eur": 9586239231
+    },
+    {
+      "year": 2023,
+      "quantity": 537124,
+      "value_eur": 12276978242
+    },
+    {
+      "year": 2024,
+      "quantity": 545836,
+      "value_eur": 11102424204
+    },
+    {
+      "year": 2025,
+      "quantity": 732311,
+      "value_eur": 11731438455
+    }
+  ],
+  "annual_CN_share_of_selected_extraEU_pct": [
+    {
+      "year": 2021,
+      "quantity": 22.8830393624653,
+      "value_eur": 18.303377156609553
+    },
+    {
+      "year": 2022,
+      "quantity": 30.44839790634755,
+      "value_eur": 29.659517929051148
+    },
+    {
+      "year": 2023,
+      "quantity": 31.2295012863933,
+      "value_eur": 27.59576460645513
+    },
+    {
+      "year": 2024,
+      "quantity": 33.278218775530114,
+      "value_eur": 27.57195905292937
+    },
+    {
+      "year": 2025,
+      "quantity": 38.83276496481347,
+      "value_eur": 27.781489190916425
+    }
+  ],
+  "quarterly_CN": [
+    {
+      "category": "BEV",
+      "quarter": "2021Q1",
+      "quantity": 20869,
+      "value_eur": 185395095
+    },
+    {
+      "category": "BEV",
+      "quarter": "2021Q2",
+      "quantity": 41405,
+      "value_eur": 667405457
+    },
+    {
+      "category": "BEV",
+      "quarter": "2021Q3",
+      "quantity": 71644,
+      "value_eur": 1244964403
+    },
+    {
+      "category": "BEV",
+      "quarter": "2021Q4",
+      "quantity": 74976,
+      "value_eur": 1399850348
+    },
+    {
+      "category": "BEV",
+      "quarter": "2022Q1",
+      "quantity": 99091,
+      "value_eur": 2336633418
+    },
+    {
+      "category": "BEV",
+      "quarter": "2022Q2",
+      "quantity": 45241,
+      "value_eur": 911936986
+    },
+    {
+      "category": "BEV",
+      "quarter": "2022Q3",
+      "quantity": 81310,
+      "value_eur": 2012220095
+    },
+    {
+      "category": "BEV",
+      "quarter": "2022Q4",
+      "quantity": 118213,
+      "value_eur": 2873328524
+    },
+    {
+      "category": "BEV",
+      "quarter": "2023Q1",
+      "quantity": 127265,
+      "value_eur": 3068436561
+    },
+    {
+      "category": "BEV",
+      "quarter": "2023Q2",
+      "quantity": 131564,
+      "value_eur": 3029219485
+    },
+    {
+      "category": "BEV",
+      "quarter": "2023Q3",
+      "quantity": 100732,
+      "value_eur": 2049150932
+    },
+    {
+      "category": "BEV",
+      "quarter": "2023Q4",
+      "quantity": 131604,
+      "value_eur": 2880929034
+    },
+    {
+      "category": "BEV",
+      "quarter": "2024Q1",
+      "quantity": 111486,
+      "value_eur": 2303575424
+    },
+    {
+      "category": "BEV",
+      "quarter": "2024Q2",
+      "quantity": 117886,
+      "value_eur": 2378670613
+    },
+    {
+      "category": "BEV",
+      "quarter": "2024Q3",
+      "quantity": 91727,
+      "value_eur": 1883398026
+    },
+    {
+      "category": "BEV",
+      "quarter": "2024Q4",
+      "quantity": 118320,
+      "value_eur": 2312432098
+    },
+    {
+      "category": "BEV",
+      "quarter": "2025Q1",
+      "quantity": 88632,
+      "value_eur": 1586370218
+    },
+    {
+      "category": "BEV",
+      "quarter": "2025Q2",
+      "quantity": 102354,
+      "value_eur": 1470131854
+    },
+    {
+      "category": "BEV",
+      "quarter": "2025Q3",
+      "quantity": 122188,
+      "value_eur": 1656916296
+    },
+    {
+      "category": "BEV",
+      "quarter": "2025Q4",
+      "quantity": 117442,
+      "value_eur": 1631199481
+    },
+    {
+      "category": "HEV",
+      "quarter": "2021Q1",
+      "quantity": 153,
+      "value_eur": 333213
+    },
+    {
+      "category": "HEV",
+      "quarter": "2021Q2",
+      "quantity": 484,
+      "value_eur": 4931351
+    },
+    {
+      "category": "HEV",
+      "quarter": "2021Q3",
+      "quantity": 962,
+      "value_eur": 13451657
+    },
+    {
+      "category": "HEV",
+      "quarter": "2021Q4",
+      "quantity": 921,
+      "value_eur": 17667354
+    },
+    {
+      "category": "HEV",
+      "quarter": "2022Q1",
+      "quantity": 246,
+      "value_eur": 367206
+    },
+    {
+      "category": "HEV",
+      "quarter": "2022Q2",
+      "quantity": 37,
+      "value_eur": 898340
+    },
+    {
+      "category": "HEV",
+      "quarter": "2022Q3",
+      "quantity": 35,
+      "value_eur": 913231
+    },
+    {
+      "category": "HEV",
+      "quarter": "2022Q4",
+      "quantity": 107,
+      "value_eur": 3742209
+    },
+    {
+      "category": "HEV",
+      "quarter": "2023Q1",
+      "quantity": 48,
+      "value_eur": 2352155
+    },
+    {
+      "category": "HEV",
+      "quarter": "2023Q2",
+      "quantity": 942,
+      "value_eur": 21025870
+    },
+    {
+      "category": "HEV",
+      "quarter": "2023Q3",
+      "quantity": 1665,
+      "value_eur": 38689917
+    },
+    {
+      "category": "HEV",
+      "quarter": "2023Q4",
+      "quantity": 4373,
+      "value_eur": 123413308
+    },
+    {
+      "category": "HEV",
+      "quarter": "2024Q1",
+      "quantity": 7603,
+      "value_eur": 215325032
+    },
+    {
+      "category": "HEV",
+      "quarter": "2024Q2",
+      "quantity": 12197,
+      "value_eur": 235550049
+    },
+    {
+      "category": "HEV",
+      "quarter": "2024Q3",
+      "quantity": 22747,
+      "value_eur": 389018596
+    },
+    {
+      "category": "HEV",
+      "quarter": "2024Q4",
+      "quantity": 21283,
+      "value_eur": 300443667
+    },
+    {
+      "category": "HEV",
+      "quarter": "2025Q1",
+      "quantity": 20985,
+      "value_eur": 286314453
+    },
+    {
+      "category": "HEV",
+      "quarter": "2025Q2",
+      "quantity": 26908,
+      "value_eur": 357219743
+    },
+    {
+      "category": "HEV",
+      "quarter": "2025Q3",
+      "quantity": 34146,
+      "value_eur": 476249570
+    },
+    {
+      "category": "HEV",
+      "quarter": "2025Q4",
+      "quantity": 48308,
+      "value_eur": 690934192
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2021Q1",
+      "quantity": 3318,
+      "value_eur": 83996734
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2021Q2",
+      "quantity": 3439,
+      "value_eur": 83447813
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2021Q3",
+      "quantity": 6594,
+      "value_eur": 166152733
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2021Q4",
+      "quantity": 10004,
+      "value_eur": 263196061
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2022Q1",
+      "quantity": 7073,
+      "value_eur": 175660994
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2022Q2",
+      "quantity": 15403,
+      "value_eur": 396393254
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2022Q3",
+      "quantity": 13533,
+      "value_eur": 348060091
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2022Q4",
+      "quantity": 20696,
+      "value_eur": 526084883
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2023Q1",
+      "quantity": 16304,
+      "value_eur": 440429123
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2023Q2",
+      "quantity": 14091,
+      "value_eur": 378942674
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2023Q3",
+      "quantity": 4786,
+      "value_eur": 133419333
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2023Q4",
+      "quantity": 3750,
+      "value_eur": 110969850
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2024Q1",
+      "quantity": 5674,
+      "value_eur": 159604713
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2024Q2",
+      "quantity": 6308,
+      "value_eur": 168874825
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2024Q3",
+      "quantity": 12484,
+      "value_eur": 328770635
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2024Q4",
+      "quantity": 18121,
+      "value_eur": 426760526
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2025Q1",
+      "quantity": 29949,
+      "value_eur": 605990555
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2025Q2",
+      "quantity": 33261,
+      "value_eur": 688151672
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2025Q3",
+      "quantity": 58853,
+      "value_eur": 1233856304
+    },
+    {
+      "category": "PHEV",
+      "quarter": "2025Q4",
+      "quantity": 49285,
+      "value_eur": 1048104117
+    }
+  ],
+  "preferred_definitive": {
+    "quantity": [
+      {
+        "category": "PHEV",
+        "multiplier": 1.5104413269625248,
+        "hac12": [
+          0.7481034444791256,
+          3.049622373794554
+        ],
+        "block": [
+          0.7051620159338746,
+          4.392972793794879
+        ]
+      },
+      {
+        "category": "HEV",
+        "multiplier": 29.788347164867094,
+        "hac12": [
+          6.728757706144951,
+          131.87361851420036
+        ],
+        "block": [
+          6.937584822980219,
+          249.77313877076392
+        ]
+      }
+    ],
+    "value_eur": [
+      {
+        "category": "PHEV",
+        "multiplier": 2.3124443692974954,
+        "hac12": [
+          0.9957279323059198,
+          5.3703414231959075
+        ],
+        "block": [
+          0.8222150243399075,
+          6.976016917701246
+        ]
+      },
+      {
+        "category": "HEV",
+        "multiplier": 17.04746315864306,
+        "hac12": [
+          3.6817532771383936,
+          78.9341322651503
+        ],
+        "block": [
+          3.1217411939392443,
+          98.27289639561634
+        ]
+      }
+    ]
+  },
+  "share_accounting": [
+    {
+      "outcome": "quantity",
+      "start": 2023,
+      "end": 2025,
+      "china_share_start_pct": 31.2295012863933,
+      "china_share_end_pct": 38.83276496481347,
+      "change_pp": 7.603263678420169,
+      "two_factor": {
+        "within_category_pp": 10.891977341382736,
+        "category_mix_pp": -3.288713662962565,
+        "components": [
+          {
+            "category": "BEV",
+            "within_pp": 0.2159491970677527,
+            "mix_pp": -5.938724811715014
+          },
+          {
+            "category": "PHEV",
+            "within_pp": 4.395757753210453,
+            "mix_pp": 2.426902939821641
+          },
+          {
+            "category": "HEV",
+            "within_pp": 6.280270391104531,
+            "mix_pp": 0.2231082089308075
+          }
+        ],
+        "identity_error_pp": -2.0816681711721685e-15
+      },
+      "three_factor_shapley": {
+        "geographic_entry_mix_pp": -0.3462810787234696,
+        "within_entry_category_mix_pp": -1.6649386930752255,
+        "china_shares_within_entry_category_pp": 9.614483450218867,
+        "identity_error_pp": -2.7755575615628914e-15,
+        "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+        "component_bounds_pp": {
+          "geographic_entry_mix": [
+            -0.346409749864855,
+            -0.3462810787234696
+          ],
+          "within_entry_category_mix": [
+            -1.6650245991742685,
+            -1.6643191354892575
+          ],
+          "china_shares_within_entry_category": [
+            9.613948303718583,
+            9.614613616373614
+          ]
+        }
+      },
+      "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+      "zero_denominator_cells": 5
+    },
+    {
+      "outcome": "quantity",
+      "start": 2024,
+      "end": 2025,
+      "china_share_start_pct": 33.278218775530114,
+      "china_share_end_pct": 38.83276496481347,
+      "change_pp": 5.554546189283361,
+      "two_factor": {
+        "within_category_pp": 4.595291324070666,
+        "category_mix_pp": 0.9592548652126958,
+        "components": [
+          {
+            "category": "BEV",
+            "within_pp": -3.10910617000719,
+            "mix_pp": -0.846567209902964
+          },
+          {
+            "category": "PHEV",
+            "within_pp": 3.877252995217441,
+            "mix_pp": 2.612516638322273
+          },
+          {
+            "category": "HEV",
+            "within_pp": 3.8271444988604153,
+            "mix_pp": -0.8066945632066133
+          }
+        ],
+        "identity_error_pp": -1.5612511283791264e-15
+      },
+      "three_factor_shapley": {
+        "geographic_entry_mix_pp": -0.36126550466030183,
+        "within_entry_category_mix_pp": 1.7531518898389387,
+        "china_shares_within_entry_category_pp": 4.162659804104726,
+        "identity_error_pp": -6.938893903907228e-16,
+        "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+        "component_bounds_pp": {
+          "geographic_entry_mix": [
+            -0.36131240248254753,
+            -0.36126550466030183
+          ],
+          "within_entry_category_mix": [
+            1.7530627831898349,
+            1.7531518898389387
+          ],
+          "china_shares_within_entry_category": [
+            4.162659804104726,
+            4.162795808576075
+          ]
+        }
+      },
+      "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+      "zero_denominator_cells": 3
+    },
+    {
+      "outcome": "value_eur",
+      "start": 2023,
+      "end": 2025,
+      "china_share_start_pct": 27.59576460645513,
+      "china_share_end_pct": 27.781489190916425,
+      "change_pp": 0.18572458446129425,
+      "two_factor": {
+        "within_category_pp": 4.896795990603216,
+        "category_mix_pp": -4.711071406141923,
+        "components": [
+          {
+            "category": "BEV",
+            "within_pp": -2.570789396573138,
+            "mix_pp": -7.192136549184455
+          },
+          {
+            "category": "PHEV",
+            "within_pp": 3.977358724189432,
+            "mix_pp": 2.100207270270461
+          },
+          {
+            "category": "HEV",
+            "within_pp": 3.490226662986922,
+            "mix_pp": 0.38085787277207184
+          }
+        ],
+        "identity_error_pp": 6.938893903907228e-16
+      },
+      "three_factor_shapley": {
+        "geographic_entry_mix_pp": 0.01235362824732088,
+        "within_entry_category_mix_pp": -4.003493186583913,
+        "china_shares_within_entry_category_pp": 4.176864142797887,
+        "identity_error_pp": -6.938893903907228e-16,
+        "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+        "component_bounds_pp": {
+          "geographic_entry_mix": [
+            0.012247047508350881,
+            0.013872578161212701
+          ],
+          "within_entry_category_mix": [
+            -4.00378103782708,
+            -4.00065355354799
+          ],
+          "china_shares_within_entry_category": [
+            4.172562929792452,
+            4.177201204835645
+          ]
+        }
+      },
+      "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+      "zero_denominator_cells": 5
+    },
+    {
+      "outcome": "value_eur",
+      "start": 2024,
+      "end": 2025,
+      "china_share_start_pct": 27.57195905292937,
+      "china_share_end_pct": 27.781489190916425,
+      "change_pp": 0.20953013798705733,
+      "two_factor": {
+        "within_category_pp": 0.7627867545583717,
+        "category_mix_pp": -0.5532566165713162,
+        "components": [
+          {
+            "category": "BEV",
+            "within_pp": -4.9817818187317355,
+            "mix_pp": -2.041356043927366
+          },
+          {
+            "category": "PHEV",
+            "within_pp": 3.833030757181112,
+            "mix_pp": 1.9435685837924983
+          },
+          {
+            "category": "HEV",
+            "within_pp": 1.9115378161089953,
+            "mix_pp": -0.45546915643644864
+          }
+        ],
+        "identity_error_pp": 1.8214596497756474e-15
+      },
+      "three_factor_shapley": {
+        "geographic_entry_mix_pp": -0.7000975283704433,
+        "within_entry_category_mix_pp": -0.1536962641928704,
+        "china_shares_within_entry_category_pp": 1.0633239305503706,
+        "identity_error_pp": 1.0408340855860843e-15,
+        "zero_denominator_convention": "Zero baseline share, with sharp componentwise bounds allowing each undefined share independently in [0,1]. Bounds across components are not simultaneously additive.",
+        "component_bounds_pp": {
+          "geographic_entry_mix": [
+            -0.7018571574406799,
+            -0.700085833601428
+          ],
+          "within_entry_category_mix": [
+            -0.155702383123941,
+            -0.1536962641928704
+          ],
+          "china_shares_within_entry_category": [
+            1.0633239305503706,
+            1.0670779837826618
+          ]
+        }
+      },
+      "interpretation": "CN country of origin; national importer is customs entry, not necessarily consumption. Three selected new-vehicle codes only. Deterministic accounting, no sampling CI or causal interpretation.",
+      "zero_denominator_cells": 3
+    }
+  ],
+  "value_accounting": [
+    {
+      "start": 2023,
+      "end": 2025,
+      "value_change_eur": -545539787.0,
+      "quantity_component_eur": 4548955409.162208,
+      "within_CN8_customs_unit_value_component_eur": -5094495196.162207,
+      "identity_error_eur": -9.5367431640625e-07,
+      "by_category": [
+        {
+          "category": "BEV",
+          "quantity_component_eur": -1125788181.2665038,
+          "unit_value_component_eur": -3557329981.733496
+        },
+        {
+          "category": "PHEV",
+          "quantity_component_eur": 3190897031.6232104,
+          "unit_value_component_eur": -678555363.6232101
+        },
+        {
+          "category": "HEV",
+          "quantity_component_eur": 2483846558.805501,
+          "unit_value_component_eur": -858609850.8055007
+        }
+      ],
+      "interpretation": "Symmetric two-factor accounting V=sum(q*u). Unit customs value includes model/quality mix, transfer valuation and valuation changes; not a constant-quality price or tariff pass-through effect."
+    },
+    {
+      "start": 2024,
+      "end": 2025,
+      "value_change_eur": 629014251.0,
+      "quantity_component_eur": 3884792722.6387863,
+      "within_CN8_customs_unit_value_component_eur": -3255778471.6387854,
+      "identity_error_eur": -9.5367431640625e-07,
+      "by_category": [
+        {
+          "category": "BEV",
+          "quantity_component_eur": -153779354.47491083,
+          "unit_value_component_eur": -2379678957.5250883
+        },
+        {
+          "category": "PHEV",
+          "quantity_component_eur": 2982390356.58451,
+          "unit_value_component_eur": -490298407.5845097
+        },
+        {
+          "category": "HEV",
+          "quantity_component_eur": 1056181720.5291871,
+          "unit_value_component_eur": -385801106.52918714
+        }
+      ],
+      "interpretation": "Symmetric two-factor accounting V=sum(q*u). Unit customs value includes model/quality mix, transfer valuation and valuation changes; not a constant-quality price or tariff pass-through effect."
+    }
+  ],
+  "pooled_HHI": [
+    {
+      "outcome": "quantity",
+      "start": 2023,
+      "end": 2025,
+      "HHI_start": 0.2404879855958408,
+      "HHI_end": 0.187319520216407,
+      "HHI_change": -0.0531684653794338,
+      "product_mix_component": 0.0568373681402012,
+      "within_product_geography_component": -0.110005833519635,
+      "fixed_start_product_mix_end_geography_HHI": 0.2251355718436994,
+      "end_product_mix_fixed_start_geography_HHI": 0.3919787735035357,
+      "product_mix_change_at_start_geography": 0.1514907879076949,
+      "product_mix_change_at_end_geography": -0.0378160516272924,
+      "geography_change_at_start_mix": -0.0153524137521414,
+      "geography_change_at_end_mix": -0.2046592532871287,
+      "unallocated_interaction": -0.1893068395349873,
+      "effective_entry_countries_start": 4.158211885397798,
+      "effective_entry_countries_end": 5.338471926709599,
+      "identity_error": 0.0
+    },
+    {
+      "outcome": "quantity",
+      "start": 2024,
+      "end": 2025,
+      "HHI_start": 0.2624426124056206,
+      "HHI_end": 0.187319520216407,
+      "HHI_change": -0.0751230921892135,
+      "product_mix_component": 0.0017519647471234,
+      "within_product_geography_component": -0.076875056936337,
+      "fixed_start_product_mix_end_geography_HHI": 0.198402785563243,
+      "end_product_mix_fixed_start_geography_HHI": 0.2770298072467036,
+      "product_mix_change_at_start_geography": 0.014587194841083,
+      "product_mix_change_at_end_geography": -0.011083265346836,
+      "geography_change_at_start_mix": -0.0640398268423775,
+      "geography_change_at_end_mix": -0.0897102870302966,
+      "unallocated_interaction": -0.025670460187919,
+      "effective_entry_countries_start": 3.8103568274744974,
+      "effective_entry_countries_end": 5.338471926709599,
+      "identity_error": 0.0
+    },
+    {
+      "outcome": "value_eur",
+      "start": 2023,
+      "end": 2025,
+      "HHI_start": 0.2967085900696996,
+      "HHI_end": 0.2562123036393232,
+      "HHI_change": -0.0404962864303763,
+      "product_mix_component": 0.0339810613442218,
+      "within_product_geography_component": -0.0744773477745981,
+      "fixed_start_product_mix_end_geography_HHI": 0.3483374288994396,
+      "end_product_mix_fixed_start_geography_HHI": 0.4567958380182595,
+      "product_mix_change_at_start_geography": 0.16008724794856,
+      "product_mix_change_at_end_geography": -0.0921251252601164,
+      "geography_change_at_start_mix": 0.05162883882974,
+      "geography_change_at_end_mix": -0.2005835343789364,
+      "unallocated_interaction": -0.2522123732086764,
+      "effective_entry_countries_start": 3.370310241995659,
+      "effective_entry_countries_end": 3.9030131878745618,
+      "identity_error": 0.0
+    },
+    {
+      "outcome": "value_eur",
+      "start": 2024,
+      "end": 2025,
+      "HHI_start": 0.3630564629861895,
+      "HHI_end": 0.2562123036393232,
+      "HHI_change": -0.1068441593468663,
+      "product_mix_component": -0.0161962690049787,
+      "within_product_geography_component": -0.0906478903418875,
+      "fixed_start_product_mix_end_geography_HHI": 0.3033305697055429,
+      "end_product_mix_fixed_start_geography_HHI": 0.3777821910424517,
+      "product_mix_change_at_start_geography": 0.0147257280562622,
+      "product_mix_change_at_end_geography": -0.0471182660662197,
+      "geography_change_at_start_mix": -0.0597258932806465,
+      "geography_change_at_end_mix": -0.1215698874031285,
+      "unallocated_interaction": -0.0618439941224819,
+      "effective_entry_countries_start": 2.754392503509956,
+      "effective_entry_countries_end": 3.9030131878745618,
+      "identity_error": 0.0
+    }
+  ],
+  "unit_value_flag_NL_BEV_2025": {
+    "quantity": 41808,
+    "value_eur": 82842939,
+    "customs_eur_per_vehicle": 1981.5092566016076,
+    "interpretation": "Low observed customs unit value; retained and disclosed. Source agreement does not establish an economic explanation or constant-quality price."
+  },
+  "checks": {
+    "CN_annual_equals_national_sum": true,
+    "CN_annual_equals_monthly_sum": true,
+    "HHI_component_identities": true,
+    "frozen_source_hashes_match": true,
+    "all_12_group_HHI_identities": true,
+    "all_4_share_accounting_identities": true,
+    "both_value_identities_within_0_0001_euro": true,
+    "saved_augmented_model_validation_passed": true,
+    "raw_response_matches_retrieval_sha256": true
+  }
+}

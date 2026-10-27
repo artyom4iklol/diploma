@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-27",
+  "format": "Markdown",
+  "chapter_complete": true,
+  "sections": 6,
+  "conclusions": true,
+  "tables": 6,
+  "figures_created_this_stage": 0,
+  "footnote_occurrences": 32,
+  "distinct_footnote_definitions": 25,
+  "all_citations_resolved": true,
+  "unresolved_table_placeholders": false,
+  "words_including_tables_and_formula_tokens": 7773,
+  "cyrillic_words_in_body_and_tables": 6139,
+  "source_evidence": "chapter2_evidence.json",
+  "regressions_refitted": false,
+  "sha256": {
+    "chapter2_1.md": "2d2c38415ed80ef464586c059857007469a8fde72cca9ffe03f1f3184d99b0dd",
+    "chapter2_2.md": "8b7efd354a4d586605938a76eab905733d0277a43a4ff037daaaba441236ab81",
+    "chapter2_3.md": "cc852496bdc849779f892d8bde2d7f918c9443e9bd114f28f7e50542fd75dd39",
+    "chapter2_4.md": "fb3d1c7bd201b18193133c2344ace2f7b4f90669cc28298c9dfcf5733f67b580",
+    "chapter2_5.md": "f66949933e7e8e538b3d0015159d0304ee799c3da9329160a6943034f9445b89",
+    "chapter2_6.md": "27bf69b1c34b1238df683b344e74c07f842da3fd6092ba2046d85641723e7ac3",
+    "chapter2_conclusions.md": "ceb395795b4c1efb81183c5be97455d69c629b1af8862b1cc2b7375bf0a5cec2",
+    "chapter2_content.md": "f82ed0229b3514d1ccf800eda1ae3eeae2c31635283f609ea7dca1a61d583a8d"
+  },
+  "limits": [
+    "Word layout and graphics await a later authorized assembly stage.",
+    "The low observed NL BEV customs unit value is disclosed and not economically resolved.",
+    "Numerical checks do not establish causal tariff effects."
+  ]
+}
