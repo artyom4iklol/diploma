@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26",
+  "passed": true,
+  "checks": {
+    "prior_validation_reports_passed": true,
+    "raw_response_matches_request": true,
+    "preferred_inputs_match_recorded_fingerprint": true,
+    "eighteen_models_present": true,
+    "all_scores_and_model_provenance_valid": true,
+    "all_398_weighted_refits_successful": true,
+    "independent_full_panel_equivalence_passed": true,
+    "all_sixteen_concentration_identities_exact": true,
+    "all_evidence_files_exist": true,
+    "source_and_evidence_ids_resolved": true,
+    "literature_depth_and_exclusion_disclosed": true,
+    "hypotheses_retrospective_and_PHEV_interval_disclosed": true
+  },
+  "max_relative_score": 1.8038481617131796e-12,
+  "evidence_groups": 13,
+  "research_records": 31,
+  "official_records": 10,
+  "main_period": "2021-01/2025-12",
+  "source_file_hashes": {
+    "data/full_raw/request.json": "094ae5ea181b9fecd18eb69ba05ae43dff6ce110aeafd6804eab8ed556b4542e",
+    "results/augmented/clearance_jurisdiction_exposure.csv": "2618d57266bc3c8cb8b9f77242f8e9d768ad6cc11c40603944c03207c9ee8f21",
+    "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719",
+    "results/augmented/conditional_share_equivalence.json": "625268c8a62f53a99640c411ea0631326aaa5a35acc1ea041e63d3ef7547e664",
+    "results/augmented/data_audit.json": "b78315b24c907cc5139cf17d77c7d5764cfde7fba2eecfcc8671da7c6f91218c",
+    "results/augmented/paired_block_summary.json": "081b975280abb795ee00a0fc9de778275e9af593d8a6e822b2c9c75a55f4a620",
+    "results/augmented/rest_geographic_quantity.json": "cc907c2113c4e10448daf01514f59ffbffcd4e3a4f3c2e1fc6554e75f3ce973e",
+    "results/augmented/rest_geographic_value.json": "6263dc579b9642f16ececacc76aec157b627484f0fed0c1a4e0477aabc81c6a7",
+    "results/augmented/rest_halfyear_quantity.json": "211c515073567e00a1e887d959fa27284c0792aae488408ea26eadb9efc39b4e",
+    "results/augmented/rest_halfyear_value.json": "d0cda8a5d8e1e8eba360b6fafaaf1bc15843bd202dbb2686009774b5ec958dfa",
+    "results/augmented/rest_preferred_quantity.json": "b2e752bb1bd1a5c36a3a39b04b6f57f6814bb8ab7a255771bda86e767bf43f0c",
+    "results/augmented/rest_preferred_value.json": "c63f76f1dafd20256dd0becd316250d4618976c3f7ee7110e67b06cc43fe358a",
+    "results/full/accounting_decompositions.json": "401b6b45fcc619999d01e7ff06019dac6e38976ce5b22d4578303be1152fabb9",
+    "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88",
+    "results/full/china_value_change_accounting.json": "dcf786ae9ea227e943802f1989f0fffa98119b53d404fe02347102274083fa87",
+    "results/full/data_audit.json": "0040c25b89e9b327a18bc6a4b2614297e26d4b40539f35e0a989bb1ed22c1baf",
+    "results/full/entry_concentration.csv": "876a65e224dcaaedd28d8120db0913c7ced09609db44db482bb1275b64d57158",
+    "results/full/observability_details.json": "7e5e26e959537f673bfc3abd2d990cbe4f16a80a0a61ac2522526b987aad3f45",
+    "results/geography_focus/decompositions.json": "2960ff3bcb9f06babcbf3e2d7c26621888d5da40870b15ae8688bf8c6efc8ed1",
+    "results/geography_focus/entry_margin_summary.csv": "1dda86a925213640162878314bba9f5d030d61791d3b18027fe2cb23bfcba503"
+  },
+  "readiness": "ready_to_start_chapter_1",
+  "not_yet_completed": [
+    "chapter_texts",
+    "final_figures",
+    "final_thesis_word",
+    "final_cited_only_bibliography"
+  ],
+  "not_claimed": [
+    "causal_identification",
+    "universal_novelty",
+    "full_reading_of_all_sources",
+    "journal_acceptance"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "source": {
+    "primary": "Diploma_Chip_Trade.docx",
+    "version": "5",
+    "sha256": "435df396cae5332fdc4fea507121a259e1f349ab712083fd682dd734283807c2",
+    "secondary": "КР_НаумовАИ.pdf",
+    "secondary_sha256": "f5c7c4db27b4dfee9676dee57378564b819b9b522d6e94b4cb8f12fc9dc21b80",
+    "basis": "Observed approved reference, not an assertion of department regulations."
+  },
+  "page": {
+    "size": "A4",
+    "width_cm": 21,
+    "height_cm": 29.7,
+    "left_cm": 2.5,
+    "right_cm": 1,
+    "top_cm": 2,
+    "bottom_cm": 2,
+    "header_cm": 1.25,
+    "footer_cm": 1.25
+  },
+  "body": {
+    "font": "Times New Roman",
+    "size_pt": 12,
+    "color": "000000",
+    "line_spacing": 1.5,
+    "alignment": "justify",
+    "first_line_cm": 1.25,
+    "space_before_pt": 0,
+    "space_after_pt": 0,
+    "widow_control": true
+  },
+  "chapter": {
+    "size_pt": 14,
+    "bold": true,
+    "alignment": "left",
+    "first_line_cm": 0,
+    "before_pt": 0,
+    "after_pt": 12,
+    "line_spacing": 1.5,
+    "new_page": true
+  },
+  "section": {
+    "size_pt": 12,
+    "bold": true,
+    "alignment": "left",
+    "first_line_cm": 0,
+    "before_pt": 14,
+    "after_pt": 8,
+    "line_spacing": 1.5
+  },
+  "figure_caption": {
+    "size_pt": 12,
+    "bold": true,
+    "alignment": "center",
+    "first_line_cm": 0,
+    "before_pt": 3,
+    "after_pt": 3,
+    "line_spacing": 1.15,
+    "placement": "below",
+    "pattern": "Рисунок 2.1 — Название"
+  },
+  "source_note": {
+    "size_pt": 10,
+    "italic": true,
+    "alignment": "center",
+    "first_line_cm": 0,
+    "before_pt": 3,
+    "after_pt": 8,
+    "line_spacing": 1.15
+  },
+  "table_number": {
+    "size_pt": 10,
+    "alignment": "right",
+    "first_line_cm": 0,
+    "before_pt": 8,
+    "after_pt": 2,
+    "line_spacing": 1.15,
+    "placement": "above",
+    "pattern": "Таблица 2.1"
+  },
+  "table_title": {
+    "size_pt": 10,
+    "alignment": "center",
+    "first_line_cm": 0,
+    "before_pt": 0,
+    "after_pt": 5,
+    "line_spacing": 1.15
+  },
+  "table_body": {
+    "font": "Times New Roman",
+    "size_pt": 12,
+    "line_spacing": 1,
+    "color": "000000",
+    "borders": "000000",
+    "header_fill": "FFFFFF",
+    "vertical_alignment": "center",
+    "repeat_header": true,
+    "row_height": "automatic"
+  },
+  "footnote": {
+    "font": "Times New Roman",
+    "size_pt": 10,
+    "line_spacing": 1,
+    "first_line_cm": 0,
+    "alignment": "justify",
+    "representation": "native Word footnotes",
+    "active_hyperlinks": false,
+    "page_locator": "Only verified pages of actual read version"
+  },
+  "page_number": {
+    "position": "footer_right",
+    "size_pt": 10,
+    "field": "PAGE",
+    "cover_number_visible": false
+  },
+  "bibliography": {
+    "included": "Only actually cited, verified references",
+    "work_ids": "Stable S/O IDs during drafting; remove from final prose",
+    "links": "plain text, no active hyperlinks",
+    "unverified_year": "S07 excluded until verified"
+  },
+  "charts": {
+    "title_inside_chart": false,
+    "captions": "outside graphic in document",
+    "sources": "outside graphic in document",
+    "palette": "consistent with previously approved charts; grayscale-readable",
+    "arrows": "connect to block edges, avoid overlaps"
+  },
+  "equations": {
+    "preferred": "editable native OMML, verify after render",
+    "numbering": "by chapter where referenced"
+  },
+  "toc": {
+    "generation": "Word field from chapter/section outline levels",
+    "page_numbers": "update after final assembly",
+    "active_hyperlinks": false
+  }
+}

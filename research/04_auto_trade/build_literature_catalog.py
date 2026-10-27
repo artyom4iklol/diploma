@@ -127,11 +127,17 @@ add('Robert C. Feenstra; John Romalis',2014,'International Prices and Endogenous
  'Получен полный NBER-препринт2012; целевое чтение мотивации и структуры. Метаданные журнальной версии2014 проверены отдельно.','expanded/quality_nber_2012.pdf')
 
 downloads=json.loads((OUT/'expanded/download_manifest.json').read_text())
+writing_access_path=OUT/'writing_reading_access.json'
+writing_updates={r['id']:r for r in json.loads(writing_access_path.read_text())['updates']} if writing_access_path.exists() else {}
 for r in records:
     r['checked_on']='2026-10-26'
     if r.get('local_filename'):
         match=next((x for x in downloads if x['name']==Path(r['local_filename']).name and 'sha256' in x),None)
         if match:r['sha256']=match['sha256'];r['download_url']=match['url']
+    if r['id'] in writing_updates:
+        update=writing_updates[r['id']]
+        for key in ['download_url','sha256','local_filename','review_status']:
+            r[key]=update[key]
 (OUT/'expanded_catalog.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
 with (OUT/'expanded_catalog.csv').open('w',newline='') as f:
     keys=['id','authors','year','title','venue','type','doi','primary_url','sections','data_method','use_and_limit','review_status','priority']

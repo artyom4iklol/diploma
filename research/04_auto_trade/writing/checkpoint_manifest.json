@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "6ca3b0ecf3373fced79dd65f224913e3e9a94b8b",
+  "scope": "Preparation for writing automotive thesis; no chapter drafts or new regressions.",
+  "files": [
+    {
+      "path": "research/04_auto_trade/LITERATURE_REVIEW_MATRIX.md",
+      "bytes": 32345,
+      "sha256": "f4f3c277cb88c97f2ab89e9277cabebd18e46ea6ed47386060300f804444ae69",
+      "git_blob_sha": "8ded42838e15697d533fc8340b6f680821972e16"
+    },
+    {
+      "path": "research/04_auto_trade/README.md",
+      "bytes": 30615,
+      "sha256": "2e160b27d04ced8f0a2eb158195e638869acb6652c0918671920d235a9184bef",
+      "git_blob_sha": "9b7548aa74b126df58b12f39cda0f0f3d56dfc33"
+    },
+    {
+      "path": "research/04_auto_trade/WORK_PLAN_3_CHAPTERS.md",
+      "bytes": 35551,
+      "sha256": "72e4bcfc14795a1fc05f8418a6d8ccd7423d38574c8473a0b5c821570e8df54a",
+      "git_blob_sha": "b1a1d740f9e4a4744fbec6b7b60d73354144bfd3"
+    },
+    {
+      "path": "research/04_auto_trade/build_literature_catalog.py",
+      "bytes": 33987,
+      "sha256": "9a0b1c3218da5e12a857337edc254691b812d21294bdecf66975f474d067bed0",
+      "git_blob_sha": "002043f22a993c424bed6652cb2ae549057544ee"
+    },
+    {
+      "path": "research/04_auto_trade/documents/auto_thesis_writing_base.docx",
+      "bytes": 46509,
+      "sha256": "338816c5b166ffb6f183cc906cd797f7da17990a9029e2f5fc59daafec7096b8",
+      "git_blob_sha": "51b8558e79a8b6f3fed9bda34f16eef9b5658d1a"
+    },
+    {
+      "path": "research/04_auto_trade/literature/expanded_catalog.csv",
+      "bytes": 25055,
+      "sha256": "fcdc5b70d67f5ad1fa2fba435c3ce2ffc58d2e9798a1651b8618634033670a86",
+      "git_blob_sha": "f88db1ec0a4fc23089ecf216c1a38f2a11248023"
+    },
+    {
+      "path": "research/04_auto_trade/literature/expanded_catalog.json",
+      "bytes": 36468,
+      "sha256": "0c1b91c2d15bd3adfbbad14f188182c0dac9795eeb5c54a6f4411741d9ed1fe6",
+      "git_blob_sha": "34bdf72057fe1102b89893a64e3dacd79e2a0006"
+    },
+    {
+      "path": "research/04_auto_trade/literature/expanded_references.bib",
+      "bytes": 17013,
+      "sha256": "f084ff1dee734332a2baf0f3ca6f95d04e2d5a29a689fcb1429e54f00f1c0824",
+      "git_blob_sha": "dfbba3fa6330e07415b2d513a9b6a265fc4476b7"
+    },
+    {
+      "path": "research/04_auto_trade/literature/writing_reading_access.json",
+      "bytes": 3777,
+      "sha256": "f6afa0066c6175c1af22c3e51c00f95551e5bf1a06ae16789d165792db7325d3",
+      "git_blob_sha": "d9d403f4855751e4033dc32087c7ce376122ba99"
+    },
+    {
+      "path": "research/04_auto_trade/writing/CHAPTER_EVIDENCE_MAP.md",
+      "bytes": 20652,
+      "sha256": "ebf44cb88e1afd63499ab60be84f9833324731aa7abba9821ef2323873a6e361",
+      "git_blob_sha": "6d3dc1e0d61aeb6286de44d8690cf72a3ff549bb"
+    },
+    {
+      "path": "research/04_auto_trade/writing/DOCUMENT_CHECKS.json",
+      "bytes": 528,
+      "sha256": "6eda873b6768914978274201c4243c6ab979344a6b52b9af8ad48a2179294d55",
+      "git_blob_sha": "115dc6a44fa17825caf7d23af77e16ca74c1e418"
+    },
+    {
+      "path": "research/04_auto_trade/writing/RESEARCH_PASSPORT.md",
+      "bytes": 18054,
+      "sha256": "09199aaa3ea8fe43349e9ef7c82ab6fadb0d7e039576b4a5d4512a63f381b9fd",
+      "git_blob_sha": "73af348ff65935e8eb60eda35893e25f6192dc02"
+    },
+    {
+      "path": "research/04_auto_trade/writing/START_HERE.md",
+      "bytes": 10201,
+      "sha256": "aad6c3792f9d4ec1f0096cd685007aab008fabf3a712a590666a8cd88e7f8ed0",
+      "git_blob_sha": "8118bc8719374fae7863f654de353384bb1676c9"
+    },
+    {
+      "path": "research/04_auto_trade/writing/WRITING_CHECKS.json",
+      "bytes": 3507,
+      "sha256": "a38dc4dd253d6c76beb684034d1f2b6bfd82a8643e9db57800ea01a6a35b76ef",
+      "git_blob_sha": "26f55c25a2fd07a128b5e3ef1a5339c0ced25a03"
+    },
+    {
+      "path": "research/04_auto_trade/writing/build_writing_document.py",
+      "bytes": 16356,
+      "sha256": "57495b8d863a46c1b6e6e8bb2280ebfc17a8a1137214d7dd54fb4609ac0e044f",
+      "git_blob_sha": "15ef57386f88025a9aecf980f8ece033163a2dba"
+    },
+    {
+      "path": "research/04_auto_trade/writing/evidence_register.json",
+      "bytes": 244205,
+      "sha256": "fa3dab5f604a0a8dd087265b0235909566d2a7401f20db2e2c86e622dffaa50d",
+      "git_blob_sha": "934cc180c509aa3a0898fec57e154d38d39f9620"
+    },
+    {
+      "path": "research/04_auto_trade/writing/format_spec.json",
+      "bytes": 3546,
+      "sha256": "25bc53e480d30bbdd7e0fb070dde5f58c6404d5f674b6287d27c5c25ab8cc966",
+      "git_blob_sha": "6ab7e9ce8a4b44cbf518f8a9581559ad4a523702"
+    },
+    {
+      "path": "research/04_auto_trade/writing/prepare_writing_base.py",
+      "bytes": 13382,
+      "sha256": "90eda31c1cda90eb1826a84f77b1b1a7ae28f38ba9b20bdcabe68df3379fee4f",
+      "git_blob_sha": "6006b4e4fcbefb1a64c5126d0fecc85d19190b0b"
+    },
+    {
+      "path": "research/04_auto_trade/writing/source_use_register.json",
+      "bytes": 56142,
+      "sha256": "e2e2524f719d86918d3cb9b0ad3221f5b1a3f324582bb509661b36998dfa829e",
+      "git_blob_sha": "63ad537f870dcbbebd5a42d1a6bc930e87adf020"
+    },
+    {
+      "path": "research/04_auto_trade/writing/thesis_format.py",
+      "bytes": 6715,
+      "sha256": "9b5b979ff39d10628fa275595fd7b2c42442f678faae58e72cf53950bc61d2e9",
+      "git_blob_sha": "3d2ba207e230cfdda9f61f9443580b3f35c87663"
+    }
+  ],
+  "data_and_model_changes": false,
+  "rendered_pages_checked": 7
+}

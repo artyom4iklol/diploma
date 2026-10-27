@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "date": "2026-10-26",
+  "checks": {
+    "native_footnotes_match": true,
+    "no_active_hyperlinks": true,
+    "body_font_Times_New_Roman_12": true,
+    "A4": true,
+    "black_text_colors": true,
+    "no_double_periods": true,
+    "retrospective_hypotheses_disclosed": true,
+    "all_fourteen_plan_sections_present": true
+  },
+  "rendered_pages": 7,
+  "visual_review": "all_seven_pages_inspected_no_clipping_or_overlap",
+  "docx_sha256": "338816c5b166ffb6f183cc906cd797f7da17990a9029e2f5fc59daafec7096b8"
+}
