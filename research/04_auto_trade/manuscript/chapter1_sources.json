@@ -1,11 +1,18 @@
 {
   "date": "2026-10-27",
   "citations": {
+    "MELITZ": {
+      "source_ids": [
+        "S32"
+      ],
+      "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698.",
+      "supported_scope": "Производительность, затраты участия, фирменный отбор; собственный вывод о наблюдаемых направлениях отделяется от фирменной модели."
+    },
     "HM17": {
       "source_ids": [
         "S14"
       ],
-      "text": "Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Introduction, PDF-с. 4–7.",
+      "text": "Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Раздел 3, с. 14–19 (рабочая версия).",
       "supported_scope": "Страна бренда, сборка и сбыт, выбор моделей и источника поставок; без переноса численных параметров."
     },
     "IEA25PROD": {
@@ -64,12 +71,19 @@
       "text": "IEA. Global EV Outlook 2025. Paris, 2025. P. 33–35, примечания к данным международной торговли.",
       "supported_scope": "Различие отраслевой оценки торговли по зарубежным продажам и таможенных потоков."
     },
+    "PORTFOLIO": {
+      "source_ids": [
+        "S08"
+      ],
+      "text": "Barwick P. J., Collison J., Goldberg P. K. et al. From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies // NBER Working Paper 35334, June 2026. DOI 10.3386/w35334. Разделы 4.1–4.2.",
+      "supported_scope": "Многопродуктовые фирмы учитывают замещение собственных моделей; не оценка наших CN8-эластичностей."
+    },
     "INCIDENCE": {
       "source_ids": [
         "S16",
         "S17"
       ],
-      "text": "Amiti M., Redding S. J., Weinstein D. E. The Impact of the 2018 Tariffs on Prices and Welfare // Journal of Economic Perspectives 33(4),187–210. 2019. DOI 10.1257/jep.33.4.187. Целевое чтение с. 187–189. Cavallo A., Gopinath G., Neiman B., Tang J. Tariff Pass-Through at the Border and at the Store: Evidence from US Trade Policy // American Economic Review: Insights 3(1),19–34. 2021. DOI 10.1257/aeri.20190536. Для второй работы использован NBER Working Paper 26396 (2019), аннотация и введение.",
+      "text": "Amiti M., Redding S. J., Weinstein D. E. The Impact of the 2018 Tariffs on Prices and Welfare // Journal of Economic Perspectives 33(4),187–210. 2019. DOI 10.1257/jep.33.4.187. С. 187–189. Cavallo A., Gopinath G., Neiman B., Tang J. Tariff Pass-Through at the Border and at the Store: Evidence from US Trade Policy. NBER Working Paper 26396. 2019. Аннотация и введение.",
       "supported_scope": "Разные уровни цен и распределение нагрузки; оценки США не переносятся на ЕС."
     },
     "ECAS": {
@@ -91,49 +105,49 @@
       "source_ids": [
         "S02"
       ],
-      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Принятая авторская версия, аннотация.",
-      "supported_scope": "Сценарии стоимости владения и принятия технологии; различия стран и классов."
+      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Принятая авторская версия, с. 5–9, 18–19.",
+      "supported_scope": "Сценарии стоимости владения, заданные ответы производителей, база 2024H1 и приближение стоимости локализации."
     },
     "USITC": {
       "source_ids": [
         "S04"
       ],
-      "text": "Coffin D., Crotty P., Walling J., Yuan W. J. J. The Impact of Changes in Trade Policies on the Electric Vehicle (EV) Sector – A CGE Analysis // USITC Economics Working Paper 2024–05–A. Аннотация, с. 2.",
+      "text": "Coffin D., Crotty P., Walling J., Yuan W. J. J. The Impact of Changes in Trade Policies on the Electric Vehicle (EV) Sector – A CGE Analysis // USITC Economics Working Paper 2024–05–A. Раздел методологии, с. 7–9.",
       "supported_scope": "Различия сценариев ограничений готовых машин и компонентов, CGE; не фактическая оценка нашей панели."
     },
     "IMF": {
       "source_ids": [
         "S03"
       ],
-      "text": "Wingender P., Yao J., Zymek R. et al. Europe’s Shift to EVs Amid Intensifying Global Competition // IMF Working Paper 24/218. 2024. Аннотация; разделы 3–4.",
+      "text": "Wingender P., Yao J., Zymek R. et al. Europe’s Shift to EVs Amid Intensifying Global Competition // IMF Working Paper 24/218. 2024. Разделы 3.1–3.2, с. 12–16.",
       "supported_scope": "Сценарное значение производственных и межотраслевых связей; без переноса ВВП-эффектов."
     },
     "BARWICKPOL": {
       "source_ids": [
         "S08"
       ],
-      "text": "Barwick P. J., Collison J., Goldberg P. K. et al. From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies // NBER Working Paper 35334, June 2026. DOI 10.3386/w35334. Разделы 2, 5–6.",
+      "text": "Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Раздел 2.",
       "supported_scope": "Совместная политика тарифов и субсидий как модельный нормативный результат; без универсальной оптимальной ставки."
     },
     "MINONDO": {
       "source_ids": [
         "S05"
       ],
-      "text": "Minondo A. How exporters neutralised an increase in tariffs // The World Economy 47(3), 1274–1296. 2024. DOI 10.1111/twec.13492. С. 1274–1275.",
+      "text": "Minondo A. How exporters neutralised an increase in tariffs // The World Economy 47(3), 1274–1296. 2024. DOI 10.1111/twec.13492. С. 1275–1277, 1292–1293.",
       "supported_scope": "Смена разновидностей и происхождения в другом фирменном эпизоде; не подтверждение обхода в автомобилях."
     },
     "QUALITY": {
       "source_ids": [
         "S31"
       ],
-      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality // Quarterly Journal of Economics 129(2),477–527. 2014. DOI 10.1093/qje/qju 001. Использована NBER-версия 2012 года, аннотация и введение.",
+      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
       "supported_scope": "Различие качества и unit values; собственной оценки качества нет."
     },
     "REALLOCATION": {
       "source_ids": [
         "S15"
       ],
-      "text": "Fajgelbaum P., Goldberg P., Kennedy P. et al. The US-China Trade War and Global Reallocations // American Economic Review: Insights 6(2),295–312. 2024. DOI 10.1257/aeri.20230094. Прочитана NBER-версия, пересмотренная в декабре 2023 года, аннотация и введение.",
+      "text": "Fajgelbaum P., Goldberg P., Kennedy P. et al. The US-China Trade War and Global Reallocations. NBER Working Paper 29562. Revised December 2023. Введение.",
       "supported_scope": "Реакция третьих стран, а не автоматически незатронутая группа."
     },
     "FLOODED": {
@@ -145,64 +159,57 @@
     },
     "DECOMPOSITION": {
       "source_ids": [
-        "S24",
         "S23"
       ],
-      "text": "Kitagawa E. M. Components of a Difference Between Two Rates // Journal of the American Statistical Association 50(272),1168–1194. 1955. DOI 10.1080/01621459.1955.10501299. Shorrocks A. F. Decomposition procedures for distributional analysis: a unified framework based on the Shapley value // Journal of Economic Inequality 11,99–126. 2013. DOI 10.1007/s10888-011-9214-z.",
-      "supported_scope": "Известные принципы уровней/весов и симметричного распределения взаимодействий; не причинная атрибуция."
+      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7.",
+      "supported_scope": "Точное сложение и симметричное усреднение порядков; только прочитанный черновик 1999 года, не журнальная версия 2013."
     },
     "TIMING": {
       "source_ids": [
         "S17"
       ],
-      "text": "Cavallo A., Gopinath G., Neiman B., Tang J. Tariff Pass-Through at the Border and at the Store: Evidence from US Trade Policy // American Economic Review: Insights 3(1),19–34. 2021. DOI 10.1257/aeri.20190536. Прочитана NBER-версия 26396 (2019), введение, с. 3–4.",
+      "text": "Cavallo A. et al. Tariff Pass-Through at the Border and at the Store. NBER WP 26396. 2019. С. 3–4.",
       "supported_scope": "Закупки и запасы в американском эпизоде как пример возможного временного механизма."
     },
     "HMREVIEW": {
       "source_ids": [
-        "S14"
+        "S14",
+        "S32"
       ],
-      "text": "Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Introduction, PDF-с. 4–7.",
+      "text": "Head K., Mayer T. Brands in Motion. Banque de France WP 629. 2017. Раздел 3. Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698.",
       "supported_scope": "Сопоставление единицы анализа и границ переноса структурного подхода."
+    },
+    "COMPETITION": {
+      "source_ids": [
+        "S14",
+        "S08"
+      ],
+      "text": "Head K., Mayer T. Brands in Motion. Banque de France WP 629. 2017. Раздел 3. Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Разделы 4.1–4.2.",
+      "supported_scope": "Постоянная наценка в прочитанной версии Head/Mayer и эндогенные ценовые решения в Barwick; сопоставление предпосылок."
+    },
+    "SCENARIOS": {
+      "source_ids": [
+        "S02",
+        "S08"
+      ],
+      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets. 2026. Принятая авторская версия, с. 5–9, 18–19. Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Разделы 2 и 4.",
+      "supported_scope": "Сценарии и моделируемые решения; критика ценового приближения локализации сформулирована как собственная методическая интерпретация."
     },
     "MACROREVIEW": {
       "source_ids": [
         "S03",
         "S04"
       ],
-      "text": "Wingender P., Yao J., Zymek R. et al. Europe’s Shift to EVs Amid Intensifying Global Competition // IMF Working Paper 24/218. 2024. Coffin D., Crotty P., Walling J., Yuan W. J. J. The Impact of Changes in Trade Policies on the Electric Vehicle (EV) Sector – A CGE Analysis // USITC Economics Working Paper 2024–05–A.",
+      "text": "Wingender P. et al. Europe’s Shift to EVs Amid Intensifying Global Competition. IMF WP 24/218. 2024. С. 12–16. Coffin D. et al. The Impact of Changes in Trade Policies on the Electric Vehicle Sector. USITC 2024–05–A. С. 7–9.",
       "supported_scope": "Сценарные модели, без трактовки их результатов как наблюдаемых изменений нашей панели."
-    },
-    "GREENREVIEW": {
-      "source_ids": [
-        "S02",
-        "S13"
-      ],
-      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Zhang L., Wen Z., Sun X. et al. Revealing the impact of electric vehicles trade restrictions on greenhouse gas emissions and welfare // Resources, Conservation and Recycling 227,108744. 2026. DOI 10.1016/j.resconrec.2025.108744. Вторая работа используется по издательской аннотации.",
-      "supported_scope": "Типы постановок: принятие технологии, выбросы и благосостояние; без пересказа непрочитанных деталей S13."
-    },
-    "BARWICKREVIEW": {
-      "source_ids": [
-        "S08"
-      ],
-      "text": "Barwick P. J., Collison J., Goldberg P. K. et al. From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies // NBER Working Paper 35334, June 2026. DOI 10.3386/w35334. Раздел 6.2 и приложение D.1.",
-      "supported_scope": "Существовавшие модели китайских марок, BEV/PHEV-регистрации и синтетический контроль EU6."
     },
     "ADAPTREVIEW": {
       "source_ids": [
         "S05",
         "S15"
       ],
-      "text": "Minondo A. How exporters neutralised an increase in tariffs // The World Economy 47(3), 1274–1296. 2024. DOI 10.1111/twec.13492. Fajgelbaum P., Goldberg P., Kennedy P. et al. The US-China Trade War and Global Reallocations // American Economic Review: Insights 6(2),295–312. 2024. DOI 10.1257/aeri.20230094.",
+      "text": "Minondo A. How exporters neutralised an increase in tariffs. 2024. С. 1275–1277. Fajgelbaum P. et al. The US-China Trade War and Global Reallocations. NBER WP 29562. Редакция декабря 2023.",
       "supported_scope": "Сопоставление механизмов товарной и международной адаптации без присвоения фирменных выводов."
-    },
-    "VALUEREVIEW": {
-      "source_ids": [
-        "S31",
-        "S17"
-      ],
-      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality // Quarterly Journal of Economics 129(2),477–527. 2014. DOI 10.1093/qje/qju 001. Cavallo A., Gopinath G., Neiman B., Tang J. Tariff Pass-Through at the Border and at the Store: Evidence from US Trade Policy // American Economic Review: Insights 3(1),19–34. 2021. DOI 10.1257/aeri.20190536.",
-      "supported_scope": "Качество, средняя стоимость единицы и разные уровни цен."
     },
     "KE": {
       "source_ids": [
@@ -211,13 +218,12 @@
       "text": "Ke Y. EU Countervailing Duties and Chinese BEV Trade Flows: Descriptive Evidence from a Difference-in-Differences Analysis // Bachelor thesis, Umeå University. 2026. Аннотация; обсуждение ограничений. Бакалаврская работа.",
       "supported_scope": "Данные 2022–01.2026, CN против JP/KR/US, DiD, собственные оговорки автора."
     },
-    "PERSPECTIVES": {
+    "BARWICKREVIEW": {
       "source_ids": [
-        "S10",
-        "S11"
+        "S08"
       ],
-      "text": "Sheldon T. L., Dua R. A perspective on the evolving plug-in electric vehicle landscape amid trade tariffs and strategic responses // Energy Research & Social Science 127,104327. 2025. DOI 10.1016/j.erss.2025.104327. Liu M., Hao H., Sun X. et al. The potential for differentiated vehicle segment tariffs // Nature Energy 10,1042–1044. 2025. DOI 10.1038/s41560-025-01798-6. По доступным аннотациям и фрагментам.",
-      "supported_scope": "Тематика и жанр экспертных обсуждений; без приписывания причинных оценок."
+      "text": "Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Раздел 6.2 и приложение D.1.",
+      "supported_scope": "Существовавшие модели китайских марок, BEV/PHEV-регистрации и синтетический контроль EU6."
     },
     "JOULE": {
       "source_ids": [
@@ -228,11 +234,10 @@
     },
     "METHODREVIEW": {
       "source_ids": [
-        "S24",
         "S23"
       ],
-      "text": "Kitagawa E. M. Components of a Difference Between Two Rates // Journal of the American Statistical Association 50(272),1168–1194. 1955. DOI 10.1080/01621459.1955.10501299. Shorrocks A. F. Decomposition procedures for distributional analysis: a unified framework based on the Shapley value // Journal of Economic Inequality 11,99–126. 2013. DOI 10.1007/s10888-011-9214-z.",
-      "supported_scope": "Атрибуция методов; эмпирический вклад случая не объявляется математической новизной."
+      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis. First draft, 1999. Раздел 2.",
+      "supported_scope": "Атрибуция метода; собственное применение не заявляется новой математической конструкцией."
     },
     "PPML": {
       "source_ids": [
@@ -339,11 +344,12 @@
       "sections": "1.2;1.4;3.3",
       "data_method": "Стоимость владения и сценарии электрификации по 20 странам и 10 классам.",
       "use_and_limit": "Сценарные прогнозы отличаются от наблюдаемых пограничных потоков; это не доказательство эффективности мер в нашей панели.",
-      "review_status": "Принятая версия получена; целевое чтение методов и границ.",
+      "review_status": "Повторно прочитаны PDF-с. 5–9, 15, 18–19 принятой авторской версии: база 2024H1, сценарии ADA/ONS/WIT, условный характер WIT, стоимость владения и приближение стоимости локализации через межрыночные цены. Прочтение всей статьи и приложений не заявляется.",
       "local_filename": "dou_2026_accepted.pdf",
       "sha256": "e17c423ce55ee90d9d83b66e044d5aa79b0480d61dc24ebf04fe520079671da9",
       "priority": "core",
-      "checked_on": "2026-10-26"
+      "checked_on": "2026-10-27",
+      "download_url": "https://www.repository.cam.ac.uk/bitstreams/cb25a54a-43c9-454b-a24b-4d4d5cfa78e2/download"
     },
     {
       "id": "S03",
@@ -357,11 +363,12 @@
       "sections": "1.2;3.3",
       "data_method": "Макроэкономические и торговые сценарии перехода Европы к EV.",
       "use_and_limit": "Опора для обсуждения политики; собственная модель не оценивает ВВП, занятость или благосостояние.",
-      "review_status": "Полный текст получен; целевое чтение.",
+      "review_status": "Дополнительно прочитаны с. 12–16, разделы 3.1–3.2 и начало 4: два структурных подхода, общий автомобильный сектор без разделения EV/ICE, сценарные шоки, FDI как калиброванное изменение параметров и отраслевые ограничения.",
       "local_filename": "imf_2024_218.pdf",
       "sha256": "ab608d665f733b755c7e65c101c280efae702125d5733c1784b8de7a2fdf2ca7",
       "priority": "core",
-      "checked_on": "2026-10-26"
+      "checked_on": "2026-10-27",
+      "download_url": "https://www.imf.org/-/media/files/publications/wp/2024/english/wpiea2024218-print-pdf.pdf"
     },
     {
       "id": "S04",
@@ -375,11 +382,12 @@
       "sections": "1.2;3.3",
       "data_method": "CGE-сценарии ограничений на EV, гибриды и комплектующие.",
       "use_and_limit": "Нельзя переносить их калиброванные эффекты в качестве результатов нашей PPML.",
-      "review_status": "Полный текст получен; целевое чтение.",
+      "review_status": "Дополнительно прочитаны с. 3–9: постановка, раздел методологии, GTAP, обновление базы, выделение компонентов и объединённой категории EV/Hybrid, включая не только легковые машины.",
       "local_filename": "usitc_2024_05.pdf",
       "sha256": "3a5db2f69e7393903e62093f7b01bb6a89f0b9b085b496972f193d25a0161c91",
       "priority": "core",
-      "checked_on": "2026-10-26"
+      "checked_on": "2026-10-27",
+      "download_url": "https://www.usitc.gov/sites/default/files/publications/332/working_papers/ev_paper_05072024_ec_working_paper_series.pdf"
     },
     {
       "id": "S05",
@@ -393,11 +401,12 @@
       "sections": "1.3;2.2",
       "data_method": "Адаптация экспортёров к тарифам через изменение состава и происхождения поставок.",
       "use_and_limit": "Механизм переключения давно известен; вклад нашего случая должен быть количественным и конкретным.",
-      "review_status": "Полный авторский текст получен; целевое чтение.",
+      "review_status": "Дополнительно прочитаны PDF-с. 2–4, 11, 14, 19–20 (журнальные с. 1275–1277, 1284, 1287, 1292–1293). Уточнено различие фирменной выручки, происхождения и товарного переключения; автор прямо ограничивает фирменную проверку вина/сыра из-за классификаций.",
       "local_filename": "minondo_2024.pdf",
       "sha256": "7dc3598a4b76e34a2f5bf6e6b90b132b25fc0d0729ebfa32a0bc3081e94d58b9",
       "priority": "core",
-      "checked_on": "2026-10-26"
+      "checked_on": "2026-10-27",
+      "download_url": "https://deustoteka.deusto.es/bitstreams/93e968e9-9824-4a0d-ba81-78895e82902b/download"
     },
     {
       "id": "S08",
@@ -411,11 +420,12 @@
       "sections": "1.2;1.4;3.3",
       "data_method": "Структурная модель спроса; дополнительно синтетический контроль BEV/PHEV-регистраций существовавших моделей в EU6.",
       "use_and_limit": "Добавление PHEV само по себе уже не ново; пограничное происхождение, новые модели и география оформления — другой измерительный объект.",
-      "review_status": "Полный PDF получен; проверены модель, европейский раздел6.2 и приложениеD.1.",
+      "review_status": "Дополнительно прочитаны PDF-с. 8–11, 14–16, 24–26, 67–68: теоретическая модель, многопродуктовые ценовые решения, спрос и предложение, сопоставление политик и европейский синтетический контроль в приложении D.1. Полное чтение всех 85 страниц не заявляется.",
       "local_filename": "nber_35334.pdf",
       "sha256": "6a6862ba834323fde8bd327d3ef88b9f0d46433789a9b1a464c3c2c72c603e23",
       "priority": "core",
-      "checked_on": "2026-10-26"
+      "checked_on": "2026-10-27",
+      "download_url": "https://www.nber.org/system/files/working_papers/w35334/w35334.pdf"
     },
     {
       "id": "S09",
@@ -430,40 +440,6 @@
       "data_method": "Близкий комментарий о наблюдаемых рыночных последствиях; у приложения индексируется распределение цен BEV.",
       "use_and_limit": "Высокий риск тематического пересечения. По названию/метаданным нельзя заключать, что совместное разложение торговли отсутствует. Претензия на первенство не делается.",
       "review_status": "Подтверждены издательские и университетские метаданные и подписи доступного индекса приложений. Основной полный текст не получен: издатель403/HTML вместо PDF; репозиторий указывает эмбарго до22.11.2026.",
-      "local_filename": null,
-      "priority": "core",
-      "checked_on": "2026-10-26"
-    },
-    {
-      "id": "S10",
-      "authors": "Tamara L. Sheldon; Rubal Dua",
-      "year": 2025,
-      "title": "A perspective on the evolving plug-in electric vehicle landscape amid trade tariffs and strategic responses",
-      "venue": "Energy Research & Social Science127,104327",
-      "type": "perspective",
-      "doi": "10.1016/j.erss.2025.104327",
-      "primary_url": "https://doi.org/10.1016/j.erss.2025.104327",
-      "sections": "1.2;1.3",
-      "data_method": "Экспертный опрос о барьерах и ответных стратегиях производителей и государств.",
-      "use_and_limit": "Объясняет возможные механизмы; экспертные ожидания не являются причинной оценкой торговли.",
-      "review_status": "Прочитаны издательский abstract и институциональная карточка; полного PDF нет. Ранее неустановленное название и DOI уточнены.",
-      "local_filename": null,
-      "priority": "core",
-      "checked_on": "2026-10-26"
-    },
-    {
-      "id": "S11",
-      "authors": "Ming Liu; Han Hao; Xin Sun; Yong Geng; David Reiner; Klaus Hubacek; Xiaobo Qu; Jiaqi Lu; Fengqi You; Fuquan Zhao",
-      "year": 2025,
-      "title": "The potential for differentiated vehicle segment tariffs",
-      "venue": "Nature Energy10,1042–1044",
-      "type": "correspondence",
-      "doi": "10.1038/s41560-025-01798-6",
-      "primary_url": "https://www.nature.com/articles/s41560-025-01798-6",
-      "sections": "1.2;3.3",
-      "data_method": "Аргумент о дифференциации торговых мер по автомобильным сегментам.",
-      "use_and_limit": "Полезно для обсуждения вариантов политики; не даёт оптимальной ставки, оцененной нашей моделью.",
-      "review_status": "Издательский открытый фрагмент и запись принятой версии Cambridge; основной PDF не прочитан.",
       "local_filename": null,
       "priority": "core",
       "checked_on": "2026-10-26"
@@ -486,23 +462,6 @@
       "checked_on": "2026-10-26"
     },
     {
-      "id": "S13",
-      "authors": "Lanxin Zhang; Zongguo Wen; Xin Sun; Yihan Wang; Tingting Zhang",
-      "year": 2026,
-      "title": "Revealing the impact of electric vehicles trade restrictions on greenhouse gas emissions and welfare",
-      "venue": "Resources, Conservation and Recycling227,108744",
-      "type": "journal_article",
-      "doi": "10.1016/j.resconrec.2025.108744",
-      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0921344925006214",
-      "sections": "1.2;3.3",
-      "data_method": "Многорегиональная частично-равновесная модель и учёт выбросов для сценариев EV-ограничений.",
-      "use_and_limit": "Торговая структура не равна экологическому результату. Для собственных оценок выбросов нужны дополнительные данные.",
-      "review_status": "Издательский abstract и доступные части статьи; полный PDF не получен. Онлайн2025, журнальный выпуск2026.",
-      "local_filename": null,
-      "priority": "core",
-      "checked_on": "2026-10-26"
-    },
-    {
       "id": "S14",
       "authors": "Keith Head; Thierry Mayer",
       "year": 2019,
@@ -514,7 +473,7 @@
       "sections": "1.1;1.3",
       "data_method": "Модель международного размещения производства и сбыта автомобильных брендов.",
       "use_and_limit": "Обосновывает разграничение владельца марки, места сборки и рынка назначения; не идентифицирует марки в Comext.",
-      "review_status": "27.10.2026 получен полный препринт Banque de France Working Paper 629 (май 2017). Прочитаны аннотация, нетехническое резюме и введение, PDF-с. 1–7. Полная журнальная версия 2019 года не получена; её технические результаты не объявляются проверенными по препринту.",
+      "review_status": "Прочитаны PDF-с. 1–7 и 16–21: введение и раздел 3 (с. 14–19) рабочей версии Banque de France 629, май 2017. Проверены три вида издержек, заданная сеть площадок, выбор источника и выход модели на рынок. Журнальная версия 2019 года не прочитана.",
       "local_filename": "chapter1_reading/head_mayer_bdf_2017.pdf",
       "priority": "core",
       "checked_on": "2026-10-27",
@@ -628,27 +587,12 @@
       "sections": "2.2",
       "data_method": "Разложения с усреднением порядков замены факторов на основе значения Шепли.",
       "use_and_limit": "Метод стандартный. Точное сложение компонентов не превращает бухгалтерское разложение в причинное.",
-      "review_status": "Издательские метаданные; основной текст закрыт подпиской. Онлайн2012, выпуск2013.",
-      "local_filename": null,
+      "review_status": "Получен полный первый черновик июня 1999 года; прочитаны введение и раздел 2, PDF-с. 2–8 (с. 1–7). Проверены точное сложение, симметрия и усреднение порядков. Журнальная версия 2013 года не прочитана; в главе цитируется именно черновик 1999 года.",
+      "local_filename": "chapter1_reading/shorrocks_1999.pdf",
       "priority": "core",
-      "checked_on": "2026-10-26"
-    },
-    {
-      "id": "S24",
-      "authors": "Evelyn M. Kitagawa",
-      "year": 1955,
-      "title": "Components of a Difference Between Two Rates",
-      "venue": "Journal of the American Statistical Association50(272),1168–1194",
-      "type": "journal_article",
-      "doi": "10.1080/01621459.1955.10501299",
-      "primary_url": "https://doi.org/10.1080/01621459.1955.10501299",
-      "sections": "2.2",
-      "data_method": "Разделение изменения общей величины на изменение групповых уровней и структуры.",
-      "use_and_limit": "Классическая основа симметричного разложения; не заявлять его собственной методической новизной.",
-      "review_status": "Подтверждены первичные библиографические сведения; полный текст не прочитан.",
-      "local_filename": null,
-      "priority": "core",
-      "checked_on": "2026-10-26"
+      "checked_on": "2026-10-27",
+      "download_url": "https://www.komkon.org/~tacik/science/shapley.pdf",
+      "sha256": "931c59b74d68776d18bec08bd244193c1aafc5456ddbd89278ce57b64508f166"
     },
     {
       "id": "S31",
@@ -668,15 +612,58 @@
       "checked_on": "2026-10-26",
       "sha256": "d6862f1a2cc369f3b774bddcb069a281688925cafd0bd0f47441a5df16fc820b",
       "download_url": "https://www.nber.org/system/files/working_papers/w18314/w18314.pdf"
+    },
+    {
+      "id": "S32",
+      "authors": "Marc J. Melitz",
+      "year": 2003,
+      "title": "The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity",
+      "venue": "Econometrica 71(6),1695–1725",
+      "type": "journal_article",
+      "doi": "10.1111/1468-0262.00467",
+      "primary_url": "https://melitz.scholars.harvard.edu/publications/impact-trade-intra-industry-reallocations-and-aggregate-industry-productivity",
+      "sections": "1.1;1.3;1.4",
+      "data_method": "Неоднородность производительности, затраты участия в экспорте и отбор фирм.",
+      "use_and_limit": "Фирменный механизм не отождествляется со статистическим появлением страны оформления; долгосрочная модель не описывает автоматически краткосрочный переход.",
+      "review_status": "Полный журнальный PDF получен с сайта автора. Прочитаны PDF-с. 1–4, журнальные с. 1695–1698: неоднородность производительности, отбор в экспорт, затраты участия, постоянные наценки и долгосрочный характер модели.",
+      "local_filename": "chapter1_reading/melitz_2003.pdf",
+      "priority": "core",
+      "checked_on": "2026-10-27",
+      "download_url": "https://melitz.scholars.harvard.edu/sites/g/files/omnuum5906/files/melitz/files/aggprod_ecma.pdf",
+      "sha256": "0ef8e843107f78c14ca5786bd283192e03d67f276e5e941372c5821ff05e2d66"
     }
   ],
   "working_auxiliary_ids": "A01–A05 are additional official sources actually used in this chapter, not part of the 26 October preparation snapshot.",
   "Head_Mayer_read_version": {
     "version": "Banque de France WP629, May 2017",
     "journal_version": "2019 metadata checked; full journal text not read",
-    "reviewed": "abstract, nontechnical summary and introduction; PDF pages 1–7",
+    "reviewed": "PDF pages 1–7 and 16–21; introduction and model section 3 (printed pages 14–19)",
     "url": "https://publications.banque-france.fr/sites/default/files/medias/documents/dt629_0.pdf",
     "sha256": "4a1cc39c8e10a23e18265df2543fe612c0aea681087a7a6a9916152c96250da8"
+  },
+  "revision": "2026-10-27 substantive revision 2",
+  "read_versions": {
+    "S14": {
+      "cited": "Banque de France WP629, 2017",
+      "journal_full_text_read": false
+    },
+    "S23": {
+      "cited": "first draft, June 1999, section 2",
+      "journal_2013_full_text_read": false
+    },
+    "S32": {
+      "cited": "Econometrica 2003, pp. 1695–1698",
+      "selected_sections_only": true
+    },
+    "S15": {
+      "cited": "NBER WP29562, revised December 2023"
+    },
+    "S17": {
+      "cited": "NBER WP26396, 2019"
+    },
+    "S31": {
+      "cited": "NBER WP18314, 2012"
+    }
   },
   "not_claimed": [
     "causal_tariff_effect",

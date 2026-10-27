@@ -2,7 +2,7 @@
 import re
 
 def normalize_prose(text):
-    pieces=re.split(r'(```[\s\S]*?```|`[^`\n]*`|https?://[^\s)]+)',text)
+    pieces=re.split(r'(```[\s\S]*?```|`[^`\n]*`|https?://[^\s)]+|\b10\.\d{4,9}/[^\s]+)',text)
     for i in range(0,len(pieces),2):
         s=pieces[i]
         s=re.sub(r'([А-ЯЁа-яё])([0-9A-Za-z])',r'\1 \2',s)

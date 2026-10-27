@@ -1,19 +1,78 @@
 {
   "date": "2026-10-27",
-  "docx_sha256": "c21e0742e1cc29b5c70d42c339bd75abe69d7a2c04a105a8ed4884897f3a79eb",
+  "revision": "substantive_revision_2",
+  "docx_sha256": "03e93a17e55a11fa41817ef083e8739de1b59b9ece06a703d7fdffc79a0835f3",
   "structural_checks_passed": true,
   "checks": {
-    "33_native_footnotes": true,
+    "34_native_footnotes": true,
+    "native_notes_match_source_register": true,
     "four_sections": true,
+    "26_unique_sources": true,
+    "all_note_sources_resolve": true,
     "no_hyperlinks": true,
     "black_text": true,
     "no_raw_markdown": true,
     "no_tables_or_images": true,
     "Times_New_Roman_12": true,
+    "line_spacing_1_5": true,
     "no_text_outside_page": true,
-    "all_rendered_pages_inspected": true
+    "no_damaged_DOI_suffix": true,
+    "actual_read_versions_retained": true,
+    "illustrative_HHI_arithmetic": true,
+    "18_complete_pages": true
   },
-  "pages": 19,
-  "visual_review": "passed_all_19_final_page_images",
-  "visual_issues": []
+  "pages": 18,
+  "visual_review": "passed_all_18_final_pages",
+  "visual_evidence": {
+    "all_final_pages_verified": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "direct_final_image_review": [
+      17,
+      18
+    ],
+    "pixel_identical_to_full_visual_review": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "issues": []
+  },
+  "illustrative_example": {
+    "HHI_80_20": 0.6800000000000002,
+    "HHI_50_50": 0.5,
+    "both_technology_HHIs": 1,
+    "empirical_data": false
+  }
 }

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "melitz_2003",
+    "url": "https://melitz.scholars.harvard.edu/sites/g/files/omnuum5906/files/melitz/files/aggprod_ecma.pdf",
+    "status": 200,
+    "pages": 31,
+    "bytes": 271178,
+    "sha256": "0ef8e843107f78c14ca5786bd283192e03d67f276e5e941372c5821ff05e2d66",
+    "local": "research/04_auto_trade/literature/chapter1_reading/melitz_2003.pdf",
+    "review_status": "Полный журнальный PDF получен с сайта автора. Прочитаны PDF-с. 1–4, журнальные с. 1695–1698: неоднородность производительности, отбор в экспорт, затраты участия, постоянные наценки и долгосрочный характер модели."
+  },
+  {
+    "name": "shorrocks_1999",
+    "url": "https://www.komkon.org/~tacik/science/shapley.pdf",
+    "status": 200,
+    "pages": 38,
+    "bytes": 115376,
+    "sha256": "931c59b74d68776d18bec08bd244193c1aafc5456ddbd89278ce57b64508f166",
+    "local": "research/04_auto_trade/literature/chapter1_reading/shorrocks_1999.pdf",
+    "review_status": "Получен полный первый черновик июня 1999 года; прочитаны введение и раздел 2, PDF-с. 2–8 (с. 1–7). Проверены точное сложение, симметрия и усреднение порядков. Журнальная версия 2013 года не прочитана; в главе цитируется именно черновик 1999 года."
+  }
+]
