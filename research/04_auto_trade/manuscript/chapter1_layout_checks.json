@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-27",
+  "docx_sha256": "c21e0742e1cc29b5c70d42c339bd75abe69d7a2c04a105a8ed4884897f3a79eb",
+  "structural_checks_passed": true,
+  "checks": {
+    "33_native_footnotes": true,
+    "four_sections": true,
+    "no_hyperlinks": true,
+    "black_text": true,
+    "no_raw_markdown": true,
+    "no_tables_or_images": true,
+    "Times_New_Roman_12": true,
+    "no_text_outside_page": true,
+    "all_rendered_pages_inspected": true
+  },
+  "pages": 19,
+  "visual_review": "passed_all_19_final_page_images",
+  "visual_issues": []
+}

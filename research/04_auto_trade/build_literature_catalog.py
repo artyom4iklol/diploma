@@ -138,6 +138,7 @@ for r in records:
         update=writing_updates[r['id']]
         for key in ['download_url','sha256','local_filename','review_status']:
             r[key]=update[key]
+        r['checked_on']=update.get('checked_on',r['checked_on'])
 (OUT/'expanded_catalog.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
 with (OUT/'expanded_catalog.csv').open('w',newline='') as f:
     keys=['id','authors','year','title','venue','type','doi','primary_url','sections','data_method','use_and_limit','review_status','priority']

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "head_mayer_cepii_2015",
+    "url": "https://www.cepii.fr/pdf_pub/wp/2015/wp2015-26.pdf",
+    "pages": 50,
+    "sha256": "9c568ee6e3336713d19f9fc8d916681c23fb92810166d7c4c99f7a7d7ba19367",
+    "status": "obtained_not_yet_read",
+    "local": "research/04_auto_trade/literature/chapter1_reading/head_mayer_cepii_2015.pdf"
+  },
+  {
+    "name": "head_mayer_bdf_2017",
+    "url": "https://publications.banque-france.fr/sites/default/files/medias/documents/dt629_0.pdf",
+    "pages": 70,
+    "sha256": "4a1cc39c8e10a23e18265df2543fe612c0aea681087a7a6a9916152c96250da8",
+    "status": "full_text_obtained_targeted_review_PDF_pages_1_to_7",
+    "local": "research/04_auto_trade/literature/chapter1_reading/head_mayer_bdf_2017.pdf"
+  },
+  {
+    "name": "iea_2025",
+    "url": "https://iea.blob.core.windows.net/assets/7ea38b60-3033-42a6-9589-71134f4229f4/GlobalEVOutlook2025.pdf",
+    "pages": 173,
+    "sha256": "7522f23a3844c6a51190d6a6b70dd348ff1cc8061b1f5d8be2eecb25d6c20ce6",
+    "status": "full_text_obtained_targeted_review_manufacturing_and_trade_pages_31_to_35",
+    "local": "research/04_auto_trade/literature/chapter1_reading/iea_2025.pdf"
+  }
+]
