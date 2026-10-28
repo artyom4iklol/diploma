@@ -1,0 +1,12 @@
+{
+  "source": "ACEA",
+  "title": "Press release car registrations December 2025",
+  "published_on": "2026-01-27",
+  "checked_on": "2026-10-28",
+  "pdf_url": "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf",
+  "page": 4,
+  "web_url": "https://www.acea.auto/pc-registrations/new-car-registrations-1-8-in-2025-battery-electric-17-4-market-share/",
+  "extraction": "Two EU BEV totals manually transcribed from primary PDF and checked against EU annual table; 2025 total also agrees with official announcement.",
+  "scope": "New BEV registrations in EU27, all origins and brands; not China-origin imports. Publication warns current-year data are provisional.",
+  "limitations": "Year/version fixed to the cited release; no current-vintage registration history or model-level China-origin matching is claimed."
+}

@@ -109,6 +109,25 @@
       ],
       "source_sha256": {}
     },
+    "C3ACEA": {
+      "source_ids": [
+        "O08"
+      ],
+      "text": "ACEA. New car registrations: +1.8% in 2025; battery-electric 17.4% market share. Press release car registrations December 2025, 27.01.2026. С. 4, строка European Union (дата обращения: 28.10.2026).",
+      "supported_scope": "Первичная таблица регистраций BEV ЕС-27 за 2024/2025. Совокупности отличаются от импорта по происхождению; их отношение не представлено рыночной долей.",
+      "kind": "external",
+      "source_files": [
+        "data/chapter3_public/acea_eu_bev_registrations.csv",
+        "data/chapter3_public/acea_source.json"
+      ],
+      "urls": [
+        "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf"
+      ],
+      "source_sha256": {
+        "data/chapter3_public/acea_eu_bev_registrations.csv": "38c6bedcc180f8578ab675439156f0f777250fb9ca208e8dd20ba2fc5578ec36",
+        "data/chapter3_public/acea_source.json": "a17372f7bde7a2226a746fd2af52be402306f473a9ee9146c0f4f2158209a363"
+      }
+    },
     "C3DATA": {
       "source_ids": [
         "O01",
@@ -202,6 +221,26 @@
         "results/augmented/paired_block_summary.json": "081b975280abb795ee00a0fc9de778275e9af593d8a6e822b2c9c75a55f4a620",
         "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
       }
+    },
+    "C3HISTORY": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Eurostat Comext; авторский ретроспективный разбор всех 48 годовых квартальных сопоставлений 2022–2025 годов и 20 случаев сокращения потока BE/NL. Совместные изменения не являются оценкой перенаправления или свободной мощности.",
+      "supported_scope": "Собственные расчёты и прикладные выводы; не внешний причинный результат.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/chapter3_application/historical_quarter_changes.csv",
+        "results/chapter3_application/historical_quarter_summary.csv",
+        "manuscript/chapter3_extension_evidence.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/chapter3_application/historical_quarter_changes.csv": "1d0ff1cb84ad77e1a8829b69c9e0be93c4ec97fb89a4dbc47ba4bd0785c0a664",
+        "results/chapter3_application/historical_quarter_summary.csv": "bfc8baa54b10cd283ba22b92293a900ec1b8815fdbcfc0d19c5bb4da65583272",
+        "manuscript/chapter3_extension_evidence.json": "c301cbf7e6e87d33758683b93ccf84b597dae8360d8312c09d740d4d929309e7"
+      }
     }
   },
   "first_use_order": [
@@ -209,9 +248,11 @@
     "C3GEOGRAPHY",
     "C3VALUATION",
     "C3EXPOSURE",
+    "C3HISTORY",
     "C3ROTTERDAM",
     "C3SCOPE",
     "C3QUALITY",
+    "C3ACEA",
     "C3MODEL",
     "C3BARWICK",
     "C3DOU",
@@ -220,5 +261,5 @@
     "C3JOINT",
     "C3DATA"
   ],
-  "footnote_occurrences": 15
+  "footnote_occurrences": 17
 }

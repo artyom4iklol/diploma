@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-28",
+  "period": "2022Q1–2025Q4 versus same quarter of prior year",
+  "comparisons": 48,
+  "decline_episodes": 20,
+  "summaries": [
+    {
+      "category": "BEV",
+      "comparisons": 16,
+      "pair_declines": 7,
+      "no_growth_outside": 5,
+      "outside_growth_smaller": 0,
+      "outside_growth_at_least_decline": 2,
+      "min_observed_decline_pct": 2.2949256302585637,
+      "max_observed_decline_pct": 21.658978920357047
+    },
+    {
+      "category": "PHEV",
+      "comparisons": 16,
+      "pair_declines": 6,
+      "no_growth_outside": 0,
+      "outside_growth_smaller": 5,
+      "outside_growth_at_least_decline": 1,
+      "min_observed_decline_pct": 12.852513273115907,
+      "max_observed_decline_pct": 85.53239053311951
+    },
+    {
+      "category": "HEV",
+      "comparisons": 16,
+      "pair_declines": 7,
+      "no_growth_outside": 2,
+      "outside_growth_smaller": 1,
+      "outside_growth_at_least_decline": 4,
+      "min_observed_decline_pct": 22.142147117296222,
+      "max_observed_decline_pct": 100.0
+    }
+  ],
+  "market_context": [
+    {
+      "series": "CN_BEV_customs_imports_EU27",
+      "2024": 439419,
+      "2025": 430616,
+      "growth_pct": -2.0033271205842307
+    },
+    {
+      "series": "all_origin_BEV_registrations_EU27",
+      "2024": 1447631,
+      "2025": 1880370,
+      "growth_pct": 29.89290779211
+    }
+  ],
+  "tables": {
+    "T05": "| Категория | Сравнения | Сокращение BE/NL | Вне пары роста нет | Рост вне пары меньше сокращения | Рост вне пары не меньше сокращения |\n| --- | --- | --- | --- | --- | --- |\n| BEV | 16 | 7 | 5 | 0 | 2 |\n| PHEV | 16 | 6 | 0 | 5 | 1 |\n| HEV | 16 | 7 | 2 | 1 | 4 |",
+    "T06": "| Ряд и охват | 2024, шт. | 2025, шт. | Темп, % |\n| --- | --- | --- | --- |\n| Импорт BEV происхождением из Китая, ЕС-27 | 439 419 | 430 616 | -2,0 |\n| Регистрации новых BEV всех происхождений, ЕС-27 | 1 447 631 | 1 880 370 | 29,9 |"
+  },
+  "source_sha256": {
+    "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175",
+    "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88",
+    "data/chapter3_public/acea_eu_bev_registrations.csv": "38c6bedcc180f8578ab675439156f0f777250fb9ca208e8dd20ba2fc5578ec36",
+    "data/chapter3_public/acea_source.json": "a17372f7bde7a2226a746fd2af52be402306f473a9ee9146c0f4f2158209a363"
+  },
+  "interpretation": "Observed simultaneous changes, not identified rerouting or spare physical capacity. No causal or probability estimate.",
+  "selection": "All 16 year-on-year quarters per category; decline subset is defined by negative BE/NL quantity change only. Design is retrospective after chapter 2.",
+  "checks": {
+    "complete_48_comparisons": true,
+    "exhaustive_decline_classes": true,
+    "no_import_registration_market_share_computed": true,
+    "no_regression_refits": true
+  }
+}

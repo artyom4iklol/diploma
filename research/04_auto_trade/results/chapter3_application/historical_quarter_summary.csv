@@ -1,0 +1,4 @@
+category,comparisons,pair_declines,no_growth_outside,outside_growth_smaller,outside_growth_at_least_decline,min_observed_decline_pct,max_observed_decline_pct
+BEV,16,7,5,0,2,2.2949256302585637,21.658978920357047
+PHEV,16,6,0,5,1,12.852513273115907,85.53239053311951
+HEV,16,7,2,1,4,22.142147117296222,100.0

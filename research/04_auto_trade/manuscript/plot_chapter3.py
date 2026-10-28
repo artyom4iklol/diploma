@@ -80,15 +80,27 @@ def main():
     ax.legend(ncol=2, loc="lower center", bbox_to_anchor=(.5, 1.0))
     save(fig, "G02_exposure", [source], plotdata)
 
-    fig, axes = plt.subplots(1, 2, figsize=(7.1, 3.8), sharey=True, layout="constrained")
-    for ax, alpha, label in zip(axes, [.1, .25], ["а) α = 10%", "б) α = 25%"]):
-        for cat, ls, marker in zip(cats, ["-", "--", ":"], ["o", "s", "^"]):
-            z = d[(d.alpha == alpha) & (d.category == cat)].sort_values("rho")
-            ax.plot(z.rho * 100, z.remaining_share_pct, color="black", ls=ls, marker=marker, ms=4, lw=1.3, label=cat)
-        ax.set_xticks([0, 50, 100]); ax.set_ylim(-.3, 15); ax.grid(axis="y"); ax.set_xlabel("Условный перенос ρ, %"); ax.text(0, 1.05, label, transform=ax.transAxes)
-    axes[0].set_ylabel("Неперенесённая часть, % категории")
-    handles, labels = axes[0].get_legend_handles_labels(); fig.legend(handles, labels, ncol=3, loc="outside lower center")
-    save(fig, "G03_transfer", [source], d.to_dict("records"))
+    history_source = "results/chapter3_application/historical_quarter_changes.csv"
+    history = pd.read_csv(ROOT / history_source)
+    declines = history[history.pair_decline].copy()
+    fig, axes = plt.subplots(1, 3, figsize=(7.5, 3.8), layout="constrained")
+    for ax, cat, marker in zip(axes, cats, ["o", "s", "^"]):
+        z = declines[declines.category == cat]
+        x = -z.BE_NL_change / 1000; y = z.other25_change / 1000
+        ax.scatter(x, y, color="black", s=25, marker=marker, zorder=3)
+        limit = float(x.max()) * 1.12
+        ax.plot([0, limit], [0, limit], color=".5", ls="--", lw=.8)
+        ax.axhline(0, color=".6", lw=.6); ax.set_xlim(0, limit); ax.grid(axis="y")
+        ax.set_ylim(min(float(y.min()), 0) - max(1, float(y.abs().max())*.1), max(float(y.max()), limit) * 1.18)
+        ax.set_xlabel("Сокращение BE/NL,\nтыс. машин", fontsize=9)
+        ax.text(0, 1.04, cat + f" (n={len(z)})", transform=ax.transAxes, fontsize=9.5)
+        greatest = z.loc[z.other25_change.idxmax()]
+        ax.annotate(greatest.quarter, (-greatest.BE_NL_change/1000, greatest.other25_change/1000), xytext=(0, 6), textcoords="offset points", fontsize=7.5, ha="center")
+    axes[0].set_ylabel("Изменение вне пары, тыс. машин", fontsize=9)
+    axes[0].plot([], [], color="black", marker="o", ls="", label="Наблюдавшееся сопоставление")
+    axes[0].plot([], [], color=".5", ls="--", label="Равенство роста сокращению")
+    handles, labels = axes[0].get_legend_handles_labels(); fig.legend(handles, labels, ncol=2, loc="outside lower center", fontsize=8)
+    save(fig, "G03_history", [history_source], declines.to_dict("records"))
 
     fig, ax = plt.subplots(figsize=(7, 4.8)); ax.set(xlim=(0, 1), ylim=(0, 1)); ax.axis("off")
     headers = ["1. Эталонная\nоснова", "2. Исторический\nпилот", "3. Регулярное\nобновление"]
