@@ -65,7 +65,7 @@ def move_frontmatter(d, body_first, headings, page_map):
     add('Образовательная программа «Мировая экономика»')
     add('ВЫПУСКНАЯ КВАЛИФИКАЦИОННАЯ РАБОТА', before=66, after=18)
     add(TITLE, style='Title', size=14, after=32)
-    add('Выполнил: Артём Сухаверхов', align=WD_ALIGN_PARAGRAPH.RIGHT, before=30)
+    add('Выполнил: Суховерхов Артем', align=WD_ALIGN_PARAGRAPH.RIGHT, before=30)
     add('Москва, 2026', before=155)
     p = add('Содержание', style='Title', align=WD_ALIGN_PARAGRAPH.LEFT, before=0, after=12, size=14)
     p.paragraph_format.page_break_before = True
@@ -289,7 +289,7 @@ def build():
     first=d.element.body[0]
     move_frontmatter(d,first,headings,page_map)
     d.core_properties.title=TITLE;d.core_properties.subject='Дипломное исследование автомобильной торговли Китая и ЕС 2021–2025'
-    d.core_properties.author='Артём Сухаверхов';d.core_properties.last_modified_by='Артём Сухаверхов'
+    d.core_properties.author='Суховерхов Артем';d.core_properties.last_modified_by='Суховерхов Артем'
     path=ROOT/'documents/diploma_auto_trade.docx'
     buffer=io.BytesIO();d.save(buffer);payload=buffer.getvalue()
     with ZipFile(io.BytesIO(payload)) as verify: assert verify.testzip() is None

@@ -103,6 +103,24 @@ def main():
     content = improve(content)
     from integrate_thesis_visuals import enhance
     content = enhance(content)
+    # Follow the approved Naumov reference: ordinary closing paragraphs in
+    # chapters and one general conclusion after Chapter 3.
+    content, removed_summaries = re.subn(
+        r"(?ms)^## Выводы по (?:первой|второй|третьей) главе\n.*?(?=^# |\Z)",
+        "",
+        content,
+    )
+    assert removed_summaries == 3
+    assert content.count("# Заключение\n") == 1
+    closing_paragraphs = {
+        "Таким образом, теоретическая основа работы связывает решения производителей с измерением товарной и географической перестройки. Во второй главе эта постановка реализуется через сопоставимую панель, разложения и модельные проверки. На установленные изменения торговли будут опираться последующие рекомендации.":
+        "Во второй главе эта постановка реализуется через сопоставимую панель, структурные разложения и PPML. Результаты служат основанием рекомендаций.",
+        "Предлагаемый порядок реализуем последовательно. На открытой статистике формируются паспорт, расчёты и аналитическая записка. После фирменной сверки к ним добавляются операционные сценарии и оценка альтернатив. При рассмотрении политики подключаются сведения о моделях, спросе, производстве и условиях инструмента. В таком виде рекомендации соответствуют полученной доказательной базе и завершают переход от измерения адаптации к её практическому учёту.":
+        "Применение рекомендаций начинается с паспорта показателей и расчётов по открытой статистике. Фирменные данные позволяют оценить операционные альтернативы, а сведения о моделях автомобилей, спросе и производстве — перейти к оценке конкретных торговых мер.",
+    }
+    for original, revised in closing_paragraphs.items():
+        assert content.count(original) == 1
+        content = content.replace(original, revised)
     (HERE / "appendices.md").write_text(content[content.index("# Приложение А."):] + "\n", encoding="utf8")
     used = re.findall(r"\[\^([^\]]+)\]", content)
     assert set(used) <= set(notes), set(used) - set(notes)
@@ -111,6 +129,7 @@ def main():
     (HERE / "full_thesis_content.md").write_text(content + "\n\n" + definitions + "\n", encoding="utf8")
     (HERE / "full_thesis_sources.json").write_text(json.dumps({"date": "2026-10-28", "citations": {k: notes[k] for k in keys}, "footnote_occurrences": len(used), "distinct_note_definitions": len(keys)}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     checks = {"date": "2026-10-28", "chapters": 3, "sections": 14, "introduction_tasks": 8, "conclusion": True, "appendices": 3,
+              "separate_chapter_conclusions": 0, "general_conclusion_after_chapter3": True,
               "footnote_occurrences": len(used), "bibliography_entries": len(json.loads((HERE/'full_bibliography.json').read_text())['entries']), "source_ids": sorted({x for k in keys for x in notes[k]["source_ids"] if x != "AUTHOR_CALCULATIONS"}),
               "chapter_sha256": {f"chapter{n}_content.md": hashlib.sha256((HERE / f"chapter{n}_content.md").read_bytes()).hexdigest() for n in [1, 2, 3]}}
     (HERE / "full_thesis_content_checks.json").write_text(json.dumps(checks, ensure_ascii=False, indent=2) + "\n", encoding="utf8")

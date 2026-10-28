@@ -219,15 +219,15 @@
   "final_quality_assurance": {
     "visual_review": "passed",
     "visual_review_date": "2026-10-29",
-    "pages": 106,
-    "reviewed_pages": 106,
-    "final_direct_visual_pages": 106,
-    "final_pixel_identity_pages": 0,
+    "pages": 103,
+    "reviewed_pages": 103,
+    "final_direct_visual_pages": 19,
+    "final_pixel_identity_pages": 94,
     "text_overflow": 0,
     "sparse_nonimage_pages": 0,
     "toc_entries_verified": 23,
-    "sha256": "7ec17a246790d22e17902a40e554f5bcdd16ca51feab70c64a08c2df6ed3680c",
-    "file_bytes": 3087831
+    "sha256": "aa42062da1559d603677145578fbe1dc3091c3bf0a1cb9b2bba77fb4eac21a4e",
+    "file_bytes": 3084544
   },
   "subsequent_visual_revision": {
     "date": "2026-10-29",
@@ -241,5 +241,18 @@
     "new_data_collection": false,
     "new_model_refits": false,
     "checks": "thesis_figures/visual_revision_checks.json"
+  },
+  "subsequent_structure_revision": {
+    "date": "2026-10-29",
+    "author": "Суховерхов Артем",
+    "reference": "КР_НаумовАИ.pdf",
+    "separate_chapter_conclusions": 0,
+    "general_conclusion_pages": [
+      80,
+      81,
+      82
+    ],
+    "checks": "final_structure_revision_checks.json",
+    "score_unchanged": 8.99
   }
 }

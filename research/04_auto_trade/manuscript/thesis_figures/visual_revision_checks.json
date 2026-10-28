@@ -217,5 +217,7 @@
     "104": "ececbf099c53c5bce004f6d5f8939a253eaad6b415139f2cd1d582deef166c4e",
     "105": "21172ee324cfc5e631e2e647198619b66591f419e977cf95af1f60e8c69160e0",
     "106": "eb66d47d07c52631e4252751e1439f4b4207bfe9729066d66395817641ac2805"
-  }
+  },
+  "document_snapshot_status": "Superseded by the author and conclusion-structure revision; figure values and source checks remain valid.",
+  "current_document_checks": "../final_structure_revision_checks.json"
 }

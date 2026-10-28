@@ -5,6 +5,8 @@
   "introduction_tasks": 8,
   "conclusion": true,
   "appendices": 3,
+  "separate_chapter_conclusions": 0,
+  "general_conclusion_after_chapter3": true,
   "footnote_occurrences": 109,
   "bibliography_entries": 37,
   "source_ids": [
@@ -50,12 +52,5 @@
     "chapter1_content.md": "b876955420c27572e4b72a70d1bf2033d0f6fbafc4fc037a0fd77b09b8bb1bd6",
     "chapter2_content.md": "30af94ef8d42d6bfced427f4e278b1d5bb1e2e8787b574d93c629faa4f130d87",
     "chapter3_content.md": "8948c5a984943b52051d92ba157e79887cced1307a9b930c096e28a44ee6afc8"
-  },
-  "full_revision_applied": "review_thesis_quality.py",
-  "substantive_issues_fixed": 15,
-  "footnotes_and_sources_resolved": true,
-  "bibliography_all_entries_used": true,
-  "logical_figures": 32,
-  "image_panels": 35,
-  "figure_revision_checked_at": "2026-10-29"
+  }
 }
