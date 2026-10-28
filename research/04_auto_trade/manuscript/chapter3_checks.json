@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28",
+  "format": "Markdown",
+  "chapter_complete": true,
+  "sections": 4,
+  "conclusions": true,
+  "tables": 4,
+  "figures": 4,
+  "scenario_combinations": 18,
+  "all_citations_resolved": true,
+  "distinct_footnote_definitions": 14,
+  "footnote_occurrences": 15,
+  "cyrillic_words_including_tables_captions": 3727,
+  "figure_source_and_svg_hashes_verified": true,
+  "regressions_refitted": false,
+  "sha256": {
+    "chapter3_1.md": "69c8091774610e3609ce6f502691d3a9c221ef169c619d0f8af287d267e43433",
+    "chapter3_2.md": "f228be1c796d3230b018d47ad3de522e023ab03b7768bf10450c12a20df096dc",
+    "chapter3_3.md": "b2440679bf6a3adf81c197b822f0935f7d6ccf77ab95587200de4343454ed16f",
+    "chapter3_4.md": "6ad0d03d5b55b5d0a9427dfe489ba4c843c823894544b47b35e05389d60c1c9d",
+    "chapter3_conclusions.md": "2bbed8a52b557f9c27075f91c4178b7dbe826d40055e21d0e54f8a56d3bf26e2",
+    "chapter3_content.md": "5e14b1977cb2740f8621f91abe9673bc9b37a4dd339658b9f860abe62c116c23"
+  },
+  "limits": [
+    "Scenario inputs are author-specified conditions, not probabilities or fitted behavior.",
+    "The chapter proposes a procedure; actual operational adoption or realized financial benefits are not claimed.",
+    "Word layout awaits assembly of the complete thesis."
+  ]
+}

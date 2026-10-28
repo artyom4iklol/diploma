@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-28",
+  "style": "monochrome serif, no internal titles, external captions",
+  "figures": [
+    {
+      "id": "G01_monitoring",
+      "source_files": [
+        "manuscript/chapter3_evidence.json"
+      ],
+      "source_sha256": {
+        "manuscript/chapter3_evidence.json": "b46eb1547a346182757a96e22444b926c03edfa77b84203d1e59a17a4186557d"
+      },
+      "svg_sha256": "a49ef4aa1c8b06f8df6f87941e9c2b867098ec651e381f12299a4a54fa32c6c0",
+      "plotted_data": {
+        "type": "author_proposed_workflow",
+        "scope": "data review, not automated causal diagnosis"
+      }
+    },
+    {
+      "id": "G02_exposure",
+      "source_files": [
+        "results/chapter3_application/scenario_transfer.csv"
+      ],
+      "source_sha256": {
+        "results/chapter3_application/scenario_transfer.csv": "1ff676a8d7e97105da1eefd08a42dbe291f9153d83f10cd20daf720dc9754573"
+      },
+      "svg_sha256": "17e43473126d0cb6976974425bb3746e1e25b2b038634b10b3c9c24e2b332e3d",
+      "plotted_data": [
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.0,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 22876.4,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 22876.4,
+          "remaining_share_pct": 5.31248258309027
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.0,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 7024.6,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 7024.6,
+          "remaining_share_pct": 4.099610150103882
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.0,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 1362.8000000000002,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 1362.8000000000002,
+          "remaining_share_pct": 1.0455169662516208
+        },
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.0,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 57191.0,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 57191.0,
+          "remaining_share_pct": 13.281206457725675
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.0,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 17561.5,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 17561.5,
+          "remaining_share_pct": 10.249025375259706
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.0,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 3407.0,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 3407.0,
+          "remaining_share_pct": 2.6137924156290517
+        }
+      ]
+    },
+    {
+      "id": "G03_transfer",
+      "source_files": [
+        "results/chapter3_application/scenario_transfer.csv"
+      ],
+      "source_sha256": {
+        "results/chapter3_application/scenario_transfer.csv": "1ff676a8d7e97105da1eefd08a42dbe291f9153d83f10cd20daf720dc9754573"
+      },
+      "svg_sha256": "4226dbb903154e3a08b6f0d210bd7cb0d9aeec19e79c3e2da4dac2aeccf541e8",
+      "plotted_data": [
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.0,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 22876.4,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 22876.4,
+          "remaining_share_pct": 5.31248258309027
+        },
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.5,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 22876.4,
+          "assumed_transferred_quantity": 11438.2,
+          "remaining_quantity": 11438.2,
+          "remaining_share_pct": 2.656241291545135
+        },
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 1.0,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 22876.4,
+          "assumed_transferred_quantity": 22876.4,
+          "remaining_quantity": 0.0,
+          "remaining_share_pct": 0.0
+        },
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.0,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 57191.0,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 57191.0,
+          "remaining_share_pct": 13.281206457725675
+        },
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.5,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 57191.0,
+          "assumed_transferred_quantity": 28595.5,
+          "remaining_quantity": 28595.5,
+          "remaining_share_pct": 6.640603228862839
+        },
+        {
+          "category": "BEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 1.0,
+          "EU_quantity": 430616,
+          "BE_NL_quantity": 228764,
+          "exposed_quantity": 57191.0,
+          "assumed_transferred_quantity": 57191.0,
+          "remaining_quantity": 0.0,
+          "remaining_share_pct": 0.0
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.0,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 7024.6,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 7024.6,
+          "remaining_share_pct": 4.099610150103882
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.5,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 7024.6,
+          "assumed_transferred_quantity": 3512.3,
+          "remaining_quantity": 3512.3,
+          "remaining_share_pct": 2.049805075051941
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 1.0,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 7024.6,
+          "assumed_transferred_quantity": 7024.6,
+          "remaining_quantity": 0.0,
+          "remaining_share_pct": 0.0
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.0,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 17561.5,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 17561.5,
+          "remaining_share_pct": 10.249025375259706
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.5,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 17561.5,
+          "assumed_transferred_quantity": 8780.75,
+          "remaining_quantity": 8780.75,
+          "remaining_share_pct": 5.124512687629853
+        },
+        {
+          "category": "PHEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 1.0,
+          "EU_quantity": 171348,
+          "BE_NL_quantity": 70246,
+          "exposed_quantity": 17561.5,
+          "assumed_transferred_quantity": 17561.5,
+          "remaining_quantity": 0.0,
+          "remaining_share_pct": 0.0
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.0,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 1362.8000000000002,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 1362.8000000000002,
+          "remaining_share_pct": 1.0455169662516208
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 0.5,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 1362.8000000000002,
+          "assumed_transferred_quantity": 681.4000000000001,
+          "remaining_quantity": 681.4000000000001,
+          "remaining_share_pct": 0.5227584831258104
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.1,
+          "rho": 1.0,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 1362.8000000000002,
+          "assumed_transferred_quantity": 1362.8000000000002,
+          "remaining_quantity": 0.0,
+          "remaining_share_pct": 0.0
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.0,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 3407.0,
+          "assumed_transferred_quantity": 0.0,
+          "remaining_quantity": 3407.0,
+          "remaining_share_pct": 2.6137924156290517
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 0.5,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 3407.0,
+          "assumed_transferred_quantity": 1703.5,
+          "remaining_quantity": 1703.5,
+          "remaining_share_pct": 1.3068962078145256
+        },
+        {
+          "category": "HEV",
+          "year": 2025,
+          "alpha": 0.25,
+          "rho": 1.0,
+          "EU_quantity": 130347,
+          "BE_NL_quantity": 13628,
+          "exposed_quantity": 3407.0,
+          "assumed_transferred_quantity": 3407.0,
+          "remaining_quantity": 0.0,
+          "remaining_share_pct": 0.0
+        }
+      ]
+    },
+    {
+      "id": "G04_implementation",
+      "source_files": [
+        "manuscript/chapter3_evidence.json"
+      ],
+      "source_sha256": {
+        "manuscript/chapter3_evidence.json": "b46eb1547a346182757a96e22444b926c03edfa77b84203d1e59a17a4186557d"
+      },
+      "svg_sha256": "10775b53d6bbea3aa531f70b915c0a6f47dbaf97a529ca18918e7cdc4a704302",
+      "plotted_data": {
+        "type": "author_proposed_responsibility_matrix",
+        "columns": [
+          "1. Эталонная\nоснова",
+          "2. Исторический\nпилот",
+          "3. Регулярное\nобновление"
+        ],
+        "rows": [
+          "Аналитическое\nподразделение",
+          "Подразделение\nпоставок",
+          "Оценка торговой\nполитики"
+        ],
+        "cells": [
+          [
+            "Паспорт и\nформулы",
+            "Разбор\nрасхождений",
+            "Обновление,\nжурнал версий"
+          ],
+          [
+            "Сверка своих\nпоставок",
+            "Проверка\nальтернатив",
+            "Каналы и\nзапасы"
+          ],
+          [
+            "Цель и охват\nинструмента",
+            "Модели, рынок\nи выпуск",
+            "Обновление\nоценки меры"
+          ]
+        ]
+      }
+    }
+  ]
+}

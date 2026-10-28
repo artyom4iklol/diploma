@@ -1,6 +1,11 @@
 # Текст автомобильного диплома
 
-Состояние на 28 октября 2026 года: первая теоретическая и вторая аналитическая главы написаны полностью. Третья рекомендательная глава пока не написана; подготовлен [подробный план четырёх параграфов](chapter3_plan.md), связанный с окончательными выводами главы 2. Источники актуального контекста и проверки сценарной основы — в [реестре планирования](chapter3_planning_sources.json).
+Состояние на 28 октября 2026 года: первая теоретическая, вторая аналитическая и третья рекомендательная главы написаны полностью. Введение, общее заключение и единый Word ещё не собраны.
+
+- [Глава 3 целиком в Markdown](chapter3_content.md): четыре параграфа, выводы, четыре таблицы и четыре рисунка. Исходные части: [3.1](chapter3_1.md), [3.2](chapter3_2.md), [3.3](chapter3_3.md), [3.4](chapter3_4.md), [выводы](chapter3_conclusions.md).
+- [Источники главы 3](chapter3_bibliography.md), [реестр сносок](chapter3_sources.json), [сценарная основа](chapter3_evidence.json), [проверки](chapter3_checks.json), [редакторская проверка](chapter3_review.md). Все 18 комбинаций сохранены в `../results/chapter3_application/scenario_transfer.csv`.
+- Воспроизведение главы 3: `python research/04_auto_trade/manuscript/build_chapter3_evidence.py`, затем `python research/04_auto_trade/manuscript/plot_chapter3.py`, затем `python research/04_auto_trade/manuscript/build_chapter3.py`. Модели главы 2 не пересчитываются.
+- [План главы 3](chapter3_plan.md) и [реестр планирования](chapter3_planning_sources.json) сохраняются как подготовительные документы. В написанной главе применено уточнённое название 3.2: «Обоснование рекомендаций на основе сценарных расчётов».
 
 - [Глава 2 целиком в Markdown](chapter2_content.md): шесть параграфов, выводы, шесть основных таблиц, восемь основных рисунков и техническое приложение с четырьмя таблицами и четырьмя рисунками. Параграфы доступны отдельно: [2.1](chapter2_1.md), [2.2](chapter2_2.md), [2.3](chapter2_3.md), [2.4](chapter2_4.md), [2.5](chapter2_5.md), [2.6](chapter2_6.md), [выводы](chapter2_conclusions.md).
 - [Источники главы 2](chapter2_bibliography.md), [реестр ссылок и версий](chapter2_sources.json), [численная основа](chapter2_evidence.json), [проверки](chapter2_checks.json) и [редакторская записка](chapter2_review.md).

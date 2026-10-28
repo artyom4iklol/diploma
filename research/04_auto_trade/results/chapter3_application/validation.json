@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-28",
+  "frozen_register_files_verified": 20,
+  "scenario_rows": 18,
+  "alpha_values": [
+    0.1,
+    0.25
+  ],
+  "rho_values": [
+    0,
+    0.5,
+    1
+  ],
+  "parameter_status": "Author-specified illustrative conditions, not estimated probabilities or actual rerouting capacity.",
+  "interpretation": "Customs accounting jurisdictions, not physical ports, lost sales, delayed deliveries or welfare.",
+  "regressions_refitted": false,
+  "checks": {
+    "all_existing_scenarios_reproduced": true,
+    "annual_member_sums_match": true,
+    "full_18_combination_grid": true,
+    "bounds_and_conservation": true,
+    "monotonicity": true
+  }
+}
