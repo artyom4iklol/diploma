@@ -5,8 +5,8 @@
   "introduction_tasks": 8,
   "conclusion": true,
   "appendices": 3,
-  "footnote_occurrences": 101,
-  "bibliography_entries": 34,
+  "footnote_occurrences": 109,
+  "bibliography_entries": 37,
   "source_ids": [
     "A01",
     "A02",
@@ -25,6 +25,9 @@
     "O08",
     "O09",
     "O10",
+    "R_ESTAT26",
+    "R_NW86",
+    "R_UNDERTAKING26",
     "S01",
     "S02",
     "S03",
@@ -47,5 +50,9 @@
     "chapter1_content.md": "b876955420c27572e4b72a70d1bf2033d0f6fbafc4fc037a0fd77b09b8bb1bd6",
     "chapter2_content.md": "30af94ef8d42d6bfced427f4e278b1d5bb1e2e8787b574d93c629faa4f130d87",
     "chapter3_content.md": "8948c5a984943b52051d92ba157e79887cced1307a9b930c096e28a44ee6afc8"
-  }
+  },
+  "full_revision_applied": "review_thesis_quality.py",
+  "substantive_issues_fixed": 15,
+  "footnotes_and_sources_resolved": true,
+  "bibliography_all_entries_used": true
 }

@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-28",
+  "purpose": "Complete diploma audit; post-analysis diagnostics, all cases retained",
+  "no_collection": true,
+  "no_model_refits": true,
+  "source_sha256": {
+    "results/augmented/panel_china_rest.csv": "59d2b1a8e6acaf4b44541d664a2310fd9967a65f0b79b3f6b7ba98542421d319",
+    "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+  },
+  "leave_one_country_summary": {
+    "2023_quantity": {
+      "cases": 27,
+      "negative_hhi_changes": 27,
+      "positive_hhi_changes": 0,
+      "delta_min": -0.0785981761282886,
+      "delta_max": -0.029360763007126867,
+      "geography_component_negative": 27,
+      "positive_cases_excluding": []
+    },
+    "2023_value_eur": {
+      "cases": 27,
+      "negative_hhi_changes": 27,
+      "positive_hhi_changes": 0,
+      "delta_min": -0.08201174178910703,
+      "delta_max": -0.0009182676116555877,
+      "geography_component_negative": 26,
+      "positive_cases_excluding": []
+    },
+    "2024_quantity": {
+      "cases": 27,
+      "negative_hhi_changes": 27,
+      "positive_hhi_changes": 0,
+      "delta_min": -0.10338211403965294,
+      "delta_max": -0.01458845303124029,
+      "geography_component_negative": 27,
+      "positive_cases_excluding": []
+    },
+    "2024_value_eur": {
+      "cases": 27,
+      "negative_hhi_changes": 27,
+      "positive_hhi_changes": 0,
+      "delta_min": -0.1407807003910474,
+      "delta_max": -0.029369618486455612,
+      "geography_component_negative": 27,
+      "positive_cases_excluding": []
+    }
+  },
+  "checks": {
+    "hhi_exclusion_cases": 12,
+    "leave_one_country_cases": 108,
+    "baseline_threshold_cases": 16,
+    "observability_groups": 6,
+    "hac_cases": 4,
+    "adding_up_tolerance": 1e-12,
+    "passed": true
+  },
+  "limits": [
+    "Exclusions change the estimand and renormalize country and product weights. They do not correct source data.",
+    "Leave-one-country results are influence diagnostics, not a sampling distribution or confidence interval.",
+    "Baseline thresholds classify the contribution of zero or small initial flows. They do not identify firms or replace the exact positive-flow decomposition.",
+    "HAC bandwidth sensitivity reuses saved estimates and does not identify a causal effect."
+  ]
+}

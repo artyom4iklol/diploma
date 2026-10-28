@@ -169,11 +169,13 @@ def build():
             continue
         if t.startswith('Источник:'):
             p.style = d.styles['Thesis Source']
+            p.paragraph_format.keep_together = True
             for run in p.runs: set_font(run.font, 10, italic=True)
             continue
         if re.match(r'^Таблица [\dАБВ]+\.', t):
             prefix, _, title = t.partition(' — ')
             p.clear(); p.add_run(prefix); p.style = d.styles['Thesis Table Number']; p.paragraph_format.keep_with_next = True
+            if prefix == 'Таблица А.7': p.paragraph_format.page_break_before = True
             new = d.add_paragraph(title, style='Thesis Table Title'); p._p.addnext(new._p); new.paragraph_format.keep_with_next = True
             for run in p.runs + new.runs: format_run(run, 10)
             continue
@@ -264,6 +266,16 @@ def build():
                 parent.remove(h)
     for rId, relation in list(d.part.rels.items()):
         if relation.reltype.endswith('/hyperlink'): del d.part.rels[rId]
+    # Separate adjacent native footnote references so 41 and 42 cannot read as 4142.
+    for p in d.paragraphs:
+        refs=p._p.xpath('.//w:footnoteReference')
+        for ref in refs[:-1]:
+            run=ref.getparent();following=run.getnext()
+            if following is not None and following.tag==qn('w:r') and following.find(qn('w:footnoteReference')) is not None:
+                comma=OxmlElement('w:r');pr=OxmlElement('w:rPr')
+                align=OxmlElement('w:vertAlign');align.set(qn('w:val'),'superscript');pr.append(align)
+                size=OxmlElement('w:sz');size.set(qn('w:val'),'20');pr.append(size);comma.append(pr)
+                text=OxmlElement('w:t');text.text=',';comma.append(text);run.addnext(comma)
     headings=[]
     for p in d.paragraphs:
         if p.style.name in ['Heading 1','Heading 2']:

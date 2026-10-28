@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "post_analysis": true,
+  "preferred_model_unchanged": true,
+  "diagnostic_models": 2,
+  "baseline_reproduction_fits": 2,
+  "source_sha256": {
+    "results/augmented/panel_china_rest.csv": "59d2b1a8e6acaf4b44541d664a2310fd9967a65f0b79b3f6b7ba98542421d319",
+    "ppml_engine_augmented.py": "07698863b6c4791f3622522a3224accdd3f3daa60dd8bdaac1afbdfc581cf4e6",
+    "augmented_model_spec.json": "5fdddeffe77f0bae96d95adabfea4b61d7822af295162353e28594fe7d4d17bc"
+  },
+  "validation": {
+    "quantity": {
+      "baseline_max_beta_difference": 0.0,
+      "converged": true,
+      "n": 8140,
+      "positive_rows_removed": 0,
+      "max_x_score_over_total_y": 2.5039772705472505e-13,
+      "max_fe_score_over_total_y": 6.73933636169915e-13
+    },
+    "value_eur": {
+      "baseline_max_beta_difference": 0.0,
+      "converged": true,
+      "n": 8140,
+      "positive_rows_removed": 0,
+      "max_x_score_over_total_y": 2.5082301299401874e-13,
+      "max_fe_score_over_total_y": 4.955365629162945e-13
+    }
+  },
+  "all_passed": true,
+  "limits": [
+    "Excluding NL changes the geographic estimand and does not correct the original source.",
+    "Only HAC uncertainty is recomputed for this diagnostic; no new block intervals are claimed.",
+    "Conditional associations remain noncausal."
+  ]
+}

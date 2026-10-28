@@ -4,6 +4,7 @@ import json
 import re
 import hashlib
 import pandas as pd
+from review_thesis_quality import extra_notes, extra_bibliography, improve, normalize_valuation_terms
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
@@ -38,6 +39,12 @@ def main():
         "I_METHOD": {"source_ids": ["S21", "S23"], "text": notes["PPML"]["text"] + " " + notes["DECOMPOSITION"]["text"]},
     }
     notes.update(intro_notes)
+    for value in notes.values():
+        value['text'] = normalize_valuation_terms(value['text'])
+    for key, value in extra_notes().items():
+        assert key not in notes
+        value['source_sha256'] = {p: hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in value['source_files']}
+        notes[key] = value
     (HERE / "introduction_sources.json").write_text(json.dumps(intro_notes, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     split = chapters[2].index("# Приложение А.")
     main2 = chapters[2][:split].strip()
@@ -93,6 +100,7 @@ def main():
     chapter3_full, shortened = re.subn(r'Порядок внедрения объединяет эталонную версию данных[^\n]+', 'Порядок внедрения включает эталонную версию данных, пилотный разбор и регулярное обновление с журналом пересмотров. Контроль основан на определённости наблюдений, воспроизводимости, своевременности и завершённости проверки. Результат — согласованная процедура применения выводов; экономия и предотвращённые потери требуют отдельной оценки на данных организации.', chapters[3])
     assert shortened == 1
     content = "\n\n".join([(HERE / "introduction.md").read_text().strip(), chapters[1], main2, chapter3_full, (HERE / "conclusion.md").read_text().strip(), bibliography, appendix_a, appendix_b, appendix_c])
+    content = improve(content)
     from integrate_thesis_visuals import enhance
     content = enhance(content)
     (HERE / "appendices.md").write_text(content[content.index("# Приложение А."):] + "\n", encoding="utf8")
@@ -103,7 +111,7 @@ def main():
     (HERE / "full_thesis_content.md").write_text(content + "\n\n" + definitions + "\n", encoding="utf8")
     (HERE / "full_thesis_sources.json").write_text(json.dumps({"date": "2026-10-28", "citations": {k: notes[k] for k in keys}, "footnote_occurrences": len(used), "distinct_note_definitions": len(keys)}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     checks = {"date": "2026-10-28", "chapters": 3, "sections": 14, "introduction_tasks": 8, "conclusion": True, "appendices": 3,
-              "footnote_occurrences": len(used), "bibliography_entries": 34, "source_ids": sorted({x for k in keys for x in notes[k]["source_ids"] if x != "AUTHOR_CALCULATIONS"}),
+              "footnote_occurrences": len(used), "bibliography_entries": len(json.loads((HERE/'full_bibliography.json').read_text())['entries']), "source_ids": sorted({x for k in keys for x in notes[k]["source_ids"] if x != "AUTHOR_CALCULATIONS"}),
               "chapter_sha256": {f"chapter{n}_content.md": hashlib.sha256((HERE / f"chapter{n}_content.md").read_bytes()).hexdigest() for n in [1, 2, 3]}}
     (HERE / "full_thesis_content_checks.json").write_text(json.dumps(checks, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     print(json.dumps(checks, ensure_ascii=False))
@@ -112,7 +120,7 @@ def main():
 def make_bibliography(notes):
     scientific = {
         "S01": "Ke Y. EU Countervailing Duties and Chinese BEV Trade Flows: Descriptive Evidence from a Difference-in-Differences Analysis. Bachelor thesis. Umeå University, 2026.",
-        "S02": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy. Accepted author version. 2026. DOI: 10.1038/s41560-026-02105-7.",
+        "S02": "Dou H., Jiang S., Ou S. S. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy. 2026. Vol. 11. P. 1364–1377. DOI: 10.1038/s41560-026-02105-7. Использована принятая авторская версия.",
         "S03": "Wingender P., Yao J., Zymek R., Carton B., Cerdeiro D., Weber A. Europe’s Shift to EVs Amid Intensifying Global Competition. IMF Working Paper 24/218. 2024.",
         "S04": "Coffin D., Crotty P., Walling J., Yuan W. J. J. The Impact of Changes in Trade Policies on the Electric Vehicle (EV) Sector — A CGE Analysis. USITC Economics Working Paper 2024–05–A. 2024.",
         "S05": "Minondo A. How exporters neutralised an increase in tariffs // The World Economy. 2024. Vol. 47, no. 3. P. 1274–1296. DOI: 10.1111/twec.13492.",
@@ -135,8 +143,11 @@ def make_bibliography(notes):
     aux = {x["id"]: x for x in json.loads((HERE / "chapter1_sources.json").read_text())["records"] if x["id"].startswith("A")}
     ids = {x for v in notes.values() for x in v["source_ids"] if x != "AUTHOR_CALCULATIONS"}
     entries = []
+    additional = extra_bibliography()
     for ident in sorted(ids):
-        if ident in scientific:
+        if ident in additional:
+            entry = additional[ident]['text']; url = additional[ident]['url']
+        elif ident in scientific:
             entry = scientific[ident]
             url = read.get(ident, {}).get("download_url") or catalog[ident]["primary_url"]
         elif ident in official:
@@ -157,11 +168,11 @@ def make_bibliography(notes):
             entry = x["text"].replace(" С. 1.", ""); url = x["urls"][0]
         else:
             raise ValueError(ident)
-        date = "28.10.2026" if ident in ["O08", "O09", "O10"] else "27.10.2026"
+        date = "28.10.2026" if ident in ["O08", "O09", "O10", "R_NW86", "R_ESTAT26", "R_UNDERTAKING26"] else "27.10.2026"
         entry = re.sub(r"\s*\(дата обращения: [^)]+\)\.?", "", entry)
         entry = entry.rstrip(".") + ". URL: " + url + " (дата обращения: " + date + ")."
         entries.append({"id": ident, "text": entry})
-    assert len(entries) == 34, len(entries)
+    assert len(entries) == 37, len(entries)
     entries.sort(key=lambda x: x["text"].casefold())
     for n, x in enumerate(entries, 1): x["number"] = n
     (HERE / "full_bibliography.json").write_text(json.dumps({"date": "2026-10-28", "entries": entries, "basis": "Only used references; versions match actual chapter citations."}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")

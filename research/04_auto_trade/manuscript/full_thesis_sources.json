@@ -180,6 +180,19 @@
       "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
       "supported_scope": "Различие качества и unit values; собственной оценки качества нет."
     },
+    "C2VALUEDEF": {
+      "source_ids": [
+        "R_ESTAT26"
+      ],
+      "text": "Eurostat. User manual on international trade in goods statistics. 2026 edition. Luxembourg: Publications Office of the European Union, 2026. DOI 10.2785/4834442. С. 32, раздел Trade value (дата обращения: 28.10.2026).",
+      "supported_scope": "Статистическая стоимость импорта CIF, расходы доставки и страхования до границы, исключение импортных налогов и пошлин.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://ec.europa.eu/eurostat/documents/3859598/23178546/KS-01-26-012-EN-N.pdf/a502437f-c3d2-b1c8-df8b-95ed12e992a0?download=true"
+      ],
+      "source_sha256": {}
+    },
     "REALLOCATION": {
       "source_ids": [
         "S15"
@@ -404,6 +417,40 @@
         "results/augmented/output_validation.json": "2c20794d07c208414798cc3f7a933eb552cf57d009c6620da362d18d2ed2d140"
       }
     },
+    "C2REVIEWAUDIT": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Авторские расчёты по Eurostat Comext от 28.10.2026. Дополнительные проверки концентрации, исходного присутствия, наблюдаемости и модели без Нидерландов приведены в разделах А.5–А.6 и В.1 приложений.",
+      "supported_scope": "Описательные проверки влияния географии, критерия исходного присутствия и длины окна HAC; не новые причинные оценки.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/thesis_audit/audit_summary.json",
+        "results/thesis_audit/hhi_exclusions.csv",
+        "results/thesis_audit/hhi_leave_one_country.csv",
+        "results/thesis_audit/baseline_presence_thresholds.csv",
+        "results/thesis_audit/observability_by_technology.csv",
+        "results/thesis_audit/hac_bandwidth_sensitivity.csv",
+        "results/thesis_audit/exclude_NL_comparison.csv",
+        "results/thesis_audit/model_audit_validation.json",
+        "results/thesis_audit/exclude_NL_quantity.json",
+        "results/thesis_audit/exclude_NL_value.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/thesis_audit/audit_summary.json": "5b47467abbd8f4df1467df3ceac8e821cad8475e949136265964386651ecb13f",
+        "results/thesis_audit/hhi_exclusions.csv": "1f894e5f9acccca193bef9d7b79af3068149fb6176c4840afb75638477bd1a29",
+        "results/thesis_audit/hhi_leave_one_country.csv": "bbe683e64fb39ba3bd1e646b0de96f4677b68101d4095a9b352df970335ce008",
+        "results/thesis_audit/baseline_presence_thresholds.csv": "5547b001acde04f47c8e4e777b596a10fa72fa25c160b2f12ddd000ed32083dd",
+        "results/thesis_audit/observability_by_technology.csv": "7b855cc219633caaba329c02416ba1e7e88cb85b22b3205688a0f49a647f3684",
+        "results/thesis_audit/hac_bandwidth_sensitivity.csv": "e0fa19ded86922cffb90e26e2cf1e4ee405c8791558ea20bbe7f925f4cd97e23",
+        "results/thesis_audit/exclude_NL_comparison.csv": "8a3a7fbefcda80e22261dea7136f11d80541d2579c807e995983bc922437ab52",
+        "results/thesis_audit/model_audit_validation.json": "846548b8ef64a2cfa40ff7b233367059981bc9d27e02a3370145b8dafb325348",
+        "results/thesis_audit/exclude_NL_quantity.json": "da9f14b0e95d252350059aa2cef51928b4822a04364a17562d78f148f7717ad6",
+        "results/thesis_audit/exclude_NL_value.json": "00605152e2343b1cdcf1ebc7724be4ba74f9a704e722749bfe0d2b84ee26d5cc"
+      }
+    },
     "C2SHAPLEY": {
       "source_ids": [
         "S23"
@@ -480,7 +527,7 @@
         "O01",
         "AUTHOR_CALCULATIONS"
       ],
-      "text": "Расчёты автора: разложение изменения стоимости на количество и среднюю таможенную стоимость внутри CN8.",
+      "text": "Расчёты автора: разложение изменения стоимости на количество и среднюю статистическую стоимость внутри CN8.",
       "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
       "kind": "own_calculation",
       "source_files": [
@@ -872,6 +919,19 @@
       ],
       "source_sha256": {}
     },
+    "C3UNDERTAKING26": {
+      "source_ids": [
+        "R_UNDERTAKING26"
+      ],
+      "text": "European Commission. Commission accepts price undertaking from Chinese electric car producer. Официальное сообщение от 10.02.2026 (дата обращения: 28.10.2026).",
+      "supported_scope": "Принятие ценового обязательства Volkswagen (Anhui) по CUPRA Tavascan, минимальная цена, объёмные и инвестиционные обязательства; событие после выборки.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://policy.trade.ec.europa.eu/news/commission-accepts-price-undertaking-chinese-electric-car-producer-2026-02-10_en"
+      ],
+      "source_sha256": {}
+    },
     "C3JOINT": {
       "source_ids": [
         "O10"
@@ -904,8 +964,25 @@
         "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175",
         "manuscript/chapter3_evidence.json": "b46eb1547a346182757a96e22444b926c03edfa77b84203d1e59a17a4186557d"
       }
+    },
+    "C2HAC86": {
+      "source_ids": [
+        "R_NW86"
+      ],
+      "text": "Newey W. K., West K. D. A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix. NBER Technical Working Paper 55, April 1986. DOI 10.3386/t0055. С. 1–3, формула (5).",
+      "supported_scope": "Принцип ковариационной оценки HAC и веса Бартлетта; скан прочитан визуально, печатные страницы 1–3.",
+      "kind": "external",
+      "source_files": [
+        "literature/expanded/newey_west_1986.pdf"
+      ],
+      "urls": [
+        "https://www.nber.org/system/files/working_papers/t0055/t0055.pdf"
+      ],
+      "source_sha256": {
+        "literature/expanded/newey_west_1986.pdf": "c93e71c778d5a84065aedd40c94ead23e4a2e68ee0b05938bb361fc7e97a8017"
+      }
     }
   },
-  "footnote_occurrences": 101,
-  "distinct_note_definitions": 80
+  "footnote_occurrences": 109,
+  "distinct_note_definitions": 84
 }
