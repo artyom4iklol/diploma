@@ -199,6 +199,7 @@ def build():
         if p._p.xpath('./w:pPr/w:numPr'):
             p.paragraph_format.left_indent = Cm(.7); p.paragraph_format.first_line_indent = Cm(-.7)
     for t in d.tables:
+        sensitivity_table = [c.text for c in t.rows[0].cells] == ['Исход','Вариант','Категория','Множитель','HAC(12)']
         t.autofit = False
         widths = table_widths(t)
         for col, width in zip(t.columns, widths): col.width = Cm(width)
@@ -222,7 +223,8 @@ def build():
             for ci, cell in enumerate(row.cells):
                 cell.width = Cm(widths[ci]); cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
                 tcpr = cell._tc.get_or_add_tcPr(); margins = OxmlElement('w:tcMar')
-                for edge, v in [('top',65),('bottom',65),('left',75),('right',75)]:
+                vertical_padding = 50 if sensitivity_table else 65
+                for edge, v in [('top',vertical_padding),('bottom',vertical_padding),('left',75),('right',75)]:
                     e = OxmlElement('w:'+edge); e.set(qn('w:w'),str(v)); e.set(qn('w:type'),'dxa'); margins.append(e)
                 tcpr.append(margins)
                 shade = OxmlElement('w:shd'); shade.set(qn('w:fill'),'FFFFFF'); tcpr.append(shade)
@@ -230,6 +232,7 @@ def build():
                     p.style = d.styles['Normal']; p.paragraph_format.first_line_indent = Cm(0); p.paragraph_format.left_indent = Cm(0); p.paragraph_format.right_indent = Cm(0)
                     p.paragraph_format.line_spacing = 1; p.paragraph_format.space_before = Pt(0); p.paragraph_format.space_after = Pt(0)
                     p.paragraph_format.keep_with_next = ri == 0 or (len(t.rows) <= 5 and ri < len(t.rows)-1)
+                    if sensitivity_table and ri == len(t.rows)-1: p.paragraph_format.keep_with_next = True
                     p.alignment = WD_ALIGN_PARAGRAPH.CENTER if ri == 0 or len(p.text) < 35 else WD_ALIGN_PARAGRAPH.LEFT
                     for run in p.runs: set_font(run.font, 12, bold=ri == 0)
     for shape in d.inline_shapes:

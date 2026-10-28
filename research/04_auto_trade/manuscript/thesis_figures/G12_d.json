@@ -9,7 +9,8 @@
     "hac6_lo": 3.6154106280318703,
     "hac6_hi": 80.38257062476346,
     "hac12_lo": 3.6817532771383936,
-    "hac12_hi": 78.9341322651503
+    "hac12_hi": 78.9341322651503,
+    "post_analysis_diagnostic": false
   },
   {
     "model": "rest_no_trend_value",
@@ -21,7 +22,8 @@
     "hac6_lo": 22.861893005451883,
     "hac6_hi": 166.96044359127558,
     "hac12_lo": 24.894371429693237,
-    "hac12_hi": 153.32910928506874
+    "hac12_hi": 153.32910928506874,
+    "post_analysis_diagnostic": false
   },
   {
     "model": "rest_no_season_value",
@@ -33,7 +35,8 @@
     "hac6_lo": 4.451793152321812,
     "hac6_hi": 128.64134479669465,
     "hac12_lo": 5.104469628001674,
-    "hac12_hi": 112.19278389468886
+    "hac12_hi": 112.19278389468886,
+    "post_analysis_diagnostic": false
   },
   {
     "model": "four_origin_augmented_value",
@@ -45,7 +48,8 @@
     "hac6_lo": 1.914760699944068,
     "hac6_hi": 40.44786473801252,
     "hac12_lo": 2.1277232066796388,
-    "hac12_hi": 36.39946284077955
+    "hac12_hi": 36.39946284077955,
+    "post_analysis_diagnostic": false
   },
   {
     "model": "rest_since2022_value",
@@ -57,7 +61,8 @@
     "hac6_lo": 2.2366696100112566,
     "hac6_hi": 99.7373699192994,
     "hac12_lo": 2.3277769269383426,
-    "hac12_hi": 95.83372946923988
+    "hac12_hi": 95.83372946923988,
+    "post_analysis_diagnostic": false
   },
   {
     "model": "rest_exclude_BE_NL_value",
@@ -69,7 +74,8 @@
     "hac6_lo": 10.889172655929068,
     "hac6_hi": 81.72386255188093,
     "hac12_lo": 14.029471849351276,
-    "hac12_hi": 63.43112976686978
+    "hac12_hi": 63.43112976686978,
+    "post_analysis_diagnostic": false
   },
   {
     "model": "rest_observed_only_value",
@@ -81,6 +87,20 @@
     "hac6_lo": 2.0398146818644376,
     "hac6_hi": 22.585314863377565,
     "hac12_lo": 2.0519738579885254,
-    "hac12_hi": 22.45148332348115
+    "hac12_hi": 22.45148332348115,
+    "post_analysis_diagnostic": false
+  },
+  {
+    "model": "rest_exclude_NL_value",
+    "outcome": "value_eur",
+    "n": 8140,
+    "term": "HEV__definitive",
+    "beta": 3.0405378685157607,
+    "multiplier": 20.916490531755457,
+    "hac6_lo": 3.8855390825356575,
+    "hac6_hi": 112.59687957623336,
+    "hac12_lo": 4.108089751541443,
+    "hac12_hi": 106.49708322483863,
+    "post_analysis_diagnostic": true
   }
 ]

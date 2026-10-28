@@ -218,14 +218,28 @@
   ],
   "final_quality_assurance": {
     "visual_review": "passed",
-    "pages": 104,
-    "reviewed_pages": 104,
-    "final_direct_visual_pages": 7,
-    "final_pixel_identity_pages": 97,
+    "visual_review_date": "2026-10-29",
+    "pages": 106,
+    "reviewed_pages": 106,
+    "final_direct_visual_pages": 106,
+    "final_pixel_identity_pages": 0,
     "text_overflow": 0,
     "sparse_nonimage_pages": 0,
     "toc_entries_verified": 23,
-    "sha256": "7e8ce701bb16adecb00cdb5c1d46656f723817b6082c43aab3e23cc8693db38a",
-    "file_bytes": 2825710
+    "sha256": "7ec17a246790d22e17902a40e554f5bcdd16ca51feab70c64a08c2df6ed3680c",
+    "file_bytes": 3087831
+  },
+  "subsequent_visual_revision": {
+    "date": "2026-10-29",
+    "new_figures": [
+      "2.15",
+      "А.5"
+    ],
+    "updated_figure": "А.3",
+    "original_sensitivity_rows_preserved": 28,
+    "additional_NL_rows": 4,
+    "new_data_collection": false,
+    "new_model_refits": false,
+    "checks": "thesis_figures/visual_revision_checks.json"
   }
 }

@@ -1,8 +1,8 @@
-"""Thirty thesis figures from frozen evidence, in the approved two-thesis style.
+"""Thirty-two thesis figures from frozen evidence in the approved thesis style.
 
 No collection, model refits or changes to the estimation sample are performed.
 The original chapter plotters supply the already audited 16 figures. Their
-artists are restyled before export; fourteen additional figures use the same
+artists are restyled before export; sixteen additional figures use the same
 saved panel/results or explicitly labelled theoretical examples.
 """
 from pathlib import Path
@@ -12,6 +12,7 @@ import re
 import io
 import os
 import tempfile
+import argparse
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -161,18 +162,108 @@ def legacy():
     ch3.OUT=OUT;ch3.save=lambda fig,name,sources,data:save(fig,'C3_'+name,sources,data,
         kind='author_proposed_scheme'if name in ['G01_monitoring','G04_implementation']else 'saved_scenario_or_history',restyle_legacy=True)
     ch3.main()
+    sensitivity()
+
+
+def sensitivity():
+    """Retain all original specifications and append the separate NL diagnostic."""
     co=read('results/augmented/coefficients.csv')
+    nl=read('results/thesis_audit/exclude_NL_comparison.csv')
+    assert len(nl)==4 and (nl.n==8140).all()
     variants=['rest_preferred','rest_no_trend','rest_no_season','four_origin_augmented','rest_since2022','rest_exclude_BE_NL','rest_observed_only']
-    labels=['Основная','Без тренда','Без сезонности','Четыре происхождения','С 2022 года','Без BE/NL','Опубликованные пары']
+    labels=['Основная','Без тренда','Без сезонности','Четыре происхождения','С 2022 года','Без BE/NL','Опубликованные пары','Без NL (доп.)']
     for cat,suffix,letter in [('PHEV','quantity','a'),('PHEV','value','b'),('HEV','quantity','c'),('HEV','value','d')]:
         d=co[(co.term==cat+'__definitive')&co.model.isin([v+'_'+suffix for v in variants])].set_index('model').loc[[v+'_'+suffix for v in variants]]
-        fig,ax=plt.subplots(figsize=(6.7,3.05),layout='constrained')
+        outcome='quantity' if suffix=='quantity' else 'value_eur'
+        extra=nl[(nl.category==cat)&(nl.outcome==outcome)]
+        assert len(extra)==1
+        row=extra.iloc[0]
+        assert np.isclose(row.full_multiplier,d.iloc[0].multiplier,rtol=1e-12)
+        d=d.reset_index().assign(post_analysis_diagnostic=False)
+        diagnostic={'model':'rest_exclude_NL_'+suffix,'outcome':outcome,'n':int(row.n),
+            'term':cat+'__definitive','beta':float(np.log(row.exclude_NL_multiplier)),
+            'multiplier':float(row.exclude_NL_multiplier),'post_analysis_diagnostic':True,
+            **{x:float(row[x]) for x in ['hac6_lo','hac6_hi','hac12_lo','hac12_hi']}}
+        d=pd.concat([d,pd.DataFrame([diagnostic])],ignore_index=True)
+        assert len(d)==8 and (d.hac12_lo>0).all() and (d.hac12_hi>=d.hac12_lo).all()
+        fig,ax=plt.subplots(figsize=(6.7,3.45),layout='constrained')
         for i,row in enumerate(d.itertuples()):
-            color=NAVY if i==0 else RED
+            color=NAVY if i==0 else (TEAL if row.post_analysis_diagnostic else RED)
             ax.plot([row.hac12_lo,row.hac12_hi],[i,i],color=color,lw=1.2)
-            ax.plot(row.multiplier,i,marker='s'if i==0 else 'o',color=color,ms=5 if i==0 else 3.6)
-        ax.set_yticks(range(7),labels);ax.invert_yaxis();ax.set_xscale('log');ax.axvline(1,color=BORDER,lw=.8);ax.grid(axis='x');ax.set_xlabel('Множитель; интервал HAC(12)')
-        save(fig,'G12_'+letter,['results/augmented/coefficients.csv'],d.reset_index())
+            ax.plot(row.multiplier,i,marker='s'if i==0 else ('D'if row.post_analysis_diagnostic else'o'),color=color,ms=5 if i==0 else 4)
+        ax.set_yticks(range(8),labels);ax.invert_yaxis();ax.set_xscale('log');ax.axvline(1,color=BORDER,lw=.8);ax.grid(axis='x');ax.set_xlabel('Множитель; интервал HAC(12)')
+        save(fig,'G12_'+letter,['results/augmented/coefficients.csv','results/thesis_audit/exclude_NL_comparison.csv'],d,
+            kind='original_sensitivities_and_separate_post_analysis_diagnostic')
+
+
+def audit_additions():
+    """Visualize already saved audit outputs without refitting any model."""
+    t=read('results/thesis_audit/baseline_presence_thresholds.csv')
+    assert len(t)==16 and not t.duplicated(['base','category','baseline_threshold']).any()
+    assert np.allclose(t.change_below_threshold+t.change_above_threshold,t.total_change,atol=1e-9)
+    assert np.allclose(t.fraction_of_change_below_threshold,t.change_below_threshold/t.total_change,atol=1e-12)
+    assert (t.end==2025).all() and (t.total_change>0).all()
+    fig,axes=plt.subplots(1,2,figsize=(6.7,3.65),sharey=True,layout='constrained')
+    thresholds=[1,10,100,1000]
+    for ax,base,letter in zip(axes,[2023,2024],['а','б']):
+        for cat,color,marker,ls in [('PHEV',RED,'o','-'),('HEV',TEAL,'s','--')]:
+            d=t[(t.base==base)&(t.category==cat)].set_index('baseline_threshold').loc[thresholds]
+            y=100*d.fraction_of_change_below_threshold.to_numpy()
+            ax.plot(range(4),y,color=color,marker=marker,ls=ls,lw=1.5,ms=4,label=cat)
+            for i,value in enumerate(y):
+                offset=-13 if cat=='HEV' and (base==2024 or i==0) else 8
+                ax.annotate(fmt(value,2),(i,value),xytext=(0,offset),textcoords='offset points',
+                    ha='center',va='top'if offset<0 else'bottom',fontsize=8.5,color=color)
+        ax.axhline(100,color=BORDER,ls=':',lw=.9)
+        ax.set_xticks(range(4),['1','10','100','1000']);ax.set_xlim(-.22,3.22)
+        ax.set_ylim(-21,115);ax.set_yticks([0,25,50,75,100]);ax.grid(axis='y')
+        ax.spines['left'].set_bounds(0,100)
+        ax.set_xlabel('Порог исходного количества, шт.',fontsize=9)
+        panel(ax,f'{letter}) {base}–2025 годы')
+    axes[0].set_ylabel('Доля чистого прироста, %',fontsize=9)
+    fig.legend(*axes[0].get_legend_handles_labels(),ncol=2,loc='outside lower center')
+    save(fig,'N09_baseline_presence',['results/thesis_audit/baseline_presence_thresholds.csv'],t,
+        kind='saved_initial_presence_threshold_diagnostic')
+
+    h=read('results/thesis_audit/hhi_leave_one_country.csv')
+    full=read('results/thesis_audit/hhi_exclusions.csv')
+    assert len(h)==108 and (h.change<0).all()
+    assert not h.duplicated(['base','outcome','excluded']).any()
+    assert np.allclose(h.product_component+h.geography_component,h.change,atol=1e-12)
+    codes=sorted(NAMES,key=lambda c:NAMES[c]);assert set(h.excluded)==set(codes)
+    fig,axes=plt.subplots(2,2,figsize=(6.7,7.3),sharex=True,layout='constrained')
+    context=[]
+    for ax,(base,outcome,letter) in zip(axes.flat,[(2023,'quantity','а'),(2023,'value_eur','б'),(2024,'quantity','в'),(2024,'value_eur','г')]):
+        d=h[(h.base==base)&(h.outcome==outcome)].set_index('excluded').loc[codes]
+        assert len(d)==27 and (d.countries==26).all()
+        f=full[(full.base==base)&(full.outcome==outcome)&full.excluded.isna()]
+        assert len(f)==1
+        baseline=float(f.iloc[0].change);context.append({'base':base,'outcome':outcome,'full_panel_change':baseline})
+        color=NAVY if outcome=='quantity'else RED
+        ax.scatter(d.change,range(27),s=17,color=color,zorder=3)
+        nearest=d.change.idxmax()
+        if d.loc[nearest,'change']>-.005:
+            ax.annotate(fmt(d.loc[nearest,'change'],4),
+                (d.loc[nearest,'change'],codes.index(nearest)),xytext=(-8,7),
+                textcoords='offset points',ha='right',fontsize=8,color=color,
+                bbox={'facecolor':'white','edgecolor':'none','pad':.5})
+        ax.axvline(baseline,color=TEAL,ls='--',lw=.9,zorder=2)
+        ax.axvline(0,color=INK,lw=1,zorder=2)
+        ax.set_yticks(range(27),codes,fontsize=8.6);ax.invert_yaxis();ax.set_ylim(26.7,-.7)
+        ax.set_xlim(-.151,.005);ax.set_xticks([-.15,-.10,-.05,0]);ax.tick_params(axis='x',labelbottom=True,labelsize=8.5)
+        ax.xaxis.set_major_formatter(FuncFormatter(lambda x,_:fmt(x,2)));ax.grid(axis='x')
+        for tick,code in zip(ax.get_yticklabels(),codes):
+            if code in ['BE','NL']:tick.set_weight('bold')
+        label='количество'if outcome=='quantity'else'стоимость'
+        panel(ax,f'{letter}) {base}–2025, {label}')
+        ax.set_xlabel('Изменение HHI',fontsize=9)
+    handles=[Line2D([],[],color=NAVY,marker='o',ls='',label='Количество'),
+        Line2D([],[],color=RED,marker='o',ls='',label='Стоимость'),
+        Line2D([],[],color=TEAL,ls='--',label='Полная география ЕС-27')]
+    fig.legend(handles=handles,ncol=3,loc='outside lower center',fontsize=8.5)
+    merged=h.merge(pd.DataFrame(context),on=['base','outcome'],validate='many_to_one')
+    save(fig,'N10_hhi_leave_one_country',['results/thesis_audit/hhi_leave_one_country.csv','results/thesis_audit/hhi_exclusions.csv'],merged,
+        kind='saved_country_influence_diagnostic_not_confidence_intervals')
 
 
 def box(ax,x,y,w,h,text,bold=False,color=PALE):
@@ -327,14 +418,25 @@ def additions():
     save(fig,'R03_import_registrations',['results/full/annual_eu_flows.csv','data/chapter3_public/acea_eu_bev_registrations.csv'],[{'series':label,'value_2024':int(a),'value_2025':int(b),'change_pct':float(c)}for label,a,b,c in zip(labels,[int(q[2024]),reg[0]],[int(q[2025]),reg[1]],changes)])
 
 
-def main():
-    OUT.mkdir(exist_ok=True);setup();legacy();theory();additions()
-    assert len(MANIFEST)==33 # 30 logical figures; appendix A.3 has four panels.
-    metadata={'date':'2026-10-28','logical_figures':30,'image_panels':33,'additional_logical_figures':14,
+def main(audit_only=False):
+    OUT.mkdir(exist_ok=True);setup();MANIFEST.clear()
+    if audit_only:
+        previous=json.loads((OUT/'figure_manifest.json').read_text())['figures']
+        sensitivity();audit_additions()
+        changes={x['id']:x for x in MANIFEST}
+        MANIFEST[:]=[changes.pop(x['id'],x)for x in previous]+list(changes.values())
+    else:
+        legacy();theory();additions();audit_additions()
+    assert len(MANIFEST)==35 # 32 logical figures; appendix A.3 has four panels.
+    assert len({x['id']for x in MANIFEST})==35
+    metadata={'date':'2026-10-28','logical_figures':32,'image_panels':35,'additional_logical_figures':16,
         'reference_style':{'palette':{'navy':NAVY,'red':RED,'teal':TEAL,'purple':PURPLE},'font':'Nimbus Sans (Arial-compatible)','background':'white','internal_titles':False,'caption':'external Word paragraph'},
         'no_data_collection':True,'no_model_refits':True,'figures':MANIFEST}
     atomic_write(OUT/'figure_manifest.json',json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({'logical_figures':30,'image_panels':33,'no_model_refits':True}))
+    print(json.dumps({'logical_figures':32,'image_panels':35,'no_model_refits':True}))
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--audit-only',action='store_true',help='Update only six audit-related image assets; retain other verified exports.')
+    main(parser.parse_args().audit_only)

@@ -1,8 +1,8 @@
 {
   "date": "2026-10-28",
-  "logical_figures": 30,
-  "image_panels": 33,
-  "additional_logical_figures": 14,
+  "logical_figures": 32,
+  "image_panels": 35,
+  "additional_logical_figures": 16,
   "reference_style": {
     "palette": {
       "navy": "#0b2f73",
@@ -208,51 +208,59 @@
     },
     {
       "id": "G12_a",
-      "kind": "observed_or_saved_results",
+      "kind": "original_sensitivities_and_separate_post_analysis_diagnostic",
       "source_files": [
-        "results/augmented/coefficients.csv"
+        "results/augmented/coefficients.csv",
+        "results/thesis_audit/exclude_NL_comparison.csv"
       ],
       "source_sha256": {
-        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719",
+        "results/thesis_audit/exclude_NL_comparison.csv": "8a3a7fbefcda80e22261dea7136f11d80541d2579c807e995983bc922437ab52"
       },
-      "svg_sha256": "e28e10e20e5c42810939132a9d86712308d42ac450df3dc8d37ca5abcbf9d34d",
-      "png_sha256": "4ab4e0c560e2c351c1ace98d2070c1f5e25c5945982f25abfc6486bf3d4df71b"
+      "svg_sha256": "3b7f4993d09919cac020adfbeac4265c3982ed882bf68c9bc542eb1b1e64bb64",
+      "png_sha256": "d1de73133373749ef8ac6a886a645e06c4213c61fd88a8ba43c47dcd2781b46c"
     },
     {
       "id": "G12_b",
-      "kind": "observed_or_saved_results",
+      "kind": "original_sensitivities_and_separate_post_analysis_diagnostic",
       "source_files": [
-        "results/augmented/coefficients.csv"
+        "results/augmented/coefficients.csv",
+        "results/thesis_audit/exclude_NL_comparison.csv"
       ],
       "source_sha256": {
-        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719",
+        "results/thesis_audit/exclude_NL_comparison.csv": "8a3a7fbefcda80e22261dea7136f11d80541d2579c807e995983bc922437ab52"
       },
-      "svg_sha256": "64a50ba3d8b2a3a41f538260abd41602f320973b8c5ea6a5d214a05a99d371a1",
-      "png_sha256": "3db5a9a2252ed5a2766fa6799cc4ab37c2ca25714f796e472e0040109814d2f6"
+      "svg_sha256": "3d47b8d1f8dd4fb12eedcc1a286f2075ca3a1a8cfe95a9b9e4b3ef06b664413d",
+      "png_sha256": "06ec123c5c764b971479de5b1fb24c069431d352a225492ddd7a67f9ac03daa7"
     },
     {
       "id": "G12_c",
-      "kind": "observed_or_saved_results",
+      "kind": "original_sensitivities_and_separate_post_analysis_diagnostic",
       "source_files": [
-        "results/augmented/coefficients.csv"
+        "results/augmented/coefficients.csv",
+        "results/thesis_audit/exclude_NL_comparison.csv"
       ],
       "source_sha256": {
-        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719",
+        "results/thesis_audit/exclude_NL_comparison.csv": "8a3a7fbefcda80e22261dea7136f11d80541d2579c807e995983bc922437ab52"
       },
-      "svg_sha256": "e2fbb82614512f3d7154e96706dc1becddae2773f9cb2c743c5ce089189abd22",
-      "png_sha256": "d00eab1900a1df4d07cc91bda42ba872e6e8ab65fe98699f8230c5e9c31a04ce"
+      "svg_sha256": "ec1cbde092de230e8a821e4e2f5ebb84a7101b64a45ff056e8c8f3bb1586aa12",
+      "png_sha256": "8a1c8be14b6f88dbaaa55788aa407e5ab8946ab8e6ae9debb76e2206193a61e4"
     },
     {
       "id": "G12_d",
-      "kind": "observed_or_saved_results",
+      "kind": "original_sensitivities_and_separate_post_analysis_diagnostic",
       "source_files": [
-        "results/augmented/coefficients.csv"
+        "results/augmented/coefficients.csv",
+        "results/thesis_audit/exclude_NL_comparison.csv"
       ],
       "source_sha256": {
-        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719",
+        "results/thesis_audit/exclude_NL_comparison.csv": "8a3a7fbefcda80e22261dea7136f11d80541d2579c807e995983bc922437ab52"
       },
-      "svg_sha256": "0cff2019999929c58007335ee2cba058466f5fa1f1b35ef451991510e57687eb",
-      "png_sha256": "f0e8b111e202c18414f4b18e67ef105ceaa491b5d66660d140b984793b2c2635"
+      "svg_sha256": "300f8190456925b4a732f743fd1ac10d15fc04fd5ac81dcb8d14f57ef3ac6dc5",
+      "png_sha256": "811b490a302ec62e7a8cb6a2650b03bba95edd55e2de4b94679d1b3098932310"
     },
     {
       "id": "T01_technologies",
@@ -427,6 +435,32 @@
       },
       "svg_sha256": "a286dcd769a179fcaf0cc9b7fb15636e41b766d6be7b81527a01c549ab3d2188",
       "png_sha256": "9d1d6183b8d98a82bd2d33709af3d9ec423c4e1f1621aa7f0345df76658439b4"
+    },
+    {
+      "id": "N09_baseline_presence",
+      "kind": "saved_initial_presence_threshold_diagnostic",
+      "source_files": [
+        "results/thesis_audit/baseline_presence_thresholds.csv"
+      ],
+      "source_sha256": {
+        "results/thesis_audit/baseline_presence_thresholds.csv": "5547b001acde04f47c8e4e777b596a10fa72fa25c160b2f12ddd000ed32083dd"
+      },
+      "svg_sha256": "9daa8c0e5c2128c0f54b7ef1f7fb2460e82edf760cd3be1209ef12cb5e21e32a",
+      "png_sha256": "0ec134e96dbabce438c13559122668e4c7e352711b76ee149927aa06aa3a1814"
+    },
+    {
+      "id": "N10_hhi_leave_one_country",
+      "kind": "saved_country_influence_diagnostic_not_confidence_intervals",
+      "source_files": [
+        "results/thesis_audit/hhi_leave_one_country.csv",
+        "results/thesis_audit/hhi_exclusions.csv"
+      ],
+      "source_sha256": {
+        "results/thesis_audit/hhi_leave_one_country.csv": "bbe683e64fb39ba3bd1e646b0de96f4677b68101d4095a9b352df970335ce008",
+        "results/thesis_audit/hhi_exclusions.csv": "1f894e5f9acccca193bef9d7b79af3068149fb6176c4840afb75638477bd1a29"
+      },
+      "svg_sha256": "98dd65b20358e599b7dc9f41e8503d5c520c0771091c54edf6b6ad59535d6453",
+      "png_sha256": "520aaed425e7c7de6e2a19edeb33baca08f31801b94d662fe32e51c6f1ae5e19"
     }
   ]
 }
