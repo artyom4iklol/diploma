@@ -1,0 +1,911 @@
+{
+  "date": "2026-10-28",
+  "citations": {
+    "I_CONTEXT": {
+      "source_ids": [
+        "C2O11",
+        "O04",
+        "O05"
+      ],
+      "text": "European Commission. Commission launches investigation on subsidised electric cars from China. Press release, 04.10.2023. С. 1. Commission Implementing Regulation (EU) 2024/2754 of 29 October 2024. Art. 1, 5. European Commission. EU Commission imposes countervailing duties on imports of battery electric vehicles (BEVs) from China. Access 2Markets, 12.12.2024 (дата обращения: 27.10.2026)."
+    },
+    "I_THEORY": {
+      "source_ids": [
+        "S32",
+        "S14"
+      ],
+      "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698. Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Раздел 3, с. 14–19 (рабочая версия)."
+    },
+    "I_RESEARCH": {
+      "source_ids": [
+        "S01",
+        "S02",
+        "S08"
+      ],
+      "text": "Ke Y. EU Countervailing Duties and Chinese BEV Trade Flows: Descriptive Evidence from a Difference-in-Differences Analysis // Bachelor thesis, Umeå University. 2026. Аннотация; обсуждение ограничений. Бакалаврская работа. Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Принятая авторская версия, с. 5–9, 18–19. Barwick P. J., Collison J., Goldberg P. K. et al. From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies // NBER Working Paper 35334, June 2026. DOI 10.3386/w35334. Разделы 4.1–4.2."
+    },
+    "I_DATA": {
+      "source_ids": [
+        "O01",
+        "O08"
+      ],
+      "text": "Eurostat. Comext DS-045409. Месячный импорт, январь 2021 — декабрь 2025 года; CN 87038010, 87036010, 87034010; SUPPLEMENTARY_QUANTITY и VALUE_IN_EUROS. Выгрузка 26.10.2026, обновление источника 16.10.2026. Расчёты автора. ACEA. New car registrations: +1.8% in 2025; battery-electric 17.4% market share. Press release car registrations December 2025, 27.01.2026. С. 4, строка European Union (дата обращения: 28.10.2026)."
+    },
+    "I_METHOD": {
+      "source_ids": [
+        "S21",
+        "S23"
+      ],
+      "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641. Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7."
+    },
+    "MELITZ": {
+      "source_ids": [
+        "S32"
+      ],
+      "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698.",
+      "supported_scope": "Производительность, затраты участия, фирменный отбор; собственный вывод о наблюдаемых направлениях отделяется от фирменной модели."
+    },
+    "HM17": {
+      "source_ids": [
+        "S14"
+      ],
+      "text": "Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Раздел 3, с. 14–19 (рабочая версия).",
+      "supported_scope": "Страна бренда, сборка и сбыт, выбор моделей и источника поставок; без переноса численных параметров."
+    },
+    "IEA25PROD": {
+      "source_ids": [
+        "O06"
+      ],
+      "text": "IEA. Global EV Outlook 2025. Paris, 2025. P. 31–34.",
+      "supported_scope": "Производство и национальность производителя — разные измерения."
+    },
+    "AFBEV": {
+      "source_ids": [
+        "A01"
+      ],
+      "text": "U.S. Department of Energy. Alternative Fuels Data Center. All-Electric Vehicles. Раздел How It Works (дата обращения: 27.10.2026).",
+      "supported_scope": "Общее технологическое определение BEV; без заявления тождественности юридическому exCN-охвату."
+    },
+    "AFPHEV": {
+      "source_ids": [
+        "A02"
+      ],
+      "text": "U.S. Department of Energy. Alternative Fuels Data Center. Plug-In Hybrid Electric Vehicles. Разделы How It Works, Fueling and Driving Options (дата обращения: 27.10.2026).",
+      "supported_scope": "Технология PHEV, внешняя зарядка и зависимость режима использования от зарядки."
+    },
+    "AFHEV": {
+      "source_ids": [
+        "A03"
+      ],
+      "text": "U.S. Department of Energy. Alternative Fuels Data Center. Hybrid Electric Vehicles. Разделы Regenerative Braking, Fuel-Efficient System Design (дата обращения: 27.10.2026).",
+      "supported_scope": "HEV без внешней зарядки; различия внутри гибридного класса."
+    },
+    "SCOPE": {
+      "source_ids": [
+        "O05"
+      ],
+      "text": "European Commission. EU Commission imposes countervailing duties on imports of battery electric vehicles (BEVs) from China. Access 2Markets, 12.12.2024. Описание охвата меры по Регламенту (ЕС) 2024/2754 (дата обращения: 27.10.2026).",
+      "supported_scope": "Юридический exCN-охват, в том числе вспомогательный увеличитель запаса хода; не текущий индивидуальный расчёт пошлины."
+    },
+    "ESTATDEF": {
+      "source_ids": [
+        "O02"
+      ],
+      "text": "Eurostat. International trade in goods — detailed data. Reference metadata. Разделы 3.2–3.4 (дата обращения: 27.10.2026).",
+      "supported_scope": "Происхождение и reporting country; CN8 и границы набора измерений."
+    },
+    "ROTTERDAM": {
+      "source_ids": [
+        "O03"
+      ],
+      "text": "Eurostat. Trade in goods. European statistics learning hub. Раздел What is the Rotterdam effect? (дата обращения: 27.10.2026).",
+      "supported_scope": "Оформление в одной стране и конечное назначение в другой; не восстановление физического маршрута из нашей панели."
+    },
+    "IEA25TRADE": {
+      "source_ids": [
+        "O06"
+      ],
+      "text": "IEA. Global EV Outlook 2025. Paris, 2025. P. 33–35, примечания к данным международной торговли.",
+      "supported_scope": "Различие отраслевой оценки торговли по зарубежным продажам и таможенных потоков."
+    },
+    "PORTFOLIO": {
+      "source_ids": [
+        "S08"
+      ],
+      "text": "Barwick P. J., Collison J., Goldberg P. K. et al. From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies // NBER Working Paper 35334, June 2026. DOI 10.3386/w35334. Разделы 4.1–4.2.",
+      "supported_scope": "Многопродуктовые фирмы учитывают замещение собственных моделей; не оценка наших CN8-эластичностей."
+    },
+    "INCIDENCE": {
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "text": "Amiti M., Redding S. J., Weinstein D. E. The Impact of the 2018 Tariffs on Prices and Welfare // Journal of Economic Perspectives 33(4),187–210. 2019. DOI 10.1257/jep.33.4.187. С. 187–189. Cavallo A., Gopinath G., Neiman B., Tang J. Tariff Pass-Through at the Border and at the Store: Evidence from US Trade Policy. NBER Working Paper 26396. 2019. Аннотация и введение.",
+      "supported_scope": "Разные уровни цен и распределение нагрузки; оценки США не переносятся на ЕС."
+    },
+    "ECAS": {
+      "source_ids": [
+        "A04",
+        "A05"
+      ],
+      "text": "European Commission. Anti-subsidy measures; Anti-subsidy investigations. Trade and Economic Security. Описание инструментов и предмета расследования (дата обращения: 27.10.2026).",
+      "supported_scope": "Правовое назначение компенсационных мер, субсидирование, ущерб, причинная связь и интересы ЕС."
+    },
+    "SUBSIDIES": {
+      "source_ids": [
+        "S12"
+      ],
+      "text": "Bickenbach F., Dohse D., Langhammer R. J., Liu W.-H. EU Concerns About Chinese Subsidies: What the Evidence Suggests // Intereconomics 59(4),214–221. 2024. DOI 10.2478/ie-2024-0044.",
+      "supported_scope": "Виды промышленной поддержки и ограничения измерения; не наша оценка причин субсидий."
+    },
+    "DOU": {
+      "source_ids": [
+        "S02"
+      ],
+      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Принятая авторская версия, с. 5–9, 18–19.",
+      "supported_scope": "Сценарии стоимости владения, заданные ответы производителей, база 2024H1 и приближение стоимости локализации."
+    },
+    "USITC": {
+      "source_ids": [
+        "S04"
+      ],
+      "text": "Coffin D., Crotty P., Walling J., Yuan W. J. J. The Impact of Changes in Trade Policies on the Electric Vehicle (EV) Sector – A CGE Analysis // USITC Economics Working Paper 2024–05–A. Раздел методологии, с. 7–9.",
+      "supported_scope": "Различия сценариев ограничений готовых машин и компонентов, CGE; не фактическая оценка нашей панели."
+    },
+    "IMF": {
+      "source_ids": [
+        "S03"
+      ],
+      "text": "Wingender P., Yao J., Zymek R. et al. Europe’s Shift to EVs Amid Intensifying Global Competition // IMF Working Paper 24/218. 2024. Разделы 3.1–3.2, с. 12–16.",
+      "supported_scope": "Сценарное значение производственных и межотраслевых связей; без переноса ВВП-эффектов."
+    },
+    "BARWICKPOL": {
+      "source_ids": [
+        "S08"
+      ],
+      "text": "Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Раздел 2.",
+      "supported_scope": "Совместная политика тарифов и субсидий как модельный нормативный результат; без универсальной оптимальной ставки."
+    },
+    "MINONDO": {
+      "source_ids": [
+        "S05"
+      ],
+      "text": "Minondo A. How exporters neutralised an increase in tariffs // The World Economy 47(3), 1274–1296. 2024. DOI 10.1111/twec.13492. С. 1275–1277, 1292–1293.",
+      "supported_scope": "Смена разновидностей и происхождения в другом фирменном эпизоде; не подтверждение обхода в автомобилях."
+    },
+    "QUALITY": {
+      "source_ids": [
+        "S31"
+      ],
+      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
+      "supported_scope": "Различие качества и unit values; собственной оценки качества нет."
+    },
+    "REALLOCATION": {
+      "source_ids": [
+        "S15"
+      ],
+      "text": "Fajgelbaum P., Goldberg P., Kennedy P. et al. The US-China Trade War and Global Reallocations. NBER Working Paper 29562. Revised December 2023. Введение.",
+      "supported_scope": "Реакция третьих стран, а не автоматически незатронутая группа."
+    },
+    "FLOODED": {
+      "source_ids": [
+        "S20"
+      ],
+      "text": "Balteanu I., Moreno M., Viani F. Flooded by China? Trade diversion due to US tariffs during Trump’s first mandate // Banco de España Working Paper 2634, October 2026. DOI 10.53479/44545. Аннотация.",
+      "supported_scope": "Неоднородность перенаправления китайских поставок в другом эпизоде; без переноса численных коэффициентов."
+    },
+    "DECOMPOSITION": {
+      "source_ids": [
+        "S23"
+      ],
+      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7.",
+      "supported_scope": "Точное сложение и симметричное усреднение порядков; только прочитанный черновик 1999 года, не журнальная версия 2013."
+    },
+    "TIMING": {
+      "source_ids": [
+        "S17"
+      ],
+      "text": "Cavallo A. et al. Tariff Pass-Through at the Border and at the Store. NBER WP 26396. 2019. С. 3–4.",
+      "supported_scope": "Закупки и запасы в американском эпизоде как пример возможного временного механизма."
+    },
+    "HMREVIEW": {
+      "source_ids": [
+        "S14",
+        "S32"
+      ],
+      "text": "Head K., Mayer T. Brands in Motion. Banque de France WP 629. 2017. Раздел 3. Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698.",
+      "supported_scope": "Сопоставление единицы анализа и границ переноса структурного подхода."
+    },
+    "COMPETITION": {
+      "source_ids": [
+        "S14",
+        "S08"
+      ],
+      "text": "Head K., Mayer T. Brands in Motion. Banque de France WP 629. 2017. Раздел 3. Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Разделы 4.1–4.2.",
+      "supported_scope": "Постоянная наценка в прочитанной версии Head/Mayer и эндогенные ценовые решения в Barwick; сопоставление предпосылок."
+    },
+    "SCENARIOS": {
+      "source_ids": [
+        "S02",
+        "S08"
+      ],
+      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets. 2026. Принятая авторская версия, с. 5–9, 18–19. Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Разделы 2 и 4.",
+      "supported_scope": "Сценарии и моделируемые решения; критика ценового приближения локализации сформулирована как собственная методическая интерпретация."
+    },
+    "MACROREVIEW": {
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "text": "Wingender P. et al. Europe’s Shift to EVs Amid Intensifying Global Competition. IMF WP 24/218. 2024. С. 12–16. Coffin D. et al. The Impact of Changes in Trade Policies on the Electric Vehicle Sector. USITC 2024–05–A. С. 7–9.",
+      "supported_scope": "Сценарные модели, без трактовки их результатов как наблюдаемых изменений нашей панели."
+    },
+    "ADAPTREVIEW": {
+      "source_ids": [
+        "S05",
+        "S15"
+      ],
+      "text": "Minondo A. How exporters neutralised an increase in tariffs. 2024. С. 1275–1277. Fajgelbaum P. et al. The US-China Trade War and Global Reallocations. NBER WP 29562. Редакция декабря 2023.",
+      "supported_scope": "Сопоставление механизмов товарной и международной адаптации без присвоения фирменных выводов."
+    },
+    "KE": {
+      "source_ids": [
+        "S01"
+      ],
+      "text": "Ke Y. EU Countervailing Duties and Chinese BEV Trade Flows: Descriptive Evidence from a Difference-in-Differences Analysis // Bachelor thesis, Umeå University. 2026. Аннотация; обсуждение ограничений. Бакалаврская работа.",
+      "supported_scope": "Данные 2022–01.2026, CN против JP/KR/US, DiD, собственные оговорки автора."
+    },
+    "BARWICKREVIEW": {
+      "source_ids": [
+        "S08"
+      ],
+      "text": "Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Раздел 6.2 и приложение D.1.",
+      "supported_scope": "Существовавшие модели китайских марок, BEV/PHEV-регистрации и синтетический контроль EU6."
+    },
+    "JOULE": {
+      "source_ids": [
+        "S09"
+      ],
+      "text": "Dou H., Hao H., Mai L. et al. Observed constrained expansion and diminished affordability under the EU’s tariffs on Chinese electric vehicles // Joule 10(6),102486. 2026. DOI 10.1016/j.joule.2026.102486. Основной полный текст не получен. Проверены издательские метаданные и карточка University of Groningen (дата обращения: 27.10.2026).",
+      "supported_scope": "Тематическая близость и существование публикации; результаты статьи не пересказываются."
+    },
+    "METHODREVIEW": {
+      "source_ids": [
+        "S23"
+      ],
+      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis. First draft, 1999. Раздел 2.",
+      "supported_scope": "Атрибуция метода; собственное применение не заявляется новой математической конструкцией."
+    },
+    "PPML": {
+      "source_ids": [
+        "S21"
+      ],
+      "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641.",
+      "supported_scope": "PPML для неотрицательных потоков без логарифмирования; не гарантия причинной идентификации."
+    },
+    "C2LAUNCH": {
+      "source_ids": [
+        "C2O11"
+      ],
+      "text": "European Commission. Commission launches investigation on subsidised electric cars from China. Press release, 04.10.2023. С. 1.",
+      "supported_scope": "Сигнал 13.09.2023 и формальный запуск 04.10.2023.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_23_4752/IP_23_4752_EN.pdf"
+      ],
+      "source_sha256": {}
+    },
+    "C2PROVISIONAL": {
+      "source_ids": [
+        "C2O13"
+      ],
+      "text": "European Commission, Representation in Ireland. Commission imposes provisional countervailing duties on imports of battery electric vehicles from China while discussions with China continue. 04.07.2024. Раздел Procedure and next steps (дата обращения: 27.10.2026).",
+      "supported_scope": "Временные меры применяются с 05.07.2024; месячный индикатор июля–октября является авторской агрегацией.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://ireland.representation.ec.europa.eu/news-and-events/news/commission-imposes-provisional-countervailing-duties-imports-battery-electric-vehicles-china-while-2024-07-04_en"
+      ],
+      "source_sha256": {}
+    },
+    "C2JUNE": {
+      "source_ids": [
+        "C2O12"
+      ],
+      "text": "European Commission. Commission investigation provisionally concludes that electric vehicle value chains in China benefit from unfair subsidies. Press release, 12.06.2024. С. 1.",
+      "supported_scope": "Июньское предварительное раскрытие; фактическое начало временной меры проверяется по июльскому документу.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_24_3231/IP_24_3231_EN.pdf"
+      ],
+      "source_sha256": {}
+    },
+    "C2DEFINITIVE": {
+      "source_ids": [
+        "O04",
+        "O05"
+      ],
+      "text": "Commission Implementing Regulation (EU) 2024/2754 of 29 October 2024. Art. 1, 5. European Commission. EU Commission imposes countervailing duties on imports of battery electric vehicles (BEVs) from China. Access 2Markets, 12.12.2024 (дата обращения: 27.10.2026).",
+      "supported_scope": "Дата начала 30.10.2024, ex-CN/TARIC и неодинаковые ставки производителей; не оценка фактически уплаченной средней ставки.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402754",
+        "https://trade.ec.europa.eu/access-to-markets/en/news/eu-commission-imposes-countervailing-duties-imports-battery-electric-vehicles-bevs-china"
+      ],
+      "source_sha256": {}
+    },
+    "C2DATA": {
+      "source_ids": [
+        "O01"
+      ],
+      "text": "Eurostat. Comext DS-045409. Месячный импорт, январь 2021 — декабрь 2025 года; CN 87038010, 87036010, 87034010; SUPPLEMENTARY_QUANTITY и VALUE_IN_EUROS. Выгрузка 26.10.2026, обновление источника 16.10.2026. Расчёты автора.",
+      "supported_scope": "Источник собственной панели и годовых/квартальных агрегатов; численные значения проверены по chapter2_evidence.json.",
+      "kind": "data",
+      "source_files": [
+        "data/full_raw/request.json",
+        "results/full/annual_eu_flows.csv",
+        "results/full/panel.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "data/full_raw/request.json": "094ae5ea181b9fecd18eb69ba05ae43dff6ce110aeafd6804eab8ed556b4542e",
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88",
+        "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175"
+      }
+    },
+    "C2METADATA": {
+      "source_ids": [
+        "O02"
+      ],
+      "text": "Eurostat. International trade in goods — detailed data. Reference metadata. Разделы 3.2–3.4 (дата обращения: 27.10.2026).",
+      "supported_scope": "Определения происхождения, внешнего импорта, стоимости и единиц; самостоятельная трактовка агрегатов отделена от определения Eurostat.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C2ROTTERDAM": {
+      "source_ids": [
+        "O03"
+      ],
+      "text": "Eurostat. Trade in goods. European statistics learning hub. Раздел What is the Rotterdam effect? (дата обращения: 27.10.2026).",
+      "supported_scope": "Различие страны оформления и конечного потребления.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C2AUDIT": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Аудит исходной панели и независимые численные проверки авторских расчётов, 26–27.10.2026.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/data_audit.json",
+        "results/full/observability_details.json",
+        "results/augmented/data_audit.json",
+        "results/augmented/conditional_share_equivalence.json",
+        "results/augmented/numerical_validation.json",
+        "results/augmented/output_validation.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/data_audit.json": "0040c25b89e9b327a18bc6a4b2614297e26d4b40539f35e0a989bb1ed22c1baf",
+        "results/full/observability_details.json": "7e5e26e959537f673bfc3abd2d990cbe4f16a80a0a61ac2522526b987aad3f45",
+        "results/augmented/data_audit.json": "b78315b24c907cc5139cf17d77c7d5764cfde7fba2eecfcc8671da7c6f91218c",
+        "results/augmented/conditional_share_equivalence.json": "625268c8a62f53a99640c411ea0631326aaa5a35acc1ea041e63d3ef7547e664",
+        "results/augmented/numerical_validation.json": "6acf7273c3d3cc6614ea60bb4aed1cd943c5871cde258d5111600462d02012bb",
+        "results/augmented/output_validation.json": "2c20794d07c208414798cc3f7a933eb552cf57d009c6620da362d18d2ed2d140"
+      }
+    },
+    "C2SHAPLEY": {
+      "source_ids": [
+        "S23"
+      ],
+      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7.",
+      "supported_scope": "Принцип симметричного распределения; прочитан черновик 1999 года, не журнальная версия 2013 года.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C2QUALITY": {
+      "source_ids": [
+        "S31"
+      ],
+      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
+      "supported_scope": "Средняя стоимость не равна цене неизменного качества; прочитаны аннотация и введение WP 2012 года.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C2PPML": {
+      "source_ids": [
+        "S21"
+      ],
+      "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641.",
+      "supported_scope": "Оценивание мультипликативного среднего в уровнях; прочитан основной полный текст и его введение, а не только метаданные.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C2MODEL": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: предпочтительная PPML CN/REST, спецификация от 26.10.2026; два исхода и синхронные взвешенные повторные оценки.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "augmented_model_spec.json",
+        "results/augmented/rest_preferred_quantity.json",
+        "results/augmented/rest_preferred_value.json",
+        "results/augmented/paired_block_summary.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "augmented_model_spec.json": "5fdddeffe77f0bae96d95adabfea4b61d7822af295162353e28594fe7d4d17bc",
+        "results/augmented/rest_preferred_quantity.json": "b2e752bb1bd1a5c36a3a39b04b6f57f6814bb8ab7a255771bda86e767bf43f0c",
+        "results/augmented/rest_preferred_value.json": "c63f76f1dafd20256dd0becd316250d4618976c3f7ee7110e67b06cc43fe358a",
+        "results/augmented/paired_block_summary.json": "081b975280abb795ee00a0fc9de778275e9af593d8a6e822b2c9c75a55f4a620"
+      }
+    },
+    "C2ACCOUNT": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: симметричное разложение доли Китая во внешнем импорте выбранных кодов, базы 2023/2024 и конечный 2025 год.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/accounting_decompositions.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/accounting_decompositions.json": "401b6b45fcc619999d01e7ff06019dac6e38976ce5b22d4578303be1152fabb9"
+      }
+    },
+    "C2VALUE": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: разложение изменения стоимости на количество и среднюю таможенную стоимость внутри CN8.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/china_value_change_accounting.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/china_value_change_accounting.json": "dcf786ae9ea227e943802f1989f0fffa98119b53d404fe02347102274083fa87"
+      }
+    },
+    "C2UNITFLAG": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Eurostat Comext; независимая проверка 24 исходных месячных значений BEV из Китая, Нидерланды, 2025 год, и описательная чувствительность без NL и без BE/NL. Причина низкой удельной стоимости по агрегированной панели не установлена.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/panel.csv",
+        "results/full/annual_member_flows.csv",
+        "manuscript/chapter2_evidence.json",
+        "results/chapter2_revision/valuation_diagnostic.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175",
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3",
+        "manuscript/chapter2_evidence.json": "3cb403cdf50eb7ad2aaa409e70cdf26ba58d0ebac18585d5aa945f6153ac6420",
+        "results/chapter2_revision/valuation_diagnostic.json": "e05abf7f01a986deac4421acaf6a870e5fdec5ca9cf5d3fe03509790879afc8d"
+      }
+    },
+    "C2GEODATA": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Eurostat Comext; расчёты автора по годовым потокам стран оформления, 2023–2025 годы.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/annual_member_flows.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      }
+    },
+    "C2CONCENTRATION": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: технологические и совокупные HHI по количеству и стоимости; шкала 0–1.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/entry_concentration.csv",
+        "results/geography_focus/pooled_HHI_product_geography.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/entry_concentration.csv": "876a65e224dcaaedd28d8120db0913c7ced09609db44db482bb1275b64d57158",
+        "results/geography_focus/pooled_HHI_product_geography.csv": "2a5ccce9c54b419092c18a923464d31b81a690011f224d9467f0244807277443"
+      }
+    },
+    "C2GROUP": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: трёхфакторное групповое разложение технологических HHI с усреднением шести порядков замены.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/geography_focus/category_HHI_group_shapley.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/geography_focus/category_HHI_group_shapley.csv": "e995f3e880739b9026d7e762ea84776fe611d14031b95e02a3cd7ab03dc7a30e"
+      }
+    },
+    "C2ENTRY": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: тождество продолжающих, новых положительных и исчезнувших направлений относительно 2023 года.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/geography_focus/entry_margin_summary.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/geography_focus/entry_margin_summary.csv": "1dda86a925213640162878314bba9f5d030d61791d3b18027fe2cb23bfcba503"
+      }
+    },
+    "C2DYNAMIC": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: полугодовая PPML без тренда; обе половины 2022 года исключены; совместная предшествующая диагностика по шести коэффициентам.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/augmented/rest_halfyear_quantity.json",
+        "results/augmented/rest_halfyear_value.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/augmented/rest_halfyear_quantity.json": "211c515073567e00a1e887d959fa27284c0792aae488408ea26eadb9efc39b4e",
+        "results/augmented/rest_halfyear_value.json": "d0cda8a5d8e1e8eba360b6fafaaf1bc15843bd202dbb2686009774b5ec958dfa"
+      }
+    },
+    "C2SENSITIVITY": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: предусмотренные варианты расширенной PPML по количеству и стоимости. Полный набор коэффициентов сохранён отдельно от основной таблицы.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/augmented/coefficients.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      }
+    },
+    "C2GEOMODEL": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора: модель групповой неоднородности и ковариационно согласованные контрасты окончательной фазы.",
+      "supported_scope": "Собственный расчёт на сохранённых данных; не приписывается внешней публикации.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/augmented/rest_geographic_quantity.json",
+        "results/augmented/rest_geographic_value.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/augmented/rest_geographic_quantity.json": "cc907c2113c4e10448daf01514f59ffbffcd4e3a4f3c2e1fc6554e75f3ce973e",
+        "results/augmented/rest_geographic_value.json": "6263dc579b9642f16ececacc76aec157b627484f0fed0c1a4e0477aabc81c6a7"
+      }
+    },
+    "C2KE": {
+      "source_ids": [
+        "S01"
+      ],
+      "text": "Ke Y. EU Countervailing Duties and Chinese BEV Trade Flows: Descriptive Evidence from a Difference-in-Differences Analysis // Bachelor thesis, Umeå University. 2026. Аннотация; обсуждение ограничений. Бакалаврская работа.",
+      "supported_scope": "Ближайший аналог, статус бакалаврской работы и различие постановок.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C2BARWICK": {
+      "source_ids": [
+        "S08"
+      ],
+      "text": "Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Раздел 6.2 и приложение D.1.",
+      "supported_scope": "Регистрации фиксированных моделей пяти марок в шести странах; не все China-origin потоки ЕС.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C2DOU": {
+      "source_ids": [
+        "S02"
+      ],
+      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Принятая авторская версия, с. 5–9, 18–19.",
+      "supported_scope": "Сценарный анализ; принятая авторская версия Nature Energy, а не недоступный основной текст Joule.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C3METADATA": {
+      "source_ids": [
+        "O02"
+      ],
+      "text": "Eurostat. International trade in goods — detailed data. Reference metadata. Разделы 3.2–3.4 (дата обращения: 27.10.2026).",
+      "supported_scope": "Определения статистического охвата; паспорт и процедура мониторинга предложены автором.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C3GEOGRAPHY": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Eurostat Comext; авторские разложения концентрации, базы 2023/2024 и конечный 2025 год. Результаты рассмотрены в параграфе 2.4.",
+      "supported_scope": "Собственные расчёты и прикладные выводы; не внешний причинный результат.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/entry_concentration.csv",
+        "results/geography_focus/pooled_HHI_product_geography.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/entry_concentration.csv": "876a65e224dcaaedd28d8120db0913c7ced09609db44db482bb1275b64d57158",
+        "results/geography_focus/pooled_HHI_product_geography.csv": "2a5ccce9c54b419092c18a923464d31b81a690011f224d9467f0244807277443"
+      }
+    },
+    "C3VALUATION": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Eurostat Comext; авторская независимая проверка 24 месячных значений NL BEV и географическая чувствительность без NL/BE_NL, 27.10.2026.",
+      "supported_scope": "Собственные расчёты и прикладные выводы; не внешний причинный результат.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/chapter2_revision/valuation_diagnostic.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/chapter2_revision/valuation_diagnostic.json": "e05abf7f01a986deac4421acaf6a870e5fdec5ca9cf5d3fe03509790879afc8d"
+      }
+    },
+    "C3EXPOSURE": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Расчёты автора по таможенно учтённым количествам 2025 года: шесть исходных сценариев и 18 комбинаций условного переноса. Параметры α и ρ заданы для иллюстрации; вероятности и фактическая способность переноса не оценены.",
+      "supported_scope": "Собственные расчёты и прикладные выводы; не внешний причинный результат.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/augmented/clearance_jurisdiction_exposure.csv",
+        "results/chapter3_application/scenario_transfer.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/augmented/clearance_jurisdiction_exposure.csv": "2618d57266bc3c8cb8b9f77242f8e9d768ad6cc11c40603944c03207c9ee8f21",
+        "results/chapter3_application/scenario_transfer.csv": "1ff676a8d7e97105da1eefd08a42dbe291f9153d83f10cd20daf720dc9754573"
+      }
+    },
+    "C3HISTORY": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Eurostat Comext; авторский ретроспективный разбор всех 48 годовых квартальных сопоставлений 2022–2025 годов и 20 случаев сокращения потока BE/NL. Совместные изменения не являются оценкой перенаправления или свободной мощности.",
+      "supported_scope": "Собственные расчёты и прикладные выводы; не внешний причинный результат.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/chapter3_application/historical_quarter_changes.csv",
+        "results/chapter3_application/historical_quarter_summary.csv",
+        "manuscript/chapter3_extension_evidence.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/chapter3_application/historical_quarter_changes.csv": "1d0ff1cb84ad77e1a8829b69c9e0be93c4ec97fb89a4dbc47ba4bd0785c0a664",
+        "results/chapter3_application/historical_quarter_summary.csv": "bfc8baa54b10cd283ba22b92293a900ec1b8815fdbcfc0d19c5bb4da65583272",
+        "manuscript/chapter3_extension_evidence.json": "c301cbf7e6e87d33758683b93ccf84b597dae8360d8312c09d740d4d929309e7"
+      }
+    },
+    "C3ROTTERDAM": {
+      "source_ids": [
+        "O03"
+      ],
+      "text": "Eurostat. Trade in goods. European statistics learning hub. Раздел What is the Rotterdam effect? (дата обращения: 27.10.2026).",
+      "supported_scope": "Страна учёта не обязательно совпадает с конечным рынком и физическим маршрутом.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C3SCOPE": {
+      "source_ids": [
+        "O04",
+        "O05"
+      ],
+      "text": "Commission Implementing Regulation (EU) 2024/2754 of 29 October 2024. Art. 1, 5. European Commission. EU Commission imposes countervailing duties on imports of battery electric vehicles (BEVs) from China. Access 2Markets, 12.12.2024 (дата обращения: 27.10.2026).",
+      "supported_scope": "Исторический ex-CN/TARIC-охват и более широкий CN8; конкретное текущее применение требует соответствующей редакции.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402754",
+        "https://trade.ec.europa.eu/access-to-markets/en/news/eu-commission-imposes-countervailing-duties-imports-battery-electric-vehicles-bevs-china"
+      ],
+      "source_sha256": {}
+    },
+    "C3QUALITY": {
+      "source_ids": [
+        "S31"
+      ],
+      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
+      "supported_scope": "Средняя стоимость и качество; прочитано введение WP 2012 года, цена неизменного качества не оценивалась.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C3ACEA": {
+      "source_ids": [
+        "O08"
+      ],
+      "text": "ACEA. New car registrations: +1.8% in 2025; battery-electric 17.4% market share. Press release car registrations December 2025, 27.01.2026. С. 4, строка European Union (дата обращения: 28.10.2026).",
+      "supported_scope": "Первичная таблица регистраций BEV ЕС-27 за 2024/2025. Совокупности отличаются от импорта по происхождению; их отношение не представлено рыночной долей.",
+      "kind": "external",
+      "source_files": [
+        "data/chapter3_public/acea_eu_bev_registrations.csv",
+        "data/chapter3_public/acea_source.json"
+      ],
+      "urls": [
+        "https://www.acea.auto/files/Press_release_car_registrations_December_2025.pdf"
+      ],
+      "source_sha256": {
+        "data/chapter3_public/acea_eu_bev_registrations.csv": "38c6bedcc180f8578ab675439156f0f777250fb9ca208e8dd20ba2fc5578ec36",
+        "data/chapter3_public/acea_source.json": "a17372f7bde7a2226a746fd2af52be402306f473a9ee9146c0f4f2158209a363"
+      }
+    },
+    "C3MODEL": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Авторская предпочтительная PPML CN/REST по количеству и стоимости, результаты и чувствительности второй главы. Период 2021–2025; базовая технология BEV.",
+      "supported_scope": "Собственные расчёты и прикладные выводы; не внешний причинный результат.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/augmented/rest_preferred_quantity.json",
+        "results/augmented/rest_preferred_value.json",
+        "results/augmented/paired_block_summary.json",
+        "results/augmented/coefficients.csv"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/augmented/rest_preferred_quantity.json": "b2e752bb1bd1a5c36a3a39b04b6f57f6814bb8ab7a255771bda86e767bf43f0c",
+        "results/augmented/rest_preferred_value.json": "c63f76f1dafd20256dd0becd316250d4618976c3f7ee7110e67b06cc43fe358a",
+        "results/augmented/paired_block_summary.json": "081b975280abb795ee00a0fc9de778275e9af593d8a6e822b2c9c75a55f4a620",
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      }
+    },
+    "C3BARWICK": {
+      "source_ids": [
+        "S08"
+      ],
+      "text": "Barwick P. J., Collison J., Goldberg P. K. et al. From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies // NBER Working Paper 35334, June 2026. DOI 10.3386/w35334. Разделы 4.1–4.2.",
+      "supported_scope": "Учет спроса и решений многопродуктовых фирм; параметры не переносятся. Прочитаны разделы WP 35334, а не только метаданные.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C3DOU": {
+      "source_ids": [
+        "S02"
+      ],
+      "text": "Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Принятая авторская версия, с. 5–9, 18–19.",
+      "supported_scope": "Неоднородность рынков и сценарные предпосылки по принятой авторской версии Nature Energy; не недоступный полный текст Joule.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C3MACRO": {
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "text": "Wingender P., Yao J., Zymek R. et al. Europe’s Shift to EVs Amid Intensifying Global Competition // IMF Working Paper 24/218. 2024. Разделы 3.1–3.2, с. 12–16. Coffin D., Crotty P., Walling J., Yuan W. J. J. The Impact of Changes in Trade Policies on the Electric Vehicle (EV) Sector – A CGE Analysis // USITC Economics Working Paper 2024–05–A. Раздел методологии, с. 7–9.",
+      "supported_scope": "Необходимость более широких производственных данных для отраслевых последствий; прочитаны указанные методические разделы.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [],
+      "source_sha256": {}
+    },
+    "C3GUIDANCE": {
+      "source_ids": [
+        "O09"
+      ],
+      "text": "European Commission. Commission issues Guidance Document on submission of price undertaking offers for battery electric vehicles from China. Официальное сообщение от 12.01.2026 (дата обращения: 28.10.2026).",
+      "supported_scope": "Проверено официальное сообщение о содержании предложений. Полный текст связанного руководства в данном шаге не представлен прочитанным.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://policy.trade.ec.europa.eu/news/commission-issues-guidance-document-submission-price-undertaking-offers-battery-electric-vehicles-2026-01-12_en"
+      ],
+      "source_sha256": {}
+    },
+    "C3JOINT": {
+      "source_ids": [
+        "O10"
+      ],
+      "text": "European Commission. Joint Statement at the second meeting of the EU-China Trade and Investment Consultations. Beijing, 09.10.2026. Annex, points 2–4 (дата обращения: 28.10.2026).",
+      "supported_scope": "Последующий контекст: понимание по гибридам и процедуры обязательств BEV; заявление не устанавливает численную квоту и дату её применения.",
+      "kind": "external",
+      "source_files": [],
+      "urls": [
+        "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2122/STATEMENT_26_2122_EN.pdf"
+      ],
+      "source_sha256": {}
+    },
+    "C3DATA": {
+      "source_ids": [
+        "O01",
+        "AUTHOR_CALCULATIONS"
+      ],
+      "text": "Eurostat. Comext DS-045409. Выгрузка 26.10.2026, январь 2021 — декабрь 2025 года, три кода новых автомобилей. Авторский аудит и расчёты главы 2.",
+      "supported_scope": "Собственные расчёты и прикладные выводы; не внешний причинный результат.",
+      "kind": "own_calculation",
+      "source_files": [
+        "results/full/data_audit.json",
+        "results/full/panel.csv",
+        "manuscript/chapter3_evidence.json"
+      ],
+      "urls": [],
+      "source_sha256": {
+        "results/full/data_audit.json": "0040c25b89e9b327a18bc6a4b2614297e26d4b40539f35e0a989bb1ed22c1baf",
+        "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175",
+        "manuscript/chapter3_evidence.json": "b46eb1547a346182757a96e22444b926c03edfa77b84203d1e59a17a4186557d"
+      }
+    }
+  },
+  "footnote_occurrences": 101,
+  "distinct_note_definitions": 80
+}

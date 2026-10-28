@@ -1,0 +1,39 @@
+{
+  "I_CONTEXT": {
+    "source_ids": [
+      "C2O11",
+      "O04",
+      "O05"
+    ],
+    "text": "European Commission. Commission launches investigation on subsidised electric cars from China. Press release, 04.10.2023. С. 1. Commission Implementing Regulation (EU) 2024/2754 of 29 October 2024. Art. 1, 5. European Commission. EU Commission imposes countervailing duties on imports of battery electric vehicles (BEVs) from China. Access 2Markets, 12.12.2024 (дата обращения: 27.10.2026)."
+  },
+  "I_THEORY": {
+    "source_ids": [
+      "S32",
+      "S14"
+    ],
+    "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698. Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Раздел 3, с. 14–19 (рабочая версия)."
+  },
+  "I_RESEARCH": {
+    "source_ids": [
+      "S01",
+      "S02",
+      "S08"
+    ],
+    "text": "Ke Y. EU Countervailing Duties and Chinese BEV Trade Flows: Descriptive Evidence from a Difference-in-Differences Analysis // Bachelor thesis, Umeå University. 2026. Аннотация; обсуждение ограничений. Бакалаврская работа. Dou H. et al. Distributional impacts of EU tariffs on Chinese electric vehicles across European markets // Nature Energy; accepted author version. 2026. DOI 10.1038/s41560-026-02105-7. Принятая авторская версия, с. 5–9, 18–19. Barwick P. J., Collison J., Goldberg P. K. et al. From Trade War to Green Transition: Optimal Electric Vehicle Tariffs with Revenue-Funded Subsidies // NBER Working Paper 35334, June 2026. DOI 10.3386/w35334. Разделы 4.1–4.2."
+  },
+  "I_DATA": {
+    "source_ids": [
+      "O01",
+      "O08"
+    ],
+    "text": "Eurostat. Comext DS-045409. Месячный импорт, январь 2021 — декабрь 2025 года; CN 87038010, 87036010, 87034010; SUPPLEMENTARY_QUANTITY и VALUE_IN_EUROS. Выгрузка 26.10.2026, обновление источника 16.10.2026. Расчёты автора. ACEA. New car registrations: +1.8% in 2025; battery-electric 17.4% market share. Press release car registrations December 2025, 27.01.2026. С. 4, строка European Union (дата обращения: 28.10.2026)."
+  },
+  "I_METHOD": {
+    "source_ids": [
+      "S21",
+      "S23"
+    ],
+    "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641. Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7."
+  }
+}
