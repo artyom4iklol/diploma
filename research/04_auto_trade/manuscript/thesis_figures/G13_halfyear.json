@@ -1,0 +1,322 @@
+[
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2021H1",
+    "point": 0.6248216201535842,
+    "interval": [
+      0.39063225304505167,
+      0.9994107090955562
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2021H2",
+    "point": 0.6168209213020637,
+    "interval": [
+      0.4651670425964039,
+      0.8179170364957148
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2023H1",
+    "point": 0.8960492532167494,
+    "interval": [
+      0.6587105182766098,
+      1.2189030566734231
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2023H2",
+    "point": 0.2990508636875962,
+    "interval": [
+      0.22144334644415717,
+      0.40385688036397954
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2024H1",
+    "point": 0.305711564446277,
+    "interval": [
+      0.2119406020115334,
+      0.44097053490064303
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2024H2",
+    "point": 0.7863386288951124,
+    "interval": [
+      0.6066175592585925,
+      1.0193052110927447
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2025H1",
+    "point": 1.7225934917452441,
+    "interval": [
+      1.2297043887051213,
+      2.41304200022224
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "quantity",
+    "period": "2025H2",
+    "point": 2.5897613180422545,
+    "interval": [
+      1.5698912485559382,
+      4.272183624564601
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2021H1",
+    "point": 0.8591567226010269,
+    "interval": [
+      0.5424757273628755,
+      1.3607065473304962
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2021H2",
+    "point": 0.6970290914327554,
+    "interval": [
+      0.4542507051521163,
+      1.069562575892699
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2023H1",
+    "point": 0.7140835510477184,
+    "interval": [
+      0.5081488896207073,
+      1.0034762021373904
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2023H2",
+    "point": 0.2908741089224762,
+    "interval": [
+      0.22170588593023619,
+      0.3816215653745338
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2024H1",
+    "point": 0.2395967731369055,
+    "interval": [
+      0.16141338780504214,
+      0.3556496426861101
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2024H2",
+    "point": 0.72314432314522,
+    "interval": [
+      0.5505482327596294,
+      0.9498490431545427
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2025H1",
+    "point": 1.3210541919259136,
+    "interval": [
+      0.8981842130557312,
+      1.9430136408963383
+    ]
+  },
+  {
+    "category": "PHEV",
+    "outcome": "value",
+    "period": "2025H2",
+    "point": 2.5994271188713554,
+    "interval": [
+      1.7180725730698758,
+      3.9329079878449464
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2021H1",
+    "point": 5.520371511149011,
+    "interval": [
+      2.809141469378689,
+      10.848332828124104
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2021H2",
+    "point": 12.37765606101804,
+    "interval": [
+      6.954762929972484,
+      22.028985187200732
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2023H1",
+    "point": 4.187617480010953,
+    "interval": [
+      1.6235884739161712,
+      10.800852827314854
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2023H2",
+    "point": 44.70580940959797,
+    "interval": [
+      33.164055239585394,
+      60.264324749456804
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2024H1",
+    "point": 55.81563904788198,
+    "interval": [
+      26.24435606177988,
+      118.7068775850225
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2024H2",
+    "point": 268.4876622974732,
+    "interval": [
+      200.81497417164258,
+      358.9653864375088
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2025H1",
+    "point": 264.25716723134707,
+    "interval": [
+      124.52997054166852,
+      560.7634060249774
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "quantity",
+    "period": "2025H2",
+    "point": 536.1692507660109,
+    "interval": [
+      390.34402627220413,
+      736.4720505970157
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2021H1",
+    "point": 17.61600293799974,
+    "interval": [
+      6.940696441187543,
+      44.7107235046458
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2021H2",
+    "point": 6.918993574316423,
+    "interval": [
+      3.7943288074632626,
+      12.616848594478451
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2023H1",
+    "point": 22.812104507581832,
+    "interval": [
+      7.622031842989394,
+      68.2747229065282
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2023H2",
+    "point": 37.8054963184068,
+    "interval": [
+      27.73329986257321,
+      51.53571911613326
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2024H1",
+    "point": 281.43664337695793,
+    "interval": [
+      171.812462776749,
+      461.0060466813113
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2024H2",
+    "point": 136.434257641194,
+    "interval": [
+      102.46768384330724,
+      181.66026555814955
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2025H1",
+    "point": 915.127033938024,
+    "interval": [
+      569.7411709234821,
+      1469.891120711511
+    ]
+  },
+  {
+    "category": "HEV",
+    "outcome": "value",
+    "period": "2025H2",
+    "point": 338.876146011442,
+    "interval": [
+      260.94779149192163,
+      440.0766976375167
+    ]
+  }
+]

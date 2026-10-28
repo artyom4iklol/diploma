@@ -1,0 +1,92 @@
+[
+  {
+    "category": "BEV",
+    "year": 2021,
+    "positive_countries": 26,
+    "effective_countries": 6.474464826685582
+  },
+  {
+    "category": "BEV",
+    "year": 2022,
+    "positive_countries": 25,
+    "effective_countries": 3.244913482956549
+  },
+  {
+    "category": "BEV",
+    "year": 2023,
+    "positive_countries": 26,
+    "effective_countries": 4.680496496649126
+  },
+  {
+    "category": "BEV",
+    "year": 2024,
+    "positive_countries": 26,
+    "effective_countries": 3.78605292177314
+  },
+  {
+    "category": "BEV",
+    "year": 2025,
+    "positive_countries": 26,
+    "effective_countries": 4.342196286456585
+  },
+  {
+    "category": "PHEV",
+    "year": 2021,
+    "positive_countries": 9,
+    "effective_countries": 1.0710662695184896
+  },
+  {
+    "category": "PHEV",
+    "year": 2022,
+    "positive_countries": 11,
+    "effective_countries": 1.051298670682236
+  },
+  {
+    "category": "PHEV",
+    "year": 2023,
+    "positive_countries": 14,
+    "effective_countries": 1.2714458510136573
+  },
+  {
+    "category": "PHEV",
+    "year": 2024,
+    "positive_countries": 22,
+    "effective_countries": 2.397470924703128
+  },
+  {
+    "category": "PHEV",
+    "year": 2025,
+    "positive_countries": 21,
+    "effective_countries": 3.8751078936659353
+  },
+  {
+    "category": "HEV",
+    "year": 2021,
+    "positive_countries": 8,
+    "effective_countries": 1.8770761075381583
+  },
+  {
+    "category": "HEV",
+    "year": 2022,
+    "positive_countries": 9,
+    "effective_countries": 2.50225116021334
+  },
+  {
+    "category": "HEV",
+    "year": 2023,
+    "positive_countries": 15,
+    "effective_countries": 1.0872373019315635
+  },
+  {
+    "category": "HEV",
+    "year": 2024,
+    "positive_countries": 19,
+    "effective_countries": 4.906807012671394
+  },
+  {
+    "category": "HEV",
+    "year": 2025,
+    "positive_countries": 22,
+    "effective_countries": 6.010262435645781
+  }
+]

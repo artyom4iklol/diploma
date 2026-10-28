@@ -1,0 +1,432 @@
+{
+  "date": "2026-10-28",
+  "logical_figures": 30,
+  "image_panels": 33,
+  "additional_logical_figures": 14,
+  "reference_style": {
+    "palette": {
+      "navy": "#0b2f73",
+      "red": "#e31b2d",
+      "teal": "#338c86",
+      "purple": "#8976ac"
+    },
+    "font": "Nimbus Sans (Arial-compatible)",
+    "background": "white",
+    "internal_titles": false,
+    "caption": "external Word paragraph"
+  },
+  "no_data_collection": true,
+  "no_model_refits": true,
+  "figures": [
+    {
+      "id": "G02_monthly",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/panel.csv"
+      ],
+      "source_sha256": {
+        "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175"
+      },
+      "svg_sha256": "5ef98d36d357aaf8e6101170dfe457cc6e929c6162cd2a7b876e883551968819",
+      "png_sha256": "850e71e568a78657b3b4cf9c53e4b73df0b8d0911af8fcfd638c9c0ad92d50e8"
+    },
+    {
+      "id": "G03_shares",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_eu_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88"
+      },
+      "svg_sha256": "cdcad46d4c8d1b0ab230bec7743a34c116ef98592cf834ffbb80d7b4b60e5d1b",
+      "png_sha256": "965e769f9bfd1995feb861a24aee13094cfb45b17b615585ca7d0bc11a69c59a"
+    },
+    {
+      "id": "G04_mix",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_eu_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88"
+      },
+      "svg_sha256": "fc3ef849f53e445a2697764137a204908d2204946c23ab46d13be599a2e91403",
+      "png_sha256": "d759147dad11b209b613fa225322b23deb09a604d083bec19d020ea0ce2daec2"
+    },
+    {
+      "id": "G05_share_components",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/accounting_decompositions.json"
+      ],
+      "source_sha256": {
+        "results/full/accounting_decompositions.json": "401b6b45fcc619999d01e7ff06019dac6e38976ce5b22d4578303be1152fabb9"
+      },
+      "svg_sha256": "b8b15a29274666a9151ad80cb41a038406944526cbf2fa8399c0c8d1ac3ed3f6",
+      "png_sha256": "526c945e8782b38811f7d700d94a84e3725769d5ff761e7a77bebc45f7037aa0"
+    },
+    {
+      "id": "G06_value_components",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/china_value_change_accounting.json"
+      ],
+      "source_sha256": {
+        "results/full/china_value_change_accounting.json": "dcf786ae9ea227e943802f1989f0fffa98119b53d404fe02347102274083fa87"
+      },
+      "svg_sha256": "d6b1b4e593506cb14d0b84b85761b2074b1444be97b2eb40b5c5eafd7a3ffcb2",
+      "png_sha256": "b63149c174f6114258f4ca22a16ed4dc490da54b918b0bb7c4d73be1a9805e41"
+    },
+    {
+      "id": "G07_geography",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_member_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      },
+      "svg_sha256": "169156101513cccf8ad588437c2ca0aae601e394a7484a0655ac6f9543052d3f",
+      "png_sha256": "4339a5de696af1fd7c2b8a643d2b695166876ae4a360a9c7f6ccf190c95ed2c8"
+    },
+    {
+      "id": "G08_hhi",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/entry_concentration.csv",
+        "results/full/annual_member_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/entry_concentration.csv": "876a65e224dcaaedd28d8120db0913c7ced09609db44db482bb1275b64d57158",
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      },
+      "svg_sha256": "4ba72e0cedb273266f3eed9da0a43cb76cf968b58095880ef3feb647eac46ff0",
+      "png_sha256": "4e145fbf118ae4dd39a1bc13a22a99d57a2155aab7366c416e966386d3fbe2f2"
+    },
+    {
+      "id": "G09_hhi_components",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/geography_focus/pooled_HHI_product_geography.csv"
+      ],
+      "source_sha256": {
+        "results/geography_focus/pooled_HHI_product_geography.csv": "2a5ccce9c54b419092c18a923464d31b81a690011f224d9467f0244807277443"
+      },
+      "svg_sha256": "4f2ebd324f2464bf922aae56f05d75102e625028aa3b4d3f4c7f4aeb825b3c24",
+      "png_sha256": "dcf4da4c645589c67f118fa3426c30f6f7e4ef1d0a41fbbc2e46cb526e9f3ff3"
+    },
+    {
+      "id": "G10_entry",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/geography_focus/entry_margin_summary.csv"
+      ],
+      "source_sha256": {
+        "results/geography_focus/entry_margin_summary.csv": "1dda86a925213640162878314bba9f5d030d61791d3b18027fe2cb23bfcba503"
+      },
+      "svg_sha256": "b0a7a67cde6d55cb301bca5b7bfa6ac832e8c5a5e4ac83f7124f412b9bb3fe5d",
+      "png_sha256": "16880b27793464919a76d229d8425c6fde7c9e4d44f0397f689301563d40eb42"
+    },
+    {
+      "id": "G11_intervals",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/augmented/rest_preferred_quantity.json",
+        "results/augmented/rest_preferred_value.json",
+        "results/augmented/paired_block_summary.json"
+      ],
+      "source_sha256": {
+        "results/augmented/rest_preferred_quantity.json": "b2e752bb1bd1a5c36a3a39b04b6f57f6814bb8ab7a255771bda86e767bf43f0c",
+        "results/augmented/rest_preferred_value.json": "c63f76f1dafd20256dd0becd316250d4618976c3f7ee7110e67b06cc43fe358a",
+        "results/augmented/paired_block_summary.json": "081b975280abb795ee00a0fc9de778275e9af593d8a6e822b2c9c75a55f4a620"
+      },
+      "svg_sha256": "67ff49f7a1fb4b63866072159c9db2168030625da3c1d637ad2123ca4fae3074",
+      "png_sha256": "265d42b6430538436aadd662f358cff8a7973eae9ab68c254e4570a0dd591c93"
+    },
+    {
+      "id": "G13_halfyear",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/augmented/rest_halfyear_quantity.json",
+        "results/augmented/rest_halfyear_value.json"
+      ],
+      "source_sha256": {
+        "results/augmented/rest_halfyear_quantity.json": "211c515073567e00a1e887d959fa27284c0792aae488408ea26eadb9efc39b4e",
+        "results/augmented/rest_halfyear_value.json": "d0cda8a5d8e1e8eba360b6fafaaf1bc15843bd202dbb2686009774b5ec958dfa"
+      },
+      "svg_sha256": "d81e95cbc204d12f237710b80d2842fe2b08168c3f36ed414ac9f8504a1a55d7",
+      "png_sha256": "9f4072dbbf652d361d10f57c64da16f804be3e3580d4208eceabc079f0f99fc9"
+    },
+    {
+      "id": "C3_G01_monitoring",
+      "kind": "author_proposed_scheme",
+      "source_files": [
+        "manuscript/chapter3_evidence.json"
+      ],
+      "source_sha256": {
+        "manuscript/chapter3_evidence.json": "b46eb1547a346182757a96e22444b926c03edfa77b84203d1e59a17a4186557d"
+      },
+      "svg_sha256": "487ceb57d8eea65012ec75475fc0f1220e50fe67762d8e681b227ba08dbd8a37",
+      "png_sha256": "47d6458d9109583688a2eb97719c56a67f8b7ac9dbc7c6dd683617e2a431b88d"
+    },
+    {
+      "id": "C3_G02_exposure",
+      "kind": "saved_scenario_or_history",
+      "source_files": [
+        "results/chapter3_application/scenario_transfer.csv"
+      ],
+      "source_sha256": {
+        "results/chapter3_application/scenario_transfer.csv": "1ff676a8d7e97105da1eefd08a42dbe291f9153d83f10cd20daf720dc9754573"
+      },
+      "svg_sha256": "25249aeaaead5e89556584fd9f41efca1a7ed14248699f5df7caa7719c3bcee3",
+      "png_sha256": "592b8f58c802828d283bdb87f3f90efcad6f1c8d7f4a694788c1e642aead2862"
+    },
+    {
+      "id": "C3_G03_history",
+      "kind": "saved_scenario_or_history",
+      "source_files": [
+        "results/chapter3_application/historical_quarter_changes.csv"
+      ],
+      "source_sha256": {
+        "results/chapter3_application/historical_quarter_changes.csv": "1d0ff1cb84ad77e1a8829b69c9e0be93c4ec97fb89a4dbc47ba4bd0785c0a664"
+      },
+      "svg_sha256": "a81508f7e7f4ba125edae58c6837b48f14944324b82fbc67a1a6fa69ace67168",
+      "png_sha256": "09ff6a570e85ce90b8003594e61ce60b7224aebd220c6cb96563d805e86b2b5c"
+    },
+    {
+      "id": "C3_G04_implementation",
+      "kind": "author_proposed_scheme",
+      "source_files": [
+        "manuscript/chapter3_evidence.json"
+      ],
+      "source_sha256": {
+        "manuscript/chapter3_evidence.json": "b46eb1547a346182757a96e22444b926c03edfa77b84203d1e59a17a4186557d"
+      },
+      "svg_sha256": "2820a5dd81bd67c02227ea187df895d9fd5b1d6ddc87f395bb59a852422903d3",
+      "png_sha256": "9578a8608cc1244b620e95eae0b97fef4380e3fef34e32bbc7d5f08afc156550"
+    },
+    {
+      "id": "G12_a",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/augmented/coefficients.csv"
+      ],
+      "source_sha256": {
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      },
+      "svg_sha256": "e28e10e20e5c42810939132a9d86712308d42ac450df3dc8d37ca5abcbf9d34d",
+      "png_sha256": "4ab4e0c560e2c351c1ace98d2070c1f5e25c5945982f25abfc6486bf3d4df71b"
+    },
+    {
+      "id": "G12_b",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/augmented/coefficients.csv"
+      ],
+      "source_sha256": {
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      },
+      "svg_sha256": "64a50ba3d8b2a3a41f538260abd41602f320973b8c5ea6a5d214a05a99d371a1",
+      "png_sha256": "3db5a9a2252ed5a2766fa6799cc4ab37c2ca25714f796e472e0040109814d2f6"
+    },
+    {
+      "id": "G12_c",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/augmented/coefficients.csv"
+      ],
+      "source_sha256": {
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      },
+      "svg_sha256": "e2fbb82614512f3d7154e96706dc1becddae2773f9cb2c743c5ce089189abd22",
+      "png_sha256": "d00eab1900a1df4d07cc91bda42ba872e6e8ab65fe98699f8230c5e9c31a04ce"
+    },
+    {
+      "id": "G12_d",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/augmented/coefficients.csv"
+      ],
+      "source_sha256": {
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      },
+      "svg_sha256": "0cff2019999929c58007335ee2cba058466f5fa1f1b35ef451991510e57687eb",
+      "png_sha256": "f0e8b111e202c18414f4b18e67ef105ceaa491b5d66660d140b984793b2c2635"
+    },
+    {
+      "id": "T01_technologies",
+      "kind": "conceptual_classification",
+      "source_files": [
+        "manuscript/chapter1_content.md"
+      ],
+      "source_sha256": {
+        "manuscript/chapter1_content.md": "b876955420c27572e4b72a70d1bf2033d0f6fbafc4fc037a0fd77b09b8bb1bd6"
+      },
+      "svg_sha256": "1e6a6c03d33200c9343a52a181ad29bb12f9118bfd63ce48ba4346c7d01d541a",
+      "png_sha256": "3580bb1269a85f96837246c95a7d8bdc18826bd3743721635d373d688c7bb488"
+    },
+    {
+      "id": "T02_adaptation",
+      "kind": "conceptual_scheme",
+      "source_files": [
+        "manuscript/chapter1_content.md"
+      ],
+      "source_sha256": {
+        "manuscript/chapter1_content.md": "b876955420c27572e4b72a70d1bf2033d0f6fbafc4fc037a0fd77b09b8bb1bd6"
+      },
+      "svg_sha256": "b2e266b4184ee6da3bc34aa3643f7c8fdfc1005105279c20ba652e34d1b39bd7",
+      "png_sha256": "7af12ccc8e27a253e050f29be6aa8aa458209f6303f42e138dcef7dde353a69e"
+    },
+    {
+      "id": "T03_hhi_example",
+      "kind": "explicitly_hypothetical_example",
+      "source_files": [
+        "manuscript/chapter1_content.md"
+      ],
+      "source_sha256": {
+        "manuscript/chapter1_content.md": "b876955420c27572e4b72a70d1bf2033d0f6fbafc4fc037a0fd77b09b8bb1bd6"
+      },
+      "svg_sha256": "64d8406fe42961612b2b2c47e873b0a03112ca861df2f8a13f91c16f9caed96b",
+      "png_sha256": "4aa75e9d89789d5dad64579f6780b5085b465b51cc1758117368f902c2891feb"
+    },
+    {
+      "id": "N01_annual_scale",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_eu_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88"
+      },
+      "svg_sha256": "0d262123782ce79518292d9bc4b502f33253fd64a89acce9e246c1efebaf1da0",
+      "png_sha256": "36915d01eb3cfab002531dcbdba983fda3d31765c516c40c77d6b3de0874e007"
+    },
+    {
+      "id": "N02_monthly_value",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/panel.csv"
+      ],
+      "source_sha256": {
+        "results/full/panel.csv": "0721e201a0c9530cf9a5ea4b828efad322e68b2f3cf21e57f5873a66f625e175"
+      },
+      "svg_sha256": "9b38299461060f853b87037d6f6e4ff7eb752635fb21c024ee1055f38df20835",
+      "png_sha256": "2c841c5e95089c2d8e29e54bcf1a87001f5779f3aed76637f15356c218c84d0a"
+    },
+    {
+      "id": "N03_category_shares",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_eu_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88"
+      },
+      "svg_sha256": "39ff614f26e98a32f6ab16a5b52a6181458d725ee1a3a2e11837f86a29c7d5df",
+      "png_sha256": "9da2f9dcc67d47ede4a061f5796cc2dffc362ea09f1c47a8cfb64051ff3f7c09"
+    },
+    {
+      "id": "N04_customs_unit_values",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_eu_flows.csv",
+        "results/full/annual_member_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88",
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      },
+      "svg_sha256": "8ebc8294fbe950897e452aa84ff07a1968734b9330bf869a200640e55c5b2941",
+      "png_sha256": "8fe1d149dbca4995040a508e6354b5a7c07b6625fd60a05331f879b7220f8562"
+    },
+    {
+      "id": "N05_active_effective",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/entry_concentration.csv",
+        "results/full/annual_member_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/entry_concentration.csv": "876a65e224dcaaedd28d8120db0913c7ced09609db44db482bb1275b64d57158",
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      },
+      "svg_sha256": "f204a3a7756da04279819e9c5d86ded3a3bfd25c559596588905048610bae943",
+      "png_sha256": "3acd837d5c9d5216829db4995ee593c3a5dc6f3fb8058b67330fd1198aab5d66"
+    },
+    {
+      "id": "N06_largest_entries",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_member_flows.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_member_flows.csv": "1c87a121a70c22a68da26ec91ee61e7662cbd4168e639481a1c656b743e7dbd3"
+      },
+      "svg_sha256": "c89554f4049aeb8900facb424e0e84ecc4775788f4eb09765a03a44fe62bff6c",
+      "png_sha256": "a2d027ad115c94a9927a96b08e3672bd679bdb977db0f1222a30bba9368a2c9d"
+    },
+    {
+      "id": "N07_group_hhi",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/geography_focus/category_HHI_group_shapley.csv"
+      ],
+      "source_sha256": {
+        "results/geography_focus/category_HHI_group_shapley.csv": "e995f3e880739b9026d7e762ea84776fe611d14031b95e02a3cd7ab03dc7a30e"
+      },
+      "svg_sha256": "b50b46f6c193f00f5bf1c6a6d5ebc4866320b5d53cbd76ba8a916f23f7a9f53a",
+      "png_sha256": "e8cc3862a19d5da092d2c75f6e7f6a72359f45bd4c46baa2558c490c7ac95a26"
+    },
+    {
+      "id": "N08_all_phases",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/augmented/coefficients.csv"
+      ],
+      "source_sha256": {
+        "results/augmented/coefficients.csv": "2afecd8f111bb43d32ae97730775d5027adf9c39e318b4fcb77a4b6c64a4c719"
+      },
+      "svg_sha256": "7b9ec4b4dff204bd754a0d4a77f70282e6fdff10f86cd50b5c853bc81c74c71c",
+      "png_sha256": "cb01605dc8fccd0247583ee70eb50bd8f9516edec788a63107e6e5659860d662"
+    },
+    {
+      "id": "R01_transfer",
+      "kind": "fixed_scenarios_not_estimated_probabilities",
+      "source_files": [
+        "results/chapter3_application/scenario_transfer.csv"
+      ],
+      "source_sha256": {
+        "results/chapter3_application/scenario_transfer.csv": "1ff676a8d7e97105da1eefd08a42dbe291f9153d83f10cd20daf720dc9754573"
+      },
+      "svg_sha256": "5c280a0c057bd2e0abe962e6899300f04e36e5c66d0b148b8f210d56e2ffb6de",
+      "png_sha256": "2ea8ba4173c3df682690f310baf87e75a2726b6d2836a71448b5e4407d60e153"
+    },
+    {
+      "id": "R02_cost_boundary",
+      "kind": "normalized_theoretical_cost_criterion",
+      "source_files": [
+        "manuscript/chapter3_content.md"
+      ],
+      "source_sha256": {
+        "manuscript/chapter3_content.md": "8948c5a984943b52051d92ba157e79887cced1307a9b930c096e28a44ee6afc8"
+      },
+      "svg_sha256": "afe34f4b264686d17d4c0114962c4bbad8e6a99ec5ae623e4441a6d1b08cdedc",
+      "png_sha256": "f9fb9b5d4abd2246ad16b24d95f3fd0739e25d37db6dab4d649a98429857be26"
+    },
+    {
+      "id": "R03_import_registrations",
+      "kind": "observed_or_saved_results",
+      "source_files": [
+        "results/full/annual_eu_flows.csv",
+        "data/chapter3_public/acea_eu_bev_registrations.csv"
+      ],
+      "source_sha256": {
+        "results/full/annual_eu_flows.csv": "d63f849974a0c90b35a7b25e2e3bc2a7858f00679e5f4e069afeb2580e62cb88",
+        "data/chapter3_public/acea_eu_bev_registrations.csv": "38c6bedcc180f8578ab675439156f0f777250fb9ca208e8dd20ba2fc5578ec36"
+      },
+      "svg_sha256": "a286dcd769a179fcaf0cc9b7fb15636e41b766d6be7b81527a01c549ab3d2188",
+      "png_sha256": "9d1d6183b8d98a82bd2d33709af3d9ec423c4e1f1621aa7f0345df76658439b4"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "model": "rest_preferred_value",
+    "outcome": "value_eur",
+    "n": 8500,
+    "term": "PHEV__definitive",
+    "beta": 0.8383051335950785,
+    "multiplier": 2.3124443692974954,
+    "hac6_lo": 0.9710297171720024,
+    "hac6_hi": 5.506936468092135,
+    "hac12_lo": 0.9957279323059198,
+    "hac12_hi": 5.370341423195908
+  },
+  {
+    "model": "rest_no_trend_value",
+    "outcome": "value_eur",
+    "n": 8500,
+    "term": "PHEV__definitive",
+    "beta": 0.8162786858056328,
+    "multiplier": 2.262066295920174,
+    "hac6_lo": 1.7147575530852646,
+    "hac6_hi": 2.98406262618957,
+    "hac12_lo": 1.7243846955803803,
+    "hac12_hi": 2.96740277285736
+  },
+  {
+    "model": "rest_no_season_value",
+    "outcome": "value_eur",
+    "n": 8500,
+    "term": "PHEV__definitive",
+    "beta": 0.971733908123428,
+    "multiplier": 2.642522380381671,
+    "hac6_lo": 1.01203904448514,
+    "hac6_hi": 6.899856847292361,
+    "hac12_lo": 1.072801616477559,
+    "hac12_hi": 6.50905481830441
+  },
+  {
+    "model": "four_origin_augmented_value",
+    "outcome": "value_eur",
+    "n": 14733,
+    "term": "PHEV__definitive",
+    "beta": 0.7247363501570506,
+    "multiplier": 2.0641868056909507,
+    "hac6_lo": 0.9163224226823288,
+    "hac6_hi": 4.649964972281128,
+    "hac12_lo": 1.014302001543926,
+    "hac12_hi": 4.2007874994852665
+  },
+  {
+    "model": "rest_since2022_value",
+    "outcome": "value_eur",
+    "n": 6872,
+    "term": "PHEV__definitive",
+    "beta": 1.0558705734138458,
+    "multiplier": 2.874476507763663,
+    "hac6_lo": 0.918260168455382,
+    "hac6_hi": 8.998120007300157,
+    "hac12_lo": 1.0253088034992852,
+    "hac12_hi": 8.058660147543485
+  },
+  {
+    "model": "rest_exclude_BE_NL_value",
+    "outcome": "value_eur",
+    "n": 7780,
+    "term": "PHEV__definitive",
+    "beta": -0.6798205494069574,
+    "multiplier": 0.5067079132429738,
+    "hac6_lo": 0.2493415621687391,
+    "hac6_hi": 1.0297236734616044,
+    "hac12_lo": 0.2678414541943203,
+    "hac12_hi": 0.9586003410688382
+  },
+  {
+    "model": "rest_observed_only_value",
+    "outcome": "value_eur",
+    "n": 4545,
+    "term": "PHEV__definitive",
+    "beta": 0.8948372841580808,
+    "multiplier": 2.4469376015554887,
+    "hac6_lo": 0.9945139191702668,
+    "hac6_hi": 6.020532755239427,
+    "hac12_lo": 1.1059816608315316,
+    "hac12_hi": 5.4137458494604935
+  }
+]

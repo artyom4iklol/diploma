@@ -1,0 +1,86 @@
+[
+  {
+    "model": "rest_preferred_value",
+    "outcome": "value_eur",
+    "n": 8500,
+    "term": "HEV__definitive",
+    "beta": 2.8360014043100605,
+    "multiplier": 17.04746315864306,
+    "hac6_lo": 3.6154106280318703,
+    "hac6_hi": 80.38257062476346,
+    "hac12_lo": 3.6817532771383936,
+    "hac12_hi": 78.9341322651503
+  },
+  {
+    "model": "rest_no_trend_value",
+    "outcome": "value_eur",
+    "n": 8500,
+    "term": "HEV__definitive",
+    "beta": 4.123614191606317,
+    "multiplier": 61.78213170105519,
+    "hac6_lo": 22.861893005451883,
+    "hac6_hi": 166.96044359127558,
+    "hac12_lo": 24.894371429693237,
+    "hac12_hi": 153.32910928506874
+  },
+  {
+    "model": "rest_no_season_value",
+    "outcome": "value_eur",
+    "n": 8500,
+    "term": "HEV__definitive",
+    "beta": 3.175167614960854,
+    "multiplier": 23.93083069747882,
+    "hac6_lo": 4.451793152321812,
+    "hac6_hi": 128.64134479669465,
+    "hac12_lo": 5.104469628001674,
+    "hac12_hi": 112.19278389468886
+  },
+  {
+    "model": "four_origin_augmented_value",
+    "outcome": "value_eur",
+    "n": 14733,
+    "term": "HEV__definitive",
+    "beta": 2.17480325419131,
+    "multiplier": 8.800453499507842,
+    "hac6_lo": 1.914760699944068,
+    "hac6_hi": 40.44786473801252,
+    "hac12_lo": 2.1277232066796388,
+    "hac12_hi": 36.39946284077955
+  },
+  {
+    "model": "rest_since2022_value",
+    "outcome": "value_eur",
+    "n": 6872,
+    "term": "HEV__definitive",
+    "beta": 2.7037642043344667,
+    "multiplier": 14.935847625124854,
+    "hac6_lo": 2.2366696100112566,
+    "hac6_hi": 99.7373699192994,
+    "hac12_lo": 2.3277769269383426,
+    "hac12_hi": 95.83372946923988
+  },
+  {
+    "model": "rest_exclude_BE_NL_value",
+    "outcome": "value_eur",
+    "n": 7780,
+    "term": "HEV__definitive",
+    "beta": 3.3955574978759326,
+    "multiplier": 29.831279715038164,
+    "hac6_lo": 10.889172655929068,
+    "hac6_hi": 81.72386255188093,
+    "hac12_lo": 14.029471849351276,
+    "hac12_hi": 63.43112976686978
+  },
+  {
+    "model": "rest_observed_only_value",
+    "outcome": "value_eur",
+    "n": 4545,
+    "term": "HEV__definitive",
+    "beta": 1.9150794358883505,
+    "multiplier": 6.787477944925395,
+    "hac6_lo": 2.0398146818644376,
+    "hac6_hi": 22.585314863377565,
+    "hac12_lo": 2.0519738579885254,
+    "hac12_hi": 22.45148332348115
+  }
+]

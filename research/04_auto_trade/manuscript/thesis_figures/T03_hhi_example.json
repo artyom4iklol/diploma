@@ -1,0 +1,14 @@
+[
+  {
+    "basket": "80 / 20",
+    "country_A": 80,
+    "country_B": 20,
+    "HHI": 0.68
+  },
+  {
+    "basket": "50 / 50",
+    "country_A": 50,
+    "country_B": 50,
+    "HHI": 0.5
+  }
+]

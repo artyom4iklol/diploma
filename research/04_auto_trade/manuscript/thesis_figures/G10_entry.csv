@@ -1,0 +1,4 @@
+category,start,end,outcome,total_start,total_end,change,continuing_country_change,new_positive_country_component,exited_country_component,active_countries_start,active_countries_end,new_countries,exited_countries,identity_error,new_country_fraction_of_net_change
+BEV,2023,2025,quantity,491165.0,430616.0,-60549.0,-60549.0,0.0,-0.0,26,26,,,0.0,-0.0
+PHEV,2023,2025,quantity,38931.0,171348.0,132417.0,118810.0,13607.0,-0.0,14,21,"DK,FI,IE,LT,MT,PL,RO",,0.0,0.1027587092291775
+HEV,2023,2025,quantity,7028.0,130347.0,123319.0,113282.0,10043.0,-6.0,15,22,"AT,CZ,HU,LV,MT,NL,PT,RO",SK,0.0,0.0814391942847412

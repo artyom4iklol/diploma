@@ -1,0 +1,182 @@
+[
+  {
+    "category": "BEV",
+    "year": 2021,
+    "outcome": "quantity",
+    "share_pct": 52.186317248960115
+  },
+  {
+    "category": "BEV",
+    "year": 2022,
+    "outcome": "quantity",
+    "share_pct": 64.2081145477768
+  },
+  {
+    "category": "BEV",
+    "year": 2023,
+    "outcome": "quantity",
+    "share_pct": 58.429592795707876
+  },
+  {
+    "category": "BEV",
+    "year": 2024,
+    "outcome": "quantity",
+    "share_pct": 66.80821367973581
+  },
+  {
+    "category": "BEV",
+    "year": 2025,
+    "outcome": "quantity",
+    "share_pct": 58.92246770057662
+  },
+  {
+    "category": "PHEV",
+    "year": 2021,
+    "outcome": "quantity",
+    "share_pct": 15.056862138325855
+  },
+  {
+    "category": "PHEV",
+    "year": 2022,
+    "outcome": "quantity",
+    "share_pct": 27.144047026385326
+  },
+  {
+    "category": "PHEV",
+    "year": 2023,
+    "outcome": "quantity",
+    "share_pct": 18.287510040726595
+  },
+  {
+    "category": "PHEV",
+    "year": 2024,
+    "outcome": "quantity",
+    "share_pct": 21.335958557529484
+  },
+  {
+    "category": "PHEV",
+    "year": 2025,
+    "outcome": "quantity",
+    "share_pct": 45.4464198094066
+  },
+  {
+    "category": "HEV",
+    "year": 2021,
+    "outcome": "quantity",
+    "share_pct": 0.5355378223587041
+  },
+  {
+    "category": "HEV",
+    "year": 2022,
+    "outcome": "quantity",
+    "share_pct": 0.07423619687090063
+  },
+  {
+    "category": "HEV",
+    "year": 2023,
+    "outcome": "quantity",
+    "share_pct": 1.054571209065591
+  },
+  {
+    "category": "HEV",
+    "year": 2024,
+    "outcome": "quantity",
+    "share_pct": 8.153166616850985
+  },
+  {
+    "category": "HEV",
+    "year": 2025,
+    "outcome": "quantity",
+    "share_pct": 16.755060697520168
+  },
+  {
+    "category": "BEV",
+    "year": 2021,
+    "outcome": "value_eur",
+    "share_pct": 38.759794167386005
+  },
+  {
+    "category": "BEV",
+    "year": 2022,
+    "outcome": "value_eur",
+    "share_pct": 58.40703735535403
+  },
+  {
+    "category": "BEV",
+    "year": 2023,
+    "outcome": "value_eur",
+    "share_pct": 48.807423091439375
+  },
+  {
+    "category": "BEV",
+    "year": 2024,
+    "outcome": "value_eur",
+    "share_pct": 56.230361091392524
+  },
+  {
+    "category": "BEV",
+    "year": 2025,
+    "outcome": "value_eur",
+    "share_pct": 42.82014801919357
+  },
+  {
+    "category": "PHEV",
+    "year": 2021,
+    "outcome": "value_eur",
+    "share_pct": 12.955522704545071
+  },
+  {
+    "category": "PHEV",
+    "year": 2022,
+    "outcome": "value_eur",
+    "share_pct": 21.410749075836762
+  },
+  {
+    "category": "PHEV",
+    "year": 2023,
+    "outcome": "value_eur",
+    "share_pct": 12.765607232402596
+  },
+  {
+    "category": "PHEV",
+    "year": 2024,
+    "outcome": "value_eur",
+    "share_pct": 13.68819334320142
+  },
+  {
+    "category": "PHEV",
+    "year": 2025,
+    "outcome": "value_eur",
+    "share_pct": 29.552234150879432
+  },
+  {
+    "category": "HEV",
+    "year": 2021,
+    "outcome": "value_eur",
+    "share_pct": 0.40705849533084926
+  },
+  {
+    "category": "HEV",
+    "year": 2022,
+    "outcome": "value_eur",
+    "share_pct": 0.050868455919208654
+  },
+  {
+    "category": "HEV",
+    "year": 2023,
+    "outcome": "value_eur",
+    "share_pct": 1.3677321117649675
+  },
+  {
+    "category": "HEV",
+    "year": 2024,
+    "outcome": "value_eur",
+    "share_pct": 6.886504932618934
+  },
+  {
+    "category": "HEV",
+    "year": 2025,
+    "outcome": "value_eur",
+    "share_pct": 11.827272996432752
+  }
+]

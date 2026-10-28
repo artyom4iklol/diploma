@@ -1,0 +1,86 @@
+[
+  {
+    "model": "rest_preferred_quantity",
+    "outcome": "quantity",
+    "n": 8500,
+    "term": "PHEV__definitive",
+    "beta": 0.4124018776360253,
+    "multiplier": 1.5104413269625248,
+    "hac6_lo": 0.7083677689161642,
+    "hac6_hi": 3.220690017682499,
+    "hac12_lo": 0.7481034444791256,
+    "hac12_hi": 3.049622373794554
+  },
+  {
+    "model": "rest_no_trend_quantity",
+    "outcome": "quantity",
+    "n": 8500,
+    "term": "PHEV__definitive",
+    "beta": 0.9097939668280172,
+    "multiplier": 2.483810733258747,
+    "hac6_lo": 1.834844810115388,
+    "hac6_hi": 3.3623092943012365,
+    "hac12_lo": 1.8193696662748016,
+    "hac12_hi": 3.390908331061252
+  },
+  {
+    "model": "rest_no_season_quantity",
+    "outcome": "quantity",
+    "n": 8500,
+    "term": "PHEV__definitive",
+    "beta": 0.5705940966277611,
+    "multiplier": 1.7693178850434172,
+    "hac6_lo": 0.6824763992865339,
+    "hac6_hi": 4.586950965054828,
+    "hac12_lo": 0.7717103068719184,
+    "hac12_hi": 4.056555614792482
+  },
+  {
+    "model": "four_origin_augmented_quantity",
+    "outcome": "quantity",
+    "n": 14733,
+    "term": "PHEV__definitive",
+    "beta": 0.7183678168008588,
+    "multiplier": 2.051082734313117,
+    "hac6_lo": 1.0808144233714354,
+    "hac6_hi": 3.892379942409045,
+    "hac12_lo": 1.2143041255666218,
+    "hac12_hi": 3.4644866095915794
+  },
+  {
+    "model": "rest_since2022_quantity",
+    "outcome": "quantity",
+    "n": 6872,
+    "term": "PHEV__definitive",
+    "beta": 0.7162003271493868,
+    "multiplier": 2.046641848238097,
+    "hac6_lo": 0.8007960108161012,
+    "hac6_hi": 5.230723927671234,
+    "hac12_lo": 0.90111041919932,
+    "hac12_hi": 4.648423506945299
+  },
+  {
+    "model": "rest_exclude_BE_NL_quantity",
+    "outcome": "quantity",
+    "n": 7780,
+    "term": "PHEV__definitive",
+    "beta": -0.2022174183278504,
+    "multiplier": 0.8169172958402453,
+    "hac6_lo": 0.3550654432276287,
+    "hac6_hi": 1.879523566631928,
+    "hac12_lo": 0.3889060532083247,
+    "hac12_hi": 1.7159770662799598
+  },
+  {
+    "model": "rest_observed_only_quantity",
+    "outcome": "quantity",
+    "n": 4545,
+    "term": "PHEV__definitive",
+    "beta": 0.4544679906009122,
+    "multiplier": 1.5753350669954036,
+    "hac6_lo": 0.6943725183574743,
+    "hac6_hi": 3.573990196466565,
+    "hac12_lo": 0.7998659450650825,
+    "hac12_hi": 3.102620618638148
+  }
+]

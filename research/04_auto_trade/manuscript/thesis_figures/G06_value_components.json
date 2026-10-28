@@ -1,0 +1,54 @@
+[
+  {
+    "start": 2023,
+    "end": 2025,
+    "value_change_eur": -545539787.0,
+    "quantity_component_eur": 4548955409.162208,
+    "within_CN8_customs_unit_value_component_eur": -5094495196.162207,
+    "identity_error_eur": -9.5367431640625e-07,
+    "by_category": [
+      {
+        "category": "BEV",
+        "quantity_component_eur": -1125788181.2665038,
+        "unit_value_component_eur": -3557329981.733496
+      },
+      {
+        "category": "PHEV",
+        "quantity_component_eur": 3190897031.6232104,
+        "unit_value_component_eur": -678555363.6232101
+      },
+      {
+        "category": "HEV",
+        "quantity_component_eur": 2483846558.805501,
+        "unit_value_component_eur": -858609850.8055007
+      }
+    ],
+    "interpretation": "Symmetric two-factor accounting V=sum(q*u). Unit customs value includes model/quality mix, transfer valuation and valuation changes; not a constant-quality price or tariff pass-through effect."
+  },
+  {
+    "start": 2024,
+    "end": 2025,
+    "value_change_eur": 629014251.0,
+    "quantity_component_eur": 3884792722.6387863,
+    "within_CN8_customs_unit_value_component_eur": -3255778471.6387854,
+    "identity_error_eur": -9.5367431640625e-07,
+    "by_category": [
+      {
+        "category": "BEV",
+        "quantity_component_eur": -153779354.47491083,
+        "unit_value_component_eur": -2379678957.5250883
+      },
+      {
+        "category": "PHEV",
+        "quantity_component_eur": 2982390356.58451,
+        "unit_value_component_eur": -490298407.5845097
+      },
+      {
+        "category": "HEV",
+        "quantity_component_eur": 1056181720.5291871,
+        "unit_value_component_eur": -385801106.52918714
+      }
+    ],
+    "interpretation": "Symmetric two-factor accounting V=sum(q*u). Unit customs value includes model/quality mix, transfer valuation and valuation changes; not a constant-quality price or tariff pass-through effect."
+  }
+]

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="409.32pt" height="284.832pt" viewBox="0 0 409.32 284.832" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 284.832 
+L 409.32 284.832 
+L 409.32 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 115.9938 62.5824 
+L 199.5822 62.5824 
+Q 202.707 62.5824 202.707 60.453504 
+L 202.707 27.455616 
+Q 202.707 25.32672 199.5822 25.32672 
+L 115.9938 25.32672 
+Q 112.869 25.32672 112.869 27.455616 
+L 112.869 60.453504 
+Q 112.869 62.5824 115.9938 62.5824 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 211.6908 62.5824 
+L 295.2792 62.5824 
+Q 298.404 62.5824 298.404 60.453504 
+L 298.404 27.455616 
+Q 298.404 25.32672 295.2792 25.32672 
+L 211.6908 25.32672 
+Q 208.566 25.32672 208.566 27.455616 
+L 208.566 60.453504 
+Q 208.566 62.5824 211.6908 62.5824 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 307.3878 62.5824 
+L 390.9762 62.5824 
+Q 394.101 62.5824 394.101 60.453504 
+L 394.101 27.455616 
+Q 394.101 25.32672 390.9762 25.32672 
+L 307.3878 25.32672 
+Q 304.263 25.32672 304.263 27.455616 
+L 304.263 60.453504 
+Q 304.263 62.5824 307.3878 62.5824 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 115.9938 127.11456 
+L 199.5822 127.11456 
+Q 202.707 127.11456 202.707 124.985664 
+L 202.707 80.012736 
+Q 202.707 77.88384 199.5822 77.88384 
+L 115.9938 77.88384 
+Q 112.869 77.88384 112.869 80.012736 
+L 112.869 124.985664 
+Q 112.869 127.11456 115.9938 127.11456 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 211.6908 127.11456 
+L 295.2792 127.11456 
+Q 298.404 127.11456 298.404 124.985664 
+L 298.404 80.012736 
+Q 298.404 77.88384 295.2792 77.88384 
+L 211.6908 77.88384 
+Q 208.566 77.88384 208.566 80.012736 
+L 208.566 124.985664 
+Q 208.566 127.11456 211.6908 127.11456 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 307.3878 127.11456 
+L 390.9762 127.11456 
+Q 394.101 127.11456 394.101 124.985664 
+L 394.101 80.012736 
+Q 394.101 77.88384 390.9762 77.88384 
+L 307.3878 77.88384 
+Q 304.263 77.88384 304.263 80.012736 
+L 304.263 124.985664 
+Q 304.263 127.11456 307.3878 127.11456 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 115.9938 186.98976 
+L 199.5822 186.98976 
+Q 202.707 186.98976 202.707 184.860864 
+L 202.707 139.887936 
+Q 202.707 137.75904 199.5822 137.75904 
+L 115.9938 137.75904 
+Q 112.869 137.75904 112.869 139.887936 
+L 112.869 184.860864 
+Q 112.869 186.98976 115.9938 186.98976 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 211.6908 186.98976 
+L 295.2792 186.98976 
+Q 298.404 186.98976 298.404 184.860864 
+L 298.404 139.887936 
+Q 298.404 137.75904 295.2792 137.75904 
+L 211.6908 137.75904 
+Q 208.566 137.75904 208.566 139.887936 
+L 208.566 184.860864 
+Q 208.566 186.98976 211.6908 186.98976 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 307.3878 186.98976 
+L 390.9762 186.98976 
+Q 394.101 186.98976 394.101 184.860864 
+L 394.101 139.887936 
+Q 394.101 137.75904 390.9762 137.75904 
+L 307.3878 137.75904 
+Q 304.263 137.75904 304.263 139.887936 
+L 304.263 184.860864 
+Q 304.263 186.98976 307.3878 186.98976 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 115.9938 246.86496 
+L 199.5822 246.86496 
+Q 202.707 246.86496 202.707 244.736064 
+L 202.707 199.763136 
+Q 202.707 197.63424 199.5822 197.63424 
+L 115.9938 197.63424 
+Q 112.869 197.63424 112.869 199.763136 
+L 112.869 244.736064 
+Q 112.869 246.86496 115.9938 246.86496 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 211.6908 246.86496 
+L 295.2792 246.86496 
+Q 298.404 246.86496 298.404 244.736064 
+L 298.404 199.763136 
+Q 298.404 197.63424 295.2792 197.63424 
+L 211.6908 197.63424 
+Q 208.566 197.63424 208.566 199.763136 
+L 208.566 244.736064 
+Q 208.566 246.86496 211.6908 246.86496 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 307.3878 246.86496 
+L 390.9762 246.86496 
+Q 394.101 246.86496 394.101 244.736064 
+L 394.101 199.763136 
+Q 394.101 197.63424 390.9762 197.63424 
+L 307.3878 197.63424 
+Q 304.263 197.63424 304.263 199.763136 
+L 304.263 244.736064 
+Q 304.263 246.86496 307.3878 246.86496 
+z
+" clip-path="url(#p5e99e2221f)" style="fill: #f1f5fa; stroke: #c3cfe0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9.5px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(128.405539 40.498638)">1. Эталонная</text>
+    <text style="font-size: 9.5px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(142.346789 52.265873)">основа</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(217.419141 40.51274)">2. Исторический</text>
+    <text style="font-size: 9.5px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(240.669648 52.279974)">пилот</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(318.094734 40.498638)">3. Регулярное</text>
+    <text style="font-size: 9.5px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(322.706688 52.265873)">обновление</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.1px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(15.219 99.188791)">Аналитическое</text>
+    <text style="font-size: 9.1px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(15.219 110.460563)">подразделение</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(136.530422 99.225169)">Паспорт и</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(137.876203 110.373075)">формулы</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(238.338984 99.453966)">Разбор</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(225.828281 110.639278)">расхождений</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(321.850125 99.206466)">Обновление,</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(317.885203 110.391778)">журнал версий</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.1px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(15.219 159.063991)">Подразделение</text>
+    <text style="font-size: 9.1px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(15.219 170.335762)">поставок</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(129.516047 159.153806)">Сверка своих</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(139.172766 170.301712)">поставок</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(233.380547 159.100369)">Проверка</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(226.999688 170.248275)">альтернатив</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(329.445281 159.100369)">Каналы и</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(334.192781 170.248275)">запасы</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.1px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(15.219 218.993222)">Оценка торговой</text>
+    <text style="font-size: 9.1px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(15.219 230.264994)">политики</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(130.267688 218.975569)">Цель и охват</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(131.081203 230.123475)">инструмента</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(221.774766 218.975569)">Модели, рынок</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(235.183359 230.123475)">и выпуск</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(323.100984 218.975569)">Обновление</text>
+    <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #203653" transform="translate(322.043484 230.123475)">оценки меры</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5e99e2221f">
+   <rect x="9.36" y="9.36" width="390.6" height="266.112"/>
+  </clipPath>
+ </defs>
+</svg>

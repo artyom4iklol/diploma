@@ -123,8 +123,20 @@
     "title_inside_chart": false,
     "captions": "outside graphic in document",
     "sources": "outside graphic in document",
-    "palette": "consistent with previously approved charts; grayscale-readable",
-    "arrows": "connect to block edges, avoid overlaps"
+    "palette": {
+      "navy": "#0b2f73",
+      "red": "#e31b2d",
+      "teal": "#338c86",
+      "purple": "#8976ac"
+    },
+    "arrows": "orthogonal connectors at block boundaries; no overlap with labels",
+    "background": "FFFFFF",
+    "font": "Nimbus Sans (Arial-compatible)",
+    "grid": "thin, #dbe4ef",
+    "reference_documents": [
+      "Diploma_Chip_Trade.docx v5",
+      "Diploma_Growth_at_Risk.docx v1"
+    ]
   },
   "equations": {
     "preferred": "editable native OMML, verify after render",

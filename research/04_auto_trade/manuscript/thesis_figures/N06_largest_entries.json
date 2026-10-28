@@ -1,0 +1,107 @@
+[
+  {
+    "category": "BEV",
+    "country_group": "Бельгия",
+    "share_pct": 43.41594367139168
+  },
+  {
+    "category": "BEV",
+    "country_group": "Германия",
+    "share_pct": 11.0434818957029
+  },
+  {
+    "category": "BEV",
+    "country_group": "Испания",
+    "share_pct": 10.549538335779442
+  },
+  {
+    "category": "BEV",
+    "country_group": "Нидерланды",
+    "share_pct": 9.708882159511026
+  },
+  {
+    "category": "BEV",
+    "country_group": "Италия",
+    "share_pct": 5.228788526204322
+  },
+  {
+    "category": "BEV",
+    "country_group": "Словения",
+    "share_pct": 5.219731733145076
+  },
+  {
+    "category": "BEV",
+    "country_group": "Остальные 21 страна",
+    "share_pct": 14.833633678265553
+  },
+  {
+    "category": "PHEV",
+    "country_group": "Бельгия",
+    "share_pct": 40.40607418820179
+  },
+  {
+    "category": "PHEV",
+    "country_group": "Испания",
+    "share_pct": 26.270513808156498
+  },
+  {
+    "category": "PHEV",
+    "country_group": "Италия",
+    "share_pct": 12.544062375983378
+  },
+  {
+    "category": "PHEV",
+    "country_group": "Польша",
+    "share_pct": 7.221560800242781
+  },
+  {
+    "category": "PHEV",
+    "country_group": "Германия",
+    "share_pct": 5.9586338912622265
+  },
+  {
+    "category": "PHEV",
+    "country_group": "Венгрия",
+    "share_pct": 3.1789107547213855
+  },
+  {
+    "category": "PHEV",
+    "country_group": "Остальные 21 страна",
+    "share_pct": 4.42024418143194
+  },
+  {
+    "category": "HEV",
+    "country_group": "Испания",
+    "share_pct": 25.577880580297208
+  },
+  {
+    "category": "HEV",
+    "country_group": "Италия",
+    "share_pct": 25.145189379118815
+  },
+  {
+    "category": "HEV",
+    "country_group": "Франция",
+    "share_pct": 11.594436389023146
+  },
+  {
+    "category": "HEV",
+    "country_group": "Польша",
+    "share_pct": 9.117969726959577
+  },
+  {
+    "category": "HEV",
+    "country_group": "Германия",
+    "share_pct": 8.87937581992681
+  },
+  {
+    "category": "HEV",
+    "country_group": "Нидерланды",
+    "share_pct": 5.68098997291844
+  },
+  {
+    "category": "HEV",
+    "country_group": "Остальные 21 страна",
+    "share_pct": 14.004158131756006
+  }
+]

@@ -1,0 +1,356 @@
+{
+  "pooled": [
+    {
+      "year": 2021,
+      "outcome": "quantity",
+      "HHI": 0.15639813317805992
+    },
+    {
+      "year": 2021,
+      "outcome": "value_eur",
+      "HHI": 0.2419619177537188
+    },
+    {
+      "year": 2022,
+      "outcome": "quantity",
+      "HHI": 0.36858514332213427
+    },
+    {
+      "year": 2022,
+      "outcome": "value_eur",
+      "HHI": 0.4463985670727493
+    },
+    {
+      "year": 2023,
+      "outcome": "quantity",
+      "HHI": 0.2404879855958408
+    },
+    {
+      "year": 2023,
+      "outcome": "value_eur",
+      "HHI": 0.2967085900696996
+    },
+    {
+      "year": 2024,
+      "outcome": "quantity",
+      "HHI": 0.2624426124056206
+    },
+    {
+      "year": 2024,
+      "outcome": "value_eur",
+      "HHI": 0.3630564629861895
+    },
+    {
+      "year": 2025,
+      "outcome": "quantity",
+      "HHI": 0.18731952021640702
+    },
+    {
+      "year": 2025,
+      "outcome": "value_eur",
+      "HHI": 0.2562123036393232
+    }
+  ],
+  "categories": [
+    {
+      "year": 2021,
+      "category": "BEV",
+      "outcome": "quantity",
+      "china_total": 208894,
+      "BE_NL_total": 88675,
+      "BE_NL_share_pct": 42.44975920801938,
+      "entry_HHI": 0.1544529203214347,
+      "effective_entry_countries": 6.474464826685582
+    },
+    {
+      "year": 2021,
+      "category": "BEV",
+      "outcome": "value_eur",
+      "china_total": 3497615303,
+      "BE_NL_total": 1989317153,
+      "BE_NL_share_pct": 56.87638521291088,
+      "entry_HHI": 0.2466911523485736,
+      "effective_entry_countries": 4.05365166314114
+    },
+    {
+      "year": 2021,
+      "category": "PHEV",
+      "outcome": "quantity",
+      "china_total": 23355,
+      "BE_NL_total": 23033,
+      "BE_NL_share_pct": 98.62128023977736,
+      "entry_HHI": 0.9336490453102978,
+      "effective_entry_countries": 1.0710662695184896
+    },
+    {
+      "year": 2021,
+      "category": "PHEV",
+      "outcome": "value_eur",
+      "china_total": 596793341,
+      "BE_NL_total": 590954168,
+      "BE_NL_share_pct": 99.0215753764585,
+      "entry_HHI": 0.9531061730981988,
+      "effective_entry_countries": 1.049201052543146
+    },
+    {
+      "year": 2021,
+      "category": "HEV",
+      "outcome": "quantity",
+      "china_total": 2520,
+      "BE_NL_total": 1676,
+      "BE_NL_share_pct": 66.5079365079365,
+      "entry_HHI": 0.5327434492315445,
+      "effective_entry_countries": 1.8770761075381583
+    },
+    {
+      "year": 2021,
+      "category": "HEV",
+      "outcome": "value_eur",
+      "china_total": 36383575,
+      "BE_NL_total": 35237332,
+      "BE_NL_share_pct": 96.84955917608428,
+      "entry_HHI": 0.937762526614476,
+      "effective_entry_countries": 1.0663680533388495
+    },
+    {
+      "year": 2022,
+      "category": "BEV",
+      "outcome": "quantity",
+      "china_total": 343855,
+      "BE_NL_total": 183896,
+      "BE_NL_share_pct": 53.48068226432653,
+      "entry_HHI": 0.3081746263043249,
+      "effective_entry_countries": 3.244913482956549
+    },
+    {
+      "year": 2022,
+      "category": "BEV",
+      "outcome": "value_eur",
+      "china_total": 8134119023,
+      "BE_NL_total": 4835494078,
+      "BE_NL_share_pct": 59.447053384972335,
+      "entry_HHI": 0.3857533917392083,
+      "effective_entry_countries": 2.592329766671392
+    },
+    {
+      "year": 2022,
+      "category": "PHEV",
+      "outcome": "quantity",
+      "china_total": 56705,
+      "BE_NL_total": 55295,
+      "BE_NL_share_pct": 97.5134467859977,
+      "entry_HHI": 0.9512044748910924,
+      "effective_entry_countries": 1.051298670682236
+    },
+    {
+      "year": 2022,
+      "category": "PHEV",
+      "outcome": "value_eur",
+      "china_total": 1446199222,
+      "BE_NL_total": 1413343764,
+      "BE_NL_share_pct": 97.72815131551772,
+      "entry_HHI": 0.9553052305838168,
+      "effective_entry_countries": 1.0467858522965154
+    },
+    {
+      "year": 2022,
+      "category": "HEV",
+      "outcome": "quantity",
+      "china_total": 425,
+      "BE_NL_total": 0,
+      "BE_NL_share_pct": 0.0,
+      "entry_HHI": 0.3996401384083046,
+      "effective_entry_countries": 2.50225116021334
+    },
+    {
+      "year": 2022,
+      "category": "HEV",
+      "outcome": "value_eur",
+      "china_total": 5920986,
+      "BE_NL_total": 0,
+      "BE_NL_share_pct": 0.0,
+      "entry_HHI": 0.3967777215358046,
+      "effective_entry_countries": 2.520302793537166
+    },
+    {
+      "year": 2023,
+      "category": "BEV",
+      "outcome": "quantity",
+      "china_total": 491165,
+      "BE_NL_total": 241046,
+      "BE_NL_share_pct": 49.07637962802724,
+      "entry_HHI": 0.2136525474842087,
+      "effective_entry_countries": 4.680496496649126
+    },
+    {
+      "year": 2023,
+      "category": "BEV",
+      "outcome": "value_eur",
+      "china_total": 11027736012,
+      "BE_NL_total": 5918472472,
+      "BE_NL_share_pct": 53.66897126989368,
+      "entry_HHI": 0.2648846658721653,
+      "effective_entry_countries": 3.7752279721718778
+    },
+    {
+      "year": 2023,
+      "category": "PHEV",
+      "outcome": "quantity",
+      "china_total": 38931,
+      "BE_NL_total": 34430,
+      "BE_NL_share_pct": 88.43851943181527,
+      "entry_HHI": 0.7865061647751277,
+      "effective_entry_countries": 1.2714458510136573
+    },
+    {
+      "year": 2023,
+      "category": "PHEV",
+      "outcome": "value_eur",
+      "china_total": 1063760980,
+      "BE_NL_total": 947926469,
+      "BE_NL_share_pct": 89.11085166895293,
+      "entry_HHI": 0.7975286180964443,
+      "effective_entry_countries": 1.253873500347634
+    },
+    {
+      "year": 2023,
+      "category": "HEV",
+      "outcome": "quantity",
+      "china_total": 7028,
+      "BE_NL_total": 6739,
+      "BE_NL_share_pct": 95.88787706317586,
+      "entry_HHI": 0.9197624090190986,
+      "effective_entry_countries": 1.0872373019315635
+    },
+    {
+      "year": 2023,
+      "category": "HEV",
+      "outcome": "value_eur",
+      "china_total": 185481250,
+      "BE_NL_total": 176401646,
+      "BE_NL_share_pct": 95.10483997708664,
+      "entry_HHI": 0.9048810074009854,
+      "effective_entry_countries": 1.105117680469631
+    },
+    {
+      "year": 2024,
+      "category": "BEV",
+      "outcome": "quantity",
+      "china_total": 439419,
+      "BE_NL_total": 232618,
+      "BE_NL_share_pct": 52.93762900557327,
+      "entry_HHI": 0.2641273169345095,
+      "effective_entry_countries": 3.78605292177314
+    },
+    {
+      "year": 2024,
+      "category": "BEV",
+      "outcome": "value_eur",
+      "china_total": 8878076161,
+      "BE_NL_total": 5241065404,
+      "BE_NL_share_pct": 59.033796387365776,
+      "entry_HHI": 0.3650891438313146,
+      "effective_entry_countries": 2.739057068380097
+    },
+    {
+      "year": 2024,
+      "category": "PHEV",
+      "outcome": "quantity",
+      "china_total": 42587,
+      "BE_NL_total": 27794,
+      "BE_NL_share_pct": 65.26404771409116,
+      "entry_HHI": 0.4171062054167883,
+      "effective_entry_countries": 2.397470924703128
+    },
+    {
+      "year": 2024,
+      "category": "PHEV",
+      "outcome": "value_eur",
+      "china_total": 1084010699,
+      "BE_NL_total": 753779835,
+      "BE_NL_share_pct": 69.53619883045084,
+      "entry_HHI": 0.4726687197025335,
+      "effective_entry_countries": 2.1156466639665386
+    },
+    {
+      "year": 2024,
+      "category": "HEV",
+      "outcome": "quantity",
+      "china_total": 63830,
+      "BE_NL_total": 23561,
+      "BE_NL_share_pct": 36.912110292965686,
+      "entry_HHI": 0.2037985185513896,
+      "effective_entry_countries": 4.906807012671394
+    },
+    {
+      "year": 2024,
+      "category": "HEV",
+      "outcome": "value_eur",
+      "china_total": 1140337344,
+      "BE_NL_total": 573271982,
+      "BE_NL_share_pct": 50.27213964502069,
+      "entry_HHI": 0.2826536307905556,
+      "effective_entry_countries": 3.5378990080654336
+    },
+    {
+      "year": 2025,
+      "category": "BEV",
+      "outcome": "quantity",
+      "china_total": 430616,
+      "BE_NL_total": 228764,
+      "BE_NL_share_pct": 53.12482583090271,
+      "entry_HHI": 0.2302982025752783,
+      "effective_entry_countries": 4.342196286456585
+    },
+    {
+      "year": 2025,
+      "category": "BEV",
+      "outcome": "value_eur",
+      "china_total": 6344617849,
+      "BE_NL_total": 3741382423,
+      "BE_NL_share_pct": 58.96938967868165,
+      "entry_HHI": 0.3723167950625625,
+      "effective_entry_countries": 2.685884744554605
+    },
+    {
+      "year": 2025,
+      "category": "PHEV",
+      "outcome": "quantity",
+      "china_total": 171348,
+      "BE_NL_total": 70246,
+      "BE_NL_share_pct": 40.99610150103882,
+      "entry_HHI": 0.2580573309028509,
+      "effective_entry_countries": 3.8751078936659353
+    },
+    {
+      "year": 2025,
+      "category": "PHEV",
+      "outcome": "value_eur",
+      "china_total": 3576102648,
+      "BE_NL_total": 1474251716,
+      "BE_NL_share_pct": 41.22509505773001,
+      "entry_HHI": 0.2595586705977687,
+      "effective_entry_countries": 3.852693488131143
+    },
+    {
+      "year": 2025,
+      "category": "HEV",
+      "outcome": "quantity",
+      "china_total": 130347,
+      "BE_NL_total": 13628,
+      "BE_NL_share_pct": 10.455169662516203,
+      "entry_HHI": 0.166382085758715,
+      "effective_entry_countries": 6.010262435645781
+    },
+    {
+      "year": 2025,
+      "category": "HEV",
+      "outcome": "value_eur",
+      "china_total": 1810717958,
+      "BE_NL_total": 213463365,
+      "BE_NL_share_pct": 11.788879878110755,
+      "entry_HHI": 0.1587577511390972,
+      "effective_entry_countries": 6.298905047627185
+    }
+  ]
+}

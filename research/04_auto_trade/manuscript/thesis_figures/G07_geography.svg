@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="501.622624pt" height="588.71952pt" viewBox="0 0 501.622624 588.71952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 588.71952 
+L 501.622624 588.71952 
+L 501.622624 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 70.080156 554.000645 
+L 433.319808 554.000645 
+L 433.319808 9.36 
+L 70.080156 9.36 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p13c7cf2a9d)">
+    <image xlink:href="data:image/png;base64,
+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xCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgIx127bRG2Bqy7KMngAAAAD8j1x2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkCF2AQAAAJAhdgEAAACQIXYBAAAAkLEuyzJ6AwAAAAA8CpddAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkiF0AAAAAZIhdAAAAAGSIXQAAAABkrMfjafQGmNr9w3H0BJje9dU6egJM799fvB49Aab3u3dfjJ4A0/vHx/8cPQGm57ILAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACAjPXTf70cvQGm9s7bN6MnwPTO29XoCTC9zz7/evQEmN57v/3V6AkwvW30APgRcNkFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAhtgFAAAAQIbYBQAAAECG2AUAAABAxnJ7d9hGjwAAAACAx+CyCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgAyxCwAAAIAMsQsAAACADLELAAAAgIz1fD6P3gBTW5Z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" id="imagec13b6b1c63" transform="scale(1 -1) translate(0 -544.8)" x="70.080156" y="-9.200645" width="363.3" height="544.8"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md188bb323f" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52627c; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md188bb323f" x="100.350127" y="554.000645" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(91.345205 567.562208)">BEV</text>
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(90.343252 577.397801)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md188bb323f" x="160.890069" y="554.000645" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(151.885147 567.562208)">BEV</text>
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(150.883194 577.397801)">2025</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#md188bb323f" x="221.430011" y="554.000645" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(209.175949 567.562208)">PHEV</text>
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(211.423136 577.397801)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#md188bb323f" x="281.969953" y="554.000645" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(269.71589 567.562208)">PHEV</text>
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(271.963078 577.397801)">2025</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#md188bb323f" x="342.509895" y="554.000645" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(333.257473 567.562208)">HEV</text>
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(332.50302 577.397801)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#md188bb323f" x="403.049837" y="554.000645" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(393.797415 567.562208)">HEV</text>
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; fill: #52627c" transform="translate(393.042962 577.397801)">2025</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="m8aa7f7965a" d="M 0 0 
+L -3.5 0 
+" style="stroke: #52627c; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="19.445938" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="22.726719" transform="rotate(-0 63.080156 22.726719)">Австрия</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="39.617814" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="42.898595" transform="rotate(-0 63.080156 42.898595)">Бельгия</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="59.789689" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="63.070471" transform="rotate(-0 63.080156 63.070471)">Болгария</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="79.961565" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="83.242346" transform="rotate(-0 63.080156 83.242346)">Венгрия</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="100.133441" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="103.414222" transform="rotate(-0 63.080156 103.414222)">Германия</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="120.305317" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="123.586098" transform="rotate(-0 63.080156 123.586098)">Греция</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="140.477192" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="143.757974" transform="rotate(-0 63.080156 143.757974)">Дания</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="160.649068" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="163.929849" transform="rotate(-0 63.080156 163.929849)">Ирландия</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="180.820944" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="184.101725" transform="rotate(-0 63.080156 184.101725)">Испания</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="200.99282" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="204.273601" transform="rotate(-0 63.080156 204.273601)">Италия</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="221.164695" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="224.445477" transform="rotate(-0 63.080156 224.445477)">Кипр</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="241.336571" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="244.617352" transform="rotate(-0 63.080156 244.617352)">Латвия</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="261.508447" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="264.789228" transform="rotate(-0 63.080156 264.789228)">Литва</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="281.680323" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="285.208604" transform="rotate(-0 63.080156 285.208604)">Люксембург</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="301.852198" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="305.132979" transform="rotate(-0 63.080156 305.132979)">Мальта</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="322.024074" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="325.304855" transform="rotate(-0 63.080156 325.304855)">Нидерланды</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="342.19595" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="345.476731" transform="rotate(-0 63.080156 345.476731)">Польша</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="362.367825" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="365.648607" transform="rotate(-0 63.080156 365.648607)">Португалия</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="382.539701" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="385.820482" transform="rotate(-0 63.080156 385.820482)">Румыния</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="402.711577" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="405.992358" transform="rotate(-0 63.080156 405.992358)">Словакия</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="422.883453" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="426.164234" transform="rotate(-0 63.080156 426.164234)">Словения</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="443.055328" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="446.33611" transform="rotate(-0 63.080156 446.33611)">Финляндия</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="463.227204" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="466.552985" transform="rotate(-0 63.080156 466.552985)">Франция</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="483.39908" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="486.679861" transform="rotate(-0 63.080156 486.679861)">Хорватия</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="503.570956" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="506.851737" transform="rotate(-0 63.080156 506.851737)">Чехия</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="523.742831" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="527.023613" transform="rotate(-0 63.080156 527.023613)">Швеция</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m8aa7f7965a" x="70.080156" y="543.914707" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 9px; font-family: 'Nimbus Sans'; text-anchor: end; fill: #52627c" x="63.080156" y="547.195488" transform="rotate(-0 63.080156 547.195488)">Эстония</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_34">
+    <path d="M 191.16004 554.000645 
+L 191.16004 9.36 
+" clip-path="url(#p13c7cf2a9d)" style="fill: none; stroke: #0b2f73; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_35">
+    <path d="M 312.239924 554.000645 
+L 312.239924 9.36 
+" clip-path="url(#p13c7cf2a9d)" style="fill: none; stroke: #0b2f73; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 70.080156 554.000645 
+L 70.080156 9.36 
+" style="fill: none; stroke: #c3cfe0; stroke-width: 0.65; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 70.080156 554.000645 
+L 433.319808 554.000645 
+" style="fill: none; stroke: #c3cfe0; stroke-width: 0.65; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="21.490313" transform="rotate(-0 100.350127 21.490313)">&lt;0,1</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="21.490313" transform="rotate(-0 160.890069 21.490313)">&lt;0,1</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="21.490313" transform="rotate(-0 221.430011 21.490313)">0</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="21.490313" transform="rotate(-0 281.969953 21.490313)">0</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="21.490313" transform="rotate(-0 342.509895 21.490313)">0</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="21.490313" transform="rotate(-0 403.049837 21.490313)">&lt;0,1</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="41.662189" transform="rotate(-0 100.350127 41.662189)">38,6</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="41.662189" transform="rotate(-0 160.890069 41.662189)">43,4</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #ffffff" x="221.430011" y="41.662189" transform="rotate(-0 221.430011 41.662189)">88,4</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="41.662189" transform="rotate(-0 281.969953 41.662189)">40,4</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #ffffff" x="342.509895" y="41.662189" transform="rotate(-0 342.509895 41.662189)">95,9</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="41.662189" transform="rotate(-0 403.049837 41.662189)">4,8</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="61.834064" transform="rotate(-0 100.350127 61.834064)">0,2</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="61.834064" transform="rotate(-0 160.890069 61.834064)">0,6</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="61.834064" transform="rotate(-0 221.430011 61.834064)">&lt;0,1</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="61.834064" transform="rotate(-0 281.969953 61.834064)">0,1</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="61.834064" transform="rotate(-0 342.509895 61.834064)">1,1</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="61.834064" transform="rotate(-0 403.049837 61.834064)">0,1</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="82.00594" transform="rotate(-0 100.350127 82.00594)">0,3</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="82.00594" transform="rotate(-0 160.890069 82.00594)">1,2</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="82.00594" transform="rotate(-0 221.430011 82.00594)">0,2</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="82.00594" transform="rotate(-0 281.969953 82.00594)">3,2</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="82.00594" transform="rotate(-0 342.509895 82.00594)">0</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="82.00594" transform="rotate(-0 403.049837 82.00594)">0,9</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="102.177816" transform="rotate(-0 100.350127 102.177816)">8,8</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="102.177816" transform="rotate(-0 160.890069 102.177816)">11,0</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="102.177816" transform="rotate(-0 221.430011 102.177816)">2,6</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="102.177816" transform="rotate(-0 281.969953 102.177816)">6,0</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="102.177816" transform="rotate(-0 342.509895 102.177816)">0,3</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="102.177816" transform="rotate(-0 403.049837 102.177816)">8,9</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="122.349692" transform="rotate(-0 100.350127 122.349692)">0,5</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="122.349692" transform="rotate(-0 160.890069 122.349692)">0,4</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="122.349692" transform="rotate(-0 221.430011 122.349692)">0,2</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="122.349692" transform="rotate(-0 281.969953 122.349692)">0,8</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="122.349692" transform="rotate(-0 342.509895 122.349692)">0,1</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="122.349692" transform="rotate(-0 403.049837 122.349692)">3,1</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="142.521567" transform="rotate(-0 100.350127 142.521567)">0,8</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="142.521567" transform="rotate(-0 160.890069 142.521567)">0,7</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="142.521567" transform="rotate(-0 221.430011 142.521567)">0</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="142.521567" transform="rotate(-0 281.969953 142.521567)">0,3</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="142.521567" transform="rotate(-0 342.509895 142.521567)">0</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="142.521567" transform="rotate(-0 403.049837 142.521567)">0</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="162.693443" transform="rotate(-0 100.350127 162.693443)">&lt;0,1</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="162.693443" transform="rotate(-0 160.890069 162.693443)">&lt;0,1</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="162.693443" transform="rotate(-0 221.430011 162.693443)">0</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="162.693443" transform="rotate(-0 281.969953 162.693443)">&lt;0,1</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="162.693443" transform="rotate(-0 342.509895 162.693443)">&lt;0,1</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="162.693443" transform="rotate(-0 403.049837 162.693443)">&lt;0,1</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="182.865319" transform="rotate(-0 100.350127 182.865319)">18,7</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="182.865319" transform="rotate(-0 160.890069 182.865319)">10,5</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="182.865319" transform="rotate(-0 221.430011 182.865319)">5,9</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="182.865319" transform="rotate(-0 281.969953 182.865319)">26,3</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="182.865319" transform="rotate(-0 342.509895 182.865319)">&lt;0,1</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="182.865319" transform="rotate(-0 403.049837 182.865319)">25,6</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="203.037195" transform="rotate(-0 100.350127 203.037195)">1,9</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="203.037195" transform="rotate(-0 160.890069 203.037195)">5,2</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="203.037195" transform="rotate(-0 221.430011 203.037195)">1,7</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="203.037195" transform="rotate(-0 281.969953 203.037195)">12,5</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="203.037195" transform="rotate(-0 342.509895 203.037195)">0,4</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="203.037195" transform="rotate(-0 403.049837 203.037195)">25,1</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="223.20907" transform="rotate(-0 100.350127 223.20907)">&lt;0,1</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="223.20907" transform="rotate(-0 160.890069 223.20907)">&lt;0,1</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="223.20907" transform="rotate(-0 221.430011 223.20907)">0</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="223.20907" transform="rotate(-0 281.969953 223.20907)">0</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="223.20907" transform="rotate(-0 342.509895 223.20907)">&lt;0,1</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="223.20907" transform="rotate(-0 403.049837 223.20907)">&lt;0,1</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="243.380946" transform="rotate(-0 100.350127 243.380946)">&lt;0,1</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="243.380946" transform="rotate(-0 160.890069 243.380946)">&lt;0,1</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="243.380946" transform="rotate(-0 221.430011 243.380946)">0</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="243.380946" transform="rotate(-0 281.969953 243.380946)">0</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="243.380946" transform="rotate(-0 342.509895 243.380946)">0</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="243.380946" transform="rotate(-0 403.049837 243.380946)">&lt;0,1</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="263.552822" transform="rotate(-0 100.350127 263.552822)">0,5</text>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="263.552822" transform="rotate(-0 160.890069 263.552822)">0,4</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="263.552822" transform="rotate(-0 221.430011 263.552822)">0</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="263.552822" transform="rotate(-0 281.969953 263.552822)">&lt;0,1</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="263.552822" transform="rotate(-0 342.509895 263.552822)">0</text>
+   </g>
+   <g id="text_111">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="263.552822" transform="rotate(-0 403.049837 263.552822)">0</text>
+   </g>
+   <g id="text_112">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="283.724698" transform="rotate(-0 100.350127 283.724698)">0</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="283.724698" transform="rotate(-0 160.890069 283.724698)">0</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="283.724698" transform="rotate(-0 221.430011 283.724698)">0</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="283.724698" transform="rotate(-0 281.969953 283.724698)">0</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="283.724698" transform="rotate(-0 342.509895 283.724698)">0</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="283.724698" transform="rotate(-0 403.049837 283.724698)">0</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="303.896573" transform="rotate(-0 100.350127 303.896573)">&lt;0,1</text>
+   </g>
+   <g id="text_119">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="303.896573" transform="rotate(-0 160.890069 303.896573)">&lt;0,1</text>
+   </g>
+   <g id="text_120">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="303.896573" transform="rotate(-0 221.430011 303.896573)">0</text>
+   </g>
+   <g id="text_121">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="303.896573" transform="rotate(-0 281.969953 303.896573)">&lt;0,1</text>
+   </g>
+   <g id="text_122">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="303.896573" transform="rotate(-0 342.509895 303.896573)">0</text>
+   </g>
+   <g id="text_123">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="303.896573" transform="rotate(-0 403.049837 303.896573)">&lt;0,1</text>
+   </g>
+   <g id="text_124">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="324.068449" transform="rotate(-0 100.350127 324.068449)">10,5</text>
+   </g>
+   <g id="text_125">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="324.068449" transform="rotate(-0 160.890069 324.068449)">9,7</text>
+   </g>
+   <g id="text_126">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="324.068449" transform="rotate(-0 221.430011 324.068449)">&lt;0,1</text>
+   </g>
+   <g id="text_127">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="324.068449" transform="rotate(-0 281.969953 324.068449)">0,6</text>
+   </g>
+   <g id="text_128">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="324.068449" transform="rotate(-0 342.509895 324.068449)">0</text>
+   </g>
+   <g id="text_129">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="324.068449" transform="rotate(-0 403.049837 324.068449)">5,7</text>
+   </g>
+   <g id="text_130">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="344.240325" transform="rotate(-0 100.350127 344.240325)">0,4</text>
+   </g>
+   <g id="text_131">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="344.240325" transform="rotate(-0 160.890069 344.240325)">0,8</text>
+   </g>
+   <g id="text_132">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="344.240325" transform="rotate(-0 221.430011 344.240325)">0</text>
+   </g>
+   <g id="text_133">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="344.240325" transform="rotate(-0 281.969953 344.240325)">7,2</text>
+   </g>
+   <g id="text_134">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="344.240325" transform="rotate(-0 342.509895 344.240325)">&lt;0,1</text>
+   </g>
+   <g id="text_135">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="344.240325" transform="rotate(-0 403.049837 344.240325)">9,1</text>
+   </g>
+   <g id="text_136">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="364.4122" transform="rotate(-0 100.350127 364.4122)">&lt;0,1</text>
+   </g>
+   <g id="text_137">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="364.4122" transform="rotate(-0 160.890069 364.4122)">0,2</text>
+   </g>
+   <g id="text_138">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="364.4122" transform="rotate(-0 221.430011 364.4122)">&lt;0,1</text>
+   </g>
+   <g id="text_139">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="364.4122" transform="rotate(-0 281.969953 364.4122)">&lt;0,1</text>
+   </g>
+   <g id="text_140">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="364.4122" transform="rotate(-0 342.509895 364.4122)">0</text>
+   </g>
+   <g id="text_141">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="364.4122" transform="rotate(-0 403.049837 364.4122)">&lt;0,1</text>
+   </g>
+   <g id="text_142">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="384.584076" transform="rotate(-0 100.350127 384.584076)">1,6</text>
+   </g>
+   <g id="text_143">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="384.584076" transform="rotate(-0 160.890069 384.584076)">4,3</text>
+   </g>
+   <g id="text_144">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="384.584076" transform="rotate(-0 221.430011 384.584076)">0</text>
+   </g>
+   <g id="text_145">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="384.584076" transform="rotate(-0 281.969953 384.584076)">0,4</text>
+   </g>
+   <g id="text_146">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="384.584076" transform="rotate(-0 342.509895 384.584076)">0</text>
+   </g>
+   <g id="text_147">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="384.584076" transform="rotate(-0 403.049837 384.584076)">0,5</text>
+   </g>
+   <g id="text_148">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="404.755952" transform="rotate(-0 100.350127 404.755952)">&lt;0,1</text>
+   </g>
+   <g id="text_149">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="404.755952" transform="rotate(-0 160.890069 404.755952)">&lt;0,1</text>
+   </g>
+   <g id="text_150">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="404.755952" transform="rotate(-0 221.430011 404.755952)">0</text>
+   </g>
+   <g id="text_151">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="404.755952" transform="rotate(-0 281.969953 404.755952)">0</text>
+   </g>
+   <g id="text_152">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="404.755952" transform="rotate(-0 342.509895 404.755952)">&lt;0,1</text>
+   </g>
+   <g id="text_153">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="404.755952" transform="rotate(-0 403.049837 404.755952)">0</text>
+   </g>
+   <g id="text_154">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="424.927828" transform="rotate(-0 100.350127 424.927828)">6,8</text>
+   </g>
+   <g id="text_155">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="424.927828" transform="rotate(-0 160.890069 424.927828)">5,2</text>
+   </g>
+   <g id="text_156">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="424.927828" transform="rotate(-0 221.430011 424.927828)">&lt;0,1</text>
+   </g>
+   <g id="text_157">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="424.927828" transform="rotate(-0 281.969953 424.927828)">0,3</text>
+   </g>
+   <g id="text_158">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="424.927828" transform="rotate(-0 342.509895 424.927828)">0,3</text>
+   </g>
+   <g id="text_159">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="424.927828" transform="rotate(-0 403.049837 424.927828)">3,9</text>
+   </g>
+   <g id="text_160">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="445.099703" transform="rotate(-0 100.350127 445.099703)">0,2</text>
+   </g>
+   <g id="text_161">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="445.099703" transform="rotate(-0 160.890069 445.099703)">0,2</text>
+   </g>
+   <g id="text_162">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="445.099703" transform="rotate(-0 221.430011 445.099703)">0</text>
+   </g>
+   <g id="text_163">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="445.099703" transform="rotate(-0 281.969953 445.099703)">&lt;0,1</text>
+   </g>
+   <g id="text_164">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="445.099703" transform="rotate(-0 342.509895 445.099703)">0</text>
+   </g>
+   <g id="text_165">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="445.099703" transform="rotate(-0 403.049837 445.099703)">0</text>
+   </g>
+   <g id="text_166">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="465.271579" transform="rotate(-0 100.350127 465.271579)">7,3</text>
+   </g>
+   <g id="text_167">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="465.271579" transform="rotate(-0 160.890069 465.271579)">2,1</text>
+   </g>
+   <g id="text_168">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="465.271579" transform="rotate(-0 221.430011 465.271579)">0,7</text>
+   </g>
+   <g id="text_169">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="465.271579" transform="rotate(-0 281.969953 465.271579)">0,9</text>
+   </g>
+   <g id="text_170">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="465.271579" transform="rotate(-0 342.509895 465.271579)">0,2</text>
+   </g>
+   <g id="text_171">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="465.271579" transform="rotate(-0 403.049837 465.271579)">11,6</text>
+   </g>
+   <g id="text_172">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="485.443455" transform="rotate(-0 100.350127 485.443455)">&lt;0,1</text>
+   </g>
+   <g id="text_173">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="485.443455" transform="rotate(-0 160.890069 485.443455)">&lt;0,1</text>
+   </g>
+   <g id="text_174">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="485.443455" transform="rotate(-0 221.430011 485.443455)">&lt;0,1</text>
+   </g>
+   <g id="text_175">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="485.443455" transform="rotate(-0 281.969953 485.443455)">&lt;0,1</text>
+   </g>
+   <g id="text_176">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="485.443455" transform="rotate(-0 342.509895 485.443455)">0,2</text>
+   </g>
+   <g id="text_177">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="485.443455" transform="rotate(-0 403.049837 485.443455)">&lt;0,1</text>
+   </g>
+   <g id="text_178">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="505.615331" transform="rotate(-0 100.350127 505.615331)">1,1</text>
+   </g>
+   <g id="text_179">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="505.615331" transform="rotate(-0 160.890069 505.615331)">3,0</text>
+   </g>
+   <g id="text_180">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="505.615331" transform="rotate(-0 221.430011 505.615331)">0,1</text>
+   </g>
+   <g id="text_181">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="505.615331" transform="rotate(-0 281.969953 505.615331)">0,2</text>
+   </g>
+   <g id="text_182">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="505.615331" transform="rotate(-0 342.509895 505.615331)">0</text>
+   </g>
+   <g id="text_183">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="505.615331" transform="rotate(-0 403.049837 505.615331)">0,6</text>
+   </g>
+   <g id="text_184">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="525.787206" transform="rotate(-0 100.350127 525.787206)">1,7</text>
+   </g>
+   <g id="text_185">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="525.787206" transform="rotate(-0 160.890069 525.787206)">0,6</text>
+   </g>
+   <g id="text_186">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="525.787206" transform="rotate(-0 221.430011 525.787206)">&lt;0,1</text>
+   </g>
+   <g id="text_187">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="525.787206" transform="rotate(-0 281.969953 525.787206)">0,8</text>
+   </g>
+   <g id="text_188">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="525.787206" transform="rotate(-0 342.509895 525.787206)">&lt;0,1</text>
+   </g>
+   <g id="text_189">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="525.787206" transform="rotate(-0 403.049837 525.787206)">&lt;0,1</text>
+   </g>
+   <g id="text_190">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="100.350127" y="545.959082" transform="rotate(-0 100.350127 545.959082)">&lt;0,1</text>
+   </g>
+   <g id="text_191">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="160.890069" y="545.959082" transform="rotate(-0 160.890069 545.959082)">&lt;0,1</text>
+   </g>
+   <g id="text_192">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="221.430011" y="545.959082" transform="rotate(-0 221.430011 545.959082)">0</text>
+   </g>
+   <g id="text_193">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="281.969953" y="545.959082" transform="rotate(-0 281.969953 545.959082)">0</text>
+   </g>
+   <g id="text_194">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="342.509895" y="545.959082" transform="rotate(-0 342.509895 545.959082)">1,2</text>
+   </g>
+   <g id="text_195">
+    <text style="font-size: 8px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #203653" x="403.049837" y="545.959082" transform="rotate(-0 403.049837 545.959082)">&lt;0,1</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 444.216997 390.652218 
+L 455.114187 390.652218 
+L 455.114187 172.708427 
+L 444.216997 172.708427 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_28">
+     <g id="line2d_36">
+      <defs>
+       <path id="m86a10ccda5" d="M 0 0 
+L 3.5 0 
+" style="stroke: #52627c; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m86a10ccda5" x="455.114187" y="390.652218" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_196">
+      <text style="font-size: 10px; font-family: 'Nimbus Sans'; text-anchor: start; fill: #52627c" x="462.114187" y="394.29753" transform="rotate(-0 462.114187 394.29753)">0</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m86a10ccda5" x="455.114187" y="347.06346" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_197">
+      <text style="font-size: 10px; font-family: 'Nimbus Sans'; text-anchor: start; fill: #52627c" x="462.114187" y="350.708772" transform="rotate(-0 462.114187 350.708772)">20</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m86a10ccda5" x="455.114187" y="303.474702" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_198">
+      <text style="font-size: 10px; font-family: 'Nimbus Sans'; text-anchor: start; fill: #52627c" x="462.114187" y="307.120014" transform="rotate(-0 462.114187 307.120014)">40</text>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m86a10ccda5" x="455.114187" y="259.885943" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_199">
+      <text style="font-size: 10px; font-family: 'Nimbus Sans'; text-anchor: start; fill: #52627c" x="462.114187" y="263.531256" transform="rotate(-0 462.114187 263.531256)">60</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m86a10ccda5" x="455.114187" y="216.297185" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_200">
+      <text style="font-size: 10px; font-family: 'Nimbus Sans'; text-anchor: start; fill: #52627c" x="462.114187" y="219.942498" transform="rotate(-0 462.114187 219.942498)">80</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m86a10ccda5" x="455.114187" y="172.708427" style="fill: #52627c; stroke: #52627c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_201">
+      <text style="font-size: 10px; font-family: 'Nimbus Sans'; text-anchor: start; fill: #52627c" x="462.114187" y="176.35374" transform="rotate(-0 462.114187 176.35374)">100</text>
+     </g>
+    </g>
+    <g id="text_202">
+     <text style="font-size: 10px; font-family: 'Nimbus Sans'; text-anchor: middle; fill: #52627c" x="490.082937" y="281.680323" transform="rotate(-90 490.082937 281.680323)">Доля страны внутри технологии, %</text>
+    </g>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAACQAAALXCAYAAADlmeIGAAAEb0lEQVR4nO2cMRKDMBDEjsz9/7dMihROnwKVUSG9QINvvRhIrvv9OSPi9W+BX3RCe45qxXxXSCe0shXzXSGd0J5xrZnuCumEShlRdRA6oYaa0AntVB3P6IRKGaETqssInVApIxpqQie0rgUTXiGdUCkjdEJVB6ETKmWETqglI2p7QifUUBM6oZU9QPNdIZ1QKSN0QnUZoRMqZUQHRUIn1FATOqFSRuiE+qCJ0AmVMkInVJcROqFSRjTUhE6ob9AInVD7EKETamMkdEKljNAJdXIlGmpCJ1R1EDqhUkbohEoZoRPqrTShEyplRNVB6IR2ZGumu0I6oVJG6IQ62xM6odqe0Am1MRINNaET6qBI6IRKGaETqjoInVApI3RCpYzooEjohPoVJ6ETqjoInVDVQeiE6jJCJ1TKiKqD0Am1ZIROqH2I0AnV9oROqJQROqG6jNAJlTKib9AInVBvpQmdUNVB6ISqDkInVMoInVBdRjTUhE6o6iB0QqWM0Am1ZIROqLYndEKljOgbNEIn1FATOqHuqQmdUG+lCZ1QKSN0QnUZ0VATOqGqg9AJlTJCJ1R1EDqhUkbohEoZUdsTOqEeehI6ofYhQidU2xM6oVJG6IR6K0001IROqOogdEKljNAJVR2ETqiUETqhuozQCZUyoidohE6o59SETqh9iNAJ1faETqiUETqhTq5EQ03ohKoOQidUygidUCkjdEKdXAmdUCkj+us6QifUUBM6oW7QCJ1QZ3tCJ1TKCJ1QS0bU9oROqIMioRMqZYROqOogdEKljNAJlTIiIUIn1FATOqGqg9AJlTJCJ1TKCJ1QDxuIhprQCVUdhE6oJSN0Qr3iJHRCpYzQCXX7QeiE+iiOaKgJnVAHRUInVMoInVA3aIROqJQROqFSRnS2J3RCDTWhE6o6CJ1QKSN0Qp1cCZ1Qf8xGtA8ROqHantAJlTJCJ9TJldAJlTJCJ1SXEQ01oROqOgidUCkjdEJVB6ETKmWETqgnaESPhQmdUPsQoROq7QmdUCkjdEKljNAJdftBNNSETqjqIHRCpYzQCVUdhE6olBE6obqM0An10JNoqAmdUG+lCZ1QKSN0Qi0ZoRPqnprQCZUyorYndEINNaETqjoInVApI3RCdRmhE+qv64iqg9AJVR2ETqiUETqh3koTOqFSRuiE6jKiK0TohNqHCJ1QbU/ohEoZoROqywidUN+gEVUHoROqOgidUNVB6IRKGaETKmWETqi30kRDTeiEqg5CJ1TKCJ1QJ1dCJ9TGSOiE+gaN0AmVMqK2J3RCHRQJnVApI3RCVQehEyplhE6olBGd7QmdUENN6ISqDkInVMoIndBOXfaMTqiNkWgfInRCDTWhEyplhE6okyuhEyplhE6oLiMaakIn1FATOqHeShM6oVJG6IT6FSehEyplRNVB6IQaakIn1JIROqFOroROqJQROqFuP4iGmtAJVR2ETqiUETqhUkbohPoGjdAJlTJCJ1SXEQ01oRPqgyZCJ1TKCJ1Q1UHohL5hYUN0zfCcDgAAAABJRU5ErkJggg==" id="image0e99b54a74" transform="scale(1 -1) translate(0 -218.1)" x="444.3" y="-172.5" width="10.8" height="218.1"/>
+   <g id="LineCollection_1"/>
+   <g id="patch_6">
+    <path d="M 444.216997 390.652218 
+L 449.665592 390.652218 
+L 455.114187 390.652218 
+L 455.114187 172.708427 
+L 449.665592 172.708427 
+L 444.216997 172.708427 
+L 444.216997 390.652218 
+z
+" style="fill: none; stroke: #c3cfe0; stroke-width: 0.65; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p13c7cf2a9d">
+   <rect x="70.080156" y="9.36" width="363.239652" height="544.640645"/>
+  </clipPath>
+ </defs>
+</svg>

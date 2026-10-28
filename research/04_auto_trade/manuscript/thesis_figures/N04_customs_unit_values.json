@@ -1,0 +1,182 @@
+[
+  {
+    "coverage": "EU27",
+    "category": "BEV",
+    "year": 2021,
+    "unit_value_eur": 16743.49336505596
+  },
+  {
+    "coverage": "EU27",
+    "category": "BEV",
+    "year": 2022,
+    "unit_value_eur": 23655.66597257565
+  },
+  {
+    "coverage": "EU27",
+    "category": "BEV",
+    "year": 2023,
+    "unit_value_eur": 22452.202441134854
+  },
+  {
+    "coverage": "EU27",
+    "category": "BEV",
+    "year": 2024,
+    "unit_value_eur": 20204.12444841939
+  },
+  {
+    "coverage": "EU27",
+    "category": "BEV",
+    "year": 2025,
+    "unit_value_eur": 14733.8181790737
+  },
+  {
+    "coverage": "EU27",
+    "category": "PHEV",
+    "year": 2021,
+    "unit_value_eur": 25553.129565403553
+  },
+  {
+    "coverage": "EU27",
+    "category": "PHEV",
+    "year": 2022,
+    "unit_value_eur": 25503.910096111453
+  },
+  {
+    "coverage": "EU27",
+    "category": "PHEV",
+    "year": 2023,
+    "unit_value_eur": 27324.265495363594
+  },
+  {
+    "coverage": "EU27",
+    "category": "PHEV",
+    "year": 2024,
+    "unit_value_eur": 25454.028201094232
+  },
+  {
+    "coverage": "EU27",
+    "category": "PHEV",
+    "year": 2025,
+    "unit_value_eur": 20870.4078716997
+  },
+  {
+    "coverage": "EU27",
+    "category": "HEV",
+    "year": 2021,
+    "unit_value_eur": 14437.926587301587
+  },
+  {
+    "coverage": "EU27",
+    "category": "HEV",
+    "year": 2022,
+    "unit_value_eur": 13931.731764705883
+  },
+  {
+    "coverage": "EU27",
+    "category": "HEV",
+    "year": 2023,
+    "unit_value_eur": 26391.75441092772
+  },
+  {
+    "coverage": "EU27",
+    "category": "HEV",
+    "year": 2024,
+    "unit_value_eur": 17865.225505248316
+  },
+  {
+    "coverage": "EU27",
+    "category": "HEV",
+    "year": 2025,
+    "unit_value_eur": 13891.520004296224
+  },
+  {
+    "coverage": "ЕС-27",
+    "category": "BEV",
+    "year": 2021,
+    "unit_value_eur": 16743.49336505596
+  },
+  {
+    "coverage": "ЕС-27",
+    "category": "BEV",
+    "year": 2022,
+    "unit_value_eur": 23655.66597257565
+  },
+  {
+    "coverage": "ЕС-27",
+    "category": "BEV",
+    "year": 2023,
+    "unit_value_eur": 22452.202441134854
+  },
+  {
+    "coverage": "ЕС-27",
+    "category": "BEV",
+    "year": 2024,
+    "unit_value_eur": 20204.12444841939
+  },
+  {
+    "coverage": "ЕС-27",
+    "category": "BEV",
+    "year": 2025,
+    "unit_value_eur": 14733.8181790737
+  },
+  {
+    "coverage": "Без NL",
+    "category": "BEV",
+    "year": 2021,
+    "unit_value_eur": 14286.45168012324
+  },
+  {
+    "coverage": "Без NL",
+    "category": "BEV",
+    "year": 2022,
+    "unit_value_eur": 23844.721147354583
+  },
+  {
+    "coverage": "Без NL",
+    "category": "BEV",
+    "year": 2023,
+    "unit_value_eur": 22663.76997779234
+  },
+  {
+    "coverage": "Без NL",
+    "category": "BEV",
+    "year": 2024,
+    "unit_value_eur": 20986.41073975681
+  },
+  {
+    "coverage": "Без NL",
+    "category": "BEV",
+    "year": 2025,
+    "unit_value_eur": 16105.056763235325
+  },
+  {
+    "coverage": "Без BE/NL",
+    "category": "BEV",
+    "year": 2021,
+    "unit_value_eur": 12546.254335837097
+  },
+  {
+    "coverage": "Без BE/NL",
+    "category": "BEV",
+    "year": 2022,
+    "unit_value_eur": 20621.69021436743
+  },
+  {
+    "coverage": "Без BE/NL",
+    "category": "BEV",
+    "year": 2023,
+    "unit_value_eur": 20427.33075056273
+  },
+  {
+    "coverage": "Без BE/NL",
+    "category": "BEV",
+    "year": 2024,
+    "unit_value_eur": 17587.007591839498
+  },
+  {
+    "coverage": "Без BE/NL",
+    "category": "BEV",
+    "year": 2025,
+    "unit_value_eur": 12896.753195410498
+  }
+]

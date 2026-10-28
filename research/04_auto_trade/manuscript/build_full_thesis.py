@@ -51,28 +51,6 @@ def append_field_run(p, typ, text=None):
     r.append(e); p._p.append(r)
 
 
-def sensitivity_panels():
-    import matplotlib
-    matplotlib.use('Agg')
-    import matplotlib.pyplot as plt
-    import pandas as pd
-    plt.rcParams.update({'font.family':'DejaVu Serif','font.size':10.5,'axes.spines.top':False,'axes.spines.right':False,'axes.axisbelow':True})
-    co=pd.read_csv(ROOT/'results/augmented/coefficients.csv')
-    variants=['rest_preferred','rest_no_trend','rest_no_season','four_origin_augmented','rest_since2022','rest_exclude_BE_NL','rest_observed_only']
-    labels=['Основная','Без тренда','Без сезонности','Четыре происхождения','С 2022 года','Без BE/NL','Опубликованные пары']
-    blocks=[]
-    for i,(cat,suffix,label,letter) in enumerate([('PHEV','quantity','количество','а'),('PHEV','value','стоимость','б'),('HEV','quantity','количество','в'),('HEV','value','стоимость','г')]):
-        data=co[(co.term==cat+'__definitive')&co.model.isin([v+'_'+suffix for v in variants])].set_index('model').loc[[v+'_'+suffix for v in variants]]
-        fig,ax=plt.subplots(figsize=(6.7,3.1),layout='constrained')
-        for n,row in enumerate(data.itertuples()):
-            ax.plot([row.hac12_lo,row.hac12_hi],[n,n],color='black',lw=1)
-            ax.plot(row.multiplier,n,marker='s'if n==0 else 'o',ms=5 if n==0 else 3.5,color='black')
-        ax.set_yticks(range(7),labels);ax.invert_yaxis();ax.set_xscale('log');ax.axvline(1,color='.5',lw=.7);ax.grid(axis='x',color='.85',lw=.5);ax.set_xlabel('Множитель; интервал HAC(12)')
-        path=TMP/f'sensitivity_panel_{letter}.png';fig.savefig(path,dpi=240,bbox_inches='tight',pad_inches=.12);plt.close(fig)
-        prefix='Рисунок А.3 — Чувствительность окончательных множителей к спецификации' if i==0 else 'Продолжение рисунка А.3'
-        blocks.append(f'![{cat} {label}]({path})\n\n{prefix} — {letter}) {cat}, {label}\n\nИсточник: Eurostat Comext; расчёты автора.')
-    return '\n\n'.join(blocks)
-
 
 def move_frontmatter(d, body_first, headings, page_map):
     elements = []
@@ -144,9 +122,7 @@ def build():
     md = (HERE / 'full_thesis_content.md').read_text()
     md = re.sub(r'<!--.*?-->', '', md, flags=re.S)
     md = re.sub(r'(!\[[^\]]*\]\([^)]*)\.svg\)', r'\1.png)', md)
-    md = re.sub(r'\]\((chapter[23]_figures/[^)]+)\)', lambda m: '](' + str(HERE / m.group(1)) + ')', md)
-    md,count=re.subn(r'!\[[^\]]*\]\([^)]*/G12_sensitivity\.png\)\s*\n\nРисунок А\.3[^\n]+\n\nИсточник:[^\n]+',lambda _:sensitivity_panels(),md)
-    assert count==1
+    md = re.sub(r'\]\(((?:chapter[23]_figures|thesis_figures)/[^)]+)\)', lambda m: '](' + str(HERE / m.group(1)) + ')', md)
     def equation(match):
         value = match.group(1)
         tag = re.search(r'\\tag\{([^}]+)\}', value)
@@ -174,7 +150,9 @@ def build():
         t = p.text.strip()
         if p.style.name.startswith('Heading'):
             if p.style.name == 'Heading 1': in_bibliography = t == 'Список использованных источников'
-            if t.startswith('Выводы по '): p.style = d.styles['Thesis Summary']
+            if t.startswith('Выводы по '):
+                p.style = d.styles['Thesis Summary']
+                p.paragraph_format.keep_with_next = True
             elif re.match(r'^[АБВ]\.[1-9]', t): p.style = d.styles['Heading 3']
             for run in p.runs: format_run(run, 14 if p.style.name == 'Heading 1' else 12)
             continue
@@ -255,7 +233,7 @@ def build():
     for shape in d.inline_shapes:
         next_p = shape._inline.xpath('ancestor::w:p')[0].getnext()
         caption = ''.join(next_p.itertext()) if next_p is not None else ''
-        width_limit = 13.0 if caption.startswith('Рисунок 3.1') else (15.0 if caption.startswith('Рисунок 2.5') else (15.5 if caption.startswith('Рисунок 3.4') else 17.0))
+        width_limit = 13.0 if 'Последовательность совместного разбора' in caption else (15.0 if 'Общая и технологическая концентрация' in caption else (15.5 if 'Предлагаемое распределение действий' in caption else 17.0))
         scale = min(Cm(width_limit) / shape.width, Cm(19.2) / shape.height)
         shape.width = round(shape.width * scale); shape.height = round(shape.height * scale)
     # Native footnotes inherit the approved 10 pt single-spacing style.

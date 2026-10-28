@@ -93,6 +93,9 @@ def main():
     chapter3_full, shortened = re.subn(r'Порядок внедрения объединяет эталонную версию данных[^\n]+', 'Порядок внедрения включает эталонную версию данных, пилотный разбор и регулярное обновление с журналом пересмотров. Контроль основан на определённости наблюдений, воспроизводимости, своевременности и завершённости проверки. Результат — согласованная процедура применения выводов; экономия и предотвращённые потери требуют отдельной оценки на данных организации.', chapters[3])
     assert shortened == 1
     content = "\n\n".join([(HERE / "introduction.md").read_text().strip(), chapters[1], main2, chapter3_full, (HERE / "conclusion.md").read_text().strip(), bibliography, appendix_a, appendix_b, appendix_c])
+    from integrate_thesis_visuals import enhance
+    content = enhance(content)
+    (HERE / "appendices.md").write_text(content[content.index("# Приложение А."):] + "\n", encoding="utf8")
     used = re.findall(r"\[\^([^\]]+)\]", content)
     assert set(used) <= set(notes), set(used) - set(notes)
     keys = list(dict.fromkeys(used))
