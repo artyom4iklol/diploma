@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "base_chapter2_commit": "fa8bf8099590630e19daf074e23c207d4d39f561",
+  "status": "Plan only; chapter prose, figures and new scenarios not produced",
+  "checks": {
+    "existing_exposure_rows": 6,
+    "all_existing_exposure_identities_match": true,
+    "new_regressions": false
+  },
+  "internal_files_sha256": {
+    "manuscript/chapter2_content.md": "30af94ef8d42d6bfced427f4e278b1d5bb1e2e8787b574d93c629faa4f130d87",
+    "manuscript/chapter2_conclusions.md": "7763a48bcfb7cb46dbf7b752100a37f82a5ecd8db70033350f90171fe54d7137",
+    "results/augmented/clearance_jurisdiction_exposure.csv": "2618d57266bc3c8cb8b9f77242f8e9d768ad6cc11c40603944c03207c9ee8f21",
+    "results/chapter2_revision/valuation_diagnostic.json": "e05abf7f01a986deac4421acaf6a870e5fdec5ca9cf5d3fe03509790879afc8d"
+  },
+  "external_sources": [
+    {
+      "id": "O09",
+      "title": "Commission issues Guidance Document on submission of price undertaking offers for battery electric vehicles from China",
+      "institution": "European Commission",
+      "published_on": "2026-01-12",
+      "checked_on": "2026-10-28",
+      "url": "https://policy.trade.ec.europa.eu/news/commission-issues-guidance-document-submission-price-undertaking-offers-battery-electric-vehicles-2026-01-12_en",
+      "read_scope": "Official announcement, paragraphs explaining coverage of undertaking offers. Linked case page supplied no extractable text; the complete guidance is not represented as read in this planning step.",
+      "supports": "Discussion of minimum import price, sales channels, cross-compensation and future investments. Each offer is assessed individually under legal criteria.",
+      "use_in_chapter": "Post-sample context; no parameter for 2021–2025 regression or welfare calculation."
+    },
+    {
+      "id": "O10",
+      "title": "Joint Statement at the second meeting of the EU-China Trade and Investment Consultations",
+      "institution": "European Commission",
+      "published_on": "2026-10-09",
+      "checked_on": "2026-10-28",
+      "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/statement_26_2122/STATEMENT_26_2122_EN.pdf",
+      "read_scope": "Official two-page statement; annex points 2–4 checked.",
+      "supports": "Trade-monitoring cooperation, an understanding on hybrid-vehicle trade and continuation of BEV price-undertaking/review procedures.",
+      "limits": "No numerical hybrid quota or implementation date is specified by this statement. Not an exhaustive audit of subsequent legal acts.",
+      "use_in_chapter": "Dated subsequent context only."
+    }
+  ]
+}
