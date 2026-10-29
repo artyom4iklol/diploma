@@ -66,7 +66,9 @@ def move_frontmatter(d, body_first, headings, page_map):
     add('ВЫПУСКНАЯ КВАЛИФИКАЦИОННАЯ РАБОТА', before=66, after=18)
     add(TITLE, style='Title', size=14, after=32)
     add('Выполнил: Суховерхов Артем', align=WD_ALIGN_PARAGRAPH.RIGHT, before=30)
-    add('Москва, 2026', before=155)
+    add('Научный руководитель:', align=WD_ALIGN_PARAGRAPH.RIGHT, before=22)
+    add('________________________________', align=WD_ALIGN_PARAGRAPH.RIGHT, before=7)
+    add('Москва, 2026', before=100)
     p = add('Содержание', style='Title', align=WD_ALIGN_PARAGRAPH.LEFT, before=0, after=12, size=14)
     p.paragraph_format.page_break_before = True
     first_toc = None

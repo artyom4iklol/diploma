@@ -5,6 +5,7 @@ import re
 import hashlib
 import pandas as pd
 from review_thesis_quality import extra_notes, extra_bibliography, improve, normalize_valuation_terms
+from final_editorial_revision import revise_text, revise_notes, PUBLICATIONS
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
@@ -45,7 +46,8 @@ def main():
         assert key not in notes
         value['source_sha256'] = {p: hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in value['source_files']}
         notes[key] = value
-    (HERE / "introduction_sources.json").write_text(json.dumps(intro_notes, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+    revise_notes(notes)
+    (HERE / "introduction_sources.json").write_text(json.dumps({k: notes[k] for k in intro_notes}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     split = chapters[2].index("# Приложение А.")
     main2 = chapters[2][:split].strip()
     # Place the full-height map before its detailed discussion, avoiding a stranded
@@ -121,14 +123,15 @@ def main():
     for original, revised in closing_paragraphs.items():
         assert content.count(original) == 1
         content = content.replace(original, revised)
+    content = revise_text(content)
     (HERE / "appendices.md").write_text(content[content.index("# Приложение А."):] + "\n", encoding="utf8")
     used = re.findall(r"\[\^([^\]]+)\]", content)
     assert set(used) <= set(notes), set(used) - set(notes)
     keys = list(dict.fromkeys(used))
     definitions = "\n".join(f"[^{key}]: {notes[key]['text']}" for key in keys)
     (HERE / "full_thesis_content.md").write_text(content + "\n\n" + definitions + "\n", encoding="utf8")
-    (HERE / "full_thesis_sources.json").write_text(json.dumps({"date": "2026-10-28", "citations": {k: notes[k] for k in keys}, "footnote_occurrences": len(used), "distinct_note_definitions": len(keys)}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
-    checks = {"date": "2026-10-28", "chapters": 3, "sections": 14, "introduction_tasks": 8, "conclusion": True, "appendices": 3,
+    (HERE / "full_thesis_sources.json").write_text(json.dumps({"date": "2026-10-29", "citations": {k: notes[k] for k in keys}, "footnote_occurrences": len(used), "distinct_note_definitions": len(keys)}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+    checks = {"date": "2026-10-29", "chapters": 3, "sections": 14, "introduction_tasks": 8, "conclusion": True, "appendices": 3,
               "separate_chapter_conclusions": 0, "general_conclusion_after_chapter3": True,
               "footnote_occurrences": len(used), "bibliography_entries": len(json.loads((HERE/'full_bibliography.json').read_text())['entries']), "source_ids": sorted({x for k in keys for x in notes[k]["source_ids"] if x != "AUTHOR_CALCULATIONS"}),
               "chapter_sha256": {f"chapter{n}_content.md": hashlib.sha256((HERE / f"chapter{n}_content.md").read_bytes()).hexdigest() for n in [1, 2, 3]}}
@@ -164,7 +167,9 @@ def make_bibliography(notes):
     entries = []
     additional = extra_bibliography()
     for ident in sorted(ids):
-        if ident in additional:
+        if ident in PUBLICATIONS:
+            entry = PUBLICATIONS[ident]['text']; url = PUBLICATIONS[ident]['url']
+        elif ident in additional:
             entry = additional[ident]['text']; url = additional[ident]['url']
         elif ident in scientific:
             entry = scientific[ident]
@@ -187,14 +192,14 @@ def make_bibliography(notes):
             entry = x["text"].replace(" С. 1.", ""); url = x["urls"][0]
         else:
             raise ValueError(ident)
-        date = "28.10.2026" if ident in ["O08", "O09", "O10", "R_NW86", "R_ESTAT26", "R_UNDERTAKING26"] else "27.10.2026"
+        date = "29.10.2026" if ident in PUBLICATIONS else ("28.10.2026" if ident in ["O08", "O09", "O10", "R_NW86", "R_ESTAT26", "R_UNDERTAKING26"] else "27.10.2026")
         entry = re.sub(r"\s*\(дата обращения: [^)]+\)\.?", "", entry)
         entry = entry.rstrip(".") + ". URL: " + url + " (дата обращения: " + date + ")."
         entries.append({"id": ident, "text": entry})
     assert len(entries) == 37, len(entries)
     entries.sort(key=lambda x: x["text"].casefold())
     for n, x in enumerate(entries, 1): x["number"] = n
-    (HERE / "full_bibliography.json").write_text(json.dumps({"date": "2026-10-28", "entries": entries, "basis": "Only used references; versions match actual chapter citations."}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
+    (HERE / "full_bibliography.json").write_text(json.dumps({"date": "2026-10-29", "entries": entries, "basis": "Only used references; journal records verified, actual consulted versions explicitly retained in bibliography and footnotes."}, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     result = "# Список использованных источников\n\n" + "\n\n".join(f"{x['number']}. {x['text']}" for x in entries)
     (HERE / "bibliography.md").write_text(result + "\n", encoding="utf8")
     return result

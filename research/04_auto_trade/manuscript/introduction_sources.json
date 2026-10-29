@@ -12,7 +12,11 @@
       "S32",
       "S14"
     ],
-    "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698. Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Раздел 3, с. 14–19 (рабочая версия)."
+    "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698. Head K., Mayer T. Brands in Motion // American Economic Review. 2019. Vol. 109, no. 9. P. 3073–3124. Цит. по рабочей версии Banque de France WP 629, 2017, разд. 3, с. 14–19.",
+    "journal_records_verified": [
+      "S14"
+    ],
+    "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
   },
   "I_RESEARCH": {
     "source_ids": [
@@ -34,6 +38,10 @@
       "S21",
       "S23"
     ],
-    "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641. Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7."
+    "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641. Shorrocks A. F. Decomposition procedures for distributional analysis // The Journal of Economic Inequality. 2013. Vol. 11, no. 1. P. 99–126. Цит. по авторской версии June 1999, разд. 2, с. 4–7.",
+    "journal_records_verified": [
+      "S23"
+    ],
+    "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
   }
 }

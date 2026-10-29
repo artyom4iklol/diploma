@@ -48,9 +48,9 @@
 
 24. Fajgelbaum P., Goldberg P., Kennedy P., Khandelwal A., Taglioni D. The US-China Trade War and Global Reallocations. NBER Working Paper 29562. Revised December 2023. URL: https://www.nber.org/system/files/working_papers/w29562/w29562.pdf (дата обращения: 27.10.2026).
 
-25. Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. URL: https://www.nber.org/system/files/working_papers/w18314/w18314.pdf (дата обращения: 27.10.2026).
+25. Feenstra R. C., Romalis J. International Prices and Endogenous Quality // The Quarterly Journal of Economics. 2014. Vol. 129, no. 2. P. 477–527. DOI: 10.1093/qje/qju001. Использована рабочая версия: NBER Working Paper 18314, 2012. URL: https://academic.oup.com/qje/article-abstract/129/2/477/1866808 (дата обращения: 29.10.2026).
 
-26. Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. May 2017. URL: https://publications.banque-france.fr/sites/default/files/medias/documents/dt629_0.pdf (дата обращения: 27.10.2026).
+26. Head K., Mayer T. Brands in Motion: How Frictions Shape Multinational Production // American Economic Review. 2019. Vol. 109, no. 9. P. 3073–3124. DOI: 10.1257/aer.20161345. Использована рабочая версия: Banque de France Working Paper 629, 2017. URL: https://www.aeaweb.org/articles?id=10.1257/aer.20161345 (дата обращения: 29.10.2026).
 
 27. IEA. Global EV Outlook 2025. Paris, 2025. URL: https://www.iea.org/reports/global-ev-outlook-2025 (дата обращения: 27.10.2026).
 
@@ -64,7 +64,7 @@
 
 32. Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics. 2006. Vol. 88, no. 4. P. 641–658. DOI: 10.1162/rest.88.4.641. URL: https://personal.lse.ac.uk/TENREYRO/jensen08k.pdf (дата обращения: 27.10.2026).
 
-33. Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft. June 1999. URL: https://www.komkon.org/~tacik/science/shapley.pdf (дата обращения: 27.10.2026).
+33. Shorrocks A. F. Decomposition procedures for distributional analysis: a unified framework based on the Shapley value // The Journal of Economic Inequality. 2013. Vol. 11, no. 1. P. 99–126. DOI: 10.1007/s10888-011-9214-z. Использована авторская версия: First draft, June 1999. URL: https://link.springer.com/article/10.1007/s10888-011-9214-z (дата обращения: 29.10.2026).
 
 34. U.S. Department of Energy. All-Electric Vehicles. URL: https://afdc.energy.gov/vehicles/electric-basics-ev (дата обращения: 27.10.2026).
 

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "citations": {
     "I_CONTEXT": {
       "source_ids": [
@@ -14,7 +14,11 @@
         "S32",
         "S14"
       ],
-      "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698. Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Раздел 3, с. 14–19 (рабочая версия)."
+      "text": "Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698. Head K., Mayer T. Brands in Motion // American Economic Review. 2019. Vol. 109, no. 9. P. 3073–3124. Цит. по рабочей версии Banque de France WP 629, 2017, разд. 3, с. 14–19.",
+      "journal_records_verified": [
+        "S14"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "I_RESEARCH": {
       "source_ids": [
@@ -36,7 +40,11 @@
         "S21",
         "S23"
       ],
-      "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641. Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7."
+      "text": "Santos Silva J. M. C., Tenreyro S. The Log of Gravity // Review of Economics and Statistics 88(4),641–658. 2006. DOI 10.1162/rest.88.4.641. Shorrocks A. F. Decomposition procedures for distributional analysis // The Journal of Economic Inequality. 2013. Vol. 11, no. 1. P. 99–126. Цит. по авторской версии June 1999, разд. 2, с. 4–7.",
+      "journal_records_verified": [
+        "S23"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "MELITZ": {
       "source_ids": [
@@ -49,8 +57,12 @@
       "source_ids": [
         "S14"
       ],
-      "text": "Head K., Mayer T. Brands in Motion: How frictions shape multinational production. Banque de France Working Paper 629. 2017. Раздел 3, с. 14–19 (рабочая версия).",
-      "supported_scope": "Страна бренда, сборка и сбыт, выбор моделей и источника поставок; без переноса численных параметров."
+      "text": "Head K., Mayer T. Brands in Motion // American Economic Review. 2019. Vol. 109, no. 9. P. 3073–3124. Цит. по рабочей версии Banque de France WP 629, 2017, разд. 3, с. 14–19.",
+      "supported_scope": "Страна бренда, сборка и сбыт, выбор моделей и источника поставок; без переноса численных параметров.",
+      "journal_records_verified": [
+        "S14"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "IEA25PROD": {
       "source_ids": [
@@ -177,8 +189,12 @@
       "source_ids": [
         "S31"
       ],
-      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
-      "supported_scope": "Различие качества и unit values; собственной оценки качества нет."
+      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality // The Quarterly Journal of Economics. 2014. Vol. 129, no. 2. P. 477–527. Цит. по NBER WP 18314, 2012, аннотация и введение.",
+      "supported_scope": "Различие качества и unit values; собственной оценки качества нет.",
+      "journal_records_verified": [
+        "S31"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "C2VALUEDEF": {
       "source_ids": [
@@ -211,8 +227,12 @@
       "source_ids": [
         "S23"
       ],
-      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7.",
-      "supported_scope": "Точное сложение и симметричное усреднение порядков; только прочитанный черновик 1999 года, не журнальная версия 2013."
+      "text": "Shorrocks A. F. Decomposition procedures for distributional analysis // The Journal of Economic Inequality. 2013. Vol. 11, no. 1. P. 99–126. Цит. по авторской версии June 1999, разд. 2, с. 4–7.",
+      "supported_scope": "Точное сложение и симметричное усреднение порядков; только прочитанный черновик 1999 года, не журнальная версия 2013.",
+      "journal_records_verified": [
+        "S23"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "TIMING": {
       "source_ids": [
@@ -226,16 +246,24 @@
         "S14",
         "S32"
       ],
-      "text": "Head K., Mayer T. Brands in Motion. Banque de France WP 629. 2017. Раздел 3. Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698.",
-      "supported_scope": "Сопоставление единицы анализа и границ переноса структурного подхода."
+      "text": "Head K., Mayer T. Brands in Motion // American Economic Review. 2019. Vol. 109, no. 9. P. 3073–3124. Цит. по рабочей версии Banque de France WP 629, 2017, разд. 3. Melitz M. J. The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity // Econometrica 71(6),1695–1725. 2003. DOI 10.1111/1468-0262.00467. С. 1695–1698.",
+      "supported_scope": "Сопоставление единицы анализа и границ переноса структурного подхода.",
+      "journal_records_verified": [
+        "S14"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "COMPETITION": {
       "source_ids": [
         "S14",
         "S08"
       ],
-      "text": "Head K., Mayer T. Brands in Motion. Banque de France WP 629. 2017. Раздел 3. Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Разделы 4.1–4.2.",
-      "supported_scope": "Постоянная наценка в прочитанной версии Head/Mayer и эндогенные ценовые решения в Barwick; сопоставление предпосылок."
+      "text": "Head K., Mayer T. Brands in Motion // American Economic Review. 2019. Vol. 109, no. 9. P. 3073–3124. Цит. по рабочей версии Banque de France WP 629, 2017, разд. 3. Barwick P. J. et al. From Trade War to Green Transition. NBER WP 35334. 2026. Разделы 4.1–4.2.",
+      "supported_scope": "Постоянная наценка в прочитанной версии Head/Mayer и эндогенные ценовые решения в Barwick; сопоставление предпосылок.",
+      "journal_records_verified": [
+        "S14"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "SCENARIOS": {
       "source_ids": [
@@ -286,8 +314,12 @@
       "source_ids": [
         "S23"
       ],
-      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis. First draft, 1999. Раздел 2.",
-      "supported_scope": "Атрибуция метода; собственное применение не заявляется новой математической конструкцией."
+      "text": "Shorrocks A. F. Decomposition procedures for distributional analysis // The Journal of Economic Inequality. 2013. Vol. 11, no. 1. P. 99–126. Цит. по авторской версии June 1999, разд. 2.",
+      "supported_scope": "Атрибуция метода; собственное применение не заявляется новой математической конструкцией.",
+      "journal_records_verified": [
+        "S23"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "PPML": {
       "source_ids": [
@@ -455,23 +487,31 @@
       "source_ids": [
         "S23"
       ],
-      "text": "Shorrocks A. F. Decomposition Procedures for Distributional Analysis: A Unified Framework Based on the Shapley Value. First draft, June 1999. Раздел 2, с. 4–7.",
+      "text": "Shorrocks A. F. Decomposition procedures for distributional analysis // The Journal of Economic Inequality. 2013. Vol. 11, no. 1. P. 99–126. Цит. по авторской версии June 1999, разд. 2, с. 4–7.",
       "supported_scope": "Принцип симметричного распределения; прочитан черновик 1999 года, не журнальная версия 2013 года.",
       "kind": "external",
       "source_files": [],
       "urls": [],
-      "source_sha256": {}
+      "source_sha256": {},
+      "journal_records_verified": [
+        "S23"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "C2QUALITY": {
       "source_ids": [
         "S31"
       ],
-      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
+      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality // The Quarterly Journal of Economics. 2014. Vol. 129, no. 2. P. 477–527. Цит. по NBER WP 18314, 2012, аннотация и введение.",
       "supported_scope": "Средняя стоимость не равна цене неизменного качества; прочитаны аннотация и введение WP 2012 года.",
       "kind": "external",
       "source_files": [],
       "urls": [],
-      "source_sha256": {}
+      "source_sha256": {},
+      "journal_records_verified": [
+        "S31"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "C2PPML": {
       "source_ids": [
@@ -824,12 +864,16 @@
       "source_ids": [
         "S31"
       ],
-      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality. NBER Working Paper 18314. 2012. Аннотация и введение.",
+      "text": "Feenstra R. C., Romalis J. International Prices and Endogenous Quality // The Quarterly Journal of Economics. 2014. Vol. 129, no. 2. P. 477–527. Цит. по NBER WP 18314, 2012, аннотация и введение.",
       "supported_scope": "Средняя стоимость и качество; прочитано введение WP 2012 года, цена неизменного качества не оценивалась.",
       "kind": "external",
       "source_files": [],
       "urls": [],
-      "source_sha256": {}
+      "source_sha256": {},
+      "journal_records_verified": [
+        "S31"
+      ],
+      "page_reference_basis": "Consulted working/author versions explicitly identified; journal pagination is not substituted for those page locators."
     },
     "C3ACEA": {
       "source_ids": [
