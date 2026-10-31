@@ -1,0 +1,263 @@
+{
+  "AWMD_Updated": {
+    "coverage": "1970Q1:2026Q3",
+    "target": {
+      "1970Q2:2006Q4": {
+        "quarters": 147,
+        "negative": 16,
+        "near_zero_abs_lt_0.1": 10,
+        "negative_dates": [
+          "1971Q1",
+          "1974Q4",
+          "1975Q1",
+          "1980Q2",
+          "1980Q3",
+          "1982Q3",
+          "1984Q2",
+          "1986Q1",
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1980Q1:2006Q4": {
+        "quarters": 108,
+        "negative": 13,
+        "near_zero_abs_lt_0.1": 9,
+        "negative_dates": [
+          "1980Q2",
+          "1980Q3",
+          "1982Q3",
+          "1984Q2",
+          "1986Q1",
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1985Q1:2006Q4": {
+        "quarters": 88,
+        "negative": 9,
+        "near_zero_abs_lt_0.1": 5,
+        "negative_dates": [
+          "1986Q1",
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1987Q1:2006Q4": {
+        "quarters": 80,
+        "negative": 8,
+        "near_zero_abs_lt_0.1": 5,
+        "negative_dates": [
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1990Q1:2006Q4": {
+        "quarters": 68,
+        "negative": 7,
+        "near_zero_abs_lt_0.1": 5,
+        "negative_dates": [
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1995Q1:2006Q4": {
+        "quarters": 48,
+        "negative": 2,
+        "near_zero_abs_lt_0.1": 3,
+        "negative_dates": [
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "2007Q1:2025Q4": {
+        "quarters": 76,
+        "negative": 15,
+        "near_zero_abs_lt_0.1": 7,
+        "negative_dates": [
+          "2008Q2",
+          "2008Q3",
+          "2008Q4",
+          "2009Q1",
+          "2011Q4",
+          "2012Q1",
+          "2012Q2",
+          "2012Q3",
+          "2012Q4",
+          "2013Q1",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2022Q4",
+          "2023Q1"
+        ]
+      }
+    },
+    "gdp_nonmissing_coverage": "1970-Q1:2026-Q2"
+  },
+  "AWMD_exIreland": {
+    "coverage": "1970Q1:2026Q2",
+    "target": {
+      "1970Q2:2006Q4": {
+        "quarters": 147,
+        "negative": 16,
+        "near_zero_abs_lt_0.1": 10,
+        "negative_dates": [
+          "1971Q1",
+          "1974Q4",
+          "1975Q1",
+          "1980Q2",
+          "1980Q3",
+          "1982Q3",
+          "1984Q2",
+          "1986Q1",
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1980Q1:2006Q4": {
+        "quarters": 108,
+        "negative": 13,
+        "near_zero_abs_lt_0.1": 9,
+        "negative_dates": [
+          "1980Q2",
+          "1980Q3",
+          "1982Q3",
+          "1984Q2",
+          "1986Q1",
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1985Q1:2006Q4": {
+        "quarters": 88,
+        "negative": 9,
+        "near_zero_abs_lt_0.1": 5,
+        "negative_dates": [
+          "1986Q1",
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1987Q1:2006Q4": {
+        "quarters": 80,
+        "negative": 8,
+        "near_zero_abs_lt_0.1": 5,
+        "negative_dates": [
+          "1987Q1",
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1990Q1:2006Q4": {
+        "quarters": 68,
+        "negative": 7,
+        "near_zero_abs_lt_0.1": 5,
+        "negative_dates": [
+          "1991Q3",
+          "1992Q2",
+          "1992Q3",
+          "1992Q4",
+          "1993Q1",
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "1995Q1:2006Q4": {
+        "quarters": 48,
+        "negative": 2,
+        "near_zero_abs_lt_0.1": 3,
+        "negative_dates": [
+          "2001Q4",
+          "2003Q1"
+        ]
+      },
+      "2007Q1:2025Q4": {
+        "quarters": 76,
+        "negative": 16,
+        "near_zero_abs_lt_0.1": 6,
+        "negative_dates": [
+          "2008Q2",
+          "2008Q3",
+          "2008Q4",
+          "2009Q1",
+          "2009Q2",
+          "2011Q2",
+          "2011Q4",
+          "2012Q1",
+          "2012Q2",
+          "2012Q3",
+          "2012Q4",
+          "2013Q1",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2023Q1"
+        ]
+      }
+    },
+    "gdp_nonmissing_coverage": "1970-Q1:2026-Q2"
+  },
+  "provenance": {
+    "url": "https://eabcn.org/sites/default/files/2026-09/AWMD_Sep2026.zip",
+    "retrieved_on": "2026-10-31",
+    "zip_sha256": "294cb41933eb8082f647887d83aba355cd3bfe183c12c427056c006cc0b2d405",
+    "zip_bytes": 1114897,
+    "vintage": "September 2026",
+    "status": "late revised/reconstructed data; not point-in-time vintages",
+    "area": "EA21 in AWMD; must not be silently relabelled EA20",
+    "count_scope": "Sign of non-rounded 100*log(YER_t/YER_t-1); counts describe this source only, not the final harmonised target"
+  }
+}
