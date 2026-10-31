@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-10-31",
+  "all_checks_pass": true,
+  "checks": {
+    "unique_record_ids": true,
+    "unique_dois": true,
+    "eleven_valid_pdf_responses": true,
+    "all_referenced_pdfs_valid": true,
+    "all_page_locators_within_pdf": true,
+    "metadata_only_count_is_two": true,
+    "bib_keys_match_registry": true,
+    "matrix_ids_match_registry": true,
+    "pirschel_year_number_distinguished": true,
+    "bellego_doi_confirmed_from_issue": true,
+    "no_pdf_unread_claim_for_metadata_only": true,
+    "sha256_moneta_2003": true,
+    "sha256_bellego_ferrara_2009": true,
+    "sha256_pirschel_2016": true,
+    "sha256_fiedler_2019": true,
+    "sha256_fendel_2018": true,
+    "sha256_berge_jorda_2009": true,
+    "sha256_furno_giannone_2024": true,
+    "sha256_croushore_2008": true,
+    "sha256_puhr_2017_author2021": true,
+    "sha256_ca_zorzi_2023": true,
+    "sha256_gilchrist_zakrajsek_2011": true
+  },
+  "artifact_sha256": {
+    "READING_MATRIX.md": "77ad0b9bae8a1307092e49c808adaf444d52c1a9d3c9b4af6ac33085ffa9aa7f",
+    "README.md": "d44b8559b4e0de9dffe3bae834199175d052801af805c0e7b7359f77d8bfe871",
+    "SEARCH_LOG.md": "c840528cee9646e3127be924a5c6d2d4e539d0723470ee15dddc0278981945d6",
+    "access_manifest.json": "afd0cefcd666df5dcd7bcda97de600c4dab88122a69f4d87765338d6c8422250",
+    "references.bib": "a3c90de937f3a5db7ea32668c828d620211ca0146f6360b6e67550554dc02a11",
+    "source_registry.json": "dcdbf5f0f15262460cb47d3c357c299d8848cda09c7a471755ecece695b95570"
+  },
+  "existing_files_read_only_sha256": {
+    "research/03_us_financial_conditions/downturn_extension/protocol_lock.json": "e917ba751b10daa1030c5c4f411cffaac81327580429b75e807db226ef75430e",
+    "research/03_us_financial_conditions/downturn_extension/RESULTS.md": "021be2f8d8fb7d90c02463735d954ae33bc959a03c15e14234beaf9fe8a401d5",
+    "research/03_us_financial_conditions/manuscript/sections/references.md": "5759d925b4184f363eb02a07418a98f1eb06411f925565defe32871f5dfa43c0"
+  },
+  "changed_scope": "Only literature_downturn_2026-10-31 is intended for the GitHub update.",
+  "model_reestimated": false,
+  "manuscript_rewritten": false
+}

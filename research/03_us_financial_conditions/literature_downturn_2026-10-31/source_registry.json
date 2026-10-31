@@ -1,0 +1,543 @@
+{
+  "checked_on": "2026-10-31",
+  "scope": "Targeted update for the downturn extension; not an exhaustive systematic review.",
+  "current_bibliography_entries": 62,
+  "existing_structured_catalog_records": 44,
+  "selected_records": 14,
+  "pdf_available_and_sections_checked": 11,
+  "official_html_only": 1,
+  "metadata_or_abstract_only": 2,
+  "chapters_or_model_modified": false,
+  "interpretation": "PDF access does not imply access to the final journal version or cover-to-cover reading.",
+  "records": [
+    {
+      "id": "L01",
+      "authors": [
+        "Fabio Moneta"
+      ],
+      "title": "Does the Yield Spread Predict Recessions in the Euro Area?",
+      "year": 2005,
+      "venue": "International Finance",
+      "doi": "10.1111/j.1468-2362.2005.00159.x",
+      "primary_url": "https://doi.org/10.1111/j.1468-2362.2005.00159.x",
+      "volume": "8",
+      "issue": "2",
+      "pages": "263-301",
+      "priority": "high",
+      "use_in_chapters": [
+        "1: predictors",
+        "2: forecast design"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "ECB Working Paper 294, December 2003; not the final journal PDF.",
+      "consulted_pdf_id": "moneta_2003",
+      "consulted_pdf_pages": [
+        5,
+        15,
+        16,
+        17,
+        18,
+        24,
+        35
+      ],
+      "alternative_primary_urls": [
+        "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp294.pdf"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp294.pdf",
+      "pdf_pages_total": 59,
+      "pdf_sha256": "862bf5a3ff017be71c9fed026b8336621c3905b976181d4ecbdce4280b987358"
+    },
+    {
+      "id": "L02",
+      "authors": [
+        "Christophe Bellégo",
+        "Laurent Ferrara"
+      ],
+      "title": "Forecasting euro area recessions by combining financial information",
+      "year": 2017,
+      "venue": "International Journal of Computational Economics and Econometrics",
+      "doi": "10.1504/IJCEE.2017.080609",
+      "primary_url": "https://www.inderscience.com/info/e_inarticletoc.php?issue=1%2F2&jcode=ijcee&vol=7&year=2017",
+      "volume": "7",
+      "issue": "1/2",
+      "pages": "78-94",
+      "priority": "high",
+      "use_in_chapters": [
+        "1: closest literature",
+        "2: contribution"
+      ],
+      "previous_project_status": "Already cited as WP 259 in downturn_extension/SOURCE_REGISTER.md; version and full-text review deepened.",
+      "consulted_version": "Banque de France WP 259, November 2009: Forecasting Euro-area recessions using time-varying binary response models for financial variables. Final 2017 text not obtained.",
+      "consulted_pdf_id": "bellego_ferrara_2009",
+      "consulted_pdf_pages": [
+        4,
+        8,
+        9,
+        13,
+        17,
+        21
+      ],
+      "alternative_primary_urls": [
+        "https://publications.banque-france.fr/sites/default/files/medias/documents/working-paper_259_2009.pdf"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://publications.banque-france.fr/sites/default/files/medias/documents/working-paper_259_2009.pdf",
+      "pdf_pages_total": 30,
+      "pdf_sha256": "3f64187599b786996b12df2c3f6bf4caeefd3a7112fb46cc17ddf5acd521d033"
+    },
+    {
+      "id": "L03",
+      "authors": [
+        "Inske Pirschel"
+      ],
+      "title": "Forecasting Euro Area Recessions in Real-Time",
+      "year": 2016,
+      "venue": "Kiel Working Paper No. 2020",
+      "doi": null,
+      "primary_url": "https://www.kielinstitut.de/publications/forecasting-euro-area-recessions-in-real-time-11381/",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "priority": "high",
+      "use_in_chapters": [
+        "1: closest literature",
+        "2: information set"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "Kiel WP No. 2020, January 2016; 2020 is the paper number, not year.",
+      "consulted_pdf_id": "pirschel_2016",
+      "consulted_pdf_pages": [
+        2,
+        3,
+        4,
+        7,
+        8,
+        12,
+        13,
+        14
+      ],
+      "alternative_primary_urls": [],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://www.kielinstitut.de/fileadmin/Dateiverwaltung/IfW-Publications/fis-import/0eac0865-6e8b-43c9-8785-5e1b02ec1bea-kwp-2020.pdf",
+      "pdf_pages_total": 36,
+      "pdf_sha256": "27338b35a82f33203ae1a752a2a797b9e42ab845755e8520ed43d56334902a4d"
+    },
+    {
+      "id": "L04",
+      "authors": [
+        "Jakob Fiedler",
+        "Josef Ruzicka",
+        "Thomas Theobald"
+      ],
+      "title": "The Real-Time Information Content of Financial Stress and Bank Lending on European Business Cycles",
+      "year": 2019,
+      "venue": "IMK Working Paper No. 198",
+      "doi": null,
+      "primary_url": "https://www.imk-boeckler.de/de/faust-detail.htm?produkt=HBS-007227",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "priority": "high",
+      "use_in_chapters": [
+        "1: closest literature",
+        "2: additional information"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "IMK WP 198, July 2019, 40-page PDF.",
+      "consulted_pdf_id": "fiedler_2019",
+      "consulted_pdf_pages": [
+        1,
+        2,
+        6,
+        10,
+        11,
+        17,
+        18,
+        23
+      ],
+      "alternative_primary_urls": [
+        "https://www.boeckler.de/pdf/p_imk_wp_198_2019.pdf"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://www.boeckler.de/pdf/p_imk_wp_198_2019.pdf",
+      "pdf_pages_total": 40,
+      "pdf_sha256": "173f17091a3927d759560c9e15963b8d86d18e6453011985a0131168afdd6b45"
+    },
+    {
+      "id": "L05",
+      "authors": [
+        "Ralf Fendel",
+        "Nicola Mai",
+        "Oliver Mohr"
+      ],
+      "title": "Recession probabilities for the Eurozone at the zero lower bound: Challenges to the term spread and rise of alternatives",
+      "year": 2021,
+      "venue": "Journal of Forecasting",
+      "doi": "10.1002/for.2751",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/for.2751",
+      "volume": "40",
+      "issue": "6",
+      "pages": "1000-1026",
+      "priority": "high",
+      "use_in_chapters": [
+        "1: yield curve limitations",
+        "2: interpretation"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "Final publisher HTML consulted in addition to WHU Working Paper 18/04, July 2018. Online first 14 December 2020; journal issue September 2021. Version equivalence not assumed.",
+      "consulted_pdf_id": "fendel_2018",
+      "consulted_pdf_pages": [
+        3,
+        4,
+        10,
+        11,
+        25,
+        26
+      ],
+      "alternative_primary_urls": [
+        "https://d-nb.info/1162892471/34"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://d-nb.info/1162892471/34",
+      "pdf_pages_total": 43,
+      "pdf_sha256": "fe7743b9c3b940634df591bd58995b42b7707d1f930e65cab810a212ed456a71"
+    },
+    {
+      "id": "L06",
+      "authors": [
+        "Travis J. Berge",
+        "Òscar Jordà"
+      ],
+      "title": "Evaluating the Classification of Economic Activity into Recessions and Expansions",
+      "year": 2011,
+      "venue": "American Economic Journal: Macroeconomics",
+      "doi": "10.1257/mac.3.2.246",
+      "primary_url": "https://www.aeaweb.org/articles?id=10.1257/mac.3.2.246",
+      "volume": "3",
+      "issue": "2",
+      "pages": "246-277",
+      "priority": "high",
+      "use_in_chapters": [
+        "2: evaluation",
+        "3: thresholds and losses"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "UC Davis WP 09-18, 4 November 2009: The Classification of Economic Activity into Expansions and Recessions; not the final journal PDF.",
+      "consulted_pdf_id": "berge_jorda_2009",
+      "consulted_pdf_pages": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "alternative_primary_urls": [
+        "https://repec.dss.ucdavis.edu/files/nJrhx3LHH4z2T3EuCU2QMKk1/09-18.pdf"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://repec.dss.ucdavis.edu/files/nJrhx3LHH4z2T3EuCU2QMKk1/09-18.pdf",
+      "pdf_pages_total": 44,
+      "pdf_sha256": "6b2b5caf34d83052ee8efa589fd032d493d993b6d5cb86014c0b82833f815f0f"
+    },
+    {
+      "id": "L07",
+      "authors": [
+        "Francesco Furno",
+        "Domenico Giannone"
+      ],
+      "title": "Nowcasting Recession Risk",
+      "year": 2024,
+      "venue": "CEPR Discussion Paper No. 19483 / author manuscript",
+      "doi": null,
+      "primary_url": "https://cepr.org/publications/dp19483",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "priority": "high",
+      "use_in_chapters": [
+        "1: closest literature",
+        "2: Brier and nowcast"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "Consulted author manuscript dated 22 January 2024 (30 pages), linked by Amazon Science. CEPR DP 19483 has a later September 2024 date; identical text is not claimed.",
+      "consulted_pdf_id": "furno_giannone_2024",
+      "consulted_pdf_pages": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        10,
+        12,
+        21,
+        22
+      ],
+      "alternative_primary_urls": [
+        "https://www.amazon.science/publications/nowcasting-recession-risk",
+        "https://cdn.amazon.science/12/ce/ceca29ba49ecae3b6367041fbf11/nowcasting-recession-risk.pdf",
+        "https://github.com/amazon-science/nowcasting-recession-risk"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://cdn.amazon.science/12/ce/ceca29ba49ecae3b6367041fbf11/nowcasting-recession-risk.pdf",
+      "pdf_pages_total": 30,
+      "pdf_sha256": "a3319d1dc2c02ee8d29e90669e3adc0d7a464080fb348add2a8a293504f3aaf7"
+    },
+    {
+      "id": "L08",
+      "authors": [
+        "Dean Croushore"
+      ],
+      "title": "Frontiers of Real-Time Data Analysis",
+      "year": 2011,
+      "venue": "Journal of Economic Literature",
+      "doi": "10.1257/jel.49.1.72",
+      "primary_url": "https://www.aeaweb.org/articles?id=10.1257/jel.49.1.72",
+      "volume": "49",
+      "issue": "1",
+      "pages": "72-100",
+      "priority": "high",
+      "use_in_chapters": [
+        "2: vintages and publication timing"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "Philadelphia Fed WP 08-4, March 2008; not the final 2011 journal PDF.",
+      "consulted_pdf_id": "croushore_2008",
+      "consulted_pdf_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        15,
+        16
+      ],
+      "alternative_primary_urls": [
+        "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2008/wp08-4.pdf"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2008/wp08-4.pdf",
+      "pdf_pages_total": 38,
+      "pdf_sha256": "bd14ec56c3f58a27c33797b7385641ac0b0bb810e3dbb7cd84f37bf7aca28e87"
+    },
+    {
+      "id": "L09",
+      "authors": [
+        "Rainer Puhr",
+        "Georg Heinze",
+        "Mariana Nold",
+        "Lara Lusa",
+        "Angelika Geroldinger"
+      ],
+      "title": "Firth's logistic regression with rare events: accurate effect estimates AND predictions?",
+      "year": 2017,
+      "venue": "Statistics in Medicine",
+      "doi": "10.1002/sim.7273",
+      "primary_url": "https://doi.org/10.1002/sim.7273",
+      "volume": "36",
+      "issue": "14",
+      "pages": "2302-2317",
+      "priority": "high",
+      "use_in_chapters": [
+        "2: Firth and FLIC method"
+      ],
+      "previous_project_status": "Already cited in downturn_extension/SOURCE_REGISTER.md with abstract/developer description; author full text newly checked.",
+      "consulted_version": "Author manuscript internally dated 12 May 2016; deposited as arXiv:2101.07620v1 on 19 January 2021. Not a new 2021 journal publication.",
+      "consulted_pdf_id": "puhr_2017_author2021",
+      "consulted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "alternative_primary_urls": [
+        "https://arxiv.org/abs/2101.07620",
+        "https://arxiv.org/pdf/2101.07620v1"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://arxiv.org/pdf/2101.07620v1",
+      "pdf_pages_total": 17,
+      "pdf_sha256": "ffa68136f4636dfdb16c8eb4acf6288d96d0ad44bdd78a4c81356a7568d2e695"
+    },
+    {
+      "id": "L10",
+      "authors": [
+        "Michele Ca’ Zorzi",
+        "Luca Dedola",
+        "Georgios Georgiadis",
+        "Marek Jarociński",
+        "Livio Stracca",
+        "Georg Strasser"
+      ],
+      "title": "Making Waves: Monetary Policy and Its Asymmetric Transmission in a Globalized World",
+      "year": 2023,
+      "venue": "International Journal of Central Banking",
+      "doi": null,
+      "primary_url": "https://www.ijcb.org/journal/v19n2/making-waves-monetary-policy-and-its-asymmetric-transmission-globalized-world",
+      "volume": "19",
+      "issue": "2",
+      "pages": "95-144",
+      "priority": "high",
+      "use_in_chapters": [
+        "1: international transmission",
+        "3: interpretation"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "Final journal version, June 2023, pages 95-144.",
+      "consulted_pdf_id": "ca_zorzi_2023",
+      "consulted_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "alternative_primary_urls": [],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://www.ijcb.org/sites/default/files/journal/v19n2/ijcb-v19n2-making-waves-monetary-policy-and-its-asymmetric-transmission-globalized-world.pdf",
+      "pdf_pages_total": 50,
+      "pdf_sha256": "8b5a47649c97e01d68da271dcbc5c1cabc1c16132193568decd67426d21828cf"
+    },
+    {
+      "id": "L11",
+      "authors": [
+        "Simon Gilchrist",
+        "Egon Zakrajšek"
+      ],
+      "title": "Credit Spreads and Business Cycle Fluctuations",
+      "year": 2012,
+      "venue": "American Economic Review",
+      "doi": "10.1257/aer.102.4.1692",
+      "primary_url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.4.1692",
+      "volume": "102",
+      "issue": "4",
+      "pages": "1692-1720",
+      "priority": "high",
+      "use_in_chapters": [
+        "1: credit channel",
+        "2: predictor definitions"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "NBER Working Paper 17021, May 2011; not the final journal PDF.",
+      "consulted_pdf_id": "gilchrist_zakrajsek_2011",
+      "consulted_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "alternative_primary_urls": [
+        "https://www.nber.org/papers/w17021",
+        "https://www.nber.org/system/files/working_papers/w17021/w17021.pdf"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "full_pdf_selected_sections_checked",
+      "pdf_url": "https://www.nber.org/system/files/working_papers/w17021/w17021.pdf",
+      "pdf_pages_total": 37,
+      "pdf_sha256": "6eef919ff73868892f6511d70d893667d10cdd50c05c0a2660ab242243b4dda6"
+    },
+    {
+      "id": "L12",
+      "authors": [
+        "Mahmut S. İpek",
+        "Burçin Kısacıkoğlu"
+      ],
+      "title": "Estimating euro area output gap dynamics: Evidence from the updated Area-Wide Model Database",
+      "year": 2026,
+      "venue": "European Economic Review",
+      "doi": "10.1016/j.euroecorev.2025.105179",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0014292125002296",
+      "volume": "181",
+      "issue": null,
+      "pages": "105179",
+      "priority": "data_reference",
+      "use_in_chapters": [
+        "2: AWM data provenance"
+      ],
+      "previous_project_status": "Dataset already used in downturn_extension; formal article reference added to this supplement.",
+      "consulted_version": "Publisher metadata/abstract, author publication list and Crossref checked; no full-text reading of the article claimed.",
+      "consulted_pdf_id": null,
+      "consulted_pdf_pages": [],
+      "alternative_primary_urls": [
+        "https://cepr.org/publications/dp19913",
+        "https://sites.google.com/site/burcinkisacikoglu/home/research",
+        "https://api.crossref.org/works/10.1016/j.euroecorev.2025.105179"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "metadata_and_or_abstract_only"
+    },
+    {
+      "id": "L13",
+      "authors": [
+        "Hans R. Künsch"
+      ],
+      "title": "The Jackknife and the Bootstrap for General Stationary Observations",
+      "year": 1989,
+      "venue": "The Annals of Statistics",
+      "doi": "10.1214/aos/1176347265",
+      "primary_url": "https://doi.org/10.1214/aos/1176347265",
+      "volume": "17",
+      "issue": "3",
+      "pages": "1217-1241",
+      "priority": "reserve_not_content_cited",
+      "use_in_chapters": [
+        "2: dependent-data bootstrap background only"
+      ],
+      "previous_project_status": "Not a standalone entry in the current 62-item bibliography.",
+      "consulted_version": "Crossref bibliographic metadata verified. Project Euclid returned a technical HTML page instead of PDF; full text not read.",
+      "consulted_pdf_id": null,
+      "consulted_pdf_pages": [],
+      "alternative_primary_urls": [
+        "https://api.crossref.org/works/10.1214/aos/1176347265"
+      ],
+      "checked_on": "2026-10-31",
+      "access_status": "metadata_and_or_abstract_only"
+    },
+    {
+      "id": "L14",
+      "authors": [
+        "Tilman Bletzinger",
+        "Giulia Martorana",
+        "Jakub Mistak"
+      ],
+      "title": "The evolution of financial conditions in the euro area and the United States: a Macro-Finance FCI perspective",
+      "year": 2026,
+      "venue": "ECB Economic Bulletin",
+      "doi": null,
+      "primary_url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202606_05~26c3018e11.en.html",
+      "volume": null,
+      "issue": "6/2026",
+      "pages": null,
+      "priority": "context",
+      "use_in_chapters": [
+        "1: recent international evidence"
+      ],
+      "previous_project_status": "Separate publication from ECB WP 3193 already in the current bibliography.",
+      "consulted_version": "Official full HTML, Economic Bulletin 6/2026; charts C-E and text on spillover channels. Latest observations 28 August 2026.",
+      "consulted_pdf_id": null,
+      "consulted_pdf_pages": [],
+      "alternative_primary_urls": [],
+      "checked_on": "2026-10-31",
+      "access_status": "official_full_html_selected_sections_checked"
+    }
+  ]
+}

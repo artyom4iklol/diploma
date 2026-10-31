@@ -1,0 +1,183 @@
+{
+  "checked_on": "2026-10-31",
+  "purpose": "Access and integrity record. External full-text files were read as research intermediates; links and hashes are retained here.",
+  "pdf_downloads": [
+    {
+      "id": "moneta_2003",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp294.pdf",
+      "accessed_at_utc": "2026-10-31T10:43:48.452364+00:00",
+      "final_url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp294.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 876316,
+      "pages": 59,
+      "sha256": "862bf5a3ff017be71c9fed026b8336621c3905b976181d4ecbdce4280b987358"
+    },
+    {
+      "id": "bellego_ferrara_2009",
+      "url": "https://publications.banque-france.fr/sites/default/files/medias/documents/working-paper_259_2009.pdf",
+      "accessed_at_utc": "2026-10-31T10:43:48.453390+00:00",
+      "final_url": "https://publications.banque-france.fr/sites/default/files/medias/documents/working-paper_259_2009.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 521722,
+      "pages": 30,
+      "sha256": "3f64187599b786996b12df2c3f6bf4caeefd3a7112fb46cc17ddf5acd521d033"
+    },
+    {
+      "id": "pirschel_2016",
+      "url": "https://www.kielinstitut.de/fileadmin/Dateiverwaltung/IfW-Publications/fis-import/0eac0865-6e8b-43c9-8785-5e1b02ec1bea-kwp-2020.pdf",
+      "accessed_at_utc": "2026-10-31T10:43:48.453923+00:00",
+      "final_url": "https://www.kielinstitut.de/fileadmin/Dateiverwaltung/IfW-Publications/fis-import/0eac0865-6e8b-43c9-8785-5e1b02ec1bea-kwp-2020.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 500275,
+      "pages": 36,
+      "sha256": "27338b35a82f33203ae1a752a2a797b9e42ab845755e8520ed43d56334902a4d"
+    },
+    {
+      "id": "fiedler_2019",
+      "url": "https://www.boeckler.de/pdf/p_imk_wp_198_2019.pdf",
+      "accessed_at_utc": "2026-10-31T10:43:48.454337+00:00",
+      "final_url": "https://www.boeckler.de/pdf/p_imk_wp_198_2019.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 1977375,
+      "pages": 40,
+      "sha256": "173f17091a3927d759560c9e15963b8d86d18e6453011985a0131168afdd6b45"
+    },
+    {
+      "id": "fendel_2018",
+      "url": "https://d-nb.info/1162892471/34",
+      "accessed_at_utc": "2026-10-31T10:43:48.455011+00:00",
+      "final_url": "https://d-nb.info/1162892471/34",
+      "http_status": 200,
+      "content_type": "application/pdf;charset=base64",
+      "status": "pdf_downloaded",
+      "bytes": 1859193,
+      "pages": 43,
+      "sha256": "fe7743b9c3b940634df591bd58995b42b7707d1f930e65cab810a212ed456a71"
+    },
+    {
+      "id": "berge_jorda_2009",
+      "url": "https://repec.dss.ucdavis.edu/files/nJrhx3LHH4z2T3EuCU2QMKk1/09-18.pdf",
+      "accessed_at_utc": "2026-10-31T10:43:57.674058+00:00",
+      "final_url": "https://repec.dss.ucdavis.edu/files/nJrhx3LHH4z2T3EuCU2QMKk1/09-18.pdf",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "status": "pdf_downloaded",
+      "bytes": 840840,
+      "pages": 44,
+      "sha256": "6b2b5caf34d83052ee8efa589fd032d493d993b6d5cb86014c0b82833f815f0f"
+    },
+    {
+      "id": "furno_giannone_2024",
+      "url": "https://cdn.amazon.science/12/ce/ceca29ba49ecae3b6367041fbf11/nowcasting-recession-risk.pdf",
+      "accessed_at_utc": "2026-10-31T10:44:03.154358+00:00",
+      "final_url": "https://cdn.amazon.science/12/ce/ceca29ba49ecae3b6367041fbf11/nowcasting-recession-risk.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 672763,
+      "pages": 30,
+      "sha256": "a3319d1dc2c02ee8d29e90669e3adc0d7a464080fb348add2a8a293504f3aaf7"
+    },
+    {
+      "id": "croushore_2008",
+      "url": "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2008/wp08-4.pdf",
+      "accessed_at_utc": "2026-10-31T10:44:03.547874+00:00",
+      "final_url": "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2008/wp08-4.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 270615,
+      "pages": 38,
+      "sha256": "bd14ec56c3f58a27c33797b7385641ac0b0bb810e3dbb7cd84f37bf7aca28e87"
+    },
+    {
+      "id": "puhr_2017_author2021",
+      "url": "https://arxiv.org/pdf/2101.07620v1",
+      "accessed_at_utc": "2026-10-31T10:44:04.937540+00:00",
+      "final_url": "https://arxiv.org/pdf/2101.07620v1",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 255362,
+      "pages": 17,
+      "sha256": "ffa68136f4636dfdb16c8eb4acf6288d96d0ad44bdd78a4c81356a7568d2e695"
+    },
+    {
+      "id": "ca_zorzi_2023",
+      "url": "https://www.ijcb.org/sites/default/files/journal/v19n2/ijcb-v19n2-making-waves-monetary-policy-and-its-asymmetric-transmission-globalized-world.pdf",
+      "accessed_at_utc": "2026-10-31T10:44:05.400025+00:00",
+      "final_url": "https://www.ijcb.org/sites/default/files/journal/v19n2/ijcb-v19n2-making-waves-monetary-policy-and-its-asymmetric-transmission-globalized-world.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 1117757,
+      "pages": 50,
+      "sha256": "8b5a47649c97e01d68da271dcbc5c1cabc1c16132193568decd67426d21828cf"
+    },
+    {
+      "id": "gilchrist_zakrajsek_2011",
+      "url": "https://www.nber.org/system/files/working_papers/w17021/w17021.pdf",
+      "accessed_at_utc": "2026-10-31T10:44:05.721622+00:00",
+      "final_url": "https://www.nber.org/system/files/working_papers/w17021/w17021.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "status": "pdf_downloaded",
+      "bytes": 515928,
+      "pages": 37,
+      "sha256": "6eef919ff73868892f6511d70d893667d10cdd50c05c0a2660ab242243b4dda6"
+    },
+    {
+      "id": "kunsch_1989",
+      "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-17/issue-3/The-Jackknife-and-the-Bootstrap-for-General-Stationary-Observations/10.1214/aos/1176347265.pdf",
+      "accessed_at_utc": "2026-10-31T10:44:06.470370+00:00",
+      "final_url": "https://projecteuclid.org/journals/annals-of-statistics/volume-17/issue-3/The-Jackknife-and-the-Bootstrap-for-General-Stationary-Observations/10.1214/aos/1176347265.pdf",
+      "http_status": 200,
+      "content_type": "text/html",
+      "status": "unavailable",
+      "error": "Response is not PDF"
+    }
+  ],
+  "official_html": [
+    {
+      "source_id": "L05",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/for.2751",
+      "status": "full_html_available_selected_sections_checked_via_web"
+    },
+    {
+      "source_id": "L14",
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202606_05~26c3018e11.en.html",
+      "status": "full_html_available_selected_sections_checked_via_web"
+    }
+  ],
+  "bibliographic_metadata": [
+    {
+      "source_id": "L12",
+      "url": "https://api.crossref.org/works/10.1016/j.euroecorev.2025.105179"
+    },
+    {
+      "source_id": "L13",
+      "url": "https://api.crossref.org/works/10.1214/aos/1176347265"
+    }
+  ],
+  "access_failures": [
+    {
+      "url": "https://assets.amazon.science/12/ce/ceca29ba49ecae3b6367041fbf11/nowcasting-recession-risk.pdf",
+      "status": "404_from_web_fetch",
+      "resolution": "Followed the publication page to the current cdn.amazon.science URL."
+    }
+  ],
+  "limitations": [
+    "A received PDF is not necessarily the final publisher version.",
+    "Only selected pages and relevant sections were examined; no claim of exhaustive full-text reading.",
+    "Kunsch PDF request returned HTML and was not counted as a PDF.",
+    "No full text of the Ipek-Kisacikoglu article was read in this update."
+  ]
+}
