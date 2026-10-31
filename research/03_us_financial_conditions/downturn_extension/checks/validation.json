@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "checks_count": 70,
+  "checks": {
+    "unique_forecast_keys": true,
+    "probabilities_finite_inside_unit_interval": true,
+    "no_future_evaluation_beyond_2025": true,
+    "forecasts_before_target_quarter_starts": true,
+    "training_targets_before_issue_quarter": true,
+    "GDP_features_before_issue_quarter": true,
+    "financial_features_no_later_than_issue_quarter": true,
+    "matched_training_dates_and_facts": true,
+    "no_missing_forecasts_inside_each_model_group": true,
+    "76_and_73_main_evaluations": true,
+    "15_main_contractions_both_horizons": true,
+    "Brier_loss_independently_recomputed": true,
+    "log_loss_independently_recomputed": true,
+    "warnings_use_frozen_threshold": true,
+    "Firth_adjusted_scores_small": true,
+    "FLIC_preserves_training_event_rate": true,
+    "all_fits_have_both_outcome_classes": true,
+    "input_downturn_extension/data/raw/fred_VIXCLS.csv": true,
+    "input_downturn_extension/data/raw/ecb_stoxx50.csv": true,
+    "input_downturn_extension/data/raw/fred_TB3MS.csv": true,
+    "input_downturn_extension/data/raw/ecfin_main_indicators_202610.zip": true,
+    "input_downturn_extension/data/raw/AWMD_Sep2026.zip": true,
+    "input_downturn_extension/data/raw/fred_BAA10YM.csv": true,
+    "input_downturn_extension/data/raw/firth_method.html": true,
+    "input_downturn_extension/data/raw/fred_GS10.csv": true,
+    "input_downturn_extension/data/raw/puhr_2017_abstract.html": true,
+    "input_downturn_extension/data/raw/eurostat_gdp_EA21.json": true,
+    "input_downturn_extension/data/raw/fred_ANFCI.csv": true,
+    "input_downturn_extension/data/raw/fred_NFCI.csv": true,
+    "input_downturn_extension/data/raw/ecfin_timeseries_page.html": true,
+    "input_downturn_extension/data/raw/eabcn_chronology.html": true,
+    "input_downturn_extension/data/raw/ecb_ciss_ea.csv": true,
+    "input_revision30/results/equity_model_frames.csv": true,
+    "input_revision18/results/forecast_calendar_59.csv": true,
+    "input_revision18/results/evaluation_targets.csv": true,
+    "input_revision19/results/ANFCI_calendar_59.csv": true,
+    "input_revision30/results/equity_calendar.csv": true,
+    "protected_research/02_chip_trade/documents/diploma_full.docx": true,
+    "protected_research/02_chip_trade/documents/chapter1.docx": true,
+    "protected_research/02_chip_trade/documents/topic2.docx": true,
+    "protected_research/02_chip_trade/documents/chapter2.docx": true,
+    "protected_research/02_chip_trade/documents/introduction_conclusion.docx": true,
+    "protected_research/02_chip_trade/documents/chapter3.docx": true,
+    "protected_research/03_us_financial_conditions/revision18/Note_for_supervisor.docx": true,
+    "protected_research/03_us_financial_conditions/acceptance/ACCEPTANCE_REPORT.docx": true,
+    "protected_research/03_us_financial_conditions/audit/MODEL_DATA_AUDIT.docx": true,
+    "protected_research/03_us_financial_conditions/revision19/topic1.docx": true,
+    "protected_research/03_us_financial_conditions/revision16/Note_for_supervisor_before_revision16.docx": true,
+    "protected_research/03_us_financial_conditions/revision16/Note_for_supervisor.docx": true,
+    "protected_research/03_us_financial_conditions/approval_check/TOPIC_APPROVAL_AUDIT.docx": true,
+    "protected_research/03_us_financial_conditions/final_check/SUPERVISOR_PROPOSAL_BEFORE_FINAL_CHECK.docx": true,
+    "protected_research/03_us_financial_conditions/final_check/THESIS_DECISION.docx": true,
+    "protected_research/03_us_financial_conditions/review/LITERATURE_REVIEW_ALL_34.docx": true,
+    "protected_research/03_us_financial_conditions/chapter1/history/revision20/Chapter_1_US_Financial_Conditions_Euro_Area.docx": true,
+    "protected_research/03_us_financial_conditions/documents/illustrated_2026-10-22/diploma_full_illustrated.docx": true,
+    "protected_research/04_auto_trade/documents/diploma_auto_trade.docx": true,
+    "protected_research/04_auto_trade/documents/chapter1_auto_trade.docx": true,
+    "protected_research/04_auto_trade/documents/auto_thesis_writing_base.docx": true,
+    "all_saved_forecasts_rebuilt_from_coefficients": true,
+    "archive_counterfactual_same_sample_and_facts": true,
+    "archive_counterfactual_EU_unchanged": true,
+    "inherited_archival_sources_public_by_issue": true,
+    "archival_training_ends_before_known_GDP_boundary": true,
+    "independent_generic_optimizer_agrees": true,
+    "penalty_gradient_numerical_check": true,
+    "future_data_mutation_cannot_change_past_forecasts": true,
+    "model_has_nonzero_US_response": true,
+    "paired_comparison_intervals_finite_and_ordered": true,
+    "bootstrap_replication_count_frozen": true,
+    "comparison_means_recomputed": true
+  },
+  "details": {
+    "Firth_adjusted_scores_small": 2.2950643263942302e-08,
+    "all_saved_forecasts_rebuilt_from_coefficients": {
+      "forecasts": 6965,
+      "max_abs_error": 9.43689570931383e-16
+    },
+    "independent_generic_optimizer_agrees": [
+      {
+        "experiment": "core_long",
+        "origin": "2006Q4",
+        "model": "EU_CREDIT",
+        "h": 1,
+        "max_parameter_error": 2.794541942297002e-08,
+        "objective_error": 1.4210854715202004e-14,
+        "probability_error": 7.631371021221689e-10,
+        "gradient_check_error": 9.802408073829682e-06
+      },
+      {
+        "experiment": "core_long",
+        "origin": "2020Q1",
+        "model": "EU_BOTH",
+        "h": 1,
+        "max_parameter_error": 2.7085879761301612e-08,
+        "objective_error": 2.1316282072803006e-14,
+        "probability_error": 3.451149213629101e-09,
+        "gradient_check_error": 1.6402784105340827e-05
+      },
+      {
+        "experiment": "europe_equity",
+        "origin": "2019Q4",
+        "model": "EU_VIX",
+        "h": 4,
+        "max_parameter_error": 8.943142285056105e-08,
+        "objective_error": 4.263256414560601e-14,
+        "probability_error": 3.0180635490761887e-09,
+        "gradient_check_error": 1.1069763701343532e-05
+      },
+      {
+        "experiment": "gdp_ex_ireland",
+        "origin": "2024Q4",
+        "model": "EU_CREDIT",
+        "h": 1,
+        "max_parameter_error": 2.48185183515659e-08,
+        "objective_error": 1.4210854715202004e-14,
+        "probability_error": 1.5235122330370388e-09,
+        "gradient_check_error": 2.293882785828687e-05
+      },
+      {
+        "experiment": "rolling_80",
+        "origin": "2006Q4",
+        "model": "EU_BOTH",
+        "h": 4,
+        "max_parameter_error": 3.9994509037910575e-08,
+        "objective_error": 1.0658141036401503e-14,
+        "probability_error": 1.5134919567616478e-09,
+        "gradient_check_error": 5.7257198491594925e-06
+      },
+      {
+        "experiment": "europe_stress",
+        "origin": "2025Q3",
+        "model": "EU_VIX",
+        "h": 1,
+        "max_parameter_error": 1.0621061580229352e-07,
+        "objective_error": 6.394884621840902e-14,
+        "probability_error": 2.4500709447372593e-09,
+        "gradient_check_error": 1.4615290938028185e-05
+      }
+    ],
+    "future_data_mutation_cannot_change_past_forecasts": [
+      {
+        "origin": "2008Q3",
+        "probability_error": 5.551115123125783e-17
+      },
+      {
+        "origin": "2019Q4",
+        "probability_error": 8.326672684688674e-17
+      },
+      {
+        "origin": "2023Q4",
+        "probability_error": 8.326672684688674e-17
+      }
+    ]
+  },
+  "forecasts": 8790,
+  "fits": 6965,
+  "protected_documents": 21,
+  "scope": "internal arithmetic, source provenance, solver and chronology; does not convert late-history data into point-in-time observations"
+}

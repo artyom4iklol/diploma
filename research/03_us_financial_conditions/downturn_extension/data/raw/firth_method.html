@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8">
+
+<!-- 
+	_____________________________________________________________________________
+	
+		                               A TYPO3 work by
+		              FONDA - Interaktive Medien und Kommunikation GmbH
+	
+		                               Besser einfach.
+	
+		                        MORE INFO @ www.fonda.at/typo3-cms
+	
+		              www.fonda.at ]|[ office@fonda.at ]|[ +43-1-8901589
+		_____________________________________________________________________________
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<link rel="icon" href="/_assets/23c048c4e278024490c6ac1b855e5de4/IMG/favicon.ico" type="image/png">
+
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="author" content="Medizinischen Universität Wien">
+<meta name="robots" content="index,follow">
+<meta name="twitter:card" content="summary">
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="no">
+
+
+<link rel="stylesheet" href="/_assets/17c47593ef97d74036371c647541672f/Css/style.css?1793105839" media="all">
+<link rel="stylesheet" href="/_assets/23c048c4e278024490c6ac1b855e5de4/CSS/powermail.css?1793105839" media="all">
+<link rel="stylesheet" href="/_assets/23c048c4e278024490c6ac1b855e5de4/CSS/cookie-steps.css?1793105839" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-516aeed7563c74e90814695c48442315-ae104b22a7856fbaa5e7a478463b8235.css?1793211660" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-879738cc3d6ede5233173ddc1a992804-2ab79c8b99720e29f8bcbb9fc65fe2c4.css?1793211660" media="print">
+
+
+
+
+<script src="/typo3temp/assets/compressed/merged-afb6201d2fbb46a2d2d39ad9b92ccbe8-e6211a626241cbe6ddede14642268de7.js?1793211660"></script>
+
+
+
+
+            <noscript>
+              <link href="/fileadmin/f_base/Public/grunticon/icons.fallback.css" rel="stylesheet">
+            </noscript><meta property="og:type" content="website" /><meta property="og:site_name" content="Medizinischen Universität Wien" /><meta property="og:title" content="Firth correction | MedUni Wien" /><meta property="og:url" content="https://www.meduniwien.ac.at//services/klinische-biometrie/software/statistische-software/firth-correction/" /><meta property="og:image" content="https://www.meduniwien.ac.at" /><meta property="og:description" content="" /><meta name="twitter:title" content="Firth correction | MedUni Wien" /><meta name="twitter:description" content="" /><meta property="twitter:image0:src" content="https://www.meduniwien.ac.at" />            <meta name="format-detection" content="telephone=no"><title>Firth correction | MedUni Wien</title>
+<link rel="canonical" href="https://data-science.meduniwien.ac.at/services/klinische-biometrie/software/statistische-software/firth-correction/">
+
+<!-- This site is optimized with the Yoast SEO for TYPO3 plugin - https://yoast.com/typo3-extensions-seo/ -->
+<script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.meduniwien.ac.at\/web\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/www.meduniwien.ac.at\/web\/standard-titel\/","name":"OE Seiten"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/www.meduniwien.ac.at\/web\/zentren\/","name":"Zentren"}},{"@type":"ListItem","position":4,"item":{"@id":"https:\/\/data-science.meduniwien.ac.at\/","name":"Zentrum f\u00fcr Medical Data Science"}},{"@type":"ListItem","position":5,"item":{"@id":"https:\/\/data-science.meduniwien.ac.at\/institute\/","name":"Institute"}},{"@type":"ListItem","position":6,"item":{"@id":"https:\/\/data-science.meduniwien.ac.at\/institute\/klinische-biometrie\/","name":"Institut f\u00fcr Klinische Biometrie"}},{"@type":"ListItem","position":7,"item":{"@id":"https:\/\/data-science.meduniwien.ac.at\/institute\/klinische-biometrie\/forschung\/","name":"Forschung"}},{"@type":"ListItem","position":8,"item":{"@id":"https:\/\/data-science.meduniwien.ac.at\/institute\/klinische-biometrie\/forschung\/software\/","name":"Software"}},{"@type":"ListItem","position":9,"item":{"@id":"https:\/\/data-science.meduniwien.ac.at\/services\/klinische-biometrie\/software\/statistische-software\/firth-correction\/","name":"Firth correction"}}]}]</script>
+</head>
+<body id="body" data-ng-app="gsaSearch" data-ng-controller="searchController as vm" data-pid="25691">
+
+
+
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+<div id="js-mainnnav__backdrop" class="mainnav__backdrop"></div>
+
+
+    
+        
+    
+        
+            <a href="/en/services/klinische-biometrie/software/statistische-software/firth-correction/" class="btn btn--green mainnav__language outside btn--white">
+                English
+            </a>
+        
+    
+
+
+<button id="js-mainnav__flap" class="mainnav__flap icon-menu-20x20"><span>Menü</span></button>
+<button id="js-mainnav__flap--scroll" class="mainnav__flap--scroll icon-menu-20x20"><span>Menü</span></button>
+
+
+
+
+
+
+
+<nav role="navigation" id="js-mainnav__wrap" class="mainnav__wrap mainnav__wrap--close">
+    <div class="mainnav__controls clearfix">
+        
+            
+                
+            
+                
+                    <a href="/en/services/klinische-biometrie/software/statistische-software/firth-correction/" class="btn btn--green mainnav__language">
+                        English
+                    </a>
+                
+            
+        
+        <button id="js-mainnav__close" class="mainnav__close icon-close-20x20">schließen</button>
+    </div>
+    
+        
+
+<div class="tx-medunisolrclient">
+    
+    <div class="mainnav__search">
+        <form action="https://www.meduniwien.ac.at/web/suche/?tx_medunisolrclient_websitesearch%5Baction%5D=getResults&amp;tx_medunisolrclient_websitesearch%5Bcontroller%5D=Search&amp;cHash=2c15d6c3d46141e7c4994a30a5848e49" method="post">
+<div>
+<input type="hidden" name="tx_medunisolrclient_websitesearch[__referrer][@extension]" value="MeduniSolrClient" >
+<input type="hidden" name="tx_medunisolrclient_websitesearch[__referrer][@controller]" value="Search" >
+<input type="hidden" name="tx_medunisolrclient_websitesearch[__referrer][@action]" value="widget" >
+<input type="hidden" name="tx_medunisolrclient_websitesearch[__referrer][arguments]" value="YTowOnt9513f37263e0379bd5a9318cd4e911f1eff72b8b2" >
+<input type="hidden" name="tx_medunisolrclient_websitesearch[__referrer][@request]" value="{&quot;@extension&quot;:&quot;MeduniSolrClient&quot;,&quot;@controller&quot;:&quot;Search&quot;,&quot;@action&quot;:&quot;widget&quot;}a58bdf1763c41c7fac43c60580d1993893ce514a" >
+<input type="hidden" name="tx_medunisolrclient_websitesearch[__trustedProperties]" value="{&quot;q&quot;:1}dcd11034967af910f01778293299ae8edda4b413" >
+</div>
+
+            <label for="fulltext_search_input"></label>
+            <div class="input-group">
+                <input id="fulltext_search_input" class="form-control" type="text" name="tx_medunisolrclient_websitesearch[q]" />
+                <span id="fulltext_search_button" class="input-group-btn">
+                            <button type="submit" class="btn btn--green btn--search">
+                                
+                            </button>
+                        </span>
+                <ul class="typeahead dropdown-menu" role="listbox" style="display: none; top: 46px; left: 0px;">
+                    <li style="" class="suggest-options">
+                        <a class="dropdown-item" role="option">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+
+
+
+</div>
+    
+
+    <ul id="mainnav" class="mainnav__menu">
+        <li class="icon-arrow-down-16x16"><a href="#div22809" data-toggle="collapse" aria-expanded="false" aria-controls="div22809">Über uns</a><ul id="div22809" class="collapse"><li><a href="/ueber-uns/das-zentrum/">Das Zentrum</a></li><li><a href="/ueber-uns/news/">News</a></li><li><a href="/ueber-uns/mitarbeiterinnen/">Mitarbeiter:innen</a></li><li><a href="/ueber-uns/offene-stellen/">Offene Stellen</a></li><li><a href="/ueber-uns/events/">Events</a></li></ul></li><li class="icon-arrow-down-16x16"><a href="#div18070" data-toggle="collapse" aria-expanded="false" aria-controls="div18070">Institute</a><ul id="div18070" class="collapse"><li><a href="/institute/artificial-intelligence/">Institut für Artificial Intelligence</a></li><li><a href="/institute/klinische-biometrie/">Institut für Klinische Biometrie</a></li><li><a href="/institute/medizinische-statistik/">Institut für Medizinische Statistik</a></li><li><a href="/institute/medizinisches-informationsmanagement/">Institut für Medizinisches Informationsmanagement</a></li><li><a href="/institute/outcomes-research/">Institut für Outcomes Research</a></li><li><a href="/institute/wissenschaft-komplexer-systeme/">Institut für Wissenschaft Komplexer Systeme</a></li></ul></li><li class="icon-arrow-down-16x16"><a href="#div18062" data-toggle="collapse" aria-expanded="false" aria-controls="div18062">Forschung</a><ul id="div18062" class="collapse"><li><a href="/forschung/ueberblick/">Überblick</a></li><li><a href="/forschung/publikationen/">Publikationen</a></li></ul></li><li class="icon-arrow-down-16x16"><a href="#div18066" data-toggle="collapse" aria-expanded="false" aria-controls="div18066">Studium, Aus- und Weiterbildung</a><ul id="div18066" class="collapse"><li><a href="/studium-aus-und-weiterbildung/lehrveranstaltungsankuendigung/">Lehrveranstaltungsankündigung</a></li><li><a href="/studium-aus-und-weiterbildung/diplomstudium-humanmedizin/">Diplomstudium Humanmedizin</a></li><li><a href="/studium-aus-und-weiterbildung/masterstudium-medizinische-informatik/themenboerse/">Masterstudium Medizinische Informatik</a></li><li><a href="https://www.meduniwien.ac.at/web/studium-weiterbildung/masterstudium-molecular-precision-medicine/" target="_blank">Masterstudium Molecular Precision Medicine</a></li><li><a href="https://www.meduniwien.ac.at/web/studium-weiterbildung/phd-und-doktoratsstudien/phd-studium/phd-thematische-programme/medical-informatics-biostatistics-complex-systems/" target="_blank">PhD-Programm „Medizinische Informatik, Biostatistik und Komplexe Systeme“</a></li><li><a href="https://www.meduniwien.ac.at/web/forschung/projekte/digital-skills-knowledge-communication" target="_blank">Projekt „Digital Skills, Knowledge & Communication“</a></li></ul></li><li class="icon-arrow-down-16x16"><a href="#div19879" data-toggle="collapse" aria-expanded="false" aria-controls="div19879">Services</a><ul id="div19879" class="collapse"><li><a href="/services/ueberblick/">Überblick</a></li></ul></li>
+    </ul>
+    <div class="mainnav__menu-targets"><span class="mainnav__menu-targets-title">Info für</span>
+        <ul>
+            <li><a href="https://www.meduniwien.ac.at/web/" target="_blank">MedUni Wien</a></li><li><a href="https://www.akhwien.at/" target="_blank" rel="noreferrer">AKH Wien</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--googleon: index-->
+<main id="main">
+    
+            
+            
+            <header role="banner">
+                <div class="header header-kombi">
+                    <div class="header--background-mask-blue"></div>
+                    <!--in data-background-images können bilder in 4 grössen angegeben werden; es wird responsive ein jeweiliges Background image gesetzt
+                    -->
+                    
+            <div class="header--background"></div>
+        
+    
+            <div class="container--base container--header">
+                
+                        <div class="logo--container">
+                            
+                                    
+                                            <a href="/" class="header__logo" title="Zentrum für Medical Data Science">
+                                                <img src="/fileadmin/_processed_/b/c/csm_Logo_Zentrum_fuer_Medical_Data_Science_90d2f17051.png" class="logo" alt="Zentrum für Medical Data Science" title="Zentrum für Medical Data Science" />
+                                            </a>
+                                        
+                                
+                        </div>
+                    
+                <!-- Beinhaltet Page H1-->
+                <div class="header__headline 1">
+                    
+                            <h1>Firth correction</h1>
+                        
+                </div>
+                
+                <div class="header__subheadline"><span></span></div>
+            </div>
+        
+
+    </div>
+    </header>
+    
+    <div class="container--base">
+        <div class="subnav subnav--anchor"><ul><li id="subnav-anchor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="subnav__item--active subnav__item--anchor icon-arrow-down-16x16"><a href="#subnav" style="min-height: 54px;">Institute</a></li></ul></div>
+        <ol class="breadcrumb">
+            <li><a href="/" target="_self" title="Zentrum für Medical Data Science">Zentrum für Medical Data Science</a></li><li><span>Institute</span></li><li><a href="/institute/klinische-biometrie/" target="_self" title="Institut für Klinische Biometrie">Institut für Klinische Biometrie</a></li><li><a href="/institute/klinische-biometrie/forschung/" target="_self" title="Forschung">Forschung</a></li><li><a href="/institute/klinische-biometrie/forschung/software/" target="_self" title="Software">Software</a></li><li class="active">Firth correction</li>
+        </ol>
+        
+                
+            
+        
+        
+                <div class="col-main">
+                    <div id="content" tabindex="-1">
+                        
+                        
+                        
+                        
+                        
+
+
+
+
+        
+        <div id="c128120" class="content__block">
+    
+
+
+    
+	
+                    
+		
+				
+			
+
+		
+
+    
+                <h2>Firth correction for logistic, Poisson and Cox regression</h2>
+            
+
+
+
+		
+
+		
+
+
+
+		
+				
+			
+	
+    
+
+
+
+
+        
+
+
+
+
+    
+    
+
+
+
+    
+
+
+<p class="bodytext">The phenomenon of monotone likelihood or separation is observed in the fitting process of a regression model if the likelihood converges while at least one parameter estimate diverges to infinity. Separation primarily occurs with small samples with rare events or substantial censoring of survival times and several highly predictive covariates. Statistical software packages using the maximum likelihood method cannot appropriately deal with this problem. To solve this problem the Firth (1993) bias correction method has been proposed by Heinze, Schemper and colleagues (see references below). Unlike the maximum likelihood method, the Firth correction always leads to finite parameter estimates. Extensive simulation studies proved the dominance of Firth’s correction over maximum likelihood.</p>
+<p class="bodytext">Heinze and Schemper (2001, 2002) proposed to combine point estimation with confidence interval estimation based on the profile penalized likelihood method, as these intervals are able to reflect the asymmetric shape of the profile penalized likelihood that results when the standard profile likelihood does not have a unique maximum.</p>
+<p class="bodytext">Heinze and Puhr (2010) extended the method to be used with conditional logistic regression.</p>
+<p class="bodytext">Heinze, Ploner and Beyea (2013) proposed a new method to compute confidence intervals after multiple imputation based on combining penalized likelihood profiles.</p>
+<p class="bodytext">Puhr, Heinze, Nold, Lusa and Geroldinger (2017) proposed two new modifications of Firth’s correction for logistic regression, FLIC and FLAC. While the standard Firth correction leads to shrinkage in all parameters, including the intercept, and hence produces predictions which are biased towards 0.5, FLIC and FLAC are able to exclude the intercept from shrinkage while maintaining the desirable properties of the Firth correction.</p>
+<p class="bodytext">Firth’s correction was compared to other methods such as Bayesian Data Augmentation and an increasing sample size strategy by Heinze (2006), Mansournia, Geroldinger, Greenland and Heinze (2018), Sinkovec, Geroldinger and Heinze (2019) and Sinkovec, Heinze, Blagus and Geroldinger (2021).</p>
+<p class="bodytext">Firth's correction for Poisson regression, including its modifications FLIC and FLAC, were described, empirically evaluated and compared to Bayesian Data Augmentation and Exact Poisson Regression by Joshi, Geroldinger, Jiricka, Senchaudhuri, Corcoran and Heinze (2021).</p>
+<p class="bodytext">Here we link to SAS and R software that can be used to apply the Firth correction to logistic, conditional logistic, Cox and Poisson regression.</p>
+<p class="bodytext">SAS software repository on github with macros for all mentioned types of regression:<br> <a href="https://github.com/georgheinze/flicflac" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">https://github.com/georgheinze/flicflac </a></p>
+<p class="bodytext">R repository on github for logistic regression (including FLIC and FLAC):<br> <a href="https://github.com/georgheinze/logistf" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">https://github.com/georgheinze/logistf </a></p>
+<p class="bodytext">R repository on github for Cox regression:<br> <a href="https://github.com/georgheinze/coxphf" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">https://github.com/georgheinze/coxphf </a></p>
+<p class="bodytext">The R packages are also available on <a href="https://cran.r-project.org/" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">CRAN</a> and can be installed from within R.</p>
+
+    </div>
+
+
+
+
+<div id="c150382">
+	
+	<hr class="u__hr" />
+
+	
+
+
+</div>
+
+
+
+
+
+        
+        <div id="c150381" class="content__block">
+    
+
+
+    
+	
+                    
+		
+				
+			
+
+		
+
+    
+                    <h4>References</h4>
+            
+
+
+
+		
+
+		
+
+
+
+		
+				
+			
+	
+    
+
+
+
+
+        
+
+
+
+
+    
+    
+
+
+
+    
+
+
+<p class="bodytext"><strong>Firth, D.</strong> (1993): "Bias reduction of maximum likelihood estimates", Biometrika <strong>80</strong>(1): 27-38; (<a href="https://doi.org/10.1093/biomet/80.1.27" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1093/biomet/80.1.27</a>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p class="bodytext"><strong>Heinze, G.</strong> (1999): "<a href="https://cemsiis.meduniwien.ac.at/fileadmin/cemsiis/KB/programme/tr10_1999.pdf" target="_blank" class="download" title="Initiates file download" rel="noreferrer">The application of Firth's procedure to Cox and logistic regression</a>", Technical Report 10/1999, Section for Clinical Biometrics, CeMSIIS, Medical University of Vienna</p>
+<p class="bodytext"><strong>Heinze, G., Schemper, M. </strong>(2001): "A Solution to the Problem of Monotone Likelihood in Cox Regression", Biometrics 57 (1), 114 – 119 (<a href="https://doi.org/10.1111/j.0006-341x.2001.00114.x" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1111/j.0006-341x.2001.00114.x</a>)</p>
+<p class="bodytext"><strong>Heinze, G., Schemper, M.</strong> (2002): "A Solution to the Problem of Separation in logistic regression", Statistics in Medicine 21, 2409 – 2419 (<a href="https://doi.org/10.1002/sim.1047" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1002/sim.1047</a>)</p>
+<p class="bodytext"><strong>Heinze, G., Ploner, M. </strong>(2002): "SAS and SPLUS programs to perform Cox regression without convergence problems", Computer Methods and Programs in Biomedicine 67, 217 – 223 (<a href="https://doi.org/10.1016/s0169-2607(01)00149-3" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1016/S0169-2607(01)00149-3</a>)</p>
+<p class="bodytext"><strong>Heinze, G., Ploner, M.</strong> (2003): "Fixing the nonconvergence bug in logistic regression with SPLUS and SAS", Computer Methods and Programs in Biomedicine 71, 181 – 187 (<a href="https://doi.org/10.1016/s0169-2607(02)00088-3" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1016/s0169-2607(02)00088-3</a>)</p>
+<p class="bodytext"><strong>Heinze, G.</strong> (2006): "A comparative investigation of methods for logistic regression with separated or nearly separated data", Statistics in Medicine 25, 4216 – 4226 (<a href="https://doi.org/10.1002/sim.2687" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1002/sim.2687</a>)</p>
+<p class="bodytext"><strong>Heinze, G., Dunkler, D. </strong>(2008): "Avoiding infinite estimates of time-dependent effects in small-sample survival studies", Statistics in Medicine 27, 6455 – 6469 (<a href="https://doi.org/10.1002/sim.3418" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1002/sim.3418</a>)</p>
+<p class="bodytext"><strong>Heinze, G., Puhr, R. </strong>(2010): "Bias-reduced and separation-proof conditional logistic regression with small or sparse data sets", Statistics in Medicine 29, 770 - 777 (<a href="https://doi.org/10.1002/sim.3794" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1002/sim.3794</a>)</p>
+<p class="bodytext"><strong>Heinze,G., Ploner,M., Beyea,J. </strong>(2013): "Confidence intervals after multiple imputation: combining profile likelihood information from logistic regressions", Statistics in Medicine 32, 5062 - 5076 (<a href="https://doi.org/10.1002/sim.5899" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1002/sim.5899</a>)</p>
+<p class="bodytext"><strong>Puhr R, Heinze G, Nold M, Lusa L, Geroldinger A </strong>(2017): “Firth's logistic regression with rare events: accurate effect estimates and predictions?”, Statistics in Medicine 36(14), 2302-2317 (<a href="https://doi.org/10.1002/sim.7273" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1002/sim.7273</a>)</p>
+<p class="bodytext"><strong>Mansournia MA, Geroldinger A, Greenland S, Heinze G </strong>(2018): “Separation in Logistic Regression: Causes, Consequences, and Control.” American Journal of Epidemiology 187(4): 864-870; (<a href="https://doi.org/10.1093/aje/kwx299" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.1093/aje/kwx299</a>)</p>
+<p class="bodytext"><strong>Sinkovec H, Geroldinger A, Heinze G</strong> (2019): "Bring More Data!-A Good Advice? Removing Separation in Logistic Regression by Increasing Sample Size." International Journal of Environmental Research and Public Health 16(23): 4658 (<a href="https://doi.org/10.3390/ijerph16234658" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">doi:10.3390/ijerph16234658</a>)</p>
+<p class="bodytext"><strong>Joshi A, Geroldinger A, Jiricka L, Senchaudhuri P, Corcoran C, Heinze G</strong> (2021): "Solutions to problems of nonexistence of parameter estimates and sparse data bias in Poisson regression." Statistical Methods in Medical Research, early view (doi:<a href="https://doi.org/10.1177/09622802211065405" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">10.1177/09622802211065405</a>)</p>
+<p class="bodytext"><strong>Sinkovec H, Heinze G, Blagus R, Geroldinger A</strong> (2021): "To tune or not to tune, a case study of ridge logistic regression in small or sparse datasets." BMC Medical Research Methodology 21(1): 199 (doi:<a href="https://doi.org/10.1186/s12874-021-01374-y" target="_blank" class="external-link-new-window" title="Opens external link in new window" rel="noreferrer">10.1186/s12874-021-01374-y</a>)</p>
+
+    </div>
+
+
+
+
+                        
+                        
+
+                        
+                    </div>
+                </div>
+                
+                        
+                                <div class="col-aside">
+                                    <aside role="complementary">
+                                        
+                                        <div id="aside__scrolling" class="affix-top">
+                                            
+                                            <nav id="subnav" class="subnav">
+                                                <ul>
+                                                    
+                                                    
+                                                            <li class="subnav__item--active"><a href="/institute/klinische-biometrie/forschung/software/">Software</a><ul class="js-subnav__tocopy"></ul></li>
+                                                        
+                                                </ul>
+                                            </nav>
+
+                                            
+                                        </div>
+                                    </aside>
+                                </div>
+                            
+                    
+            
+    </div>
+    
+            
+        
+
+    
+        
+    
+</main>
+
+
+<!--googleoff: index-->
+
+
+        
+                <footer id="footer" role="contentinfo">
+                    <div class="doormat doormat__oe">
+                        <div class="container--base">
+                            
+                                <div class="partners__container">
+    
+        
+            <div class="partners__item">
+                <a href="https://www.meduniwien.ac.at/web/" target="_blank" title="Medizinische Universität Wien">
+                    <img class="partners__image" title="Medizinische Universität Wien" src="/fileadmin/_processed_/4/7/csm_logo_meduniwien_de_28a948687a.png" width="280" height="64" alt="Medizinische Universität Wien" />
+                </a>
+            </div>
+        
+            <div class="partners__item">
+                <a href="https://www.akhwien.at/" target="_blank" rel="noreferrer" title="Universitätsklinikum AKH Wien">
+                    <img class="partners__image" title="Universitätsklinikum AKH Wien" src="/fileadmin/content/OE/template/logos/WIGEV_2020_DE_INVERS_64.png" width="406" height="64" alt="Universitätsklinikum AKH Wien" />
+                </a>
+            </div>
+        
+    
+</div>
+                            
+                            <div class="doormat__section doormat__section--menu">
+                                <div class="doormat__menu"><span class="doormat__menu-title">Über uns</span><ul class="doormat__menu-list"><li><a href="/ueber-uns/das-zentrum/" title="Das Zentrum">Das Zentrum</a></li><li><a href="/ueber-uns/news/" title="News">News</a></li><li><a href="/ueber-uns/mitarbeiterinnen/" title="Mitarbeiter:innen">Mitarbeiter:innen</a></li><li><a href="/ueber-uns/offene-stellen/" title="Offene Stellen">Offene Stellen</a></li><li><a href="/ueber-uns/events/" title="Events">Events</a></li></ul></div><div class="doormat__menu"><span class="doormat__menu-title">Institute</span><ul class="doormat__menu-list"><li><a href="/institute/artificial-intelligence/" title="Institut für Artificial Intelligence">Institut für Artificial Intelligence</a></li><li><a href="/institute/klinische-biometrie/" title="Institut für Klinische Biometrie">Institut für Klinische Biometrie</a></li><li><a href="/institute/medizinische-statistik/" title="Institut für Medizinische Statistik">Institut für Medizinische Statistik</a></li><li><a href="/institute/medizinisches-informationsmanagement/" title="Institut für Medizinisches Informationsmanagement">Institut für Medizinisches Informationsmanagement</a></li><li><a href="/institute/outcomes-research/" title="Institut für Outcomes Research">Institut für Outcomes Research</a></li><li><a href="/institute/wissenschaft-komplexer-systeme/" title="Institut für Wissenschaft Komplexer Systeme">Institut für Wissenschaft Komplexer Systeme</a></li></ul></div><div class="doormat__menu"><span class="doormat__menu-title">Forschung</span><ul class="doormat__menu-list"><li><a href="/forschung/ueberblick/" title="Überblick">Überblick</a></li><li><a href="/forschung/publikationen/" title="Publikationen">Publikationen</a></li></ul></div><div class="doormat__menu"><span class="doormat__menu-title">Studium, Aus- und Weiterbildung</span><ul class="doormat__menu-list"><li><a href="/studium-aus-und-weiterbildung/lehrveranstaltungsankuendigung/" title="Lehrveranstaltungsankündigung">Lehrveranstaltungsankündigung</a></li><li><a href="/studium-aus-und-weiterbildung/diplomstudium-humanmedizin/" title="Diplomstudium Humanmedizin">Diplomstudium Humanmedizin</a></li><li><a href="/studium-aus-und-weiterbildung/masterstudium-medizinische-informatik/themenboerse/" title="Masterstudium Medizinische Informatik">Masterstudium Medizinische Informatik</a></li><li><a href="https://www.meduniwien.ac.at/web/studium-weiterbildung/masterstudium-molecular-precision-medicine/" target="_blank" title="Masterstudium Molecular Precision Medicine">Masterstudium Molecular Precision Medicine</a></li><li><a href="https://www.meduniwien.ac.at/web/studium-weiterbildung/phd-und-doktoratsstudien/phd-studium/phd-thematische-programme/medical-informatics-biostatistics-complex-systems/" target="_blank" title="PhD-Programm „Medizinische Informatik, Biostatistik und Komplexe Systeme“">PhD-Programm „Medizinische Informatik, Biostatistik und Komplexe Systeme“</a></li><li><a href="https://www.meduniwien.ac.at/web/forschung/projekte/digital-skills-knowledge-communication" target="_blank" title="Projekt „Digital Skills, Knowledge &amp; Communication“">Projekt „Digital Skills, Knowledge &amp; Communication“</a></li></ul></div><div class="doormat__menu"><span class="doormat__menu-title">Services</span><ul class="doormat__menu-list"><li><a href="/services/ueberblick/" title="Überblick">Überblick</a></li></ul></div>
+                                
+                                    
+                                
+                            </div>
+                            <div class="doormat__section doormat__section--connect">
+                                </ul></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer footer--single">
+                        <div class="container--base">
+                            <ul class="footer__menu">
+                                <li><a href="https://www.meduniwien.ac.at/web/rechtliches/" target="_blank" title="Rechtliches">Rechtliches</a></li><li><a href="#fcc-reset-cookie" target="_self" title="Cookie-Einstellungen">Cookie-Einstellungen</a></li><li><a href="https://www.meduniwien.ac.at/web/impressum/" target="_blank" title="Impressum">Impressum</a></li>
+                            </ul><span class="footer__copy">&copy; 2026 Medizinische Universität Wien</span>
+                        </div>
+                    </div>
+                </footer>
+            
+    
+
+
+
+
+
+
+
+	
+    
+
+
+
+
+	
+    <div class="fcc-cookie-modal minified" role="dialog" aria-modal="true" aria-labelledby="fcc-aria-dialog-label" data-consent-url="" id="fccCookieModal">
+        <div class="fcc-cookie-modal_inner">
+            <div class="fcc-cookie-modal_inner_cookie-content-wrapper">
+                <div class="fcc-cookie-modal-header">
+                    <h3 id="fcc-aria-dialog-label">Wir nutzen Cookies</h3>
+                </div>
+                <div class="fcc-cookie-modal-content">
+                    <div class="fcc-cookie-modal-content_general-description">
+                        <p>Wir verwenden Cookies, die zum einen technisch notwendig für die Funktionalität unserer Website sind, aber auch Cookies zu funktionellen, Marketing- und Analysezwecken um das Nutzungserlebnis auf unserer Seite zu optimieren. Mit Ihrer Einwilligung zu den Cookies werden sowohl von uns Daten verarbeitet als auch von Drittanbieter:innen, die ihren Sitz teilweise in Drittländern (z.B. den USA) haben. Nähere Informationen zu den Tools und den Partner:innen finden Sie in unserer Datenschutzerklärung, in der wir auch genau erklären, was eine Datenübermittlung in die USA bedeuten kann. Ihre Cookie-Einstellungen können Sie auf Wunsch jederzeit individuell anpassen oder widerrufen.</p>
+                    </div>
+
+                    
+                        
+                            <div class="fcc-cookie-modal-content_privacy-link">
+                                <a href="https://www.meduniwien.ac.at/web/rechtliches/datenschutzerklaerung/" target="_blank" title="Datenschutz">Datenschutz</a>
+                            </div>
+                        
+                    
+
+                    <div class="fcc-cookie-modal-content_settings-wrapper">
+                        
+                            <details class="fcc-cookie-accordion-item fcc-accordion-item_cookie-category">
+                                <summary class="fcc-cookie-accordion-item_title">
+                                    <label class="fcc-cookie-accordion-item_input">
+                                        <input class="fcc-cookie-accordion-item_input_class" type="checkbox" id="fcc-cookie-category-1" name="fcc-cookie-category-1" checked="" disabled="">
+                                        <span class="fcc-cookie-accordion-item_input_class_disabled">Technisch notwendig</span>
+                                    </label>
+                                </summary>
+
+                                <div class="fcc-cookie-accordion-item_content">
+                                    
+                                        <details class="fcc-cookie-accordion-item fcc-accordion-item_cookie-single-cookie">
+                                            <summary class="fcc-cookie-accordion-item_title">
+                                                <label class="fcc-cookie-accordion-item_input">
+                                                    <input class="fcc-cookie-accordion-item_input_class fcc-input-necessary" type="checkbox" id="cookie_necessary" name="cookie_necessary" checked="" disabled="" data-fcc-cookie-category="fcc-cookie-category-1">
+                                                    <span class="fcc-cookie-accordion-item_input_class_disabled">System</span>
+                                                </label>
+                                                
+                                                    <span class="fcc-cookie-accordion-item_excerpt">
+                                                        <p>Diese Cookies sind für die Grundfunktionen der Website erforderlich. Sie können sie in den Einstellungen Ihres Browsers blockieren oder löschen, aber dann besteht die Gefahr, dass einige Teile der Website nicht richtig funktionieren.</p>
+                                                    </span>
+                                                
+                                            </summary>
+                                            <div class="fcc-cookie-accordion-item_content">
+                                                <div class="fcc-cookie-accordion-item_detail-description content-area">
+                                                    
+                                                    <ul>
+                                                        
+                                                            <li><strong>PHPSESSID</strong> Technisch notwendiges Cookie vom Webserver.
+                                                                Speicherdauer: session
+                                                            </li>
+                                                        
+                                                            <li><strong>fe_typo_user_live</strong> Wird von TYPO3 als Funktion zur Benutzerverwaltung verwendet.
+                                                                Speicherdauer: session
+                                                            </li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </details>
+                                    
+                                        <details class="fcc-cookie-accordion-item fcc-accordion-item_cookie-single-cookie">
+                                            <summary class="fcc-cookie-accordion-item_title">
+                                                <label class="fcc-cookie-accordion-item_input">
+                                                    <input class="fcc-cookie-accordion-item_input_class fcc-input-necessary" type="checkbox" id="cookie_necessary" name="cookie_necessary" checked="" disabled="" data-fcc-cookie-category="fcc-cookie-category-1">
+                                                    <span class="fcc-cookie-accordion-item_input_class_disabled">Cookie Consent</span>
+                                                </label>
+                                                
+                                                    <span class="fcc-cookie-accordion-item_excerpt">
+                                                        <p>Erforderlich, um die Zustimmung für bestimmte Cookies und damit für die Verwendung bestimmter Tools zu erhalten.</p>
+                                                    </span>
+                                                
+                                            </summary>
+                                            <div class="fcc-cookie-accordion-item_content">
+                                                <div class="fcc-cookie-accordion-item_detail-description content-area">
+                                                    
+                                                    <ul>
+                                                        
+                                                            <li><strong>cookieUser</strong> Dient der Wiedererkennung des Browsers und seiner Cookie-Historie (Zustimmung oder Ablehnung bestimmter Cookies mit Datum und Uhrzeit) anhand einer anonymisierten Identifikationsnummer.
+                                                                Speicherdauer: 1 Jahr
+                                                            </li>
+                                                        
+                                                            <li><strong>fcc_cookie_consent</strong> Dauer der Speicherung der Cookie-Einwilligung.
+                                                                Speicherdauer: 1 Jahr
+                                                            </li>
+                                                        
+                                                            <li><strong>fcc_cookie_consent_minified</strong> Dauer der Speicherung der Cookie-Einwilligung.
+                                                                Speicherdauer: 1 Jahr
+                                                            </li>
+                                                        
+                                                            <li><strong>cookie_matomo</strong> Dauer der Speicherung der Cookie-Einwilligung.
+                                                                Speicherdauer: 1 Jahr
+                                                            </li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </details>
+                                    
+                                </div>
+                            </details>
+                        
+                        
+                            
+                                
+                                
+                                <details class="fcc-cookie-accordion-item fcc-accordion-item_cookie-category">
+                                    <summary class="fcc-cookie-accordion-item_title">
+                                        <label class="fcc-cookie-accordion-item_input">
+                                            <input class="fcc-cookie-accordion-item_input_class" type="checkbox" id="fcc-cookie-category-2" name="fcc-cookie-category-2">
+                                            <span class="fcc-cookie-accordion-item_input_class_label">Statistiken</span>
+                                        </label>
+                                    </summary>
+
+                                    <div class="fcc-cookie-accordion-item_content">
+                                        
+                                            <details class="fcc-cookie-accordion-item fcc-accordion-item_cookie-single-cookie">
+                                                <summary class="fcc-cookie-accordion-item_title">
+                                                    <label class="fcc-cookie-accordion-item_input">
+                                                        <input class="fcc-cookie-accordion-item_input_class" type="checkbox" id="cookie_matomo" name="cookie_matomo" data-fcc-cookie-category="fcc-cookie-category-2">
+                                                        <span class="fcc-cookie-accordion-item_input_class_label">Matomo</span>
+                                                    </label>
+                                                    <span class="fcc-cookie-accordion-item_excerpt"><p>Um Nutzer auf Ihrer Website oder App zu tracken, verwendet der Standard-Matomo-Tracking-Code in JavaScript 1st-Party-Cookies, die auf der Domain Ihrer Website gesetzt werden.</p></span>
+                                                </summary>
+                                                <div class="fcc-cookie-accordion-item_content">
+                                                    <div class="fcc-cookie-accordion-item_detail-description content-area">
+                                                        
+                                                        <ul>
+                                                            
+                                                                <li><strong>pk_ses</strong> Kurzlebige Cookies, die zur vorübergehenden Speicherung von Daten für den Besuch verwendet werden
+                                                                    Speicherdauer: 30 minutes
+                                                                </li>
+                                                            
+                                                                <li><strong>pk_id</strong> Wird verwendet, um einige Details über den Benutzer zu speichern, wie die eindeutige Besucher-ID
+                                                                    Speicherdauer: 13 months
+                                                                </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </details>
+                                        
+                                    </div>
+                                </details>
+                            
+                        
+                    </div>
+                </div>
+
+                <div class="fcc-cookie-modal-buttons">
+                    <div class="fcc-cookie-modal-buttons_item">
+                        <button class="fcc-cookie-modal-buttons_item_btn-primary fcc-cookie-button_accept-all">
+                            Alle Dienste erlauben
+                        </button>
+                    </div>
+                    <div class="fcc-cookie-modal-buttons_item">
+                        <button class="fcc-cookie-modal-buttons_item_btn-primary fcc-cookie-button_disable-all">
+                            Alle Dienste ablehnen
+                        </button>
+                    </div>
+                    <div class="fcc-cookie-modal-buttons_item">
+                        <button class="fcc-cookie-modal-buttons_item_btn-secondary fcc-cookie-button_settings">
+                            Einstellungen
+                        </button>
+                    </div>
+                    <div class="fcc-cookie-modal-buttons_item">
+                        <button class="fcc-cookie-modal-buttons_item_btn-secondary fcc-cookie-button_accept-settings">
+                            Einstellungen speichern
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+   
+    
+
+
+
+
+<script src="/_assets/23c048c4e278024490c6ac1b855e5de4/JS/jquery-2.1.4.min.js?1793105839"></script>
+<script src="/_assets/23c048c4e278024490c6ac1b855e5de4/JS/vendor/jquery-ui.min.js?1793105839"></script>
+<script src="/typo3temp/assets/compressed/merged-b9a203d0aaf96cabe694b632b6aa1d5c-9a822ff19eebfb6ee91af4b7b351bf1e.js?1793211660"></script>
+<script src="/typo3temp/assets/compressed/Form.min-b44af0e1f197bf3a86d196900dbb9276.js?1793211660" defer="defer"></script>
+<script src="/_assets/23c048c4e278024490c6ac1b855e5de4/JS/vendor/jquery.ui.touch-punch.min.js?1793105839"></script>
+<script src="/_assets/23c048c4e278024490c6ac1b855e5de4/JS/scripts.js?1793105839"></script>
+<script src="/_assets/d802b2e3f4b25cabac48816657838edb/Js/pollenampel-fix.js?1793105839"></script>
+<script src="/_assets/23c048c4e278024490c6ac1b855e5de4/JS/cookie-notice.js?1793105839"></script>
+<script src="/_assets/23c048c4e278024490c6ac1b855e5de4/JS/vendor/js.cookie.js?1793105839"></script>
+<script src="/_assets/17c47593ef97d74036371c647541672f/Js/cookie.js?1793105839"></script>
+<script src="/_assets/17c47593ef97d74036371c647541672f/Js/js.cookie.js?1793105839"></script>
+<script src="/_assets/17c47593ef97d74036371c647541672f/Js/fcc-cookie-consent.js?1793105839"></script>
+
+
+
+</body>
+</html>

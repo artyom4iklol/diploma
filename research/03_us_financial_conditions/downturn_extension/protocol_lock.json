@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-31",
+  "author": "Суховерхов Артем",
+  "status": "fixed before new binary-model estimation; informed by the earlier GaR study and source feasibility, not external preregistration",
+  "question": "Do US financial indicators improve out-of-sample probabilities of a quarterly euro-area GDP contraction beyond matched European predictors?",
+  "primary_contrast": {
+    "experiment": "core_long",
+    "horizon": 1,
+    "model": "EU_CREDIT",
+    "benchmark": "EU",
+    "metric": "Brier score",
+    "hypothesis": "lower expected out-of-sample Brier loss"
+  },
+  "area_main": "EA21 fixed-area late reconstructed AWMD September 2026; ECFIN October 2026 EA aggregate includes Bulgaria retrospectively; no splice with moving-area GDP",
+  "area_robustness": "AWMD EA21 excluding Ireland GDP, same original full-area financial controls, explicitly a GDP-target sensitivity",
+  "target": "100*log(YER[q]/YER[q-1]) < 0, at the specific future quarter q=t+h, not any contraction over the intervening h quarters",
+  "target_end": "2025Q4",
+  "forecast_origins_start": "2006Q4",
+  "horizons": [
+    1,
+    4
+  ],
+  "issue_rule": "end of origin quarter t; all main predictors through t-1; latest permissible training GDP target t-1; late-history hindcast with conservative one-quarter availability convention, not observed release vintages",
+  "training_start": "1970Q1",
+  "training_min_rows": 40,
+  "training_min_each_class": 3,
+  "financial_primary_lag": 1,
+  "gdp_lag": 1,
+  "window": "expanding",
+  "us_curve": "GS10 - TB3MS, monthly series averaged over three months; bill is on discount basis; this is a defined long-history proxy, not official constant-maturity T10Y3MM",
+  "us_credit": "BAA10YM monthly, three-month mean",
+  "equity": "100*log(mean monthly EURO STOXX 50 level this quarter / preceding quarter); price-index change, not dividend return",
+  "vix": "arithmetic mean of nonmissing daily closes per quarter",
+  "new_ciss": "arithmetic mean of nonmissing ECB daily NEW CISS; not the legacy weekly indicator; retrospective control",
+  "estimator": "Firth logistic regression with FLIC intercept correction, training-only standardisation, no hyperparameter/model/lag search",
+  "estimator_settings": {
+    "max_iter": 150,
+    "tolerance": 1e-08,
+    "probability_clip_logloss": 1e-12
+  },
+  "baseline_frequency": "(positives+0.5)/(n+1), fixed Jeffreys smoothing",
+  "warning_threshold": 0.2,
+  "warning_status": "illustrative fixed probability threshold, not an estimated economic optimum",
+  "bootstrap": {
+    "replicates": 4999,
+    "seed": 20261031,
+    "method": "paired circular moving blocks of realised loss differences; conditional on saved forecasts, no refit",
+    "lengths_quarters": [
+      4,
+      8
+    ],
+    "confidence": 0.95,
+    "scope": "uncertainty of the realised average loss comparison; limited by few episodes, not a causal or universal performance interval"
+  },
+  "secondary_family": "within each experiment, three US alternatives x two horizons; Holm-adjusted centred-bootstrap p-values; all intervals also shown",
+  "experiments": [
+    {
+      "name": "core_long",
+      "start": "1970Q1",
+      "base": [
+        "gdp_lag",
+        "eu_curve_lag"
+      ],
+      "additions": {
+        "EU_CREDIT": [
+          "credit_lag"
+        ],
+        "EU_CURVE": [
+          "us_curve_lag"
+        ],
+        "EU_BOTH": [
+          "credit_lag",
+          "us_curve_lag"
+        ]
+      }
+    },
+    {
+      "name": "europe_esi",
+      "start": "1985Q1",
+      "base": [
+        "gdp_lag",
+        "eu_curve_lag",
+        "esi_lag"
+      ],
+      "additions": {
+        "EU_CREDIT": [
+          "credit_lag"
+        ],
+        "EU_CURVE": [
+          "us_curve_lag"
+        ],
+        "EU_BOTH": [
+          "credit_lag",
+          "us_curve_lag"
+        ]
+      }
+    },
+    {
+      "name": "europe_equity",
+      "start": "1990Q1",
+      "base": [
+        "gdp_lag",
+        "eu_curve_lag",
+        "esi_lag",
+        "equity_lag"
+      ],
+      "additions": {
+        "EU_CREDIT": [
+          "credit_lag"
+        ],
+        "EU_CURVE": [
+          "us_curve_lag"
+        ],
+        "EU_VIX": [
+          "vix_lag"
+        ]
+      }
+    },
+    {
+      "name": "europe_stress",
+      "start": "1990Q1",
+      "base": [
+        "gdp_lag",
+        "esi_lag",
+        "equity_lag",
+        "ciss_lag"
+      ],
+      "additions": {
+        "EU_CREDIT": [
+          "credit_lag"
+        ],
+        "EU_CURVE": [
+          "us_curve_lag"
+        ],
+        "EU_VIX": [
+          "vix_lag"
+        ]
+      }
+    },
+    {
+      "name": "current_indices",
+      "start": "1995Q1",
+      "first_origin": "2011Q2",
+      "base": [
+        "gdp_lag",
+        "eu_curve_lag",
+        "esi_lag",
+        "equity_lag"
+      ],
+      "additions": {
+        "EU_NFCI": [
+          "nfci_lag"
+        ],
+        "EU_ANFCI": [
+          "anfci_lag"
+        ]
+      }
+    }
+  ],
+  "refit_sensitivities": [
+    {
+      "name": "short_training_1985",
+      "start": "1985Q1"
+    },
+    {
+      "name": "rolling_80",
+      "window": 80
+    },
+    {
+      "name": "market_current_quarter",
+      "financial_lag": 0,
+      "status": "retrospective potential-information sensitivity; reconstructed market aggregates not proof of actual publication by origin close"
+    },
+    {
+      "name": "gdp_ex_ireland",
+      "gdp": "exIreland"
+    },
+    {
+      "name": "contraction_below_minus_0_1",
+      "threshold": -0.1
+    },
+    {
+      "name": "cepr_recession",
+      "target": "cepr",
+      "status": "today-dated CEPR quarters for both training and evaluation; labels may not have been announced at origin; retrospective robustness only"
+    }
+  ],
+  "evaluation_slices": [
+    "all",
+    "exclude_2020Q1_Q2",
+    "gfc_2008Q2_2009Q2",
+    "debt_2011Q4_2013Q1",
+    "pandemic_2020Q1_Q2",
+    "2022_2025"
+  ],
+  "archival_exercise": {
+    "inputs": "inherited independently checked ECB RTD/ALFRED revision30 cube and release calendars",
+    "issue": "15 days after stored feature-origin r ends, in quarter r+1",
+    "target": "r+1+h, so first entirely future quarter, horizons 1 and 4",
+    "training_last_target": "r-1, source GDP available in inherited snapshot",
+    "training_start": "1995Q3",
+    "gdp": "within each origin vintage, not late-history AWM",
+    "evaluation_fact": "same inherited GDP assessment at six-month maturity where available; labels for new future-quarter mapping; no four-quarter cumulative growth target",
+    "scope": "own moving-area experiment; comparison with matched late-index counterpart changes only NFCI/ANFCI versions, not GDP/ESI/EQ, training rows or facts; not pooled with EA21 experiment"
+  },
+  "required_checks": [
+    "raw hashes",
+    "GDP/source reconciliation",
+    "area mapping",
+    "missing not zero",
+    "one row per quarter",
+    "training target and features never future",
+    "common samples within experiment",
+    "solver adjusted score and calibration",
+    "independent optimizer refit",
+    "future-data mutation invariance",
+    "probabilities and loss arithmetic",
+    "paired dates for intervals",
+    "untouched existing manuscripts and model results"
+  ],
+  "interpretation": "forecast association, not causal effect; no result-driven period/model switch; primary benefit over a small base must also be assessed against stronger European bases and a frequency benchmark",
+  "input_sha256": {
+    "downturn_extension/data/raw/fred_VIXCLS.csv": "7cfbdd416b37b45f1fb2ab7d476e9965aed3db8a402a258a56b207df73624702",
+    "downturn_extension/data/raw/ecb_stoxx50.csv": "a90191aedea928e1b0c684006584c874d42a4e30312efdddb89f7e94fe5af90a",
+    "downturn_extension/data/raw/fred_TB3MS.csv": "631bc444a8c5370c3a2df12f484a67ae7b9a68c00fe8a33215895fb49c8cc08c",
+    "downturn_extension/data/raw/ecfin_main_indicators_202610.zip": "68c90eba29cb5edc0cda4db4a2fe5858791d41aea5096d2330e30efc5c28abff",
+    "downturn_extension/data/raw/AWMD_Sep2026.zip": "294cb41933eb8082f647887d83aba355cd3bfe183c12c427056c006cc0b2d405",
+    "downturn_extension/data/raw/fred_BAA10YM.csv": "19f3a0dc9825dfa5714a911f1f68040b86f402f0a96fea91496da80889ab55b4",
+    "downturn_extension/data/raw/firth_method.html": "c4855cfbebdbd2d9927d2195dc54ae61673753f4e6f34647bec82e98e1f16450",
+    "downturn_extension/data/raw/fred_GS10.csv": "40323f225e613a19a4eec7eef20523dec10764de21c70cd1416a7379fb7f13b6",
+    "downturn_extension/data/raw/puhr_2017_abstract.html": "16ea669ed2c0e39e79008ce6d5317ce05190d192a9c830d40f099ed9b40c27f3",
+    "downturn_extension/data/raw/eurostat_gdp_EA21.json": "7e0fcdf0125d09341033274a527bffc119ac8b29b9fc3597f400aec35fe29468",
+    "downturn_extension/data/raw/fred_ANFCI.csv": "4217a324a7787ad48296d686e694d1f8ba7bb64e0213afdedf1b40dd6a6e9445",
+    "downturn_extension/data/raw/fred_NFCI.csv": "0f75976dbf279a1eec596df447f6478f27d94432ecc5dfc8558a7b34d45a39d7",
+    "downturn_extension/data/raw/ecfin_timeseries_page.html": "841742a5c96264ba4d527e53d14dcde5aa3eafc6bf113e2084bdf14383693382",
+    "downturn_extension/data/raw/eabcn_chronology.html": "e1ad1141e26d8b94b46134b7239063a209eb742eca418d8dc1121002c9c8bc5f",
+    "downturn_extension/data/raw/ecb_ciss_ea.csv": "c42f0cf49ac0289280dd69179a4bbbe91c85597427d2859bb2a5a86baa50b128",
+    "revision30/results/equity_model_frames.csv": "adafbfb0464ad6c0f6078547378093c0bddd77c665fcbbb559db9ff38221f84d",
+    "revision18/results/forecast_calendar_59.csv": "3adbe70c28da5d28ddd206a8560b0b58f75729d34aea23b532aab9518a20e753",
+    "revision18/results/evaluation_targets.csv": "4e6e21260f137c6c0aef353a6374b883f7694dbac018ab2a7732d3c1a9b59fae",
+    "revision19/results/ANFCI_calendar_59.csv": "1af36fd9756bd31ba0b4cbda2c459a31f7d2be0395f3e55cee9bcdba0039ecf3",
+    "revision30/results/equity_calendar.csv": "9bbca1a714b96db255e11e7c9e99a9e2acf89490c67c9f89a364e885800b6d84"
+  },
+  "protected_documents_sha256": {
+    "research/02_chip_trade/documents/diploma_full.docx": "20e8828da8823155d481537e47aa065de520b4d1837a113942457202d580d816",
+    "research/02_chip_trade/documents/chapter1.docx": "88194def3305395229bef9a9583dced31b3cd487fefa31cbd9aa0a4f9b1dd97a",
+    "research/02_chip_trade/documents/topic2.docx": "782fb237e8389a2401cf498453c3be1b21fd94139419c1246f394c38748744b5",
+    "research/02_chip_trade/documents/chapter2.docx": "f55abd9a75fee214ad0560b1b78865e25fba9d64b05eadcc592b48df2fa9bcd4",
+    "research/02_chip_trade/documents/introduction_conclusion.docx": "bddbb101004a0fe4cf2a4a757dae9f9af882cdd8fad999ce864e312f7709c328",
+    "research/02_chip_trade/documents/chapter3.docx": "87b5ad576ec5f3b7239acd62e54ef190a5868970ebba363e668c8491e0cb7263",
+    "research/03_us_financial_conditions/revision18/Note_for_supervisor.docx": "4912ec3f58827dd332910f9e67e58ff8d9b9e56dd46e720aa5b1c32fd146c035",
+    "research/03_us_financial_conditions/acceptance/ACCEPTANCE_REPORT.docx": "afb04fdea38aa040201fe4670bccd0ffcb44ba2bd5f1b6070eb56b2c194557a7",
+    "research/03_us_financial_conditions/audit/MODEL_DATA_AUDIT.docx": "086fa557dfee316a149f91afd32d809de0baa5d5a98db4185a0679f9b6a86d0b",
+    "research/03_us_financial_conditions/revision19/topic1.docx": "68bee73c341cd5333a6b48ff88c8c2e1104627e5ceb57419de2632df328fac93",
+    "research/03_us_financial_conditions/revision16/Note_for_supervisor_before_revision16.docx": "1fee63e6c33e6068c209f3d69a8213efb2ff9ce9b434b6fba757fef246568fdf",
+    "research/03_us_financial_conditions/revision16/Note_for_supervisor.docx": "f7358b458ec1db81553cf3928eba0b36947fb6d0a3dc716b2322d93d1689c14e",
+    "research/03_us_financial_conditions/approval_check/TOPIC_APPROVAL_AUDIT.docx": "52dba43393b08f8d057c2b16592af70436e6b3f78cce4a73843ef85f11f7c65e",
+    "research/03_us_financial_conditions/final_check/SUPERVISOR_PROPOSAL_BEFORE_FINAL_CHECK.docx": "f14c94236a4edb4eb79d8782cdfbd2c9557c6d6d5d38c0bcc4468fadde0fb51c",
+    "research/03_us_financial_conditions/final_check/THESIS_DECISION.docx": "7a01d1b2446e3fc7f4c81ed7ed7571b22081e7b9654289042c08b0a2aed0f5b6",
+    "research/03_us_financial_conditions/review/LITERATURE_REVIEW_ALL_34.docx": "21658e226a7747fcebeb249f7fa4d4c646050ef25af778e2c24a3b17a1da5f5a",
+    "research/03_us_financial_conditions/chapter1/history/revision20/Chapter_1_US_Financial_Conditions_Euro_Area.docx": "ee0713aebfbb7074f2b66ce24e8e1706bf3837d985bee7317a48a9b748163e56",
+    "research/03_us_financial_conditions/documents/illustrated_2026-10-22/diploma_full_illustrated.docx": "bc81ebc73fddfe2efc4e1959ee2518900dc45cd23a298baddb865b64bced1536",
+    "research/04_auto_trade/documents/diploma_auto_trade.docx": "db20544218311477b0e28ae4e3e3250fc64684d32baaba8e49fe7078259dddca",
+    "research/04_auto_trade/documents/chapter1_auto_trade.docx": "03e93a17e55a11fa41817ef083e8739de1b59b9ece06a703d7fdffc79a0835f3",
+    "research/04_auto_trade/documents/auto_thesis_writing_base.docx": "338816c5b166ffb6f183cc906cd797f7da17990a9029e2f5fc59daafec7096b8"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "primary": {
+    "experiment": "core_long",
+    "h": 1,
+    "model": "EU_CREDIT",
+    "benchmark": "EU",
+    "n": 76,
+    "block_quarters": 4,
+    "brier_model": 0.17257513994711485,
+    "brier_benchmark": 0.18768975648602998,
+    "difference": -0.015114616538915143,
+    "ci_low": -0.05047074781557183,
+    "ci_high": 0.014509976892510597,
+    "skill": 0.08052978927510157,
+    "skill_ci_low": -0.1065070604280308,
+    "skill_ci_high": 0.2754848807951725,
+    "bootstrap_p_two_sided": 0.3484,
+    "bootstrap_replicates": 4999,
+    "interpretation": "paired saved-loss uncertainty, conditional on estimated forecasts",
+    "holm_p": 1.0
+  },
+  "all_paired_rows": 340,
+  "sample_matching": true,
+  "no_model_selection": true,
+  "conditional_interval_scope": "uncertainty of the realised average loss comparison; limited by few episodes, not a causal or universal performance interval"
+}

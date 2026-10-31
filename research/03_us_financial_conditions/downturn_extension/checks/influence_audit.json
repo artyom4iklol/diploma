@@ -1,0 +1,10 @@
+{
+  "main_improvement_without_2020Q4_pct": 2.4978479528279363,
+  "negative_difference_after_each_single_omission": 76,
+  "single_omissions": 76,
+  "2020Q4_share_of_net_gain": 0.7111979327982297,
+  "2020Q4_status": "largest net gain identified from the preplanned all-date influence analysis; retrospective diagnostic, not a new primary design",
+  "extrapolation_records": 1285,
+  "origin_2020Q3_gdp_lag_outside_training": true,
+  "forecasts_modified": false
+}

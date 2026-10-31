@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+/data/raw/ecb_ciss_ea.csv
+/results/coefficients.jsonl
+/results/forecast_calendar.csv
+/results/forecasts.csv
+/results/leave_one_target_out.csv
+/results/loss_contributions.csv

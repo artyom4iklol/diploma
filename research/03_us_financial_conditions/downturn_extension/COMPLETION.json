@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-31",
+  "author": "Суховерхов Артем",
+  "steps": {
+    "1_research_passport": "complete",
+    "2_official_data_and_harmonised_panel": "complete",
+    "3_recursive_models": "complete",
+    "4_prespecified_checks_and_interpretation": "complete"
+  },
+  "panel_quarters": 224,
+  "forecast_probabilities": 8790,
+  "recursive_fits": 6965,
+  "validation_checks": 70,
+  "validation_passed": true,
+  "visual_diagnostics_reviewed": 2,
+  "lossless_cache_check": "all six compressed files matched original bytes; missing-file recovery tested on a disposable copy",
+  "offline_reproduction_entrypoint": "run_all.py --offline --reuse-models",
+  "offline_entrypoint_passed": true,
+  "original_documents_unchanged": 21,
+  "main_hypothesis": "stable improvement not established; conditional mean Brier improvement 8.05%, uncertainty interval includes zero, frequency baseline better",
+  "limitations": [
+    "late reconstructed EA21 hindcast is distinct from the historical-vintage exercise",
+    "main financial predictors have one-quarter conservative lag",
+    "paired block intervals condition on saved fitted procedures",
+    "few independent downturn episodes",
+    "stronger-base experiments have shorter matched training and cannot isolate the effect of European controls alone"
+  ],
+  "article_or_chapter_written": false
+}

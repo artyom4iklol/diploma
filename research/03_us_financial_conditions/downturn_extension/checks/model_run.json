@@ -1,0 +1,34 @@
+{
+  "protocol_sha256": "e917ba751b10daa1030c5c4f411cffaac81327580429b75e807db226ef75430e",
+  "forecasts": 8790,
+  "fits": 6965,
+  "experiments": [
+    "archive_late_index",
+    "archive_vintage",
+    "cepr_recession",
+    "contraction_below_minus_0_1",
+    "core_long",
+    "current_indices",
+    "europe_equity",
+    "europe_esi",
+    "europe_stress",
+    "gdp_ex_ireland",
+    "market_current_quarter",
+    "rolling_80",
+    "short_training_1985"
+  ],
+  "maximum_score": 2.2950643263942302e-08,
+  "maximum_training_calibration_error": 3.469446951953614e-15,
+  "fallback_optimizers": 0,
+  "files": {
+    "forecast_calendar.csv": "23fe12897d1dc6826cd098eaddf4807ff7d06d98aaa69c5c3da82bbf45aa1dac",
+    "coefficients.jsonl": "5d0553291dd66ad580cdf628b60564d783f74eb6e1d4f3c2124b94feee5091f1",
+    "scores.csv": "5621d48f14b321482ef3fd1596c39c9d427056ab2bf291c88f26da6fa799b6f8",
+    "forecasts.csv": "6293945eb99cef9bae6ccb0915ff9bd6ad5c493bded984b451c3f68388b69c13"
+  },
+  "implementation": {
+    "logit_engine.py": "9bd461b9f0b517bdd8a4d626e736b67ffa93515e2e0102778e7bdfb33e3eb9d9",
+    "run_models.py": "1c997360053a362e4dcae5cddf85ed30e5b1e3f273fb35f2529b2ae9e1f0cdb0",
+    "build_panel.py": "b1cb4f1f4f31c7477014cd856eda0cb97ecf4c933034032178cb2f6b341bb4b1"
+  }
+}

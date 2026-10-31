@@ -1,0 +1,50 @@
+[
+  {
+    "path": "data/raw/ecb_ciss_ea.csv",
+    "compressed_path": "data/raw/ecb_ciss_ea.csv.gz",
+    "bytes": 3380421,
+    "sha256": "c42f0cf49ac0289280dd69179a4bbbe91c85597427d2859bb2a5a86baa50b128",
+    "compressed_bytes": 137169,
+    "compressed_sha256": "8456128d4fca5b998ec8da329d1fe3b3b9bfbb9e8182a5a83db49b6a877e532b"
+  },
+  {
+    "path": "results/coefficients.jsonl",
+    "compressed_path": "results/coefficients.jsonl.gz",
+    "bytes": 6640307,
+    "sha256": "5d0553291dd66ad580cdf628b60564d783f74eb6e1d4f3c2124b94feee5091f1",
+    "compressed_bytes": 1327915,
+    "compressed_sha256": "746f9a4cfedf7010c3de56493650a9edfc358668b66745379607372de1fd0be5"
+  },
+  {
+    "path": "results/forecast_calendar.csv",
+    "compressed_path": "results/forecast_calendar.csv.gz",
+    "bytes": 1853519,
+    "sha256": "23fe12897d1dc6826cd098eaddf4807ff7d06d98aaa69c5c3da82bbf45aa1dac",
+    "compressed_bytes": 118022,
+    "compressed_sha256": "b8708a0c66901cba85ee2fa5764b7a9198ff405b7eefb5515fd70bcc05140bef"
+  },
+  {
+    "path": "results/forecasts.csv",
+    "compressed_path": "results/forecasts.csv.gz",
+    "bytes": 1826452,
+    "sha256": "6293945eb99cef9bae6ccb0915ff9bd6ad5c493bded984b451c3f68388b69c13",
+    "compressed_bytes": 407292,
+    "compressed_sha256": "ff17284f05f9a249274e4f2db10565d5f0478e5f8d696da1ef792b989016c172"
+  },
+  {
+    "path": "results/leave_one_target_out.csv",
+    "compressed_path": "results/leave_one_target_out.csv.gz",
+    "bytes": 1410042,
+    "sha256": "09fe89583178057f3155d3c40672b2b30de5780dfbd62ea2678ec05dd02972d6",
+    "compressed_bytes": 174780,
+    "compressed_sha256": "d9ec55ed0415266686c3da7241c847a66e0f5c564fea991e28ebb92853004019"
+  },
+  {
+    "path": "results/loss_contributions.csv",
+    "compressed_path": "results/loss_contributions.csv.gz",
+    "bytes": 796916,
+    "sha256": "312a55f5a60e27a8ef2b7962b02169c52a2cf92fa8c14bc5f6d164009dffb003",
+    "compressed_bytes": 171668,
+    "compressed_sha256": "fb8b101c09405befb0cacd88322880cbaf1f7e7928f8ae78ca77a179169a0e44"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "file": "AWMD_Sep2026.zip",
+    "url": "https://eabcn.org/sites/default/files/2026-09/AWMD_Sep2026.zip",
+    "description": "EABCN, AWM September 2026; EA21; late reconstructed history",
+    "status": "cached",
+    "bytes": 1114897,
+    "sha256": "294cb41933eb8082f647887d83aba355cd3bfe183c12c427056c006cc0b2d405",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "fred_BAA10YM.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10YM",
+    "description": "FRED; monthly Moody Baa minus 10-year Treasury yield",
+    "status": "cached",
+    "bytes": 14137,
+    "sha256": "19f3a0dc9825dfa5714a911f1f68040b86f402f0a96fea91496da80889ab55b4",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "fred_GS10.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS10",
+    "description": "Federal Reserve H.15 via FRED; monthly 10-year constant maturity",
+    "status": "cached",
+    "bytes": 14206,
+    "sha256": "40323f225e613a19a4eec7eef20523dec10764de21c70cd1416a7379fb7f13b6",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "fred_TB3MS.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TB3MS",
+    "description": "Federal Reserve H.15 via FRED; monthly 3-month bill, discount basis",
+    "status": "cached",
+    "bytes": 17865,
+    "sha256": "631bc444a8c5370c3a2df12f484a67ae7b9a68c00fe8a33215895fb49c8cc08c",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "fred_VIXCLS.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
+    "description": "CBOE via FRED; daily VIX, reconstructed history before methodology changes",
+    "status": "cached",
+    "bytes": 161782,
+    "sha256": "7cfbdd416b37b45f1fb2ab7d476e9965aed3db8a402a258a56b207df73624702",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "fred_NFCI.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NFCI",
+    "description": "Chicago Fed via FRED; current NFCI, not historical vintages",
+    "status": "cached",
+    "bytes": 51582,
+    "sha256": "0f75976dbf279a1eec596df447f6478f27d94432ecc5dfc8558a7b34d45a39d7",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "fred_ANFCI.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ANFCI",
+    "description": "Chicago Fed via FRED; current ANFCI, not historical vintages",
+    "status": "cached",
+    "bytes": 51520,
+    "sha256": "4217a324a7787ad48296d686e694d1f8ba7bb64e0213afdedf1b40dd6a6e9445",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "ecfin_main_indicators_202610.zip",
+    "url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2610/main_indicators_sa_nace2.zip",
+    "description": "DG ECFIN official October 2026 main indicator release",
+    "status": "cached",
+    "bytes": 708093,
+    "sha256": "68c90eba29cb5edc0cda4db4a2fe5858791d41aea5096d2330e30efc5c28abff",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "ecb_stoxx50.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/FM/M.U2.EUR.DS.EI.DJES50I.HSTA?format=csvdata",
+    "description": "ECB FM; monthly average EURO STOXX 50 price index; current series key",
+    "status": "downloaded",
+    "bytes": 132100,
+    "sha256": "a90191aedea928e1b0c684006584c874d42a4e30312efdddb89f7e94fe5af90a",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "ecb_ciss_ea.csv",
+    "url": "https://data-api.ecb.europa.eu/service/data/CISS/D.U2.Z0Z.4F.EC.SS_CIN.IDX?format=csvdata",
+    "description": "ECB NEW daily CISS; current reconstructed history, supplementary control, not legacy weekly CISS",
+    "status": "downloaded",
+    "bytes": 3380421,
+    "sha256": "c42f0cf49ac0289280dd69179a4bbbe91c85597427d2859bb2a5a86baa50b128",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "eurostat_gdp_EA21.json",
+    "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?lang=en&geo=EA21&freq=Q&na_item=B1GQ&unit=CLV20_MEUR&s_adj=SCA",
+    "description": "Eurostat EA21 GDP, independent source check of post-1995 AWM GDP",
+    "status": "downloaded",
+    "bytes": 11786,
+    "sha256": "7e0fcdf0125d09341033274a527bffc119ac8b29b9fc3597f400aec35fe29468",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "ecfin_timeseries_page.html",
+    "url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
+    "description": "ECFIN source index and download provenance",
+    "status": "cached",
+    "bytes": 81151,
+    "sha256": "841742a5c96264ba4d527e53d14dcde5aa3eafc6bf113e2084bdf14383693382",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "eabcn_chronology.html",
+    "url": "https://eabcn.org/dbc/peaksandtroughs/chronology-euro-area-business-cycles",
+    "description": "CEPR/EABCN official peak/trough chronology and announcement dates",
+    "status": "cached",
+    "bytes": 28075,
+    "sha256": "e1ad1141e26d8b94b46134b7239063a209eb742eca418d8dc1121002c9c8bc5f",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "firth_method.html",
+    "url": "https://data-science.meduniwien.ac.at/services/klinische-biometrie/software/statistische-software/firth-correction/",
+    "description": "Firth / FLIC methodological explanation by method developers",
+    "status": "cached",
+    "bytes": 47450,
+    "sha256": "c4855cfbebdbd2d9927d2195dc54ae61673753f4e6f34647bec82e98e1f16450",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  },
+  {
+    "file": "puhr_2017_abstract.html",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28295456/",
+    "description": "Puhr et al. 2017, Statistics in Medicine, DOI 10.1002/sim.7273",
+    "status": "cached",
+    "bytes": 144003,
+    "sha256": "16ea669ed2c0e39e79008ce6d5317ce05190d192a9c830d40f099ed9b40c27f3",
+    "retrieved_on": "2026-10-31",
+    "version_status": "current or reconstructed; not automatically point-in-time"
+  }
+]

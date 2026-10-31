@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-31",
+  "area": "EA21 fixed reconstructed area; no moving-area GDP splice",
+  "rows": 224,
+  "gdp_definition": [
+    [
+      "YER",
+      "Real GDP",
+      "1970Q1-2026Q2",
+      "1995Q1",
+      "✓",
+      "✓",
+      "✓",
+      "Chain linked volumes (2020), million euro, for ex. Ireland, 2019Q4=100"
+    ],
+    [
+      "STN",
+      "Nominal short-term interest rate",
+      "1970Q1-2026Q3",
+      "1994Q1",
+      "✗",
+      "✗",
+      "✗",
+      "Euribor 3-month, period average"
+    ],
+    [
+      "LTN",
+      "Nominal long-term interest rate",
+      "1970Q1-2026Q3",
+      "None",
+      "✗",
+      "✗",
+      "✗",
+      "EA 10-year govt. bond yield, period avg."
+    ]
+  ],
+  "source_coverage": [
+    {
+      "source": "BAA10YM",
+      "first": "1953-04",
+      "last": "2026-09",
+      "nonmissing": 882
+    },
+    {
+      "source": "GS10",
+      "first": "1953-04",
+      "last": "2026-09",
+      "nonmissing": 882
+    },
+    {
+      "source": "TB3MS",
+      "first": "1934-01",
+      "last": "2026-09",
+      "nonmissing": 1113
+    }
+  ],
+  "reconciliation": {
+    "n": 124,
+    "max_relative_level_difference": 0.0024456009661559808,
+    "mean_relative_level_difference": 0.0016956471652288915,
+    "eurostat_updated": "2026-10-30T23:00:00+0100",
+    "reason_if_not_exact": "AWM fixed September 2026 versus Eurostat October 2026; revisions expected, not a silent splice",
+    "growth_sign_flips": [
+      "2009Q2"
+    ],
+    "max_growth_difference_pp": 0.05943360233195216
+  },
+  "growth_units": "percent q/q log, not annualized",
+  "missing_policy": "no zero replacement, interpolation or cross-source GDP splice",
+  "features": {
+    "gdp": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "eu_short": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "eu_long": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "gdp_exIreland": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "growth": {
+      "first": "1970Q2",
+      "last": "2025Q4",
+      "missing": 1
+    },
+    "growth_exIreland": {
+      "first": "1970Q2",
+      "last": "2025Q4",
+      "missing": 1
+    },
+    "eu_curve": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "credit": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "credit_n": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "us_long": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "us_long_n": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "us_short": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "us_short_n": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "us_curve": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "vix": {
+      "first": "1990Q1",
+      "last": "2025Q4",
+      "missing": 80
+    },
+    "vix_n": {
+      "first": "1990Q1",
+      "last": "2025Q4",
+      "missing": 80
+    },
+    "nfci": {
+      "first": "1971Q1",
+      "last": "2025Q4",
+      "missing": 4
+    },
+    "nfci_n": {
+      "first": "1971Q1",
+      "last": "2025Q4",
+      "missing": 4
+    },
+    "anfci": {
+      "first": "1971Q1",
+      "last": "2025Q4",
+      "missing": 4
+    },
+    "anfci_n": {
+      "first": "1971Q1",
+      "last": "2025Q4",
+      "missing": 4
+    },
+    "esi": {
+      "first": "1985Q1",
+      "last": "2025Q4",
+      "missing": 60
+    },
+    "esi_n": {
+      "first": "1985Q1",
+      "last": "2025Q4",
+      "missing": 60
+    },
+    "equity_level": {
+      "first": "1987Q1",
+      "last": "2025Q4",
+      "missing": 68
+    },
+    "equity": {
+      "first": "1987Q2",
+      "last": "2025Q4",
+      "missing": 69
+    },
+    "equity_n": {
+      "first": "1986Q4",
+      "last": "2025Q4",
+      "missing": 67
+    },
+    "ciss": {
+      "first": "1980Q1",
+      "last": "2025Q4",
+      "missing": 40
+    },
+    "ciss_n": {
+      "first": "1980Q1",
+      "last": "2025Q4",
+      "missing": 40
+    },
+    "cepr": {
+      "first": "1970Q1",
+      "last": "2025Q4",
+      "missing": 0
+    },
+    "gdp_lag": {
+      "first": "1970Q3",
+      "last": "2025Q4",
+      "missing": 2
+    },
+    "eu_curve_lag": {
+      "first": "1970Q2",
+      "last": "2025Q4",
+      "missing": 1
+    },
+    "credit_lag": {
+      "first": "1970Q2",
+      "last": "2025Q4",
+      "missing": 1
+    },
+    "us_curve_lag": {
+      "first": "1970Q2",
+      "last": "2025Q4",
+      "missing": 1
+    },
+    "esi_lag": {
+      "first": "1985Q2",
+      "last": "2025Q4",
+      "missing": 61
+    },
+    "equity_lag": {
+      "first": "1987Q3",
+      "last": "2025Q4",
+      "missing": 70
+    },
+    "vix_lag": {
+      "first": "1990Q2",
+      "last": "2025Q4",
+      "missing": 81
+    },
+    "ciss_lag": {
+      "first": "1980Q2",
+      "last": "2025Q4",
+      "missing": 41
+    },
+    "nfci_lag": {
+      "first": "1971Q2",
+      "last": "2025Q4",
+      "missing": 5
+    },
+    "anfci_lag": {
+      "first": "1971Q2",
+      "last": "2025Q4",
+      "missing": 5
+    }
+  },
+  "counts": {
+    "1970Q2": {
+      "rows": 147,
+      "negative_growth": 16
+    },
+    "1985Q1": {
+      "rows": 88,
+      "negative_growth": 9
+    },
+    "1990Q1": {
+      "rows": 68,
+      "negative_growth": 7
+    },
+    "1995Q1": {
+      "rows": 48,
+      "negative_growth": 2
+    }
+  },
+  "evaluation_counts": {
+    "quarters": 76,
+    "negative_growth": 15,
+    "negative_exIreland": 16
+  }
+}

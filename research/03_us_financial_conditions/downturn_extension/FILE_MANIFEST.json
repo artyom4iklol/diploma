@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-31",
+  "files": [
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/.gitignore",
+      "bytes": 193,
+      "sha256": "7d44271d191000a14380e8536066ab01d8c0bb6c110ba26838d0395d0bb47eda",
+      "git_sha": "ce03de18e6973203576ec53c82d610678c363b66"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/COMPLETION.json",
+      "bytes": 1350,
+      "sha256": "901c9785fb595a197d566c958b85faffab1d195c81bb8969c4c8fdcb3a4f3512",
+      "git_sha": "85dd4126ebd66c0da78b79b2f0cdbb5e45a9d051"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/ENVIRONMENT.json",
+      "bytes": 242,
+      "sha256": "63744039d238717e374fff71fbf970d55aa4791701c275cbef33004a22cf20f1",
+      "git_sha": "039f1e1704734e122147d2e9d66a8a19aa9c7d2a"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/README.md",
+      "bytes": 8343,
+      "sha256": "9457dae2190ea568c4c40ea8354521ea70e89b8f32246219da32576c2da7e68e",
+      "git_sha": "dbc1a79993d7d5ee8f4f06cec8351b4d0186993a"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/RESEARCH_PASSPORT.md",
+      "bytes": 5505,
+      "sha256": "e9f6e8314db60a4dda650a335e8cf09e5b54fae2a1f533e91ab3a86440aa2450",
+      "git_sha": "3b80fd5495ca6508c934b01b17e093030a37ac9d"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/RESULTS.md",
+      "bytes": 24409,
+      "sha256": "021be2f8d8fb7d90c02463735d954ae33bc959a03c15e14234beaf9fe8a401d5",
+      "git_sha": "0d20b0fb7bf0b735563fc39f7e63d660547d6d18"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/SOURCE_REGISTER.md",
+      "bytes": 8081,
+      "sha256": "6dec875818822f735de9d92feb63361e00433b2f0d143f4363160eeb692205c1",
+      "git_sha": "f5512774ac8452455e5e51a3ec360d2ddb560dff"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/build_panel.py",
+      "bytes": 7309,
+      "sha256": "b1cb4f1f4f31c7477014cd856eda0cb97ecf4c933034032178cb2f6b341bb4b1",
+      "git_sha": "5fbbd721a312dea2ec77092d3262db2b3de18960"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/cache_files.py",
+      "bytes": 1811,
+      "sha256": "b1183335251ec11417238f51c5b336d7dec92f3811f66801c2009d127fe73ae7",
+      "git_sha": "11866cc509b5948a8b75c4f235a5286e57e76712"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/checks/data_audit.json",
+      "bytes": 5609,
+      "sha256": "1779030d8664de6164a464aa9e16fa6e7f5d8e79d167af4ba7ad5b4bd3815734",
+      "git_sha": "1c0d0dceb1d02e8c1ee57a1ed8669180a0b202d3"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/checks/evaluation_summary.json",
+      "bytes": 890,
+      "sha256": "964891d47683541927c3ffb24e179bf43f71d57c0db73cac457b14ae7ed6ece3",
+      "git_sha": "eaf415ca844ef8ee74307395fa0275890a4d1fd9"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/checks/influence_audit.json",
+      "bytes": 460,
+      "sha256": "8ccdaa446b02b7fa300203bd8105d2fb8104f31623fa141010173648dd8cfc7b",
+      "git_sha": "ec7bca765464f388b52e2e0b0f4323f14ea34653"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/checks/model_run.json",
+      "bytes": 1268,
+      "sha256": "06dddfb865bc725e9b68272bfd8d19f53a3d0ec4d9635ae7f7760bfb3c961833",
+      "git_sha": "80ec28b9f47481cee41f0180500ee3d941301525"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/checks/validation.json",
+      "bytes": 7573,
+      "sha256": "2c567a29a31dc07d204596eef06e416af75c8a6c5c1094d363c45df13ceb09ad",
+      "git_sha": "5c4b909bbcfc7eeee7960556f609f9ea690ade60"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/collect_sources.py",
+      "bytes": 4225,
+      "sha256": "608ccb305e2cc5cbc1e57bc2be46e9e2e58c8c1c6f2b0b59bc080385972f1492",
+      "git_sha": "97f5e61c137c930ee10741043a135bf198c58880"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/compressed_cache_manifest.json",
+      "bytes": 2025,
+      "sha256": "70acd50e0474fe0015689a51515f3a089532316fda78bcc9ed491faebb116325",
+      "git_sha": "ff3dc8900b02b0a140a555ee4b658fe3e986eb2c"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/processed/gdp_crosscheck.csv",
+      "bytes": 9732,
+      "sha256": "f6625cc81c2ca95b49512fcc519d2644311e87697b1023d67e1846dbe0134df7",
+      "git_sha": "9813edad545d02d32a81103edd6c06883f7a0c3f"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/processed/quarterly_panel.csv",
+      "bytes": 109933,
+      "sha256": "df7e3a10bcade74c139bbb7674b493a333ee2b49b6fdbba6b50027cbcc8770ba",
+      "git_sha": "f6a352c70f5818f067cf3d424c5d6733f1279d8b"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/AWMD_Sep2026.zip",
+      "bytes": 1114897,
+      "sha256": "294cb41933eb8082f647887d83aba355cd3bfe183c12c427056c006cc0b2d405",
+      "git_sha": "2c1b2b95f3b6e798f2e60c253f2c6d7a7e4c3b31"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/eabcn_chronology.html",
+      "bytes": 28075,
+      "sha256": "e1ad1141e26d8b94b46134b7239063a209eb742eca418d8dc1121002c9c8bc5f",
+      "git_sha": "920cfc56810df5d993793403c3f0809833e93fcb"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/ecb_ciss_ea.csv.gz",
+      "bytes": 137169,
+      "sha256": "8456128d4fca5b998ec8da329d1fe3b3b9bfbb9e8182a5a83db49b6a877e532b",
+      "git_sha": "13024376a35a396b15caa94060a9269d78e2a383"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/ecb_stoxx50.csv",
+      "bytes": 132100,
+      "sha256": "a90191aedea928e1b0c684006584c874d42a4e30312efdddb89f7e94fe5af90a",
+      "git_sha": "b8ab5c65b3321fe0a62efebf5c7ce6d133bf9a2d"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/ecfin_main_indicators_202610.zip",
+      "bytes": 708093,
+      "sha256": "68c90eba29cb5edc0cda4db4a2fe5858791d41aea5096d2330e30efc5c28abff",
+      "git_sha": "2cfd7a7a952cc6870f9d4679fe789764ee4d993e"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/ecfin_timeseries_page.html",
+      "bytes": 81151,
+      "sha256": "841742a5c96264ba4d527e53d14dcde5aa3eafc6bf113e2084bdf14383693382",
+      "git_sha": "7655d3dfe39730e06c7d4a4c1ae201b4286afba2"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/eurostat_gdp_EA21.json",
+      "bytes": 11786,
+      "sha256": "7e0fcdf0125d09341033274a527bffc119ac8b29b9fc3597f400aec35fe29468",
+      "git_sha": "ef99b32e2023bd0f98c56edd87a71fd7f0918371"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/firth_method.html",
+      "bytes": 47450,
+      "sha256": "c4855cfbebdbd2d9927d2195dc54ae61673753f4e6f34647bec82e98e1f16450",
+      "git_sha": "92da563309c25e950783b4f801ad7c88047cd371"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/fred_ANFCI.csv",
+      "bytes": 51520,
+      "sha256": "4217a324a7787ad48296d686e694d1f8ba7bb64e0213afdedf1b40dd6a6e9445",
+      "git_sha": "8bd4dc1616f9e9e1baf5e70fa27593273422ca99"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/fred_BAA10YM.csv",
+      "bytes": 14137,
+      "sha256": "19f3a0dc9825dfa5714a911f1f68040b86f402f0a96fea91496da80889ab55b4",
+      "git_sha": "6e3a6c2392dbfde4972c56176ae5ec55c73f6fb5"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/fred_GS10.csv",
+      "bytes": 14206,
+      "sha256": "40323f225e613a19a4eec7eef20523dec10764de21c70cd1416a7379fb7f13b6",
+      "git_sha": "8f2c3bf3a6a6a7fd2c110c69b37691899f36c9e4"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/fred_NFCI.csv",
+      "bytes": 51582,
+      "sha256": "0f75976dbf279a1eec596df447f6478f27d94432ecc5dfc8558a7b34d45a39d7",
+      "git_sha": "239c9449bffbbd27b0b74c204b2f9f448e6777e7"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/fred_TB3MS.csv",
+      "bytes": 17865,
+      "sha256": "631bc444a8c5370c3a2df12f484a67ae7b9a68c00fe8a33215895fb49c8cc08c",
+      "git_sha": "c4fd2707edf32cae0125b6030bccab0ee528beb6"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/fred_VIXCLS.csv",
+      "bytes": 161782,
+      "sha256": "7cfbdd416b37b45f1fb2ab7d476e9965aed3db8a402a258a56b207df73624702",
+      "git_sha": "67e7ce6e9cdf835c998001829737717d183f3820"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/raw/puhr_2017_abstract.html",
+      "bytes": 144003,
+      "sha256": "16ea669ed2c0e39e79008ce6d5317ce05190d192a9c830d40f099ed9b40c27f3",
+      "git_sha": "8e9068f175f7fdd54bbd0ca684bd3a449afc80a2"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/data/source_manifest.json",
+      "bytes": 7040,
+      "sha256": "23790e60baaadabc687b67f84c55e01b7d6a19f6a6a335e76951759d032d4d30",
+      "git_sha": "29a41bedeb57aad70d400e223852a32c5541ffc2"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/diagnostics/paired_skill_intervals.csv",
+      "bytes": 519,
+      "sha256": "bc32fd3a849a09bbbe9375d283244e50cc14de35456fe91fa7297915c2fb354d",
+      "git_sha": "97e7b9fb6916b69d5b306bf4120b0263d0512c9c"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/diagnostics/paired_skill_intervals.png",
+      "bytes": 75584,
+      "sha256": "ecc1850baf1d1c256b0c522b9bc1e6cb8286edb75cb1094c7bdb485e5b8e07d3",
+      "git_sha": "ba4bcaa4e46eb84b25b2decc0cb67f406e57e501"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/diagnostics/probabilities_h1.png",
+      "bytes": 117112,
+      "sha256": "2640174b3cd4cb8c20abf1f6b7c78239f336f4d89a1ac20e5a37fc8cae599b12",
+      "git_sha": "f9c9012e26a3329da651b8431f0bba60d77f83bf"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/evaluate.py",
+      "bytes": 6103,
+      "sha256": "4aedaada4c1759b538962bd9e0ae9d2a39704c6b8dbd8eafc595d87b9427a095",
+      "git_sha": "00402c01787b878c590445c5460e836a1eca1e36"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/influence_audit.py",
+      "bytes": 3750,
+      "sha256": "cc6d5d2a6246dfe34b01c3673d54b973b75b74578fb8741b21b431dcbf5e5b57",
+      "git_sha": "3c7f8b6fa32752550214549816d45082519b6a40"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/lock_protocol.py",
+      "bytes": 7263,
+      "sha256": "2380b426b99f85923b10fd3b02fc481c02526e6defb86c9e183476eb6083c456",
+      "git_sha": "d1f6ca3cf3d1bab7d20d6e71d88180225328a2b7"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/logit_engine.py",
+      "bytes": 3574,
+      "sha256": "9bd461b9f0b517bdd8a4d626e736b67ffa93515e2e0102778e7bdfb33e3eb9d9",
+      "git_sha": "549d8a756a802877687ce01f859ca6b30b76d2e0"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/protocol_lock.json",
+      "bytes": 12859,
+      "sha256": "e917ba751b10daa1030c5c4f411cffaac81327580429b75e807db226ef75430e",
+      "git_sha": "6f4cc22c82d55998aa0ce10b29e353572e74e621"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/protocol_lock.sha256",
+      "bytes": 65,
+      "sha256": "2d85a41397e90b78e3e80e8daff6f7d6b0c77a63544d6785fb495927cfe10b98",
+      "git_sha": "d89c4ac967d5764249f5fc5b63358c2d20ae6856"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/report_results.py",
+      "bytes": 28847,
+      "sha256": "c2e2fcba167a8d35e254b8fb4ac842d7a5814cf5aeb71202d1d7e6875976937b",
+      "git_sha": "f2cb6f011435aef8e5cdbc63e3c780ffcdd15361"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/requirements.txt",
+      "bytes": 96,
+      "sha256": "0cb29f7683eef485a1df932b880f9e9e99aede751d0ffba0415e8d05d90ae607",
+      "git_sha": "8b1a137b639339ea8fcbaaf443087dfa83e5d57b"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/calibration.csv",
+      "bytes": 50761,
+      "sha256": "112ebb945822e1922ecc4804ce7282460da89def942e2501b1bd97c7edca77dc",
+      "git_sha": "c2b81d9639b8fc4385e7c54bd9a3afe51745b0fe"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/coefficients.jsonl.gz",
+      "bytes": 1327915,
+      "sha256": "746f9a4cfedf7010c3de56493650a9edfc358668b66745379607372de1fd0be5",
+      "git_sha": "6a6a0fead0562ff209b6ce9e4a8eab49aa145bab"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/episode_scores.csv",
+      "bytes": 108500,
+      "sha256": "772db5bd881a0dc90551d09df2a7894cd40537c6939e20e14861697cd1904625",
+      "git_sha": "bb48ae081017fbd25ae0ddd294fdecd3047dcf4c"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/extrapolation_flags.csv",
+      "bytes": 158756,
+      "sha256": "4b9153fe1b71298b9e6af7160c6429ca82b4b174e44703d86818d3390297e27c",
+      "git_sha": "536bed2a2876b2784ad05aca0356a3b729dbaeaf"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/forecast_calendar.csv.gz",
+      "bytes": 118022,
+      "sha256": "b8708a0c66901cba85ee2fa5764b7a9198ff405b7eefb5515fd70bcc05140bef",
+      "git_sha": "cd8cab24e3c8cddb8653be5564c8abd711eb7a3d"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/forecasts.csv.gz",
+      "bytes": 407292,
+      "sha256": "ff17284f05f9a249274e4f2db10565d5f0478e5f8d696da1ef792b989016c172",
+      "git_sha": "dc44b1b644ce462e985f462ed42c7646e864486c"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/influence_summary.csv",
+      "bytes": 33628,
+      "sha256": "f4779802556a9730e60b3c7b4275f1a8a6d3b82865d8b70be13d61c55e825d3c",
+      "git_sha": "30cbecbdfffcd9758d9c82f9d60b2667e0cb526e"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/leave_one_target_out.csv.gz",
+      "bytes": 174780,
+      "sha256": "d9ec55ed0415266686c3da7241c847a66e0f5c564fea991e28ebb92853004019",
+      "git_sha": "80778333d64202eff7cdbefbe006ced349b668a6"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/loss_contributions.csv.gz",
+      "bytes": 171668,
+      "sha256": "fb8b101c09405befb0cacd88322880cbaf1f7e7928f8ae78ca77a179169a0e44",
+      "git_sha": "e681b174d3506d90716b5c566f0cd1346946d2a4"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/model_catalog.csv",
+      "bytes": 6922,
+      "sha256": "b388fddbb83606c22a24f1bc0835246259c3178bd7a0073f94ce0955133794a0",
+      "git_sha": "d443ff71f94436e8c5a5dd4d665c8662d04f0b45"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/outcome_revision_scores.csv",
+      "bytes": 25417,
+      "sha256": "874cfcd245d45fac03befa406aad60c7e5bd8a898ab8fc12b61bcc99a5932a77",
+      "git_sha": "d63418d4de0c97573a2723757891bca2c91fe82e"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/paired_comparisons.csv",
+      "bytes": 97197,
+      "sha256": "aae77c4ab0653a3865a14fff964b934c33a494b7f0165fcaa66b6a934de01e28",
+      "git_sha": "3a2271a8ced8d22775a8463995ade336bbb0e4fd"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/results/scores.csv",
+      "bytes": 21460,
+      "sha256": "5621d48f14b321482ef3fd1596c39c9d427056ab2bf291c88f26da6fa799b6f8",
+      "git_sha": "92f0e4ab9b58184c678da8061398f98e70421b49"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/run_all.py",
+      "bytes": 1697,
+      "sha256": "9ee66f35fbd3fa38532836e86cef31b934781b683eaae443f82e7a4d37908eee",
+      "git_sha": "1fc82ce1644837b4d66b4d18ba0534276942ca64"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/run_models.py",
+      "bytes": 9699,
+      "sha256": "1c997360053a362e4dcae5cddf85ed30e5b1e3f273fb35f2529b2ae9e1f0cdb0",
+      "git_sha": "a8150e7567712188a9cb860d703e8531ef892289"
+    },
+    {
+      "path": "research/03_us_financial_conditions/downturn_extension/validate.py",
+      "bytes": 10042,
+      "sha256": "948b55b0feb302da015269c60e41a14b98cb801405b75cb0b736d8979bbb3a2b",
+      "git_sha": "65f6228dc4369d02c1dfa4c2f241944e7e56a0ae"
+    }
+  ],
+  "unpacked_large_files": [
+    {
+      "path": "data/raw/ecb_ciss_ea.csv",
+      "compressed_path": "data/raw/ecb_ciss_ea.csv.gz",
+      "bytes": 3380421,
+      "sha256": "c42f0cf49ac0289280dd69179a4bbbe91c85597427d2859bb2a5a86baa50b128",
+      "compressed_bytes": 137169,
+      "compressed_sha256": "8456128d4fca5b998ec8da329d1fe3b3b9bfbb9e8182a5a83db49b6a877e532b"
+    },
+    {
+      "path": "results/coefficients.jsonl",
+      "compressed_path": "results/coefficients.jsonl.gz",
+      "bytes": 6640307,
+      "sha256": "5d0553291dd66ad580cdf628b60564d783f74eb6e1d4f3c2124b94feee5091f1",
+      "compressed_bytes": 1327915,
+      "compressed_sha256": "746f9a4cfedf7010c3de56493650a9edfc358668b66745379607372de1fd0be5"
+    },
+    {
+      "path": "results/forecast_calendar.csv",
+      "compressed_path": "results/forecast_calendar.csv.gz",
+      "bytes": 1853519,
+      "sha256": "23fe12897d1dc6826cd098eaddf4807ff7d06d98aaa69c5c3da82bbf45aa1dac",
+      "compressed_bytes": 118022,
+      "compressed_sha256": "b8708a0c66901cba85ee2fa5764b7a9198ff405b7eefb5515fd70bcc05140bef"
+    },
+    {
+      "path": "results/forecasts.csv",
+      "compressed_path": "results/forecasts.csv.gz",
+      "bytes": 1826452,
+      "sha256": "6293945eb99cef9bae6ccb0915ff9bd6ad5c493bded984b451c3f68388b69c13",
+      "compressed_bytes": 407292,
+      "compressed_sha256": "ff17284f05f9a249274e4f2db10565d5f0478e5f8d696da1ef792b989016c172"
+    },
+    {
+      "path": "results/leave_one_target_out.csv",
+      "compressed_path": "results/leave_one_target_out.csv.gz",
+      "bytes": 1410042,
+      "sha256": "09fe89583178057f3155d3c40672b2b30de5780dfbd62ea2678ec05dd02972d6",
+      "compressed_bytes": 174780,
+      "compressed_sha256": "d9ec55ed0415266686c3da7241c847a66e0f5c564fea991e28ebb92853004019"
+    },
+    {
+      "path": "results/loss_contributions.csv",
+      "compressed_path": "results/loss_contributions.csv.gz",
+      "bytes": 796916,
+      "sha256": "312a55f5a60e27a8ef2b7962b02169c52a2cf92fa8c14bc5f6d164009dffb003",
+      "compressed_bytes": 171668,
+      "compressed_sha256": "fb8b101c09405befb0cacd88322880cbaf1f7e7928f8ae78ca77a179169a0e44"
+    }
+  ]
+}
