@@ -1,0 +1,16 @@
+{
+  "records": 73,
+  "unique_dois": 54,
+  "local_pdf_copies": 57,
+  "official_html_only": 3,
+  "fulltext_not_obtained": 13,
+  "identity_verified": 73,
+  "crossref_matches": 37,
+  "crossref_rate_limited": 8,
+  "model_and_chapters_changed": false,
+  "scope_note": "Проверка существования публикации, чтение выбранных фрагментов и независимая репликация — разные уровни. Последняя не заявляется.",
+  "data_documentation_records": 30,
+  "frozen_data_responses_hash_checked": 13,
+  "artifact_checks": "artifact_checks.json",
+  "audit_consistency_check": "passed"
+}

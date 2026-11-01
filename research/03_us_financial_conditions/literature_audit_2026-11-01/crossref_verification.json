@@ -1,0 +1,2505 @@
+[
+  {
+    "id": "L01",
+    "request_url": "https://api.crossref.org/works/10.1111/j.1468-2362.2005.00159.x",
+    "requested_doi": "10.1111/j.1468-2362.2005.00159.x",
+    "checked_at_utc": "2026-11-01T15:38:38.280854+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Does the Yield Spread Predict Recessions in the Euro Area?*",
+    "registered_authors": [
+      {
+        "given": "Fabio",
+        "family": "Moneta",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1111/j.1468-2362.2005.00159.x",
+    "registered_year": [
+      [
+        2005,
+        8
+      ]
+    ],
+    "registered_venue": [
+      "International Finance"
+    ],
+    "registered_volume": "8",
+    "registered_issue": "2",
+    "registered_pages": "263-301",
+    "registered_type": "journal-article",
+    "response_sha256": "20f9822db90a1eed5f87f3edbabb3881a336140205be1fc453f77ccba3324ba7"
+  },
+  {
+    "id": "L02",
+    "request_url": "https://api.crossref.org/works/10.1504/IJCEE.2017.080609",
+    "requested_doi": "10.1504/IJCEE.2017.080609",
+    "checked_at_utc": "2026-11-01T15:38:42.980811+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Forecasting euro area recessions by combining financial information",
+    "registered_authors": [
+      {
+        "given": "Christophe",
+        "family": "Bellégo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Laurent",
+        "family": "Ferrara",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1504/ijcee.2017.080609",
+    "registered_year": [
+      [
+        2017
+      ]
+    ],
+    "registered_venue": [
+      "International Journal of Computational Economics and Econometrics"
+    ],
+    "registered_volume": "7",
+    "registered_issue": "1/2",
+    "registered_pages": "78",
+    "registered_type": "journal-article",
+    "response_sha256": "fbed2d71bc2c0c1002ee0e895e86f2b18c830886fdfd63e0f4c2c24f962581b1"
+  },
+  {
+    "id": "L03",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "L04",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "L05",
+    "request_url": "https://api.crossref.org/works/10.1002/for.2751",
+    "requested_doi": "10.1002/for.2751",
+    "checked_at_utc": "2026-11-01T15:38:42.987420+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Recession probabilities for the Eurozone at the zero lower bound: Challenges to the term spread and rise of alternatives",
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3803-8680",
+        "authenticated-orcid": false,
+        "given": "Ralf",
+        "family": "Fendel",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Economics WHU – Otto Beisheim School of Management  Vallendar Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicola",
+        "family": "Mai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "PIMCO Europe Ltd  London UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Oliver",
+        "family": "Mohr",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics WHU – Otto Beisheim School of Management  Vallendar Germany"
+          },
+          {
+            "name": "PIMCO Europe GmbH  Munich Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1002/for.2751",
+    "registered_year": [
+      [
+        2021,
+        1,
+        18
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Forecasting"
+    ],
+    "registered_volume": "40",
+    "registered_issue": "6",
+    "registered_pages": "1000-1026",
+    "registered_type": "journal-article",
+    "response_sha256": "373c9c84834bb2e64d74ce89c5e153332217d8a119f9141ad2be678baf44f588"
+  },
+  {
+    "id": "L06",
+    "request_url": "https://api.crossref.org/works/10.1257/mac.3.2.246",
+    "requested_doi": "10.1257/mac.3.2.246",
+    "checked_at_utc": "2026-11-01T15:38:43.038582+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Evaluating the Classification of Economic Activity into Recessions and Expansions",
+    "registered_authors": [
+      {
+        "given": "Travis J",
+        "family": "Berge",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Economics, University of California at Davis, One Shields Ave., Davis, CA 95616."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Óscar",
+        "family": "Jordá",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics, University of California at Davis, One Shields Ave., Davis, CA 95616."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1257/mac.3.2.246",
+    "registered_year": [
+      [
+        2011,
+        4,
+        1
+      ]
+    ],
+    "registered_venue": [
+      "American Economic Journal: Macroeconomics"
+    ],
+    "registered_volume": "3",
+    "registered_issue": "2",
+    "registered_pages": "246-277",
+    "registered_type": "journal-article",
+    "response_sha256": "7e4801a2bfcce2b08dd78f84856458b7dad909b700cfea4566a705593e796c67"
+  },
+  {
+    "id": "L07",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "L08",
+    "request_url": "https://api.crossref.org/works/10.1257/jel.49.1.72",
+    "requested_doi": "10.1257/jel.49.1.72",
+    "checked_at_utc": "2026-11-01T15:38:43.040337+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Frontiers of Real-Time Data Analysis",
+    "registered_authors": [
+      {
+        "given": "Dean",
+        "family": "Croushore",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Richmond and Federal Reserve Bank of Philadelphia."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1257/jel.49.1.72",
+    "registered_year": [
+      [
+        2011,
+        3,
+        1
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Economic Literature"
+    ],
+    "registered_volume": "49",
+    "registered_issue": "1",
+    "registered_pages": "72-100",
+    "registered_type": "journal-article",
+    "response_sha256": "160a876f8e881778503c42019b1db0fcd4c3b0dfd9a4b2711c01547a89c30a69"
+  },
+  {
+    "id": "L09",
+    "request_url": "https://api.crossref.org/works/10.1002/sim.7273",
+    "requested_doi": "10.1002/sim.7273",
+    "checked_at_utc": "2026-11-01T15:38:47.697061+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Firth's logistic regression with rare events: accurate effect estimates and predictions?",
+    "registered_authors": [
+      {
+        "given": "Rainer",
+        "family": "Puhr",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Kirby Institute University of New South Wales  Sydney Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Georg",
+        "family": "Heinze",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Medical Statistics, Informatics and Intelligent Systems Medical University of Vienna  Vienna Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mariana",
+        "family": "Nold",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Medical Statistics, Computer Sciences and Documentation University Hospital Jena  Jena Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lara",
+        "family": "Lusa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Biostatistics and Medical Informatics, Faculty of Medicine University of Ljubljana  Ljubljana Slovenia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4659-4911",
+        "authenticated-orcid": false,
+        "given": "Angelika",
+        "family": "Geroldinger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Medical Statistics, Informatics and Intelligent Systems Medical University of Vienna  Vienna Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1002/sim.7273",
+    "registered_year": [
+      [
+        2017,
+        3,
+        12
+      ]
+    ],
+    "registered_venue": [
+      "Statistics in Medicine"
+    ],
+    "registered_volume": "36",
+    "registered_issue": "14",
+    "registered_pages": "2302-2317",
+    "registered_type": "journal-article",
+    "response_sha256": "aaac447fc21c18e0bc3e1118625cc176167c5c33057a0cce0381c13663be6397"
+  },
+  {
+    "id": "L10",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "L11",
+    "request_url": "https://api.crossref.org/works/10.1257/aer.102.4.1692",
+    "requested_doi": "10.1257/aer.102.4.1692",
+    "checked_at_utc": "2026-11-01T15:38:47.705575+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Credit Spreads and Business Cycle Fluctuations",
+    "registered_authors": [
+      {
+        "given": "Simon",
+        "family": "Gilchrist",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Economics, Boston University, 270 Bay State Road, Boston, MA 02215, and the National Bureau of Economic Research."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Egon",
+        "family": "Zakrajšek",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Monetary Affairs, Federal Reserve Board, 20th Street and Constitution Avenue NW, Washington, DC 20551."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1257/aer.102.4.1692",
+    "registered_year": [
+      [
+        2012,
+        6,
+        1
+      ]
+    ],
+    "registered_venue": [
+      "American Economic Review"
+    ],
+    "registered_volume": "102",
+    "registered_issue": "4",
+    "registered_pages": "1692-1720",
+    "registered_type": "journal-article",
+    "response_sha256": "aa3d3dbd0cb14a5b2eabce9c58a93ecd2821bf092ca8add529c200a57a8d3803"
+  },
+  {
+    "id": "L12",
+    "request_url": "https://api.crossref.org/works/10.1016/j.euroecorev.2025.105179",
+    "requested_doi": "10.1016/j.euroecorev.2025.105179",
+    "checked_at_utc": "2026-11-01T15:38:47.741294+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Estimating euro area output gap dynamics: Evidence from the updated Area-Wide Model Database",
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-4716-8747",
+        "authenticated-orcid": false,
+        "given": "Mahmut S.",
+        "family": "İpek",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Burçin",
+        "family": "Kısacıkoğlu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.euroecorev.2025.105179",
+    "registered_year": [
+      [
+        2026,
+        1
+      ]
+    ],
+    "registered_venue": [
+      "European Economic Review"
+    ],
+    "registered_volume": "181",
+    "registered_issue": null,
+    "registered_pages": "105179",
+    "registered_type": "journal-article",
+    "response_sha256": "0b07dab220bee9dfc786af81b72287ec6a52cb3847f5f8728c6119f21dd65558"
+  },
+  {
+    "id": "L13",
+    "request_url": "https://api.crossref.org/works/10.1214/aos/1176347265",
+    "requested_doi": "10.1214/aos/1176347265",
+    "checked_at_utc": "2026-11-01T15:38:47.753507+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "The Jackknife and the Bootstrap for General Stationary Observations",
+    "registered_authors": [
+      {
+        "given": "Hans R.",
+        "family": "Kunsch",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1214/aos/1176347265",
+    "registered_year": [
+      [
+        1989,
+        9,
+        1
+      ]
+    ],
+    "registered_venue": [
+      "The Annals of Statistics"
+    ],
+    "registered_volume": "17",
+    "registered_issue": "3",
+    "registered_pages": "1217-1241",
+    "registered_type": "journal-article",
+    "response_sha256": "93b9e14f37bc82fd45c075d209b6550c651f7e764cfe8d917f69f520461833c2"
+  },
+  {
+    "id": "L14",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "N01",
+    "request_url": "https://api.crossref.org/works/10.1093/biomet/80.1.27",
+    "requested_doi": "10.1093/biomet/80.1.27",
+    "checked_at_utc": "2026-11-01T15:38:52.507048+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Bias reduction of maximum likelihood estimates",
+    "registered_authors": [
+      {
+        "given": "DAVID",
+        "family": "FIRTH",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1093/biomet/80.1.27",
+    "registered_year": [
+      [
+        1993
+      ]
+    ],
+    "registered_venue": [
+      "Biometrika"
+    ],
+    "registered_volume": "80",
+    "registered_issue": "1",
+    "registered_pages": "27-38",
+    "registered_type": "journal-article",
+    "response_sha256": "0e9cbfc3719267576594c068ef0b0ec78c624f192b1ad91d9aaac6225ffc0155"
+  },
+  {
+    "id": "N02",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "N03",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S01",
+    "request_url": "https://api.crossref.org/works/10.1257/aer.20161923",
+    "requested_doi": "10.1257/aer.20161923",
+    "checked_at_utc": "2026-11-01T15:38:00.082505+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S02",
+    "request_url": "https://api.crossref.org/works/10.2139/ssrn.4551569",
+    "requested_doi": "10.2139/ssrn.4551569",
+    "checked_at_utc": "2026-11-01T15:38:00.083811+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S03",
+    "request_url": "https://api.crossref.org/works/10.1080/07350015.2024.2310020",
+    "requested_doi": "10.1080/07350015.2024.2310020",
+    "checked_at_utc": "2026-11-01T15:38:00.084455+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Investigating Growth-at-Risk Using a Multicountry Nonparametric Quantile Factor Model",
+    "registered_authors": [
+      {
+        "given": "Todd E.",
+        "family": "Clark",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Economic Research Department, Federal Reserve Bank of Cleveland",
+            "place": [
+              "Cleveland"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2896-7921",
+        "authenticated-orcid": false,
+        "given": "Florian",
+        "family": "Huber",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics, Paris Lodron University of Salzburg",
+            "place": [
+              "Salzburg, Austria"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6091-378X",
+        "authenticated-orcid": false,
+        "given": "Gary",
+        "family": "Koop",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics, University of Strathclyde",
+            "place": [
+              "Glasgow, UK"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8737-2768",
+        "authenticated-orcid": false,
+        "given": "Massimiliano",
+        "family": "Marcellino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics, Bocconi University, IGIER and CEPR",
+            "place": [
+              "Milan, Italy"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0168-688X",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Pfarrhofer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Economics, Vienna University of Economics and Business",
+            "place": [
+              "Vienna, Austria"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1080/07350015.2024.2310020",
+    "registered_year": [
+      [
+        2024,
+        3,
+        7
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Business &amp; Economic Statistics"
+    ],
+    "registered_volume": "42",
+    "registered_issue": "4",
+    "registered_pages": "1302-1317",
+    "registered_type": "journal-article",
+    "response_sha256": "e15d217ceb5f688a6a4ff0a0428202e834fb0ff4ab578446b8558894f524fb1a"
+  },
+  {
+    "id": "S04",
+    "request_url": "https://api.crossref.org/works/10.1353/eca.2020.0002",
+    "requested_doi": "10.1353/eca.2020.0002",
+    "checked_at_utc": "2026-11-01T15:38:00.085028+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "When Is Growth at Risk?",
+    "registered_authors": [
+      {
+        "given": "Mikkel",
+        "family": "Plagborg-Møller",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lucrezia",
+        "family": "Reichlin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giovanni",
+        "family": "Ricco",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Hasenzagl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1353/eca.2020.0002",
+    "registered_year": [
+      [
+        2020
+      ]
+    ],
+    "registered_venue": [
+      "Brookings Papers on Economic Activity"
+    ],
+    "registered_volume": "2020",
+    "registered_issue": "1",
+    "registered_pages": "167-229",
+    "registered_type": "journal-article",
+    "response_sha256": "fd7441b98375e36749e2db244dfef24ce73ac336ab77e547c57d309ab499bd43"
+  },
+  {
+    "id": "S05",
+    "request_url": "https://api.crossref.org/works/10.1016/j.jmoneco.2020.11.003",
+    "requested_doi": "10.1016/j.jmoneco.2020.11.003",
+    "checked_at_utc": "2026-11-01T15:38:04.787263+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Backtesting global Growth-at-Risk",
+    "registered_authors": [
+      {
+        "given": "Christian",
+        "family": "Brownlees",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1192-2508",
+        "authenticated-orcid": false,
+        "given": "André B.M.",
+        "family": "Souza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.jmoneco.2020.11.003",
+    "registered_year": [
+      [
+        2021,
+        3
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Monetary Economics"
+    ],
+    "registered_volume": "118",
+    "registered_issue": null,
+    "registered_pages": "312-330",
+    "registered_type": "journal-article",
+    "response_sha256": "caf7d67450a66619f38788193a52454d87f47f3b3b5d9b737f8ce6a6427bb279"
+  },
+  {
+    "id": "S06",
+    "request_url": "https://api.crossref.org/works/10.1257/mac.20180428",
+    "requested_doi": "10.1257/mac.20180428",
+    "checked_at_utc": "2026-11-01T15:38:04.789076+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S07",
+    "request_url": "https://api.crossref.org/works/10.5089/9781484397015.001",
+    "requested_doi": "10.5089/9781484397015.001",
+    "checked_at_utc": "2026-11-01T15:38:04.810608+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Growth at Risk: Concept and Application in IMF Country Surveillance",
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0888-4675",
+        "authenticated-orcid": true,
+        "given": "Ananthakrishnan",
+        "family": "Prasad",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1234-4463",
+        "authenticated-orcid": true,
+        "given": "Selim",
+        "family": "Elekdag",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2071-7987",
+        "authenticated-orcid": true,
+        "given": "Phakawa",
+        "family": "Jeasakul",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6442-9613",
+        "authenticated-orcid": true,
+        "given": "Romain",
+        "family": "Lafarguette",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4752-4808",
+        "authenticated-orcid": true,
+        "given": "Adrian",
+        "family": "Alter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Xiaochen Feng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5174-5721",
+        "authenticated-orcid": true,
+        "given": "Changchun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.5089/9781484397015.001",
+    "registered_year": [
+      [
+        2019,
+        2
+      ]
+    ],
+    "registered_venue": [
+      "IMF Working Papers"
+    ],
+    "registered_volume": "2019",
+    "registered_issue": "036",
+    "registered_pages": "1",
+    "registered_type": "journal-article",
+    "response_sha256": "e13cd542eeaba695ee8eccfe55f016ec686e971f3c00786513f3c72be08fe7e0"
+  },
+  {
+    "id": "S08",
+    "request_url": "https://api.crossref.org/works/10.1016/j.econlet.2020.109126",
+    "requested_doi": "10.1016/j.econlet.2020.109126",
+    "checked_at_utc": "2026-11-01T15:38:04.836569+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Vulnerable growth in the euro area: Measuring the financial conditions",
+    "registered_authors": [
+      {
+        "given": "Juan Manuel",
+        "family": "Figueres",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marek",
+        "family": "Jarociński",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.econlet.2020.109126",
+    "registered_year": [
+      [
+        2020,
+        6
+      ]
+    ],
+    "registered_venue": [
+      "Economics Letters"
+    ],
+    "registered_volume": "191",
+    "registered_issue": null,
+    "registered_pages": "109126",
+    "registered_type": "journal-article",
+    "response_sha256": "58000286e1f040393e874f3830b5f87618873c44496db92e80b33d36d8561ab8"
+  },
+  {
+    "id": "S09",
+    "request_url": "https://api.crossref.org/works/10.1002/jae.3005",
+    "requested_doi": "10.1002/jae.3005",
+    "checked_at_utc": "2026-11-01T15:38:09.883910+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Reassessing growth vulnerability",
+    "registered_authors": [
+      {
+        "given": "Dooyeon",
+        "family": "Cho",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Economics Sungkyunkwan University  Seoul Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Seunghwa",
+        "family": "Rho",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The College of Economics and Finance Hanyang University  Seoul Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1002/jae.3005",
+    "registered_year": [
+      [
+        2023,
+        9,
+        25
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Applied Econometrics"
+    ],
+    "registered_volume": "39",
+    "registered_issue": "1",
+    "registered_pages": "225-234",
+    "registered_type": "journal-article",
+    "response_sha256": "587848ea7a618bacf29e52a4d17b7d425b4a266a8d57ef5146196aa21c6dde81"
+  },
+  {
+    "id": "S10",
+    "request_url": "https://api.crossref.org/works/10.1002/jae.3136",
+    "requested_doi": "10.1002/jae.3136",
+    "checked_at_utc": "2026-11-01T15:38:09.897571+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Correlated Errors Challenge Vulnerable Growth",
+    "registered_authors": [
+      {
+        "given": "Wei",
+        "family": "Long",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Economics Tulane University  New Orleans Louisiana USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Liang",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Maurice R. Greenberg School of Risk Science Georgia State University  Atlanta Georgia USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Bingduo",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Finance Guangdong University of Finance and Economics  Guangzhou China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1002/jae.3136",
+    "registered_year": [
+      [
+        2025,
+        6,
+        9
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Applied Econometrics"
+    ],
+    "registered_volume": "40",
+    "registered_issue": "6",
+    "registered_pages": "715-721",
+    "registered_type": "journal-article",
+    "response_sha256": "42616eb52b29c75237c5b74dfe61bdb5dc1cb5a4b25f43cde3c231ef2379bb70"
+  },
+  {
+    "id": "S11",
+    "request_url": "https://api.crossref.org/works/10.1016/j.jeconom.2023.105490",
+    "requested_doi": "10.1016/j.jeconom.2023.105490",
+    "checked_at_utc": "2026-11-01T15:38:09.931464+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Out-of-sample tests for conditional quantile coverage an application to Growth-at-Risk",
+    "registered_authors": [
+      {
+        "given": "Valentina",
+        "family": "Corradi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jack",
+        "family": "Fosten",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Gutknecht",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.jeconom.2023.105490",
+    "registered_year": [
+      [
+        2023,
+        10
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Econometrics"
+    ],
+    "registered_volume": "236",
+    "registered_issue": "2",
+    "registered_pages": "105490",
+    "registered_type": "journal-article",
+    "response_sha256": "578825461f3313d1f191ddb57bb526910899e75feb15159348fb2dc7a5f5074e"
+  },
+  {
+    "id": "S12",
+    "request_url": "https://api.crossref.org/works/10.2139/ssrn.4424153",
+    "requested_doi": "10.2139/ssrn.4424153",
+    "checked_at_utc": "2026-11-01T15:38:09.981067+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Medium-Term Growth-at-Risk in the Euro Area",
+    "registered_authors": [
+      {
+        "given": "Jan Hannes",
+        "family": "Lang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marek",
+        "family": "Rusnák",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Moritz",
+        "family": "Greiwe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.2139/ssrn.4424153",
+    "registered_year": [
+      [
+        2023
+      ]
+    ],
+    "registered_venue": [],
+    "registered_volume": null,
+    "registered_issue": null,
+    "registered_pages": null,
+    "registered_type": "posted-content",
+    "response_sha256": "7b1899e967b0bb5786f403127eccd19ca6b6ca2cac8ee37ec8b23ea85e1f8782"
+  },
+  {
+    "id": "S13",
+    "request_url": "https://api.crossref.org/works/10.1016/j.ijforecast.2021.06.010",
+    "requested_doi": "10.1016/j.ijforecast.2021.06.010",
+    "checked_at_utc": "2026-11-01T15:38:14.559243+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "High-frequency monitoring of growth at risk",
+    "registered_authors": [
+      {
+        "given": "Laurent",
+        "family": "Ferrara",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matteo",
+        "family": "Mogliani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jean-Guillaume",
+        "family": "Sahuc",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.ijforecast.2021.06.010",
+    "registered_year": [
+      [
+        2022,
+        4
+      ]
+    ],
+    "registered_venue": [
+      "International Journal of Forecasting"
+    ],
+    "registered_volume": "38",
+    "registered_issue": "2",
+    "registered_pages": "582-595",
+    "registered_type": "journal-article",
+    "response_sha256": "8e465e907145de574071e6e274bdd74319272dbed7e4907c59fe71b7b5bc7de7"
+  },
+  {
+    "id": "S14",
+    "request_url": "https://api.crossref.org/works/10.2139/ssrn.3641428",
+    "requested_doi": "10.2139/ssrn.3641428",
+    "checked_at_utc": "2026-11-01T15:38:14.581809+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Forecasting Macroeconomic Risk in Real Time: Great and Covid-19 Recessions",
+    "registered_authors": [
+      {
+        "given": "Roberto A.",
+        "family": "De Santis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wouter",
+        "family": "Van der Veken",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.2139/ssrn.3641428",
+    "registered_year": [
+      [
+        2020
+      ]
+    ],
+    "registered_venue": [],
+    "registered_volume": null,
+    "registered_issue": null,
+    "registered_pages": null,
+    "registered_type": "posted-content",
+    "response_sha256": "6d842b9c73bfc0d2ab5f002f8c3fd5ceabca53d0e698b138b39089bb32259985"
+  },
+  {
+    "id": "S15",
+    "request_url": "https://api.crossref.org/works/10.1162/rest_a_01213",
+    "requested_doi": "10.1162/rest_a_01213",
+    "checked_at_utc": "2026-11-01T15:38:14.584533+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Addressing COVID-19 Outliers in BVARs with Stochastic Volatility",
+    "registered_authors": [
+      {
+        "given": "Andrea",
+        "family": "Carriero",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Queen Mary University of London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Todd E.",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal Reserve Bank of Cleveland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Massimiliano",
+        "family": "Marcellino",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bocconi University, CEPR, IGIER, BIDSA, and BAFFI"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elmar",
+        "family": "Mertens",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Deutsche Bundesbank"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1162/rest_a_01213",
+    "registered_year": [
+      [
+        2024,
+        9
+      ]
+    ],
+    "registered_venue": [
+      "Review of Economics and Statistics"
+    ],
+    "registered_volume": "106",
+    "registered_issue": "5",
+    "registered_pages": "1403-1417",
+    "registered_type": "journal-article",
+    "response_sha256": "ba38c2d24ca905e248189f0458bc65e4897fdcdeac2cdc5b99e2994c6b473528"
+  },
+  {
+    "id": "S16",
+    "request_url": "https://api.crossref.org/works/10.1016/j.jeconom.2026.106235",
+    "requested_doi": "10.1016/j.jeconom.2026.106235",
+    "checked_at_utc": "2026-11-01T15:38:14.593511+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Robust econometrics for growth-at-risk",
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9379-9592",
+        "authenticated-orcid": false,
+        "given": "Tobias",
+        "family": "Adrian",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-5712-651X",
+        "authenticated-orcid": false,
+        "given": "Yuya",
+        "family": "Sasaki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7507-8043",
+        "authenticated-orcid": false,
+        "given": "Yulong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.jeconom.2026.106235",
+    "registered_year": [
+      [
+        2026,
+        5
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Econometrics"
+    ],
+    "registered_volume": "255",
+    "registered_issue": null,
+    "registered_pages": "106235",
+    "registered_type": "journal-article",
+    "response_sha256": "1f773db5a52bcd2273b2bb4a28c50000163f186dd9ec1bbe7c26b8dcdf563522"
+  },
+  {
+    "id": "S17",
+    "request_url": "https://api.crossref.org/works/10.1002/jae.3049",
+    "requested_doi": "10.1002/jae.3049",
+    "checked_at_utc": "2026-11-01T15:38:19.159198+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Constructing density forecasts from quantile regressions: Multimodality in macrofinancial dynamics",
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0532-4568",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Mitchell",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Federal Reserve Bank of Cleveland  Cleveland Ohio USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2587-8779",
+        "authenticated-orcid": false,
+        "given": "Aubrey",
+        "family": "Poon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Kent  Canterbury UK"
+          },
+          {
+            "name": "Örebro University  Örebro Sweden"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dan",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash University  Clayton Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1002/jae.3049",
+    "registered_year": [
+      [
+        2024,
+        4,
+        18
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Applied Econometrics"
+    ],
+    "registered_volume": "39",
+    "registered_issue": "5",
+    "registered_pages": "790-812",
+    "registered_type": "journal-article",
+    "response_sha256": "715ae9948deec645ce1f81b74d6198ef3bc609bdec8ac1fdf1086e5224d11de7"
+  },
+  {
+    "id": "S18",
+    "request_url": "https://api.crossref.org/works/10.1016/j.jfs.2014.02.006",
+    "requested_doi": "10.1016/j.jfs.2014.02.006",
+    "checked_at_utc": "2026-11-01T15:38:19.200861+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S19",
+    "request_url": "https://api.crossref.org/works/10.1016/j.jfs.2024.101259",
+    "requested_doi": "10.1016/j.jfs.2024.101259",
+    "checked_at_utc": "2026-11-01T15:38:19.248981+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "International financial stress spillovers during times of unconventional monetary policy interventions",
+    "registered_authors": [
+      {
+        "given": "George N.",
+        "family": "Apostolakis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nikolaos",
+        "family": "Giannellis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.jfs.2024.101259",
+    "registered_year": [
+      [
+        2024,
+        6
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Financial Stability"
+    ],
+    "registered_volume": "72",
+    "registered_issue": null,
+    "registered_pages": "101259",
+    "registered_type": "journal-article",
+    "response_sha256": "2281676525a9da4c1ba049f4cc982d89cf28c2b88700dffc7cb4d24790c53182"
+  },
+  {
+    "id": "S20",
+    "request_url": "https://api.crossref.org/works/10.2307/1913643",
+    "requested_doi": "10.2307/1913643",
+    "checked_at_utc": "2026-11-01T15:38:19.252176+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Regression Quantiles",
+    "registered_authors": [
+      {
+        "given": "Roger",
+        "family": "Koenker",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "suffix": "join(' '",
+        "given": "Gilbert",
+        "family": "Bassett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.2307/1913643",
+    "registered_year": [
+      [
+        1978,
+        1
+      ]
+    ],
+    "registered_venue": [
+      "Econometrica"
+    ],
+    "registered_volume": "46",
+    "registered_issue": "1",
+    "registered_pages": "33",
+    "registered_type": "journal-article",
+    "response_sha256": "fcbc1cafca477f80403e9711b18283ab25a264b6776fc212372747f041bb0ef0"
+  },
+  {
+    "id": "S21",
+    "request_url": "https://api.crossref.org/works/10.1198/016214506000001437",
+    "requested_doi": "10.1198/016214506000001437",
+    "checked_at_utc": "2026-11-01T15:38:23.851015+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+    "registered_authors": [
+      {
+        "given": "Tilmann",
+        "family": "Gneiting",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adrian E",
+        "family": "Raftery",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1198/016214506000001437",
+    "registered_year": [
+      [
+        2007,
+        3
+      ]
+    ],
+    "registered_venue": [
+      "Journal of the American Statistical Association"
+    ],
+    "registered_volume": "102",
+    "registered_issue": "477",
+    "registered_pages": "359-378",
+    "registered_type": "journal-article",
+    "response_sha256": "e64f8fdb22ed790cbab0ba60cdc78ab33dce6ee2566304a9cbb360b0f2babd47"
+  },
+  {
+    "id": "S22",
+    "request_url": "https://api.crossref.org/works/10.1198/jbes.2010.08110",
+    "requested_doi": "10.1198/jbes.2010.08110",
+    "checked_at_utc": "2026-11-01T15:38:23.853200+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Comparing Density Forecasts Using Threshold- and Quantile-Weighted Scoring Rules",
+    "registered_authors": [
+      {
+        "given": "Tilmann",
+        "family": "Gneiting",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roopesh",
+        "family": "Ranjan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1198/jbes.2010.08110",
+    "registered_year": [
+      [
+        2011,
+        7
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Business &amp; Economic Statistics"
+    ],
+    "registered_volume": "29",
+    "registered_issue": "3",
+    "registered_pages": "411-422",
+    "registered_type": "journal-article",
+    "response_sha256": "f3ebb62af0851f8c56c42d31341c30cd61e0ac97636439d7707b1eb72e907253"
+  },
+  {
+    "id": "S23",
+    "request_url": "https://api.crossref.org/works/10.2139/ssrn.1611717",
+    "requested_doi": "10.2139/ssrn.1611717",
+    "checked_at_utc": "2026-11-01T15:38:23.860604+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S24",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S25",
+    "request_url": "https://api.crossref.org/works/10.1016/j.econlet.2023.110990",
+    "requested_doi": "10.1016/j.econlet.2023.110990",
+    "checked_at_utc": "2026-11-01T15:38:23.901033+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Revisiting vulnerable growth in the Euro Area: Identifying the role of financial conditions in the distribution",
+    "registered_authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8464-3780",
+        "authenticated-orcid": false,
+        "given": "Tibor",
+        "family": "Szendrei",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9120-6255",
+        "authenticated-orcid": false,
+        "given": "Katalin",
+        "family": "Varga",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.econlet.2023.110990",
+    "registered_year": [
+      [
+        2023,
+        2
+      ]
+    ],
+    "registered_venue": [
+      "Economics Letters"
+    ],
+    "registered_volume": "223",
+    "registered_issue": null,
+    "registered_pages": "110990",
+    "registered_type": "journal-article",
+    "response_sha256": "bf1c85a626e73e53a5273831ec8bd91bff1085bdaa64586ff2b18afcea55e12d"
+  },
+  {
+    "id": "S26",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S27",
+    "request_url": "https://api.crossref.org/works/10.1002/jae.2943",
+    "requested_doi": "10.1002/jae.2943",
+    "checked_at_utc": "2026-11-01T15:38:28.572525+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "On the real‐time predictive content of financial condition indices for growth",
+    "registered_authors": [
+      {
+        "given": "Aaron J.",
+        "family": "Amburgey",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Federal Reserve Bank of St. Louis  P.O. Box 442 St. Louis 63166 Missouri USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael W.",
+        "family": "McCracken",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Federal Reserve Bank of St. Louis  P.O. Box 442 St. Louis 63166 Missouri USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1002/jae.2943",
+    "registered_year": [
+      [
+        2022,
+        12,
+        13
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Applied Econometrics"
+    ],
+    "registered_volume": "38",
+    "registered_issue": "2",
+    "registered_pages": "137-163",
+    "registered_type": "journal-article",
+    "response_sha256": "870a03e0f2225b9387bd87cabac3b6643f72ee3a96f674c6fcb2fa90d42ab8cc"
+  },
+  {
+    "id": "S28",
+    "request_url": "https://api.crossref.org/works/10.1057/s41308-022-00170-y",
+    "requested_doi": "10.1057/s41308-022-00170-y",
+    "checked_at_utc": "2026-11-01T15:38:28.611856+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Measuring Financial Conditions using Equal Weights Combination",
+    "registered_authors": [
+      {
+        "given": "Simone",
+        "family": "Arrigoni",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alina",
+        "family": "Bobasu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fabrizio",
+        "family": "Venditti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1057/s41308-022-00170-y",
+    "registered_year": [
+      [
+        2022,
+        6,
+        9
+      ]
+    ],
+    "registered_venue": [
+      "IMF Economic Review"
+    ],
+    "registered_volume": "70",
+    "registered_issue": "4",
+    "registered_pages": "668-697",
+    "registered_type": "journal-article",
+    "response_sha256": "59dc733261dd8ba3b83f1d14ddfc08bcffd730b20d7705012ad080b5dd92a907"
+  },
+  {
+    "id": "S29",
+    "request_url": "https://api.crossref.org/works/10.1016/j.ijforecast.2021.01.003",
+    "requested_doi": "10.1016/j.ijforecast.2021.01.003",
+    "checked_at_utc": "2026-11-01T15:38:28.616629+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S30",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S31",
+    "request_url": "https://api.crossref.org/works/10.15240/tul/001/2020-4-010",
+    "requested_doi": "10.15240/tul/001/2020-4-010",
+    "checked_at_utc": "2026-11-01T15:38:28.621730+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "S32",
+    "request_url": "https://api.crossref.org/works/10.1016/j.jfs.2022.101004",
+    "requested_doi": "10.1016/j.jfs.2022.101004",
+    "checked_at_utc": "2026-11-01T15:38:33.424924+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Financial stress transmission between the U.S. and the Euro Area",
+    "registered_authors": [
+      {
+        "given": "Buket Kırcı",
+        "family": "Altınkeski",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Emrah Ismail",
+        "family": "Cevik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sel",
+        "family": "Dibooglu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ali M.",
+        "family": "Kutan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1016/j.jfs.2022.101004",
+    "registered_year": [
+      [
+        2022,
+        6
+      ]
+    ],
+    "registered_venue": [
+      "Journal of Financial Stability"
+    ],
+    "registered_volume": "60",
+    "registered_issue": null,
+    "registered_pages": "101004",
+    "registered_type": "journal-article",
+    "response_sha256": "f1219248029a98df9e5d5b0104ff7ce71980e233e93fa21792d7cc72bf1f16a9"
+  },
+  {
+    "id": "S33",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S34",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S35",
+    "request_url": "https://api.crossref.org/works/10.1093/restud/rdaa019",
+    "requested_doi": "10.1093/restud/rdaa019",
+    "checked_at_utc": "2026-11-01T15:38:33.426023+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "U.S. Monetary Policy and the Global Financial Cycle",
+    "registered_authors": [
+      {
+        "given": "Silvia",
+        "family": "Miranda-Agrippino",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Bank of England, CEPR and CfM(LSE)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hélène",
+        "family": "Rey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "London Business School, CEPR and NBER"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1093/restud/rdaa019",
+    "registered_year": [
+      [
+        2020,
+        5,
+        8
+      ]
+    ],
+    "registered_venue": [
+      "The Review of Economic Studies"
+    ],
+    "registered_volume": "87",
+    "registered_issue": "6",
+    "registered_pages": "2754-2776",
+    "registered_type": "journal-article",
+    "response_sha256": "7ecb0ac8ef2022f6bf30c6c6679f6f46200fc29d644fc312b2d2cea8c28a27be"
+  },
+  {
+    "id": "S36",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S37",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S38",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S39",
+    "request_url": "https://api.crossref.org/works/10.1111/j.1468-0262.2006.00718.x",
+    "requested_doi": "10.1111/j.1468-0262.2006.00718.x",
+    "checked_at_utc": "2026-11-01T15:38:33.477154+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Tests of Conditional Predictive Ability",
+    "registered_authors": [
+      {
+        "given": "Raffaella",
+        "family": "Giacomini",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Halbert",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.1111/j.1468-0262.2006.00718.x",
+    "registered_year": [
+      [
+        2006,
+        11
+      ]
+    ],
+    "registered_venue": [
+      "Econometrica"
+    ],
+    "registered_volume": "74",
+    "registered_issue": "6",
+    "registered_pages": "1545-1578",
+    "registered_type": "journal-article",
+    "response_sha256": "12d72f2643197b89e7db67c2dbce45fbd1f325323d3c4a2b4e0b44063fb5fb6b"
+  },
+  {
+    "id": "S40",
+    "request_url": "https://api.crossref.org/works/10.5089/9781455253326.001",
+    "requested_doi": "10.5089/9781455253326.001",
+    "checked_at_utc": "2026-11-01T15:38:33.484711+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Financial Conditions Indexes for the United States and Euro Area",
+    "registered_authors": [
+      {
+        "given": "Troy",
+        "family": "Matheson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.5089/9781455253326.001",
+    "registered_year": [
+      [
+        2011,
+        4
+      ]
+    ],
+    "registered_venue": [
+      "IMF Working Papers"
+    ],
+    "registered_volume": "2011",
+    "registered_issue": "093",
+    "registered_pages": "1",
+    "registered_type": "journal-article",
+    "response_sha256": "68608221bb787f7e6b417ac19c9daf42e95f748aaa45903322dbe4bd49062506"
+  },
+  {
+    "id": "S41",
+    "status": "official_page_check_required"
+  },
+  {
+    "id": "S42",
+    "request_url": "https://api.crossref.org/works/10.3386/w16150",
+    "requested_doi": "10.3386/w16150",
+    "checked_at_utc": "2026-11-01T15:38:38.190073+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "Financial Conditions Indexes: A Fresh Look after the Financial Crisis",
+    "registered_authors": [
+      {
+        "given": "Jan",
+        "family": "Hatzius",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Hooper",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frederic",
+        "family": "Mishkin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kermit",
+        "family": "Schoenholtz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark",
+        "family": "Watson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.3386/w16150",
+    "registered_year": [
+      [
+        2010,
+        7
+      ]
+    ],
+    "registered_venue": [],
+    "registered_volume": null,
+    "registered_issue": null,
+    "registered_pages": null,
+    "registered_type": "report",
+    "response_sha256": "56af776acb56d3ab23e66b814b3e5f7915e43d9cc478be62e0a55a3afb20cdbc"
+  },
+  {
+    "id": "S43",
+    "request_url": "https://api.crossref.org/works/10.3386/w6455",
+    "requested_doi": "10.3386/w6455",
+    "checked_at_utc": "2026-11-01T15:38:38.218059+00:00",
+    "http_status": 200,
+    "status": "metadata_match",
+    "title_similarity": 1.0,
+    "registered_title": "The Financial Accelerator in a Quantitative Business Cycle Framework",
+    "registered_authors": [
+      {
+        "given": "Ben",
+        "family": "Bernanke",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark",
+        "family": "Gertler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simon",
+        "family": "Gilchrist",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "registered_doi": "10.3386/w6455",
+    "registered_year": [
+      [
+        1998,
+        3
+      ]
+    ],
+    "registered_venue": [],
+    "registered_volume": null,
+    "registered_issue": null,
+    "registered_pages": null,
+    "registered_type": "report",
+    "response_sha256": "c5148a579f7f05b45cc51f3fd60257037c8e03e288f8dfcc0c8147b32cb9369e"
+  },
+  {
+    "id": "S44",
+    "request_url": "https://api.crossref.org/works/10.2866/8467971",
+    "requested_doi": "10.2866/8467971",
+    "checked_at_utc": "2026-11-01T15:38:38.224253+00:00",
+    "status": "metadata_request_failed",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

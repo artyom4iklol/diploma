@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-11-01",
+  "docx_pages_visually_inspected": 15,
+  "workbook_sheets": [
+    "Модели",
+    "Проверка",
+    "Данные"
+  ],
+  "workbook_cell_error_search_matches": 0,
+  "files": [
+    {
+      "filename": "Literature_review_US_EA.docx",
+      "bytes": 62316,
+      "sha256": "b26b7cb54a627027759d124b4a843a9036dbe3a300ff726e5f7d5631bdb1e60b"
+    },
+    {
+      "filename": "Literature_matrix_US_EA.xlsx",
+      "bytes": 64100,
+      "sha256": "9307c71912ac8a4a3fa87b251527c0913801767f58275e4e0d4093c9c7eb4966"
+    }
+  ],
+  "docx_hyperlinks": 0,
+  "docx_paragraph_borders": 0,
+  "docx_direct_font_colors": [
+    "000000"
+  ]
+}
